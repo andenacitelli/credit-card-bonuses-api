@@ -20,3 +20,5 @@ jobs:
       - run: pnpm i -g serverless
       - run: sls config credentials --provider aws --key ${{ secrets.AWS_ACCESS_KEY_ID }} --secret ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       - run: sls deploy --stage prod
+        env:
+          DATADOG_API_KEY: ${{ secrets.DATADOG_API_KEY }}
