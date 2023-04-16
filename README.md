@@ -12,7 +12,7 @@ The companion site for this is [Offer Optimist](https://offeroptimist.com). It c
 ### Features
 
 - **JSON + CSV Export:** - You can get the data in either format.
-- **OpenAPI Spec:** - To see the exact format for what we'll return, you can view our OpenAPI / Swagger spec at `src/api.yaml`. For a nice UI, I recommend you go to https://editor.swagger.io/, then File > Import URL, then paste in https://github.com/aacitelli/credit-card-bonuses-api/blob/main/src/api.yaml.
+- **OpenAPI Spec:** - To see the exact format for what we'll return, you can view our OpenAPI / Swagger spec at `src/api.yaml`. For a nice UI, I recommend you go to https://editor.swagger.io/, then File > Import URL, then paste in https://raw.githubusercontent.com/aacitelli/credit-card-bonuses-api/main/src/api.yaml.
 
 ### Support
 
