@@ -1,0 +1,42 @@
+service: typescript-serverless-monorepo
+
+useDotenv: true
+
+custom:
+  stage: ${opt:stage, 'offline'}
+  region: ${opt:region, 'us-east-1'}
+  serverless-offline:
+    httpPort: 4000
+    noPrependStageInUrl: true
+    reloadHandler: true
+  datadog:
+    site: datadoghq.com
+    apiKey: ${env:DATADOG_API_KEY}
+    env: ${self:custom.stage}
+
+provider:
+  name: aws
+  stage: ${self:custom.stage}
+  region: ${self:custom.region}
+  runtime: nodejs18.x
+  memorySize: 128
+  timeout: 5
+  logRetentionInDays: 30
+  logs:
+    httpApi: true
+  httpApi:
+    metrics: true
+    cors: true
+
+functions:
+  app:
+    handler: src/handler.handler
+    events:
+      - httpApi:
+          path: "/{proxy+}"
+          method: "*"
+
+plugins:
+  - serverless-plugin-datadog
+  - serverless-esbuild
+  - serverless-offline
