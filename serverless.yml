@@ -1,4 +1,4 @@
-service: typescript-serverless-monorepo
+service: credit-card-bonuses-api
 
 useDotenv: true
 

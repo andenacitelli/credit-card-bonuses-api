@@ -4,7 +4,7 @@ info:
   title: Credit Card Bonuses
   description: Publicly available API for Credit Card Bonus information.
 servers:
-  - url: https://00tj54p4lb.execute-api.us-east-1.amazonaws.com/
+  - url: https://jo0g96wiy5.execute-api.us-east-1.amazonaws.com/
 paths:
   /json:
     get:

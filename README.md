@@ -4,8 +4,8 @@
 
 We allow data exporting in several formats. Simply visit the following pages in your browser and download the resulting page.
 
-- **JSON** - `https://00tj54p4lb.execute-api.us-east-1.amazonaws.com/json`
-- **CSV** - `https://00tj54p4lb.execute-api.us-east-1.amazonaws.com/csv`
+- **JSON** - `https://jo0g96wiy5.execute-api.us-east-1.amazonaws.com/json`
+- **CSV** - `https://jo0g96wiy5.execute-api.us-east-1.amazonaws.com/csv`
 
 The companion site for this is [Offer Optimist](https://offeroptimist.com). It comes with tons of filters, valuation settings, and much more, and is a great first approach to comparing all the different cards out there. Give it a try!
 
