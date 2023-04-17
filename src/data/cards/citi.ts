@@ -77,24 +77,24 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     currency: schemas.CurrenciesEnum.enum.AMERICAN,
     isBusiness: false,
     annualFee: 99,
-    isAnnualFeeWaived: false,
+    isAnnualFeeWaived: true,
     universalCashbackPercent: 1,
     url: "https://creditcards.aa.com/citi-platinum-card-american-airlines-wand/?utm_medium=referral&utm_source=aa&utm_campaign=ccpage",
     imageUrl: "/images/citi/aadvantage-platinum-select.webp",
     credits: [],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
-        spend: 2500,
+        amount: [{ amount: 75_000 }],
+        spend: 3500,
         days: 90,
         credits: [],
-        url: "https://creditcards.aa.com/citi-platinum-card-american-airlines-wand/?utm_medium=referral&utm_source=aa&utm_campaign=ccpage",
+        url: "https://www.citi.com/credit-cards/citi-aadvantage-platinum-elite-credit-card",
       },
     ],
     historicalOffers: [
       {
         amount: [{ amount: 75_000 }],
-        spend: 2500,
+        spend: 3500,
         days: 90,
         credits: [],
       },
@@ -221,7 +221,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 75_000 }],
         spend: 4000,
         days: 90,
         credits: [],
@@ -252,7 +252,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 20_000 }],
+        amount: [{ amount: 25_000 }],
         spend: 1500,
         days: 90,
         credits: [],

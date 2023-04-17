@@ -13,6 +13,13 @@ module.exports = defineConfig({
   },
   plugins: ["@typescript-eslint", "unused-imports", "simple-import-sort"],
   rules: {
+    'prettier/prettier': [
+      'error',
+      {
+        'endOfLine': 'auto',
+      }
+    ],
+
     // simple-import-sort
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",

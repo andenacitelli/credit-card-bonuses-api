@@ -506,6 +506,15 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         credits: [],
         url: "https://cards.barclaycardus.com/banking/cards/wyndham-rewards-earner-card/",
       },
+      {
+        amount: [{ amount: 45_000 }],
+        spend: 1000,
+        days: 90,
+        credits: [],
+        details:
+          "Requires using a referral link. See comments on linked page for links.",
+        url: "https://www.doctorofcredit.com/share-your-barclays-wyndham-referral-links/",
+      },
     ],
     historicalOffers: [
       {

@@ -574,25 +574,18 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 100_000 }],
-        spend: 3000,
-        days: 90,
-        credits: [],
-        url: "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless",
-      },
-      {
-        amount: [{ amount: 75_000 }],
+        amount: [{ amount: 0 }],
         spend: 3000,
         days: 90,
         credits: [
           {
-            description: "Marriott eGift Card",
-            value: 300,
+            description: "5x Free Night Credits",
+            value: 250_000,
             weight: 0.8,
-            currency: schemas.CurrenciesEnum.enum.USD,
+            currency: schemas.CurrenciesEnum.enum.MARRIOTT,
           },
         ],
-        url: "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless",
+        url: "https://creditcards.chase.com/a1/marriottboundless/5FNRTO/FAIC",
       },
     ],
     historicalOffers: [
