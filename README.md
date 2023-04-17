@@ -16,7 +16,7 @@ The companion site for this is [Offer Optimist](https://offeroptimist.com). It c
 
 ### Support
 
-I pay for the server time and development cost for this entirely out of my own pocket. If you'd like to support me, you can support me with the "Sponsor" options on the right ([direct link here](https://github.com/sponsors/aacitelli)) or by using one of the referral links on [Offer Optimist](https://offeroptimist.com), which I get a kickback for. Thank you for your support!
+I pay for the server time and development cost for this entirely out of my own pocket. If you'd like to support me, you can support me with the "Sponsor" options on the right or by using one of the referral links on [Offer Optimist](https://offeroptimist.com), which I get a kickback for. Thank you for your support!
 
 ### Contributing
 
