@@ -22,10 +22,7 @@ provider:
   memorySize: 128
   timeout: 5
   logRetentionInDays: 30
-  logs:
-    httpApi: true
   httpApi:
-    metrics: true
     cors: true
 
 functions:
