@@ -18,22 +18,21 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [
-          { amount: 50_000 },
-          { amount: 100, currency: schemas.CurrenciesEnum.enum.USD },
+          { amount: 70_000 },
+          { amount: 100, currency: "USD" },
         ],
         spend: 2000,
         days: 90,
         credits: [],
-        url: "https://www.doctorofcredit.com/bank-of-america-air-france-klm-flyingblue-credit-card-70000-miles-signup-bonus-100-100-xp-bonus/",
-        details:
-          "70k offer recently expired. $100 extra still possible via dummy booking.",
+        url: "https://wwws.airfrance.us/information/flyingblue/carte-bancaire-partenaire",
+        details: "Extra $100 is possible via dummy booking."
       },
     ],
     historicalOffers: [
       {
         amount: [
           { amount: 70_000 },
-          { amount: 100, currency: schemas.CurrenciesEnum.enum.USD },
+          { amount: 100, currency: "USD" },
         ],
         spend: 2000,
         days: 90,
