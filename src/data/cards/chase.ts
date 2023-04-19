@@ -80,8 +80,15 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 60_000 }],
-        spend: 3000,
+        spend: 4000,
         days: 90,
+        credits: [],
+        url: "https://creditcards.chase.com/travel-credit-cards/aircanada/aeroplan",
+      },
+      {
+        amount: [{ amount: 100_000 }],
+        spend: 24000,
+        days: 365,
         credits: [],
         url: "https://creditcards.chase.com/travel-credit-cards/aircanada/aeroplan",
       },
