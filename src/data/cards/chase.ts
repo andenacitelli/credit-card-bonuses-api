@@ -1,5 +1,7 @@
 import { z } from "zod";
 
+import { REFERRALS } from "@/data/referral-links";
+
 import { schemas } from "../../generated/api.client";
 import { WEIGHTS } from "../weights";
 
@@ -214,7 +216,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://creditcards.chase.com/cash-back-credit-cards/freedom/flex",
-        referralUrl: "https://www.referyourchasecard.com/18o/PLFYX8N1EO",
+        referralUrl: REFERRALS.CHASE.FREEDOM,
       },
     ],
     historicalOffers: [
@@ -246,7 +248,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited",
-        referralUrl: "https://www.referyourchasecard.com/18o/PLFYX8N1EO",
+        referralUrl: REFERRALS.CHASE.FREEDOM,
       },
     ],
     historicalOffers: [
@@ -407,7 +409,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://creditcards.chase.com/business-credit-cards/ink/cash",
-        referralUrl: "https://www.referyourchasecard.com/21n/LY73EA2LU9",
+        referralUrl: REFERRALS.CHASE.INKS,
       },
     ],
     historicalOffers: [
@@ -439,7 +441,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://creditcards.chase.com/business-credit-cards/ink/business-preferred",
-        referralUrl: "https://www.referyourchasecard.com/21m/C0X5EW4HM3",
+        referralUrl: REFERRALS.CHASE.INKS,
       },
     ],
     historicalOffers: [
@@ -477,7 +479,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://creditcards.chase.com/business-credit-cards/ink/cash",
-        referralUrl: "https://www.referyourchasecard.com/21n/LY73EA2LU9",
+        referralUrl: REFERRALS.CHASE.INKS,
       },
     ],
     historicalOffers: [
@@ -510,7 +512,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://creditcards.chase.com/business-credit-cards/ink/premier?CELL=6G3K",
-        referralUrl: "https://www.referyourchasecard.com/21m/C0X5EW4HM3",
+        referralUrl: REFERRALS.CHASE.INKS,
       },
     ],
     historicalOffers: [
@@ -640,12 +642,12 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         details: "Only available in-branch.",
       },
       {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 80_000 }],
         spend: 4000,
         days: 90,
         credits: [],
-        url: "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
-        referralUrl: "https://www.referyourchasecard.com/6f/D7Q59JP10O",
+        referralUrl: REFERRALS.CHASE.SAPPHIRE.PREFERRED,
+        details: "Requires using a referral link.",
       },
     ],
     historicalOffers: [

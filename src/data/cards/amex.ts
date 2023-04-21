@@ -1,12 +1,9 @@
 import { z } from "zod";
 
+import { REFERRALS } from "@/data/referral-links";
+
 import { schemas } from "../../generated/api.client";
 import { WEIGHTS } from "../weights";
-
-const DELTA_REFERRAL_LINK_PERSONAL =
-  "https://www.americanexpress.com/en-us/credit-cards/referral/prospect/cards/personal/ANDENaIh7t?CORID=A~N~D~E~N~a~I~h~7~t-1680226027116-1865276717&GENCODE=349993098984451&XLINK=MYCP&extlink=US-MGM-SPA_WEB_MYCA-copypaste-141-201329-K52U%3A9997";
-const DELTA_REFERRAL_LINK_BUSINESS =
-  "https://www.americanexpress.com/en-us/credit-cards/referral/prospect/cards/business/ANDENaIh7t?CORID=A~N~D~E~N~a~I~h~7~t-1680226027116-1865276717&GENCODE=349993098984451&XLINK=MYCP&extlink=US-MGM-SPA_WEB_MYCA-copypaste-141-201329-K52U%3A9997";
 
 export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
@@ -292,8 +289,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 3000,
         days: 90,
         credits: [],
-        referralUrl:
-          "https://americanexpress.com/en-us/referral/ANDENaF3wK?XLINK=MYCP",
+        referralUrl: REFERRALS.AMERICAN_EXPRESS.BUSINESS_GREEN,
         url: "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-green-card-amex/",
       },
     ],
@@ -427,7 +423,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-blue-american-express-card/",
-        referralUrl: DELTA_REFERRAL_LINK_PERSONAL,
       },
     ],
     historicalOffers: [
@@ -471,7 +466,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards",
-        referralUrl: DELTA_REFERRAL_LINK_PERSONAL,
       },
       {
         amount: [{ amount: 50_000 }],
@@ -516,7 +510,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards",
-        referralUrl: DELTA_REFERRAL_LINK_BUSINESS,
       },
     ],
     historicalOffers: [
@@ -559,7 +552,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 3000,
         days: 90,
         credits: [],
-        url: "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards",
       },
     ],
     historicalOffers: [
@@ -618,7 +610,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards",
-        referralUrl: DELTA_REFERRAL_LINK_PERSONAL,
+        referralUrl: REFERRALS.AMERICAN_EXPRESS.DELTA_BUSINESS_PLATINUM,
       },
     ],
     historicalOffers: [
@@ -686,7 +678,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards",
-        referralUrl: DELTA_REFERRAL_LINK_BUSINESS,
       },
     ],
     historicalOffers: [
