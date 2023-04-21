@@ -560,8 +560,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards",
-        referralUrl: DELTA_REFERRAL_LINK_PERSONAL,
-        expiration: "2023-03-29",
       },
     ],
     historicalOffers: [

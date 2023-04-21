@@ -87,7 +87,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
       },
       {
         amount: [{ amount: 100_000 }],
-        spend: 24000,
+        spend: 24_000,
         days: 365,
         credits: [],
         url: "https://creditcards.chase.com/travel-credit-cards/aircanada/aeroplan",
@@ -304,18 +304,11 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 175_000 }],
+        amount: [{ amount: 140_000 }],
         spend: 3000,
         days: 90,
-        credits: [
-          {
-            value: 400,
-            description: "Free night credit worth up to 40k points.",
-            weight: 0.8,
-          },
-        ],
+        credits: [],
         url: "https://www.ihg.com/onerewards/content/us/en/creditcard",
-        expiration: "2023-04-05",
       },
     ],
     historicalOffers: [
@@ -379,11 +372,11 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 120_000 }],
+        amount: [{ amount: 80_000 }],
         spend: 2000,
         days: 90,
         credits: [],
-        url: "https://creditcards.chase.com/a1/ihg/trav120k2kfoccyberaep",
+        url: "https://www.ihg.com/onerewards/content/us/en/creditcard",
       },
     ],
     historicalOffers: [

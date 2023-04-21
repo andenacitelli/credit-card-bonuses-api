@@ -77,11 +77,11 @@ export const FNBO_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 40_000 }],
         spend: 1000,
         days: 90,
         credits: [],
-        url: "https://www.card.fnbo.com/landing/bestwestern/bestwesternlto",
+        url: "https://www.card.fnbo.com/landing/bestwestern/multiple",
         expiration: "2023-01-03",
       },
     ],
@@ -108,7 +108,7 @@ export const FNBO_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 100_000 }],
+        amount: [{ amount: 80_000 }],
         spend: 3000,
         days: 90,
         credits: [],
