@@ -103,6 +103,12 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         expiration: "2022-05-01",
       },
+      {
+        amount: [{ amount: 100_000 }],
+        spend: 24_000,
+        days: 365,
+        credits: [],
+      },
     ],
   },
   {

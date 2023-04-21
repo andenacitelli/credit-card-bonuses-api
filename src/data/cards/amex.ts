@@ -973,17 +973,10 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 165_000 }],
-        spend: 5000,
+        amount: [{ amount: 130_000 }],
+        spend: 3000,
         days: 90,
-        credits: [
-          {
-            value: 130,
-            description: "Hilton Credit",
-            weight: 1,
-          },
-        ],
-        expiration: "2023-04-05",
+        credits: [],
         url: "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/hilton-honors/",
       },
     ],
