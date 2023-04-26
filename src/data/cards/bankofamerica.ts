@@ -46,7 +46,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     network: schemas.NetworksEnum.enum.VISA,
     currency: schemas.CurrenciesEnum.enum.ALASKA,
     isBusiness: false,
-    annualFee: 75,
+    annualFee: 95,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
     url: "https://www.alaskaair.com/content/credit-card/visa-signature",
@@ -60,18 +60,8 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [
-          { amount: 70_000 },
-          { amount: 100, currency: schemas.CurrenciesEnum.enum.USD },
-        ],
-        spend: 2000,
-        days: 90,
-        credits: [],
-        url: "https://secure.bankofamerica.com/apply-now-services/credit-cards/initialize-card?requesttype=ICAO&campaignid=4062870",
-      },
-      {
         amount: [{ amount: 72_000 }],
-        spend: 2000,
+        spend: 3000,
         days: 90,
         credits: [],
         url: "http://alaska72k.com/",
