@@ -88,7 +88,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 3500,
         days: 90,
         credits: [],
-        url: "https://www.citi.com/credit-cards/citi-aadvantage-platinum-elite-credit-card",
+        url: "https://creditcards.aa.com/",
       },
     ],
     historicalOffers: [
