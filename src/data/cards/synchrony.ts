@@ -12,7 +12,7 @@ export const SYNCHRONY_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://www.cathaypacific.com/cx/en_US/offers/collection/Cathay-Pacific-Visa-Card.html",
+    url: "https://pay.cathaypacific.com/en_US/offers/uscreditcard.html",
     imageUrl: "/images/synchrony/cathay-pacific.jpg",
     credits: [],
     offers: [
@@ -21,8 +21,8 @@ export const SYNCHRONY_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 3000,
         days: 90,
         credits: [],
-        url: "https://www.cathaypacific.com/cx/en_US/offers/collection/Cathay-Pacific-Visa-Card.html",
-        expiration: "2023-04-30",
+        url: "https://pay.cathaypacific.com/en_US/offers/uscreditcard.html",
+        expiration: "2023-05-31",
       },
     ],
     historicalOffers: [

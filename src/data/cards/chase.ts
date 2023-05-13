@@ -650,8 +650,8 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 4000,
         days: 90,
         credits: [],
+        url: "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
         referralUrl: REFERRALS.CHASE.SAPPHIRE.PREFERRED,
-        details: "Requires using a referral link.",
       },
     ],
     historicalOffers: [
