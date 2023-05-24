@@ -836,34 +836,33 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 45_000 }],
-        spend: 2000,
-        days: 180,
-        credits: [],
-        url: "https://www.uscreditcardguide.com/amex-green-card/",
-      },
-      {
-        credits: [],
-        amount: [{ amount: 40_000 }],
-        spend: 2000,
-        days: 180,
-      },
-    ],
-    historicalOffers: [
-      {
-        amount: [
-          { amount: 45_000 },
-          { amount: 150, currency: schemas.CurrenciesEnum.enum.USD },
-        ],
+        amount: [{ amount: 60_000 }],
         spend: 2000,
         days: 180,
         credits: [
           {
-            value: 150,
-            description: "20% Dining up to $150",
-            weight: 0.8,
+            description: "Statement Credit (Travel)",
+            value: 200,
+            weight: 0.6,
+            currency: schemas.CurrenciesEnum.enum.USD,
           },
         ],
+      },
+    ],
+    historicalOffers: [
+      {
+        amount: [{ amount: 60_000 }],
+        spend: 2000,
+        days: 180,
+        credits: [
+          {
+            description: "Statement Credit (Travel)",
+            value: 200,
+            weight: 0.6,
+            currency: schemas.CurrenciesEnum.enum.USD,
+          },
+        ],
+        url: "https://www.americanexpress.com/us/credit-cards/card/green/",
       },
     ],
   },

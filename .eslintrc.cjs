@@ -3,8 +3,6 @@ module.exports = defineConfig({
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended",
-    "plugin:unicorn/recommended",
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
@@ -13,12 +11,6 @@ module.exports = defineConfig({
   },
   plugins: ["@typescript-eslint", "unused-imports", "simple-import-sort"],
   rules: {
-    'prettier/prettier': [
-      'error',
-      {
-        'endOfLine': 'auto',
-      }
-    ],
 
     // simple-import-sort
     "simple-import-sort/imports": "error",

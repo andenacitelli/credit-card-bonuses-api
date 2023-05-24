@@ -770,11 +770,13 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 3000,
         days: 90,
         credits: [],
+        details: "Also comes with a 30% discount code.",
         url: "https://creditcards.chase.com/travel-credit-cards/southwest/plus",
+        expiration: "2023-26-23",
       },
       {
         amount: [{ amount: 30_000 }],
@@ -821,11 +823,13 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
-        spend: 1000,
+        amount: [{ amount: 60_000 }],
+        spend: 3000,
         days: 90,
         credits: [],
-        url: "https://creditcards.chase.com/travel-credit-cards/southwest/premier",
+        details: "Also comes with a 30% discount code.",
+        url: "https://creditcards.chase.com/travel-credit-cards/southwest/plus",
+        expiration: "2023-26-23",
       },
       {
         amount: [{ amount: 30_000 }],
@@ -922,11 +926,13 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
-        spend: 1000,
+        amount: [{ amount: 60_000 }],
+        spend: 3000,
         days: 90,
         credits: [],
-        url: "https://creditcards.chase.com/a1/southwest/NAEP50KPriority1222",
+        details: "Also comes with a 30% discount code.",
+        url: "https://creditcards.chase.com/travel-credit-cards/southwest/plus",
+        expiration: "2023-26-23",
       },
       {
         amount: [{ amount: 30_000 }],
