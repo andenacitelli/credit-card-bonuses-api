@@ -1038,6 +1038,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://creditcards.chase.com/travel-credit-cards/united/club-infinite",
+        referralUrl: REFERRALS.CHASE.UNITED,
       },
     ],
     historicalOffers: [
@@ -1130,6 +1131,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
+        referralUrl: REFERRALS.CHASE.UNITED,
       },
     ],
     historicalOffers: [
@@ -1166,6 +1168,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://creditcards.chase.com/travel-credit-cards/united/united-gateway",
+        referralUrl: REFERRALS.CHASE.UNITED,
       },
     ],
     historicalOffers: [
@@ -1202,6 +1205,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+        referralUrl: REFERRALS.CHASE.UNITED,
       },
     ],
     historicalOffers: [

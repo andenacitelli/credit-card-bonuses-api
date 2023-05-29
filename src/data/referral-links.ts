@@ -14,6 +14,7 @@ export const REFERRALS = {
       "https://www.referyourchasecard.com/21m/2K0IOUXKPS",
     ]),
     FREEDOM: getRandom(["https://www.referyourchasecard.com/6m/0XTOK0PQGK"]),
+    UNITED: getRandom(["https://www.referyourchasecard.com/215m/X3RYGIWRKL"]),
   },
   AMERICAN_EXPRESS: {
     GOLD: "https://americanexpress.com/en-us/referral/ANDENav6ex?XLINK=MYCP",
