@@ -81,18 +81,10 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
-        spend: 4000,
+        amount: [{ amount: 50_000 }],
+        spend: 3000,
         days: 90,
         credits: [],
-        url: "https://creditcards.chase.com/travel-credit-cards/aircanada/aeroplan",
-      },
-      {
-        amount: [{ amount: 100_000 }],
-        spend: 24_000,
-        days: 365,
-        credits: [],
-        url: "https://creditcards.chase.com/travel-credit-cards/aircanada/aeroplan",
       },
     ],
     historicalOffers: [
@@ -585,13 +577,13 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [
           {
-            description: "5x Free Night Credits",
-            value: 250_000,
+            description: "3x Free Night Credits",
+            value: 150_000,
             weight: 0.8,
             currency: schemas.CurrenciesEnum.enum.MARRIOTT,
           },
         ],
-        url: "https://creditcards.chase.com/a1/marriottboundless/5FNRTO/FAIC",
+        details: "3x FNC up to 50k per",
       },
     ],
     historicalOffers: [

@@ -1254,7 +1254,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 100_000 }],
+        amount: [{ amount: 80_000 }],
         spend: 6000,
         days: 180,
         credits: [],

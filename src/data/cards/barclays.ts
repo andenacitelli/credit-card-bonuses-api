@@ -10,20 +10,19 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     currency: schemas.CurrenciesEnum.enum.AMERICAN,
     isBusiness: false,
     annualFee: 99,
-    isAnnualFeeWaived: true,
+    isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
     url: "https://cards.barclaycardus.com/banking/cards/aadvantage-aviator-red-world-elite-mastercard/",
     imageUrl: "/images/barclays/aadvantage-aviator-red-world-elite.png",
     credits: [],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 50_000 }],
         spend: 0.01,
         days: 90,
         credits: [],
         url: "https://cards.barclaycardus.com/banking/cards/aadvantage-aviator-red-world-elite-mastercard/",
-        details:
-          "Requires ANY purchase. This offer waives the annual fee as well.",
+        details: "Requires ANY purchase as well as the Annual Fee.",
       },
     ],
     historicalOffers: [
@@ -440,11 +439,10 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 80_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 3000,
         days: 90,
         credits: [],
-        url: "https://cards.barclaycardus.com/banking/cards/lufthansa-miles-more-world-elite-mastercard/",
       },
     ],
     historicalOffers: [

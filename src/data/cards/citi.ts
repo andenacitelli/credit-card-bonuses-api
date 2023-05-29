@@ -84,8 +84,8 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 75_000 }],
-        spend: 3500,
+        amount: [{ amount: 50_000 }],
+        spend: 2500,
         days: 90,
         credits: [],
         url: "https://creditcards.aa.com/",

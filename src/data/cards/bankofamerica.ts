@@ -17,23 +17,17 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [
-          { amount: 70_000 },
-          { amount: 100, currency: "USD" },
-        ],
+        amount: [{ amount: 70_000 }, { amount: 100, currency: "USD" }],
         spend: 2000,
         days: 90,
         credits: [],
         url: "https://wwws.airfrance.us/information/flyingblue/carte-bancaire-partenaire",
-        details: "Extra $100 is possible via dummy booking."
+        details: "Extra $100 is possible via dummy booking.",
       },
     ],
     historicalOffers: [
       {
-        amount: [
-          { amount: 70_000 },
-          { amount: 100, currency: "USD" },
-        ],
+        amount: [{ amount: 70_000 }, { amount: 100, currency: "USD" }],
         spend: 2000,
         days: 90,
         credits: [],
@@ -76,14 +70,12 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 2000,
         days: 90,
         credits: [],
-        url: "https://secure.bankofamerica.com/apply-now-services/credit-cards/initialize-card?requesttype=ICAO&campaignid=4062870",
       },
       {
         amount: [{ amount: 72_000 }],
         spend: 2000,
         days: 90,
         credits: [],
-        url: "http://alaska72k.com/",
       },
       {
         amount: [{ amount: 80_000 }],
