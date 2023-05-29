@@ -9,6 +9,10 @@ We allow data exporting in several formats. Simply visit the following pages in 
 
 The companion site for this is [Offer Optimist](https://offeroptimist.com). It comes with tons of filters, valuation settings, and much more, and is a great first approach to comparing all the different cards out there. Give it a try!
 
+---
+
+*I work for [Akkio](https://akkio.com), a predictive AI platform geared towards Data Analysts. If you're looking for predictive AI without needing any data science knowledge, check us out!*
+
 ### Features
 
 - **JSON + CSV Export:** - You can get the data in either format.
