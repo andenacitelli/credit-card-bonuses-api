@@ -18,8 +18,8 @@ dependencies:
     specifier: ^3.1.1
     version: 3.1.1(express@4.18.2)
   helmet:
-    specifier: ^6.1.5
-    version: 6.1.5
+    specifier: ^7.0.0
+    version: 7.0.0
   serverless-http:
     specifier: ^3.2.0
     version: 3.2.0
@@ -5717,9 +5717,9 @@ packages:
     dependencies:
       function-bind: 1.1.1
 
-  /helmet@6.1.5:
-    resolution: {integrity: sha512-UgAvdoG0BhF9vcCh/j0bWtElo2ZHHk6OzC98NLCM6zK03DEVSM0vUAtT7iR+oTo2Mi6sGelAH3tL6B/uUWxV4g==}
-    engines: {node: '>=14.0.0'}
+  /helmet@7.0.0:
+    resolution: {integrity: sha512-MsIgYmdBh460ZZ8cJC81q4XJknjG567wzEmv46WOBblDb6TUd3z8/GhgmsM9pn8g2B80tAJ4m5/d3Bi1KrSUBQ==}
+    engines: {node: '>=16.0.0'}
     dev: false
 
   /hexoid@1.0.0:
