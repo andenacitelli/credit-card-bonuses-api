@@ -102,11 +102,10 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 250 }],
+        amount: [{ amount: 200 }],
         spend: 2000,
         days: 180,
         credits: [],
-        url: "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/",
         details: "Requires incognito or a VPN.",
       },
       {
@@ -120,7 +119,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
             weight: 0.8,
           },
         ],
-        url: "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/",
       },
       {
         amount: [{ amount: 200 }],
@@ -880,11 +878,17 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 80_000 }],
+        amount: [{ amount: 70_000 }],
         spend: 1000,
         days: 90,
-        credits: [],
-        url: "https://www.hilton.com/en/hilton-honors/credit-cards/",
+        credits: [
+          {
+            value: 500,
+            weight: 0.7,
+            description: "Free Night Credit",
+          },
+        ],
+        details: "Includes 1x FNC.",
       },
     ],
     historicalOffers: [
@@ -899,7 +903,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 2000,
         days: 180,
         credits: [],
-        url: "https://www.hilton.com/en/hilton-honors/credit-cards/",
       },
       {
         amount: [{ amount: 100_000 }],
@@ -924,7 +927,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 450,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/",
+    url: "https://www.hilton.com/en/hilton-honors/credit-cards/",
     imageUrl: "/images/amex/hilton-honors-aspire.png",
     credits: [
       {
@@ -939,7 +942,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 4000,
         days: 90,
         credits: [],
-        url: "https://www.hilton.com/en/hilton-honors/credit-cards/",
       },
     ],
     historicalOffers: [
@@ -975,9 +977,14 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         amount: [{ amount: 150_000 }],
         spend: 4000,
         days: 90,
-        credits: [],
-        details: "Also comes with a free night credit.",
-        url: "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/hilton-honors/",
+        credits: [
+          {
+            value: 500,
+            weight: 0.7,
+            description: "Free Night Credit",
+          },
+        ],
+        details: "Includes 1x FNC.",
       },
     ],
     historicalOffers: [
@@ -1032,7 +1039,14 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         amount: [{ amount: 130_000 }],
         spend: 2000,
         days: 90,
-        credits: [],
+        credits: [
+          {
+            value: 500,
+            weight: 0.7,
+            description: "Free Night Credit",
+          },
+        ],
+        details: "Includes 1x FNC.",
         url: "https://www.hilton.com/en/hilton-honors/credit-cards/",
       },
     ],
@@ -1347,11 +1361,10 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 125_000 }],
+        amount: [{ amount: 85_000 }],
         spend: 4000,
         days: 90,
         credits: [],
-        url: "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-bevy/",
       },
     ],
     historicalOffers: [

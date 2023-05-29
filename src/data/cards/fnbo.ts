@@ -103,7 +103,7 @@ export const FNBO_CARDS: z.input<typeof schemas.CreditCard>[] = [
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
     url: "https://www.card.fnbo.com/landing/bestwestern/bestwesternlto",
-    imageUrl: "/images/fnbo/best-western-rewards-_common.jpg",
+    imageUrl: "/images/fnbo/best-western-rewards-premium.jpg",
     credits: [],
     offers: [
       {

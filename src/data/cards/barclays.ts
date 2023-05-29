@@ -90,11 +90,10 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 100 }],
-        spend: 500,
+        amount: [{ amount: 200 }],
+        spend: 1000,
         days: 90,
         credits: [],
-        url: "https://cards.barclaycardus.com/banking/cards/aarp-essential-rewards-mastercard/",
       },
     ],
     historicalOffers: [
@@ -120,11 +119,10 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 100 }],
-        spend: 500,
+        amount: [{ amount: 200 }],
+        spend: 1000,
         days: 90,
         credits: [],
-        url: "https://cards.barclaycardus.com/banking/cards/aarp-travel-rewards-mastercard/",
       },
     ],
     historicalOffers: [
@@ -181,12 +179,11 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 25_000 }],
+        amount: [{ amount: 20_000 }],
         spend: 500,
         days: 90,
         credits: [],
         details: "Requires ANY purchase.",
-        url: "https://cards.barclaycardus.com/banking/cards/carnival-world-mastercard/",
       },
     ],
     historicalOffers: [
@@ -216,11 +213,11 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
     url: "https://cards.barclaycardus.com/banking/cards/emirates-skywards-premium-world-elite-mastercard/",
-    imageUrl: "/images/barclays/emirates-skywards-_common-world-elite.png",
+    imageUrl: "/images/barclays/emirates-skywards-premium-world-elite.png",
     credits: [],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 50_000 }],
         spend: 3000,
         days: 90,
         credits: [],
@@ -250,11 +247,10 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 30_000 }],
         spend: 3000,
         days: 90,
         credits: [],
-        url: "https://cards.barclaycardus.com/banking/cards/emirates-skywards-rewards-world-elite-mastercard/",
       },
     ],
     historicalOffers: [

@@ -534,11 +534,10 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
-        spend: 2000,
+        amount: [{ amount: 30_000 }],
+        spend: 1000,
         days: 90,
         credits: [],
-        url: "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold",
       },
     ],
     historicalOffers: [

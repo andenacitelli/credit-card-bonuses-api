@@ -173,7 +173,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
     url: "https://www.bankofamerica.com/credit-cards/products/premium-rewards-credit-card/",
-    imageUrl: "/images/bankofamerica/_common-rewards.png",
+    imageUrl: "/images/bankofamerica/premium-rewards.png",
     credits: [],
     offers: [
       {
@@ -203,7 +203,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
     url: "https://www.bankofamerica.com/credit-cards/products/premium-rewards-elite-credit-card/",
-    imageUrl: "/images/bankofamerica/_common-rewards-elite.png",
+    imageUrl: "/images/bankofamerica/premium-rewards-elite.png",
     credits: [
       {
         value: 300,
