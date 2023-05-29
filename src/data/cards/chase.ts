@@ -1191,11 +1191,17 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
+        amount: [{ amount: 90_000 }],
+        spend: 5000,
+        days: 90,
+        credits: [],
+        url: "https://www.doctorofcredit.com/chase-united-quest-card-90000-miles-signup-bonus-offer/",
+      },
+      {
         amount: [{ amount: 60_000 }],
         spend: 4000,
         days: 90,
         credits: [],
-        url: "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
         referralUrl: REFERRALS.CHASE.UNITED,
       },
     ],
