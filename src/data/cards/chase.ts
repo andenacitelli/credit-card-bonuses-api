@@ -629,15 +629,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 90_000 }],
-        spend: 4000,
-        days: 90,
-        credits: [],
-        url: "https://www.doctorofcredit.com/starts-3-19-chase-sapphire-preferred-90000-in-branch-signup-bonus/",
-        details: "Only available in-branch.",
-      },
-      {
-        amount: [{ amount: 80_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 4000,
         days: 90,
         credits: [],
@@ -1267,16 +1259,11 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 150 }],
+        amount: [{ amount: 200 }],
         spend: 0.01,
         days: 365,
         credits: [],
-      },
-      {
-        amount: [{ amount: 275 }],
-        spend: 2500,
-        days: 90,
-        credits: [],
+        expiration: "2023-07-26"
       },
     ],
     historicalOffers: [

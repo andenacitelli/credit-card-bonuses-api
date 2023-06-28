@@ -54,11 +54,11 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 70_000 }],
         spend: 2000,
         days: 90,
         credits: [],
-        url: "https://cards.barclaycardus.com/banking/cards/aadvantage-aviator-world-elite-business-mastercard/",
+        url: "https://www.doctorofcredit.com/barclays-business-aviator-card-returns-with-70000-miles/",
       },
     ],
     historicalOffers: [
@@ -306,10 +306,11 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
-        spend: 2000,
+        amount: [{ amount: 70_000 }],
+        spend: 0.01,
         days: 90,
         credits: [],
+        details: "Requires ANY purchase.",
         url: "https://cards.barclaycardus.com/banking/cards/hawaiian-airlines-world-elite-mastercard/",
       },
     ],
