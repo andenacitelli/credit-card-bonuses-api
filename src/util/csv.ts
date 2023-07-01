@@ -2,7 +2,7 @@ import { z } from "zod";
 
 import { schemas } from "../generated/api.client";
 
-const csvColumnOrder = [
+export const CSV_COLUMN_ORDER = [
   "name",
   "issuer",
   "network",
@@ -47,14 +47,12 @@ export const cardToCSV = (card: z.input<typeof schemas.CreditCard>) => {
           .map((credit) => "$" + credit.value + " " + credit.description)
           .join("; "),
       };
-      return csvColumnOrder
-        .map((key) => {
-          // @ts-ignore
-          const value = object[key];
-          if (!value) return "";
-          return value.toString().replace(",", "");
-        })
-        .join(",");
+      return CSV_COLUMN_ORDER.map((key) => {
+        // @ts-ignore
+        const value = object[key];
+        if (!value) return "";
+        return value.toString().replace(",", "");
+      }).join(",");
     })
     .join("\n");
 };
