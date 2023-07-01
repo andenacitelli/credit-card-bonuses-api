@@ -467,26 +467,12 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 40_000 }],
+        amount: [{ amount: 65_000 }],
         spend: 2000,
         days: 90,
         credits: [],
         url: "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards",
-      },
-      {
-        amount: [{ amount: 50_000 }],
-        spend: 2000,
-        days: 90,
-        credits: [
-          {
-            value: 400,
-            description: "Statement Credit",
-            weight: 1,
-          },
-        ],
-        details: "Requires dummy booking.",
-        url: "https://www.doctorofcredit.com/american-express-delta-gold-50000-miles-400-statement-credit-2/",
-      },
+      }
     ],
     historicalOffers: [
       {
@@ -511,8 +497,8 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
-        spend: 2000,
+        amount: [{ amount: 70_000 }],
+        spend: 3000,
         days: 90,
         credits: [],
         url: "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards",
@@ -554,8 +540,8 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
-        spend: 3000,
+        amount: [{ amount: 85_000 }],
+        spend: 4000,
         days: 90,
         credits: [],
       },
@@ -611,8 +597,8 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
-        spend: 3000,
+        amount: [{ amount: 90_000 }],
+        spend: 4000,
         days: 90,
         credits: [],
         url: "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards",
@@ -642,8 +628,8 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
-        spend: 5000,
+        amount: [{ amount: 85_000 }],
+        spend: 6000,
         days: 90,
         credits: [],
         url: "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards",
@@ -679,8 +665,8 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 70_000 }],
-        spend: 5000,
+        amount: [{ amount: 100_000 }],
+        spend: 6000,
         days: 90,
         credits: [],
         url: "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards",
