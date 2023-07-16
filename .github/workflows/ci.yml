@@ -8,13 +8,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: pnpm/action-setup@v2
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: pnpm
-      - run: pnpm i
-      - run: pnpm generate
+          cache: npm
+      - run: npm ci
+      - run: npm run generate
 
       # All the actual checks
-      - run: pnpm run ci
+      - run: npm run ci

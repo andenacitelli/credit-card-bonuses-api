@@ -2,12 +2,11 @@
   "name": "@aacitelli/credit-card-bonuses",
   "version": "1.0.0",
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
     "dev": "sls offline start --stage offline",
     "deploy:prod": "sls deploy --stage prod",
     "lint": "tsc --noEmit",
     "test": "jest",
-    "ci": "pnpm lint && pnpm test",
+    "ci": "npm run lint && npm run test",
     "generate": "swagger-cli validate src/api.yaml && mkdirp src/generated &&  openapi-zod-client ./src/api.yaml --output src/generated/api.client.ts --export-schemas",
     "prepare": "husky install",
     "actions": "act --secret-file .env"
@@ -21,7 +20,6 @@
     "serverless-http": "^3.2.0",
     "zod": "^3.21.4"
   },
-  "packageManager": "pnpm@8.6.5",
   "devDependencies": {
     "@apidevtools/swagger-cli": "^4.0.4",
     "@swc/core": "^1.3.67",
