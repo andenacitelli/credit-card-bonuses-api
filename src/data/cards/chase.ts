@@ -433,7 +433,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 100_000 }],
-        spend: 15_000,
+        spend: 8_000,
         days: 90,
         credits: [],
         url: "https://creditcards.chase.com/business-credit-cards/ink/business-preferred",
