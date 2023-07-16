@@ -1205,20 +1205,20 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 125_000 }],
-        spend: 6000,
-        days: 180,
-        credits: [],
-        url: "https://www.americanexpress.com/us/credit-cards/card/platinum/",
-        details: "Requires incognito mode. Can be inconsistent.",
-      },
-      {
         amount: [{ amount: 100_000 }],
         spend: 6000,
         days: 180,
         credits: [],
         url: "https://resy.com/amex-offers?date=2022-11-04&seats=2",
         details: "10x on $25k dining spend not factored in.",
+      },
+      {
+        amount: [{ amount: 100_000 }],
+        spend: 6000,
+        days: 180,
+        credits: [],
+        url: "https://www.americanexpress.com/us/credit-cards/card/platinum/",
+        details: "Requires incognito mode. Can be inconsistent.",
       },
     ],
     historicalOffers: [

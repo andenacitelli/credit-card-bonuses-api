@@ -6,21 +6,21 @@ export const REFERRALS = {
   CHASE: {
     SAPPHIRE: {
       PREFERRED: getRandom([
-        "https://www.referyourchasecard.com/6m/BQQ1IP0GRO",
+        "https://www.referyourchasecard.com/6j/QN3N8HQ4KX",
       ]),
     },
     INKS: getRandom([
       "https://www.referyourchasecard.com/21m/MCRHDUWK7S",
       "https://www.referyourchasecard.com/21m/2K0IOUXKPS",
     ]),
-    FREEDOM: getRandom(["https://www.referyourchasecard.com/6m/0XTOK0PQGK"]),
-    UNITED: getRandom(["https://www.referyourchasecard.com/215m/X3RYGIWRKL"]),
+    FREEDOM: getRandom(["https://www.referyourchasecard.com/18r/BDWS964YDG"]),
+    UNITED: getRandom(["https://www.referyourchasecard.com/215j/6LYQQTKRUJ"]),
   },
   AMERICAN_EXPRESS: {
-    GOLD: "https://americanexpress.com/en-us/referral/ANDENav6ex?XLINK=MYCP",
+    GOLD: "https://americanexpress.com/en-us/referral/ANDENatae0?xl=cp19",
     BUSINESS_GREEN:
-      "https://americanexpress.com/en-us/referral/ANDENawfEX?XLINK=MYCP",
+      "https://americanexpress.com/en-us/referral/ANDENaHXuk?xl=cp19",
     DELTA_BUSINESS_PLATINUM:
-      "https://americanexpress.com/en-us/referral/ANDENaIh7t?XLINK=MYCP",
+      "https://americanexpress.com/en-us/referral/ANDENawaJJ?xl=cp19",
   },
 };
