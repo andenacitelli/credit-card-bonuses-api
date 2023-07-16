@@ -2,6 +2,7 @@
   "name": "@aacitelli/credit-card-bonuses",
   "version": "1.0.0",
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "dev": "sls offline start --stage offline",
     "deploy:prod": "sls deploy --stage prod",
     "lint": "tsc --noEmit",
