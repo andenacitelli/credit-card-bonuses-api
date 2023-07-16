@@ -56,7 +56,7 @@ devDependencies:
     specifier: ^5.60.1
     version: 5.60.1(eslint@8.44.0)(typescript@5.1.6)
   esbuild:
-    specifier: ~0.18.11
+    specifier: ~0.18.0
     version: 0.18.11
   eslint:
     specifier: ^8.44.0
