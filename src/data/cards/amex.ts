@@ -20,6 +20,13 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     imageUrl: "/images/amex/blue-business-cash.webp",
     offers: [
       {
+        amount: [{ amount: 750 }],
+        spend: 15000,
+        days: 365,
+        credits: [],
+        url: "https://www.doctorofcredit.com/ymmv-american-express-blue-business-cash-750-signup-bonus-no-lifetime-language/",
+      },
+      {
         amount: [{ amount: 250 }],
         spend: 5000,
         days: 90,
@@ -70,6 +77,13 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     imageUrl: "/images/amex/blue-business-plus.webp",
     credits: [],
     offers: [
+      {
+        amount: [{ amount: 75_000 }],
+        spend: 15000,
+        days: 365,
+        credits: [],
+        url: "https://www.doctorofcredit.com/ymmv-american-express-blue-business-plus-75000-points-signup-bonus-no-lifetime-language/",
+      },
       {
         amount: [{ amount: 15_000 }],
         spend: 3000,

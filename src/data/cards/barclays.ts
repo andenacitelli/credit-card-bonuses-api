@@ -17,11 +17,11 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 70_000 }],
         spend: 0.01,
         days: 90,
         credits: [],
-        url: "https://cards.barclaycardus.com/banking/cards/aadvantage-aviator-red-world-elite-mastercard/",
+        url: "https://www.doctorofcredit.com/barclays-aviator-red-world-elite-mastercard-70000-miles-no-minimum-spend-required/",
         details: "Requires ANY purchase as well as the Annual Fee.",
       },
     ],
@@ -269,7 +269,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     currency: schemas.CurrenciesEnum.enum.FRONTIER,
     isBusiness: false,
     annualFee: 89,
-    isAnnualFeeWaived: false,
+    isAnnualFeeWaived: true,
     universalCashbackPercent: 1,
     url: "https://cards.barclaycardus.com/banking/cards/frontier-airlines-world-mastercard/",
     imageUrl: "/images/barclays/frontier-airlines-world.png",
@@ -280,7 +280,8 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 1000,
         days: 90,
         credits: [],
-        url: "https://cards.barclaycardus.com/banking/cards/frontier-airlines-world-mastercard/",
+        details: "AF Waived.",
+        url: "https://www.frontiermastercard.com/",
       },
     ],
     historicalOffers: [

@@ -81,11 +81,19 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
-        spend: 3000,
+        amount: [{ amount: 60_000 }],
+        spend: 4000,
         days: 90,
+        url: "https://creditcards.chase.com/a1/Aeroplan/100k20Kaep",
         credits: [],
       },
+      {
+        amount: [{ amount: 100_000 }],
+        spend: 20000,
+        days: 365,
+        url: "https://creditcards.chase.com/a1/Aeroplan/100k20Kaep",
+        credits: [],
+      }
     ],
     historicalOffers: [
       {
@@ -307,8 +315,12 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         amount: [{ amount: 140_000 }],
         spend: 3000,
         days: 90,
-        credits: [],
-        url: "https://www.ihg.com/onerewards/content/us/en/creditcard",
+        credits: [{
+          description: "Statement Credit",
+          value: 100,
+          weight: .8
+        }],
+        url: "https://www.ihg.com/onerewards/content/us/en/creditcard/premier",
       },
     ],
     historicalOffers: [
@@ -436,7 +448,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 8_000,
         days: 90,
         credits: [],
-        url: "https://creditcards.chase.com/business-credit-cards/ink/business-preferred",
+        url: "https://www.doctorofcredit.com/chase-ink-preferred-100000-points-offer-with-lower-8000-spend-requirement/",
         referralUrl: REFERRALS.CHASE.INKS,
       },
     ],
@@ -629,6 +641,13 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
+        amount: [{ amount: 80_000 }],
+        spend: 4000,
+        days: 90,
+        credits: [],
+        url: "https://www.doctorofcredit.com/chase-sapphire-preferred-80000-points-signup-bonus-via-referral-link/",
+      },
+      {
         amount: [{ amount: 60_000 }],
         spend: 4000,
         days: 90,
@@ -753,27 +772,11 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
-        spend: 3000,
+        amount: [{ amount: 50_000 }],
+        spend: 1000,
         days: 90,
         credits: [],
-        details: "Also comes with a 30% discount code.",
-        url: "https://creditcards.chase.com/travel-credit-cards/southwest/plus",
-        expiration: "2023-26-23",
-      },
-      {
-        amount: [{ amount: 30_000 }],
-        spend: 4000,
-        days: 90,
-        credits: [
-          {
-            description: "Companion Pass",
-            value: 500,
-            weight: 1,
-          },
-        ],
-        url: "https://creditcards.chase.com/a1/southwest/NAEP30kCPPlus223?",
-        details: "Comes with companion pass, valued ~$500.",
+        url: "https://creditcards.chase.com/a1/southwest/AEM50kPlus623#",
       },
     ],
     historicalOffers: [
@@ -806,13 +809,11 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
-        spend: 3000,
+        amount: [{ amount: 50_000 }],
+        spend: 1000,
         days: 90,
         credits: [],
-        details: "Also comes with a 30% discount code.",
-        url: "https://creditcards.chase.com/travel-credit-cards/southwest/plus",
-        expiration: "2023-26-23",
+        url: "https://creditcards.chase.com/a1/southwest/AEM50kPremier623#",
       },
       {
         amount: [{ amount: 30_000 }],
@@ -863,21 +864,14 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 3000,
         days: 90,
         credits: [],
-        url: "https://www.uscreditcardguide.com/chase-southwest-premier-business-credit-card/",
+        url: "https://creditcards.chase.com/business-credit-cards/southwest/premier-business",
       },
       {
-        amount: [{ amount: 30_000 }],
-        spend: 4000,
-        days: 90,
-        credits: [
-          {
-            description: "Companion Pass",
-            value: 500,
-            weight: 1,
-          },
-        ],
-        url: "https://creditcards.chase.com/a1/southwest/NAEP30kCPPlus223?",
-        details: "Comes with companion pass, valued ~$500.",
+        amount: [{ amount: 120_000 }],
+        spend: 18000,
+        days: 270,
+        credits: [],
+        url: "https://creditcards.chase.com/business-credit-cards/southwest/premier-business",
       },
     ],
     historicalOffers: [
@@ -886,6 +880,13 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 3000,
         credits: [],
         days: 90,
+      },
+      {
+        amount: [{ amount: 120_000 }],
+        spend: 18000,
+        days: 270,
+        credits: [],
+        url: "https://creditcards.chase.com/business-credit-cards/southwest/premier-business",
       },
     ],
   },
@@ -909,27 +910,11 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
-        spend: 3000,
+        amount: [{ amount: 50_000 }],
+        spend: 1000,
         days: 90,
         credits: [],
-        details: "Also comes with a 30% discount code.",
-        url: "https://creditcards.chase.com/travel-credit-cards/southwest/plus",
-        expiration: "2023-26-23",
-      },
-      {
-        amount: [{ amount: 30_000 }],
-        spend: 4000,
-        days: 90,
-        credits: [
-          {
-            description: "Companion Pass",
-            value: 500,
-            weight: 1,
-          },
-        ],
-        url: "https://creditcards.chase.com/a1/southwest/NAEP30kCPPlus223?",
-        details: "Comes with companion pass, value ~$500.",
+        url: "https://creditcards.chase.com/a1/southwest/AEM50kPriority623#",
       },
     ],
     historicalOffers: [

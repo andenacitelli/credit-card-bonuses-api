@@ -31,7 +31,7 @@
     "@types/supertest": "^2.0.12",
     "@typescript-eslint/eslint-plugin": "^5.60.1",
     "@typescript-eslint/parser": "^5.60.1",
-    "esbuild": "~0.18.11",
+    "esbuild": "~0.17.0",
     "eslint": "^8.44.0",
     "eslint-config-next": "^13.4.7",
     "eslint-config-prettier": "^8.8.0",
