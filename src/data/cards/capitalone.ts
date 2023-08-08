@@ -169,8 +169,8 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 500 }],
-        spend: 5000,
+        amount: [{ amount: 1200 }],
+        spend: 30000,
         days: 90,
         credits: [],
         url: "https://www.capitalone.com/small-business/credit-cards/spark-cash-plus/",
@@ -182,6 +182,13 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 5000,
         credits: [],
         days: 90,
+      },
+      {
+        amount: [{ amount: 1200 }],
+        spend: 30000,
+        days: 90,
+        credits: [],
+        url: "https://www.capitalone.com/small-business/credit-cards/spark-cash-plus/",
       },
     ],
   },

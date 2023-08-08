@@ -338,11 +338,11 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 10_000 }],
+        amount: [{ amount: 15_000 }],
         spend: 1000,
         days: 90,
         credits: [],
-        url: "https://cards.barclaycardus.com/banking/cards/jetblue-card/",
+        url: "https://cards.barclaycardus.com/banking/credit-card/jetblue/mastercard-mastercard-world-elite/inflight/2499efbd-1d41-4290-b8b3-cce941e8bbb1/",
       },
     ],
     historicalOffers: [
@@ -405,12 +405,11 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 40_000 }],
+        amount: [{ amount: 75_000 }],
         spend: 1000,
         days: 90,
         credits: [],
-        details: "Also requires paying the annual fee.",
-        url: "https://cards.barclaycardus.com/banking/cards/jetblue-plus-card/",
+        url: "https://cards.barclaycardus.com/banking/credit-card/jetblue/mastercard-mastercard-world-elite/inflight/2499efbd-1d41-4290-b8b3-cce941e8bbb1/",
       },
     ],
     historicalOffers: [
