@@ -21,6 +21,6 @@ export const REFERRALS = {
     BUSINESS_GREEN:
       "https://americanexpress.com/en-us/referral/ANDENaHXuk?xl=cp19",
     DELTA_BUSINESS_PLATINUM:
-      "https://americanexpress.com/en-us/referral/ANDENawaJJ?xl=cp19",
+      "https://americanexpress.com/en-us/referral/ANDENaV0cz?XLINK=MYCP",
   },
 };
