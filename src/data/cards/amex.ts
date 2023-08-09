@@ -1101,6 +1101,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
             description: "3x FNC up to 50k per",
             weight: 0.75,
             value: 150_000,
+            currency: schemas.CurrenciesEnum.enum.MARRIOTT
           }
         ],
       },
