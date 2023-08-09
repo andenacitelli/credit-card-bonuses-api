@@ -811,7 +811,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 60_000 }],
-        spend: 2000,
+        spend: 3000,
         days: 180,
         credits: [
           {
@@ -854,17 +854,10 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 70_000 }],
+        amount: [{ amount: 80_000 }],
         spend: 1000,
         days: 90,
-        credits: [
-          {
-            value: 500,
-            weight: 0.7,
-            description: "Free Night Credit",
-          },
-        ],
-        details: "Includes 1x FNC.",
+        credits: []
       },
     ],
     historicalOffers: [
@@ -1069,9 +1062,9 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 95_000 }],
-        spend: 5000,
-        days: 90,
+        amount: [{ amount: 150_000 }],
+        spend: 6000,
+        days: 180,
         credits: [],
         url: "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-brilliant/",
       },
@@ -1100,15 +1093,31 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 75_000 }],
+        amount: [{ amount: 0 }],
         spend: 3000,
         days: 90,
-        credits: [],
-        url: "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/",
-        expiration: "2023-05-03",
+        credits: [
+          {
+            description: "3x FNC up to 50k per",
+            weight: 0.75,
+            value: 150_000,
+          }
+        ],
       },
     ],
     historicalOffers: [
+      {
+        amount: [{ amount: 0 }],
+        spend: 3000,
+        days: 90,
+        credits: [
+          {
+            description: "3x FNC up to 50k per",
+            weight: 0.75,
+            value: 150_000,
+          }
+        ],
+      },
       {
         amount: [{ amount: 125_000 }],
         credits: [],
@@ -1329,9 +1338,9 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 85_000 }],
-        spend: 4000,
-        days: 90,
+        amount: [{ amount: 125_000 }],
+        spend: 5000,
+        days: 180,
         credits: [],
       },
     ],
