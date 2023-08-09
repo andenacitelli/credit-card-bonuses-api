@@ -345,13 +345,6 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 1000 }],
-        spend: 10_000,
-        days: 90,
-        credits: [],
-        url: "https://www.doctorofcredit.com/bank-of-america-business-advantage-unlimited-cash-rewards-1000-signup-bonus-with-10000-spend/",
-      },
-      {
         amount: [{ amount: 300 }],
         spend: 3000,
         days: 90,
@@ -360,13 +353,6 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
       },
     ],
     historicalOffers: [
-      {
-        amount: [{ amount: 1000 }],
-        spend: 10_000,
-        days: 90,
-        credits: [],
-        url: "https://www.doctorofcredit.com/bank-of-america-business-advantage-unlimited-cash-rewards-1000-signup-bonus-with-10000-spend/",
-      },
       {
         amount: [{ amount: 300 }],
         spend: 3000,
