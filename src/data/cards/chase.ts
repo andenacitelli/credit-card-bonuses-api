@@ -641,18 +641,10 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 80_000 }],
-        spend: 4000,
-        days: 90,
-        credits: [],
-        url: "https://www.doctorofcredit.com/chase-sapphire-preferred-80000-points-signup-bonus-via-referral-link/",
-      },
-      {
         amount: [{ amount: 60_000 }],
         spend: 4000,
         days: 90,
         credits: [],
-        url: "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
         referralUrl: REFERRALS.CHASE.SAPPHIRE.PREFERRED,
       },
     ],
@@ -871,7 +863,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 18000,
         days: 270,
         credits: [],
-        url: "https://www.doctorofcredit.com/chase-southwest-premier-business-card-120000-points-signup-bonus/",
+        url: "https://creditcards.chase.com/a1/southwest/AEMBizPremier120k623#",
       },
     ],
     historicalOffers: [

@@ -76,22 +76,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     url: "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-blue-business-plus-credit-card-amex/",
     imageUrl: "/images/amex/blue-business-plus.webp",
     credits: [],
-    offers: [
-      {
-        amount: [{ amount: 75_000 }],
-        spend: 15000,
-        days: 365,
-        credits: [],
-        url: "https://www.doctorofcredit.com/ymmv-american-express-blue-business-plus-75000-points-signup-bonus-no-lifetime-language/",
-      },
-      {
-        amount: [{ amount: 15_000 }],
-        spend: 3000,
-        days: 90,
-        credits: [],
-        url: "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-blue-business-plus-credit-card-amex/",
-      },
-    ],
+    offers: [],
     historicalOffers: [
       {
         amount: [{ amount: 15_000 }],
@@ -354,14 +339,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 200_000 }],
-        spend: 15_000,
-        days: 90,
-        credits: [],
-        url: "https://www.doctorofcredit.com/ymmv-american-express-business-platinum-200000-pre-approved-offer-no-lifetime-language/",
-        details: "YMMV. Not available for everyone.",
-      },
-      {
         amount: [{ amount: 120_000 }],
         spend: 15_000,
         days: 90,
@@ -481,9 +458,9 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 65_000 }],
+        amount: [{ amount: 40_000 }],
         spend: 2000,
-        days: 90,
+        days: 180,
         credits: [],
         url: "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards",
       }
@@ -511,11 +488,10 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 70_000 }],
-        spend: 3000,
+        amount: [{ amount: 50_000 }],
+        spend: 2000,
         days: 90,
         credits: [],
-        url: "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards",
       },
     ],
     historicalOffers: [
@@ -524,7 +500,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 2000,
         days: 90,
         credits: [],
-        url: "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-gold/",
       },
       {
         amount: [{ amount: 75_000 }],
@@ -554,8 +529,8 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 85_000 }],
-        spend: 4000,
+        amount: [{ amount: 50_000 }],
+        spend: 3000,
         days: 90,
         credits: [],
       },
@@ -564,12 +539,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         amount: [{ amount: 50_000 }],
         spend: 2000,
-        days: 90,
-        credits: [],
-      },
-      {
-        amount: [{ amount: 50_000 }],
-        spend: 3000,
         days: 90,
         credits: [],
       },
@@ -611,11 +580,10 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 90_000 }],
-        spend: 4000,
+        amount: [{ amount: 60_000 }],
+        spend: 3000,
         days: 90,
         credits: [],
-        url: "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards",
         referralUrl: REFERRALS.AMERICAN_EXPRESS.DELTA_BUSINESS_PLATINUM,
       },
     ],
@@ -642,8 +610,8 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 85_000 }],
-        spend: 6000,
+        amount: [{ amount: 60_000 }],
+        spend: 5000,
         days: 90,
         credits: [],
         url: "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards",
@@ -679,7 +647,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 100_000 }],
+        amount: [{ amount: 70_000 }],
         spend: 6000,
         days: 90,
         credits: [],
@@ -799,13 +767,13 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         url: "https://resy.com/amex-offers?date=2022-09-18&seats=2",
       },
       {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 75_000 }],
         spend: 4000,
         days: 180,
         credits: [],
+        details: "May require incognito.",
         referralUrl:
           "https://americanexpress.com/en-us/referral/ANDENaiMNZ?XLINK=MYCP",
-        url: "https://www.americanexpress.com/us/credit-cards/card/gold-card/",
       },
     ],
     historicalOffers: [
@@ -1211,14 +1179,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         credits: [],
         url: "https://resy.com/amex-offers?date=2022-11-04&seats=2",
         details: "10x on $25k dining spend not factored in.",
-      },
-      {
-        amount: [{ amount: 100_000 }],
-        spend: 6000,
-        days: 180,
-        credits: [],
-        url: "https://www.americanexpress.com/us/credit-cards/card/platinum/",
-        details: "Requires incognito mode. Can be inconsistent.",
       },
     ],
     historicalOffers: [
