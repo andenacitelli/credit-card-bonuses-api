@@ -945,7 +945,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 75_000 }],
+        amount: [{ amount: 50_000 }],
         spend: 5000,
         days: 90,
         credits: [],
@@ -1031,7 +1031,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 75_000 }],
+        amount: [{ amount: 50_000 }],
         spend: 5000,
         days: 90,
         credits: [],
@@ -1123,11 +1123,11 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 20_000 }],
+        amount: [{ amount: 30_000 }],
         spend: 1000,
         days: 90,
         credits: [],
-        url: "https://creditcards.chase.com/travel-credit-cards/united/united-gateway",
+        url: "https://www.theexplorercard.com/rewards-cards?CELL=XWG&domain=uec",
         referralUrl: REFERRALS.CHASE.UNITED,
       },
     ],
@@ -1160,8 +1160,8 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 90_000 }],
-        spend: 5000,
+        amount: [{ amount: 70_000 }],
+        spend: 4000,
         days: 90,
         credits: [],
         details:
@@ -1236,11 +1236,10 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 200 }],
+        amount: [{ amount: 100 }],
         spend: 0.01,
         days: 365,
         credits: [],
-        expiration: "2023-07-26"
       },
     ],
     historicalOffers: [

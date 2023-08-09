@@ -109,10 +109,17 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 40_000 }],
-        spend: 2000,
+        amount: [{ amount: 50_000 }],
+        spend: 3000,
         days: 90,
-        credits: [],
+        credits: [
+          {
+            description: "Statement Credit",
+            weight: 1,
+            value: 100,
+            currency: "USD",
+          }
+        ],
         url: "https://www.alaskaair.com/content/credit-card/visa-small-business-card",
       },
     ],
