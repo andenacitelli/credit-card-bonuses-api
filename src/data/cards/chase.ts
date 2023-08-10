@@ -448,7 +448,6 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 8_000,
         days: 90,
         credits: [],
-        url: "https://www.doctorofcredit.com/chase-ink-preferred-100000-points-offer-with-lower-8000-spend-requirement/",
         referralUrl: REFERRALS.CHASE.INKS,
       },
     ],
