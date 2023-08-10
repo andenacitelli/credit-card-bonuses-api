@@ -1160,15 +1160,6 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 70_000 }],
-        spend: 4000,
-        days: 90,
-        credits: [],
-        details:
-          "Mind the disclaimer on the DoC page. Rare instances of people being banned for using links like this - don't use it unless you're familiar with the risks.",
-        url: "https://www.doctorofcredit.com/chase-united-quest-card-90000-miles-signup-bonus-offer/",
-      },
-      {
         amount: [{ amount: 60_000 }],
         spend: 4000,
         days: 90,
