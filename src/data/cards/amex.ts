@@ -346,6 +346,12 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         url: "https://www.doctorofcredit.com/american-express-business-platinum-120000-points-10x-at-office-supply-wireless-more-7500-limit/",
         details: "10x on Office Supply, Wireless, more ($7.5k cap).",
       },
+      {
+        amount: [{ amount: 120_000 }],
+        spend: 15_000,
+        days: 90,
+        credits: [],
+      },
     ],
     historicalOffers: [
       {
