@@ -9,7 +9,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     network: schemas.NetworksEnum.enum.MASTERCARD,
     currency: schemas.CurrenciesEnum.enum.AMERICAN,
     isBusiness: false,
-    annualFee: 450,
+    annualFee: 595,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
     url: "https://creditcards.aa.com/citi-executive-card-american-airlines-direct/",
