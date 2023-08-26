@@ -757,6 +757,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://www.southwest.com/html/rapidrewards/partners/credit-cards/southwest-airlines-rapid-rewards-business-cards/index.html",
+        referralUrl: REFERRALS.CHASE.SOUTHWEST
       },
       {
         amount: [{ amount: 30_000 }],
@@ -801,6 +802,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://creditcards.chase.com/a1/southwest/AEM50kPlus623#",
+        referralUrl: REFERRALS.CHASE.SOUTHWEST
       },
     ],
     historicalOffers: [
@@ -838,6 +840,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://creditcards.chase.com/a1/southwest/AEM50kPremier623#",
+        referralUrl: REFERRALS.CHASE.SOUTHWEST
       },
       {
         amount: [{ amount: 30_000 }],
@@ -889,6 +892,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://creditcards.chase.com/business-credit-cards/southwest/premier-business",
+        referralUrl: REFERRALS.CHASE.SOUTHWEST
       },
       {
         amount: [{ amount: 120_000 }],
@@ -939,6 +943,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://creditcards.chase.com/a1/southwest/AEM50kPriority623#",
+        referralUrl: REFERRALS.CHASE.SOUTHWEST
       },
     ],
     historicalOffers: [
