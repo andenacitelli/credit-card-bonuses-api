@@ -241,13 +241,10 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 110_000 }],
+        amount: [{ amount: 70_000 }],
         spend: 10_000,
         days: 90,
-        credits: [],
-        details: "May require incognito.",
-        url: "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-gold-card-amex/",
-        expiration: "2023-06-01",
+        credits: []
       },
     ],
     historicalOffers: [

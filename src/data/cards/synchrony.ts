@@ -22,7 +22,7 @@ export const SYNCHRONY_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://pay.cathaypacific.com/en_US/offers/uscreditcard.html",
-        expiration: "2023-05-31",
+        expiration: "2023-08-31",
       },
     ],
     historicalOffers: [
