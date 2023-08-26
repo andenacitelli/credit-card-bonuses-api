@@ -583,6 +583,21 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 0 }],
+        spend: 5000,
+        days: 90,
+        url: "https://creditcards.chase.com/a1/marriottboundless/5FN/RTO?CELL=6BKQ",
+        credits: [
+          {
+            description: "5x Free Night Credits",
+            value: 250_000,
+            weight: 0.75,
+            currency: schemas.CurrenciesEnum.enum.MARRIOTT,
+          },
+        ],
+        details: "5x FNC up to 50k per",
+      },
+      {
+        amount: [{ amount: 0 }],
         spend: 3000,
         days: 90,
         credits: [
@@ -599,7 +614,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     historicalOffers: [
       {
         amount: [{ amount: 0 }],
-        spend: 3000,
+        spend: 5000,
         days: 90,
         credits: [
           {
@@ -609,7 +624,19 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
             currency: schemas.CurrenciesEnum.enum.MARRIOTT,
           },
         ],
-        expiration: "2022-09-01",
+      },
+      {
+        amount: [{ amount: 0 }],
+        spend: 3000,
+        days: 90,
+        credits: [
+          {
+            value: 150_000,
+            description: "3x Free Night Credit up to 50k per",
+            weight: 0.8,
+            currency: schemas.CurrenciesEnum.enum.MARRIOTT,
+          },
+        ],
       },
       {
         amount: [{ amount: 100_000 }],
@@ -640,11 +667,18 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 75_000 }],
         spend: 4000,
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.SAPPHIRE.PREFERRED,
+        details: "Only available via referral."
+      },
+      {
+        amount: [{ amount: 60_000 }],
+        spend: 4000,
+        days: 90,
+        credits: [],
       },
     ],
     historicalOffers: [
