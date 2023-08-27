@@ -28,10 +28,4 @@ I highly encourage PRs or Issues for data updates. If you see an offer is out of
 
 ### License
 
-This project is licensed under the MIT license. This basically means you can use it for any purpose, commercially or not, but I have zero liability.
-
-### Commercial Usage
-
-Data accuracy is on a best-effort basis and is generally 90%+. I also run [Offer Optimist](https://offeroptimist.com) off of this data, so I have a stake in the game. However, **I make no guarantees** about perfect accuracy. If you need better accuracy, please get in touch ([here's my portfolio](https://andenacitelli.com), which has my contact info) and we can figure something out.
-
-If you plan to use the project commercially, **please get in touch first.** I'll be happy to help you onboard, just want to make sure I have it noted down and that you have a cache with cache invalidation configured (even every five minutes should be sufficient) to avoid overloading my API. This helps me keep the project free and accessible for everyone.
+This project is under the MIT License with an added [Commons Clause](https://commonsclause.com/). In effect, these two items mean that you can do whatever you like with the project *as long as* your derived work is not sold commercially. I make this available with the intent of enabling hobbyists to use it as they wish, not to try and get in some long-term business deal that implies support, SLAs, and more on my part.
