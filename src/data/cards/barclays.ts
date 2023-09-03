@@ -425,16 +425,15 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 89,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://cards.barclaycardus.com/banking/cards/lufthansa-miles-more-world-elite-mastercard/",
+    url: "https://cards.barclaycardus.com/banking/cards/lufthansa-miles-more-world-elite-mastercard",
     imageUrl: "/images/barclays/lufthansa-miles-and-more.png",
     credits: [],
     offers: [
       {
-        amount: [{ amount: 80_000 }],
+        amount: [{ amount: 100_000 }],
         spend: 3000,
         days: 90,
-        credits: [],
-        url: "https://www.doctorofcredit.com/barclays-lufthansa-miles-more-80000-miles-highest-ever/"
+        credits: []
       },
       {
         amount: [{ amount: 50_000 }],
