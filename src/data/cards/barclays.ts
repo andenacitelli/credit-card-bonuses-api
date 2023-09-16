@@ -370,10 +370,15 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 60_000 }],
-        spend: 4000,
+        spend: 5000,
         days: 90,
         credits: [],
-        url: "https://cards.barclaycardus.com/banking/cards/jetblue-business-card/",
+      },
+      {
+        amount: [{ amount: 75_000 }],
+        spend: 15000,
+        days: 365,
+        credits: [],
       },
     ],
     historicalOffers: [
