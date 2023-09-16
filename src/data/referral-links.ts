@@ -15,13 +15,13 @@ export const REFERRALS = {
     ]),
     FREEDOM: getRandom(["https://www.referyourchasecard.com/18r/BDWS964YDG"]),
     UNITED: getRandom(["https://www.referyourchasecard.com/215a/6LYQQTKRUJ"]),
-    SOUTHWEST: getRandom(["https://www.referyourchasecard.com/226k/DXO76HZ6KY"])
+    SOUTHWEST: getRandom(["https://www.referyourchasecard.com/226L/0MJIAMX5UZ"])
   },
   AMERICAN_EXPRESS: {
     GOLD: "https://americanexpress.com/en-us/referral/ANDENatae0?xl=cp19",
     BUSINESS_GREEN:
       "https://americanexpress.com/en-us/referral/ANDENaHXuk?xl=cp19",
     DELTA_BUSINESS_PLATINUM:
-      "https://americanexpress.com/en-us/referral/ANDENaV0cz?XLINK=MYCP",
+      "https://americanexpress.com/en-us/referral/ANDENan46E?xl=cp01",
   },
 };
