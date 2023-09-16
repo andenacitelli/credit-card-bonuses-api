@@ -294,14 +294,27 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
+        amount: [{ amount: 90_000 }],
+        spend: 4000,
+        days: 90,
+        credits: [],
+        url: "https://applynow.capitalone.com/?productId=24504",
+      },
+      {
         amount: [{ amount: 75_000 }],
         spend: 4000,
         days: 90,
         credits: [],
-        url: "https://www.capitalone.com/credit-cards/venture-x/",
       },
     ],
     historicalOffers: [
+      {
+        amount: [{ amount: 90_000 }],
+        spend: 4000,
+        days: 90,
+        credits: [],
+        url: "https://applynow.capitalone.com/?productId=24504",
+      },
       {
         amount: [{ amount: 75_000 }],
         credits: [],
@@ -315,6 +328,51 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         expiration: "2022-03-01",
       },
+    ],
+  },
+  {
+    name: "Venture X Business",
+    issuer: schemas.IssuersEnum.enum.CAPITAL_ONE,
+    network: schemas.NetworksEnum.enum.VISA,
+    currency: schemas.CurrenciesEnum.enum.CAPITAL_ONE,
+    isBusiness: true,
+    annualFee: 395,
+    isAnnualFeeWaived: false,
+    universalCashbackPercent: 2,
+    url: "https://www.capitalone.com/small-business/credit-cards/venture-x-business/",
+    imageUrl: "/images/capitalone/venture-x-business.png",
+    credits: [
+      {
+        value: 300,
+        description: "Travel Credit",
+        weight: 0.9,
+      },
+      {
+        value: 100,
+        description: "Global Entry / TSA PreCheck Credit",
+        weight: WEIGHTS.PRECHECK,
+      },
+      {
+        value: 300,
+        description: "Capital One Lounge Access",
+        weight: WEIGHTS.LOUNGES,
+      },
+    ],
+    offers: [
+      {
+        amount: [{ amount: 150_000 }],
+        spend: 30000,
+        days: 90,
+        credits: [],
+      }
+    ],
+    historicalOffers: [
+      {
+        amount: [{ amount: 150_000 }],
+        spend: 30000,
+        days: 90,
+        credits: [],
+      }
     ],
   },
   {

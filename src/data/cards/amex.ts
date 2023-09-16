@@ -336,6 +336,14 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
+        amount: [{ amount: 170_000 }],
+        spend: 15_000,
+        days: 90,
+        credits: [],
+        url: "https://www.doctorofcredit.com/american-express-business-platinum-170000-points-offer-ymmv/",
+        details: "Inconsistent, YMMV.",
+      },
+      {
         amount: [{ amount: 120_000 }],
         spend: 15_000,
         days: 90,
@@ -495,6 +503,13 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 2000,
         days: 90,
         credits: [],
+        url: "https://www.doctorofcredit.com/increased-american-express-business-delta-offers/"
+      },
+      {
+        amount: [{ amount: 50_000 }],
+        spend: 2000,
+        days: 90,
+        credits: [],
       },
     ],
     historicalOffers: [
@@ -583,11 +598,18 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
+        amount: [{ amount: 90_000 }],
+        spend: 3000,
+        days: 90,
+        credits: [],
+        url: "https://www.doctorofcredit.com/increased-american-express-business-delta-offers/",
+        referralUrl: REFERRALS.AMERICAN_EXPRESS.DELTA_BUSINESS_PLATINUM,
+      },
+      {
         amount: [{ amount: 60_000 }],
         spend: 3000,
         days: 90,
         credits: [],
-        referralUrl: REFERRALS.AMERICAN_EXPRESS.DELTA_BUSINESS_PLATINUM,
       },
     ],
     historicalOffers: [
@@ -663,6 +685,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 6000,
         days: 90,
         credits: [],
+        url: "https://www.doctorofcredit.com/increased-american-express-business-delta-offers/"
       },
       {
         amount: [{ amount: 60_000 }],
@@ -1089,17 +1112,10 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 0 }],
-        spend: 3000,
+        amount: [{ amount: 125000 }],
+        credits: [],
+        spend: 8000,
         days: 90,
-        credits: [
-          {
-            description: "3x FNC up to 50k per",
-            weight: 0.75,
-            value: 150_000,
-            currency: schemas.CurrenciesEnum.enum.MARRIOTT
-          }
-        ],
       },
     ],
     historicalOffers: [
@@ -1178,6 +1194,14 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
       },
     ],
     offers: [
+      {
+        amount: [{ amount: 150_000 }],
+        spend: 8000,
+        days: 180,
+        credits: [],
+        url: "https://www.doctorofcredit.com/share-your-american-express-platinum-referrals/",
+        details: "Only available via referral. YMMV.",
+      },
       {
         amount: [{ amount: 100_000 }],
         spend: 8000,

@@ -54,7 +54,14 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 40_000 }],
+        amount: [{ amount: 70_000 }],
+        spend: 3000,
+        days: 90,
+        credits: [],
+        url: "https://www.alaskaair.com/content/credit-card/visa-signature/70k-offer"
+      },
+      {
+        amount: [{ amount: 60_000 }],
         spend: 3000,
         days: 90,
         credits: [],
