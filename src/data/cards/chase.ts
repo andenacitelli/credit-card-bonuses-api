@@ -412,6 +412,13 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
+        amount: [{ amount: 90_000 }],
+        spend: 6000,
+        days: 90,
+        credits: [],
+        url: "https://www.doctorofcredit.com/chase-ink-90000-offers-slated-to-end-soon/",
+      },
+      {
         amount: [{ amount: 75_000 }],
         spend: 6000,
         days: 90,
@@ -480,6 +487,13 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     imageUrl: "/images/chase/ink-business-unlimited.png",
     credits: [],
     offers: [
+      {
+        amount: [{ amount: 90_000 }],
+        spend: 6000,
+        days: 90,
+        credits: [],
+        url: "https://www.doctorofcredit.com/chase-ink-90000-offers-slated-to-end-soon/",
+      },
       {
         amount: [{ amount: 75_000 }],
         spend: 6000,
