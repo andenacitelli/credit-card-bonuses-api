@@ -1078,7 +1078,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         amount: [{ amount: 0 }],
         spend: 6000,
         days: 180,
-        credits: [{ value: 85_000 * 2, description: "2x FNC up to 85k per", weight: .75 }],
+        credits: [{ value: 85_000 * 2, description: "2x FNC up to 85k per", weight: .75, currency: schemas.CurrenciesEnum.enum.MARRIOTT }],
       },
     ],
     historicalOffers: [
