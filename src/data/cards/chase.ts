@@ -56,6 +56,13 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         credits: [],
         url: "https://creditcards.chase.com/travel-credit-cards/avios/aer-lingus",
       },
+      {
+        amount: [{ amount: 125_000 }],
+        spend: 20_000,
+        days: 365,
+        credits: [],
+        url: "https://www.doctorofcredit.com/chase-british-airways-125000-point-bonus-after-20000-in-spend/",
+      },
     ],
     historicalOffers: [
       {
@@ -130,6 +137,13 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://creditcards.chase.com/travel-credit-cards/avios/british-airways",
+      },
+      {
+        amount: [{ amount: 125_000 }],
+        spend: 20_000,
+        days: 365,
+        credits: [],
+        url: "https://www.doctorofcredit.com/chase-british-airways-125000-point-bonus-after-20000-in-spend/",
       },
     ],
     historicalOffers: [
@@ -286,6 +300,13 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://creditcards.chase.com/travel-credit-cards/avios/iberia",
+      },
+      {
+        amount: [{ amount: 125_000 }],
+        spend: 20_000,
+        days: 365,
+        credits: [],
+        url: "https://www.doctorofcredit.com/chase-british-airways-125000-point-bonus-after-20000-in-spend/",
       },
     ],
     historicalOffers: [

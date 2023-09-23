@@ -1071,21 +1071,14 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         value: 300,
         description: "$25/mo Dining Credit",
         weight: 0.75,
-      },
-      {
-        value: 85_000,
-        description: "Free Night Credit up to 85k.",
-        weight: 0.75,
-        currency: schemas.CurrenciesEnum.enum.MARRIOTT,
-      },
+      }
     ],
     offers: [
       {
-        amount: [{ amount: 150_000 }],
+        amount: [{ amount: 0 }],
         spend: 6000,
         days: 180,
-        credits: [],
-        url: "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-brilliant/",
+        credits: [{ value: 85_000 * 2, description: "2x FNC up to 85k per", weight: .75 }],
       },
     ],
     historicalOffers: [
@@ -1095,6 +1088,12 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         expiration: "2023-01-11",
+      },
+      {
+        amount: [{ amount: 0 }],
+        spend: 6000,
+        days: 180,
+        credits: [{ value: 85_000 * 2, description: "2x FNC up to 85k per", weight: .75 }],
       },
     ],
   },
