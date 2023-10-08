@@ -437,7 +437,8 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 6000,
         days: 90,
         credits: [],
-        url: "https://www.doctorofcredit.com/chase-ink-90000-offers-slated-to-end-soon/",
+        url: "https://www.doctorofcredit.com/chase-ink-cash-unlimited-90000-points-now-available-online/",
+        referralUrl: REFERRALS.CHASE.INKS,
       },
       {
         amount: [{ amount: 75_000 }],
@@ -445,7 +446,6 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://creditcards.chase.com/business-credit-cards/ink/cash",
-        referralUrl: REFERRALS.CHASE.INKS,
       },
     ],
     historicalOffers: [
@@ -513,7 +513,8 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 6000,
         days: 90,
         credits: [],
-        url: "https://www.doctorofcredit.com/chase-ink-90000-offers-slated-to-end-soon/",
+        url: "https://www.doctorofcredit.com/chase-ink-cash-unlimited-90000-points-now-available-online/",
+        referralUrl: REFERRALS.CHASE.INKS,
       },
       {
         amount: [{ amount: 75_000 }],
@@ -521,7 +522,6 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://creditcards.chase.com/business-credit-cards/ink/cash",
-        referralUrl: REFERRALS.CHASE.INKS,
       },
     ],
     historicalOffers: [
@@ -992,13 +992,13 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    name: "United Business",
+    name: " United Business",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
     currency: schemas.CurrenciesEnum.enum.UNITED,
     isBusiness: true,
     annualFee: 99,
-    isAnnualFeeWaived: false,
+    isAnnualFeeWaived: true,
     universalCashbackPercent: 1,
     url: "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
     imageUrl: "/images/chase/united-business.png",
@@ -1011,11 +1011,11 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 75_000 }],
         spend: 5000,
         days: 90,
         credits: [],
-        url: "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
+        url: "https://www.theexplorercard.com/business-rewards-cards/business-card?",
       },
     ],
     historicalOffers: [

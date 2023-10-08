@@ -298,7 +298,7 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 4000,
         days: 90,
         credits: [],
-        url: "https://applynow.capitalone.com/?productId=24504",
+        url: "https://applynow.capitalone.com/?productId=24948",
       },
       {
         amount: [{ amount: 75_000 }],
@@ -312,8 +312,7 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         amount: [{ amount: 90_000 }],
         spend: 4000,
         days: 90,
-        credits: [],
-        url: "https://applynow.capitalone.com/?productId=24504",
+        credits: []
       },
       {
         amount: [{ amount: 75_000 }],

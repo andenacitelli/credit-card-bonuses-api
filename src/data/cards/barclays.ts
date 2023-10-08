@@ -17,11 +17,11 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 75_000 }],
         spend: 0.01,
         days: 90,
         credits: [],
-        url: "https://cards.barclaycardus.com/banking/cards/aadvantage-aviator-red-world-elite-mastercard/",
+        url: "https://www.applyaviator.com/",
         details: "Requires ANY purchase as well as the Annual Fee.",
       },
     ],

@@ -1017,7 +1017,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     currency: schemas.CurrenciesEnum.enum.HILTON,
     isBusiness: false,
     annualFee: 95,
-    isAnnualFeeWaived: true,
+    isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
     url: "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-surpass/",
     imageUrl: "/images/amex/hilton-honors-surpass.jpg",
@@ -1027,14 +1027,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         amount: [{ amount: 130_000 }],
         spend: 2000,
         days: 90,
-        credits: [
-          {
-            value: 500,
-            weight: 0.7,
-            description: "Free Night Credit",
-          },
-        ],
-        details: "Includes 1x FNC.",
+        credits: [],
         url: "https://www.hilton.com/en/hilton-honors/credit-cards/",
       },
     ],
@@ -1326,7 +1319,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 100_000 }],
+        amount: [{ amount: 125_000 }],
         spend: 6000,
         days: 180,
         credits: [],
