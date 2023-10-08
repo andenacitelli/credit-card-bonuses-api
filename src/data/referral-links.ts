@@ -10,11 +10,11 @@ export const REFERRALS = {
       ]),
     },
     INKS: getRandom([
-      "https://www.referyourchasecard.com/21j/98ZI1A53EK",
-      "https://www.referyourchasecard.com/21j/1QKLYDOXDQ",
+      "https://www.referyourchasecard.com/21o/98ZI1A53EK",
+      "https://www.referyourchasecard.com/21o/1QKLYDOXDQ",
     ]),
-    FREEDOM: getRandom(["https://www.referyourchasecard.com/18r/BDWS964YDG"]),
-    UNITED: getRandom(["https://www.referyourchasecard.com/215a/6LYQQTKRUJ"]),
+    FREEDOM: getRandom(["https://www.referyourchasecard.com/18o/9KKC4IK8LP"]),
+    UNITED: getRandom(["https://www.referyourchasecard.com/215o/P2LRT1OY54"]),
     SOUTHWEST: getRandom(["https://www.referyourchasecard.com/226L/0MJIAMX5UZ"])
   },
   AMERICAN_EXPRESS: {
