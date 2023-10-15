@@ -34,47 +34,48 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
       },
     ],
   },
-  {
-    name: "AAdvantage Aviator World Elite Business",
-    issuer: schemas.IssuersEnum.enum.BARCLAYS,
-    network: schemas.NetworksEnum.enum.MASTERCARD,
-    currency: schemas.CurrenciesEnum.enum.AMERICAN,
-    isBusiness: true,
-    annualFee: 95,
-    isAnnualFeeWaived: false,
-    universalCashbackPercent: 1,
-    url: "https://cards.barclaycardus.com/banking/cards/aadvantage-aviator-world-elite-business-mastercard/",
-    imageUrl: "/images/barclays/aadvantage-aviator-world-elite-business.png",
-    credits: [
-      {
-        value: 50,
-        description: "First checked bag free",
-        weight: 0.5,
-      },
-    ],
-    offers: [
-      {
-        amount: [{ amount: 60_000 }],
-        spend: 2000,
-        days: 90,
-        credits: [],
-      },
-    ],
-    historicalOffers: [
-      {
-        amount: [{ amount: 80_000 }],
-        spend: 2000,
-        days: 90,
-        credits: [
-          {
-            value: 95,
-            description: "$95 Statement Credit",
-            weight: 1,
-          },
-        ],
-      },
-    ],
-  },
+  // TODO: Applications for this card are paused as of 10/15/23. Reenable at some future point when they're back up.
+  // {
+  //   name: "AAdvantage Aviator World Elite Business",
+  //   issuer: schemas.IssuersEnum.enum.BARCLAYS,
+  //   network: schemas.NetworksEnum.enum.MASTERCARD,
+  //   currency: schemas.CurrenciesEnum.enum.AMERICAN,
+  //   isBusiness: true,
+  //   annualFee: 95,
+  //   isAnnualFeeWaived: false,
+  //   universalCashbackPercent: 1,
+  //   url: "https://cards.barclaycardus.com/banking/cards/aadvantage-aviator-world-elite-business-mastercard/",
+  //   imageUrl: "/images/barclays/aadvantage-aviator-world-elite-business.png",
+  //   credits: [
+  //     {
+  //       value: 50,
+  //       description: "First checked bag free",
+  //       weight: 0.5,
+  //     },
+  //   ],
+  //   offers: [
+  //     {
+  //       amount: [{ amount: 60_000 }],
+  //       spend: 2000,
+  //       days: 90,
+  //       credits: [],
+  //     },
+  //   ],
+  //   historicalOffers: [
+  //     {
+  //       amount: [{ amount: 80_000 }],
+  //       spend: 2000,
+  //       days: 90,
+  //       credits: [
+  //         {
+  //           value: 95,
+  //           description: "$95 Statement Credit",
+  //           weight: 1,
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
   {
     name: "AARP Essential Rewards",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
