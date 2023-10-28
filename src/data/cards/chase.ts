@@ -826,11 +826,17 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
+        amount: [{ amount: 75_000 }],
+        spend: 3000,
+        days: 90,
+        credits: [],
+        url: "https://creditcards.chase.com/a1/southwest/AEP75kPlus1023#",
+      },
+      {
         amount: [{ amount: 50_000 }],
         spend: 1000,
         days: 90,
         credits: [],
-        url: "https://creditcards.chase.com/a1/southwest/AEM50kPlus623#",
         referralUrl: REFERRALS.CHASE.SOUTHWEST
       },
     ],
@@ -864,27 +870,19 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
+        amount: [{ amount: 75_000 }],
+        spend: 3000,
+        days: 90,
+        credits: [],
+        url: "https://creditcards.chase.com/a1/southwest/AEP75kPlus1023#",
+      },
+      {
         amount: [{ amount: 50_000 }],
         spend: 1000,
         days: 90,
         credits: [],
-        url: "https://creditcards.chase.com/a1/southwest/AEM50kPremier623#",
         referralUrl: REFERRALS.CHASE.SOUTHWEST
-      },
-      {
-        amount: [{ amount: 30_000 }],
-        spend: 4000,
-        days: 90,
-        credits: [
-          {
-            description: "Companion Pass",
-            value: 500,
-            weight: 1,
-          },
-        ],
-        url: "https://creditcards.chase.com/a1/southwest/NAEP30kCPPlus223?",
-        details: "Comes with companion pass, valued ~$500.",
-      },
+      }
     ],
     historicalOffers: [
       {
@@ -967,11 +965,17 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
+        amount: [{ amount: 75_000 }],
+        spend: 3000,
+        days: 90,
+        credits: [],
+        url: "https://creditcards.chase.com/a1/southwest/AEP75kPlus1023#",
+      },
+      {
         amount: [{ amount: 50_000 }],
         spend: 1000,
         days: 90,
         credits: [],
-        url: "https://creditcards.chase.com/a1/southwest/AEM50kPriority623#",
         referralUrl: REFERRALS.CHASE.SOUTHWEST
       },
     ],
