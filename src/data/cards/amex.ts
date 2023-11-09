@@ -876,13 +876,13 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/",
+    url: "https://www.hilton.com/en/hilton-honors/credit-cards/",
     imageUrl: "/images/amex/hilton-honors.png",
     credits: [],
     offers: [
       {
-        amount: [{ amount: 80_000 }],
-        spend: 1000,
+        amount: [{ amount: 100_000 }],
+        spend: 2000,
         days: 90,
         credits: []
       },
@@ -934,7 +934,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 150_000 }],
+        amount: [{ amount: 180_000 }],
         spend: 4000,
         days: 90,
         credits: [],
@@ -1027,16 +1027,15 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 95,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-surpass/",
+    url: "https://www.hilton.com/en/hilton-honors/credit-cards/",
     imageUrl: "/images/amex/hilton-honors-surpass.jpg",
     credits: [],
     offers: [
       {
-        amount: [{ amount: 130_000 }],
-        spend: 2000,
+        amount: [{ amount: 170_000 }],
+        spend: 3000,
         days: 90,
         credits: [],
-        url: "https://www.hilton.com/en/hilton-honors/credit-cards/",
       },
     ],
     historicalOffers: [

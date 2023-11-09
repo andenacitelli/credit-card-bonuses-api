@@ -49,16 +49,10 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     universalCashbackPercent: 1,
     url: "https://creditcards.aa.com/citi-mileup-card-american-airlines-direct/",
     imageUrl: "/images/citi/aadvantage-mileup.webp",
-    credits: [
-      {
-        value: 50,
-        description: "$50 Travel Credit",
-        weight: 0.8,
-      },
-    ],
+    credits: [],
     offers: [
       {
-        amount: [{ amount: 10_000 }],
+        amount: [{ amount: 15_000 }],
         spend: 500,
         days: 90,
         credits: [],
@@ -83,16 +77,15 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 99,
     isAnnualFeeWaived: true,
     universalCashbackPercent: 1,
-    url: "https://creditcards.aa.com/citi-platinum-card-american-airlines-wand/?utm_medium=referral&utm_source=aa&utm_campaign=ccpage",
+    url: "https://creditcards.aa.com/citi-business-card-american-airlines-direct/",
     imageUrl: "/images/citi/aadvantage-platinum-select.webp",
     credits: [],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 75_000 }],
         spend: 2500,
         days: 90,
         credits: [],
-        url: "https://creditcards.aa.com/",
       },
     ],
     historicalOffers: [
