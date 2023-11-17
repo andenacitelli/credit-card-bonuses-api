@@ -1,12 +1,14 @@
-import { schemas } from "@/generated/api.client";
-import {CREDIT_CARDS} from "./data/data";
-import puppeteer, {Browser} from "puppeteer";
-import { mkdirp } from "mkdirp";
-import {openai} from "@/remote/openai";
-import fs from "fs";
-import { z } from "zod";
 import chalk from "chalk";
+import fs from "fs";
+import { mkdirp } from "mkdirp";
 import pRetry from "p-retry";
+import puppeteer, {Browser} from "puppeteer";
+import { z } from "zod";
+
+import { schemas } from "@/generated/api.client";
+import {openai} from "@/remote/openai";
+
+import {CREDIT_CARDS} from "./data/data";
 const MILLISECONDS_PER_SECOND = 1_000;
 
 mkdirp.sync("./screenshots");
