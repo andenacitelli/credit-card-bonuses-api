@@ -241,14 +241,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 150_000 }],
-        spend: 10_000,
-        days: 90,
-        credits: [],
-        url: "https://www.doctorofcredit.com/ymmv-american-express-business-gold-150000-point-no-lifetime-language/",
-        details: "YMMV + Incognito"
-      },
-      {
         amount: [{ amount: 70_000 }],
         spend: 10_000,
         days: 90,
@@ -278,14 +270,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     imageUrl: "/images/amex/business-green.webp",
     credits: [],
     offers: [
-      {
-        amount: [{ amount: 25_000 }],
-        spend: 3000,
-        days: 90,
-        credits: [],
-        url: "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-green-card-amex/",
-        details: "Requires incognito or a VPN.",
-      },
       {
         amount: [{ amount: 15_000 }],
         spend: 3000,
@@ -344,20 +328,11 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 170_000 }],
-        spend: 15_000,
-        days: 90,
-        credits: [],
-        url: "https://www.doctorofcredit.com/american-express-business-platinum-170000-points-offer-ymmv/",
-        details: "Inconsistent, YMMV.",
-      },
-      {
         amount: [{ amount: 120_000 }],
         spend: 15_000,
         days: 90,
         credits: [],
-        url: "https://www.doctorofcredit.com/american-express-business-platinum-120000-points-10x-at-office-supply-wireless-more-7500-limit/",
-        details: "10x on Office Supply, Wireless, more ($7.5k cap).",
+        details: "Inconsistent, requries incognito."
       },
       {
         amount: [{ amount: 120_000 }],
@@ -606,14 +581,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 90_000 }],
-        spend: 3000,
-        days: 90,
-        credits: [],
-        url: "https://www.doctorofcredit.com/increased-american-express-business-delta-offers/",
-        referralUrl: REFERRALS.AMERICAN_EXPRESS.DELTA_BUSINESS_PLATINUM,
-      },
-      {
         amount: [{ amount: 60_000 }],
         spend: 3000,
         days: 90,
@@ -684,7 +651,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 6000,
         days: 90,
         credits: [],
-        url: "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards",
       },
     ],
     historicalOffers: [
@@ -809,7 +775,14 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         referralUrl:
           "https://americanexpress.com/en-us/referral/ANDENaiMNZ?XLINK=MYCP",
       },
+      {
+        amount: [{ amount: 60_000 }],
+        spend: 4000,
+        days: 180,
+        credits: [],
+      },
     ],
+
     historicalOffers: [
       {
         amount: [{ amount: 100_000 }],
