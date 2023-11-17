@@ -4,3 +4,5 @@ src/generated/
 .esbuild/
 .serverless/
 .idea/
+
+screenshots/
