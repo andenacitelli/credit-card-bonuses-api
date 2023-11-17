@@ -585,6 +585,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 3000,
         days: 90,
         credits: [],
+        referralUrl: REFERRALS.AMERICAN_EXPRESS.DELTA_BUSINESS_PLATINUM
       },
     ],
     historicalOffers: [
@@ -772,14 +773,13 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 180,
         credits: [],
         details: "May require incognito.",
-        referralUrl:
-          "https://americanexpress.com/en-us/referral/ANDENaiMNZ?XLINK=MYCP",
       },
       {
         amount: [{ amount: 60_000 }],
         spend: 4000,
         days: 180,
         credits: [],
+        referralUrl: REFERRALS.AMERICAN_EXPRESS.GOLD
       },
     ],
 
