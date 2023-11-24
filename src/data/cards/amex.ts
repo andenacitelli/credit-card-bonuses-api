@@ -20,13 +20,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     imageUrl: "/images/amex/blue-business-cash.webp",
     offers: [
       {
-        amount: [{ amount: 750 }],
-        spend: 15000,
-        days: 365,
-        credits: [],
-        url: "https://www.doctorofcredit.com/ymmv-american-express-blue-business-cash-750-signup-bonus-no-lifetime-language/",
-      },
-      {
         amount: [{ amount: 250 }],
         spend: 5000,
         days: 90,
@@ -270,6 +263,13 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     imageUrl: "/images/amex/business-green.webp",
     credits: [],
     offers: [
+      {
+        amount: [{ amount: 25_000 }],
+        spend: 3000,
+        days: 90,
+        credits: [],
+        details: "YMMV, requires incognito."
+      },
       {
         amount: [{ amount: 15_000 }],
         spend: 3000,
@@ -1291,12 +1291,11 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 125_000 }],
+        amount: [{ amount: 80_000 }],
         spend: 6000,
         days: 180,
         credits: [],
         details: "Requires a relationship with Morgan Stanley.",
-        url: "https://apply.americanexpress.com/amex-morgan-stanley-credit-cards/?page_url=1",
       },
     ],
     historicalOffers: [
