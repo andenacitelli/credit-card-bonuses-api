@@ -36,6 +36,9 @@ const handleCard = async (browser: Browser, card: z.input<schemas.CreditCard>): 
     const page = await browser.newPage()
     await page.goto(card.url);
     await page.waitForTimeout(5 * MILLISECONDS_PER_SECOND);
+    if (card.name.includes("Hilton")) {
+        page.waitForTimeout(3 * MILLISECONDS_PER_SECOND);
+    }
 
     await page.screenshot({ path: `./screenshots/${card.issuer}-${card.name}.png`, fullPage: true });
     const imageBase64 = fs.readFileSync(`./screenshots/${card.issuer}-${card.name}.png`, "base64");
