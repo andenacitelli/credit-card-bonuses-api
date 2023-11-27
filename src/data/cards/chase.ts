@@ -997,11 +997,10 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 75_000 }],
+        amount: [{ amount: 50_000 }],
         spend: 5000,
         days: 90,
         credits: [],
-        url: "https://www.theexplorercard.com/business-rewards-cards/business-card?",
       },
     ],
     historicalOffers: [
