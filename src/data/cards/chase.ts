@@ -1280,18 +1280,10 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 60_000 }],
-        spend: 3000,
+        spend: 5000,
         days: 90,
         credits: [],
-        url: "https://creditcards.chase.com/worldofhyatt/22/naepb?CELL=69T0",
-      },
-      {
-        amount: [{ amount: 75_000 }],
-        spend: 12000,
-        days: 180,
-        credits: [],
-        url: "https://creditcards.chase.com/worldofhyatt/22/naepb?CELL=69T0",
-      },
+      }
     ],
     historicalOffers: [
       {
