@@ -133,35 +133,42 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
       },
     ],
   },
-  // {
-  //     name: "Double Cash",
-  //     issuer: schemas.IssuersEnum.enum.CITI,
-  //     network: schemas.NetworksEnum.enum.MASTERCARD,
-  //     currency: schemas.CurrenciesEnum.enum.USD,
-  //     isBusiness: false,
-  //     annualFee: 0,
-  //     isAnnualFeeWaived: false,
-  //     universalCashbackPercent: 2,
-  //     url: "https://www.citi.com/credit-cards/citi-double-cash-credit-card",
-  //     imageUrl:
-  //         "/images/citi/double-cash.png",
-  //     credits: [],
-  //     offers: [],
-  //     historicalOffers: [
-  //         {
-  //             amount: [{amount: 200}],
-  //             spend: 1500,
-  //             days: 180,
-  //             credits: [],
-  //         },
-  //         {
-  //             amount: [{amount: 300}],
-  //             spend: 750,
-  //             days: 180,
-  //             credits: [],
-  //         },
-  //     ],
-  // },
+  {
+      name: "Double Cash",
+      issuer: schemas.IssuersEnum.enum.CITI,
+      network: schemas.NetworksEnum.enum.MASTERCARD,
+      currency: schemas.CurrenciesEnum.enum.USD,
+      isBusiness: false,
+      annualFee: 0,
+      isAnnualFeeWaived: false,
+      universalCashbackPercent: 2,
+      url: "https://www.citi.com/credit-cards/citi-double-cash-credit-card",
+      imageUrl:
+          "/images/citi/double-cash.png",
+      credits: [],
+      offers: [
+        {
+          amount: [{amount: 200}],
+          spend: 1500,
+          days: 180,
+          credits: [],
+        },
+      ],
+      historicalOffers: [
+          {
+              amount: [{amount: 200}],
+              spend: 1500,
+              days: 180,
+              credits: [],
+          },
+          {
+              amount: [{amount: 300}],
+              spend: 750,
+              days: 180,
+              credits: [],
+          },
+      ],
+  },
   {
     name: "Custom Cash",
     issuer: schemas.IssuersEnum.enum.CITI,
