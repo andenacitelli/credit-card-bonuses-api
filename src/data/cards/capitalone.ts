@@ -46,15 +46,7 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     url: "https://www.capitalone.com/credit-cards/savor-dining-rewards/",
     imageUrl: "/images/capitalone/savor.webp",
     credits: [],
-    offers: [
-      {
-        amount: [{ amount: 300 }],
-        spend: 3000,
-        days: 90,
-        credits: [],
-        url: "https://www.capitalone.com/credit-cards/savor-dining-rewards/",
-      },
-    ],
+    offers: [],
     historicalOffers: [
       {
         amount: [{ amount: 500 }],
@@ -108,8 +100,8 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 500 }],
-        spend: 4500,
+        amount: [{ amount: 750 }],
+        spend: 6000,
         days: 90,
         credits: [],
         url: "https://www.capitalone.com/small-business/credit-cards/spark-cash-select",
@@ -138,8 +130,8 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 20_000 }],
-        spend: 3000,
+        amount: [{ amount: 50_000 }],
+        spend: 4500,
         days: 90,
         credits: [],
         url: "https://www.capitalone.com/small-business/credit-cards/spark-miles-select/",
@@ -294,13 +286,6 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 90_000 }],
-        spend: 4000,
-        days: 90,
-        credits: [],
-        url: "https://applynow.capitalone.com/?productId=25583",
-      },
-      {
         amount: [{ amount: 75_000 }],
         spend: 4000,
         days: 90,
@@ -312,7 +297,7 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         amount: [{ amount: 90_000 }],
         spend: 4000,
         days: 90,
-        credits: []
+        credits: [],
       },
       {
         amount: [{ amount: 75_000 }],
@@ -362,8 +347,9 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         amount: [{ amount: 150_000 }],
         spend: 30000,
         days: 90,
+        details: "Extremely high spend requirement, be aware.",
         credits: [],
-      }
+      },
     ],
     historicalOffers: [
       {
@@ -371,7 +357,7 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 30000,
         days: 90,
         credits: [],
-      }
+      },
     ],
   },
   {
@@ -388,11 +374,10 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 40_000 }],
+        amount: [{ amount: 20_000 }],
         spend: 1000,
         days: 90,
         credits: [],
-        url: "https://www.capitalone.com/credit-cards/ventureone/",
       },
     ],
     historicalOffers: [

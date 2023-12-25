@@ -92,7 +92,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 4000,
         days: 90,
         credits: [],
-        url: "https://creditcards.chase.com/travel-credit-cards/aircanada/aeroplan"
+        url: "https://creditcards.chase.com/travel-credit-cards/aircanada/aeroplan",
       },
       {
         amount: [{ amount: 100_000 }],
@@ -100,7 +100,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 365,
         url: "https://creditcards.chase.com/a1/Aeroplan/100k20Kaep",
         credits: [],
-      }
+      },
     ],
     historicalOffers: [
       {
@@ -162,7 +162,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     network: schemas.NetworksEnum.enum.VISA,
     currency: schemas.CurrenciesEnum.enum.USD,
     isBusiness: false,
-    annualFee: 0,
+    annualFee: 49,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
     url: "https://disneyrewards.com/compare-cards/?cell=608S11",
@@ -170,11 +170,10 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 400 }],
+        amount: [{ amount: 300 }],
         spend: 1000,
         days: 90,
         credits: [],
-        url: "https://disneyrewards.com/compare-cards/?cell=608S11",
       },
     ],
     historicalOffers: [
@@ -336,11 +335,13 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         amount: [{ amount: 140_000 }],
         spend: 3000,
         days: 90,
-        credits: [{
-          description: "Statement Credit",
-          value: 100,
-          weight: .8
-        }],
+        credits: [
+          {
+            description: "Statement Credit",
+            value: 100,
+            weight: 0.8,
+          },
+        ],
         url: "https://www.ihg.com/onerewards/content/us/en/creditcard/premier",
       },
     ],
@@ -618,21 +619,6 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 0 }],
-        spend: 5000,
-        days: 90,
-        url: "https://creditcards.chase.com/a1/marriottboundless/5FN/RTO?CELL=6BKQ",
-        credits: [
-          {
-            description: "5x Free Night Credits",
-            value: 250_000,
-            weight: 0.75,
-            currency: schemas.CurrenciesEnum.enum.MARRIOTT,
-          },
-        ],
-        details: "5x FNC up to 50k per",
-      },
-      {
-        amount: [{ amount: 0 }],
         spend: 3000,
         days: 90,
         credits: [
@@ -786,7 +772,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://www.southwest.com/html/rapidrewards/partners/credit-cards/southwest-airlines-rapid-rewards-business-cards/index.html",
-        referralUrl: REFERRALS.CHASE.SOUTHWEST
+        referralUrl: REFERRALS.CHASE.SOUTHWEST,
       },
       {
         amount: [{ amount: 30_000 }],
@@ -831,8 +817,8 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://creditcards.chase.com/a1/southwest/AEP75kPlus1023#",
-        referralUrl: REFERRALS.CHASE.SOUTHWEST
-      }
+        referralUrl: REFERRALS.CHASE.SOUTHWEST,
+      },
     ],
     historicalOffers: [
       {
@@ -869,8 +855,8 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://creditcards.chase.com/a1/southwest/AEP75kPlus1023#",
-        referralUrl: REFERRALS.CHASE.SOUTHWEST
-      }
+        referralUrl: REFERRALS.CHASE.SOUTHWEST,
+      },
     ],
     historicalOffers: [
       {
@@ -907,7 +893,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://creditcards.chase.com/business-credit-cards/southwest/premier-business",
-        referralUrl: REFERRALS.CHASE.SOUTHWEST
+        referralUrl: REFERRALS.CHASE.SOUTHWEST,
       },
       {
         amount: [{ amount: 120_000 }],
@@ -958,7 +944,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://creditcards.chase.com/a1/southwest/AEP75kPlus1023#",
-        referralUrl: REFERRALS.CHASE.SOUTHWEST
+        referralUrl: REFERRALS.CHASE.SOUTHWEST,
       },
     ],
     historicalOffers: [
@@ -1282,7 +1268,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 5000,
         days: 90,
         credits: [],
-      }
+      },
     ],
     historicalOffers: [
       {

@@ -17,7 +17,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 75_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 0.01,
         days: 90,
         credits: [],
@@ -43,7 +43,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 95,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://cards.barclaycardus.com/banking/cards/aadvantage-aviator-world-elite-business-mastercard/",
+    url: "https://creditcards.aa.com/barclay-credit-card-aviator-business-american-airlines-aadvantage/",
     imageUrl: "/images/barclays/aadvantage-aviator-world-elite-business.png",
     credits: [
       {
@@ -126,37 +126,35 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
       },
     ],
   },
-  // {
-  //     name: "Choice Privileges",
-  //     issuer: schemas.IssuersEnum.enum.BARCLAYS,
-  //     network: schemas.NetworksEnum.enum.VISA,
-  //     currency: schemas.CurrenciesEnum.enum.CHOICE,
-  //     isBusiness: false,
-  //     annualFee: 0,
-  //     isAnnualFeeWaived: false,
-  //     universalCashbackPercent: 1,
-  //     url: "https://www.choicehotels.com/fr-us/choice-privileges/earn-points/visa-credit-card",
-  //     imageUrl:
-  //         "/images/barclays/choice-privileges.png",
-  //     credits: [],
-  //     offers: [
-  //         {
-  //             amount: [{amount: 20000}],
-  //             spend: 1000,
-  //             days: 90,
-  //             credits: [],
-  //             url: "https://www.choicehotels.com/fr-us/choice-privileges/earn-points/visa-credit-card",
-  //         },
-  //     ],
-  //     historicalOffers: [
-  //         {
-  //             amount: [{amount: 75000}],
-  //             spend: 1000,
-  //             days: 90,
-  //             credits: [],
-  //         },
-  //     ],
-  // },
+  {
+    name: "Choice Privileges",
+    issuer: schemas.IssuersEnum.enum.BARCLAYS,
+    network: schemas.NetworksEnum.enum.VISA,
+    currency: schemas.CurrenciesEnum.enum.CHOICE,
+    isBusiness: false,
+    annualFee: 0,
+    isAnnualFeeWaived: false,
+    universalCashbackPercent: 1,
+    url: "https://www.choicehotels.com/fr-us/choice-privileges/earn-points/visa-credit-card",
+    imageUrl: "/images/barclays/choice-privileges.png",
+    credits: [],
+    offers: [
+      {
+        amount: [{ amount: 40_000 }],
+        spend: 1000,
+        days: 90,
+        credits: [],
+      },
+    ],
+    historicalOffers: [
+      {
+        amount: [{ amount: 75000 }],
+        spend: 1000,
+        days: 90,
+        credits: [],
+      },
+    ],
+  },
   {
     name: "Carnival World Mastercard",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
@@ -271,7 +269,6 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 1000,
         days: 90,
         credits: [],
-        details: "AF Waived.",
         url: "https://www.frontiermastercard.com/",
       },
     ],
@@ -298,7 +295,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 70_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 2000,
         days: 90,
         credits: [],
@@ -367,12 +364,6 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
       },
-      {
-        amount: [{ amount: 75_000 }],
-        spend: 15000,
-        days: 365,
-        credits: [],
-      },
     ],
     historicalOffers: [
       {
@@ -398,7 +389,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 40_000 }],
+        amount: [{ amount: 50_000 }],
         spend: 1000,
         days: 90,
         credits: [],
@@ -427,12 +418,6 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     imageUrl: "/images/barclays/lufthansa-miles-and-more.png",
     credits: [],
     offers: [
-      {
-        amount: [{ amount: 100_000 }],
-        spend: 3000,
-        days: 90,
-        credits: []
-      },
       {
         amount: [{ amount: 50_000 }],
         spend: 3000,
@@ -493,19 +478,10 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 45_000 }],
+        amount: [{ amount: 30_000 }],
         spend: 1000,
         days: 90,
         credits: [],
-      },
-      {
-        amount: [{ amount: 45_000 }],
-        spend: 1000,
-        days: 90,
-        credits: [],
-        details:
-          "Requires using a referral link. See comments on linked page for links.",
-        url: "https://www.doctorofcredit.com/share-your-barclays-wyndham-referral-links/",
       },
     ],
     historicalOffers: [
@@ -531,7 +507,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 75_000 }],
+        amount: [{ amount: 45_000 }],
         spend: 3000,
         days: 90,
         credits: [],
@@ -560,7 +536,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 75_000 }],
+        amount: [{ amount: 45_000 }],
         spend: 1000,
         days: 90,
         credits: [],
@@ -600,7 +576,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://cards.barclaycardus.com/banking/cards/hawaiian-airlines-world-elite-business-mastercard/",
-      }
+      },
     ],
     historicalOffers: [
       {

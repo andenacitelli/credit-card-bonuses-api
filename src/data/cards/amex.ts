@@ -21,18 +21,9 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 250 }],
-        spend: 5000,
+        spend: 3000,
         days: 90,
         credits: [],
-        url: "https://www.americanexpress.com/en-us/business/credit-cards/blue-business-cash/",
-      },
-      {
-        amount: [{ amount: 500 }],
-        spend: 15_000,
-        days: 365,
-        credits: [],
-
-        url: "https://www.uscreditcardguide.com/amex-blue-business-cash-credit-card/",
       },
     ],
     historicalOffers: [
@@ -101,18 +92,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         details: "Requires incognito or a VPN.",
       },
       {
-        amount: [{ amount: 100 }],
-        spend: 2000,
-        days: 180,
-        credits: [
-          {
-            value: 150,
-            description: "20% back up to $150 w/ Paypal",
-            weight: 0.8,
-          },
-        ],
-      },
-      {
         amount: [{ amount: 200 }],
         spend: 2000,
         days: 180,
@@ -164,7 +143,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 300 }],
+        amount: [{ amount: 250 }],
         spend: 3000,
         days: 180,
         credits: [],
@@ -234,18 +213,10 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 125_000 }],
-        spend: 10_000,
-        days: 90,
-        credits: [],
-        details: "YMMV, requires incognito mode.",
-        url: "https://creditcard.americanexpress.com/m/business-gold-card/?utm_mcid=3541154&utm_source=google&utm_medium=cpc&utm_term=%2Bamerican%20%2Bexpress%20%2Bbusiness%20%2Bplatinum&utm_cmpid=625512864&utm_adgid=36199274594&utm_tgtid=kwd-707750571077&utm_mt=p&utm_adid=659776720239&utm_dvc=m&utm_ntwk=g&utm_adpos=&utm_plcmnt=&utm_locphysid=1021048&utm_locintid=&utm_feeditemid=&utm_devicemdl=&utm_plcmnttgt=&utm_programname=brandproductspecific&gad=1&gclid=EAIaIQobChMIqvi5nMGPgQMVhC3UAR0jzgc0EAAYASAAEgLR8fD_BwE"
-      },
-      {
         amount: [{ amount: 70_000 }],
         spend: 10_000,
         days: 90,
-        credits: []
+        credits: [],
       },
     ],
     historicalOffers: [
@@ -271,13 +242,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     imageUrl: "/images/amex/business-green.webp",
     credits: [],
     offers: [
-      {
-        amount: [{ amount: 25_000 }],
-        spend: 3000,
-        days: 90,
-        credits: [],
-        details: "YMMV, requires incognito."
-      },
       {
         amount: [{ amount: 15_000 }],
         spend: 3000,
@@ -335,14 +299,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
       },
     ],
     offers: [
-      {
-        amount: [{ amount: 120_000 }],
-        spend: 15_000,
-        days: 90,
-        credits: [],
-        url: "https://creditcard.americanexpress.com/m/business-platinum/?utm_mcid=3541154&utm_source=google&utm_medium=cpc&utm_term=%2Bamerican+%2Bexpress+%2Bbusiness+%2Bplatinum&utm_cmpid=625512864&utm_adgid=36199274594&utm_tgtid=kwd-707750571077&utm_mt=p&utm_adid=659776720239&utm_dvc=m&utm_ntwk=g&utm_adpos=&utm_plcmnt=&utm_locphysid=1021048&utm_locintid=&utm_feeditemid=&utm_devicemdl=&utm_plcmnttgt=&utm_programname=brandproductspecific&gad=1&gclid=EAIaIQobChMIqvi5nMGPgQMVhC3UAR0jzgc0EAAYASAAEgLR8fD_BwE",
-        details: "YMMV, requries incognito."
-      },
       {
         amount: [{ amount: 120_000 }],
         spend: 15_000,
@@ -466,7 +422,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 180,
         credits: [],
         url: "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards",
-      }
+      },
     ],
     historicalOffers: [
       {
@@ -495,7 +451,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 2000,
         days: 90,
         credits: [],
-        url: "https://www.doctorofcredit.com/increased-american-express-business-delta-offers/"
+        url: "https://www.doctorofcredit.com/increased-american-express-business-delta-offers/",
       },
       {
         amount: [{ amount: 50_000 }],
@@ -594,7 +550,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 3000,
         days: 90,
         credits: [],
-        referralUrl: REFERRALS.AMERICAN_EXPRESS.DELTA_BUSINESS_PLATINUM
+        referralUrl: REFERRALS.AMERICAN_EXPRESS.DELTA_BUSINESS_PLATINUM,
       },
     ],
     historicalOffers: [
@@ -669,7 +625,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 6000,
         days: 90,
         credits: [],
-        url: "https://www.doctorofcredit.com/increased-american-express-business-delta-offers/"
+        url: "https://www.doctorofcredit.com/increased-american-express-business-delta-offers/",
       },
       {
         amount: [{ amount: 60_000 }],
@@ -788,7 +744,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 4000,
         days: 180,
         credits: [],
-        referralUrl: REFERRALS.AMERICAN_EXPRESS.GOLD
+        referralUrl: REFERRALS.AMERICAN_EXPRESS.GOLD,
       },
     ],
 
@@ -866,7 +822,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         amount: [{ amount: 100_000 }],
         spend: 2000,
         days: 90,
-        credits: []
+        credits: [],
       },
     ],
     historicalOffers: [
@@ -1053,14 +1009,21 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         value: 300,
         description: "$25/mo Dining Credit",
         weight: 0.75,
-      }
+      },
     ],
     offers: [
       {
         amount: [{ amount: 0 }],
         spend: 6000,
         days: 180,
-        credits: [{ value: 85_000 * 2, description: "2x FNC up to 85k per", weight: .75, currency: schemas.CurrenciesEnum.enum.MARRIOTT }],
+        credits: [
+          {
+            value: 85_000 * 2,
+            description: "2x FNC up to 85k per",
+            weight: 0.75,
+            currency: schemas.CurrenciesEnum.enum.MARRIOTT,
+          },
+        ],
       },
     ],
     historicalOffers: [
@@ -1075,7 +1038,13 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         amount: [{ amount: 0 }],
         spend: 6000,
         days: 180,
-        credits: [{ value: 85_000 * 2, description: "2x FNC up to 85k per", weight: .75 }],
+        credits: [
+          {
+            value: 85_000 * 2,
+            description: "2x FNC up to 85k per",
+            weight: 0.75,
+          },
+        ],
       },
     ],
   },
@@ -1109,7 +1078,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
             description: "3x FNC up to 50k per",
             weight: 0.75,
             value: 150_000,
-          }
+          },
         ],
       },
       {
@@ -1176,12 +1145,12 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-          amount: [{ amount: 125_000 }],
-          spend: 8000,
-          days: 180,
-          credits: [],
-          url: "https://www.americanexpress.com/us/credit-cards/?intlink=us-en-hp-product1-personal-creditcards",
-          details: "YMMV, incognito required. Some reports of 150k.",
+        amount: [{ amount: 125_000 }],
+        spend: 8000,
+        days: 180,
+        credits: [],
+        url: "https://www.americanexpress.com/us/credit-cards/?intlink=us-en-hp-product1-personal-creditcards",
+        details: "YMMV, incognito required. Some reports of 150k.",
       },
       {
         amount: [{ amount: 100_000 }],
