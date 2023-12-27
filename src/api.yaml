@@ -8,6 +8,7 @@ servers:
 paths:
   /json:
     get:
+      operationId: getJsonData
       summary: Get current card data in JSON format.
       responses:
         "200":
@@ -20,6 +21,7 @@ paths:
                   $ref: "#/components/schemas/CreditCard"
   /csv:
     get:
+      operationId: getCsvData
       summary: Get current card data in CSV format.
       responses:
         "200":
