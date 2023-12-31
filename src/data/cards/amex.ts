@@ -60,7 +60,14 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     url: "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-blue-business-plus-credit-card-amex/",
     imageUrl: "/images/amex/blue-business-plus.webp",
     credits: [],
-    offers: [],
+    offers: [
+      {
+        amount: [{ amount: 15_000 }],
+        spend: 3000,
+        days: 90,
+        credits: [],
+      },
+    ],
     historicalOffers: [
       {
         amount: [{ amount: 15_000 }],
