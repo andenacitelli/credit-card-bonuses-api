@@ -1152,12 +1152,20 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
+        amount: [{ amount: 150_000 }],
+        spend: 8000,
+        days: 180,
+        credits: [],
+        url: "https://www.uscreditcardguide.com/amex-platinum-card/",
+        details: "Inconsistent, YMMV. Incognito may be required.",
+      },
+      {
         amount: [{ amount: 125_000 }],
         spend: 8000,
         days: 180,
         credits: [],
         url: "https://www.americanexpress.com/us/credit-cards/?intlink=us-en-hp-product1-personal-creditcards",
-        details: "YMMV, incognito required. Some reports of 150k.",
+        details: "Inconsistent, YMMV. Incognito may be required.",
       },
       {
         amount: [{ amount: 100_000 }],
