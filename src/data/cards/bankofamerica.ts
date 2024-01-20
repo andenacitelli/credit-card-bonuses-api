@@ -17,12 +17,11 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 70_000 }, { amount: 100, currency: "USD" }],
+        amount: [{ amount: 50_000, currency: "FLYING_BLUE" }],
         spend: 2000,
         days: 90,
         credits: [],
         url: "https://wwws.airfrance.us/information/flyingblue/carte-bancaire-partenaire",
-        details: "Extra $100 is possible via dummy booking.",
       },
     ],
     historicalOffers: [

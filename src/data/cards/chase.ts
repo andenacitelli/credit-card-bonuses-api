@@ -1233,11 +1233,10 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 30_000 }],
+        amount: [{ amount: 35_000 }],
         spend: 3000,
         days: 90,
         credits: [],
-        url: "https://world.hyatt.com/content/gp/en/rewards/hyatt-credit-card.html",
       },
     ],
     historicalOffers: [
@@ -1259,15 +1258,24 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 199,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://creditcards.chase.com/worldofhyatt/22/naepb?CELL=69T0",
+    url: "https://world.hyatt.com/content/gp/en/rewards/hyatt-credit-card.html",
     imageUrl: "/images/chase/world-of-hyatt.png",
     credits: [],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 65_000 }],
         spend: 5000,
         days: 90,
         credits: [],
+        url: "https://www.doctorofcredit.com/chase-world-of-hyatt-business-card-75000-signup-bonus/",
+      },
+      {
+        amount: [{ amount: 75_000 }],
+        spend: 17000,
+        days: 90,
+        credits: [],
+        url: "https://www.doctorofcredit.com/chase-world-of-hyatt-business-card-75000-signup-bonus/",
+        details: "From 65k bonus. +10k for 12k spend.",
       },
     ],
     historicalOffers: [
