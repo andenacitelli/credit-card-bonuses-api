@@ -13,7 +13,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 95,
     isAnnualFeeWaived: true,
     universalCashbackPercent: 2,
-    url: "https://www.usbank.com/credit-cards/altitude-connect-visa-signature-credit-card.html",
+    url: "https://www.usbank.com/business-banking/business-credit-cards/business-altitude-connect-world-elite-mastercard.html",
     imageUrl: "/images/usbank/business-altitude-connect.webp",
     credits: [],
     offers: [
@@ -22,7 +22,6 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 6000,
         days: 180,
         credits: [],
-        url: "https://www.usbank.com/credit-cards/altitude-connect-visa-signature-credit-card.html",
       },
     ],
     historicalOffers: [
@@ -201,18 +200,10 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 95,
     isAnnualFeeWaived: true,
     universalCashbackPercent: 1,
-    url: "https://bizcards.usbank.com/credit/business-leverage-card.do",
+    url: "https://www.usbank.com/business-banking/business-credit-cards/benefits/leverage-visa-card-benefits.html",
     imageUrl: "/images/usbank/business-leverage.webp",
     credits: [],
-    offers: [
-      {
-        amount: [{ amount: 750 }],
-        spend: 7500,
-        days: 120,
-        credits: [],
-        url: "https://bizcards.usbank.com/credit/business-leverage-card.do",
-      },
-    ],
+    offers: [],
     historicalOffers: [
       {
         amount: [{ amount: 750 }],

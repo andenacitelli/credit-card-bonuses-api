@@ -17,11 +17,10 @@ export const FNBO_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 40_000 }],
+        amount: [{ amount: 20_000 }],
         spend: 1000,
         days: 90,
         credits: [],
-        url: "https://www.amtrak.com/guestrewards/offer.html?atv=PreferredMC-FNBO-AmtrakHomePageTile&cmp=HomePageTile-Mar2023-FNBOCobrandLTO-40KPreferred-20KAGRMastercard-AGR?intcmp=wsp_hp-hero_link_credit-card-lto_frame1",
       },
     ],
     historicalOffers: [
@@ -47,11 +46,10 @@ export const FNBO_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 30_000 }],
+        amount: [{ amount: 12_000 }],
         spend: 1000,
         days: 90,
         credits: [],
-        url: "https://www.amtrak.com/guestrewards/offer.html?atv=PreferredMC-FNBO-AmtrakHomePageTile&cmp=HomePageTile-Mar2023-FNBOCobrandLTO-40KPreferred-20KAGRMastercard-AGR?intcmp=wsp_hp-hero_link_credit-card-lto_frame1",
       },
     ],
     historicalOffers: [

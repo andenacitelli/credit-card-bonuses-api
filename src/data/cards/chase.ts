@@ -88,17 +88,9 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 75_000 }],
-        spend: 4000,
+        amount: [{ amount: 60_000 }],
+        spend: 3000,
         days: 90,
-        credits: [],
-        url: "https://creditcards.chase.com/travel-credit-cards/aircanada/aeroplan",
-      },
-      {
-        amount: [{ amount: 100_000 }],
-        spend: 20000,
-        days: 365,
-        url: "https://creditcards.chase.com/a1/Aeroplan/100k20Kaep",
         credits: [],
       },
     ],
@@ -375,7 +367,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 165_000 }],
+        amount: [{ amount: 140_000 }],
         spend: 3000,
         days: 90,
         credits: [],
@@ -433,14 +425,6 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     imageUrl: "/images/chase/ink-business-cash.png",
     credits: [],
     offers: [
-      {
-        amount: [{ amount: 90_000 }],
-        spend: 6000,
-        days: 90,
-        credits: [],
-        url: "https://creditcards.chase.com/business-credit-cards/ink/cash",
-        details: "Supposedly ending soon.",
-      },
       {
         amount: [{ amount: 75_000 }],
         spend: 6000,
@@ -509,14 +493,6 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     imageUrl: "/images/chase/ink-business-unlimited.png",
     credits: [],
     offers: [
-      {
-        amount: [{ amount: 90_000 }],
-        spend: 6000,
-        days: 90,
-        credits: [],
-        url: "https://creditcards.chase.com/business-credit-cards/ink/cash",
-        details: "Supposedly ending soon.",
-      },
       {
         amount: [{ amount: 75_000 }],
         spend: 6000,
@@ -1035,7 +1011,6 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 5000,
         days: 90,
         credits: [],
-        url: "https://creditcards.chase.com/travel-credit-cards/united/club-infinite",
         referralUrl: REFERRALS.CHASE.UNITED,
       },
     ],

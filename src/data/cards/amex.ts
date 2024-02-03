@@ -818,7 +818,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 100_000 }],
+        amount: [{ amount: 80_000 }],
         spend: 2000,
         days: 90,
         credits: [],
@@ -871,7 +871,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 180_000 }],
+        amount: [{ amount: 150_000 }],
         spend: 4000,
         days: 90,
         credits: [],
@@ -902,21 +902,15 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 95,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/hilton-honors/",
+    url: "https://www.hilton.com/en/hilton-honors/credit-cards/",
     imageUrl: "/images/amex/hilton-honors-business.png",
     credits: [],
     offers: [
       {
-        amount: [{ amount: 150_000 }],
+        amount: [{ amount: 130_000 }],
         spend: 4000,
         days: 90,
-        credits: [
-          {
-            value: 500,
-            weight: 0.7,
-            description: "Free Night Credit",
-          },
-        ],
+        credits: [],
         details: "Includes 1x FNC.",
       },
     ],
@@ -969,7 +963,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 170_000 }],
+        amount: [{ amount: 130_000 }],
         spend: 3000,
         days: 90,
         credits: [],
@@ -1061,8 +1055,15 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 125000 }],
-        credits: [],
+        amount: [{ amount: 0 }],
+        credits: [
+          {
+            currency: "MARRIOTT",
+            description: "3x Free Night Credit, up to 50k per",
+            value: 150_000,
+            weight: 0.7,
+          },
+        ],
         spend: 8000,
         days: 90,
       },
