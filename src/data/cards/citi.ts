@@ -82,10 +82,17 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 75_000 }],
-        spend: 2500,
+        amount: [{ amount: 30_000 }],
+        spend: 1500,
         days: 90,
-        credits: [],
+        credits: [
+          {
+            currency: "USD",
+            description: "Credit on AA Purchases",
+            weight: 0.8,
+            value: 400,
+          },
+        ],
       },
     ],
     historicalOffers: [
@@ -117,11 +124,18 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 65_000 }],
-        spend: 4000,
+        amount: [{ amount: 30_000 }],
+        spend: 1500,
         days: 90,
-        credits: [],
-        url: "https://creditcards.aa.com/citi-business-card-american-airlines-wand/?utm_medium=referral&utm_source=aa&utm_campaign=ccpage",
+        credits: [
+          {
+            currency: "USD",
+            description: "Credit on AA Purchases",
+            weight: 0.8,
+            value: 400,
+          },
+        ],
+        url: "https://creditcards.aa.com/citi-business-card-american-airlines-bp/?utm_medium=referral&utm_source=aa&utm_campaign=bptravelers_rdb",
       },
     ],
     historicalOffers: [

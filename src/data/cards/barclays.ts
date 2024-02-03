@@ -17,16 +17,6 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 75_000 }],
-        spend: 0.01,
-        days: 90,
-        credits: [],
-        url: "https://www.doctorofcredit.com/barclays-aviator-red-world-elite-mastercard-referral-links-go-here-75000-offer/",
-        details:
-          "Referral only, DoC page linked. Only one purchase (no matter how small) is required.",
-        expiration: "2023-01-31",
-      },
-      {
         amount: [{ amount: 60_000 }],
         spend: 0.01,
         days: 90,
@@ -585,10 +575,16 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 2000,
         days: 90,
         credits: [],
-        url: "https://cards.barclaycardus.com/banking/cards/hawaiian-airlines-world-elite-business-mastercard/",
       },
     ],
     historicalOffers: [
+      {
+        amount: [{ amount: 70_000 }],
+        spend: 0.01,
+        days: 90,
+        credits: [],
+        details: "Requires one purchase of ANY amount.",
+      },
       {
         amount: [{ amount: 50_000 }],
         spend: 2000,

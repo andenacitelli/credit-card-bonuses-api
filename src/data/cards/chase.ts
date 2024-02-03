@@ -623,8 +623,8 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [
           {
-            description: "3x Free Night Credits",
-            value: 150_000,
+            description: "5x Free Night Credits",
+            value: 250_000,
             weight: 0.8,
             currency: schemas.CurrenciesEnum.enum.MARRIOTT,
           },
@@ -983,10 +983,11 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 100_000 }],
         spend: 5000,
         days: 90,
         credits: [],
+        url: "https://www.theexplorercard.com/business-rewards-cards/business-card?",
       },
     ],
     historicalOffers: [
@@ -1030,7 +1031,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 90_000 }],
+        amount: [{ amount: 80_000 }],
         spend: 5000,
         days: 90,
         credits: [],
@@ -1068,11 +1069,11 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 75_000 }],
         spend: 5000,
         days: 90,
         credits: [],
-        url: "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+        url: "https://www.theexplorercard.com/business-rewards-cards/club-card",
       },
     ],
     historicalOffers: [
@@ -1263,19 +1264,19 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 65_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 5000,
         days: 90,
         credits: [],
         url: "https://www.doctorofcredit.com/chase-world-of-hyatt-business-card-75000-signup-bonus/",
       },
       {
-        amount: [{ amount: 75_000 }],
+        amount: [{ amount: 70_000 }],
         spend: 17000,
         days: 90,
         credits: [],
         url: "https://www.doctorofcredit.com/chase-world-of-hyatt-business-card-75000-signup-bonus/",
-        details: "From 65k bonus. +10k for 12k spend.",
+        details: "From 60k bonus. +10k for 12k spend.",
       },
     ],
     historicalOffers: [
