@@ -145,11 +145,10 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 200 }],
-        spend: 1000,
+        amount: [{ amount: 300 }],
+        spend: 3000,
         days: 90,
         credits: [],
-        url: "https://www.bankofamerica.com/credit-cards/products/cash-back-credit-card/",
       },
     ],
     historicalOffers: [
@@ -405,7 +404,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 300 }],
-        spend: 1000,
+        spend: 3000,
         days: 90,
         credits: [],
         url: "https://www.bankofamerica.com/smallbusiness/credit-cards/products/platinum-plus-business-credit-card/?campaign=4053445~YT~en_US",
