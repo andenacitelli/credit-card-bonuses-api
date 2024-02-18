@@ -5,6 +5,35 @@ import { WEIGHTS } from "../weights";
 
 export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
+    name: "Business Altitude Power",
+    issuer: schemas.IssuersEnum.enum.US_BANK,
+    network: schemas.NetworksEnum.enum.MASTERCARD,
+    currency: schemas.CurrenciesEnum.enum.US_BANK,
+    isBusiness: true,
+    annualFee: 195,
+    isAnnualFeeWaived: false,
+    universalCashbackPercent: 2,
+    url: "https://www.usbank.com/business-banking/business-credit-cards/business-altitude-power-world-elite-mastercard.html",
+    imageUrl: "/images/usbank/altitude-power.webp",
+    credits: [],
+    offers: [
+      {
+        amount: [{ amount: 75_000 }],
+        spend: 10_000,
+        days: 120,
+        credits: [],
+      },
+    ],
+    historicalOffers: [
+      {
+        amount: [{ amount: 75_000 }],
+        spend: 10_000,
+        days: 120,
+        credits: [],
+      },
+    ],
+  },
+  {
     name: "Business Altitude Connect",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.MASTERCARD,

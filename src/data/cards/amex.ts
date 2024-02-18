@@ -307,6 +307,13 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
+        amount: [{ amount: 200_000 }],
+        spend: 15_000,
+        days: 90,
+        credits: [],
+        url: "https://www.americanexpress.com/en-us/campaigns/small-business/bundles/business-platinum-employee-card/?sourcecode=A0000HAY34",
+      },
+      {
         amount: [{ amount: 120_000 }],
         spend: 15_000,
         days: 90,
@@ -908,10 +915,9 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 130_000 }],
-        spend: 4000,
+        spend: 3000,
         days: 90,
         credits: [],
-        details: "Includes 1x FNC.",
       },
     ],
     historicalOffers: [
@@ -1059,8 +1065,8 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         credits: [
           {
             currency: "MARRIOTT",
-            description: "3x Free Night Credit, up to 50k per",
-            value: 150_000,
+            description: "5x Free Night Credit, up to 50k per",
+            value: 250_000,
             weight: 0.7,
           },
         ],
