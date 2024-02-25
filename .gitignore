@@ -1,9 +1,13 @@
-node_modules/
-src/generated/
+# Generated / Transient
+/src/generated/api.client.ts
+/.esbuild/
+/.serverless/
 .env
-.esbuild/
-.serverless/
-.idea/
+*.tsbuildinfo
 
-screenshots/
-.DS_Store
+# Node
+node_modules/
+
+# Editors
+.vscode/
+.idea/

@@ -4,10 +4,11 @@ info:
   title: Credit Card Bonuses
   description: Publicly available API for Credit Card Bonus information.
 servers:
-  - url: https://jo0g96wiy5.execute-api.us-east-1.amazonaws.com/
+  - url: https://jo0g96wiy5.execute-api.us-east-1.amazonaws.com
 paths:
   /json:
     get:
+      security: []
       operationId: getJsonData
       summary: Get current card data in JSON format.
       responses:
@@ -21,6 +22,7 @@ paths:
                   $ref: "#/components/schemas/CreditCard"
   /csv:
     get:
+      security: []
       operationId: getCsvData
       summary: Get current card data in CSV format.
       responses:
@@ -34,7 +36,6 @@ paths:
 
 components:
   schemas:
-
     # --- Components --- #
     Credit:
       type: object
@@ -49,11 +50,11 @@ components:
           description: The face value of the credit. Note that there is another attribute, `weight`, that we generally multiply this by to get how much the credit as "actually" worth. This is the original, at-a-glance value.
           example: 100
         weight:
-            type: number
-            description: The weight of the credit. This is a multiplier that we use to determine how much the credit is actually worth. For example, a 1.0 weight means that the credit is very easy to actually use. A .25 weight means the credit is very difficult to use and should be valued around 25% of its face value.
-            example: 0.5
-            minimum: 0
-            maximum: 1
+          type: number
+          description: The weight of the credit. This is a multiplier that we use to determine how much the credit is actually worth. For example, a 1.0 weight means that the credit is very easy to actually use. A .25 weight means the credit is very difficult to use and should be valued around 25% of its face value.
+          example: 0.5
+          minimum: 0
+          maximum: 1
         currency:
           $ref: "#/components/schemas/CurrenciesEnum"
       required:

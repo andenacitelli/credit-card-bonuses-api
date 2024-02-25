@@ -1,19 +1,27 @@
-name: ci
+name: CI
+on: push
 
-on:
-  pull_request:
-    branches: [ main ]
 jobs:
-  main:
+  ci:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18
-          cache: npm
-      - run: npm ci
-      - run: npm run generate
+      - uses: actions/checkout@v4
 
-      # All the actual checks
-      - run: npm run ci
+      # Dependencies
+      - uses: pnpm/action-setup@v3
+        with:
+          version: 8
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm i
+
+      # Codegen
+      - run: pnpm generate
+
+      # Tests
+      - run: pnpx depcheck .
+      - run: pnpm lint
+      - run: pnpm typecheck
+      - run: pnpm test

@@ -11,7 +11,7 @@ The companion site for this is [Offer Optimist](https://offeroptimist.com). It c
 
 ---
 
-*I work for [Akkio](https://akkio.com), a predictive AI platform geared towards Data Analysts. If you're looking for predictive AI without needing any data science knowledge, check us out!*
+_I work for [Akkio](https://akkio.com), a predictive AI platform geared towards Data Analysts. If you're looking for predictive AI without needing any data science knowledge, check us out!_
 
 ### Features
 
@@ -24,8 +24,8 @@ I pay for the server time and development cost for this entirely out of my own p
 
 ### Contributing
 
-I highly encourage PRs or Issues for data updates. If you see an offer is out of date, create an issue or fix the issue yourself with a PR and I'll be happy to merge it in. 
+I highly encourage PRs or Issues for data updates. If you see an offer is out of date, create an issue or fix the issue yourself with a PR and I'll be happy to merge it in.
 
 ### License
 
-This project is under the MIT License with an added [Commons Clause](https://commonsclause.com/). In effect, these two items mean that you can do whatever you like with the project *as long as* your derived work is not sold commercially. I make this available with the intent of enabling hobbyists to use it as they wish, not to try and get in some long-term business deal that implies support, SLAs, and more on my part.
+This project is under the MIT License with an added [Commons Clause](https://commonsclause.com/). In effect, these two items mean that you can do whatever you like with the project _as long as_ your derived work is not sold commercially. I make this available with the intent of enabling hobbyists to use it as they wish, not to try and get in some long-term business deal that implies support, SLAs, and more on my part.

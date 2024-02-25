@@ -20,9 +20,9 @@ router.get("/csv", (_, response: Response<string>) => {
     .status(200)
     .header("Content-Type", "text/csv")
     .send(
-      CSV_COLUMN_ORDER.join(",") +
-        "\n" +
-        CREDIT_CARDS.map((card) => cardToCSV(card)).join("\n")
+      `${CSV_COLUMN_ORDER.join(",")}\n${CREDIT_CARDS.map((card) =>
+        cardToCSV(card)
+      ).join("\n")}`
     );
 });
 

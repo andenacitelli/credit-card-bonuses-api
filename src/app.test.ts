@@ -18,6 +18,8 @@ describe("Express app", () => {
       expect(response.statusCode).toEqual(200);
       expect(response.text.length).toBeGreaterThan(0);
       expect(response.text).toContain("issuer"); // Checking header row exists
+      expect(response.text).not.toContain("[object Object]");
+      console.log("response text", response.text);
 
       // +1 is due to header row
       const numberOfOffers = CREDIT_CARDS.reduce(

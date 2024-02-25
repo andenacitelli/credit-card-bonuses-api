@@ -44,7 +44,7 @@ export const cardToCSV = (card: z.input<typeof schemas.CreditCard>) => {
               card.isBusiness)),
         imageUrl: `https://offeroptimist.com${card.imageUrl}`,
         credits: card.credits
-          .map((credit) => "$" + credit.value + " " + credit.description)
+          .map((credit) => `${credit.value} ${credit.description}`)
           .join("; "),
       };
       return CSV_COLUMN_ORDER.map((key) => {

@@ -2,7 +2,7 @@ name: Warm Lambda
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: "*/5 * * * *"
 
 jobs:
   warmup:
