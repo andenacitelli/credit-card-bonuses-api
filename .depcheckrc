@@ -1,0 +1,2 @@
+ignores: ["@types/jest", "@types/node", "depcheck", "@zodios/core"]
+skip-missing: true

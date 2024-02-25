@@ -2,6 +2,7 @@ import { z } from "zod";
 
 import { schemas } from "../../generated/api.client";
 import { WEIGHTS } from "../weights";
+
 export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
     name: "Air France KLM",
