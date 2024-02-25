@@ -1,10 +1,10 @@
 import express, { Response } from "express";
 import { z } from "zod";
-
+import Papa from "papaparse";
 import { CREDIT_CARDS } from "@/data/data";
 
 import { schemas } from "../generated/api.client";
-import { cardToCSV, CSV_COLUMN_ORDER } from "../util/csv";
+import { cardToDumpableObjects } from "../util/csv";
 
 const router = express.Router();
 
@@ -20,9 +20,14 @@ router.get("/csv", (_, response: Response<string>) => {
     .status(200)
     .header("Content-Type", "text/csv")
     .send(
-      `${CSV_COLUMN_ORDER.join(",")}\n${CREDIT_CARDS.map((card) =>
-        cardToCSV(card)
-      ).join("\n")}`
+      Papa.unparse(
+        CREDIT_CARDS.reduce((accumulator, card) => {
+          for (const offer of cardToDumpableObjects(card)) {
+            accumulator.push(offer);
+          }
+          return accumulator;
+        }, [] as object[])
+      )
     );
 });
 
