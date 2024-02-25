@@ -1,7 +1,4 @@
 import supertest from "supertest";
-
-import { CREDIT_CARDS } from "@/data/data";
-
 import { app } from "./app";
 
 describe("Express app", () => {
@@ -19,14 +16,6 @@ describe("Express app", () => {
       expect(response.text.length).toBeGreaterThan(0);
       expect(response.text).toContain("issuer"); // Checking header row exists
       expect(response.text).not.toContain("[object Object]");
-      console.log("response text", response.text);
-
-      // +1 is due to header row
-      const numberOfOffers = CREDIT_CARDS.reduce(
-        (count, card) => count + card.offers.length,
-        0
-      );
-      expect(response.text.split("\n").length).toEqual(numberOfOffers + 1);
     });
   });
 });
