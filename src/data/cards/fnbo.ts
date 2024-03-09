@@ -17,8 +17,8 @@ export const FNBO_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 20_000 }],
-        spend: 1000,
+        amount: [{ amount: 40_000 }],
+        spend: 2000,
         days: 90,
         credits: [],
       },
@@ -26,7 +26,7 @@ export const FNBO_CARDS: z.input<typeof schemas.CreditCard>[] = [
     historicalOffers: [
       {
         amount: [{ amount: 40_000 }],
-        spend: 1000,
+        spend: 2000,
         days: 90,
         credits: [],
       },
@@ -79,7 +79,12 @@ export const FNBO_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 1000,
         days: 90,
         credits: [],
-        url: "https://www.card.fnbo.com/landing/bestwestern/multiple",
+      },
+      {
+        amount: [{ amount: 20_000 }],
+        spend: 5000,
+        days: 365,
+        credits: [],
       },
     ],
     historicalOffers: [
@@ -109,7 +114,12 @@ export const FNBO_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 3000,
         days: 90,
         credits: [],
-        url: "https://www.card.fnbo.com/landing/bestwestern/bestwesternlto",
+      },
+      {
+        amount: [{ amount: 40_000 }],
+        spend: 5000,
+        days: 365,
+        credits: [],
       },
     ],
     historicalOffers: [

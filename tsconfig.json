@@ -1,41 +1,12 @@
 {
+  "extends": "@tsconfig/recommended",
   "compilerOptions": {
-    "lib": ["esnext"],
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "removeComments": true,
-    "preserveConstEnums": true,
-    "strict": true,
-    "incremental": true,
-    "alwaysStrict": true,
-    "strictNullChecks": true,
-    "noUncheckedIndexedAccess": true,
-
-    "noImplicitAny": true,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "allowUnreachableCode": false,
-    "noFallthroughCasesInSwitch": true,
-
-    "target": "esnext",
-    "outDir": "dist",
-    "declaration": false,
-    "sourceMap": true,
-
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "allowJs": false,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
+    "strict": true, // Required for non-nullable Zod types
     "baseUrl": ".",
+    "lib": "esnext",
+    "target": "esnext",
     "paths": {
       "@/*": ["./src/*"]
-    },
-    "typeRoots": ["./node_modules/@types"]
-  },
-  "include": ["./src/**/*"],
-  "exclude": ["./dist/**/*", "./node_modules/**/*"]
+    }
+  }
 }

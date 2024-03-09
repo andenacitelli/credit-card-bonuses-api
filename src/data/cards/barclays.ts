@@ -135,7 +135,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://www.choicehotels.com/fr-us/choice-privileges/earn-points/visa-credit-card",
+    url: "https://www.choicehotels.com/choice-privileges",
     imageUrl: "/images/barclays/choice-privileges.png",
     credits: [],
     offers: [
@@ -473,7 +473,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://cards.barclaycardus.com/banking/cards/wyndham-rewards-earner-card/",
+    url: "https://www.wyndhamrewardscreditcard.com/#earner",
     imageUrl: "/images/barclays/wyndham-rewards-earner.svg",
     credits: [],
     offers: [
@@ -502,7 +502,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 95,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://cards.barclaycardus.com/banking/cards/wyndham-rewards-earner-business-card/",
+    url: "https://www.wyndhamrewardscreditcard.com/#earnerbusiness",
     imageUrl: "/images/barclays/wyndham-rewards-earner-business.png",
     credits: [],
     offers: [
@@ -538,7 +538,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 75,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://cards.barclaycardus.com/banking/cards/wyndham-rewards-earner-plus-card/",
+    url: "https://www.wyndhamrewardscreditcard.com/#earnerplus",
     imageUrl: "/images/barclays/wyndham-rewards-earner-plus.png",
     credits: [],
     offers: [
