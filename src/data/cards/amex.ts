@@ -305,7 +305,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         referralUrl: REFERRALS.AMERICAN_EXPRESS.BUSINESS_GREEN,
-        url: "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-green-card-amex/",
       },
     ],
     historicalOffers: [
