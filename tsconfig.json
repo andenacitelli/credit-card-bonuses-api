@@ -3,7 +3,7 @@
   "compilerOptions": {
     "strict": true, // Required for non-nullable Zod types
     "baseUrl": ".",
-    "lib": "esnext",
+    "lib": ["esnext"],
     "target": "esnext",
     "paths": {
       "@/*": ["./src/*"]

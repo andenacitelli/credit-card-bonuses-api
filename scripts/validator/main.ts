@@ -157,7 +157,7 @@ async function getPageTextForCard(
 
 const handleCard = async (
   browser: Browser,
-  card: z.input<schemas.CreditCard>
+  card: z.input<typeof schemas.CreditCard>
 ): Promise<void> => {
   const pageText = await getPageTextForCard(browser, card);
   if (pageText.length === 0) {
