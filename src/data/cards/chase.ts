@@ -669,6 +669,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.SAPPHIRE.PREFERRED,
+        details: "70k available in branch, if you prefer.",
       },
     ],
     historicalOffers: [

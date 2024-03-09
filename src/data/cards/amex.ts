@@ -225,6 +225,14 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
       },
+      {
+        amount: [{ amount: 150_000 }],
+        spend: 10_000,
+        days: 90,
+        credits: [],
+        url: "https://www.doctorofcredit.com/ymmv-american-express-business-gold-150000-point-no-lifetime-language/",
+        details: "Inconsistent, YMMV.",
+      },
     ],
     historicalOffers: [
       {
@@ -864,7 +872,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
     currency: schemas.CurrenciesEnum.enum.HILTON,
     isBusiness: false,
-    annualFee: 450,
+    annualFee: 550,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
     url: "https://www.hilton.com/en/hilton-honors/credit-cards/",
@@ -878,9 +886,9 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 150_000 }],
-        spend: 4000,
-        days: 90,
+        amount: [{ amount: 175_000 }],
+        spend: 6000,
+        days: 180,
         credits: [],
       },
     ],
@@ -1012,38 +1020,18 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 0 }],
+        amount: [{ amount: 185_000 }],
         spend: 6000,
         days: 180,
-        credits: [
-          {
-            value: 85_000 * 2,
-            description: "2x FNC up to 85k per",
-            weight: 0.75,
-            currency: schemas.CurrenciesEnum.enum.MARRIOTT,
-          },
-        ],
+        credits: [],
       },
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 150_000 }],
-        spend: 5000,
-        days: 90,
-        credits: [],
-        expiration: "2023-01-11",
-      },
-      {
-        amount: [{ amount: 0 }],
+        amount: [{ amount: 185_000 }],
         spend: 6000,
         days: 180,
-        credits: [
-          {
-            value: 85_000 * 2,
-            description: "2x FNC up to 85k per",
-            weight: 0.75,
-          },
-        ],
+        credits: [],
       },
     ],
   },
@@ -1322,7 +1310,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 125_000 }],
+        amount: [{ amount: 155_000 }],
         spend: 5000,
         days: 180,
         credits: [],
@@ -1330,10 +1318,10 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 125_000 }],
+        amount: [{ amount: 155_000 }],
+        spend: 5000,
+        days: 180,
         credits: [],
-        spend: 4000,
-        days: 90,
       },
     ],
   },
