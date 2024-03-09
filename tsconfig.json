@@ -1,5 +1,5 @@
 {
-  "extends": "@tsconfig/recommended",
+  "extends": "@tsconfig/recommended/tsconfig.json",
   "compilerOptions": {
     "strict": true, // Required for non-nullable Zod types
     "baseUrl": ".",
