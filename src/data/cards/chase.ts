@@ -324,17 +324,10 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 140_000 }],
+        amount: [{ amount: 165_000 }],
         spend: 3000,
         days: 90,
-        credits: [
-          {
-            description: "Statement Credit",
-            value: 100,
-            weight: 0.8,
-          },
-        ],
-        url: "https://www.ihg.com/onerewards/content/us/en/creditcard/premier",
+        credits: [],
       },
     ],
     historicalOffers: [
