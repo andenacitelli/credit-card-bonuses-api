@@ -78,7 +78,7 @@ export const WELLS_FARGO_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 200 }],
-        spend: 2000,
+        spend: 500,
         days: 90,
         credits: [],
         url: "https://creditcards.wellsfargo.com/active-cash-credit-card/",
@@ -108,7 +108,7 @@ export const WELLS_FARGO_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 20_000 }],
-        spend: 1500,
+        spend: 1000,
         days: 90,
         credits: [],
         url: "https://creditcards.wellsfargo.com/autograph-visa-credit-card/?sub_channel=SEO&vendor_code=G",
