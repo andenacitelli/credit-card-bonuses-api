@@ -3,7 +3,6 @@ import { CREDIT_CARDS } from "@/data/data";
 import puppeteer, { Browser } from "puppeteer";
 import { mkdirp } from "mkdirp";
 import { openai } from "@/remote/openai";
-import pRetry from "p-retry";
 import { z } from "zod";
 import chalk from "chalk";
 
