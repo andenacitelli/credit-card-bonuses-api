@@ -2,13 +2,13 @@
   "name": "@andenacitelli/credit-card-bonuses",
   "version": "1.0.0",
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "dev": "sls offline start --stage offline",
     "deploy:prod": "sls deploy --stage prod",
     "lint": "biome lint --apply .",
     "typecheck": "tsc --noEmit",
     "format": "prettier --write .",
     "test": "jest",
-    "ci": "npm run lint && npm run test",
     "generate": "redocly lint --extends=minimal src/api.yaml && openapi-zod-client ./src/api.yaml --output src/generated/api.client.ts --export-schemas",
     "prepare": "husky"
   },

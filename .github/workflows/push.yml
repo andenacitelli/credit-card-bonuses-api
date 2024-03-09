@@ -9,14 +9,22 @@ jobs:
     name: deploy
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+
+      # Dependencies
+      - uses: pnpm/action-setup@v3
         with:
-          node-version: 18
-          cache: npm
-      - run: npm ci
-      - run: npm run generate
-      - run: npm i -g serverless
+          version: 8
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm i -g serverless
+      - run: pnpm i
+
+      # Codegen
+      - run: pnpm generate
+
       - run: sls config credentials --provider aws --key ${{ secrets.AWS_ACCESS_KEY_ID }} --secret ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       - run: sls deploy --stage prod
         env:
