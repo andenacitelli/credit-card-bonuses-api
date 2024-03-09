@@ -1389,22 +1389,15 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://www.americanexpress.com/us/credit-cards/card-application/apply/lowes-business-rewards-card/42472-9-0#/",
+    url: "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/lowes-credit-cards/",
     imageUrl: "/images/amex/lowes-business.webp",
     credits: [],
     offers: [
       {
-        amount: [{ amount: 0 }],
+        amount: [{ amount: 100 }],
         spend: 0,
         days: 90,
-        credits: [
-          {
-            value: 100,
-            description: "Automatic statement credit",
-            weight: 1,
-          },
-        ],
-        url: "https://www.americanexpress.com/us/credit-cards/card-application/apply/lowes-business-rewards-card/42472-9-0#/",
+        credits: [],
       },
     ],
     historicalOffers: [

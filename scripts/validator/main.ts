@@ -121,6 +121,8 @@ Notes:
 - If a card requires update, you can omit any that don't change in your output. For example, if only the amount changed, your output would look like "Amount X -> Y".
 - You may only point out inaccuracies between the point requirement, spend requirement, and/or the duration/days.
 - For the amount, ignore things like Southwest's Companion pass. It's valuable, but the correct spot to compare those isn't the "amount" field. Those will be communicated separately. For example, something like this: "Amount 30000 -> Companion Pass through 2/28/2025 plus 30,000" would instead be no change.
+- Ignore any bonuses additions that are contingent on getting an employee card.
+- Ignore any kind of airline perk that isn't points (ex. United's Premier Qualifying Points). Consider only the points when comparing.
 `;
 
 function scrubIrrelevantInfoFromCard(

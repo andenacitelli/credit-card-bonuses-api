@@ -21,7 +21,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 85_000 }],
-        spend: 5000,
+        spend: 4000,
         days: 90,
         credits: [],
         url: "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bountiful?iCELL=61GD",
@@ -389,7 +389,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 80_000 }],
+        amount: [{ amount: 100_000 }],
         spend: 2000,
         days: 90,
         credits: [],
@@ -588,7 +588,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 0 }],
-        spend: 3000,
+        spend: 5000,
         days: 90,
         credits: [
           {
