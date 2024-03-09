@@ -17,11 +17,10 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 50_000 }],
         spend: 0.01,
         days: 90,
         credits: [],
-        url: "https://www.applyaviator.com/",
         details: "Requires ANY purchase as well as the Annual Fee.",
       },
     ],
@@ -83,7 +82,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 100 }],
-        spend: 1000,
+        spend: 500,
         days: 90,
         credits: [],
       },
@@ -112,7 +111,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 100 }],
-        spend: 1000,
+        spend: 500,
         days: 90,
         credits: [],
       },
@@ -135,7 +134,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://www.choicehotels.com/fr-us/choice-privileges/earn-points/visa-credit-card",
+    url: "https://www.choicehotels.com/choice-privileges",
     imageUrl: "/images/barclays/choice-privileges.png",
     credits: [],
     offers: [
@@ -266,10 +265,9 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 50_000 }],
-        spend: 1000,
+        spend: 500,
         days: 90,
         credits: [],
-        url: "https://www.frontiermastercard.com/",
       },
     ],
     historicalOffers: [
@@ -359,8 +357,8 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
-        spend: 5000,
+        amount: [{ amount: 50_000 }],
+        spend: 4000,
         days: 90,
         credits: [],
       },
@@ -389,7 +387,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 1000,
         days: 90,
         credits: [],
@@ -473,7 +471,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://cards.barclaycardus.com/banking/cards/wyndham-rewards-earner-card/",
+    url: "https://www.wyndhamrewardscreditcard.com/#earner",
     imageUrl: "/images/barclays/wyndham-rewards-earner.svg",
     credits: [],
     offers: [
@@ -502,7 +500,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 95,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://cards.barclaycardus.com/banking/cards/wyndham-rewards-earner-business-card/",
+    url: "https://www.wyndhamrewardscreditcard.com/#earnerbusiness",
     imageUrl: "/images/barclays/wyndham-rewards-earner-business.png",
     credits: [],
     offers: [
@@ -538,12 +536,12 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 75,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://cards.barclaycardus.com/banking/cards/wyndham-rewards-earner-plus-card/",
+    url: "https://www.wyndhamrewardscreditcard.com/#earnerplus",
     imageUrl: "/images/barclays/wyndham-rewards-earner-plus.png",
     credits: [],
     offers: [
       {
-        amount: [{ amount: 100_000 }],
+        amount: [{ amount: 75_000 }],
         spend: 2000,
         days: 180,
         credits: [],

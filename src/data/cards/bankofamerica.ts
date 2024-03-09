@@ -145,7 +145,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 300 }],
+        amount: [{ amount: 200 }],
         spend: 3000,
         days: 90,
         credits: [],
@@ -153,8 +153,8 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 200 }],
-        spend: 1000,
+        amount: [{ amount: 300 }],
+        spend: 2000,
         days: 90,
         credits: [],
       },
@@ -175,7 +175,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 60_000 }],
-        spend: 5000,
+        spend: 4000,
         days: 90,
         credits: [],
         url: "https://www.bankofamerica.com/credit-cards/products/premium-rewards-credit-card/",

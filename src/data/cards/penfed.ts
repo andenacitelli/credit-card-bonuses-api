@@ -78,10 +78,9 @@ export const PENFED_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 50_000 }],
-        spend: 1500,
+        spend: 3000,
         days: 90,
         credits: [],
-        url: "https://www.penfed.org/credit-cards/pathfinder-rewards",
       },
     ],
     historicalOffers: [

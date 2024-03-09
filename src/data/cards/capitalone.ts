@@ -49,10 +49,10 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [],
     historicalOffers: [
       {
-        amount: [{ amount: 500 }],
-        credits: [],
+        amount: [{ amount: 300 }],
         spend: 3000,
         days: 90,
+        credits: [],
       },
     ],
   },
@@ -98,15 +98,7 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     url: "https://www.capitalone.com/small-business/credit-cards/spark-cash-select",
     imageUrl: "/images/capitalone/spark-cash.webp",
     credits: [],
-    offers: [
-      {
-        amount: [{ amount: 750 }],
-        spend: 6000,
-        days: 90,
-        credits: [],
-        url: "https://www.capitalone.com/small-business/credit-cards/spark-cash-select",
-      },
-    ],
+    offers: [],
     historicalOffers: [
       {
         amount: [{ amount: 500 }],
@@ -128,15 +120,7 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     url: "https://www.capitalone.com/small-business/credit-cards/spark-miles-select/",
     imageUrl: "/images/capitalone/spark-miles.webp",
     credits: [],
-    offers: [
-      {
-        amount: [{ amount: 50_000 }],
-        spend: 4500,
-        days: 90,
-        credits: [],
-        url: "https://www.capitalone.com/small-business/credit-cards/spark-miles-select/",
-      },
-    ],
+    offers: [],
     historicalOffers: [
       {
         amount: [{ amount: 20_000 }],
@@ -159,15 +143,7 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     url: "https://www.capitalone.com/small-business/credit-cards/spark-cash-plus/",
     imageUrl: "/images/capitalone/spark-cash.webp",
     credits: [],
-    offers: [
-      {
-        amount: [{ amount: 1200 }],
-        spend: 30000,
-        days: 90,
-        credits: [],
-        url: "https://www.capitalone.com/small-business/credit-cards/spark-cash-plus/",
-      },
-    ],
+    offers: [],
     historicalOffers: [
       {
         amount: [{ amount: 500 }],
@@ -197,15 +173,7 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     countsTowards524: false,
     imageUrl: "/images/capitalone/spark-miles.webp",
     credits: [],
-    offers: [
-      {
-        amount: [{ amount: 50_000 }],
-        spend: 4500,
-        days: 90,
-        credits: [],
-        url: "https://www.capitalone.com/small-business/credit-cards/spark-miles/",
-      },
-    ],
+    offers: [],
     historicalOffers: [
       {
         amount: [{ amount: 50_000 }],
@@ -390,7 +358,7 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 20_000 }],
-        spend: 1000,
+        spend: 500,
         days: 90,
         credits: [],
       },

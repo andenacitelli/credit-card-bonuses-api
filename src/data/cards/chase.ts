@@ -21,7 +21,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 85_000 }],
-        spend: 5000,
+        spend: 4000,
         days: 90,
         credits: [],
         url: "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bountiful?iCELL=61GD",
@@ -162,7 +162,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 300 }],
+        amount: [{ amount: 400 }],
         spend: 1000,
         days: 90,
         credits: [],
@@ -389,7 +389,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 80_000 }],
+        amount: [{ amount: 100_000 }],
         spend: 2000,
         days: 90,
         credits: [],
@@ -588,7 +588,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 0 }],
-        spend: 3000,
+        spend: 5000,
         days: 90,
         credits: [
           {
@@ -782,12 +782,13 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
-        spend: 3000,
+        amount: [{ amount: 30_000 }],
+        spend: 4000,
         days: 90,
         credits: [],
         url: "https://creditcards.chase.com/a1/southwest/AEP75kPlus1023#",
         referralUrl: REFERRALS.CHASE.SOUTHWEST,
+        details: "Comes with Companion Pass.",
       },
     ],
     historicalOffers: [
@@ -820,12 +821,12 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 30_000 }],
         spend: 3000,
         days: 90,
         credits: [],
-        url: "https://creditcards.chase.com/a1/southwest/AEP75kPlus1023#",
         referralUrl: REFERRALS.CHASE.SOUTHWEST,
+        details: "Comes with companion pass, which can be quite valuable.",
       },
     ],
     historicalOffers: [
@@ -909,12 +910,13 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
-        spend: 3000,
+        amount: [{ amount: 30_000 }],
+        spend: 4000,
         days: 90,
         credits: [],
         url: "https://creditcards.chase.com/a1/southwest/AEP75kPlus1023#",
         referralUrl: REFERRALS.CHASE.SOUTHWEST,
+        details: "Comes with companion pass, which can be quite valuable.",
       },
     ],
     historicalOffers: [

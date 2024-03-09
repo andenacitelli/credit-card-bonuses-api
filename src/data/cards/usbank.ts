@@ -110,7 +110,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         amount: [{ amount: 200 }],
         spend: 1000,
-        days: 120,
+        days: 90,
         credits: [],
         url: "https://www.usbank.com/credit-cards/altitude-go-visa-signature-credit-card.html",
       },
@@ -146,7 +146,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         amount: [{ amount: 50_000 }],
         spend: 4500,
-        days: 120,
+        days: 90,
         credits: [],
         url: "https://www.usbank.com/credit-cards/altitude-reserve-visa-infinite-credit-card.html",
       },
@@ -202,15 +202,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     url: "https://www.usbank.com/credit-cards/flexperks-gold-american-express-credit-card.html",
     imageUrl: "/images/usbank/flexperks-gold.jpg",
     credits: [],
-    offers: [
-      {
-        amount: [{ amount: 30_000 }],
-        spend: 2000,
-        days: 120,
-        credits: [],
-        url: "https://www.usbank.com/credit-cards/flexperks-gold-american-express-credit-card.html",
-      },
-    ],
+    offers: [],
     historicalOffers: [
       {
         amount: [{ amount: 30_000 }],
