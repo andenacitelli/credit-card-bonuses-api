@@ -124,4 +124,36 @@ export const WELLS_FARGO_CARDS: z.input<typeof schemas.CreditCard>[] = [
       },
     ],
   },
+  {
+    name: "Autograph Journey",
+    issuer: schemas.IssuersEnum.enum.WELLS_FARGO,
+    network: schemas.NetworksEnum.enum.VISA,
+    currency: schemas.CurrenciesEnum.enum.WELLS_FARGO,
+    isBusiness: false,
+    annualFee: 95,
+    isAnnualFeeWaived: false,
+    universalCashbackPercent: 1,
+    // TODO: URL and potentially Image URL will need updated after launch
+    url: "https://creditcards.wellsfargo.com/autograph-visa-credit-card/?sub_channel=SEO&vendor_code=G",
+    imageUrl: "/images/wellsfargo/autograph.png",
+    credits: [],
+    offers: [
+      {
+        amount: [{ amount: 60_000 }],
+        spend: 4000,
+        days: 90,
+        credits: [],
+        details:
+          "Card is brand-new, but should have an application link any day now (was supposed to be Mar 9, 2024). Links will redirect to the normal Autograph for now.",
+      },
+    ],
+    historicalOffers: [
+      {
+        amount: [{ amount: 60_000 }],
+        spend: 4000,
+        days: 90,
+        credits: [],
+      },
+    ],
+  },
 ];
