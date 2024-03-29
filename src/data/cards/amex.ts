@@ -968,52 +968,33 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
     currency: schemas.CurrenciesEnum.enum.HILTON,
     isBusiness: true,
-    annualFee: 95,
+    annualFee: 175,
     isAnnualFeeWaived: false,
-    universalCashbackPercent: 1,
+    universalCashbackPercent: 5,
     url: "https://www.hilton.com/en/hilton-honors/credit-cards/",
     imageUrl: "/images/amex/hilton-honors-business.png",
-    credits: [],
+    credits: [
+      {
+        currency: "HILTON",
+        value: 240,
+        weight: 0.5,
+        description: "$60 Hilton credit per quarter.",
+      },
+    ],
     offers: [
       {
-        amount: [{ amount: 130_000 }],
-        spend: 3000,
-        days: 90,
+        amount: [{ amount: 175_000 }],
+        spend: 8000,
+        days: 180,
         credits: [],
       },
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 130_000 }],
-        spend: 3000,
-        days: 90,
-        credits: [
-          {
-            value: 130,
-            description: "Hilton Credit",
-            weight: 1,
-          },
-        ],
-      },
-      {
-        amount: [{ amount: 180_000 }],
-        spend: 4000,
+        amount: [{ amount: 175_000 }],
+        spend: 8000,
         days: 180,
         credits: [],
-      },
-      {
-        amount: [{ amount: 165_000 }],
-        spend: 5000,
-        days: 90,
-        credits: [
-          {
-            value: 130,
-            description: "Hilton Credit",
-            weight: 1,
-          },
-        ],
-        expiration: "2023-04-05",
-        url: "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/hilton-honors/",
       },
     ],
   },
