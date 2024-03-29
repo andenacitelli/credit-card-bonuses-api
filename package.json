@@ -15,7 +15,7 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "express": "^4.18.2",
+    "express": "^4.19.2",
     "express-async-errors": "^3.1.1",
     "helmet": "^7.1.0",
     "papaparse": "^5.4.1",
