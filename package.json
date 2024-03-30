@@ -47,7 +47,6 @@
     "serverless": "^3.38.0",
     "serverless-esbuild": "^1.51.0",
     "serverless-offline": "^13.3.3",
-    "serverless-plugin-datadog": "^5.57.1",
     "supertest": "^6.3.4",
     "typescript": "^5.3.3"
   },

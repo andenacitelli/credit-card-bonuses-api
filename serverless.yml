@@ -9,10 +9,6 @@ custom:
     httpPort: 4000
     noPrependStageInUrl: true
     reloadHandler: true
-  datadog:
-    site: datadoghq.com
-    apiKey: ${env:DATADOG_API_KEY}
-    env: ${self:custom.stage}
 
 provider:
   name: aws
@@ -34,6 +30,5 @@ functions:
           method: "*"
 
 plugins:
-  - serverless-plugin-datadog
   - serverless-esbuild
   - serverless-offline
