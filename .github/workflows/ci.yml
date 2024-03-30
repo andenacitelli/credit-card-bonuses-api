@@ -9,8 +9,6 @@ jobs:
 
       # Dependencies
       - uses: pnpm/action-setup@v3
-        with:
-          version: 8
       - uses: actions/setup-node@v4
         with:
           node-version-file: .nvmrc
@@ -22,7 +20,6 @@ jobs:
 
       # Tests
       - run: pnpm exec depcheck .
-      - run: pnpm lint:openapi
       - run: pnpm lint:biome
       - run: pnpm lint:typescript
       - run: pnpm test
