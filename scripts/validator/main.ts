@@ -1,6 +1,6 @@
-import { schemas } from "@/generated/api.client";
+import type { schemas } from "@/generated/api.client";
 import { CREDIT_CARDS } from "@/data/data";
-import puppeteer, { Browser } from "puppeteer";
+import puppeteer, { type Browser } from "puppeteer";
 import { mkdirp } from "mkdirp";
 import { openai } from "@/remote/openai";
 import { z } from "zod";
@@ -147,8 +147,7 @@ async function getPageTextForCard(
 ): Promise<string> {
   const page = await browser.newPage();
   await page.goto(card.url);
-  await page.waitForNetworkIdle({ timeout: 10_000, idleTime: 1_000 });
-  await page.waitForTimeout(500); // additional sanity wait
+  await page.waitForNetworkIdle({ timeout: 10_000, idleTime: 1_500 });
   const text = await page.$eval("*", (el) => el.innerText);
   await page.close();
   return text;
@@ -232,7 +231,6 @@ const handleCard = async (
 const main = async () => {
   const browser = await puppeteer.launch({
     defaultViewport: null,
-    headless: "new",
   });
   for (const card of CREDIT_CARDS) {
     try {
