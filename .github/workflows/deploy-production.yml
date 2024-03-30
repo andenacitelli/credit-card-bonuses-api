@@ -1,4 +1,4 @@
-name: Deploy stage `production`
+name: deploy > `production`
 
 on:
   push:
