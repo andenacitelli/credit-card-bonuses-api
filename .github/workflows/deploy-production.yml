@@ -1,13 +1,9 @@
-name: Deploy `main` Branch
+name: Deploy stage `production`
 
 on:
   push:
     branches:
       - main
-
-concurrency:
-  # If this workflow is already running, wait for the previous iteration to complete. Otherwise, Serverless doesn't really know how to handle deploying when a deploy is in progress, and will error out.
-  group: ${{ github.workflow }}
 
 jobs:
   deploy:
