@@ -1,4 +1,4 @@
-name: Deploy stage `production`
+name: deploy > `prod`
 
 on:
   push:
@@ -10,4 +10,4 @@ jobs:
     uses: ./.github/workflows/_deploy.yml
     secrets: inherit
     with:
-      stage: production
+      stage: prod
