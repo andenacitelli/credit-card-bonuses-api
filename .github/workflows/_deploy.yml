@@ -27,12 +27,11 @@ jobs:
         with:
           node-version-file: .nvmrc
           cache: pnpm
-      - run: pnpm i -g serverless
       - run: pnpm i
 
       # Codegen
       - run: pnpm generate
 
-      - run: sls config credentials --provider aws --key ${{ secrets.AWS_ACCESS_KEY_ID }} --secret ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      - run: pnpx sls config credentials --provider aws --key ${{ secrets.AWS_ACCESS_KEY_ID }} --secret ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       - run: echo "NOW=$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV
-      - run: sls deploy --stage ${{ inputs.stage }} --param="DEPLOY_TIMESTAMP=$NOW"
+      - run: pnpx sls deploy --stage ${{ inputs.stage }} --param="DEPLOY_TIMESTAMP=$NOW"
