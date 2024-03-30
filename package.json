@@ -12,7 +12,6 @@
     "deploy:prod": "sls deploy --stage prod",
     "lint": "pnpm lint:biome && pnpm lint:typescript",
     "lint:biome": "biome lint --apply .",
-    "lint:openapi": "redocly lint --extends=minimal src/api.yaml",
     "lint:typescript": "tsc --noEmit",
     "format": "prettier --write .",
     "test": "jest",
