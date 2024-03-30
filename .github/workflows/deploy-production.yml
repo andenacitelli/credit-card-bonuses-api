@@ -8,5 +8,6 @@ on:
 jobs:
   deploy:
     uses: ./.github/workflows/reusable/deploy.yml
+    secrets: inherit
     with:
       stage: production
