@@ -1,6 +1,10 @@
 {
   "name": "@andenacitelli/credit-card-bonuses",
   "version": "1.0.0",
+  "engines": {
+    "node": "^20.0.0",
+    "pnpm": "^8.0.0"
+  },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "dev": "sls offline start --stage offline",
