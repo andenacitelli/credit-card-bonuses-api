@@ -31,4 +31,14 @@ router.get("/csv", (_, response: Response<string>) => {
     );
 });
 
+router.get("/last-updated", (_, response: Response<string>) => {
+  if (!process.env.DEPLOY_TIMESTAMP) {
+    return response.status(500).end();
+  }
+  return response
+    .status(200)
+    .header("Content-Type", "text/plain")
+    .send(process.env.DEPLOY_TIMESTAMP);
+});
+
 export { router };

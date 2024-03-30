@@ -20,6 +20,8 @@ provider:
   logRetentionInDays: 30
   httpApi:
     cors: true
+  environment:
+    DEPLOY_TIMESTAMP: ${param:DEPLOY_TIMESTAMP,'offline'}
 
 functions:
   app:
