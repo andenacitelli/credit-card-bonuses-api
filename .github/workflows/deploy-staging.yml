@@ -4,7 +4,7 @@ on: pull_request
 
 jobs:
   deploy:
-    uses: ./.github/workflows/reusable/deploy.yml
+    uses: ./.github/workflows/_deploy.yml
     secrets: inherit
     with:
       stage: staging
