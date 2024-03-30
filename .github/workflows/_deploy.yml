@@ -6,7 +6,7 @@ on:
       stage:
         type: string
         required: true
-        description: The stage to deploy to. Either "staging" or "production.
+        description: The stage to deploy to. Either "staging" or "prod".
 
 concurrency:
   # If this workflow is already running, wait for the previous iteration to complete. Otherwise, Serverless doesn't really know how to handle deploying when a deploy is in progress, and will error out.
