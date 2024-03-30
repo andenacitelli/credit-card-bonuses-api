@@ -1,9 +1,6 @@
 name: Deploy `main` Branch
 
-on:
-  push:
-    branches:
-      - main
+on: pull_request
 
 concurrency:
   # If this workflow is already running, wait for the previous iteration to complete. Otherwise, Serverless doesn't really know how to handle deploying when a deploy is in progress, and will error out.
