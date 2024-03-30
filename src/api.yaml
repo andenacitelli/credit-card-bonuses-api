@@ -33,6 +33,19 @@ paths:
               schema:
                 type: string
                 description: CSV-formatted string of offer data. Only includes current offers. Each offer has its own line. Columns are -- name,issuer,network,currency,offerAmount,offerSpend,offerDays,offerUrl,countsTowards524,details,isBusiness,annualFee,isAnnualFeeWaived,universalCashbackPercent,url,imageUrl,credits
+  /last-updated:
+    get:
+      security: []
+      operationId: getLastUpdated
+      summary: Gets an ISO 8601 timestamp representing the last time this API was updated.
+      responses:
+        "200":
+          description: Successful response.
+          content:
+            application/text:
+              schema:
+                type: string
+                description: ISO 8601 timestamp representing when this API version was deployed.
 
 components:
   schemas:

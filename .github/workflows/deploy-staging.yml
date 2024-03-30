@@ -1,0 +1,10 @@
+name: Deploy stage `staging`
+
+on: pull_request
+
+jobs:
+  deploy:
+    uses: ./.github/workflows/_deploy.yml
+    secrets: inherit
+    with:
+      stage: staging

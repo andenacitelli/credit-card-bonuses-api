@@ -21,7 +21,7 @@ jobs:
       - run: pnpm generate
 
       # Tests
-      - run: pnpx depcheck .
+      - run: pnpm exec depcheck .
       - run: pnpm lint:openapi
       - run: pnpm lint:biome
       - run: pnpm lint:typescript

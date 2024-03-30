@@ -1,0 +1,13 @@
+name: Deploy stage `production`
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    uses: ./.github/workflows/_deploy.yml
+    secrets: inherit
+    with:
+      stage: production
