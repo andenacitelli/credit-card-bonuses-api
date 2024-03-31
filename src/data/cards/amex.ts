@@ -1,4 +1,4 @@
-import { z } from "zod";
+import type { z } from "zod";
 
 import { REFERRALS } from "@/data/referral-links";
 
@@ -486,8 +486,8 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 70_000 }],
-        spend: 3000,
+        amount: [{ amount: 40_000 }],
+        spend: 2000,
         days: 180,
         credits: [],
       },
@@ -515,8 +515,8 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 80_000 }],
-        spend: 6000,
+        amount: [{ amount: 55_000 }],
+        spend: 4000,
         days: 180,
         credits: [],
       },
@@ -556,8 +556,8 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 90_000 }],
-        spend: 4000,
+        amount: [{ amount: 50_000 }],
+        spend: 3000,
         days: 180,
         credits: [],
       },
@@ -607,7 +607,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 100_000 }],
+        amount: [{ amount: 65_000 }],
         spend: 8000,
         days: 180,
         credits: [],
@@ -637,11 +637,10 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 100_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 6000,
         days: 180,
         credits: [],
-        expiration: "2024-03-27",
       },
     ],
     historicalOffers: [
@@ -674,17 +673,10 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 70_000 }],
-        spend: 12_000,
+        amount: [{ amount: 75_000 }],
+        spend: 10_000,
         days: 180,
         credits: [],
-      },
-      {
-        amount: [{ amount: 110_000 }],
-        spend: 12_000,
-        days: 180,
-        credits: [],
-        details: "Inconsistent, YMMV.",
       },
     ],
     historicalOffers: [
