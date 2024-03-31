@@ -31,5 +31,5 @@ jobs:
       - run: pnpm generate
 
       - run: pnpm exec sls config credentials --provider aws --key ${{ secrets.AWS_ACCESS_KEY_ID }} --secret ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-      - run: echo "NOW=$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV
+      - run: echo "NOW=$(date +'%Y-%m-%dT%H:%M:%S' + 'Z')" >> $GITHUB_ENV
       - run: pnpm exec sls deploy --stage ${{ inputs.stage }} --param="DEPLOY_TIMESTAMP=$NOW"
