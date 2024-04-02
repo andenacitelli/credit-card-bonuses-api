@@ -453,16 +453,10 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     historicalOffers: [
       {
         amount: [{ amount: 10_000 }],
-        spend: 500,
-        days: 90,
-        credits: [],
-        url: "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-blue-american-express-card/",
-      },
-      {
-        amount: [{ amount: 15_000 }],
         spend: 1000,
         days: 90,
         credits: [],
+        expiration: "2023-07-01",
       },
     ],
   },
@@ -494,10 +488,11 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 90_000 }],
+        amount: [{ amount: 75_000 }],
         spend: 2000,
         days: 90,
         credits: [],
+        expiration: "2021-12-01",
       },
     ],
   },
@@ -564,16 +559,11 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 50_000 }],
-        spend: 2000,
-        days: 90,
-        credits: [],
-      },
-      {
         amount: [{ amount: 90_000 }],
         credits: [],
         spend: 4000,
         days: 90,
+        expiration: "2024-03-01",
       },
     ],
   },
@@ -648,14 +638,8 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         amount: [{ amount: 125_000 }],
         spend: 5000,
         days: 90,
-        credits: [], //
-      },
-      {
-        amount: [{ amount: 50_000 }],
-        spend: 3000,
-        days: 90,
         credits: [],
-        url: "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/",
+        expiration: "2021-12-01",
       },
     ],
   },
@@ -809,10 +793,11 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
 
     historicalOffers: [
       {
-        amount: [{ amount: 100_000 }],
+        amount: [{ amount: 90_000 }],
         spend: 4000,
         days: 180,
         credits: [],
+        expiration: "2024-03-01",
       },
     ],
   },
@@ -852,15 +837,8 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         amount: [{ amount: 60_000 }],
         spend: 2000,
         days: 180,
-        credits: [
-          {
-            description: "Statement Credit (Travel)",
-            value: 200,
-            weight: 0.6,
-            currency: schemas.CurrenciesEnum.enum.USD,
-          },
-        ],
-        url: "https://www.americanexpress.com/us/credit-cards/card/green/",
+        credits: [],
+        expiration: "2023-05-01",
       },
     ],
   },
@@ -890,24 +868,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 5000,
         days: 180,
         credits: [],
-      },
-      {
-        amount: [{ amount: 100_000 }],
-        spend: 2000,
-        days: 180,
-        credits: [],
-      },
-      {
-        amount: [{ amount: 100_000 }],
-        spend: 1000,
-        days: 180,
-        credits: [
-          {
-            value: 100,
-            description: "Hilton Credit",
-            weight: 1,
-          },
-        ],
+        expiration: "2021-12-01",
       },
     ],
   },
@@ -939,17 +900,11 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 150_000 }],
+        amount: [{ amount: 180_000 }],
         spend: 4000,
         days: 180,
         credits: [],
-      },
-      {
-        amount: [{ amount: 150_000 }],
-        spend: 6000,
-        days: 180,
-        credits: [],
-        url: "https://www.hilton.com/en/hilton-honors/credit-cards/",
+        expiration: "2023-12-01",
       },
     ],
   },
@@ -1011,18 +966,11 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 150_000 }],
+        amount: [{ amount: 200_000 }],
         spend: 2000,
         days: 180,
-        details: "AF is NOT waived.",
         credits: [],
-      },
-      {
-        amount: [{ amount: 150_000 }],
-        spend: 3000,
-        days: 180,
-        credits: [],
-        url: "https://www.hilton.com/en/hilton-honors/credit-cards/",
+        details: "2021-12-01",
       },
     ],
   },
@@ -1054,10 +1002,11 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 185_000 }],
+        amount: [{ amount: 200_000 }],
         spend: 6000,
         days: 180,
         credits: [],
+        expiration: "2023-07-01",
       },
     ],
   },
@@ -1195,7 +1144,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 6000,
         days: 180,
         credits: [],
-        expiration: "2022-11-01",
+        expiration: "2024-03-01",
       },
     ],
   },
@@ -1344,10 +1293,11 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 155_000 }],
+        amount: [{ amount: 175_000 }],
         spend: 5000,
         days: 180,
         credits: [],
+        expiration: "2023-07-01",
       },
     ],
   },

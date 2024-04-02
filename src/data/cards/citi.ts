@@ -1,4 +1,4 @@
-import { z } from "zod";
+import type { z } from "zod";
 
 import { schemas } from "../../generated/api.client";
 
@@ -25,16 +25,11 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 50_000 }],
-        spend: 6500,
-        credits: [],
-        days: 90,
-      },
-      {
-        amount: [{ amount: 100_000 }],
-        spend: 10000,
+        amount: [{ amount: 70_000 }],
+        spend: 7000,
         days: 90,
         credits: [],
+        expiration: "2023-10-01",
       },
     ],
   },
@@ -61,7 +56,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 10_000 }],
+        amount: [{ amount: 15_000 }],
         spend: 500,
         days: 90,
         credits: [],
@@ -90,10 +85,11 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 75_000 }],
+        amount: [{ amount: 125_000 }],
         spend: 3500,
         days: 90,
         credits: [],
+        expiration: "2024-03-01",
       },
     ],
   },
