@@ -204,6 +204,7 @@ components:
       type: string
       enum:
         - BEST_WESTERN
+        - BREEZE
         - HILTON
         - HYATT
         - IHG

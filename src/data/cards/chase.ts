@@ -322,7 +322,14 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 165_000 }],
+        amount: [{ amount: 175_000 }],
+        spend: 3000,
+        days: 90,
+        credits: [],
+        url: "https://creditcards.chase.com/a1/ihg/BIZQ224NAEP",
+      },
+      {
+        amount: [{ amount: 140_000 }],
         spend: 3000,
         days: 90,
         credits: [],
