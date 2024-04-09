@@ -1,4 +1,4 @@
-import { z } from "zod";
+import type { z } from "zod";
 
 import { schemas } from "../../generated/api.client";
 import { WEIGHTS } from "../weights";
@@ -373,7 +373,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 70_000 }],
         spend: 5000,
         days: 90,
         credits: [],
@@ -382,20 +382,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 30_000 }],
-        spend: 3000,
-        credits: [],
-        days: 90,
-      },
-      {
-        amount: [{ amount: 50_000 }],
-        spend: 10_000,
-        days: 90,
-        expiration: "2022-07-01",
-        credits: [],
-      },
-      {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 70_000 }],
         spend: 5000,
         days: 90,
         credits: [],
