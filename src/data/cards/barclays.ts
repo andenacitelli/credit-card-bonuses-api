@@ -126,35 +126,6 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    name: "Choice Privileges",
-    issuer: schemas.IssuersEnum.enum.BARCLAYS,
-    network: schemas.NetworksEnum.enum.VISA,
-    currency: schemas.CurrenciesEnum.enum.CHOICE,
-    isBusiness: false,
-    annualFee: 0,
-    isAnnualFeeWaived: false,
-    universalCashbackPercent: 1,
-    url: "https://www.choicehotels.com/choice-privileges",
-    imageUrl: "/images/barclays/choice-privileges.png",
-    credits: [],
-    offers: [
-      {
-        amount: [{ amount: 40_000 }],
-        spend: 1000,
-        days: 90,
-        credits: [],
-      },
-    ],
-    historicalOffers: [
-      {
-        amount: [{ amount: 75000 }],
-        spend: 1000,
-        days: 90,
-        credits: [],
-      },
-    ],
-  },
-  {
     name: "Carnival World Mastercard",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,

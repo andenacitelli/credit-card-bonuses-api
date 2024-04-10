@@ -1,4 +1,4 @@
-import { z } from "zod";
+import type { z } from "zod";
 
 import { schemas } from "../../generated/api.client";
 
@@ -155,6 +155,64 @@ export const WELLS_FARGO_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         amount: [{ amount: 60_000 }],
         spend: 4000,
+        days: 90,
+        credits: [],
+      },
+    ],
+  },
+  {
+    name: "Choice Privileges",
+    issuer: schemas.IssuersEnum.enum.WELLS_FARGO,
+    network: schemas.NetworksEnum.enum.VISA,
+    currency: schemas.CurrenciesEnum.enum.CHOICE,
+    isBusiness: false,
+    annualFee: 0,
+    isAnnualFeeWaived: false,
+    universalCashbackPercent: 1,
+    url: "https://www.choicehotels.com/choice-privileges/earn-points/mastercard-credit-card",
+    imageUrl: "/images/wellsfargo/choice-privileges.png", // Card is technically issued by wells fargo now, but keeping the image in the old place isn't a big deal
+    credits: [],
+    offers: [
+      {
+        amount: [{ amount: 40_000 }],
+        spend: 1000,
+        days: 90,
+        credits: [],
+      },
+    ],
+    historicalOffers: [
+      {
+        amount: [{ amount: 40_000 }],
+        spend: 1000,
+        days: 90,
+        credits: [],
+      },
+    ],
+  },
+  {
+    name: "Choice Privileges Select",
+    issuer: schemas.IssuersEnum.enum.WELLS_FARGO,
+    network: schemas.NetworksEnum.enum.VISA,
+    currency: schemas.CurrenciesEnum.enum.CHOICE,
+    isBusiness: false,
+    annualFee: 95,
+    isAnnualFeeWaived: false,
+    universalCashbackPercent: 1,
+    url: "https://www.choicehotels.com/choice-privileges/earn-points/mastercard-credit-card",
+    imageUrl: "/images/wellsfargo/choice-privileges-select.png",
+    credits: [],
+    offers: [
+      {
+        amount: [{ amount: 60_000 }],
+        spend: 3000,
+        days: 90,
+        credits: [],
+      },
+    ],
+    historicalOffers: [
+      {
+        amount: [{ amount: 60_000 }],
+        spend: 3000,
         days: 90,
         credits: [],
       },
