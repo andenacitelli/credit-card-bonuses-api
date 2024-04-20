@@ -148,7 +148,6 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 4500,
         days: 90,
         credits: [],
-        url: "https://www.usbank.com/credit-cards/altitude-reserve-visa-infinite-credit-card.html",
       },
     ],
     historicalOffers: [

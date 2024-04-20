@@ -113,25 +113,17 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 30_000 }],
-        spend: 1500,
-        days: 90,
-        credits: [
-          {
-            currency: "USD",
-            description: "Credit on AA Purchases",
-            weight: 0.8,
-            value: 400,
-          },
-        ],
-        url: "https://creditcards.aa.com/citi-business-card-american-airlines-bp/?utm_medium=referral&utm_source=aa&utm_campaign=bptravelers_rdb",
+        amount: [{ amount: 75_000 }],
+        spend: 5000,
+        days: 150,
+        credits: [],
       },
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 65_000 }],
-        spend: 4000,
-        days: 90,
+        amount: [{ amount: 75_000 }],
+        spend: 5000,
+        days: 150,
         credits: [],
       },
     ],

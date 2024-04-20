@@ -1114,28 +1114,26 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 150_000 }],
+        amount: [{ amount: 175_000 }],
         spend: 8000,
         days: 180,
         credits: [],
         url: "https://www.uscreditcardguide.com/amex-platinum-card/",
-        details: "Inconsistent, YMMV. Incognito may be required.",
-      },
-      {
-        amount: [{ amount: 125_000 }],
-        spend: 8000,
-        days: 180,
-        credits: [],
-        url: "https://www.americanexpress.com/us/credit-cards/?intlink=us-en-hp-product1-personal-creditcards",
-        details: "Inconsistent, YMMV. Incognito may be required.",
+        details:
+          "Follow referral links in the linked thread. You may also have success with VPN/Incognito on the 80k offer below.",
       },
       {
         amount: [{ amount: 100_000 }],
         spend: 8000,
         days: 180,
         credits: [],
-        url: "https://www.americanexpress.com/en-us/credit-cards/offers/resy?date=2023-10-19&seats=2",
-        details: "10x on $25k dining spend not factored in.",
+        url: "https://www.americanexpress.com/en-us/credit-cards/offers/resy/",
+      },
+      {
+        amount: [{ amount: 80_000 }],
+        spend: 8000,
+        days: 180,
+        credits: [],
       },
     ],
     historicalOffers: [

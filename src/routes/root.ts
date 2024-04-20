@@ -1,9 +1,9 @@
-import express, { Response } from "express";
-import { z } from "zod";
+import express, { type Response } from "express";
+import type { z } from "zod";
 import Papa from "papaparse";
 import { CREDIT_CARDS } from "@/data/data";
 
-import { schemas } from "../generated/api.client";
+import type { schemas } from "../generated/api.client";
 import { cardToDumpableObjects } from "../util/csv";
 
 const router = express.Router();

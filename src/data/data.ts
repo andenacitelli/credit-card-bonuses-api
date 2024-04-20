@@ -1,6 +1,6 @@
-import { z } from "zod";
+import type { z } from "zod";
 
-import { schemas } from "../generated/api.client";
+import type { schemas } from "../generated/api.client";
 import { AMERICAN_EXPRESS_CARDS } from "./cards/amex";
 import { BANK_OF_AMERICA_CARDS } from "./cards/bankofamerica";
 import { BARCLAYS_CARDS } from "./cards/barclays";
