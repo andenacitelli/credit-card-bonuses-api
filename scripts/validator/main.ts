@@ -1,3 +1,4 @@
+// #!/usr/bin/env node --loader tsx
 import type { schemas } from "@/generated/api.client";
 import { CREDIT_CARDS } from "@/data/data";
 import puppeteer, { type Browser } from "puppeteer";
@@ -89,7 +90,7 @@ Notes:
 Examples:
 
 Here is an example of what the text for a credit card offer on a webpage might look like:
- 
+
 --- EXAMPLE ---
 New Card Member Offer
 

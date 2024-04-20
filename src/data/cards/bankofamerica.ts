@@ -313,7 +313,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 300 }],
-        spend: 1000,
+        spend: 3000,
         days: 90,
         credits: [],
         url: "https://www.bankofamerica.com/smallbusiness/credit-cards/products/cash-rewards-business-credit-card/?campaign=4053371~X7~en_US",

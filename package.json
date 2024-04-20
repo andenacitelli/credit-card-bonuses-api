@@ -5,6 +5,9 @@
     "node": "^20.0.0",
     "pnpm": "^8.0.0"
   },
+  "bin": {
+    "validate": "./scripts/validator/main.ts"
+  },
   "packageManager": "pnpm@^8.0.0",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
@@ -52,6 +55,7 @@
     "serverless-esbuild": "^1.52.1",
     "serverless-offline": "^13.3.3",
     "supertest": "^6.3.4",
+    "tsx": "~4.7.1",
     "typescript": "^5.4.3"
   },
   "lint-staged": {
