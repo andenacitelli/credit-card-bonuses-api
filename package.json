@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "engines": {
     "node": "^20.0.0",
-    "pnpm": "^8.0.0"
+    "pnpm": "^9.0.0"
   },
   "bin": {
     "validate": "./scripts/validator/main.ts"
   },
-  "packageManager": "pnpm@^8.0.0",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "dev": "sls offline start --stage offline",
@@ -42,7 +41,6 @@
     "@types/supertest": "^6.0.2",
     "@zodios/core": "^10.9.6",
     "chalk": "^5.3.0",
-    "depcheck": "^1.4.7",
     "esbuild": "~0.20.2",
     "husky": "^9.0.11",
     "jest": "^29.7.0",

@@ -19,7 +19,6 @@ jobs:
       - run: pnpm generate
 
       # Tests
-      - run: pnpm exec depcheck .
       - run: pnpm lint:biome
       - run: pnpm lint:typescript
       - run: pnpm test
