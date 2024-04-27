@@ -1,4 +1,4 @@
-name: CI
+name: Test
 on: push
 
 jobs:
@@ -8,12 +8,7 @@ jobs:
       - uses: actions/checkout@v4
 
       # Dependencies
-      - uses: pnpm/action-setup@v3
-      - uses: actions/setup-node@v4
-        with:
-          node-version-file: .nvmrc
-          cache: pnpm
-      - run: pnpm i
+      - uses: ./.github/actions/pnpm_install
 
       # Codegen
       - run: pnpm generate
