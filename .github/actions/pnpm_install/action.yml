@@ -10,3 +10,4 @@ runs:
         node-version-file: .nvmrc
         cache: pnpm
     - run: pnpm i
+      shell: bash
