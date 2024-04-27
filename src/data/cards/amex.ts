@@ -857,7 +857,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 100_000 }],
+        amount: [{ amount: 80_000 }],
         spend: 2000,
         days: 180,
         credits: [],
@@ -893,7 +893,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 175_000 }],
+        amount: [{ amount: 150_000 }],
         spend: 6000,
         days: 180,
         credits: [],
@@ -959,7 +959,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 155_000 }],
+        amount: [{ amount: 130_000 }],
         spend: 3000,
         days: 180,
         credits: [],
@@ -1029,13 +1029,14 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         credits: [
           {
             currency: "MARRIOTT",
-            description: "5x Free Night Credit, up to 50k per",
-            value: 250_000,
+            description: "3x Free Night Credit, up to 50k per",
+            value: 150_000,
             weight: 0.7,
           },
         ],
         spend: 8000,
         days: 90,
+        details: "3x FNC up to 50k per",
       },
     ],
     historicalOffers: [
@@ -1120,8 +1121,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 180,
         credits: [],
         url: "https://www.uscreditcardguide.com/amex-platinum-card/",
-        details:
-          "Follow referral links in the linked thread. You may also have success with VPN/Incognito on the 80k offer below.",
+        details: "Follow referrals in the linked thread. YMMV.",
       },
       {
         amount: [{ amount: 100_000 }],

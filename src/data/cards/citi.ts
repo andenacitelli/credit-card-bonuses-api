@@ -51,7 +51,6 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 500,
         days: 90,
         credits: [],
-        url: "https://creditcards.aa.com/citi-mileup-card-american-airlines-direct/",
       },
     ],
     historicalOffers: [
@@ -77,9 +76,9 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 65_000 }],
-        spend: 400,
-        days: 120,
+        amount: [{ amount: 50_000 }],
+        spend: 2500,
+        days: 150,
         credits: [],
       },
     ],

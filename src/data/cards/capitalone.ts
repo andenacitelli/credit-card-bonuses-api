@@ -313,14 +313,7 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 150_000 }],
-        spend: 20_000,
-        days: 90,
-        details: "Extremely high spend requirement, be aware.",
-        credits: [],
-      },
-      {
-        amount: [{ amount: 300_000 }],
-        spend: 100_000,
+        spend: 30_000,
         days: 90,
         details: "Extremely high spend requirement, be aware.",
         credits: [],
@@ -329,14 +322,7 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     historicalOffers: [
       {
         amount: [{ amount: 150_000 }],
-        spend: 20_000,
-        days: 90,
-        details: "Extremely high spend requirement, be aware.",
-        credits: [],
-      },
-      {
-        amount: [{ amount: 300_000 }],
-        spend: 100_000,
+        spend: 30_000,
         days: 90,
         details: "Extremely high spend requirement, be aware.",
         credits: [],

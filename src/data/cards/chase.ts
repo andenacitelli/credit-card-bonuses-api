@@ -828,13 +828,6 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         url: "https://creditcards.chase.com/business-credit-cards/southwest/premier-business",
         referralUrl: REFERRALS.CHASE.SOUTHWEST,
       },
-      {
-        amount: [{ amount: 120_000 }],
-        spend: 18000,
-        days: 270,
-        credits: [],
-        url: "https://creditcards.chase.com/a1/southwest/AEMBizPremier120k623#",
-      },
     ],
     historicalOffers: [
       {
@@ -911,7 +904,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 100_000 }],
+        amount: [{ amount: 75_000 }],
         spend: 5000,
         days: 90,
         credits: [],
@@ -964,6 +957,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.UNITED,
+        url: "https://www.theexplorercard.com/rewards-cards",
       },
     ],
     historicalOffers: [
@@ -996,7 +990,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 75_000 }],
+        amount: [{ amount: 50_000 }],
         spend: 5000,
         days: 90,
         credits: [],
@@ -1044,19 +1038,12 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 50_000 }],
         spend: 3000,
         days: 90,
         credits: [],
         url: "https://www.theexplorercard.com/united-rewards-cards",
         referralUrl: REFERRALS.CHASE.UNITED,
-      },
-      {
-        amount: [{ amount: 50_000 }],
-        spend: 3000,
-        days: 90,
-        credits: [],
-        url: "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
       },
     ],
     historicalOffers: [
@@ -1083,7 +1070,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 30_000 }],
+        amount: [{ amount: 20_000 }],
         spend: 1000,
         days: 90,
         credits: [],
@@ -1121,11 +1108,12 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 70_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 4000,
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.UNITED,
+        url: "https://www.theexplorercard.com/rewards-cards",
       },
     ],
     historicalOffers: [
@@ -1158,7 +1146,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 35_000 }],
+        amount: [{ amount: 30_000 }],
         spend: 3000,
         days: 90,
         credits: [],
@@ -1192,15 +1180,6 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 5000,
         days: 90,
         credits: [],
-        url: "https://www.doctorofcredit.com/chase-world-of-hyatt-business-card-75000-signup-bonus/",
-      },
-      {
-        amount: [{ amount: 70_000 }],
-        spend: 17000,
-        days: 90,
-        credits: [],
-        url: "https://www.doctorofcredit.com/chase-world-of-hyatt-business-card-75000-signup-bonus/",
-        details: "From 60k bonus. +10k for 12k spend.",
       },
     ],
     historicalOffers: [

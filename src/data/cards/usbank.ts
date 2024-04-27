@@ -316,7 +316,6 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 4000,
         days: 90,
         credits: [],
-        url: "https://www.skypassvisa.com/credit/visaSignatureCard.do",
       },
     ],
     historicalOffers: [
@@ -372,11 +371,10 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 70_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 5000,
         days: 90,
         credits: [],
-        url: "https://www.skypassvisa.com/credit/visaSelectCard.do",
       },
     ],
     historicalOffers: [
@@ -385,7 +383,6 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 5000,
         days: 90,
         credits: [],
-        url: "https://www.skypassvisa.com/credit/visaSelectCard.do",
       },
     ],
   },
@@ -418,7 +415,6 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 5000,
         days: 90,
         credits: [],
-        url: "https://www.skypassvisa.com/credit/visaBusinessCard.do",
       },
     ],
     historicalOffers: [
