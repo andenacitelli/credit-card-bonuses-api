@@ -529,7 +529,6 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 10_000,
         days: 90,
         credits: [],
-        url: "https://creditcards.chase.com/business-credit-cards/ink/premier?CELL=6G3K",
         referralUrl: REFERRALS.CHASE.INKS,
       },
     ],
