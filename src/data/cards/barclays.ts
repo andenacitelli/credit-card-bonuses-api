@@ -612,4 +612,48 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
       },
     ],
   },
+  {
+    name: "Xbox",
+    issuer: schemas.IssuersEnum.enum.BARCLAYS,
+    network: schemas.NetworksEnum.enum.MASTERCARD,
+    currency: schemas.CurrenciesEnum.enum.BARCLAYS,
+    isBusiness: false,
+    annualFee: 0,
+    isAnnualFeeWaived: false,
+    universalCashbackPercent: 1,
+    url: "https://cards.barclaycardus.com/banking/cards/xbox-mastercard/",
+    imageUrl: "/images/barclays/xbox.png",
+    credits: [],
+    offers: [
+      {
+        amount: [{ amount: 5_000 }],
+        spend: 0.01,
+        days: 90,
+        credits: [],
+        details: "Requires ANY purchase.",
+      },
+      {
+        amount: [{ amount: 7_000 }],
+        spend: 7000,
+        days: 365,
+        credits: [
+          {
+            description: "2x 3-month Game Pass Ultimate",
+            currency: "USD",
+            value: 17 * 6,
+            weight: 0.5,
+          },
+        ],
+      },
+    ],
+    historicalOffers: [
+      {
+        amount: [{ amount: 5_000 }],
+        spend: 0.01,
+        days: 90,
+        credits: [],
+        details: "Requires ANY purchase.",
+      },
+    ],
+  },
 ];
