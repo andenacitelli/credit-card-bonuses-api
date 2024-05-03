@@ -629,12 +629,10 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 75_000 }],
         spend: 4000,
         days: 90,
         credits: [],
-        referralUrl: REFERRALS.CHASE.SAPPHIRE,
-        details: "85k, in-branch-only offer also available.",
       },
     ],
     historicalOffers: [
@@ -667,12 +665,10 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 75_000 }],
         spend: 4000,
         days: 90,
         credits: [],
-        referralUrl: REFERRALS.CHASE.SAPPHIRE,
-        details: "75k, in-branch-only offer also available.",
       },
     ],
     historicalOffers: [
