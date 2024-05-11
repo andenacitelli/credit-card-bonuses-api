@@ -17,6 +17,13 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
+        amount: [{ amount: 100_000 }],
+        spend: 10_000,
+        days: 90,
+        credits: [],
+        url: "https://www.uscreditcardguide.com/citi-aadvantage-executive-credit-card/",
+      },
+      {
         amount: [{ amount: 70_000 }],
         spend: 7000,
         days: 90,
@@ -75,6 +82,13 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     imageUrl: "/images/citi/aadvantage-platinum-select.webp",
     credits: [],
     offers: [
+      {
+        amount: [{ amount: 75_000 }],
+        spend: 3500,
+        days: 120,
+        credits: [],
+        url: "https://www.uscreditcardguide.com/citi-aadvantage-platinum-select-credit-card/",
+      },
       {
         amount: [{ amount: 50_000 }],
         spend: 2500,
