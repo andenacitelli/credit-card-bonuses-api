@@ -104,7 +104,7 @@ export const FIRST_CARDS: z.input<typeof schemas.CreditCard>[] = [
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
     url: "https://qatarairways.cardless.com/compare",
-    imageUrl: "/images/first/cardless-qatar-signature.jpg",
+    imageUrl: "/images/first/cardless-qatar-infinite.jpg",
     credits: [],
     offers: [
       {
