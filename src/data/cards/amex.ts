@@ -355,14 +355,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 300_000 }],
-        spend: 20_000,
-        days: 90,
-        credits: [],
-        url: "https://www.doctorofcredit.com/ymmv-american-express-business-platinum-300000-point-offer/",
-        details: "Incognito/VPN, YMMV.",
-      },
-      {
         amount: [{ amount: 150_000 }],
         spend: 20_000,
         days: 90,
