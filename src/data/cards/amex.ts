@@ -763,10 +763,10 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
           { amount: 75_000 },
           { amount: 250, currency: schemas.CurrenciesEnum.enum.USD },
         ],
-        spend: 4000,
+        spend: 6000,
         days: 180,
         credits: [],
-        url: "https://resy.com/amex-offers?date=2022-09-18&seats=2",
+        url: "https://resy.com/amex-offers?date=2022-07-16&seats=2",
       },
       {
         amount: [{ amount: 90_000 }],
