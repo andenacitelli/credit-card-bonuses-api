@@ -2,6 +2,5 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 pnpm run analyze
-pnpm run format
 pnpm run generate:exports
 git add exports/
