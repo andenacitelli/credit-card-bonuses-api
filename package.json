@@ -14,7 +14,7 @@
     "analyze:lint": "eslint .",
     "analyze:typecheck": "tsc --noEmit",
     "analyze:openapi": "redocly lint --extends=minimal src/api.yaml",
-    "format": "prettier --write .",
+    "format": "prettier --write --no-error-on-unmatched-pattern ./**/*.{js,ts,jsx,tsx,json,md}",
     "test": "vitest run",
     "generate:schemas": "openapi-zod-client ./src/api.yaml --output src/generated/api.client.ts --export-schemas",
     "generate:exports": "tsx ./bin/generate.ts",
@@ -38,7 +38,6 @@
     "esbuild": "~0.21.3",
     "eslint": "~8.57.0",
     "husky": "^9.0.11",
-    "lint-staged": "^15.2.2",
     "mkdirp": "^3.0.1",
     "openai": "^4.47.1",
     "openapi-zod-client": "^1.18.1",
@@ -49,13 +48,5 @@
     "typescript-eslint": "~7.9.0",
     "vite-tsconfig-paths": "~4.3.2",
     "vitest": "~1.6.0"
-  },
-  "lint-staged": {
-    "*.{js,ts,jsx,tsx,json,md}": [
-      "prettier --write"
-    ],
-    "*.ts": [
-      "eslint --fix"
-    ]
   }
 }
