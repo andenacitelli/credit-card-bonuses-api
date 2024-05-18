@@ -1,9 +1,9 @@
 import type { z } from "zod";
 
-import { REFERRALS } from "@/data/referral-links";
+import { REFERRALS } from "@/data/referral-links.js";
 
-import { schemas } from "../../generated/api.client";
-import { WEIGHTS } from "../weights";
+import { schemas } from "@/generated/api.client.js";
+import { WEIGHTS } from "@/data/weights.js";
 
 export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {

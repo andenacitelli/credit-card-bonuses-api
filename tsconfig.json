@@ -5,6 +5,8 @@
     "baseUrl": ".",
     "lib": ["esnext"],
     "target": "esnext",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
     "paths": {
       "@/*": ["./src/*"]
     }

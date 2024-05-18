@@ -1,8 +1,5 @@
 # Generated / Transient
 /src/generated/api.client.ts
-/.esbuild/
-/.serverless/
-.env
 *.tsbuildinfo
 
 # Node

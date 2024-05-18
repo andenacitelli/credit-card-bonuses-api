@@ -1,7 +1,7 @@
 import type { z } from "zod";
 
-import { schemas } from "../../generated/api.client";
-import { WEIGHTS } from "../weights";
+import { schemas } from "@/generated/api.client.js";
+import { WEIGHTS } from "@/data/weights.js";
 
 export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {

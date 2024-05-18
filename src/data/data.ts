@@ -1,20 +1,20 @@
 import type { z } from "zod";
 
-import type { schemas } from "../generated/api.client";
-import { AMERICAN_EXPRESS_CARDS } from "./cards/amex";
-import { BANK_OF_AMERICA_CARDS } from "./cards/bankofamerica";
-import { BARCLAYS_CARDS } from "./cards/barclays";
-import { BREX_CARDS } from "./cards/brex";
-import { CAPITAL_ONE_CARDS } from "./cards/capitalone";
-import { CHASE_CARDS } from "./cards/chase";
-import { CITI_CARDS } from "./cards/citi";
-import { FIRST_CARDS } from "./cards/first";
-import { FNBO_CARDS } from "./cards/fnbo";
-import { PENFED_CARDS } from "./cards/penfed";
-import { PNC_CARDS } from "./cards/pnc";
-import { SYNCHRONY_CARDS } from "./cards/synchrony";
-import { US_BANK_CARDS } from "./cards/usbank";
-import { WELLS_FARGO_CARDS } from "./cards/wellsfargo";
+import type { schemas } from "../generated/api.client.js";
+import { AMERICAN_EXPRESS_CARDS } from "@/data/cards/amex.js";
+import { BANK_OF_AMERICA_CARDS } from "@/data/cards/bankofamerica.js";
+import { BARCLAYS_CARDS } from "@/data/cards/barclays.js";
+import { BREX_CARDS } from "@/data/cards/brex.js";
+import { CAPITAL_ONE_CARDS } from "@/data/cards/capitalone.js";
+import { CHASE_CARDS } from "@/data/cards/chase.js";
+import { CITI_CARDS } from "@/data/cards/citi.js";
+import { FIRST_CARDS } from "@/data/cards/first.js";
+import { FNBO_CARDS } from "@/data/cards/fnbo.js";
+import { PENFED_CARDS } from "@/data/cards/penfed.js";
+import { PNC_CARDS } from "@/data/cards/pnc.js";
+import { SYNCHRONY_CARDS } from "@/data/cards/synchrony.js";
+import { US_BANK_CARDS } from "@/data/cards/usbank.js";
+import { WELLS_FARGO_CARDS } from "@/data/cards/wellsfargo.js";
 
 export const CREDIT_CARDS: z.input<typeof schemas.CreditCard>[] = [
   ...AMERICAN_EXPRESS_CARDS,

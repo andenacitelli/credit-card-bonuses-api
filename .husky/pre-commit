@@ -1,4 +1,9 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
+# Ensure the commit itself is actually reasonable
 pnpm exec lint-staged
+
+# Bake data directly into static `.json` and `.csv` files
+pnpm run generate:exports
+git add exports/

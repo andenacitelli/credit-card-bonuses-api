@@ -6,62 +6,56 @@
     "node": "^20.0.0",
     "pnpm": "^9.0.0"
   },
-  "bin": {
-    "validate": "./scripts/validator/main.ts"
-  },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "dev": "sls offline start --stage offline",
     "deploy:prod": "sls deploy --stage prod",
-    "lint": "pnpm lint:biome && pnpm lint:typescript",
-    "lint:biome": "biome lint --apply .",
-    "lint:typescript": "tsc --noEmit",
+    "analyze": "pnpm run /^analyze:.*/",
+    "analyze:lint": "eslint .",
+    "analyze:typecheck": "tsc --noEmit",
+    "analyze:openapi": "redocly lint --extends=minimal src/api.yaml",
     "format": "prettier --write .",
     "test": "vitest run",
-    "generate": "redocly lint --extends=minimal src/api.yaml && openapi-zod-client ./src/api.yaml --output src/generated/api.client.ts --export-schemas",
+    "generate:schemas": "openapi-zod-client ./src/api.yaml --output src/generated/api.client.ts --export-schemas",
+    "generate:exports": "tsx ./bin/generate.ts",
+    "generate": "pnpm analyze:openapi && pnpm generate:schemas && pnpm generate:exports",
     "prepare": "husky"
   },
   "dependencies": {
-    "express": "~4.19.2",
-    "express-async-errors": "~3.1.1",
-    "helmet": "~7.1.0",
     "papaparse": "~5.4.1",
-    "serverless-http": "~3.2.0",
-    "zod": "~3.23.4"
+    "zod": "~3.23.8"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.7.1",
-    "@redocly/cli": "^1.12.0",
+    "@eslint/js": "~9.3.0",
+    "@redocly/cli": "^1.12.2",
     "@tsconfig/recommended": "^1.0.6",
-    "@types/express": "^4.17.21",
-    "@types/node": "20.12.7",
+    "@types/node": "20.12.12",
     "@types/papaparse": "^5.3.14",
     "@types/supertest": "^6.0.2",
-    "@vitest/coverage-v8": "~1.5.2",
+    "@vitest/coverage-v8": "~1.6.0",
     "@zodios/core": "^10.9.6",
     "chalk": "^5.3.0",
-    "esbuild": "~0.20.2",
+    "esbuild": "~0.21.3",
+    "eslint": "~8.57.0",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
     "mkdirp": "^3.0.1",
-    "openai": "^4.38.5",
+    "openai": "^4.47.1",
     "openapi-zod-client": "^1.18.1",
-    "puppeteer": "^22.7.1",
-    "serverless": "^3.38.0",
-    "serverless-esbuild": "^1.52.1",
-    "serverless-offline": "^13.4.0",
+    "puppeteer": "^22.9.0",
     "supertest": "^7.0.0",
-    "tsx": "~4.7.3",
+    "tsx": "~4.10.5",
     "typescript": "^5.4.5",
+    "typescript-eslint": "~7.9.0",
     "vite-tsconfig-paths": "~4.3.2",
-    "vitest": "~1.5.2"
+    "vitest": "~1.6.0"
   },
   "lint-staged": {
     "*.{js,ts,jsx,tsx,json,md}": [
       "prettier --write"
     ],
     "*.ts": [
-      "biome lint --apply"
+      "eslint --fix"
     ]
   }
 }

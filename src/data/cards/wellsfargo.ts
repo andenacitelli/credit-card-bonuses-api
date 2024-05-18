@@ -1,6 +1,6 @@
 import type { z } from "zod";
 
-import { schemas } from "../../generated/api.client";
+import { schemas } from "@/generated/api.client.js";
 
 export const WELLS_FARGO_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {

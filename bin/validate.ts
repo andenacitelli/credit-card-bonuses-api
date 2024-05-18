@@ -1,9 +1,9 @@
 // #!/usr/bin/env node --loader tsx
-import type { schemas } from "@/generated/api.client";
-import { CREDIT_CARDS } from "@/data/data";
+import type { schemas } from "@/generated/api.client.js";
+import { CREDIT_CARDS } from "@/data/data.js";
 import puppeteer, { type Browser } from "puppeteer";
 import { mkdirp } from "mkdirp";
-import { openai } from "@/remote/openai";
+import { openai } from "@/validator/openai.js";
 import { z } from "zod";
 import chalk from "chalk";
 
@@ -149,6 +149,7 @@ async function getPageTextForCard(
   const page = await browser.newPage();
   await page.goto(card.url);
   await page.waitForNetworkIdle({ timeout: 10_000, idleTime: 1_500 });
+  // @ts-expect-error -- unsure why compiler isn't properly picking up on this, but it's pretty well proven so I'm just going forward w/ it
   const text = await page.$eval("*", (el) => el.innerText);
   await page.close();
   return text;
