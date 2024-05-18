@@ -2,10 +2,12 @@
 
 ⚡ Free API for current credit card offers ⚡
 
-We allow data exporting in several formats. Simply visit the following pages in your browser and download the resulting page.
+The data is provided as both JSON and CSV:
 
-- **JSON** - `https://jo0g96wiy5.execute-api.us-east-1.amazonaws.com/json`
-- **CSV** - `https://jo0g96wiy5.execute-api.us-east-1.amazonaws.com/csv`
+- **JSON** - `https://raw.githubusercontent.com/andenacitelli/credit-card-bonuses-api/main/exports/data.json`
+- **CSV** - `https://raw.githubusercontent.com/andenacitelli/credit-card-bonuses-api/main/exports/data.csv`
+
+> **Looking for AWS Lambda links?** We stopped using those as of May 18th, 2024, preferring to instead statically embed them in this repository so GitHub handles the hosting. Old endpoints will stick around until at least **July 1st, 2024**, but data will slowly become stale, so I advise you do so sooner.
 
 The companion site for this is [Offer Optimist](https://offeroptimist.com). It comes with tons of filters, valuation settings, and much more, and is a great first approach to comparing all the different cards out there. Give it a try!
 
@@ -20,12 +22,10 @@ _I work for [Akkio](https://akkio.com), a predictive AI platform geared towards 
 
 ### Support
 
-I pay for the server time and development cost for this entirely out of my own pocket. If you'd like to support me, you can support me with the "Sponsor" options on the right or by using one of the referral links on [Offer Optimist](https://offeroptimist.com), which I get a kickback for. Thank you for your support!
-
-### Contributing
-
-I highly encourage PRs or Issues for data updates. If you see an offer is out of date, create an issue or fix the issue yourself with a PR and I'll be happy to merge it in.
+I pay for the server time and development cost for this entirely out of my own pocket. If you'd like to support me, you can support me with the "Sponsor" options on the right of this repository or by using one of the referral links on [Offer Optimist](https://offeroptimist.com), which I get a kickback for. Thank you for your support!
 
 ### License
 
-This project is under the MIT License with an added [Commons Clause](https://commonsclause.com/). In effect, these two items mean that you can do whatever you like with the project _as long as_ your derived work is not sold commercially. I make this available with the intent of enabling hobbyists to use it as they wish, not to try and get in some long-term business deal that implies support, SLAs, and more on my part.
+This project is under the MIT License with an added [Commons Clause](https://commonsclause.com/). In effect, you can do whatever you like with the project, just don't use it as a substantial part of a commercial product.
+
+I make this available with the intent of enabling hobbyists to use it as they wish, not to try and get in some long-term business deal that implies support, SLAs, and more on my part.

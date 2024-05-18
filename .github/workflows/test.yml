@@ -19,6 +19,8 @@ jobs:
       - run: pnpm generate
 
       # Tests
-      - run: pnpm lint:biome
-      - run: pnpm lint:typescript
+      - run: pnpm analyze:lint
+      - run: pnpm analyze:typecheck
+      - run: pnpm analyze:format
+      - run: pnpm analyze:openapi
       - run: pnpm test
