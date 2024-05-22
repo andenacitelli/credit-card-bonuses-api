@@ -45,7 +45,7 @@
     "supertest": "^7.0.0",
     "tsx": "~4.10.5",
     "typescript": "^5.4.5",
-    "typescript-eslint": "~7.9.0",
+    "typescript-eslint": "~7.10.0",
     "vite-tsconfig-paths": "~4.3.2",
     "vitest": "~1.6.0"
   }
