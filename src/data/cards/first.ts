@@ -21,7 +21,6 @@ export const FIRST_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 1000,
         days: 90,
         credits: [],
-        url: "https://latampass.latam.com/en_us/earn-miles/latam-airlines-credit-cards",
       },
     ],
     historicalOffers: [
@@ -51,7 +50,6 @@ export const FIRST_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 2500,
         days: 90,
         credits: [],
-        url: "https://latampass.latam.com/en_us/earn-miles/latam-airlines-credit-cards",
       },
     ],
     historicalOffers: [

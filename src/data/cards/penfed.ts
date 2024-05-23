@@ -21,7 +21,6 @@ export const PENFED_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 1500,
         days: 90,
         credits: [],
-        url: "https://www.penfed.org/credit-cards/power-cash-rewards-visa",
       },
     ],
     historicalOffers: [
@@ -51,7 +50,6 @@ export const PENFED_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 1500,
         days: 90,
         credits: [],
-        url: "https://www.penfed.org/credit-cards/platinum-rewards-visa",
       },
     ],
     historicalOffers: [

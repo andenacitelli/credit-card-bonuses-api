@@ -81,7 +81,6 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 2000,
         days: 120,
         credits: [],
-        url: "https://www.usbank.com/credit-cards/altitude-connect-visa-signature-credit-card.html",
       },
     ],
     historicalOffers: [
@@ -112,7 +111,6 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 1000,
         days: 90,
         credits: [],
-        url: "https://www.usbank.com/credit-cards/altitude-go-visa-signature-credit-card.html",
       },
     ],
     historicalOffers: [
@@ -177,7 +175,6 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 1000,
         days: 120,
         credits: [],
-        url: "https://www.usbank.com/credit-cards/cash-plus-visa-signature-credit-card.html",
       },
     ],
     historicalOffers: [
@@ -251,7 +248,6 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 4500,
         days: 150,
         credits: [],
-        url: "https://bizcards.usbank.com/credit/business-triple-cash-back-credit-card.do",
       },
     ],
     historicalOffers: [
@@ -451,7 +447,6 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 2000,
         days: 120,
         credits: [],
-        url: "https://www.usbank.com/credit-cards/shopper-cash-rewards-visa-signature-credit-card.html",
       },
     ],
     historicalOffers: [

@@ -21,7 +21,6 @@ export const WELLS_FARGO_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 3000,
         days: 90,
         credits: [],
-        url: "https://www.wellsfargo.com/biz/business-credit/credit-cards/platinum-card/",
       },
     ],
     historicalOffers: [
@@ -80,7 +79,6 @@ export const WELLS_FARGO_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 500,
         days: 90,
         credits: [],
-        url: "https://creditcards.wellsfargo.com/active-cash-credit-card/",
       },
     ],
     historicalOffers: [
@@ -110,7 +108,6 @@ export const WELLS_FARGO_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 1000,
         days: 90,
         credits: [],
-        url: "https://creditcards.wellsfargo.com/autograph-visa-credit-card/?sub_channel=SEO&vendor_code=G",
       },
     ],
     historicalOffers: [

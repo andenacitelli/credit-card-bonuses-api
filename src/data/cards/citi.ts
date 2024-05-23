@@ -194,7 +194,6 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 1500,
         days: 180,
         credits: [],
-        url: "https://www.citi.com/credit-cards/citi-custom-cash-credit-card",
       },
     ],
     historicalOffers: [
@@ -295,7 +294,6 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 1000,
         days: 90,
         credits: [],
-        url: "https://www.att.com/deals/att-points-plus-citi/",
       },
     ],
     historicalOffers: [

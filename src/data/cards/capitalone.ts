@@ -22,7 +22,6 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 500,
         days: 90,
         credits: [],
-        url: "https://www.capitalone.com/credit-cards/quicksilver/",
       },
     ],
     historicalOffers: [
@@ -74,7 +73,6 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 500,
         days: 90,
         credits: [],
-        url: "https://www.capitalone.com/credit-cards/savorone-dining-rewards/",
       },
     ],
     historicalOffers: [
@@ -212,7 +210,6 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 4000,
         days: 90,
         credits: [],
-        url: "https://www.capitalone.com/credit-cards/venture/",
       },
     ],
     historicalOffers: [
