@@ -4,21 +4,21 @@
 
 The data is provided as both JSON and CSV:
 
-- **JSON** - `https://raw.githubusercontent.com/andenacitelli/credit-card-bonuses-api/main/exports/data.json`
-- **CSV** - `https://raw.githubusercontent.com/andenacitelli/credit-card-bonuses-api/main/exports/data.csv`
+- **CSV** - https://raw.githubusercontent.com/andenacitelli/credit-card-bonuses-api/main/exports/data.csv
+- **JSON** - https://raw.githubusercontent.com/andenacitelli/credit-card-bonuses-api/main/exports/data.json
 
-> **Looking for AWS Lambda links?** We stopped using those as of May 18th, 2024, preferring to instead statically embed them in this repository so GitHub handles the hosting. Old endpoints will stick around until at least **July 1st, 2024**, but data will slowly become stale, so I advise you do so sooner.
+> **Looking for AWS Lambda links?** We migrated away from those on May 18th, 2024, preferring to instead statically embed them in this repository. Old endpoints will stick around until at least **July 1st, 2024**, but data will slowly become stale, so I advise you migrate as soon as able!
 
 The companion site for this is [Offer Optimist](https://offeroptimist.com). It comes with tons of filters, valuation settings, and much more, and is a great first approach to comparing all the different cards out there. Give it a try!
 
 ---
 
-_I work for [Akkio](https://akkio.com), a predictive AI platform geared towards Data Analysts. If you're looking for predictive AI without needing any data science knowledge, check us out!_
+_I work for [Akkio](https://akkio.com), an AI Data platform for agencies and their If you're looking for predictive AI without needing any data science knowledge, check us out!_
 
 ### Features
 
 - **JSON + CSV Export:** - You can get the data in either format.
-- **OpenAPI Spec:** - To see the exact format for what we'll return, you can view our OpenAPI / Swagger spec at `src/api.yaml`. For a nice UI, I recommend you go to https://editor.swagger.io/, then File > Import URL, then paste in https://raw.githubusercontent.com/aacitelli/credit-card-bonuses-api/main/src/api.yaml.
+- **OpenAPI Spec:** - To see the exact format for what we'll return, you can view our OpenAPI / Swagger spec at `src/api.yaml`. For a nice UI, I recommend you go to https://editor.swagger.io/, then File > Import URL, then paste in https://raw.githubusercontent.com/andenacitelli/credit-card-bonuses-api/main/src/api.yaml.
 
 ### Support
 
