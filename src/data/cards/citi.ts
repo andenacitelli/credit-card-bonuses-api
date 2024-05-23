@@ -213,7 +213,6 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    // TODO: Card image needs updated? It's not a big change, will handle down the line if I ever get around to it.
     name: "Strata Premier",
     issuer: schemas.IssuersEnum.enum.CITI,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -223,7 +222,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     isAnnualFeeWaived: false,
     universalCashbackPercent: 2,
     url: "https://www.citi.com/credit-cards/citi-strata-premier-credit-card",
-    imageUrl: "/images/citi/premier.png",
+    imageUrl: "/images/citi/strata-premier.png",
     credits: [
       {
         value: 100,

@@ -204,7 +204,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 95,
     isAnnualFeeWaived: true,
     universalCashbackPercent: 2,
-    url: "https://apply.americanexpress.com/amex-morgan-stanley-credit-cards/?page_url=1",
+    url: "https://apply.americanexpress.com/amex-morgan-stanley-credit-cards/",
     imageUrl: "/images/amex/blue-cash-preferred-morgan-stanley.png",
     credits: [
       {
@@ -215,11 +215,10 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 250 }],
+        amount: [{ amount: 350 }],
         spend: 3000,
         days: 180,
         credits: [],
-        url: "https://apply.americanexpress.com/amex-morgan-stanley-credit-cards/?page_url=1",
         details: "Requires a relationship with Morgan Stanley.",
       },
     ],
@@ -229,7 +228,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 3000,
         days: 180,
         credits: [],
-        url: "https://apply.americanexpress.com/amex-morgan-stanley-credit-cards/?page_url=1",
         expiration: "2023-01-11",
       },
     ],
@@ -850,10 +848,17 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 80_000 }],
+        amount: [{ amount: 70_000 }],
         spend: 2000,
         days: 180,
-        credits: [],
+        expiration: "2024-07-31",
+        credits: [
+          {
+            value: 0,
+            description: "+1 Free Night",
+            weight: 1,
+          },
+        ],
       },
     ],
     historicalOffers: [
@@ -886,9 +891,10 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 150_000 }],
+        amount: [{ amount: 170_000 }],
         spend: 6000,
         days: 180,
+        expiration: "2024-07-31",
         credits: [],
       },
     ],
@@ -926,6 +932,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         amount: [{ amount: 175_000 }],
         spend: 8000,
         days: 180,
+        expiration: "2024-07-31",
         credits: [],
       },
     ],
@@ -955,7 +962,14 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         amount: [{ amount: 130_000 }],
         spend: 3000,
         days: 180,
-        credits: [],
+        expiration: "2024-07-31",
+        credits: [
+          {
+            value: 0,
+            description: "+1 Free Night",
+            weight: 1,
+          },
+        ],
       },
     ],
     historicalOffers: [
@@ -1022,8 +1036,8 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         credits: [
           {
             currency: "MARRIOTT",
-            description: "3x Free Night Credit, up to 50k per",
-            value: 150_000,
+            description: "5x Free Night Credit, up to 50k per",
+            value: 250_000,
             weight: 0.7,
           },
         ],
@@ -1210,7 +1224,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 695,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://apply.americanexpress.com/amex-morgan-stanley-credit-cards/?page_url=1",
+    url: "https://apply.americanexpress.com/amex-morgan-stanley-credit-cards/",
     imageUrl: "/images/amex/platinum-morgan-stanley.webp",
     credits: [
       {
@@ -1246,7 +1260,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 80_000 }],
+        amount: [{ amount: 125_000 }],
         spend: 8000,
         days: 180,
         credits: [],
@@ -1259,7 +1273,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         credits: [],
         spend: 6000,
         days: 180,
-        expiration: "2023-01-11",
+        expiration: "2024-05-31",
       },
     ],
   },
