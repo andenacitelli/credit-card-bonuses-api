@@ -13,19 +13,18 @@ The companion site for this is [Offer Optimist](https://offeroptimist.com). It c
 
 ---
 
-_I work for [Akkio](https://akkio.com), an AI Data platform for agencies and their If you're looking for predictive AI without needing any data science knowledge, check us out!_
+### API Specification
 
-### Features
+We keep an OpenAPI (formerly Swagger) spec here: https://raw.githubusercontent.com/andenacitelli/credit-card-bonuses-api/main/src/api.yaml
 
-- **JSON + CSV Export:** - You can get the data in either format.
-- **OpenAPI Spec:** - To see the exact format for what we'll return, you can view our OpenAPI / Swagger spec at `src/api.yaml`. For a nice UI, I recommend you go to https://editor.swagger.io/, then File > Import URL, then paste in https://raw.githubusercontent.com/andenacitelli/credit-card-bonuses-api/main/src/api.yaml.
+For a nice UI, you can go to https://editor.swagger.io/, click File > Import URL, then paste the above URL.
+
+You're free to do code generation or whatever you like off of it. The spec has had enough time to mature that it's pretty immutable and has no anticipated breaking changes.
 
 ### Support
 
-I pay for the server time and development cost for this entirely out of my own pocket. If you'd like to support me, you can support me with the "Sponsor" options on the right of this repository or by using one of the referral links on [Offer Optimist](https://offeroptimist.com), which I get a kickback for. Thank you for your support!
+I maintain this for free. If you found this useful and would like to support me, check out the "Sponsor" options on the right of this repository or by using one of the referral links on [Offer Optimist](https://offeroptimist.com), which I get a kickback for. Thank you for your support!
 
 ### License
 
-This project is under the MIT License with an added [Commons Clause](https://commonsclause.com/). In effect, you can do whatever you like with the project, just don't use it as a substantial part of a commercial product.
-
-I make this available with the intent of enabling hobbyists to use it as they wish, not to try and get in some long-term business deal that implies support, SLAs, and more on my part.
+This project is MIT-Licensed with an added [Commons Clause](https://commonsclause.com/). In effect, you can do whatever you like with the project, just don't turn around and sell it as a substantial part of a commercial product. I make this available with the intent of enabling hobbyists, not to get in some long-term business deal that implies support, SLAs, and more on my part.
