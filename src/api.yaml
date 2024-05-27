@@ -29,11 +29,24 @@ paths:
         "200":
           description: CSV-formatted string of card data.
           content:
-            application/text:
+            text/csv:
               schema:
                 type: string
                 description: CSV-formatted string of offer data. Only includes current offers. Each offer has its own line. Columns are -- name,issuer,network,currency,offerAmount,offerSpend,offerDays,offerUrl,countsTowards524,details,isBusiness,annualFee,isAnnualFeeWaived,universalCashbackPercent,url,imageUrl,credits
 
+  /data.yaml:
+    get:
+      security: []
+      operationId: getYamlData
+      summary: Get current card data in YAML format.
+      responses:
+        "200":
+          description: YAML-formatted string of card data.
+          content:
+            text/yaml:
+              schema:
+                type: string
+                description: YAML-formatted string of offer data. Only includes current offers. Each offer has its own line. Columns are -- name,issuer,network,currency,offerAmount,offerSpend,offerDays,offerUrl,countsTowards524,details,isBusiness,annualFee,isAnnualFeeWaived,universalCashbackPercent,url,imageUrl,credits
 components:
   schemas:
     # --- Components --- #
