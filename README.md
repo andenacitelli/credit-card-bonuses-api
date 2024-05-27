@@ -2,7 +2,7 @@
 
 ⚡ Free API for current credit card offers ⚡
 
-The data is provided as both JSON and CSV:
+The data is provided in several formats:
 
 - **CSV** - https://raw.githubusercontent.com/andenacitelli/credit-card-bonuses-api/main/exports/data.csv
 - **JSON** - https://raw.githubusercontent.com/andenacitelli/credit-card-bonuses-api/main/exports/data.json
