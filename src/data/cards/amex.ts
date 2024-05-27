@@ -814,7 +814,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 3000,
         days: 180,
         credits: [],
-        referralUrl: REFERRALS.AMERICAN_EXPRESS.GREEN,
       },
     ],
     historicalOffers: [

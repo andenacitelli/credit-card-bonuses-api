@@ -627,7 +627,6 @@
       spend: 3000
       days: 180
       credits: []
-      referralUrl: https://americanexpress.com/en-us/referral/business-green-rewards-charge-card?ref=ANDENahhML&xl=cp01
   historicalOffers:
     - amount:
         - amount: 60000
@@ -2098,12 +2097,19 @@
   credits: []
   offers:
     - amount:
-        - amount: 10000
+        - amount: 20000
       spend: 500
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/18M/BDWS964YDG
-      details: 5x points on groceries too.
+      url: https://www.referyourchasecard.com/18M/BDWS964YDG
+      details: 20k only available via referral. 5x points on groceries.
+    - amount:
+        - amount: 10000
+      spend: 500
+      days: 90
+      credits: []
+      details: Public is only 10k. 5x points on groceries.
   historicalOffers:
     - amount:
         - amount: 25000
@@ -2420,6 +2426,7 @@
       spend: 4000
       days: 90
       credits: []
+      referralUrl: https://www.referyourchasecard.com/19m/QN3N8HQ4KX
   historicalOffers:
     - amount:
         - amount: 100000
@@ -2447,6 +2454,7 @@
       spend: 4000
       days: 90
       credits: []
+      referralUrl: https://www.referyourchasecard.com/19m/QN3N8HQ4KX
   historicalOffers:
     - amount:
         - amount: 100000
