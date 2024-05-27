@@ -27,4 +27,9 @@ describe("Data Validity Checks", () => {
       }
     });
   });
+  describe("Trimmed Strings", () => {
+    test.each(inputs)("$name", ({ card }) => {
+      expect(card.name).toBe(card.name.trim());
+    });
+  });
 });

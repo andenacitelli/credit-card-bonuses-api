@@ -45,7 +45,14 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     url: "https://www.capitalone.com/credit-cards/savor-dining-rewards/",
     imageUrl: "/images/capitalone/savor.webp",
     credits: [],
-    offers: [],
+    offers: [
+      {
+        amount: [{ amount: 300 }],
+        spend: 3000,
+        days: 90,
+        credits: [],
+      },
+    ],
     historicalOffers: [
       {
         amount: [{ amount: 300 }],
@@ -96,11 +103,18 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     url: "https://www.capitalone.com/small-business/credit-cards/spark-cash-select",
     imageUrl: "/images/capitalone/spark-cash.webp",
     credits: [],
-    offers: [],
+    offers: [
+      {
+        amount: [{ amount: 750 }],
+        spend: 6000,
+        days: 90,
+        credits: [],
+      },
+    ],
     historicalOffers: [
       {
-        amount: [{ amount: 500 }],
-        spend: 4500,
+        amount: [{ amount: 750 }],
+        spend: 6000,
         days: 90,
         credits: [],
       },
@@ -118,11 +132,18 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     url: "https://www.capitalone.com/small-business/credit-cards/spark-miles-select/",
     imageUrl: "/images/capitalone/spark-miles.webp",
     credits: [],
-    offers: [],
+    offers: [
+      {
+        amount: [{ amount: 50_000 }],
+        spend: 4500,
+        credits: [],
+        days: 90,
+      },
+    ],
     historicalOffers: [
       {
-        amount: [{ amount: 20_000 }],
-        spend: 3000,
+        amount: [{ amount: 50_000 }],
+        spend: 4500,
         credits: [],
         days: 90,
       },
@@ -141,7 +162,9 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     url: "https://www.capitalone.com/small-business/credit-cards/spark-cash-plus/",
     imageUrl: "/images/capitalone/spark-cash.webp",
     credits: [],
-    offers: [],
+    offers: [
+      // NOTE: This card technically has offers, but I tend to avoid tracking anything with prohibitively high spend requirements.
+    ],
     historicalOffers: [
       {
         amount: [{ amount: 500 }],

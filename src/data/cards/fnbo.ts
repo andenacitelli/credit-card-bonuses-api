@@ -18,7 +18,7 @@ export const FNBO_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 20_000 }],
-        spend: 2000,
+        spend: 1000,
         days: 90,
         credits: [],
       },

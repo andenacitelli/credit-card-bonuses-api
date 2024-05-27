@@ -123,13 +123,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         amount: [{ amount: 200 }],
         spend: 2000,
         days: 180,
-        credits: [],
-        details: "Requires incognito or a VPN.",
-      },
-      {
-        amount: [{ amount: 200 }],
-        spend: 2000,
-        days: 180,
         credits: [
           {
             value: 150,

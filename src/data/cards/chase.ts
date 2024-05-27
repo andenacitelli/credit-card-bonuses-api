@@ -50,18 +50,10 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 75_000 }],
+        amount: [{ amount: 85_000 }],
         spend: 5000,
         days: 90,
         credits: [],
-        url: "https://creditcards.chase.com/travel-credit-cards/avios/aer-lingus",
-      },
-      {
-        amount: [{ amount: 125_000 }],
-        spend: 20_000,
-        days: 365,
-        credits: [],
-        url: "https://www.doctorofcredit.com/chase-british-airways-125000-point-bonus-after-20000-in-spend/",
       },
     ],
     historicalOffers: [
@@ -125,18 +117,10 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 75_000 }],
+        amount: [{ amount: 85_000 }],
         spend: 5000,
         days: 90,
         credits: [],
-        url: "https://creditcards.chase.com/travel-credit-cards/avios/british-airways",
-      },
-      {
-        amount: [{ amount: 125_000 }],
-        spend: 20_000,
-        days: 365,
-        credits: [],
-        url: "https://www.doctorofcredit.com/chase-british-airways-125000-point-bonus-after-20000-in-spend/",
       },
     ],
     historicalOffers: [
@@ -163,7 +147,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 400 }],
+        amount: [{ amount: 300 }],
         spend: 1000,
         days: 90,
         credits: [],
@@ -192,11 +176,10 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 250 }],
+        amount: [{ amount: 150 }],
         spend: 500,
         days: 90,
         credits: [],
-        url: "https://disneyrewards.com/compare-cards/?cell=608S11",
       },
     ],
     historicalOffers: [
@@ -223,11 +206,12 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 20_000 }],
+        amount: [{ amount: 10_000 }],
         spend: 500,
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.FREEDOM,
+        details: "5x points on groceries too.",
       },
     ],
     historicalOffers: [
@@ -285,18 +269,10 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 75_000 }],
+        amount: [{ amount: 85_000 }],
         spend: 5000,
         days: 90,
         credits: [],
-        url: "https://creditcards.chase.com/travel-credit-cards/avios/iberia",
-      },
-      {
-        amount: [{ amount: 125_000 }],
-        spend: 20_000,
-        days: 365,
-        credits: [],
-        url: "https://www.doctorofcredit.com/chase-british-airways-125000-point-bonus-after-20000-in-spend/",
       },
     ],
     historicalOffers: [
@@ -395,7 +371,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 100_000 }],
+        amount: [{ amount: 80_000 }],
         spend: 2000,
         days: 90,
         credits: [],
@@ -555,10 +531,16 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 30_000 }],
+        amount: [{ amount: 0 }],
         spend: 1000,
         days: 90,
-        credits: [],
+        credits: [
+          {
+            value: 50_000,
+            weight: 0.7,
+            description: "1x FNC",
+          },
+        ],
       },
     ],
     historicalOffers: [
@@ -586,12 +568,12 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 0 }],
-        spend: 5000,
+        spend: 3000,
         days: 90,
         credits: [
           {
-            description: "5x Free Night Credits",
-            value: 250_000,
+            description: "3x Free Night Credits",
+            value: 150_000,
             weight: 0.8,
             currency: schemas.CurrenciesEnum.enum.MARRIOTT,
           },
@@ -713,20 +695,6 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         url: "https://www.southwest.com/html/rapidrewards/partners/credit-cards/southwest-airlines-rapid-rewards-business-cards/index.html",
         referralUrl: REFERRALS.CHASE.SOUTHWEST,
       },
-      {
-        amount: [{ amount: 30_000 }],
-        spend: 4000,
-        days: 90,
-        credits: [
-          {
-            description: "Companion Pass",
-            value: 500,
-            weight: 1,
-          },
-        ],
-        url: "https://creditcards.chase.com/a1/southwest/NAEP30kCPPlus223?",
-        details: "Comes with companion pass, valued ~$500.",
-      },
     ],
     historicalOffers: [
       {
@@ -751,13 +719,11 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 30_000 }],
-        spend: 4000,
+        amount: [{ amount: 50_000 }],
+        spend: 1000,
         days: 90,
         credits: [],
-        url: "https://creditcards.chase.com/a1/southwest/AEP75kPlus1023#",
         referralUrl: REFERRALS.CHASE.SOUTHWEST,
-        details: "Comes with Companion Pass.",
       },
     ],
     historicalOffers: [
@@ -784,12 +750,11 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 30_000 }],
-        spend: 3000,
+        amount: [{ amount: 50_000 }],
+        spend: 1000,
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.SOUTHWEST,
-        details: "Comes with companion pass, which can be quite valuable.",
       },
     ],
     historicalOffers: [
@@ -860,13 +825,11 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 30_000 }],
-        spend: 4000,
+        amount: [{ amount: 50_000 }],
+        spend: 1000,
         days: 90,
         credits: [],
-        url: "https://creditcards.chase.com/a1/southwest/AEP75kPlus1023#",
         referralUrl: REFERRALS.CHASE.SOUTHWEST,
-        details: "Comes with companion pass, which can be quite valuable.",
       },
     ],
     historicalOffers: [
@@ -880,7 +843,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    name: " United Business",
+    name: "United Business",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
     currency: schemas.CurrenciesEnum.enum.UNITED,

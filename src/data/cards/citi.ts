@@ -84,19 +84,18 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 75_000 }],
-        spend: 3500,
+        spend: 5000,
         days: 120,
-        credits: [],
-        url: "https://www.uscreditcardguide.com/citi-aadvantage-platinum-select-credit-card/",
-      },
-      {
-        amount: [{ amount: 50_000 }],
-        spend: 2500,
-        days: 150,
         credits: [],
       },
     ],
     historicalOffers: [
+      {
+        amount: [{ amount: 75_000 }],
+        spend: 5000,
+        days: 120,
+        credits: [],
+      },
       {
         amount: [{ amount: 125_000 }],
         spend: 3500,

@@ -144,7 +144,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 200 }],
-        spend: 3000,
+        spend: 1000,
         days: 90,
         credits: [],
       },
@@ -441,7 +441,6 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 1000,
         days: 90,
         credits: [],
-        url: "https://www.bankofamerica.com/credit-cards/products/spirit-airlines-credit-card/",
       },
     ],
     historicalOffers: [

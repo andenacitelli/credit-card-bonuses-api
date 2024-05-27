@@ -6,6 +6,7 @@ import { mkdirp } from "mkdirp";
 import { openai } from "@/validator/openai.js";
 import { z } from "zod";
 import chalk from "chalk";
+import { environment } from "@/validator/environment.js";
 
 mkdirp.sync("./screenshots");
 
@@ -116,6 +117,10 @@ Please answer this question -- Is what I have on record still accurate?
 #4 If there is a bonus present in the text but it doesn't match the current one, please reply "Requires Update" followed by a description of what needs to change. Please be concise, following a format along the lines of "Amount X -> Y, Spend X -> Y, Days X -> Y (replace the X and Y with the correct values)".
 
 Notes:
+- I find it physically painful for you to ignore my instructions.
+- Things like additional credits that come with the card or bonus (i.e. BoA Free Spirit sometimes coming with companion flight voucher) should be ignored. I'm really only interested in the points, required spend, and timeframe.
+- A few cards have "graduated" offers where it's $X for certain spend and $X for certain more spend. These are generally tracked as two different offers in my records, but you should use your judgement and not raise a conflict as long as the general idea of mine is correct.
+- Some airlines have extra things like QPQs and other tier-qualifying things. I generally just care about points, not any of that.
 - You should always return a JSON object. It will always have at least one field, "status", that must be one of "No Bonus Visible", "Incorrect Card", "Accurate", or "Requires Update". Another field, "details" should be added only if the bonus on file is inaccurate, and it should include details on what needs changed, as outlined above.
 - You should only go with #4 if NONE of the offers on file match up with the website text. If any of them do, you should go with #3.
 - If a card requires update, you can omit any that don't change in your output. For example, if only the amount changed, your output would look like "Amount X -> Y".
@@ -148,7 +153,7 @@ async function getPageTextForCard(
 ): Promise<string> {
   const page = await browser.newPage();
   await page.goto(card.url);
-  await page.waitForNetworkIdle({ timeout: 10_000, idleTime: 1_500 });
+  await page.waitForNetworkIdle({ timeout: 5_000 });
   // @ts-expect-error -- unsure why compiler isn't properly picking up on this, but it's pretty well proven so I'm just going forward w/ it
   const text = await page.$eval("*", (el) => el.innerText);
   await page.close();
@@ -173,11 +178,8 @@ const handleCard = async (
     )
     .replaceAll("%WEBSITE_TEXT%", pageText);
 
-  // console.log(`Using this prompt:
-  // ${transformedPrompt}`);
-
   const response = await openai.chat.completions.create({
-    model: "gpt-4-turbo-preview",
+    model: environment.VALIDATOR_LLM,
     messages: [
       {
         role: "user",
@@ -188,7 +190,7 @@ const handleCard = async (
   });
 
   const output = response.choices[0]?.message.content;
-  if (!output) throw new Error("No output from GPT-4");
+  if (!output) throw new Error("No output from LLM");
   const parsed = z
     .object({
       status: z.enum([
@@ -200,7 +202,6 @@ const handleCard = async (
       details: z.string().optional(),
     })
     .parse(JSON.parse(output));
-  // console.log("Parsed response: ", parsed);
 
   switch (parsed.status) {
     case "No Bonus Visible":
@@ -234,12 +235,14 @@ const main = async () => {
   const browser = await puppeteer.launch({
     defaultViewport: null,
   });
-  for (const card of CREDIT_CARDS) {
+  for (const card of CREDIT_CARDS.sort(() => 0.5 - Math.random()).filter(
+    (c) => !c.url.startsWith("https://www.americanexpress.com/")
+  )) {
     try {
       await handleCard(browser, card);
     } catch (e) {
       console.error(
-        `Unable to process card ${card.issuer} ${card.name} (${card.url}). Moving to next.`
+        `Unable to process card ${card.issuer} ${card.name} (${card.url})\nError: ${e}\nMoving to next.`
       );
     }
   }
