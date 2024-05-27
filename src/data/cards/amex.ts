@@ -1116,19 +1116,18 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 175_000 }],
+        amount: [{ amount: 150_000 }],
         spend: 8000,
         days: 180,
         credits: [],
-        url: "https://www.uscreditcardguide.com/amex-platinum-card/",
-        details: "Follow referrals in the linked thread. YMMV.",
+        details: "Inconsistent, YMMV.",
       },
       {
         amount: [{ amount: 100_000 }],
         spend: 8000,
         days: 180,
         credits: [],
-        url: "https://www.americanexpress.com/en-us/credit-cards/offers/resy/",
+        url: "https://resy.com/global-dining-access?date=2024-05-27&seats=2#",
       },
       {
         amount: [{ amount: 80_000 }],

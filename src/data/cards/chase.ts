@@ -536,6 +536,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [
           {
+            currency: "MARRIOTT",
             value: 50_000,
             weight: 0.7,
             description: "1x FNC",
