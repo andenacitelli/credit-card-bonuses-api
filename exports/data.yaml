@@ -2263,7 +2263,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
+      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2288,7 +2288,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
+      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
   historicalOffers:
     - amount:
         - amount: 100000
@@ -2318,7 +2318,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
+      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2345,7 +2345,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
+      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
   historicalOffers:
     - amount:
         - amount: 1000
@@ -3741,13 +3741,19 @@
   credits: []
   offers:
     - amount:
+        - amount: 75000
+      spend: 6000
+      days: 180
+      credits: []
+      url: https://creditcardapply.usbank.com/web/creditcardapply/business-altitude-connect?bankercode=100usb#
+    - amount:
         - amount: 60000
       spend: 6000
       days: 180
       credits: []
   historicalOffers:
     - amount:
-        - amount: 60000
+        - amount: 75000
       spend: 6000
       days: 180
       credits: []
@@ -3878,10 +3884,16 @@
   url: https://www.usbank.com/business-banking/business-credit-cards/benefits/leverage-visa-card-benefits.html
   imageUrl: /images/usbank/business-leverage.webp
   credits: []
-  offers: []
+  offers:
+    - amount:
+        - amount: 900
+      spend: 7500
+      credits: []
+      days: 120
+      url: https://creditcardapply.usbank.com/web/creditcardapply/business-leverage-card?bankercode=172tan&ecid=othe_26045&sms=1
   historicalOffers:
     - amount:
-        - amount: 750
+        - amount: 900
       spend: 7500
       credits: []
       days: 120
@@ -3898,16 +3910,23 @@
   credits: []
   offers:
     - amount:
+        - amount: 600
+      spend: 4500
+      days: 150
+      credits: []
+      url: https://creditcardapply.usbank.com/web/creditcardapply/business-triplecash-rewards?bankercode=100usb
+    - amount:
         - amount: 500
       spend: 4500
       days: 150
       credits: []
   historicalOffers:
     - amount:
-        - amount: 500
+        - amount: 600
       spend: 4500
       days: 150
       credits: []
+      url: https://creditcardapply.usbank.com/web/creditcardapply/business-triplecash-rewards?bankercode=100usb
 - name: Skypass Blue
   issuer: US_BANK
   network: VISA
