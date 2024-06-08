@@ -464,10 +464,11 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 40_000 }],
-        spend: 2000,
+        amount: [{ amount: 65_000 }],
+        spend: 3000,
         days: 180,
         credits: [],
+        expiration: "2024-07-17",
       },
     ],
     historicalOffers: [
@@ -494,10 +495,11 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 55_000 }],
+        amount: [{ amount: 75_000 }],
         spend: 4000,
         days: 180,
         credits: [],
+        expiration: "2024-07-17",
       },
     ],
     historicalOffers: [
@@ -535,10 +537,11 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 85_000 }],
         spend: 3000,
         days: 180,
         credits: [],
+        expiration: "2024-07-17",
       },
     ],
     historicalOffers: [
@@ -581,11 +584,12 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 65_000 }],
+        amount: [{ amount: 95_000 }],
         spend: 8000,
         days: 180,
         credits: [],
         referralUrl: REFERRALS.AMERICAN_EXPRESS.DELTA_BUSINESS_PLATINUM,
+        expiration: "2024-07-17",
       },
     ],
     historicalOffers: [
@@ -611,10 +615,11 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 95_000 }],
         spend: 6000,
         days: 180,
         credits: [],
+        expiration: "2024-07-17",
       },
     ],
     historicalOffers: [
@@ -641,19 +646,20 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 75_000 }],
-        spend: 10_000,
+        amount: [{ amount: 110_000 }],
+        spend: 12_000,
         days: 180,
         credits: [],
+        expiration: "2024-07-17",
       },
     ],
     historicalOffers: [
       {
         amount: [{ amount: 110_000 }],
-        spend: 6000,
-        days: 90,
+        spend: 12_000,
+        days: 180,
         credits: [],
-        url: "https://www.doctorofcredit.com/increased-american-express-business-delta-offers/",
+        expiration: "2024-07-17",
       },
       {
         amount: [{ amount: 60_000 }],

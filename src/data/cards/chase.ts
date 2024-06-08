@@ -723,7 +723,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 85_000 }],
         spend: 1000,
         days: 90,
         credits: [],
@@ -754,7 +754,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 85_000 }],
         spend: 1000,
         days: 90,
         credits: [],
@@ -829,8 +829,8 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
-        spend: 1000,
+        amount: [{ amount: 85_000 }],
+        spend: 3000,
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.SOUTHWEST,
