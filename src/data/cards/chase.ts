@@ -875,7 +875,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 75_000 }],
+        amount: [{ amount: 100_000 }],
         spend: 5000,
         credits: [],
         days: 90,
