@@ -72,7 +72,15 @@ export const PENFED_CARDS: z.input<typeof schemas.CreditCard>[] = [
     universalCashbackPercent: 1,
     url: "https://www.penfed.org/credit-cards/pathfinder-rewards",
     imageUrl: "/images/penfed/pathfinder.webp",
-    credits: [],
+    details:
+      "AF waived via military service or by setting up a checking account.",
+    credits: [
+      {
+        description: "Incidental travel credit (yearly)",
+        value: 100,
+        weight: 0.6,
+      },
+    ],
     offers: [
       {
         amount: [{ amount: 50_000 }],
