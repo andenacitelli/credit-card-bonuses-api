@@ -4,7 +4,7 @@ const getRandom = (array: string[]): string => {
 
 export const REFERRALS = {
   CHASE: {
-    SAPPHIRE: getRandom(["https://www.referyourchasecard.com/19m/QN3N8HQ4KX"]),
+    SAPPHIRE: getRandom(["https://www.referyourchasecard.com/19n/IV1NGQHD2L"]),
     INKS: getRandom([
       "https://www.referyourchasecard.com/21q/98ZI1A53EK",
       "https://www.referyourchasecard.com/21q/1QKLYDOXDQ",
@@ -17,10 +17,6 @@ export const REFERRALS = {
     ]),
   },
   AMERICAN_EXPRESS: {
-    GREEN:
-      "https://americanexpress.com/en-us/referral/business-green-rewards-charge-card?ref=ANDENahhML&xl=cp01",
     GOLD: "https://americanexpress.com/en-us/referral/ANDENa0UQA?xl=cp19",
-    DELTA_BUSINESS_PLATINUM:
-      "https://americanexpress.com/en-us/referral/delta-skymiles-platinum?ref=ANDENaNoZ9&xl=cp01",
   },
 };

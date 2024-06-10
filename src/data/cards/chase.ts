@@ -250,6 +250,13 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 500,
         days: 90,
         credits: [],
+      },
+      {
+        amount: [{ amount: 0 }],
+        spend: 500,
+        days: 90,
+        credits: [],
+        details: "Extra 1.5% cashback, up to $300/yr.",
         referralUrl: REFERRALS.CHASE.FREEDOM,
       },
     ],

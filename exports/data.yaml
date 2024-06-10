@@ -452,7 +452,6 @@
       spend: 8000
       days: 180
       credits: []
-      referralUrl: https://americanexpress.com/en-us/referral/delta-skymiles-platinum?ref=ANDENaNoZ9&xl=cp01
       expiration: 2024-07-17
   historicalOffers:
     - amount:
@@ -2139,6 +2138,12 @@
       spend: 500
       days: 90
       credits: []
+    - amount:
+        - amount: 0
+      spend: 500
+      days: 90
+      credits: []
+      details: Extra 1.5% cashback, up to $300/yr.
       referralUrl: https://www.referyourchasecard.com/18M/BDWS964YDG
   historicalOffers:
     - amount:
@@ -2268,7 +2273,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
+      referralUrl: https://www.referyourchasecard.com/21q/YURXNKIY4Y
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2293,7 +2298,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
+      referralUrl: https://www.referyourchasecard.com/21q/YURXNKIY4Y
   historicalOffers:
     - amount:
         - amount: 100000
@@ -2323,7 +2328,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
+      referralUrl: https://www.referyourchasecard.com/21q/YURXNKIY4Y
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2350,7 +2355,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
+      referralUrl: https://www.referyourchasecard.com/21q/YURXNKIY4Y
   historicalOffers:
     - amount:
         - amount: 1000
@@ -2431,7 +2436,7 @@
       spend: 4000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/19m/QN3N8HQ4KX
+      referralUrl: https://www.referyourchasecard.com/19n/IV1NGQHD2L
   historicalOffers:
     - amount:
         - amount: 100000
@@ -2459,7 +2464,7 @@
       spend: 4000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/19m/QN3N8HQ4KX
+      referralUrl: https://www.referyourchasecard.com/19n/IV1NGQHD2L
   historicalOffers:
     - amount:
         - amount: 100000
