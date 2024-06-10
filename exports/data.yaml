@@ -854,7 +854,7 @@
       weight: 0.2
   offers:
     - amount:
-        - amount: 150000
+        - amount: 175000
       spend: 8000
       days: 180
       credits: []
@@ -872,11 +872,10 @@
       credits: []
   historicalOffers:
     - amount:
-        - amount: 150000
-      spend: 6000
+        - amount: 175000
+      spend: 8000
       days: 180
       credits: []
-      expiration: 2024-03-01
 - name: Platinum (Schwab)
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -2269,7 +2268,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
+      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2294,7 +2293,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
+      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
   historicalOffers:
     - amount:
         - amount: 100000
@@ -2324,7 +2323,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
+      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2351,7 +2350,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
+      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
   historicalOffers:
     - amount:
         - amount: 1000
