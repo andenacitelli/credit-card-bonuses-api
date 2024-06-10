@@ -16,7 +16,7 @@
     "analyze:format": "prettier --check .",
     "analyze:openapi": "redocly lint --extends=minimal src/api.yaml",
     "test": "vitest run",
-    "bump": "ncu --upgrade --target semver",
+    "bump": "ncu --upgrade --target semver && pnpm i",
     "generate:schemas": "openapi-zod-client ./src/api.yaml --output src/generated/api.client.ts --export-schemas",
     "generate:exports": "tsx ./bin/generate.ts",
     "generate": "pnpm analyze:openapi && pnpm generate:schemas && pnpm generate:exports",
@@ -25,7 +25,7 @@
   "dependencies": {
     "node-fetch": "~3.3.2",
     "papaparse": "~5.4.1",
-    "yaml": "~2.4.4",
+    "yaml": "~2.4.5",
     "zod": "~3.23.8"
   },
   "devDependencies": {
@@ -38,7 +38,7 @@
     "@vitest/coverage-v8": "~1.6.0",
     "@zodios/core": "^10.9.6",
     "chalk": "^5.3.0",
-    "esbuild": "~0.21.4",
+    "esbuild": "~0.21.5",
     "eslint": "~9.3.0",
     "husky": "^9.0.11",
     "mkdirp": "^3.0.1",
