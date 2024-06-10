@@ -8,7 +8,7 @@ The data is provided in several formats:
 - **JSON** - https://raw.githubusercontent.com/andenacitelli/credit-card-bonuses-api/main/exports/data.json
 - **YAML** - https://raw.githubusercontent.com/andenacitelli/credit-card-bonuses-api/main/exports/data.yaml
 
-> **Looking for AWS Lambda links?** We migrated away from those on May 18th, 2024, preferring to instead statically embed them in this repository. Old endpoints will stick around until at least **July 1st, 2024**, but data will slowly become stale, so I advise you migrate as soon as able!
+> **Looking for AWS Lambda links?** We migrated away from those on May 18th, 2024, preferring to instead update them at commit time and serve them directly from this repository. Old endpoints will stick around until at least **July 1st, 2024**, but they will not be updated with new data, so I advise you migrate as soon as able!
 
 The companion site for this is [Offer Optimist](https://offeroptimist.com). It comes with tons of filters, valuation settings, and much more, and is a great first approach to comparing all the different cards out there. Give it a try!
 
