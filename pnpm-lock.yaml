@@ -64,8 +64,8 @@ importers:
         specifier: ~16.14.20
         version: 16.14.20
       openai:
-        specifier: ^4.49.1
-        version: 4.49.1(encoding@0.1.13)
+        specifier: ^4.50.0
+        version: 4.50.0(encoding@0.1.13)
       openapi-zod-client:
         specifier: ^1.18.1
         version: 1.18.1(react@18.2.0)
@@ -2367,8 +2367,8 @@ packages:
     resolution: {integrity: sha512-1FlR+gjXK7X+AsAHso35MnyN5KqGwJRi/31ft6x0M194ht7S+rWAvd7PHss9xSKMzE0asv1pyIHaJYq+BbacAQ==}
     engines: {node: '>=12'}
 
-  openai@4.49.1:
-    resolution: {integrity: sha512-bsFSNhhTNon+g6r4UYPKGLi+PlfP1G9TJGSkZS5nZx+PTwW2YUTlfxXxpOKrPab5auIXJdlYpC/g/wkHGR1xug==}
+  openai@4.50.0:
+    resolution: {integrity: sha512-2ADkNIU6Q589oYHr5pn9k7SbUcrBTK9X0rIXrYqwMVSoqOj1yK9/1OO0ExaWsqOOpD7o58UmRjeKlx9gKAcuKQ==}
     hasBin: true
 
   openapi-sampler@1.4.0:
@@ -5769,7 +5769,7 @@ snapshots:
     dependencies:
       mimic-fn: 4.0.0
 
-  openai@4.49.1(encoding@0.1.13):
+  openai@4.50.0(encoding@0.1.13):
     dependencies:
       '@types/node': 18.19.18
       '@types/node-fetch': 2.6.11
