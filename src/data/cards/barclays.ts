@@ -17,7 +17,15 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 70_000 }],
+        spend: 99 + 0.01,
+        days: 90,
+        credits: [],
+        details: "ANY purchase + AF.",
+        url: "https://cards.barclaycardus.com/banking/credit-card/american-airlines/mastercard-mastercard-world-elite/out-of-home/d35e9a0c-7c9b-4509-a56a-f6801a1eff9e/",
+      },
+      {
+        amount: [{ amount: 60_000 }],
         spend: 99 + 0.01,
         days: 90,
         credits: [],

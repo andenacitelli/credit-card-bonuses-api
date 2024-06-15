@@ -921,7 +921,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 80_000 }],
+        amount: [{ amount: 90_000 }],
         spend: 5000,
         days: 90,
         credits: [],
@@ -1007,7 +1007,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 3000,
         days: 90,
         credits: [],
@@ -1039,7 +1039,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 20_000 }],
+        amount: [{ amount: 30_000 }],
         spend: 1000,
         days: 90,
         credits: [],
@@ -1077,7 +1077,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 70_000 }],
         spend: 4000,
         days: 90,
         credits: [],

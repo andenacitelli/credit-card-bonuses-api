@@ -1403,7 +1403,14 @@
   credits: []
   offers:
     - amount:
-        - amount: 50000
+        - amount: 70000
+      spend: 99.01
+      days: 90
+      credits: []
+      details: ANY purchase + AF.
+      url: https://cards.barclaycardus.com/banking/credit-card/american-airlines/mastercard-mastercard-world-elite/out-of-home/d35e9a0c-7c9b-4509-a56a-f6801a1eff9e/
+    - amount:
+        - amount: 60000
       spend: 99.01
       days: 90
       credits: []
@@ -2664,7 +2671,7 @@
       weight: 0.4
   offers:
     - amount:
-        - amount: 80000
+        - amount: 90000
       spend: 5000
       days: 90
       credits: []
@@ -2729,7 +2736,7 @@
       weight: 0.4
   offers:
     - amount:
-        - amount: 50000
+        - amount: 60000
       spend: 3000
       days: 90
       credits: []
@@ -2755,7 +2762,7 @@
   credits: []
   offers:
     - amount:
-        - amount: 20000
+        - amount: 30000
       spend: 1000
       days: 90
       credits: []
@@ -2784,7 +2791,7 @@
       weight: 0.8
   offers:
     - amount:
-        - amount: 60000
+        - amount: 70000
       spend: 4000
       days: 90
       credits: []
