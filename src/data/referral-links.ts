@@ -10,8 +10,8 @@ export const REFERRALS = {
       "https://www.referyourchasecard.com/21q/1QKLYDOXDQ",
       "https://www.referyourchasecard.com/21q/YURXNKIY4Y",
     ]),
-    FREEDOM: getRandom(["https://www.referyourchasecard.com/18M/BDWS964YDG"]),
-    UNITED: getRandom(["https://www.referyourchasecard.com/215r/2YQ6628FQC"]),
+    FREEDOM: getRandom(["https://www.referyourchasecard.com/18j/53EOT30OLL"]),
+    UNITED: getRandom(["https://www.referyourchasecard.com/215j/D2KTYJ4FTP"]),
     SOUTHWEST: getRandom([
       "https://www.referyourchasecard.com/226m/0MJIAMX5UZ",
     ]),
