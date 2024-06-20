@@ -65,7 +65,7 @@ importers:
         version: 16.14.20
       openai:
         specifier: ^4.50.0
-        version: 4.51.0(encoding@0.1.13)
+        version: 4.52.0(encoding@0.1.13)
       openapi-zod-client:
         specifier: ^1.18.1
         version: 1.18.1(react@18.3.1)
@@ -668,8 +668,8 @@ packages:
   '@types/node-fetch@2.6.11':
     resolution: {integrity: sha512-24xFj9R5+rfQJLRyM56qh+wnVSYhyXC2tkoBndtY0U+vubqNsYXGjufB2nn8Q6gt0LrARwL6UBtMCSVCwl4B1g==}
 
-  '@types/node@18.19.34':
-    resolution: {integrity: sha512-eXF4pfBNV5DAMKGbI02NnDtWrQ40hAN558/2vvS4gMpMIxaf6JmD7YjnZbq0Q9TDSSkKBamime8ewRoomHdt4g==}
+  '@types/node@18.19.37':
+    resolution: {integrity: sha512-Pi53fdVMk7Ig5IfAMltQQMgtY7xLzHaEous8IQasYsdQbYK3v90FkxI3XYQCe/Qme58pqp14lXJIsFmGP8VoZQ==}
 
   '@types/node@20.14.6':
     resolution: {integrity: sha512-JbA0XIJPL1IiNnU7PFxDXyfAwcwVVrOoqyzzyQTyMeVhBzkJVMSkC1LlVsRQ2lpqiY4n6Bb9oCS6lzDKVQxbZw==}
@@ -2489,8 +2489,8 @@ packages:
     resolution: {integrity: sha512-1FlR+gjXK7X+AsAHso35MnyN5KqGwJRi/31ft6x0M194ht7S+rWAvd7PHss9xSKMzE0asv1pyIHaJYq+BbacAQ==}
     engines: {node: '>=12'}
 
-  openai@4.51.0:
-    resolution: {integrity: sha512-UKuWc3/qQyklqhHM8CbdXCv0Z0obap6T0ECdcO5oATQxAbKE5Ky3YCXFQY207z+eGG6ez4U9wvAcuMygxhmStg==}
+  openai@4.52.0:
+    resolution: {integrity: sha512-xmiNcdA9QJ5wffHpZDpIsge6AsPTETJ6h5iqDNuFQ7qGSNtonHn8Qe0VHy4UwLE8rBWiSqh4j+iSvuYZSeKkPg==}
     hasBin: true
 
   openapi-sampler@1.5.1:
@@ -4174,7 +4174,7 @@ snapshots:
       '@types/node': 20.14.6
       form-data: 4.0.0
 
-  '@types/node@18.19.34':
+  '@types/node@18.19.37':
     dependencies:
       undici-types: 5.26.5
 
@@ -6295,9 +6295,9 @@ snapshots:
     dependencies:
       mimic-fn: 4.0.0
 
-  openai@4.51.0(encoding@0.1.13):
+  openai@4.52.0(encoding@0.1.13):
     dependencies:
-      '@types/node': 18.19.34
+      '@types/node': 18.19.37
       '@types/node-fetch': 2.6.11
       abort-controller: 3.0.0
       agentkeepalive: 4.5.0
