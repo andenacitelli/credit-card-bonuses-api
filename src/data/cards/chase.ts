@@ -453,6 +453,8 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.INKS,
+        details:
+          "120k expected in-branch starting Jun 23, online Jul 3, as per DoC -- consider waiting!",
       },
     ],
     historicalOffers: [
