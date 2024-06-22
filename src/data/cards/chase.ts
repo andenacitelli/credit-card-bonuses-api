@@ -24,6 +24,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 4000,
         days: 90,
         credits: [],
+        referralUrl: REFERRALS.CHASE.MARRIOTT,
       },
     ],
     historicalOffers: [
@@ -550,6 +551,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 1000,
         days: 90,
         credits: [],
+        referralUrl: REFERRALS.CHASE.MARRIOTT,
       },
     ],
     historicalOffers: [
@@ -588,6 +590,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
           },
         ],
         details: "3x FNC up to 50k per",
+        referralUrl: REFERRALS.CHASE.MARRIOTT,
       },
     ],
     historicalOffers: [

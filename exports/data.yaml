@@ -1963,6 +1963,7 @@
       spend: 4000
       days: 90
       credits: []
+      referralUrl: https://www.referyourchasecard.com/252m/YV4FE606LH
   historicalOffers:
     - amount:
         - amount: 85000
@@ -2387,6 +2388,7 @@
       spend: 1000
       days: 90
       credits: []
+      referralUrl: https://www.referyourchasecard.com/252m/YV4FE606LH
   historicalOffers:
     - amount:
         - amount: 100000
@@ -2416,6 +2418,7 @@
           weight: 0.8
           currency: MARRIOTT
       details: 3x FNC up to 50k per
+      referralUrl: https://www.referyourchasecard.com/252m/YV4FE606LH
   historicalOffers:
     - amount:
         - amount: 125000
