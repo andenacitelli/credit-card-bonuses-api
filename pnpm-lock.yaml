@@ -62,7 +62,7 @@ importers:
         version: 16.14.20
       openai:
         specifier: ^4.50.0
-        version: 4.52.0(encoding@0.1.13)
+        version: 4.52.1(encoding@0.1.13)
       openapi-zod-client:
         specifier: ^1.18.1
         version: 1.18.1(react@18.3.1)
@@ -658,8 +658,8 @@ packages:
   '@types/node-fetch@2.6.11':
     resolution: {integrity: sha512-24xFj9R5+rfQJLRyM56qh+wnVSYhyXC2tkoBndtY0U+vubqNsYXGjufB2nn8Q6gt0LrARwL6UBtMCSVCwl4B1g==}
 
-  '@types/node@18.19.37':
-    resolution: {integrity: sha512-Pi53fdVMk7Ig5IfAMltQQMgtY7xLzHaEous8IQasYsdQbYK3v90FkxI3XYQCe/Qme58pqp14lXJIsFmGP8VoZQ==}
+  '@types/node@18.19.39':
+    resolution: {integrity: sha512-nPwTRDKUctxw3di5b4TfT3I0sWDiWoPQCZjXhvdkINntwr8lcoVCKsTgnXeRubKIlfnV+eN/HYk6Jb40tbcEAQ==}
 
   '@types/node@20.14.9':
     resolution: {integrity: sha512-06OCtnTXtWOZBJlRApleWndH4JsRVs1pDCc8dLSQp+7PpUpX3ePdHyeNSFTeSe7FtKyQkrlPvHwJOW3SLd8Oyg==}
@@ -864,8 +864,8 @@ packages:
     resolution: {integrity: sha512-HGyxoOTYUyCM6stUe6EJgnd4EoewAI7zMdfqO+kGjnlZmBDz/cR5pf8r/cR4Wq60sL/p0IkcjUEEPwS3GFrIyw==}
     engines: {node: '>=8'}
 
-  array.prototype.filter@1.0.3:
-    resolution: {integrity: sha512-VizNcj/RGJiUyQBgzwxzE5oHdeuXY5hSbbmKMlphj1cy1Vl7Pn2asCGbSrru6hSQjmCzqTBPVWAF/whmEOVHbw==}
+  array.prototype.filter@1.0.4:
+    resolution: {integrity: sha512-r+mCJ7zXgXElgR4IRC+fkvNCeoaavWBs6EdCso5Tbcf+iEMKzBU/His60lt34WEZ9vlb8wDkZvQGcVI5GwkfoQ==}
     engines: {node: '>= 0.4'}
 
   array.prototype.flat@1.3.2:
@@ -2421,6 +2421,10 @@ packages:
   object-inspect@1.13.1:
     resolution: {integrity: sha512-5qoj1RUiKOMsCCNLV1CBiPYE10sziTsnmNxkAI/rZhiD63CF7IqdFGC/XzjWjpSgLf0LxXX3bDFIh0E18f6UhQ==}
 
+  object-inspect@1.13.2:
+    resolution: {integrity: sha512-IRZSRuzJiynemAXPYtPe5BoI/RESNYR7TYm50MC5Mqbd3Jmw5y790sErYw3V6SryFJD64b74qQQs9wn5Bg/k3g==}
+    engines: {node: '>= 0.4'}
+
   object-is@1.1.6:
     resolution: {integrity: sha512-F8cZ+KfGlSGi09lJT7/Nd6KJZ9ygtvYC0/UYYLI9nmQKLMnydpB9yvbv9K1uSkEu7FU9vYPmVwLg328tX+ot3Q==}
     engines: {node: '>= 0.4'}
@@ -2448,8 +2452,8 @@ packages:
     resolution: {integrity: sha512-1FlR+gjXK7X+AsAHso35MnyN5KqGwJRi/31ft6x0M194ht7S+rWAvd7PHss9xSKMzE0asv1pyIHaJYq+BbacAQ==}
     engines: {node: '>=12'}
 
-  openai@4.52.0:
-    resolution: {integrity: sha512-xmiNcdA9QJ5wffHpZDpIsge6AsPTETJ6h5iqDNuFQ7qGSNtonHn8Qe0VHy4UwLE8rBWiSqh4j+iSvuYZSeKkPg==}
+  openai@4.52.1:
+    resolution: {integrity: sha512-kv2hevAWZZ3I/vd2t8znGO2rd8wkowncsfcYpo8i+wU9ML+JEcdqiViANXXjWWGjIhajFNixE6gOY1fEgqILAg==}
     hasBin: true
 
   openapi-sampler@1.5.1:
@@ -4125,7 +4129,7 @@ snapshots:
       '@types/node': 20.14.9
       form-data: 4.0.0
 
-  '@types/node@18.19.37':
+  '@types/node@18.19.39':
     dependencies:
       undici-types: 5.26.5
 
@@ -4372,12 +4376,13 @@ snapshots:
 
   array-union@2.1.0: {}
 
-  array.prototype.filter@1.0.3:
+  array.prototype.filter@1.0.4:
     dependencies:
       call-bind: 1.0.7
       define-properties: 1.2.1
       es-abstract: 1.23.3
       es-array-method-boxes-properly: 1.0.0
+      es-object-atoms: 1.0.0
       is-string: 1.0.7
 
   array.prototype.flat@1.3.2:
@@ -4899,7 +4904,7 @@ snapshots:
       is-subset: 0.1.1
       lodash.escape: 4.0.1
       lodash.isequal: 4.5.0
-      object-inspect: 1.13.1
+      object-inspect: 1.13.2
       object-is: 1.1.6
       object.assign: 4.1.5
       object.entries: 1.1.8
@@ -5452,7 +5457,7 @@ snapshots:
 
   html-element-map@1.3.1:
     dependencies:
-      array.prototype.filter: 1.0.3
+      array.prototype.filter: 1.0.4
       call-bind: 1.0.7
 
   htmlparser2@8.0.2:
@@ -6159,6 +6164,8 @@ snapshots:
 
   object-inspect@1.13.1: {}
 
+  object-inspect@1.13.2: {}
+
   object-is@1.1.6:
     dependencies:
       call-bind: 1.0.7
@@ -6193,9 +6200,9 @@ snapshots:
     dependencies:
       mimic-fn: 4.0.0
 
-  openai@4.52.0(encoding@0.1.13):
+  openai@4.52.1(encoding@0.1.13):
     dependencies:
-      '@types/node': 18.19.37
+      '@types/node': 18.19.39
       '@types/node-fetch': 2.6.11
       abort-controller: 3.0.0
       agentkeepalive: 4.5.0
