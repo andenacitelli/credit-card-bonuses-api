@@ -2281,7 +2281,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
+      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2306,7 +2306,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
+      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
       details: 120k expected in-branch starting Jun 23, online Jul 3, as per DoC --
         consider waiting!
   historicalOffers:
@@ -2338,7 +2338,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
+      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2365,7 +2365,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
+      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
   historicalOffers:
     - amount:
         - amount: 1000
@@ -2444,11 +2444,11 @@
       weight: 0.75
   offers:
     - amount:
-        - amount: 75000
+        - amount: 60000
       spend: 4000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/19n/IV1NGQHD2L
+      referralUrl: https://www.referyourchasecard.com/19o/QN3N8HQ4KX
   historicalOffers:
     - amount:
         - amount: 100000
@@ -2472,11 +2472,11 @@
       weight: 0.95
   offers:
     - amount:
-        - amount: 75000
+        - amount: 60000
       spend: 4000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/19n/IV1NGQHD2L
+      referralUrl: https://www.referyourchasecard.com/19o/QN3N8HQ4KX
   historicalOffers:
     - amount:
         - amount: 100000

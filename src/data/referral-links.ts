@@ -4,7 +4,7 @@ const getRandom = (array: string[]): string => {
 
 export const REFERRALS = {
   CHASE: {
-    SAPPHIRE: getRandom(["https://www.referyourchasecard.com/19n/IV1NGQHD2L"]),
+    SAPPHIRE: getRandom(["https://www.referyourchasecard.com/19o/QN3N8HQ4KX"]),
     INKS: getRandom([
       "https://www.referyourchasecard.com/21q/98ZI1A53EK",
       "https://www.referyourchasecard.com/21q/1QKLYDOXDQ",
