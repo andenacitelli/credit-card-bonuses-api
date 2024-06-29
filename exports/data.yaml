@@ -2197,11 +2197,16 @@
   credits: []
   offers:
     - amount:
-        - amount: 175000
+        - amount: 0
+          currency: IHG
       spend: 3000
       days: 90
-      credits: []
-      url: https://creditcards.chase.com/a1/ihg/BIZQ224NAEP
+      credits:
+        - value: 300000
+          description: 5x FNC (up to 60k per)
+          weight: 0.7
+          currency: IHG
+      url: https://www.doctorofcredit.com/chase-ihg-premier-five-free-night-certificates-up-to-60000-points-per-night/
     - amount:
         - amount: 140000
       spend: 3000
@@ -2231,7 +2236,7 @@
   offers:
     - amount:
         - amount: 140000
-      spend: 3000
+      spend: 4000
       days: 90
       credits: []
   historicalOffers:
@@ -2257,7 +2262,6 @@
       spend: 2000
       days: 90
       credits: []
-      url: https://www.ihg.com/onerewards/content/us/en/creditcard
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2281,7 +2285,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/YURXNKIY4Y
+      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2306,9 +2310,9 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/YURXNKIY4Y
-      details: 120k expected in-branch starting Jun 23, online Jul 3, as per DoC --
-        consider waiting!
+      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
+      details: 120k actively available in-branch; goes online Jul 3, as per DoC.
+        Consider waiting!
   historicalOffers:
     - amount:
         - amount: 100000
@@ -2338,7 +2342,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/YURXNKIY4Y
+      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2365,7 +2369,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/YURXNKIY4Y
+      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
   historicalOffers:
     - amount:
         - amount: 1000
@@ -2417,7 +2421,7 @@
       credits:
         - description: 3x Free Night Credits
           value: 150000
-          weight: 0.8
+          weight: 0.7
           currency: MARRIOTT
       details: 3x FNC up to 50k per
       referralUrl: https://www.referyourchasecard.com/252m/YV4FE606LH
@@ -2509,6 +2513,7 @@
       credits: []
       url: https://www.southwest.com/html/rapidrewards/partners/credit-cards/southwest-airlines-rapid-rewards-business-cards/index.html
       referralUrl: https://www.referyourchasecard.com/226m/0MJIAMX5UZ
+      details: Extra 60k if you want to spend 15k total.
   historicalOffers:
     - amount:
         - amount: 80000
@@ -2528,7 +2533,7 @@
   credits: []
   offers:
     - amount:
-        - amount: 85000
+        - amount: 50000
       spend: 1000
       days: 90
       credits: []
@@ -2553,7 +2558,7 @@
   credits: []
   offers:
     - amount:
-        - amount: 85000
+        - amount: 50000
       spend: 1000
       days: 90
       credits: []
@@ -2584,6 +2589,7 @@
       credits: []
       url: https://creditcards.chase.com/business-credit-cards/southwest/premier-business
       referralUrl: https://www.referyourchasecard.com/226m/0MJIAMX5UZ
+      details: Extra 60k if you want to spend 15k total.
   historicalOffers:
     - amount:
         - amount: 60000
@@ -2612,7 +2618,7 @@
       weight: 0.8
   offers:
     - amount:
-        - amount: 85000
+        - amount: 50000
       spend: 3000
       days: 90
       credits: []
@@ -2879,10 +2885,11 @@
   credits: []
   offers:
     - amount:
-        - amount: 100
+        - amount: 200
       spend: 0.01
       days: 365
       credits: []
+      expiration: 2024-07-26
   historicalOffers:
     - amount:
         - amount: 150

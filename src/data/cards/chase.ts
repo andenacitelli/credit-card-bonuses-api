@@ -315,11 +315,18 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 175_000 }],
+        amount: [{ amount: 0, currency: "IHG" }],
         spend: 3000,
         days: 90,
-        credits: [],
-        url: "https://creditcards.chase.com/a1/ihg/BIZQ224NAEP",
+        credits: [
+          {
+            value: 60_000 * 5,
+            description: "5x FNC (up to 60k per)",
+            weight: 0.7,
+            currency: "IHG",
+          },
+        ],
+        url: "https://www.doctorofcredit.com/chase-ihg-premier-five-free-night-certificates-up-to-60000-points-per-night/",
       },
       {
         amount: [{ amount: 140_000 }],
@@ -359,7 +366,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 140_000 }],
-        spend: 3000,
+        spend: 4000,
         days: 90,
         credits: [],
       },
@@ -391,7 +398,6 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 2000,
         days: 90,
         credits: [],
-        url: "https://www.ihg.com/onerewards/content/us/en/creditcard",
       },
     ],
     historicalOffers: [
@@ -454,7 +460,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         credits: [],
         referralUrl: REFERRALS.CHASE.INKS,
         details:
-          "120k expected in-branch starting Jun 23, online Jul 3, as per DoC -- consider waiting!",
+          "120k actively available in-branch; goes online Jul 3, as per DoC. Consider waiting!",
       },
     ],
     historicalOffers: [
@@ -587,7 +593,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
           {
             description: "3x Free Night Credits",
             value: 150_000,
-            weight: 0.8,
+            weight: 0.7,
             currency: schemas.CurrenciesEnum.enum.MARRIOTT,
           },
         ],
@@ -710,6 +716,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         credits: [],
         url: "https://www.southwest.com/html/rapidrewards/partners/credit-cards/southwest-airlines-rapid-rewards-business-cards/index.html",
         referralUrl: REFERRALS.CHASE.SOUTHWEST,
+        details: "Extra 60k if you want to spend 15k total.",
       },
     ],
     historicalOffers: [
@@ -735,7 +742,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 85_000 }],
+        amount: [{ amount: 50_000 }],
         spend: 1000,
         days: 90,
         credits: [],
@@ -766,7 +773,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 85_000 }],
+        amount: [{ amount: 50_000 }],
         spend: 1000,
         days: 90,
         credits: [],
@@ -803,6 +810,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         credits: [],
         url: "https://creditcards.chase.com/business-credit-cards/southwest/premier-business",
         referralUrl: REFERRALS.CHASE.SOUTHWEST,
+        details: "Extra 60k if you want to spend 15k total.",
       },
     ],
     historicalOffers: [
@@ -841,7 +849,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 85_000 }],
+        amount: [{ amount: 50_000 }],
         spend: 3000,
         days: 90,
         credits: [],
@@ -1187,10 +1195,11 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 100 }],
+        amount: [{ amount: 200 }],
         spend: 0.01,
         days: 365,
         credits: [],
+        expiration: "2024-07-26",
       },
     ],
     historicalOffers: [
