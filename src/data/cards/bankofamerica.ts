@@ -176,7 +176,6 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 4000,
         days: 90,
         credits: [],
-        url: "https://www.bankofamerica.com/credit-cards/products/premium-rewards-credit-card/",
       },
     ],
     historicalOffers: [
@@ -185,7 +184,6 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 5000,
         days: 90,
         credits: [],
-        url: "https://www.bankofamerica.com/credit-cards/products/premium-rewards-credit-card/",
       },
     ],
   },
@@ -224,7 +222,6 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 5000,
         days: 90,
         credits: [],
-        url: "https://www.bankofamerica.com/credit-cards/products/premium-rewards-elite-credit-card/",
       },
     ],
     historicalOffers: [
@@ -254,7 +251,6 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 1000,
         days: 90,
         credits: [],
-        url: "https://www.bankofamerica.com/credit-cards/products/travel-rewards-credit-card/",
       },
     ],
     historicalOffers: [
@@ -284,7 +280,6 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 1000,
         days: 90,
         credits: [],
-        url: "https://www.bankofamerica.com/credit-cards/products/unlimited-cash-back-credit-card/",
       },
     ],
     historicalOffers: [
@@ -314,7 +309,6 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 3000,
         days: 90,
         credits: [],
-        url: "https://www.bankofamerica.com/smallbusiness/credit-cards/products/cash-rewards-business-credit-card/?campaign=4053371~X7~en_US",
       },
     ],
     historicalOffers: [
@@ -344,7 +338,6 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 3000,
         days: 90,
         credits: [],
-        url: "https://www.bankofamerica.com/smallbusiness/credit-cards/products/unlimited-cash-rewards-business-credit-card/",
       },
     ],
     historicalOffers: [
@@ -353,7 +346,6 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 3000,
         days: 90,
         credits: [],
-        url: "https://www.bankofamerica.com/smallbusiness/credit-cards/products/unlimited-cash-rewards-business-credit-card/",
       },
     ],
   },
@@ -375,7 +367,6 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 3000,
         days: 90,
         credits: [],
-        url: "https://www.bankofamerica.com/smallbusiness/credit-cards/products/travel-rewards-business-credit-card/?campaign=4053417~2P~en_US",
       },
     ],
     historicalOffers: [
@@ -405,7 +396,6 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 3000,
         days: 90,
         credits: [],
-        url: "https://www.bankofamerica.com/smallbusiness/credit-cards/products/platinum-plus-business-credit-card/?campaign=4053445~YT~en_US",
       },
     ],
     historicalOffers: [
@@ -455,7 +445,6 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 1000,
         days: 90,
         credits: [],
-        url: "https://www.bankofamerica.com/credit-cards/products/spirit-airlines-credit-card/",
       },
     ],
   },

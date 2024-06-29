@@ -80,12 +80,6 @@ export const FNBO_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
       },
-      {
-        amount: [{ amount: 20_000 }],
-        spend: 5000,
-        days: 365,
-        credits: [],
-      },
     ],
     historicalOffers: [
       {
@@ -113,12 +107,6 @@ export const FNBO_CARDS: z.input<typeof schemas.CreditCard>[] = [
         amount: [{ amount: 80_000 }],
         spend: 3000,
         days: 90,
-        credits: [],
-      },
-      {
-        amount: [{ amount: 40_000 }],
-        spend: 5000,
-        days: 365,
         credits: [],
       },
     ],

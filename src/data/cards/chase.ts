@@ -890,7 +890,6 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 5000,
         days: 90,
         credits: [],
-        url: "https://www.theexplorercard.com/business-rewards-cards/business-card?",
       },
     ],
     historicalOffers: [
@@ -939,7 +938,6 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.UNITED,
-        url: "https://www.theexplorercard.com/rewards-cards",
       },
     ],
     historicalOffers: [
