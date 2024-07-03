@@ -19,8 +19,5 @@ jobs:
       - run: pnpm generate
 
       # Tests
-      - run: pnpm analyze:lint
-      - run: pnpm analyze:typecheck
-      - run: pnpm analyze:format
-      - run: pnpm analyze:openapi
+      - run: pnpm analyze
       - run: pnpm test
