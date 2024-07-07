@@ -3800,8 +3800,7 @@
   credits: []
   offers:
     - amount:
-        - amount: 25000
-          currency: US_BANK
+        - amount: 0
       spend: 1000
       days: 90
       credits: []
