@@ -97,7 +97,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     name: "Altitude Go",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.VISA,
-    currency: schemas.CurrenciesEnum.enum.USD,
+    currency: schemas.CurrenciesEnum.enum.US_BANK,
     isBusiness: false,
     annualFee: 0,
     isAnnualFeeWaived: false,
