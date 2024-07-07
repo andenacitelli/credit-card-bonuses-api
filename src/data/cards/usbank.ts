@@ -108,7 +108,9 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 25_000 }],
+        amount: [
+          { amount: 25_000, currency: schemas.CurrenciesEnum.enum.US_BANK },
+        ],
         spend: 1000,
         days: 90,
         credits: [],
