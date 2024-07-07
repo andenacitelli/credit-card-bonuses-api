@@ -14,10 +14,6 @@ jobs:
           node-version-file: .nvmrc
           cache: pnpm
       - run: pnpm i
-
-      # Codegen
       - run: pnpm generate
-
-      # Tests
       - run: pnpm analyze
       - run: pnpm test

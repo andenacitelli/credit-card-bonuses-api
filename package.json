@@ -18,7 +18,7 @@
     "bump": "ncu --upgrade --target semver && pnpm i",
     "generate:schemas": "openapi-zod-client ./src/api.yaml --output src/generated/api.client.ts --export-schemas",
     "generate:exports": "tsx ./bin/generate.ts",
-    "generate": "pnpm analyze && pnpm generate:schemas && pnpm generate:exports"
+    "generate": "pnpm generate:schemas && pnpm generate:exports"
   },
   "dependencies": {
     "@zodios/core": "~10.9.6",
