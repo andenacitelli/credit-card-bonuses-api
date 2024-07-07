@@ -47,13 +47,6 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 75_000 }],
-        spend: 6000,
-        days: 180,
-        credits: [],
-        url: "https://creditcardapply.usbank.com/web/creditcardapply/business-altitude-connect?bankercode=100usb#",
-      },
-      {
         amount: [{ amount: 60_000 }],
         spend: 6000,
         days: 180,
@@ -85,17 +78,17 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
-        spend: 2000,
-        days: 120,
+        amount: [{ amount: 20_000 }],
+        spend: 1000,
+        days: 90,
         credits: [],
       },
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 50_000 }],
-        spend: 2000,
-        days: 120,
+        amount: [{ amount: 20_000 }],
+        spend: 1000,
+        days: 90,
         credits: [],
       },
     ],
@@ -115,7 +108,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 200 }],
+        amount: [{ amount: 25_000 }],
         spend: 1000,
         days: 90,
         credits: [],
@@ -123,7 +116,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 250 }],
+        amount: [{ amount: 25_000 }],
         spend: 1000,
         days: 120,
         credits: [],
@@ -179,7 +172,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 200 }],
+        amount: [{ amount: 250 }],
         spend: 1000,
         days: 90,
         credits: [],
@@ -187,7 +180,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 200 }],
+        amount: [{ amount: 250 }],
         spend: 1000,
         credits: [],
         days: 90,
@@ -206,7 +199,9 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     url: "https://www.usbank.com/credit-cards/flexperks-gold-american-express-credit-card.html",
     imageUrl: "/images/usbank/flexperks-gold.jpg",
     credits: [],
-    offers: [],
+    offers: [
+      // no bonus at the moment
+    ],
     historicalOffers: [
       {
         amount: [{ amount: 30_000 }],
@@ -229,13 +224,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     imageUrl: "/images/usbank/business-leverage.webp",
     credits: [],
     offers: [
-      {
-        amount: [{ amount: 900 }],
-        spend: 7500,
-        credits: [],
-        days: 120,
-        url: "https://creditcardapply.usbank.com/web/creditcardapply/business-leverage-card?bankercode=172tan&ecid=othe_26045&sms=1",
-      },
+      // seemingly no current offer
     ],
     historicalOffers: [
       {
@@ -255,31 +244,23 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 95,
     isAnnualFeeWaived: true,
     universalCashbackPercent: 1,
-    url: "https://bizcards.usbank.com/credit/business-triple-cash-back-credit-card.do",
+    url: "https://www.usbank.com/business-banking/business-credit-cards/business-triple-cash-back-credit-card.html",
     imageUrl: "/images/usbank/business-triple-cash-rewards.webp",
     credits: [],
     offers: [
       {
-        amount: [{ amount: 600 }],
-        spend: 4500,
-        days: 150,
-        credits: [],
-        url: "https://creditcardapply.usbank.com/web/creditcardapply/business-triplecash-rewards?bankercode=100usb",
-      },
-      {
-        amount: [{ amount: 500 }],
-        spend: 4500,
-        days: 150,
+        amount: [{ amount: 750 }],
+        spend: 6000,
+        days: 180,
         credits: [],
       },
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 600 }],
-        spend: 4500,
-        days: 150,
+        amount: [{ amount: 750 }],
+        spend: 6000,
+        days: 180,
         credits: [],
-        url: "https://creditcardapply.usbank.com/web/creditcardapply/business-triplecash-rewards?bankercode=100usb",
       },
     ],
   },
@@ -467,7 +448,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 250 }],
+        amount: [{ amount: 300 }],
         spend: 2000,
         days: 120,
         credits: [],
@@ -475,7 +456,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 250 }],
+        amount: [{ amount: 300 }],
         spend: 2000,
         days: 120,
         credits: [],
