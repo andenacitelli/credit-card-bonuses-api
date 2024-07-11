@@ -5,6 +5,7 @@
     "schedule:automergeWeekly",
     "group:recommended"
   ],
+  "rangeStrategy": "bump",
   "npm": {
     "minimumReleaseAge": "7 days"
   },
