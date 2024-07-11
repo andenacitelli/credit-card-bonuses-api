@@ -3,7 +3,7 @@
   "type": "module",
   "version": "1.0.0",
   "engines": {
-    "node": "^20.15.0",
+    "node": "^20.15.1",
     "pnpm": "^9.5.0"
   },
   "scripts": {
