@@ -2,10 +2,6 @@
   "name": "@andenacitelli/credit-card-bonuses",
   "type": "module",
   "version": "1.0.0",
-  "engines": {
-    "node": "^20.15.1",
-    "pnpm": "^9.5.0"
-  },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky",
