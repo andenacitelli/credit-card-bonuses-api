@@ -2102,15 +2102,7 @@
       spend: 500
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/18j/53EOT30OLL
       url: https://www.referyourchasecard.com/18j/53EOT30OLL
-      details: 20k only available via referral. 5x points on groceries.
-    - amount:
-        - amount: 10000
-      spend: 500
-      days: 90
-      credits: []
-      details: Public is only 10k. 5x points on groceries.
   historicalOffers:
     - amount:
         - amount: 25000
@@ -2269,7 +2261,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/YURXNKIY4Y
+      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2294,7 +2286,12 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/YURXNKIY4Y
+    - amount:
+        - amount: 100000
+      spend: 8000
+      days: 90
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2318,7 +2315,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/YURXNKIY4Y
+      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2345,7 +2342,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/YURXNKIY4Y
+      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
   historicalOffers:
     - amount:
         - amount: 1000
@@ -2488,7 +2485,7 @@
       days: 90
       credits: []
       url: https://www.southwest.com/html/rapidrewards/partners/credit-cards/southwest-airlines-rapid-rewards-business-cards/index.html
-      referralUrl: https://www.referyourchasecard.com/226m/0MJIAMX5UZ
+      referralUrl: https://www.referyourchasecard.com/226p/C2WKH1NBGL
       details: Extra 60k if you want to spend 15k total.
   historicalOffers:
     - amount:
@@ -2513,7 +2510,7 @@
       spend: 1000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/226m/0MJIAMX5UZ
+      referralUrl: https://www.referyourchasecard.com/226p/C2WKH1NBGL
   historicalOffers:
     - amount:
         - amount: 100000
@@ -2538,7 +2535,7 @@
       spend: 1000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/226m/0MJIAMX5UZ
+      referralUrl: https://www.referyourchasecard.com/226p/C2WKH1NBGL
   historicalOffers:
     - amount:
         - amount: 100000
@@ -2564,7 +2561,7 @@
       days: 90
       credits: []
       url: https://creditcards.chase.com/business-credit-cards/southwest/premier-business
-      referralUrl: https://www.referyourchasecard.com/226m/0MJIAMX5UZ
+      referralUrl: https://www.referyourchasecard.com/226p/C2WKH1NBGL
       details: Extra 60k if you want to spend 15k total.
   historicalOffers:
     - amount:
@@ -2598,7 +2595,7 @@
       spend: 3000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/226m/0MJIAMX5UZ
+      referralUrl: https://www.referyourchasecard.com/226p/C2WKH1NBGL
   historicalOffers:
     - amount:
         - amount: 100000

@@ -86,7 +86,6 @@ British Airways Signature,CHASE,VISA,AVIOS,false,95,false,1,,https://creditcards
 Disney Premier,CHASE,VISA,USD,false,49,false,1,,https://disneyrewards.com/compare-cards/?cell=608S11,https://offeroptimist.com/images/chase/disney.png,,,300,1000,,90,true
 Disney,CHASE,VISA,USD,false,0,false,1,,https://disneyrewards.com/,https://offeroptimist.com/images/chase/disney.png,,,150,500,,90,true
 Freedom Flex,CHASE,MASTERCARD,CHASE,false,0,false,1,,https://creditcards.chase.com/cash-back-credit-cards/freedom/flex,https://offeroptimist.com/images/chase/freedom-flex.png,,,20000,500,https://www.referyourchasecard.com/18j/53EOT30OLL,90,true
-Freedom Flex,CHASE,MASTERCARD,CHASE,false,0,false,1,,https://creditcards.chase.com/cash-back-credit-cards/freedom/flex,https://offeroptimist.com/images/chase/freedom-flex.png,,,10000,500,,90,true
 Freedom Unlimited,CHASE,VISA,CHASE,false,0,false,1.5,,https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited,https://offeroptimist.com/images/chase/freedom-unlimited.png,,,20000,500,,90,true
 Freedom Unlimited,CHASE,VISA,CHASE,false,0,false,1.5,,https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited,https://offeroptimist.com/images/chase/freedom-unlimited.png,,,0,500,,90,true
 Iberia Signature,CHASE,VISA,AVIOS,false,95,false,1,,https://creditcards.chase.com/travel-credit-cards/avios/iberia,https://offeroptimist.com/images/chase/iberia-signature.png,,,85000,5000,,90,true
@@ -95,6 +94,7 @@ IHG Rewards Premier Business,CHASE,MASTERCARD,IHG,true,99,false,1,,https://credi
 IHG Rewards Traveler,CHASE,MASTERCARD,IHG,false,0,false,1,,https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler,https://offeroptimist.com/images/chase/ihg-rewards-traveler.jpeg,,,80000,2000,,90,true
 Ink Business Cash,CHASE,VISA,CHASE,true,0,false,1,,https://creditcards.chase.com/business-credit-cards/ink/cash,https://offeroptimist.com/images/chase/ink-business-cash.png,,,75000,6000,,90,false
 Ink Business Preferred,CHASE,VISA,CHASE,true,95,false,1,,https://creditcards.chase.com/business-credit-cards/ink/business-preferred,https://offeroptimist.com/images/chase/ink-business-preferred.png,,,120000,8000,,90,false
+Ink Business Preferred,CHASE,VISA,CHASE,true,95,false,1,,https://creditcards.chase.com/business-credit-cards/ink/business-preferred,https://offeroptimist.com/images/chase/ink-business-preferred.png,,,100000,8000,,90,false
 Ink Business Unlimited,CHASE,VISA,CHASE,true,0,false,1,,https://creditcards.chase.com/business-credit-cards/ink/unlimited,https://offeroptimist.com/images/chase/ink-business-unlimited.png,,,75000,6000,,90,false
 Ink Business Premier,CHASE,VISA,USD,true,195,false,2,,https://creditcards.chase.com/business-credit-cards/ink/premier?CELL=6G3K,https://offeroptimist.com/images/chase/ink-business-premier.png,,,1000,10000,,90,false
 Marriott Bonvoy Bold,CHASE,VISA,MARRIOTT,false,0,false,1,,https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold,https://offeroptimist.com/images/chase/marriott-bonvoy-bold.jpeg,,,30000,1000,,90,true
