@@ -328,12 +328,6 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         ],
         url: "https://www.doctorofcredit.com/chase-ihg-premier-five-free-night-certificates-up-to-60000-points-per-night/",
       },
-      {
-        amount: [{ amount: 140_000 }],
-        spend: 3000,
-        days: 90,
-        credits: [],
-      },
     ],
     historicalOffers: [
       {
@@ -454,28 +448,19 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 100_000 }],
+        amount: [{ amount: 120_000 }],
         spend: 8_000,
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.INKS,
-        details:
-          "120k actively available in-branch; goes online Jul 11th (was postponed), as per DoC. Consider waiting!",
       },
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 100_000 }],
-        spend: 15_000,
+        amount: [{ amount: 120_000 }],
+        spend: 8_000,
         days: 90,
         credits: [],
-      },
-      {
-        amount: [{ amount: 80_000 }],
-        spend: 5000,
-        days: 90,
-        credits: [],
-        expiration: "2020-03-01",
       },
     ],
   },

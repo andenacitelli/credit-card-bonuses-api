@@ -2196,11 +2196,6 @@
           weight: 0.7
           currency: IHG
       url: https://www.doctorofcredit.com/chase-ihg-premier-five-free-night-certificates-up-to-60000-points-per-night/
-    - amount:
-        - amount: 140000
-      spend: 3000
-      days: 90
-      credits: []
   historicalOffers:
     - amount:
         - amount: 175000
@@ -2274,7 +2269,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
+      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2295,25 +2290,17 @@
   credits: []
   offers:
     - amount:
-        - amount: 100000
+        - amount: 120000
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
-      details: 120k actively available in-branch; goes online Jul 11th (was
-        postponed), as per DoC. Consider waiting!
+      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
   historicalOffers:
     - amount:
-        - amount: 100000
-      spend: 15000
+        - amount: 120000
+      spend: 8000
       days: 90
       credits: []
-    - amount:
-        - amount: 80000
-      spend: 5000
-      days: 90
-      credits: []
-      expiration: 2020-03-01
 - name: Ink Business Unlimited
   issuer: CHASE
   network: VISA
@@ -2331,7 +2318,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
+      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2358,7 +2345,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
+      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
   historicalOffers:
     - amount:
         - amount: 1000
