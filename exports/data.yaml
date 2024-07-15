@@ -2261,7 +2261,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
+      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2291,7 +2291,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
+      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2315,7 +2315,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
+      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2342,7 +2342,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
+      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
   historicalOffers:
     - amount:
         - amount: 1000
@@ -2363,10 +2363,14 @@
   credits: []
   offers:
     - amount:
-        - amount: 30000
+        - amount: 60000
       spend: 1000
       days: 90
-      credits: []
+      credits:
+        - value: 50000
+          description: 1x Free Night Credit
+          currency: MARRIOTT
+          weight: 0.7
       referralUrl: https://www.referyourchasecard.com/252m/YV4FE606LH
   historicalOffers:
     - amount:
@@ -4186,13 +4190,13 @@
   credits: []
   offers:
     - amount:
-        - amount: 40000
+        - amount: 70000
       spend: 1000
       days: 90
       credits: []
   historicalOffers:
     - amount:
-        - amount: 40000
+        - amount: 70000
       spend: 1000
       days: 90
       credits: []
@@ -4209,13 +4213,13 @@
   credits: []
   offers:
     - amount:
-        - amount: 60000
+        - amount: 100000
       spend: 3000
       days: 90
       credits: []
   historicalOffers:
     - amount:
-        - amount: 60000
+        - amount: 100000
       spend: 3000
       days: 90
       credits: []

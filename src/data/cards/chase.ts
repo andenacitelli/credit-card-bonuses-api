@@ -537,10 +537,17 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 30_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 1000,
         days: 90,
-        credits: [],
+        credits: [
+          {
+            value: 50_000,
+            description: "1x Free Night Credit",
+            currency: schemas.CurrenciesEnum.enum.MARRIOTT,
+            weight: 0.7,
+          },
+        ],
         referralUrl: REFERRALS.CHASE.MARRIOTT,
       },
     ],
