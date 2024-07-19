@@ -44,15 +44,9 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     universalCashbackPercent: 1,
     url: "https://www.capitalone.com/credit-cards/savor-dining-rewards/",
     imageUrl: "/images/capitalone/savor.webp",
+    details: "Capital One temporarily no longer taking applications for this.",
     credits: [],
-    offers: [
-      {
-        amount: [{ amount: 300 }],
-        spend: 3000,
-        days: 90,
-        credits: [],
-      },
-    ],
+    offers: [],
     historicalOffers: [
       {
         amount: [{ amount: 300 }],
@@ -228,6 +222,20 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
       },
     ],
     offers: [
+      {
+        amount: [{ amount: 75_000 }],
+        spend: 4000,
+        days: 90,
+        credits: [
+          {
+            value: 250,
+            description: "$250 travel portal credit",
+            currency: schemas.CurrenciesEnum.enum.USD,
+            weight: 0.8,
+          },
+        ],
+        url: "https://www.doctorofcredit.com/capital-one-venture-75000-points-250-travel-credit/",
+      },
       {
         amount: [{ amount: 75_000 }],
         spend: 4000,

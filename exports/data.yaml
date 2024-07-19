@@ -2268,7 +2268,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
+      referralUrl: https://www.referyourchasecard.com/21q/YURXNKIY4Y
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2298,7 +2298,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
+      referralUrl: https://www.referyourchasecard.com/21q/YURXNKIY4Y
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2322,7 +2322,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
+      referralUrl: https://www.referyourchasecard.com/21q/YURXNKIY4Y
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2349,7 +2349,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
+      referralUrl: https://www.referyourchasecard.com/21q/YURXNKIY4Y
   historicalOffers:
     - amount:
         - amount: 1000
@@ -2916,13 +2916,9 @@
   universalCashbackPercent: 1
   url: https://www.capitalone.com/credit-cards/savor-dining-rewards/
   imageUrl: /images/capitalone/savor.webp
+  details: Capital One temporarily no longer taking applications for this.
   credits: []
-  offers:
-    - amount:
-        - amount: 300
-      spend: 3000
-      days: 90
-      credits: []
+  offers: []
   historicalOffers:
     - amount:
         - amount: 300
@@ -3060,6 +3056,16 @@
       description: Global Entry / TSA PreCheck Credit
       weight: 0.4
   offers:
+    - amount:
+        - amount: 75000
+      spend: 4000
+      days: 90
+      credits:
+        - value: 250
+          description: $250 travel portal credit
+          currency: USD
+          weight: 0.8
+      url: https://www.doctorofcredit.com/capital-one-venture-75000-points-250-travel-credit/
     - amount:
         - amount: 75000
       spend: 4000
