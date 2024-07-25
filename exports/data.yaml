@@ -333,14 +333,12 @@
       spend: 1000
       days: 90
       credits: []
-      url: https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-blue-american-express-card/
   historicalOffers:
     - amount:
         - amount: 10000
       spend: 1000
       days: 90
       credits: []
-      expiration: 2023-07-01
 - name: Delta SkyMiles Gold
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -357,11 +355,10 @@
       weight: 0.5
   offers:
     - amount:
-        - amount: 65000
+        - amount: 40000
       spend: 3000
       days: 180
       credits: []
-      expiration: 2024-07-17
   historicalOffers:
     - amount:
         - amount: 75000
@@ -382,11 +379,10 @@
   credits: []
   offers:
     - amount:
-        - amount: 75000
+        - amount: 55000
       spend: 4000
       days: 180
       credits: []
-      expiration: 2024-07-17
   historicalOffers:
     - amount:
         - amount: 50000
@@ -414,11 +410,10 @@
       weight: 0.7
   offers:
     - amount:
-        - amount: 85000
+        - amount: 50000
       spend: 3000
       days: 180
       credits: []
-      expiration: 2024-07-17
   historicalOffers:
     - amount:
         - amount: 90000
@@ -448,11 +443,10 @@
       weight: 0.5
   offers:
     - amount:
-        - amount: 95000
+        - amount: 65000
       spend: 8000
       days: 180
       credits: []
-      expiration: 2024-07-17
   historicalOffers:
     - amount:
         - amount: 100000
@@ -472,11 +466,10 @@
   credits: []
   offers:
     - amount:
-        - amount: 95000
+        - amount: 60000
       spend: 6000
       days: 180
       credits: []
-      expiration: 2024-07-17
   historicalOffers:
     - amount:
         - amount: 125000
@@ -497,11 +490,10 @@
   credits: []
   offers:
     - amount:
-        - amount: 110000
+        - amount: 75000
       spend: 12000
       days: 180
       credits: []
-      expiration: 2024-07-17
   historicalOffers:
     - amount:
         - amount: 110000
@@ -2274,7 +2266,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
+      referralUrl: https://www.referyourchasecard.com/21q/YURXNKIY4Y
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2304,7 +2296,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
+      referralUrl: https://www.referyourchasecard.com/21q/YURXNKIY4Y
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2328,7 +2320,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
+      referralUrl: https://www.referyourchasecard.com/21q/YURXNKIY4Y
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2355,7 +2347,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
+      referralUrl: https://www.referyourchasecard.com/21q/YURXNKIY4Y
   historicalOffers:
     - amount:
         - amount: 1000
