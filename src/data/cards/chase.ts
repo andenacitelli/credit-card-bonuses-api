@@ -356,13 +356,6 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         credits: [],
         url: "https://www.doctorofcredit.com/chase-ihg-premier-business-card-200000-offer-new-all-time-high/",
       },
-      {
-        amount: [{ amount: 200_000 }],
-        spend: 9000,
-        days: 180,
-        credits: [],
-        url: "https://www.doctorofcredit.com/chase-ihg-premier-business-card-200000-offer-new-all-time-high/",
-      },
     ],
     historicalOffers: [
       {

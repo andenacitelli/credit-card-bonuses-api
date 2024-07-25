@@ -735,7 +735,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
     currency: schemas.CurrenciesEnum.enum.AMERICAN_EXPRESS,
     isBusiness: false,
-    annualFee: 250,
+    annualFee: 350,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
     url: "https://www.americanexpress.com/us/credit-cards/card/gold-card/",
@@ -752,8 +752,25 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         value: 120,
         weight: 0.5,
       },
+      {
+        description: "$7/mo credit for Dunkin",
+        value: 7 * 12,
+        weight: 0.4,
+      },
+      {
+        description: "Semi-annual $50 Resy credit",
+        value: 50 * 2,
+        weight: 0.75,
+      },
     ],
     offers: [
+      {
+        amount: [{ amount: 100_000 }],
+        spend: 6000,
+        days: 180,
+        credits: [],
+        details: "Requires incognito, YMMV.",
+      },
       {
         amount: [
           { amount: 75_000 },
