@@ -17,16 +17,16 @@ export const PNC_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 400 }],
-        spend: 3000,
+        amount: [{ amount: 600 }],
+        spend: 6000,
         days: 90,
         credits: [],
       },
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 400 }],
-        spend: 3000,
+        amount: [{ amount: 600 }],
+        spend: 6000,
         days: 90,
         credits: [],
       },
