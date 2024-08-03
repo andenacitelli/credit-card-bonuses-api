@@ -57,17 +57,10 @@
   credits: []
   offers:
     - amount:
-        - amount: 30000
+        - amount: 50000
       spend: 6000
       days: 90
       credits: []
-      details: Inconsistent whether you get this one or the other.
-    - amount:
-        - amount: 50000
-      spend: 8000
-      days: 90
-      credits: []
-      details: Inconsistent whether you get this one or the other.
   historicalOffers:
     - amount:
         - amount: 15000
@@ -2266,7 +2259,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
+      referralUrl: https://www.referyourchasecard.com/21q/YURXNKIY4Y
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2296,7 +2289,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
+      referralUrl: https://www.referyourchasecard.com/21q/YURXNKIY4Y
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2320,7 +2313,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
+      referralUrl: https://www.referyourchasecard.com/21q/YURXNKIY4Y
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2347,7 +2340,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
+      referralUrl: https://www.referyourchasecard.com/21q/YURXNKIY4Y
   historicalOffers:
     - amount:
         - amount: 1000
