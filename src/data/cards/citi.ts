@@ -78,7 +78,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 99,
     isAnnualFeeWaived: true,
     universalCashbackPercent: 1,
-    url: "https://creditcards.aa.com/citi-business-card-american-airlines-direct/",
+    url: "https://creditcards.aa.com/",
     imageUrl: "/images/citi/aadvantage-platinum-select.webp",
     credits: [],
     offers: [

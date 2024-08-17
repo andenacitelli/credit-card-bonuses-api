@@ -181,17 +181,10 @@
       days: 90
       credits: []
     - amount:
-        - amount: 125000
+        - amount: 100000
       spend: 10000
       days: 90
       credits: []
-      details: Inconsistent, YMMV.
-    - amount:
-        - amount: 150000
-      spend: 10000
-      days: 90
-      credits: []
-      url: https://www.doctorofcredit.com/ymmv-american-express-business-gold-150000-point-no-lifetime-language/
       details: Inconsistent, YMMV.
   historicalOffers:
     - amount:
@@ -764,10 +757,11 @@
       weight: 0.75
   offers:
     - amount:
-        - amount: 95000
+        - amount: 185000
       spend: 6000
       days: 180
       credits: []
+      url: https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-brilliant/
   historicalOffers:
     - amount:
         - amount: 200000
@@ -970,7 +964,7 @@
   credits: []
   offers:
     - amount:
-        - amount: 85000
+        - amount: 155000
       spend: 5000
       days: 180
       credits: []
@@ -2259,7 +2253,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/YURXNKIY4Y
+      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2289,7 +2283,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/YURXNKIY4Y
+      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2313,7 +2307,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/YURXNKIY4Y
+      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2340,7 +2334,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/YURXNKIY4Y
+      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
   historicalOffers:
     - amount:
         - amount: 1000
@@ -2832,6 +2826,7 @@
       spend: 5000
       days: 90
       credits: []
+      details: Extra 15k for $12k/6mo.
   historicalOffers:
     - amount:
         - amount: 60000
@@ -3223,7 +3218,7 @@
   annualFee: 99
   isAnnualFeeWaived: true
   universalCashbackPercent: 1
-  url: https://creditcards.aa.com/citi-business-card-american-airlines-direct/
+  url: https://creditcards.aa.com/
   imageUrl: /images/citi/aadvantage-platinum-select.webp
   credits: []
   offers:

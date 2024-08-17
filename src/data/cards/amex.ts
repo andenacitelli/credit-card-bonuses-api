@@ -237,18 +237,10 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         credits: [],
       },
       {
-        amount: [{ amount: 125_000 }],
+        amount: [{ amount: 100_000 }],
         spend: 10_000,
         days: 90,
         credits: [],
-        details: "Inconsistent, YMMV.",
-      },
-      {
-        amount: [{ amount: 150_000 }],
-        spend: 10_000,
-        days: 90,
-        credits: [],
-        url: "https://www.doctorofcredit.com/ymmv-american-express-business-gold-150000-point-no-lifetime-language/",
         details: "Inconsistent, YMMV.",
       },
     ],
@@ -1000,10 +992,11 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 95_000 }],
+        amount: [{ amount: 185_000 }],
         spend: 6000,
         days: 180,
         credits: [],
+        url: "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-brilliant/",
       },
     ],
     historicalOffers: [
@@ -1287,7 +1280,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 85_000 }],
+        amount: [{ amount: 155_000 }],
         spend: 5000,
         days: 180,
         credits: [],
