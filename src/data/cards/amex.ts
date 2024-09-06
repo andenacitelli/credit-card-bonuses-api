@@ -76,8 +76,8 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
-        spend: 6000,
+        amount: [{ amount: 15_000 }],
+        spend: 3000,
         days: 90,
         credits: [],
       },
@@ -200,7 +200,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 350 }],
+        amount: [{ amount: 250 }],
         spend: 3000,
         days: 180,
         credits: [],
@@ -330,14 +330,14 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 150_000 }],
+        amount: [{ amount: 250_000 }],
         spend: 20_000,
         days: 90,
         credits: [],
         details: "Incognito/VPN, YMMV.",
       },
       {
-        amount: [{ amount: 120_000 }],
+        amount: [{ amount: 150_000 }],
         spend: 20_000,
         days: 90,
         credits: [],
@@ -1010,8 +1010,8 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         credits: [
           {
             currency: "MARRIOTT",
-            description: "5x Free Night Credit, up to 50k per",
-            value: 250_000,
+            description: "3x Free Night Credit, up to 50k per",
+            value: 150_000,
             weight: 0.7,
           },
         ],
@@ -1225,7 +1225,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 125_000 }],
+        amount: [{ amount: 80_000 }],
         spend: 8000,
         days: 180,
         credits: [],

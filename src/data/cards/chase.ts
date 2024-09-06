@@ -474,7 +474,6 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.INKS,
-        details: "Expected to rise to 90k on Aug 25th, consider waiting.",
       },
     ],
     historicalOffers: [

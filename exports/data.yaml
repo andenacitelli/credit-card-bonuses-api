@@ -57,8 +57,8 @@
   credits: []
   offers:
     - amount:
-        - amount: 50000
-      spend: 6000
+        - amount: 15000
+      spend: 3000
       days: 90
       credits: []
   historicalOffers:
@@ -151,7 +151,7 @@
       weight: 0.25
   offers:
     - amount:
-        - amount: 350
+        - amount: 250
       spend: 3000
       days: 180
       credits: []
@@ -250,13 +250,13 @@
       weight: 0.3
   offers:
     - amount:
-        - amount: 150000
+        - amount: 250000
       spend: 20000
       days: 90
       credits: []
       details: Incognito/VPN, YMMV.
     - amount:
-        - amount: 120000
+        - amount: 150000
       spend: 20000
       days: 90
       credits: []
@@ -772,8 +772,8 @@
         - amount: 0
       credits:
         - currency: MARRIOTT
-          description: 5x Free Night Credit, up to 50k per
-          value: 250000
+          description: 3x Free Night Credit, up to 50k per
+          value: 150000
           weight: 0.7
       spend: 8000
       days: 90
@@ -920,7 +920,7 @@
       weight: 0.2
   offers:
     - amount:
-        - amount: 125000
+        - amount: 80000
       spend: 8000
       days: 180
       credits: []
@@ -1048,7 +1048,7 @@
       weight: 0.8
   offers:
     - amount:
-        - amount: 60000
+        - amount: 50000
       spend: 3000
       days: 90
       credits: []
@@ -2234,7 +2234,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
+      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2282,8 +2282,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
-      details: Expected to rise to 90k on Aug 25th, consider waiting.
+      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2310,7 +2309,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
+      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
   historicalOffers:
     - amount:
         - amount: 1000
@@ -3027,6 +3026,7 @@
           currency: USD
           weight: 0.8
       url: https://www.doctorofcredit.com/capital-one-venture-75000-points-250-travel-credit/
+      expiration: 2024-09-09
     - amount:
         - amount: 75000
       spend: 4000
@@ -3222,7 +3222,7 @@
   annualFee: 99
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://creditcards.aa.com/citi-business-card-american-airlines-wand/?utm_medium=referral&utm_source=aa&utm_campaign=ccpage
+  url: https://creditcards.aa.com/cards/citi-business-card-american-airlines-direct/
   imageUrl: /images/citi/aadvantage-platinum-select-business.webp
   credits:
     - value: 50
@@ -3230,7 +3230,7 @@
       weight: 0.5
   offers:
     - amount:
-        - amount: 75000
+        - amount: 65000
       spend: 5000
       days: 150
       credits: []

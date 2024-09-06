@@ -235,6 +235,7 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
           },
         ],
         url: "https://www.doctorofcredit.com/capital-one-venture-75000-points-250-travel-credit/",
+        expiration: "2024-09-09",
       },
       {
         amount: [{ amount: 75_000 }],

@@ -114,7 +114,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 99,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://creditcards.aa.com/citi-business-card-american-airlines-wand/?utm_medium=referral&utm_source=aa&utm_campaign=ccpage",
+    url: "https://creditcards.aa.com/cards/citi-business-card-american-airlines-direct/",
     imageUrl: "/images/citi/aadvantage-platinum-select-business.webp",
     credits: [
       {
@@ -125,7 +125,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 75_000 }],
+        amount: [{ amount: 65_000 }],
         spend: 5000,
         days: 150,
         credits: [],
