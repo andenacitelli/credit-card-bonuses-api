@@ -1687,7 +1687,7 @@
   credits: []
   offers:
     - amount:
-        - amount: 50000
+        - amount: 80000
       spend: 3000
       days: 90
       credits: []
@@ -2253,7 +2253,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/YURXNKIY4Y
+      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2274,17 +2274,10 @@
   credits: []
   offers:
     - amount:
-        - amount: 120000
+        - amount: 90000
       spend: 8000
       days: 90
       credits: []
-      expiration: 2024-09-05
-    - amount:
-        - amount: 100000
-      spend: 8000
-      days: 90
-      credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/YURXNKIY4Y
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2304,11 +2297,11 @@
   credits: []
   offers:
     - amount:
-        - amount: 75000
+        - amount: 90000
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/YURXNKIY4Y
+      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
       details: Expected to rise to 90k on Aug 25th, consider waiting.
   historicalOffers:
     - amount:
@@ -2336,7 +2329,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/YURXNKIY4Y
+      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
   historicalOffers:
     - amount:
         - amount: 1000

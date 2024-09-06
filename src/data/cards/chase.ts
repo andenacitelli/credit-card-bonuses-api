@@ -440,18 +440,10 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 120_000 }],
+        amount: [{ amount: 90_000 }],
         spend: 8_000,
         days: 90,
         credits: [],
-        expiration: "2024-09-05",
-      },
-      {
-        amount: [{ amount: 100_000 }],
-        spend: 8_000,
-        days: 90,
-        credits: [],
-        referralUrl: REFERRALS.CHASE.INKS,
       },
     ],
     historicalOffers: [
@@ -477,7 +469,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 75_000 }],
+        amount: [{ amount: 90_000 }],
         spend: 6000,
         days: 90,
         credits: [],
