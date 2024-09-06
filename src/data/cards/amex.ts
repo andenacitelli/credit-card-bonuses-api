@@ -589,7 +589,13 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     universalCashbackPercent: 1,
     url: "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/",
     imageUrl: "/images/amex/delta-skymiles-reserve.webp",
-    credits: [],
+    credits: [
+      {
+        value: 240,
+        description: "Resy Credit",
+        weight: 0.6,
+      },
+    ],
     offers: [
       {
         amount: [{ amount: 60_000 }],
@@ -756,13 +762,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 180,
         credits: [],
         url: "https://resy.com/amex-offers?date=2022-07-16&seats=2",
-      },
-      {
-        amount: [{ amount: 90_000 }],
-        spend: 4000,
-        days: 180,
-        credits: [],
-        details: "Inconsistent, YMMV.",
       },
       {
         amount: [{ amount: 60_000 }],
@@ -1114,18 +1113,11 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 175_000 }],
-        spend: 8000,
-        days: 180,
-        credits: [],
-        details: "Inconsistent, YMMV.",
-      },
-      {
         amount: [{ amount: 100_000 }],
         spend: 8000,
         days: 180,
         credits: [],
-        url: "https://resy.com/global-dining-access?date=2024-05-27&seats=2#",
+        url: "https://resy.com/amex-offers?date=2022-07-16&seats=2",
       },
       {
         amount: [{ amount: 80_000 }],
