@@ -639,14 +639,10 @@
   credits: []
   offers:
     - amount:
-        - amount: 70000
+        - amount: 80000
       spend: 2000
       days: 180
-      expiration: 2024-07-31
-      credits:
-        - value: 0
-          description: +1 Free Night
-          weight: 1
+      credits: []
   historicalOffers:
     - amount:
         - amount: 150000
@@ -670,10 +666,9 @@
       weight: 0.8
   offers:
     - amount:
-        - amount: 170000
+        - amount: 150000
       spend: 6000
       days: 180
-      expiration: 2024-07-31
       credits: []
   historicalOffers:
     - amount:
@@ -699,10 +694,9 @@
       description: $60 Hilton credit per quarter.
   offers:
     - amount:
-        - amount: 175000
-      spend: 8000
+        - amount: 130000
+      spend: 6000
       days: 180
-      expiration: 2024-07-31
       credits: []
   historicalOffers:
     - amount:
@@ -726,11 +720,7 @@
         - amount: 130000
       spend: 3000
       days: 180
-      expiration: 2024-07-31
-      credits:
-        - value: 0
-          description: +1 Free Night
-          weight: 1
+      credits: []
   historicalOffers:
     - amount:
         - amount: 200000
@@ -2839,11 +2829,10 @@
   credits: []
   offers:
     - amount:
-        - amount: 200
+        - amount: 100
       spend: 0.01
       days: 365
       credits: []
-      expiration: 2024-07-26
   historicalOffers:
     - amount:
         - amount: 150
@@ -3681,7 +3670,7 @@
       spend: 3000
       days: 90
       credits: []
-      expiration: 2024-08-31
+      expiration: 2024-11-07
   historicalOffers:
     - amount:
         - amount: 35000

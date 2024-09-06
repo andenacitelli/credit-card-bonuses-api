@@ -21,7 +21,7 @@ export const SYNCHRONY_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 3000,
         days: 90,
         credits: [],
-        expiration: "2024-08-31",
+        expiration: "2024-11-07",
       },
     ],
     historicalOffers: [
