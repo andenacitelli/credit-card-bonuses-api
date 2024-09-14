@@ -6,18 +6,18 @@ export const REFERRALS = {
   CHASE: {
     SAPPHIRE: getRandom(["https://www.referyourchasecard.com/19o/QN3N8HQ4KX"]),
     INKS: getRandom([
-      "https://www.referyourchasecard.com/21q/98ZI1A53EK",
-      "https://www.referyourchasecard.com/21q/1QKLYDOXDQ",
-      "https://www.referyourchasecard.com/21q/YURXNKIY4Y",
+      "https://www.referyourchasecard.com/21r/5XN33129Y3",
+      "https://www.referyourchasecard.com/21r/Z9CI8ZT4ON",
+      "https://www.referyourchasecard.com/21r/ONDY31NAZE",
     ]),
-    FREEDOM: getRandom(["https://www.referyourchasecard.com/18j/53EOT30OLL"]),
-    UNITED: getRandom(["https://www.referyourchasecard.com/215j/D2KTYJ4FTP"]),
+    FREEDOM: getRandom(["https://www.referyourchasecard.com/18s/BXSOWPQ68F"]),
+    UNITED: getRandom(["https://www.referyourchasecard.com/215A/OADUJ1AWMB"]),
     SOUTHWEST: getRandom([
       "https://www.referyourchasecard.com/226p/C2WKH1NBGL",
     ]),
-    MARRIOTT: getRandom(["https://www.referyourchasecard.com/252m/YV4FE606LH"]),
+    MARRIOTT: getRandom(["https://www.referyourchasecard.com/252j/1FMGX9HG9J"]),
   },
   AMERICAN_EXPRESS: {
-    GOLD: "https://americanexpress.com/en-us/referral/ANDENa0UQA?xl=cp19",
+    GOLD: "https://americanexpress.com/en-us/referral/ANDENa0UQA",
   },
 };

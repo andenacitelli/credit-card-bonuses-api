@@ -594,7 +594,7 @@
       spend: 6000
       days: 180
       credits: []
-      referralUrl: https://americanexpress.com/en-us/referral/ANDENa0UQA?xl=cp19
+      referralUrl: https://americanexpress.com/en-us/referral/ANDENa0UQA
   historicalOffers:
     - amount:
         - amount: 90000
@@ -1930,7 +1930,7 @@
       spend: 4000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/252m/YV4FE606LH
+      referralUrl: https://www.referyourchasecard.com/252j/1FMGX9HG9J
   historicalOffers:
     - amount:
         - amount: 85000
@@ -2092,7 +2092,7 @@
       spend: 500
       days: 90
       credits: []
-      url: https://www.referyourchasecard.com/18j/53EOT30OLL
+      url: https://www.referyourchasecard.com/18s/BXSOWPQ68F
   historicalOffers:
     - amount:
         - amount: 25000
@@ -2123,7 +2123,7 @@
       days: 90
       credits: []
       details: Extra 1.5% cashback, up to $300/yr.
-      referralUrl: https://www.referyourchasecard.com/18j/53EOT30OLL
+      referralUrl: https://www.referyourchasecard.com/18s/BXSOWPQ68F
   historicalOffers:
     - amount:
         - amount: 20000
@@ -2258,7 +2258,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
+      referralUrl: https://www.referyourchasecard.com/21r/Z9CI8ZT4ON
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2283,6 +2283,7 @@
       spend: 8000
       days: 90
       credits: []
+      referralUrl: https://www.referyourchasecard.com/21r/Z9CI8ZT4ON
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2306,7 +2307,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
+      referralUrl: https://www.referyourchasecard.com/21r/Z9CI8ZT4ON
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2333,7 +2334,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
+      referralUrl: https://www.referyourchasecard.com/21r/Z9CI8ZT4ON
   historicalOffers:
     - amount:
         - amount: 1000
@@ -2362,7 +2363,7 @@
           description: 1x Free Night Credit
           currency: MARRIOTT
           weight: 0.7
-      referralUrl: https://www.referyourchasecard.com/252m/YV4FE606LH
+      referralUrl: https://www.referyourchasecard.com/252j/1FMGX9HG9J
   historicalOffers:
     - amount:
         - amount: 100000
@@ -2392,7 +2393,7 @@
           weight: 0.7
           currency: MARRIOTT
       details: 3x FNC up to 50k per
-      referralUrl: https://www.referyourchasecard.com/252m/YV4FE606LH
+      referralUrl: https://www.referyourchasecard.com/252j/1FMGX9HG9J
   historicalOffers:
     - amount:
         - amount: 125000
@@ -2638,7 +2639,7 @@
   annualFee: 525
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://creditcards.chase.com/travel-credit-cards/united/club-infinite
+  url: https://www.theexplorercard.com/rewards-cards
   imageUrl: /images/chase/united-club-infinite.png
   credits:
     - value: 650
@@ -2649,11 +2650,11 @@
       weight: 0.4
   offers:
     - amount:
-        - amount: 90000
+        - amount: 80000
       spend: 5000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/215j/D2KTYJ4FTP
+      referralUrl: https://www.referyourchasecard.com/215A/OADUJ1AWMB
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2702,7 +2703,7 @@
   annualFee: 95
   isAnnualFeeWaived: true
   universalCashbackPercent: 1
-  url: https://creditcards.chase.com/travel-credit-cards/united/united-explorer
+  url: https://www.theexplorercard.com/rewards-cards
   imageUrl: /images/chase/united-explorer.png
   credits:
     - value: 50
@@ -2713,12 +2714,11 @@
       weight: 0.4
   offers:
     - amount:
-        - amount: 70000
+        - amount: 50000
       spend: 3000
       days: 90
       credits: []
-      url: https://www.theexplorercard.com/united-rewards-cards
-      referralUrl: https://www.referyourchasecard.com/215j/D2KTYJ4FTP
+      referralUrl: https://www.referyourchasecard.com/215A/OADUJ1AWMB
   historicalOffers:
     - amount:
         - amount: 70000
@@ -2734,17 +2734,16 @@
   annualFee: 0
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://creditcards.chase.com/travel-credit-cards/united/united-gateway
+  url: https://www.theexplorercard.com/rewards-cards
   imageUrl: /images/chase/united-gateway.png
   credits: []
   offers:
     - amount:
-        - amount: 30000
+        - amount: 20000
       spend: 1000
       days: 90
       credits: []
-      url: https://www.theexplorercard.com/rewards-cards?CELL=XWG&domain=uec
-      referralUrl: https://www.referyourchasecard.com/215j/D2KTYJ4FTP
+      referralUrl: https://www.referyourchasecard.com/215A/OADUJ1AWMB
   historicalOffers:
     - amount:
         - amount: 30000
@@ -2760,7 +2759,7 @@
   annualFee: 250
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://creditcards.chase.com/travel-credit-cards/united/united-quest
+  url: https://www.theexplorercard.com/rewards-cards
   imageUrl: /images/chase/united-quest.png
   credits:
     - value: 125
@@ -2768,12 +2767,11 @@
       weight: 0.8
   offers:
     - amount:
-        - amount: 70000
+        - amount: 60000
       spend: 4000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/215j/D2KTYJ4FTP
-      url: https://www.theexplorercard.com/rewards-cards
+      referralUrl: https://www.referyourchasecard.com/215A/OADUJ1AWMB
   historicalOffers:
     - amount:
         - amount: 90000

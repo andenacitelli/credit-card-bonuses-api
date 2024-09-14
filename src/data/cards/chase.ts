@@ -465,6 +465,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 8_000,
         days: 90,
         credits: [],
+        referralUrl: REFERRALS.CHASE.INKS,
       },
     ],
     historicalOffers: [
@@ -921,7 +922,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 525,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://creditcards.chase.com/travel-credit-cards/united/club-infinite",
+    url: "https://www.theexplorercard.com/rewards-cards",
     imageUrl: "/images/chase/united-club-infinite.png",
     credits: [
       {
@@ -937,7 +938,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 90_000 }],
+        amount: [{ amount: 80_000 }],
         spend: 5000,
         days: 90,
         credits: [],
@@ -1006,7 +1007,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 95,
     isAnnualFeeWaived: true,
     universalCashbackPercent: 1,
-    url: "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
+    url: "https://www.theexplorercard.com/rewards-cards",
     imageUrl: "/images/chase/united-explorer.png",
     credits: [
       {
@@ -1022,11 +1023,10 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 70_000 }],
+        amount: [{ amount: 50_000 }],
         spend: 3000,
         days: 90,
         credits: [],
-        url: "https://www.theexplorercard.com/united-rewards-cards",
         referralUrl: REFERRALS.CHASE.UNITED,
       },
     ],
@@ -1049,16 +1049,15 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://creditcards.chase.com/travel-credit-cards/united/united-gateway",
+    url: "https://www.theexplorercard.com/rewards-cards",
     imageUrl: "/images/chase/united-gateway.png",
     credits: [],
     offers: [
       {
-        amount: [{ amount: 30_000 }],
+        amount: [{ amount: 20_000 }],
         spend: 1000,
         days: 90,
         credits: [],
-        url: "https://www.theexplorercard.com/rewards-cards?CELL=XWG&domain=uec",
         referralUrl: REFERRALS.CHASE.UNITED,
       },
     ],
@@ -1081,7 +1080,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 250,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+    url: "https://www.theexplorercard.com/rewards-cards",
     imageUrl: "/images/chase/united-quest.png",
     credits: [
       {
@@ -1092,12 +1091,11 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 70_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 4000,
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.UNITED,
-        url: "https://www.theexplorercard.com/rewards-cards",
       },
     ],
     historicalOffers: [
