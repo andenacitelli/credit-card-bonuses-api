@@ -446,10 +446,11 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 40_000 }],
+        amount: [{ amount: 80_000 }],
         spend: 3000,
         days: 180,
         credits: [],
+        expiration: "2024-10-23",
       },
     ],
     historicalOffers: [
@@ -476,10 +477,11 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 55_000 }],
+        amount: [{ amount: 90_000 }],
         spend: 4000,
         days: 180,
         credits: [],
+        expiration: "2024-10-23",
       },
     ],
     historicalOffers: [
@@ -517,10 +519,11 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 90_000 }],
         spend: 3000,
         days: 180,
         credits: [],
+        expiration: "2024-10-23",
       },
     ],
     historicalOffers: [
@@ -563,10 +566,11 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 65_000 }],
+        amount: [{ amount: 100_000 }],
         spend: 8000,
         days: 180,
         credits: [],
+        expiration: "2024-10-23",
       },
     ],
     historicalOffers: [
@@ -598,10 +602,11 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 100_000 }],
         spend: 6000,
         days: 180,
         credits: [],
+        expiration: "2024-10-23",
       },
     ],
     historicalOffers: [
@@ -628,10 +633,11 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 75_000 }],
+        amount: [{ amount: 110_000 }],
         spend: 12_000,
         days: 180,
         credits: [],
+        expiration: "2024-10-23",
       },
     ],
     historicalOffers: [

@@ -51,6 +51,13 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
+        amount: [{ amount: 100_000 }],
+        spend: 7500,
+        days: 180,
+        url: "https://creditcards.chase.com/a1/aerlingus/LTO",
+        credits: [],
+      },
+      {
         amount: [{ amount: 85_000 }],
         spend: 5000,
         days: 90,
@@ -117,6 +124,13 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     imageUrl: "/images/chase/british-airways.png",
     credits: [],
     offers: [
+      {
+        amount: [{ amount: 100_000 }],
+        spend: 7500,
+        days: 180,
+        credits: [],
+        url: "https://creditcards.chase.com/a1/britishairways/aep/LTO",
+      },
       {
         amount: [{ amount: 85_000 }],
         spend: 5000,
@@ -275,6 +289,13 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     imageUrl: "/images/chase/iberia-signature.png",
     credits: [],
     offers: [
+      {
+        amount: [{ amount: 100_000 }],
+        spend: 7500,
+        days: 180,
+        url: "https://creditcards.chase.com/a1/iberia/LTO",
+        credits: [],
+      },
       {
         amount: [{ amount: 85_000 }],
         spend: 5000,

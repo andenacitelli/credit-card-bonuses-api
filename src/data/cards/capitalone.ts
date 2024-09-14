@@ -226,21 +226,6 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         amount: [{ amount: 75_000 }],
         spend: 4000,
         days: 90,
-        credits: [
-          {
-            value: 250,
-            description: "$250 travel portal credit",
-            currency: schemas.CurrenciesEnum.enum.USD,
-            weight: 0.8,
-          },
-        ],
-        url: "https://www.doctorofcredit.com/capital-one-venture-75000-points-250-travel-credit/",
-        expiration: "2024-09-09",
-      },
-      {
-        amount: [{ amount: 75_000 }],
-        spend: 4000,
-        days: 90,
         credits: [],
       },
     ],

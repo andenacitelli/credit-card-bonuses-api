@@ -341,10 +341,11 @@
       weight: 0.5
   offers:
     - amount:
-        - amount: 40000
+        - amount: 80000
       spend: 3000
       days: 180
       credits: []
+      expiration: 2024-10-23
   historicalOffers:
     - amount:
         - amount: 75000
@@ -365,10 +366,11 @@
   credits: []
   offers:
     - amount:
-        - amount: 55000
+        - amount: 90000
       spend: 4000
       days: 180
       credits: []
+      expiration: 2024-10-23
   historicalOffers:
     - amount:
         - amount: 50000
@@ -396,10 +398,11 @@
       weight: 0.7
   offers:
     - amount:
-        - amount: 50000
+        - amount: 90000
       spend: 3000
       days: 180
       credits: []
+      expiration: 2024-10-23
   historicalOffers:
     - amount:
         - amount: 90000
@@ -429,10 +432,11 @@
       weight: 0.5
   offers:
     - amount:
-        - amount: 65000
+        - amount: 100000
       spend: 8000
       days: 180
       credits: []
+      expiration: 2024-10-23
   historicalOffers:
     - amount:
         - amount: 100000
@@ -455,10 +459,11 @@
       weight: 0.6
   offers:
     - amount:
-        - amount: 60000
+        - amount: 100000
       spend: 6000
       days: 180
       credits: []
+      expiration: 2024-10-23
   historicalOffers:
     - amount:
         - amount: 125000
@@ -479,10 +484,11 @@
   credits: []
   offers:
     - amount:
-        - amount: 75000
+        - amount: 110000
       spend: 12000
       days: 180
       credits: []
+      expiration: 2024-10-23
   historicalOffers:
     - amount:
         - amount: 110000
@@ -1945,6 +1951,12 @@
   credits: []
   offers:
     - amount:
+        - amount: 100000
+      spend: 7500
+      days: 180
+      url: https://creditcards.chase.com/a1/aerlingus/LTO
+      credits: []
+    - amount:
         - amount: 85000
       spend: 5000
       days: 90
@@ -1998,6 +2010,12 @@
   imageUrl: /images/chase/british-airways.png
   credits: []
   offers:
+    - amount:
+        - amount: 100000
+      spend: 7500
+      days: 180
+      credits: []
+      url: https://creditcards.chase.com/a1/britishairways/aep/LTO
     - amount:
         - amount: 85000
       spend: 5000
@@ -2126,6 +2144,12 @@
   credits: []
   offers:
     - amount:
+        - amount: 100000
+      spend: 7500
+      days: 180
+      url: https://creditcards.chase.com/a1/iberia/LTO
+      credits: []
+    - amount:
         - amount: 85000
       spend: 5000
       days: 90
@@ -2234,7 +2258,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
+      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2282,7 +2306,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
+      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2309,7 +2333,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21q/1QKLYDOXDQ
+      referralUrl: https://www.referyourchasecard.com/21q/98ZI1A53EK
   historicalOffers:
     - amount:
         - amount: 1000
@@ -3016,17 +3040,6 @@
       description: Global Entry / TSA PreCheck Credit
       weight: 0.4
   offers:
-    - amount:
-        - amount: 75000
-      spend: 4000
-      days: 90
-      credits:
-        - value: 250
-          description: $250 travel portal credit
-          currency: USD
-          weight: 0.8
-      url: https://www.doctorofcredit.com/capital-one-venture-75000-points-250-travel-credit/
-      expiration: 2024-09-09
     - amount:
         - amount: 75000
       spend: 4000
