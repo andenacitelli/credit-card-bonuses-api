@@ -645,10 +645,11 @@
   credits: []
   offers:
     - amount:
-        - amount: 80000
+        - amount: 100000
       spend: 2000
       days: 180
       credits: []
+      expiration: 2025-01-08
   historicalOffers:
     - amount:
         - amount: 150000
@@ -672,10 +673,11 @@
       weight: 0.8
   offers:
     - amount:
-        - amount: 150000
+        - amount: 175000
       spend: 6000
       days: 180
       credits: []
+      expiration: 2025-01-08
   historicalOffers:
     - amount:
         - amount: 180000
@@ -700,10 +702,11 @@
       description: $60 Hilton credit per quarter.
   offers:
     - amount:
-        - amount: 130000
-      spend: 6000
+        - amount: 175000
+      spend: 8000
       days: 180
       credits: []
+      expiration: 2025-01-08
   historicalOffers:
     - amount:
         - amount: 175000
@@ -723,10 +726,11 @@
   credits: []
   offers:
     - amount:
-        - amount: 130000
+        - amount: 165000
       spend: 3000
       days: 180
       credits: []
+      expiration: 2025-01-08
   historicalOffers:
     - amount:
         - amount: 200000
