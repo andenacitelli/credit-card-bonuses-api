@@ -636,11 +636,15 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
+        amount: [
+          { amount: 60_000 },
+          { amount: 300, currency: "USD", weight: 0.8 },
+        ],
         spend: 4000,
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.SAPPHIRE,
+        details: "+$300, Chase Travel Portal.",
       },
     ],
     historicalOffers: [
@@ -719,9 +723,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 5000,
         days: 90,
         credits: [],
-        url: "https://www.southwest.com/html/rapidrewards/partners/credit-cards/southwest-airlines-rapid-rewards-business-cards/index.html",
         referralUrl: REFERRALS.CHASE.SOUTHWEST,
-        details: "Extra 60k if you want to spend 15k total.",
       },
     ],
     historicalOffers: [
@@ -813,9 +815,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 3000,
         days: 90,
         credits: [],
-        url: "https://creditcards.chase.com/business-credit-cards/southwest/premier-business",
         referralUrl: REFERRALS.CHASE.SOUTHWEST,
-        details: "Extra 60k if you want to spend 15k total.",
       },
     ],
     historicalOffers: [
@@ -1128,10 +1128,11 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 30_000 }],
+        amount: [{ amount: 90_000, weight: 0.8 }],
         spend: 3000,
         days: 90,
         credits: [],
+        details: "5x Free Night Credit. Worth ~90k points.",
       },
     ],
     historicalOffers: [

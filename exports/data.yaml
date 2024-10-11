@@ -2262,7 +2262,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21r/Z9CI8ZT4ON
+      referralUrl: https://www.referyourchasecard.com/21r/ONDY31NAZE
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2287,7 +2287,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21r/Z9CI8ZT4ON
+      referralUrl: https://www.referyourchasecard.com/21r/ONDY31NAZE
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2311,7 +2311,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21r/Z9CI8ZT4ON
+      referralUrl: https://www.referyourchasecard.com/21r/ONDY31NAZE
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2338,7 +2338,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21r/Z9CI8ZT4ON
+      referralUrl: https://www.referyourchasecard.com/21r/ONDY31NAZE
   historicalOffers:
     - amount:
         - amount: 1000
@@ -2422,10 +2422,14 @@
   offers:
     - amount:
         - amount: 60000
+        - amount: 300
+          currency: USD
+          weight: 0.8
       spend: 4000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/19o/QN3N8HQ4KX
+      details: +$300, Chase Travel Portal.
   historicalOffers:
     - amount:
         - amount: 100000
@@ -2484,9 +2488,7 @@
       spend: 5000
       days: 90
       credits: []
-      url: https://www.southwest.com/html/rapidrewards/partners/credit-cards/southwest-airlines-rapid-rewards-business-cards/index.html
       referralUrl: https://www.referyourchasecard.com/226p/C2WKH1NBGL
-      details: Extra 60k if you want to spend 15k total.
   historicalOffers:
     - amount:
         - amount: 80000
@@ -2560,9 +2562,7 @@
       spend: 3000
       days: 90
       credits: []
-      url: https://creditcards.chase.com/business-credit-cards/southwest/premier-business
       referralUrl: https://www.referyourchasecard.com/226p/C2WKH1NBGL
-      details: Extra 60k if you want to spend 15k total.
   historicalOffers:
     - amount:
         - amount: 60000
@@ -2799,10 +2799,12 @@
       weight: 0.8
   offers:
     - amount:
-        - amount: 30000
+        - amount: 90000
+          weight: 0.8
       spend: 3000
       days: 90
       credits: []
+      details: 5x Free Night Credit. Worth ~90k points.
   historicalOffers:
     - amount:
         - amount: 50000
@@ -3235,7 +3237,7 @@
   currency: AMERICAN
   isBusiness: true
   annualFee: 99
-  isAnnualFeeWaived: false
+  isAnnualFeeWaived: true
   universalCashbackPercent: 1
   url: https://creditcards.aa.com/cards/citi-business-card-american-airlines-direct/
   imageUrl: /images/citi/aadvantage-platinum-select-business.webp
@@ -3245,7 +3247,7 @@
       weight: 0.5
   offers:
     - amount:
-        - amount: 65000
+        - amount: 75000
       spend: 5000
       days: 150
       credits: []
