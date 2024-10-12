@@ -510,22 +510,11 @@
   annualFee: 0
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://www.americanexpress.com/us/credit-cards/card/amex-everyday/
+  url: https://global.americanexpress.com/card-benefits/view-all/amex-everyday
   imageUrl: /images/amex/everyday.png
   credits: []
-  offers:
-    - amount:
-        - amount: 10000
-      spend: 2000
-      days: 180
-      credits: []
-  historicalOffers:
-    - amount:
-        - amount: 25000
-      spend: 2000
-      days: 180
-      expiration: 2021-01-01
-      credits: []
+  offers: []
+  historicalOffers: []
 - name: Everyday Preferred
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -537,19 +526,8 @@
   url: https://www.americanexpress.com/us/credit-cards/card/amex-everyday-preferred/
   imageUrl: /images/amex/everyday-preferred.jpg
   credits: []
-  offers:
-    - amount:
-        - amount: 15000
-      spend: 2000
-      days: 180
-      credits: []
-      url: https://www.americanexpress.com/us/credit-cards/card/amex-everyday-preferred/
-  historicalOffers:
-    - amount:
-        - amount: 30000
-      spend: 2000
-      days: 180
-      credits: []
+  offers: []
+  historicalOffers: []
 - name: Gold
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -2262,7 +2240,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21r/Z9CI8ZT4ON
+      referralUrl: https://www.referyourchasecard.com/21r/5XN33129Y3
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2287,7 +2265,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21r/Z9CI8ZT4ON
+      referralUrl: https://www.referyourchasecard.com/21r/5XN33129Y3
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2311,7 +2289,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21r/Z9CI8ZT4ON
+      referralUrl: https://www.referyourchasecard.com/21r/5XN33129Y3
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2338,7 +2316,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21r/Z9CI8ZT4ON
+      referralUrl: https://www.referyourchasecard.com/21r/5XN33129Y3
   historicalOffers:
     - amount:
         - amount: 1000
@@ -3660,14 +3638,14 @@
   credits: []
   offers:
     - amount:
-        - amount: 400
-      spend: 3000
+        - amount: 600
+      spend: 6000
       days: 90
       credits: []
   historicalOffers:
     - amount:
-        - amount: 400
-      spend: 3000
+        - amount: 600
+      spend: 6000
       days: 90
       credits: []
 - name: Cathay Pacific

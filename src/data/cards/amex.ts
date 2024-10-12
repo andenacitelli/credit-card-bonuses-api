@@ -658,6 +658,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    // TODO: Currently discontinued, may be reintroduced
     name: "Everyday",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -666,28 +667,14 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://www.americanexpress.com/us/credit-cards/card/amex-everyday/",
+    url: "https://global.americanexpress.com/card-benefits/view-all/amex-everyday",
     imageUrl: "/images/amex/everyday.png",
     credits: [],
-    offers: [
-      {
-        amount: [{ amount: 10_000 }],
-        spend: 2000,
-        days: 180,
-        credits: [],
-      },
-    ],
-    historicalOffers: [
-      {
-        amount: [{ amount: 25_000 }],
-        spend: 2000,
-        days: 180,
-        expiration: "2021-01-01",
-        credits: [],
-      },
-    ],
+    offers: [],
+    historicalOffers: [],
   },
   {
+    // TODO: Currently discontinued, may be reintroduced
     name: "Everyday Preferred",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -699,23 +686,8 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     url: "https://www.americanexpress.com/us/credit-cards/card/amex-everyday-preferred/",
     imageUrl: "/images/amex/everyday-preferred.jpg",
     credits: [],
-    offers: [
-      {
-        amount: [{ amount: 15_000 }],
-        spend: 2000,
-        days: 180,
-        credits: [],
-        url: "https://www.americanexpress.com/us/credit-cards/card/amex-everyday-preferred/",
-      },
-    ],
-    historicalOffers: [
-      {
-        amount: [{ amount: 30_000 }],
-        spend: 2000,
-        days: 180,
-        credits: [],
-      },
-    ],
+    offers: [],
+    historicalOffers: [],
   },
   {
     name: "Gold",
