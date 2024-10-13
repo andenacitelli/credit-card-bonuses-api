@@ -330,14 +330,13 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 250_000 }],
+        amount: [{ amount: 150_000 }],
         spend: 20_000,
         days: 90,
         credits: [],
-        details: "Incognito/VPN, YMMV.",
       },
       {
-        amount: [{ amount: 150_000 }],
+        amount: [{ amount: 120_000 }],
         spend: 20_000,
         days: 90,
         credits: [],
@@ -729,7 +728,8 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 6000,
         days: 180,
         credits: [],
-        details: "Requires incognito, YMMV.",
+        expiration: "2024-11-06",
+        referralUrl: REFERRALS.AMERICAN_EXPRESS.GOLD,
       },
       {
         amount: [
@@ -746,7 +746,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 6000,
         days: 180,
         credits: [],
-        referralUrl: REFERRALS.AMERICAN_EXPRESS.GOLD,
       },
     ],
 

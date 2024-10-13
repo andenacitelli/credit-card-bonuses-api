@@ -250,13 +250,12 @@
       weight: 0.3
   offers:
     - amount:
-        - amount: 250000
+        - amount: 150000
       spend: 20000
       days: 90
       credits: []
-      details: Incognito/VPN, YMMV.
     - amount:
-        - amount: 150000
+        - amount: 120000
       spend: 20000
       days: 90
       credits: []
@@ -558,7 +557,8 @@
       spend: 6000
       days: 180
       credits: []
-      details: Requires incognito, YMMV.
+      expiration: 2024-11-06
+      referralUrl: https://americanexpress.com/en-us/referral/ANDENa0UQA
     - amount:
         - amount: 75000
         - amount: 250
@@ -572,7 +572,6 @@
       spend: 6000
       days: 180
       credits: []
-      referralUrl: https://americanexpress.com/en-us/referral/ANDENa0UQA
   historicalOffers:
     - amount:
         - amount: 90000
