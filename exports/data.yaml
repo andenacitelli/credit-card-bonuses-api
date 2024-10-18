@@ -3756,7 +3756,7 @@
   credits: []
   offers:
     - amount:
-        - amount: 25000
+        - amount: 20000
       spend: 1000
       days: 90
       credits: []
@@ -3805,7 +3805,7 @@
   credits: []
   offers:
     - amount:
-        - amount: 250
+        - amount: 200
       spend: 1000
       days: 90
       credits: []
@@ -3844,7 +3844,12 @@
   url: https://www.usbank.com/business-banking/business-credit-cards/benefits/leverage-visa-card-benefits.html
   imageUrl: /images/usbank/business-leverage.webp
   credits: []
-  offers: []
+  offers:
+    - amount:
+        - amount: 750
+      spend: 7500
+      credits: []
+      days: 120
   historicalOffers:
     - amount:
         - amount: 900
@@ -4015,7 +4020,7 @@
   credits: []
   offers:
     - amount:
-        - amount: 300
+        - amount: 250
       spend: 2000
       days: 120
       credits: []

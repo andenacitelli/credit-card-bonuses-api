@@ -108,7 +108,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 25_000 }],
+        amount: [{ amount: 20_000 }],
         spend: 1000,
         days: 90,
         credits: [],
@@ -172,7 +172,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 250 }],
+        amount: [{ amount: 200 }],
         spend: 1000,
         days: 90,
         credits: [],
@@ -224,7 +224,12 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     imageUrl: "/images/usbank/business-leverage.webp",
     credits: [],
     offers: [
-      // seemingly no current offer
+      {
+        amount: [{ amount: 750 }],
+        spend: 7500,
+        credits: [],
+        days: 120,
+      },
     ],
     historicalOffers: [
       {
@@ -448,7 +453,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 300 }],
+        amount: [{ amount: 250 }],
         spend: 2000,
         days: 120,
         credits: [],
