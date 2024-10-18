@@ -4,35 +4,6 @@ import { schemas } from "@/generated/api.client.js";
 
 export const WELLS_FARGO_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
-    name: "Business Platinum",
-    issuer: schemas.IssuersEnum.enum.WELLS_FARGO,
-    network: schemas.NetworksEnum.enum.VISA,
-    currency: schemas.CurrenciesEnum.enum.USD,
-    isBusiness: true,
-    annualFee: 0,
-    isAnnualFeeWaived: false,
-    universalCashbackPercent: 2,
-    url: "https://www.wellsfargo.com/biz/business-credit/credit-cards/platinum-card/",
-    imageUrl: "/images/wellsfargo/business-platinum.png",
-    credits: [],
-    offers: [
-      {
-        amount: [{ amount: 300 }],
-        spend: 3000,
-        days: 90,
-        credits: [],
-      },
-    ],
-    historicalOffers: [
-      {
-        amount: [{ amount: 300 }],
-        spend: 3000,
-        days: 90,
-        credits: [],
-      },
-    ],
-  },
-  {
     name: "Signify Business Cash",
     issuer: schemas.IssuersEnum.enum.WELLS_FARGO,
     network: schemas.NetworksEnum.enum.MASTERCARD,
