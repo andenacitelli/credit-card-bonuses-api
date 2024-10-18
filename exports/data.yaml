@@ -553,13 +553,6 @@
       weight: 0.75
   offers:
     - amount:
-        - amount: 100000
-      spend: 6000
-      days: 180
-      credits: []
-      expiration: 2024-11-06
-      referralUrl: https://americanexpress.com/en-us/referral/ANDENa0UQA
-    - amount:
         - amount: 75000
         - amount: 250
           currency: USD
@@ -568,10 +561,18 @@
       credits: []
       url: https://resy.com/amex-offers?date=2022-07-16&seats=2
     - amount:
+        - amount: 75000
+      spend: 6000
+      days: 180
+      credits: []
+      referralUrl: https://americanexpress.com/en-us/referral/ANDENa0UQA
+      details: Inconsistent. Try incognito mode.
+    - amount:
         - amount: 60000
       spend: 6000
       days: 180
       credits: []
+      referralUrl: https://americanexpress.com/en-us/referral/ANDENa0UQA
   historicalOffers:
     - amount:
         - amount: 90000

@@ -724,14 +724,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 100_000 }],
-        spend: 6000,
-        days: 180,
-        credits: [],
-        expiration: "2024-11-06",
-        referralUrl: REFERRALS.AMERICAN_EXPRESS.GOLD,
-      },
-      {
         amount: [
           { amount: 75_000 },
           { amount: 250, currency: schemas.CurrenciesEnum.enum.USD },
@@ -742,10 +734,19 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         url: "https://resy.com/amex-offers?date=2022-07-16&seats=2",
       },
       {
+        amount: [{ amount: 75_000 }],
+        spend: 6000,
+        days: 180,
+        credits: [],
+        referralUrl: REFERRALS.AMERICAN_EXPRESS.GOLD,
+        details: "Inconsistent. Try incognito mode.",
+      },
+      {
         amount: [{ amount: 60_000 }],
         spend: 6000,
         days: 180,
         credits: [],
+        referralUrl: REFERRALS.AMERICAN_EXPRESS.GOLD,
       },
     ],
 
