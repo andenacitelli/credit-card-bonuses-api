@@ -19,14 +19,14 @@
   "dependencies": {
     "@zodios/core": "~10.9.6",
     "papaparse": "^5.4.1",
-    "yaml": "^2.5.1",
+    "yaml": "^2.6.0",
     "zod": "^3.23.8"
   },
   "devDependencies": {
     "@eslint/js": "^9.12.0",
-    "@redocly/cli": "^1.25.5",
+    "@redocly/cli": "^1.25.7",
     "@tsconfig/recommended": "^1.0.7",
-    "@types/node": "^20.16.11",
+    "@types/node": "^20.16.12",
     "@types/papaparse": "^5.3.14",
     "eslint": "^9.12.0",
     "husky": "^9.1.6",
@@ -34,8 +34,8 @@
     "openapi-zod-client": "^1.18.2",
     "tsx": "^4.19.1",
     "typescript": "^5.6.3",
-    "typescript-eslint": "^8.8.1",
+    "typescript-eslint": "^8.10.0",
     "vite-tsconfig-paths": "^4.3.2",
-    "vitest": "^2.1.2"
+    "vitest": "^2.1.3"
   }
 }
