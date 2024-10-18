@@ -129,6 +129,7 @@ Custom Cash,CITI,MASTERCARD,USD,false,0,false,2,,https://www.citi.com/credit-car
 Strata Premier,CITI,MASTERCARD,CITI,false,95,false,2,100 Hotel Credit ($500 min purchase),https://www.citi.com/credit-cards/citi-strata-premier-credit-card,https://offeroptimist.com/images/citi/strata-premier.png,,,75000,4000,,90,true
 Rewards+,CITI,MASTERCARD,CITI,false,0,false,2,,https://www.citi.com/credit-cards/citi-rewards-plus-credit-card,https://offeroptimist.com/images/citi/rewards-plus.png,,,20000,1500,,90,true
 AT&T Points Plus,CITI,MASTERCARD,USD,false,0,false,1,,https://www.att.com/deals/att-points-plus-citi/,https://offeroptimist.com/images/citi/att-points-plus.jpg,,,100,1000,,90,true
+Discover It,DISCOVER,DISCOVER,USD,false,0,false,1,,https://www.discover.com/credit-cards/,https://offeroptimist.com/images/discover/it.webp,,,0,0.01,,90,true
 LATAM Airlines,FIRST,MASTERCARD,LATAM,false,0,false,1,,https://latampass.latam.com/en_us/earn-miles/latam-airlines-credit-cards,https://offeroptimist.com/images/first/latam-airlines.svg,,,15000,1000,,90,true
 LATAM Airlines World Elite,FIRST,MASTERCARD,LATAM,false,99,false,1,,https://latampass.latam.com/en_us/earn-miles/latam-airlines-credit-cards,https://offeroptimist.com/images/first/latam-airlines-world-elite.webp,,,40000,2500,,90,true
 Cardless Qatar Signature,FIRST,VISA,AVIOS,false,99,false,1,,https://qatarairways.cardless.com/compare,https://offeroptimist.com/images/first/cardless-qatar-signature.jpg,,,40000,3000,,90,true
