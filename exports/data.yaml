@@ -340,11 +340,10 @@
       weight: 0.5
   offers:
     - amount:
-        - amount: 80000
+        - amount: 50000
       spend: 3000
       days: 180
       credits: []
-      expiration: 2024-10-23
   historicalOffers:
     - amount:
         - amount: 75000
@@ -365,11 +364,10 @@
   credits: []
   offers:
     - amount:
-        - amount: 90000
+        - amount: 60000
       spend: 4000
       days: 180
       credits: []
-      expiration: 2024-10-23
   historicalOffers:
     - amount:
         - amount: 50000
@@ -397,11 +395,10 @@
       weight: 0.7
   offers:
     - amount:
-        - amount: 90000
+        - amount: 60000
       spend: 3000
       days: 180
       credits: []
-      expiration: 2024-10-23
   historicalOffers:
     - amount:
         - amount: 90000
@@ -431,11 +428,10 @@
       weight: 0.5
   offers:
     - amount:
-        - amount: 100000
+        - amount: 70000
       spend: 8000
       days: 180
       credits: []
-      expiration: 2024-10-23
   historicalOffers:
     - amount:
         - amount: 100000
@@ -458,11 +454,10 @@
       weight: 0.6
   offers:
     - amount:
-        - amount: 100000
+        - amount: 70000
       spend: 6000
       days: 180
       credits: []
-      expiration: 2024-10-23
   historicalOffers:
     - amount:
         - amount: 125000
@@ -483,11 +478,10 @@
   credits: []
   offers:
     - amount:
-        - amount: 110000
+        - amount: 80000
       spend: 12000
       days: 180
       credits: []
-      expiration: 2024-10-23
   historicalOffers:
     - amount:
         - amount: 110000
