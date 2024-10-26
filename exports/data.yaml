@@ -732,11 +732,10 @@
       weight: 0.75
   offers:
     - amount:
-        - amount: 185000
+        - amount: 95000
       spend: 6000
       days: 180
       credits: []
-      url: https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-brilliant/
   historicalOffers:
     - amount:
         - amount: 200000
@@ -933,7 +932,7 @@
   credits: []
   offers:
     - amount:
-        - amount: 155000
+        - amount: 85000
       spend: 5000
       days: 180
       credits: []
