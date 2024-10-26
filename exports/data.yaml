@@ -2835,7 +2835,7 @@
   credits: []
   offers:
     - amount:
-        - amount: 100
+        - amount: 150
       spend: 0.01
       days: 365
       credits: []
@@ -2878,34 +2878,16 @@
   network: VISA
   currency: USD
   isBusiness: false
-  annualFee: 99
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://www.capitalone.com/credit-cards/savor-dining-rewards/
-  imageUrl: /images/capitalone/savor.webp
-  details: Capital One temporarily no longer taking applications for this.
-  credits: []
-  offers: []
-  historicalOffers:
-    - amount:
-        - amount: 300
-      spend: 3000
-      days: 90
-      credits: []
-- name: SavorOne
-  issuer: CAPITAL_ONE
-  network: VISA
-  currency: USD
-  isBusiness: false
   annualFee: 0
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
   url: https://www.capitalone.com/credit-cards/savorone-dining-rewards/
-  imageUrl: /images/capitalone/savor-one.webp
+  imageUrl: /images/capitalone/savor-cash.webp
+  details: Previously SavorOne. Original Savor was discontinued.
   credits: []
   offers:
     - amount:
-        - amount: 200
+        - amount: 250
       spend: 500
       days: 90
       credits: []
