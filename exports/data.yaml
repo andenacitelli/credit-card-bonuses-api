@@ -3862,8 +3862,8 @@
   network: MASTERCARD
   currency: USD
   isBusiness: true
-  annualFee: 95
-  isAnnualFeeWaived: true
+  annualFee: 0
+  isAnnualFeeWaived: false
   universalCashbackPercent: 1
   url: https://www.usbank.com/business-banking/business-credit-cards/business-triple-cash-back-credit-card.html
   imageUrl: /images/usbank/business-triple-cash-rewards.webp
@@ -4030,29 +4030,6 @@
         - amount: 300
       spend: 2000
       days: 120
-      credits: []
-- name: Business Platinum
-  issuer: WELLS_FARGO
-  network: VISA
-  currency: USD
-  isBusiness: true
-  annualFee: 0
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 2
-  url: https://www.wellsfargo.com/biz/business-credit/credit-cards/platinum-card/
-  imageUrl: /images/wellsfargo/business-platinum.png
-  credits: []
-  offers:
-    - amount:
-        - amount: 300
-      spend: 3000
-      days: 90
-      credits: []
-  historicalOffers:
-    - amount:
-        - amount: 300
-      spend: 3000
-      days: 90
       credits: []
 - name: Signify Business Cash
   issuer: WELLS_FARGO
