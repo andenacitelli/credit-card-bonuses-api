@@ -330,6 +330,15 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
+        amount: [{ amount: 250_000 }],
+        spend: 20_000,
+        days: 90,
+        credits: [],
+        url: "https://www.uscreditcardguide.com/amex-business-platinum-card/",
+        details:
+          'Requires going through a referral link; see "Application Link" section.',
+      },
+      {
         amount: [{ amount: 150_000 }],
         spend: 20_000,
         days: 90,

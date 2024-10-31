@@ -250,6 +250,13 @@
       weight: 0.3
   offers:
     - amount:
+        - amount: 250000
+      spend: 20000
+      days: 90
+      credits: []
+      url: https://www.uscreditcardguide.com/amex-business-platinum-card/
+      details: Requires going through a referral link; see "Application Link" section.
+    - amount:
         - amount: 150000
       spend: 20000
       days: 90
@@ -2283,6 +2290,7 @@
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/21r/URE6QWKIBT
+      expiration: 2024-11-07
   historicalOffers:
     - amount:
         - amount: 90000

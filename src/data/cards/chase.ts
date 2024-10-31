@@ -496,6 +496,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.INKS,
+        expiration: "2024-11-07",
       },
     ],
     historicalOffers: [
