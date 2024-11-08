@@ -491,12 +491,11 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 90_000 }],
+        amount: [{ amount: 75_000 }],
         spend: 6000,
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.INKS,
-        expiration: "2024-11-07",
       },
     ],
     historicalOffers: [
@@ -1129,21 +1128,20 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 90_000, weight: 0.8 }],
+        amount: [{ amount: 30_000 }],
         spend: 3000,
         days: 90,
         credits: [],
-        expiration: "2024-10-31",
-        details: "5x Free Night Credit. Worth ~90k points.",
       },
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 90_000, weight: 0.8 }],
         spend: 3000,
         credits: [],
         days: 90,
-        expiration: "2021-03-01",
+        details: "3x FNC, valued up to 30k per.",
+        expiration: "2024-10-31",
       },
     ],
   },
@@ -1165,7 +1163,6 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 5000,
         days: 90,
         credits: [],
-        details: "Extra 15k for $12k/6mo.",
       },
     ],
     historicalOffers: [

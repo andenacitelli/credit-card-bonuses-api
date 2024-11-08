@@ -1,6 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { getDataInCsvFormat, getDataInJsonFormat } from "./conversion.js";
 import { CREDIT_CARDS } from "./data/data.js";
+import { isBefore } from "date-fns";
 
 describe("Export JSON", () => {
   test("Returns array of nonzero length", async () => {
@@ -22,7 +23,7 @@ describe("Data Validity Checks", () => {
     test.each(inputs)("$name", ({ card }) => {
       for (const offer of card.offers) {
         if (offer.expiration) {
-          expect(new Date(offer.expiration) > new Date()).toBe(true);
+          expect(isBefore(new Date(), new Date(offer.expiration))).toBeTruthy();
         }
       }
     });

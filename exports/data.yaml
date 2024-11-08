@@ -2285,12 +2285,11 @@
   credits: []
   offers:
     - amount:
-        - amount: 90000
+        - amount: 75000
       spend: 6000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/21r/URE6QWKIBT
-      expiration: 2024-11-07
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2778,20 +2777,19 @@
       weight: 0.8
   offers:
     - amount:
+        - amount: 30000
+      spend: 3000
+      days: 90
+      credits: []
+  historicalOffers:
+    - amount:
         - amount: 90000
           weight: 0.8
       spend: 3000
-      days: 90
       credits: []
+      days: 90
+      details: 3x FNC, valued up to 30k per.
       expiration: 2024-10-31
-      details: 5x Free Night Credit. Worth ~90k points.
-  historicalOffers:
-    - amount:
-        - amount: 50000
-      spend: 3000
-      credits: []
-      days: 90
-      expiration: 2021-03-01
 - name: World of Hyatt Business
   issuer: CHASE
   network: VISA
@@ -2809,7 +2807,6 @@
       spend: 5000
       days: 90
       credits: []
-      details: Extra 15k for $12k/6mo.
   historicalOffers:
     - amount:
         - amount: 60000
