@@ -16,13 +16,7 @@ export const SYNCHRONY_CARDS: z.input<typeof schemas.CreditCard>[] = [
     imageUrl: "/images/synchrony/cathay-pacific.jpg",
     credits: [],
     offers: [
-      {
-        amount: [{ amount: 38_000 }],
-        spend: 3000,
-        days: 90,
-        credits: [],
-        expiration: "2024-11-07",
-      },
+      // No current offers
     ],
     historicalOffers: [
       {

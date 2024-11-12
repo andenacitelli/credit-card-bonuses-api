@@ -2239,7 +2239,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2264,7 +2264,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2288,7 +2288,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2315,7 +2315,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - amount:
         - amount: 1000
@@ -3688,13 +3688,7 @@
   url: https://pay.cathaypacific.com/en_US/offers/uscreditcard.html
   imageUrl: /images/synchrony/cathay-pacific.jpg
   credits: []
-  offers:
-    - amount:
-        - amount: 38000
-      spend: 3000
-      days: 90
-      credits: []
-      expiration: 2024-11-07
+  offers: []
   historicalOffers:
     - amount:
         - amount: 35000
