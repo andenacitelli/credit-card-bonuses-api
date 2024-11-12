@@ -1148,7 +1148,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 80_000 }],
+        amount: [{ amount: 125_000 }],
         spend: 6000,
         days: 180,
         credits: [],
@@ -1157,7 +1157,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 100_000 }],
+        amount: [{ amount: 125_000 }],
         credits: [],
         spend: 6000,
         days: 180,
@@ -1305,16 +1305,15 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 200 }],
+        amount: [{ amount: 300 }],
         spend: 1000,
         days: 90,
         credits: [],
-        url: "https://www.schwab.com/public/schwab/investing/accounts_products/credit_cards?ENTRY_POINT=IIAH",
       },
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 200 }],
+        amount: [{ amount: 300 }],
         spend: 1000,
         days: 90,
         credits: [],

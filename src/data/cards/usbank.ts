@@ -68,9 +68,8 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     network: schemas.NetworksEnum.enum.VISA,
     currency: schemas.CurrenciesEnum.enum.US_BANK,
     isBusiness: false,
-    annualFee: 95,
-    details:
-      "Points cannot be transferred, so are valued at 1cpp. Annual fee goes to $0 on Sept 9, 2024.",
+    annualFee: 0,
+    details: "Points cannot be transferred and have ~0.8cpp value.",
     isAnnualFeeWaived: true,
     universalCashbackPercent: 2,
     url: "https://www.usbank.com/credit-cards/altitude-connect-visa-signature-credit-card.html",
@@ -78,7 +77,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 20_000 }],
+        amount: [{ amount: 20_000, weight: 0.8 }],
         spend: 1000,
         days: 90,
         credits: [],
@@ -118,41 +117,6 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         amount: [{ amount: 25_000 }],
         spend: 1000,
-        days: 120,
-        credits: [],
-      },
-    ],
-  },
-  {
-    name: "Altitude Reserve",
-    issuer: schemas.IssuersEnum.enum.US_BANK,
-    network: schemas.NetworksEnum.enum.VISA,
-    currency: schemas.CurrenciesEnum.enum.US_BANK,
-    isBusiness: false,
-    annualFee: 400,
-    isAnnualFeeWaived: false,
-    universalCashbackPercent: 2,
-    url: "https://www.usbank.com/credit-cards/altitude-reserve-visa-infinite-credit-card.html",
-    imageUrl: "/images/usbank/altitude-reserve.png",
-    credits: [
-      {
-        value: 325,
-        description: "$325 Travel + Dining credits",
-        weight: 0.75,
-      },
-    ],
-    offers: [
-      {
-        amount: [{ amount: 50_000 }],
-        spend: 4500,
-        days: 90,
-        credits: [],
-      },
-    ],
-    historicalOffers: [
-      {
-        amount: [{ amount: 50_000 }],
-        spend: 4500,
         days: 120,
         credits: [],
       },

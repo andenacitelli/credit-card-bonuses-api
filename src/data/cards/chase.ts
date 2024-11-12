@@ -645,6 +645,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         credits: [],
         referralUrl: REFERRALS.CHASE.SAPPHIRE,
         details: "+$300, Chase Travel Portal.",
+        expiration: "2024-11-14",
       },
     ],
     historicalOffers: [
@@ -753,7 +754,14 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 1000,
         days: 90,
         credits: [],
+      },
+      {
+        amount: [{ amount: 40_000 }, { amount: 400, currency: "USD" }],
+        spend: 1000,
+        days: 90,
+        credits: [],
         referralUrl: REFERRALS.CHASE.SOUTHWEST,
+        details: "Only via referral link.",
       },
     ],
     historicalOffers: [
@@ -784,7 +792,14 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 1000,
         days: 90,
         credits: [],
+      },
+      {
+        amount: [{ amount: 40_000 }, { amount: 400, currency: "USD" }],
+        spend: 1000,
+        days: 90,
+        credits: [],
         referralUrl: REFERRALS.CHASE.SOUTHWEST,
+        details: "Only via referral link.",
       },
     ],
     historicalOffers: [
@@ -858,7 +873,14 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 3000,
         days: 90,
         credits: [],
+      },
+      {
+        amount: [{ amount: 40_000 }, { amount: 400, currency: "USD" }],
+        spend: 1000,
+        days: 90,
+        credits: [],
         referralUrl: REFERRALS.CHASE.SOUTHWEST,
+        details: "Only via referral link.",
       },
     ],
     historicalOffers: [
@@ -1196,7 +1218,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 150 }],
+        amount: [{ amount: 200 }],
         spend: 0.01,
         days: 365,
         credits: [],
@@ -1204,7 +1226,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 150 }],
+        amount: [{ amount: 200 }],
         spend: 0.01,
         days: 365,
         credits: [],

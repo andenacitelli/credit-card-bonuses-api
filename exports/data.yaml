@@ -866,14 +866,14 @@
       weight: 0.2
   offers:
     - amount:
-        - amount: 80000
+        - amount: 125000
       spend: 6000
       days: 180
       credits: []
       url: https://www.schwab.com/credit-cards#panel--50-media-right-117911
   historicalOffers:
     - amount:
-        - amount: 100000
+        - amount: 125000
       credits: []
       spend: 6000
       days: 180
@@ -983,14 +983,13 @@
   credits: []
   offers:
     - amount:
-        - amount: 200
+        - amount: 300
       spend: 1000
       days: 90
       credits: []
-      url: https://www.schwab.com/public/schwab/investing/accounts_products/credit_cards?ENTRY_POINT=IIAH
   historicalOffers:
     - amount:
-        - amount: 200
+        - amount: 300
       spend: 1000
       days: 90
       credits: []
@@ -1912,7 +1911,7 @@
       spend: 4000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/252s/EE1YBTRY3X
+      referralUrl: https://www.referyourchasecard.com/252n/YV4FE606LH
   historicalOffers:
     - amount:
         - amount: 85000
@@ -2240,7 +2239,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21r/URE6QWKIBT
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2265,7 +2264,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21r/URE6QWKIBT
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2289,7 +2288,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21r/URE6QWKIBT
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2316,7 +2315,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21r/URE6QWKIBT
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - amount:
         - amount: 1000
@@ -2345,7 +2344,7 @@
           description: 1x Free Night Credit
           currency: MARRIOTT
           weight: 0.7
-      referralUrl: https://www.referyourchasecard.com/252s/EE1YBTRY3X
+      referralUrl: https://www.referyourchasecard.com/252n/YV4FE606LH
   historicalOffers:
     - amount:
         - amount: 100000
@@ -2375,7 +2374,7 @@
           weight: 0.7
           currency: MARRIOTT
       details: 3x FNC up to 50k per
-      referralUrl: https://www.referyourchasecard.com/252s/EE1YBTRY3X
+      referralUrl: https://www.referyourchasecard.com/252n/YV4FE606LH
   historicalOffers:
     - amount:
         - amount: 125000
@@ -2408,6 +2407,7 @@
       credits: []
       referralUrl: https://www.referyourchasecard.com/19P/9WT5WQBFKH
       details: +$300, Chase Travel Portal.
+      expiration: 2024-11-14
   historicalOffers:
     - amount:
         - amount: 100000
@@ -2490,7 +2490,15 @@
       spend: 1000
       days: 90
       credits: []
+    - amount:
+        - amount: 40000
+        - amount: 400
+          currency: USD
+      spend: 1000
+      days: 90
+      credits: []
       referralUrl: https://www.referyourchasecard.com/226o/0MJIAMX5UZ
+      details: Only via referral link.
   historicalOffers:
     - amount:
         - amount: 100000
@@ -2515,7 +2523,15 @@
       spend: 1000
       days: 90
       credits: []
+    - amount:
+        - amount: 40000
+        - amount: 400
+          currency: USD
+      spend: 1000
+      days: 90
+      credits: []
       referralUrl: https://www.referyourchasecard.com/226o/0MJIAMX5UZ
+      details: Only via referral link.
   historicalOffers:
     - amount:
         - amount: 100000
@@ -2573,7 +2589,15 @@
       spend: 3000
       days: 90
       credits: []
+    - amount:
+        - amount: 40000
+        - amount: 400
+          currency: USD
+      spend: 1000
+      days: 90
+      credits: []
       referralUrl: https://www.referyourchasecard.com/226o/0MJIAMX5UZ
+      details: Only via referral link.
   historicalOffers:
     - amount:
         - amount: 100000
@@ -2833,13 +2857,13 @@
   credits: []
   offers:
     - amount:
-        - amount: 150
+        - amount: 200
       spend: 0.01
       days: 365
       credits: []
   historicalOffers:
     - amount:
-        - amount: 150
+        - amount: 200
       spend: 0.01
       days: 365
       credits: []
@@ -3728,9 +3752,8 @@
   network: VISA
   currency: US_BANK
   isBusiness: false
-  annualFee: 95
-  details: Points cannot be transferred, so are valued at 1cpp. Annual fee goes to
-    $0 on Sept 9, 2024.
+  annualFee: 0
+  details: Points cannot be transferred and have ~0.8cpp value.
   isAnnualFeeWaived: true
   universalCashbackPercent: 2
   url: https://www.usbank.com/credit-cards/altitude-connect-visa-signature-credit-card.html
@@ -3739,6 +3762,7 @@
   offers:
     - amount:
         - amount: 20000
+          weight: 0.8
       spend: 1000
       days: 90
       credits: []
@@ -3770,32 +3794,6 @@
     - amount:
         - amount: 25000
       spend: 1000
-      days: 120
-      credits: []
-- name: Altitude Reserve
-  issuer: US_BANK
-  network: VISA
-  currency: US_BANK
-  isBusiness: false
-  annualFee: 400
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 2
-  url: https://www.usbank.com/credit-cards/altitude-reserve-visa-infinite-credit-card.html
-  imageUrl: /images/usbank/altitude-reserve.png
-  credits:
-    - value: 325
-      description: $325 Travel + Dining credits
-      weight: 0.75
-  offers:
-    - amount:
-        - amount: 50000
-      spend: 4500
-      days: 90
-      credits: []
-  historicalOffers:
-    - amount:
-        - amount: 50000
-      spend: 4500
       days: 120
       credits: []
 - name: Cash+
