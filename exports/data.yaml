@@ -255,7 +255,7 @@
       days: 90
       credits: []
       url: https://www.uscreditcardguide.com/amex-business-platinum-card/
-      details: Requires going through a referral link; see "Application Link" section.
+      details: Available only via referral, see link.
     - amount:
         - amount: 150000
       spend: 20000
@@ -2239,7 +2239,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2264,7 +2264,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2288,7 +2288,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2315,7 +2315,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - amount:
         - amount: 1000
