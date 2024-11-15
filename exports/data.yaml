@@ -2239,7 +2239,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2264,7 +2264,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2288,7 +2288,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2296,7 +2296,7 @@
       days: 90
       credits: []
       url: https://creditcards.chase.com/business-credit-cards/ink/unlimited
-      expiration: 2023-03-19
+      expiration: 2024-11-01
 - name: Ink Business Premier
   issuer: CHASE
   network: VISA
@@ -2315,7 +2315,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
   historicalOffers:
     - amount:
         - amount: 1000

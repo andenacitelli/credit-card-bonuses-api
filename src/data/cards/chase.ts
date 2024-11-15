@@ -505,7 +505,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://creditcards.chase.com/business-credit-cards/ink/unlimited",
-        expiration: "2023-03-19",
+        expiration: "2024-11-01",
       },
     ],
   },

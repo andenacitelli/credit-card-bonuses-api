@@ -1,6 +1,3 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
-
 pnpm run analyze
 pnpm run generate:exports
 git add exports/
