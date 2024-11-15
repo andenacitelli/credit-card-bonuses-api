@@ -2239,7 +2239,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2264,7 +2264,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2288,7 +2288,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2315,7 +2315,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - amount:
         - amount: 1000
@@ -2568,7 +2568,6 @@
       spend: 18000
       days: 270
       credits: []
-      url: https://creditcards.chase.com/business-credit-cards/southwest/premier-business
 - name: Southwest Rapid Rewards Priority
   issuer: CHASE
   network: VISA

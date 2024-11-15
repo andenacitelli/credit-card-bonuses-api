@@ -845,7 +845,6 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 18000,
         days: 270,
         credits: [],
-        url: "https://creditcards.chase.com/business-credit-cards/southwest/premier-business",
       },
     ],
   },
