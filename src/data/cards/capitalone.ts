@@ -43,7 +43,7 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
     url: "https://www.capitalone.com/credit-cards/savorone-dining-rewards/",
-    imageUrl: "/images/capitalone/savor-cash.webp",
+    imageUrl: "/images/capitalone/savor.webp",
     details: "Previously SavorOne. Original Savor was discontinued.",
     credits: [],
     offers: [
