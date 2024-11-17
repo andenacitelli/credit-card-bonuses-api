@@ -1035,7 +1035,13 @@
       weight: 0.8
   offers:
     - amount:
-        - amount: 50000
+        - amount: 70000
+      spend: 3000
+      days: 90
+      credits: []
+      url: http://alaska75k.com/
+    - amount:
+        - amount: 60000
       spend: 3000
       days: 90
       credits: []
@@ -1631,6 +1637,13 @@
   credits: []
   offers:
     - amount:
+        - amount: 80000
+      spend: 1000
+      days: 90
+      credits: []
+      url: https://cards.barclaycardus.com/banking/credit-card/jetblue/mastercard-mastercard-world-elite/banner/9085d860-d048-4cc3-a426-3d6d2790b270/?referrerid=PTRBAHPPB
+      expiration: 2024-12-03
+    - amount:
         - amount: 50000
       spend: 1000
       days: 90
@@ -2094,24 +2107,17 @@
   credits: []
   offers:
     - amount:
-        - amount: 20000
+        - amount: 25000
       spend: 500
       days: 90
       credits: []
-    - amount:
-        - amount: 0
-      spend: 500
-      days: 90
-      credits: []
-      details: Extra 1.5% cashback, up to $300/yr.
       referralUrl: https://www.referyourchasecard.com/18C/BDWS964YDG
   historicalOffers:
     - amount:
-        - amount: 20000
+        - amount: 25000
       credits: []
       spend: 500
       days: 90
-      expiration: 2022-02-01
 - name: Iberia Signature
   issuer: CHASE
   network: VISA
@@ -2239,7 +2245,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2264,7 +2270,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2288,7 +2294,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2315,7 +2321,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - amount:
         - amount: 1000
@@ -2398,10 +2404,7 @@
       weight: 0.75
   offers:
     - amount:
-        - amount: 60000
-        - amount: 300
-          currency: USD
-          weight: 0.8
+        - amount: 70000
       spend: 4000
       days: 90
       credits: []
@@ -2409,6 +2412,14 @@
       details: +$300, Chase Travel Portal.
       expiration: 2024-11-14
   historicalOffers:
+    - amount:
+        - amount: 70000
+        - amount: 300
+          currency: USD
+      spend: 4000
+      days: 90
+      credits: []
+      expiration: 2024-11-16
     - amount:
         - amount: 100000
       spend: 4000
@@ -3451,18 +3462,18 @@
   credits: []
   offers:
     - amount:
-        - amount: 40000
+        - amount: 60000
       spend: 3000
       days: 90
       credits: []
-      details: 20k after any purchase, 20k after spend requirement.
+      details: 30k after any purchase, 30k after spend requirement.
   historicalOffers:
     - amount:
-        - amount: 40000
+        - amount: 60000
       spend: 3000
       days: 90
       credits: []
-      details: 20k after any purchase, 20k after spend requirement.
+      details: 30k after any purchase, 30k after spend requirement.
 - name: Cardless Qatar Infinite
   issuer: FIRST
   network: VISA
@@ -3476,18 +3487,18 @@
   credits: []
   offers:
     - amount:
-        - amount: 50000
+        - amount: 80000
       spend: 5000
       days: 90
       credits: []
-      details: 25k after any purchase, 25k after spend requirement.
+      details: 40k after any purchase, 40k after spend requirement.
   historicalOffers:
     - amount:
-        - amount: 50000
+        - amount: 80000
       spend: 5000
       days: 90
       credits: []
-      details: 25k after any purchase, 25k after spend requirement.
+      details: 40k after any purchase, 40k after spend requirement.
 - name: Amtrak Guest Rewards Preferred
   issuer: FNBO
   network: MASTERCARD

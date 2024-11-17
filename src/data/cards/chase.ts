@@ -252,27 +252,19 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 20_000 }],
+        amount: [{ amount: 25_000 }],
         spend: 500,
         days: 90,
         credits: [],
-      },
-      {
-        amount: [{ amount: 0 }],
-        spend: 500,
-        days: 90,
-        credits: [],
-        details: "Extra 1.5% cashback, up to $300/yr.",
         referralUrl: REFERRALS.CHASE.FREEDOM,
       },
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 20_000 }],
+        amount: [{ amount: 25_000 }],
         credits: [],
         spend: 500,
         days: 90,
-        expiration: "2022-02-01",
       },
     ],
   },
@@ -636,10 +628,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [
-          { amount: 60_000 },
-          { amount: 300, currency: "USD", weight: 0.8 },
-        ],
+        amount: [{ amount: 70_000 }],
         spend: 4000,
         days: 90,
         credits: [],
@@ -649,6 +638,13 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
       },
     ],
     historicalOffers: [
+      {
+        amount: [{ amount: 70_000 }, { amount: 300, currency: "USD" }],
+        spend: 4000,
+        days: 90,
+        credits: [],
+        expiration: "2024-11-16",
+      },
       {
         amount: [{ amount: 100_000 }],
         spend: 4000,

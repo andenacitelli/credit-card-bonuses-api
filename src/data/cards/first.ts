@@ -75,20 +75,20 @@ export const FIRST_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 40_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 3000,
         days: 90,
         credits: [],
-        details: "20k after any purchase, 20k after spend requirement.",
+        details: "30k after any purchase, 30k after spend requirement.",
       },
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 40_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 3000,
         days: 90,
         credits: [],
-        details: "20k after any purchase, 20k after spend requirement.",
+        details: "30k after any purchase, 30k after spend requirement.",
       },
     ],
   },
@@ -106,20 +106,20 @@ export const FIRST_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 80_000 }],
         spend: 5000,
         days: 90,
         credits: [],
-        details: "25k after any purchase, 25k after spend requirement.",
+        details: "40k after any purchase, 40k after spend requirement.",
       },
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 80_000 }],
         spend: 5000,
         days: 90,
         credits: [],
-        details: "25k after any purchase, 25k after spend requirement.",
+        details: "40k after any purchase, 40k after spend requirement.",
       },
     ],
   },
