@@ -15,5 +15,5 @@ jobs:
           cache: pnpm
       - run: pnpm i
       - run: pnpm generate
-      - run: pnpm analyze
+      - run: pnpm lint
       - run: pnpm test
