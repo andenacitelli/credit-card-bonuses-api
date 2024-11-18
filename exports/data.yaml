@@ -2404,13 +2404,14 @@
       weight: 0.75
   offers:
     - amount:
-        - amount: 70000
+        - amount: 60000
       spend: 4000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/19Q/QN3N8HQ4KX
-      details: +$300, Chase Travel Portal.
-      expiration: 2024-11-14
+      details: "Supposedly a 70k one floating around, can't track it down though? See:
+        https://www.doctorofcredit.com/increased-chase-offers-starting-11-17-70\
+        k-csp-250-freedom-unlimited/"
   historicalOffers:
     - amount:
         - amount: 70000

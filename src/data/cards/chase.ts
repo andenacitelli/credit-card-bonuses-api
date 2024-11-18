@@ -628,13 +628,13 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 70_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 4000,
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.SAPPHIRE,
-        details: "+$300, Chase Travel Portal.",
-        expiration: "2024-11-14",
+        details:
+          "Supposedly a 70k one floating around, can't track it down though? See: https://www.doctorofcredit.com/increased-chase-offers-starting-11-17-70k-csp-250-freedom-unlimited/",
       },
     ],
     historicalOffers: [
