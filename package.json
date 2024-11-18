@@ -15,7 +15,8 @@
     "generate:schemas": "openapi-zod-client ./src/api.yaml --output src/generated/api.client.ts --export-schemas",
     "generate:exports": "tsx ./bin/generate.ts",
     "generate": "pnpm generate:schemas && pnpm generate:exports",
-    "dependencies:eslint:about": "Pinned to 9.14.0 because 9.15.0 introduces a bug w/ a `typescript-eslint` rule (ref: https://github.com/eslint/eslint/issues/19134)."
+    "dependencies:eslint:about": "Pinned to 9.14.0 because 9.15.0 introduces a bug w/ a `typescript-eslint` rule (ref: https://github.com/eslint/eslint/issues/19134).",
+    "dependencies:@types/node:about": "Pinned to ^20 because @types/node version is supposed to correspond to your overall Node version. `latest` is not always correct."
   },
   "dependencies": {
     "@zodios/core": "~10.9.6",
