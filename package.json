@@ -14,7 +14,8 @@
     "bump": "ncu --upgrade --target semver && pnpm i",
     "generate:schemas": "openapi-zod-client ./src/api.yaml --output src/generated/api.client.ts --export-schemas",
     "generate:exports": "tsx ./bin/generate.ts",
-    "generate": "pnpm generate:schemas && pnpm generate:exports"
+    "generate": "pnpm generate:schemas && pnpm generate:exports",
+    "dependencies:eslint:about": "Pinned to 9.14.0 because 9.15.0 introduces a bug w/ a `typescript-eslint` rule (ref: https://github.com/eslint/eslint/issues/19134)."
   },
   "dependencies": {
     "@zodios/core": "~10.9.6",
@@ -23,20 +24,20 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@eslint/js": "^9.14.0",
+    "@eslint/js": "9.14.0",
     "@redocly/cli": "^1.25.11",
     "@tsconfig/recommended": "^1.0.8",
-    "@types/node": "^20.17.6",
+    "@types/node": "^20",
     "@types/papaparse": "^5.3.15",
     "date-fns": "^4.1.0",
-    "eslint": "^9.14.0",
+    "eslint": "9.14.0",
     "husky": "^9.1.6",
-    "npm-check-updates": "^17.1.10",
+    "npm-check-updates": "^17.1.11",
     "openapi-zod-client": "^1.18.2",
     "tsx": "^4.19.2",
     "typescript": "^5.6.3",
     "typescript-eslint": "^8.14.0",
     "vite-tsconfig-paths": "^5.1.2",
-    "vitest": "^2.1.4"
+    "vitest": "^2.1.5"
   }
 }
