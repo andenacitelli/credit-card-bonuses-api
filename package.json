@@ -8,7 +8,7 @@
     "analyze": "pnpm run /^analyze:.*/",
     "analyze:lint": "eslint . --fix",
     "analyze:typecheck": "tsc --noEmit",
-    "analyze:format": "prettier --check .",
+    "analyze:format": "prettier --check ./**/*.{js,ts}",
     "analyze:openapi": "redocly lint --extends=minimal src/api.yaml",
     "test": "vitest run",
     "bump": "ncu --upgrade --target semver && pnpm i",
@@ -19,7 +19,7 @@
     "dependencies:@types/node:about": "Pinned to ^20 because @types/node version is supposed to correspond to your overall Node version. `latest` is not always correct."
   },
   "dependencies": {
-    "@zodios/core": "~10.9.6",
+    "@zodios/core": "^10.9.6",
     "papaparse": "^5.4.1",
     "yaml": "^2.6.0",
     "zod": "^3.23.8"
