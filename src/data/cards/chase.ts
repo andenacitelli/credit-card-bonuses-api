@@ -674,6 +674,13 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
+        amount: [{ amount: 65_000 }],
+        spend: 4000,
+        days: 90,
+        credits: [],
+        url: "https://www.theinfatuation.com/experiences",
+      },
+      {
         amount: [{ amount: 60_000 }],
         spend: 4000,
         days: 90,
@@ -683,11 +690,11 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 100_000 }],
+        amount: [{ amount: 75_000 }],
         spend: 4000,
         days: 90,
         credits: [],
-        expiration: "2022-12-01",
+        expiration: "2024-06-08",
       },
     ],
   },
