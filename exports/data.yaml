@@ -2245,7 +2245,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2270,7 +2270,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2294,7 +2294,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2321,7 +2321,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - amount:
         - amount: 1000
@@ -3500,6 +3500,67 @@
       days: 90
       credits: []
       details: 40k after any purchase, 40k after spend requirement.
+- name: Avianca LifeMiles
+  issuer: FIRST
+  network: AMERICAN_EXPRESS
+  currency: AVIANCA
+  isBusiness: false
+  annualFee: 99
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://www.lifemiles.com/discover/landing-page/avianca-lifemiles-creditcard-promo
+  imageUrl: /images/first/avianca-lifemiles.webp
+  credits: []
+  offers:
+    - amount:
+        - amount: 50000
+      spend: 3000
+      days: 90
+      credits: []
+      expires: 2025-01-21
+    - amount:
+        - amount: 40000
+      spend: 3000
+      days: 90
+      credits: []
+  historicalOffers:
+    - amount:
+        - amount: 50000
+      spend: 3000
+      days: 90
+      credits: []
+- name: Avianca LifeMiles Elite
+  issuer: FIRST
+  network: AMERICAN_EXPRESS
+  currency: AVIANCA
+  isBusiness: false
+  annualFee: 250
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://www.lifemiles.com/discover/landing-page/avianca-lifemiles-creditcard-promo
+  imageUrl: /images/first/avianca-lifemiles-elite.webp
+  credits: []
+  offers:
+    - amount:
+        - amount: 80000
+      spend: 4500
+      days: 90
+      credits: []
+      details: Extra 40k on 25k spend in 1yr.
+      expires: 2025-01-21
+    - amount:
+        - amount: 60000
+      spend: 4500
+      days: 90
+      credits: []
+      details: Extra 40k on 25k spend in 1yr.
+  historicalOffers:
+    - amount:
+        - amount: 80000
+      spend: 4500
+      days: 90
+      credits: []
+      details: Extra 40k on 25k spend in 1yr.
 - name: Amtrak Guest Rewards Preferred
   issuer: FNBO
   network: MASTERCARD
