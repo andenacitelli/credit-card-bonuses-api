@@ -566,14 +566,12 @@
       spend: 6000
       days: 180
       credits: []
-      referralUrl: https://americanexpress.com/en-us/referral/ANDENa0UQA
       details: Inconsistent. Try incognito mode.
     - amount:
         - amount: 60000
       spend: 6000
       days: 180
       credits: []
-      referralUrl: https://americanexpress.com/en-us/referral/ANDENa0UQA
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2086,7 +2084,7 @@
       spend: 500
       days: 90
       credits: []
-      url: https://www.referyourchasecard.com/18C/BDWS964YDG
+      url: https://www.referyourchasecard.com/18N/UXXI57YWJ7
   historicalOffers:
     - amount:
         - amount: 25000
@@ -2111,7 +2109,7 @@
       spend: 500
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/18C/BDWS964YDG
+      referralUrl: https://www.referyourchasecard.com/18N/UXXI57YWJ7
   historicalOffers:
     - amount:
         - amount: 25000

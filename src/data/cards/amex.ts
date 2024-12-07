@@ -1,7 +1,5 @@
 import type { z } from "zod";
 
-import { REFERRALS } from "@/data/referral-links.js";
-
 import { schemas } from "@/generated/api.client.js";
 import { WEIGHTS } from "@/data/weights.js";
 
@@ -740,7 +738,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 6000,
         days: 180,
         credits: [],
-        referralUrl: REFERRALS.AMERICAN_EXPRESS.GOLD,
         details: "Inconsistent. Try incognito mode.",
       },
       {
@@ -748,7 +745,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 6000,
         days: 180,
         credits: [],
-        referralUrl: REFERRALS.AMERICAN_EXPRESS.GOLD,
       },
     ],
 
