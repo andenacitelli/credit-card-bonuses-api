@@ -16,13 +16,7 @@ export const BREX_CARDS: z.input<typeof schemas.CreditCard>[] = [
     imageUrl: "/images/brex/brex.png",
     credits: [],
     offers: [
-      {
-        amount: [{ amount: 10_000 }],
-        spend: 3000,
-        days: 90,
-        credits: [],
-        url: "https://www.brex.com/product/credit-card/",
-      },
+      // Can't find any bonuses
     ],
     historicalOffers: [
       {

@@ -77,7 +77,7 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 750 }],
+        amount: [{ amount: 500 }],
         spend: 6000,
         days: 90,
         credits: [],

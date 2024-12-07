@@ -341,12 +341,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
       },
-      {
-        amount: [{ amount: 120_000 }],
-        spend: 20_000,
-        days: 90,
-        credits: [],
-      },
     ],
     historicalOffers: [
       {
@@ -1076,6 +1070,13 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
+        amount: [{ amount: 80_000 }],
+        spend: 8000,
+        days: 180,
+        credits: [],
+        details: "Inconsistent, may require incognito.",
+      },
+      {
         amount: [{ amount: 100_000 }],
         spend: 8000,
         days: 180,
@@ -1147,7 +1148,13 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 6000,
         days: 180,
         credits: [],
-        url: "https://www.schwab.com/credit-cards#panel--50-media-right-117911",
+        expiration: "2025-01-08",
+      },
+      {
+        amount: [{ amount: 80_000 }],
+        spend: 6000,
+        days: 180,
+        credits: [],
       },
     ],
     historicalOffers: [
@@ -1264,12 +1271,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     imageUrl: "/images/amex/lowes-business.webp",
     credits: [],
     offers: [
-      {
-        amount: [{ amount: 100 }],
-        spend: 0,
-        days: 90,
-        credits: [],
-      },
+      // No offers seemingly available right now
     ],
     historicalOffers: [
       {
@@ -1301,6 +1303,13 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 300 }],
+        spend: 1000,
+        days: 90,
+        credits: [],
+        expiration: "2025-01-08",
+      },
+      {
+        amount: [{ amount: 200 }],
         spend: 1000,
         days: 90,
         credits: [],

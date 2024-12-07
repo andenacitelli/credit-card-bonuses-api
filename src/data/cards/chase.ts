@@ -58,7 +58,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         credits: [],
       },
       {
-        amount: [{ amount: 85_000 }],
+        amount: [{ amount: 75_000 }],
         spend: 5000,
         days: 90,
         credits: [],
@@ -67,10 +67,10 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     historicalOffers: [
       {
         amount: [{ amount: 100_000 }],
+        spend: 7500,
+        days: 180,
         credits: [],
-        spend: 5000,
-        days: 90,
-        expiration: "2022-08-01",
+        expiration: "2024-12-31",
       },
     ],
   },
@@ -88,11 +88,11 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 70_000 }],
-        spend: 3000,
+        amount: [{ amount: 75_000 }],
+        spend: 4000,
         days: 90,
         credits: [],
-        details: "Extra 30k for (extremely high) 20k spend.",
+        details: "+25k for 20k in 12mo.",
       },
     ],
     historicalOffers: [
@@ -132,7 +132,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         url: "https://creditcards.chase.com/a1/britishairways/aep/LTO",
       },
       {
-        amount: [{ amount: 85_000 }],
+        amount: [{ amount: 75_000 }],
         spend: 5000,
         days: 90,
         credits: [],
@@ -141,10 +141,10 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     historicalOffers: [
       {
         amount: [{ amount: 100_000 }],
+        spend: 7500,
+        days: 180,
         credits: [],
-        spend: 5000,
-        days: 90,
-        expiration: "2022-08-01",
+        expiration: "2024-12-31",
       },
     ],
   },
@@ -161,6 +161,12 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     imageUrl: "/images/chase/disney.png",
     credits: [],
     offers: [
+      {
+        amount: [{ amount: 400 }],
+        spend: 1000,
+        days: 90,
+        credits: [],
+      },
       {
         amount: [{ amount: 300 }],
         spend: 1000,
@@ -190,6 +196,12 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     imageUrl: "/images/chase/disney.png",
     credits: [],
     offers: [
+      {
+        amount: [{ amount: 200 }],
+        spend: 500,
+        days: 90,
+        credits: [],
+      },
       {
         amount: [{ amount: 150 }],
         spend: 500,
@@ -289,7 +301,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         credits: [],
       },
       {
-        amount: [{ amount: 85_000 }],
+        amount: [{ amount: 75_000 }],
         spend: 5000,
         days: 90,
         credits: [],
@@ -297,11 +309,11 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 75_000 }],
+        amount: [{ amount: 100_000 }],
+        spend: 7500,
+        days: 180,
         credits: [],
-        spend: 5000,
-        days: 90,
-        expiration: "2022-08-01",
+        expiration: "2024-12-31",
       },
     ],
   },
@@ -319,18 +331,10 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 0, currency: "IHG" }],
+        amount: [{ amount: 140_000 }],
         spend: 3000,
         days: 90,
-        credits: [
-          {
-            value: 60_000 * 5,
-            description: "5x FNC (up to 60k per)",
-            weight: 0.7,
-            currency: "IHG",
-          },
-        ],
-        url: "https://www.doctorofcredit.com/chase-ihg-premier-five-free-night-certificates-up-to-60000-points-per-night/",
+        credits: [],
       },
     ],
     historicalOffers: [
@@ -346,6 +350,12 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
           },
         ],
         url: "https://www.ihg.com/onerewards/content/us/en/creditcard",
+      },
+      {
+        amount: [{ amount: 140_000 }],
+        spend: 3000,
+        days: 90,
+        credits: [],
       },
     ],
   },
@@ -367,7 +377,6 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 4000,
         days: 90,
         credits: [],
-        url: "https://www.doctorofcredit.com/chase-ihg-premier-business-card-200000-offer-new-all-time-high/",
       },
     ],
     historicalOffers: [
@@ -520,6 +529,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.INKS,
+        details: "NOTE: Points are nontransferable. Only cashback redemption.",
       },
     ],
     historicalOffers: [
@@ -545,17 +555,10 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 30_000 }],
         spend: 1000,
         days: 90,
-        credits: [
-          {
-            value: 50_000,
-            description: "1x Free Night Credit",
-            currency: schemas.CurrenciesEnum.enum.MARRIOTT,
-            weight: 0.7,
-          },
-        ],
+        credits: [],
         referralUrl: REFERRALS.CHASE.MARRIOTT,
       },
     ],
@@ -633,8 +636,6 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.SAPPHIRE,
-        details:
-          "Supposedly a 70k one floating around, can't track it down though? See: https://www.doctorofcredit.com/increased-chase-offers-starting-11-17-70k-csp-250-freedom-unlimited/",
       },
     ],
     historicalOffers: [
@@ -753,18 +754,11 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
-        spend: 1000,
-        days: 90,
-        credits: [],
-      },
-      {
-        amount: [{ amount: 40_000 }, { amount: 400, currency: "USD" }],
+        amount: [{ amount: 40_000 }],
         spend: 1000,
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.SOUTHWEST,
-        details: "Only via referral link.",
       },
     ],
     historicalOffers: [
@@ -791,18 +785,11 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
-        spend: 1000,
-        days: 90,
-        credits: [],
-      },
-      {
-        amount: [{ amount: 40_000 }, { amount: 400, currency: "USD" }],
+        amount: [{ amount: 40_000 }],
         spend: 1000,
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.SOUTHWEST,
-        details: "Only via referral link.",
       },
     ],
     historicalOffers: [
@@ -871,18 +858,11 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 40_000 }],
         spend: 3000,
         days: 90,
         credits: [],
-      },
-      {
-        amount: [{ amount: 40_000 }, { amount: 400, currency: "USD" }],
-        spend: 1000,
-        days: 90,
-        credits: [],
         referralUrl: REFERRALS.CHASE.SOUTHWEST,
-        details: "Only via referral link.",
       },
     ],
     historicalOffers: [
@@ -962,7 +942,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 80_000 }],
+        amount: [{ amount: 90_000 }],
         spend: 5000,
         days: 90,
         credits: [],
@@ -1003,7 +983,6 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 5000,
         days: 90,
         credits: [],
-        url: "https://www.theexplorercard.com/business-rewards-cards/club-card",
       },
     ],
     historicalOffers: [
@@ -1047,7 +1026,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 3000,
         days: 90,
         credits: [],
@@ -1078,7 +1057,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 20_000 }],
+        amount: [{ amount: 30_000 }],
         spend: 1000,
         days: 90,
         credits: [],
@@ -1115,7 +1094,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 70_000 }],
         spend: 4000,
         days: 90,
         credits: [],
@@ -1220,7 +1199,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 200 }],
+        amount: [{ amount: 150 }],
         spend: 0.01,
         days: 365,
         credits: [],

@@ -46,6 +46,13 @@ export const FIRST_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
+        amount: [{ amount: 70_000 }],
+        spend: 2500,
+        days: 90,
+        credits: [],
+        expiration: "2025-01-17",
+      },
+      {
         amount: [{ amount: 40_000 }],
         spend: 2500,
         days: 90,

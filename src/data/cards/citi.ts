@@ -17,13 +17,6 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 100_000 }],
-        spend: 10_000,
-        days: 90,
-        credits: [],
-        url: "https://www.uscreditcardguide.com/citi-aadvantage-executive-credit-card/",
-      },
-      {
         amount: [{ amount: 70_000 }],
         spend: 7000,
         days: 90,
@@ -289,7 +282,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 100 }],
+        amount: [{ amount: 200 }],
         spend: 1000,
         days: 90,
         credits: [],

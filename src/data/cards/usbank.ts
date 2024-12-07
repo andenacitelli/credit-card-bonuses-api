@@ -188,12 +188,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     imageUrl: "/images/usbank/business-leverage.webp",
     credits: [],
     offers: [
-      {
-        amount: [{ amount: 750 }],
-        spend: 7500,
-        credits: [],
-        days: 120,
-      },
+      // Card is being reworked, no active offers
     ],
     historicalOffers: [
       {

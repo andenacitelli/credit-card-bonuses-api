@@ -141,7 +141,7 @@ export const WELLS_FARGO_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 40_000 }],
         spend: 1000,
         days: 90,
         credits: [],
@@ -170,7 +170,7 @@ export const WELLS_FARGO_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 90_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 3000,
         days: 90,
         credits: [],

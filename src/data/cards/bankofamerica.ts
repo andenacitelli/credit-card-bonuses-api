@@ -53,7 +53,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 70_000 }],
+        amount: [{ amount: 75_000 }],
         spend: 3000,
         days: 90,
         credits: [],
@@ -437,7 +437,13 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
         amount: [{ amount: 50_000 }],
         spend: 1000,
         days: 90,
-        credits: [],
+        credits: [
+          {
+            description: "Companion Flight Voucher",
+            value: 100,
+            weight: 0.6,
+          },
+        ],
       },
     ],
     historicalOffers: [

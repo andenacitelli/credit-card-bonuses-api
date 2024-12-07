@@ -4,35 +4,6 @@ import { schemas } from "@/generated/api.client.js";
 
 export const FNBO_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
-    name: "Amtrak Guest Rewards Preferred",
-    issuer: schemas.IssuersEnum.enum.FNBO,
-    network: schemas.NetworksEnum.enum.MASTERCARD,
-    currency: schemas.CurrenciesEnum.enum.AMTRAK,
-    isBusiness: false,
-    annualFee: 99,
-    isAnnualFeeWaived: false,
-    universalCashbackPercent: 1,
-    url: "https://www.amtrak.com/Apply",
-    imageUrl: "/images/fnbo/amtrak-guest-rewards-preferred.jpg",
-    credits: [],
-    offers: [
-      {
-        amount: [{ amount: 20_000 }],
-        spend: 1000,
-        days: 90,
-        credits: [],
-      },
-    ],
-    historicalOffers: [
-      {
-        amount: [{ amount: 40_000 }],
-        spend: 2000,
-        days: 90,
-        credits: [],
-      },
-    ],
-  },
-  {
     name: "Amtrak Guest Rewards",
     issuer: schemas.IssuersEnum.enum.FNBO,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -62,6 +33,35 @@ export const FNBO_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    name: "Amtrak Guest Rewards Preferred",
+    issuer: schemas.IssuersEnum.enum.FNBO,
+    network: schemas.NetworksEnum.enum.MASTERCARD,
+    currency: schemas.CurrenciesEnum.enum.AMTRAK,
+    isBusiness: false,
+    annualFee: 99,
+    isAnnualFeeWaived: false,
+    universalCashbackPercent: 1,
+    url: "https://www.amtrak.com/Apply",
+    imageUrl: "/images/fnbo/amtrak-guest-rewards-preferred.jpg",
+    credits: [],
+    offers: [
+      {
+        amount: [{ amount: 20_000 }],
+        spend: 1000,
+        days: 90,
+        credits: [],
+      },
+    ],
+    historicalOffers: [
+      {
+        amount: [{ amount: 40_000 }],
+        spend: 2000,
+        days: 90,
+        credits: [],
+      },
+    ],
+  },
+  {
     name: "Best Western Rewards",
     issuer: schemas.IssuersEnum.enum.FNBO,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -70,7 +70,7 @@ export const FNBO_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://www.card.fnbo.com/landing/bestwestern/bestwesternlto",
+    url: "https://www.bestwestern.com/en_US/offers/hotel-discounts/best-western-rewards-visa.html",
     imageUrl: "/images/fnbo/best-western-rewards.jpg",
     credits: [],
     offers: [
@@ -99,7 +99,7 @@ export const FNBO_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 89,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://www.card.fnbo.com/landing/bestwestern/bestwesternlto",
+    url: "https://www.bestwestern.com/en_US/offers/hotel-discounts/best-western-rewards-visa.html",
     imageUrl: "/images/fnbo/best-western-rewards-premium.jpg",
     credits: [],
     offers: [
