@@ -243,17 +243,11 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 40_000 }],
+        amount: [{ amount: 50_000 }],
         spend: 500,
         days: 90,
         credits: [],
         details: "Requires paying AF.",
-      },
-      {
-        amount: [{ amount: 60_000 }],
-        spend: 2000,
-        days: 180,
-        credits: [],
       },
     ],
     historicalOffers: [
@@ -372,14 +366,6 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     imageUrl: "/images/barclays/jetblue-plus.png",
     credits: [],
     offers: [
-      {
-        amount: [{ amount: 80_000 }],
-        spend: 1000,
-        days: 90,
-        credits: [],
-        url: "https://cards.barclaycardus.com/banking/credit-card/jetblue/mastercard-mastercard-world-elite/banner/9085d860-d048-4cc3-a426-3d6d2790b270/?referrerid=PTRBAHPPB",
-        expiration: "2024-12-03",
-      },
       {
         amount: [{ amount: 50_000 }],
         spend: 1000,
