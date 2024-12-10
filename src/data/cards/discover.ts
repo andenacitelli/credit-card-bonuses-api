@@ -1,6 +1,7 @@
 import type { z } from "zod";
 
 import { schemas } from "@/generated/api.client.js";
+import { REFERRALS } from "../referral-links.js";
 
 export const DISCOVER_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
@@ -22,6 +23,7 @@ export const DISCOVER_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         details: "No offer currently available.",
+        referralUrl: REFERRALS.DISCOVER,
       },
     ],
     historicalOffers: [

@@ -18,4 +18,5 @@ export const REFERRALS = {
     ]),
     MARRIOTT: getRandom(["https://www.referyourchasecard.com/252n/YV4FE606LH"]),
   },
+  DISCOVER: getRandom(["https://refer.discover.com/aacitelli3!a9f01e6210!a"]),
 };
