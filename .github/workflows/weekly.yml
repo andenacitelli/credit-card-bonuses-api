@@ -4,18 +4,16 @@
 name: (chore) Weekly Jobs
 
 on:
-  pull_request:
   schedule:
     # Midnight UTC on Sundays
-    - cron: "0 0 * * */6" 
+    - cron: "0 0 * * */6"
+  push:
 
 jobs:
   randomize-referrals:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: ${{ github.event.pull_request.head.ref }}
       - uses: pnpm/action-setup@v4
         with:
           version: 9
