@@ -51,7 +51,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 90_000 }],
+        amount: [{ amount: 100_000 }],
         spend: 7500,
         days: 180,
         url: "https://creditcards.chase.com/a1/aerlingus/LTO",
