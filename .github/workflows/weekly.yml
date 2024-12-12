@@ -5,7 +5,8 @@ name: (chore) Weekly Jobs
 
 on:
   schedule:
-    - cron: "0 0 * * */6" # Midnight UTC on Sundays
+    # Midnight UTC on Sundays
+    - cron: "0 0 * * */6" 
   push:
 
 jobs:
@@ -21,10 +22,10 @@ jobs:
           node-version-file: .nvmrc
           cache: pnpm
       - run: pnpm i
-      
       - run: pnpm generate
       - run: pnpm lint
       - uses: EndBug/add-and-commit@v9.1.4
         with:
+          default_author: "github_actions"
           add: "exports/"
           message: "(chore) Randomize Referrals"

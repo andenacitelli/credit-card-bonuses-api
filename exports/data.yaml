@@ -1940,7 +1940,7 @@
   credits: []
   offers:
     - amount:
-        - amount: 90000
+        - amount: 100000
       spend: 7500
       days: 180
       url: https://creditcards.chase.com/a1/aerlingus/LTO
