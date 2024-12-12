@@ -22,7 +22,7 @@ jobs:
           cache: pnpm
       - run: pnpm i
       - run: pnpm lint
-      - run: pnpm generate:exports
+      - run: pnpm generate
       - uses: EndBug/add-and-commit@v9.1.4
         with:
           add: "exports/"
