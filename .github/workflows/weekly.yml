@@ -21,7 +21,9 @@ jobs:
           node-version-file: .nvmrc
           cache: pnpm
       - run: pnpm i
-      - run: pnpm generate
+      - run: pnpm lint
+      - run: pnpm generate:exports
       - uses: EndBug/add-and-commit@v9.1.4
         with:
+          add: "exports/"
           message: "(chore) Randomize Referrals"
