@@ -1,0 +1,30 @@
+# Because randomizing these clientside is actually complex and probably requires either a breaking API change or me maintaining duplicate information (neither of which I really want to do), this is a hacky workaround to basically regenerate and recommit the list of credit cards, which in effect will randomize which value was chosen.
+# Running this every week produces sufficient randomization without causing too much noise.
+
+name: (chore) Weekly Jobs
+
+on:
+  schedule:
+    # Midnight UTC on Sundays
+    - cron: "0 0 * * */6"
+
+jobs:
+  randomize-referrals:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm i
+      - run: pnpm generate
+      - run: pnpm lint
+      - uses: EndBug/add-and-commit@v9.1.4
+        with:
+          default_author: "github_actions"
+          add: "exports/"
+          message: "(chore) Randomize Referrals"
