@@ -1,3 +1,0 @@
-pnpm run lint
-pnpm run generate:exports
-git add exports/
