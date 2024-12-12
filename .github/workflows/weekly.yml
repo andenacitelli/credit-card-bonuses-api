@@ -21,8 +21,9 @@ jobs:
           node-version-file: .nvmrc
           cache: pnpm
       - run: pnpm i
-      - run: pnpm lint
+      
       - run: pnpm generate
+      - run: pnpm lint
       - uses: EndBug/add-and-commit@v9.1.4
         with:
           add: "exports/"
