@@ -25,7 +25,7 @@
     "zod": "^3.24.1"
   },
   "devDependencies": {
-    "@eslint/js": "9.14.0",
+    "@eslint/js": "9.17.0",
     "@redocly/cli": "^1.26.0",
     "@tsconfig/recommended": "^1.0.8",
     "@types/node": "^20",
