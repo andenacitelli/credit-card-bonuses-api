@@ -325,6 +325,11 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         description: "Lounge access",
         weight: WEIGHTS.LOUNGES,
       },
+      {
+        value: 200,
+        description: "Hilton credit ($50/qtr)",
+        weight: 0.5,
+      },
     ],
     offers: [
       {

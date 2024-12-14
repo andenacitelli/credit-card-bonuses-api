@@ -248,6 +248,9 @@
     - value: 650
       description: Lounge access
       weight: 0.3
+    - value: 200
+      description: Hilton credit ($50/qtr)
+      weight: 0.5
   offers:
     - amount:
         - amount: 250000
@@ -2759,7 +2762,7 @@
   credits:
     - value: 125
       description: United Credit
-      weight: 0.8
+      weight: 0.7
   offers:
     - amount:
         - amount: 70000

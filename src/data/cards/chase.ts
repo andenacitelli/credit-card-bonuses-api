@@ -1087,9 +1087,10 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     imageUrl: "/images/chase/united-quest.png",
     credits: [
       {
+        // This used to be a direct statement credit, but is now a credit to your United account, so is weighted a bit lower.
         value: 125,
         description: "United Credit",
-        weight: 0.8,
+        weight: 0.7,
       },
     ],
     offers: [
