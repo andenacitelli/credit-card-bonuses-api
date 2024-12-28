@@ -184,11 +184,16 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 95,
     isAnnualFeeWaived: true,
     universalCashbackPercent: 1,
-    url: "https://www.usbank.com/business-banking/business-credit-cards/benefits/leverage-visa-card-benefits.html",
+    url: "https://www.usbank.com/business-banking/business-credit-cards/business-leverage-rewards-credit-card.html",
     imageUrl: "/images/usbank/business-leverage.webp",
     credits: [],
     offers: [
-      // Card is being reworked, no active offers
+      {
+        amount: [{ amount: 75_000, currency: "US_BANK" }],
+        spend: 7_500,
+        days: 120,
+        credits: [],
+      },
     ],
     historicalOffers: [
       {
