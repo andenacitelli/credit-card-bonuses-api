@@ -1,4 +1,4 @@
-name: Test
+name: (CI) Tests
 on: push
 
 jobs:
@@ -9,5 +9,8 @@ jobs:
       - uses: jdx/mise-action@v2
       - run: pnpm i
       - run: pnpm generate
-      - run: pnpm lint
+      - run: pnpm lint:format
+      - run: pnpm lint:linter
+      - run: pnpm lint:typecheck
+      - run: pnpm lint:openapi
       - run: pnpm test
