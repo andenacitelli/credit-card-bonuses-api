@@ -3893,10 +3893,16 @@
   annualFee: 95
   isAnnualFeeWaived: true
   universalCashbackPercent: 1
-  url: https://www.usbank.com/business-banking/business-credit-cards/benefits/leverage-visa-card-benefits.html
+  url: https://www.usbank.com/business-banking/business-credit-cards/business-leverage-rewards-credit-card.html
   imageUrl: /images/usbank/business-leverage.webp
   credits: []
-  offers: []
+  offers:
+    - amount:
+        - amount: 75000
+          currency: US_BANK
+      spend: 7500
+      days: 120
+      credits: []
   historicalOffers:
     - amount:
         - amount: 900
