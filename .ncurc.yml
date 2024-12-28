@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/raineorshine/npm-check-updates/main/src/types/RunOptions.json
+reject:
+  - "@types/node"
+  - eslint
+  - "@eslint/js"

@@ -1,3 +1,4 @@
+eval "$(mise activate zsh --shims)"
 pnpm run lint
 pnpm run generate:exports
 git add exports/
