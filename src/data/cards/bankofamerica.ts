@@ -42,7 +42,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     annualFee: 95,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://www.alaskaair.com/content/credit-card/visa-signature",
+    url: "https://www.bankofamerica.com/credit-cards/products/alaska-airlines-credit-card/",
     imageUrl: "/images/bankofamerica/alaska-airlines.png",
     credits: [
       {
@@ -61,10 +61,17 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
         details: "Extra 5k for naming an Alaska employee's name and ID.",
       },
       {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 70_000 }],
         spend: 3000,
         days: 90,
         credits: [],
+      },
+      {
+        amount: [{ amount: 40_000 }, { amount: 300, currency: "USD" }],
+        spend: 3000,
+        days: 90,
+        credits: [],
+        url: "https://www.doctorofcredit.com/bank-of-america-alaska-airlines-card-40000-miles-300-offer-companion-fare/",
       },
     ],
     historicalOffers: [

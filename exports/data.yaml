@@ -1035,7 +1035,7 @@
   annualFee: 95
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://www.alaskaair.com/content/credit-card/visa-signature
+  url: https://www.bankofamerica.com/credit-cards/products/alaska-airlines-credit-card/
   imageUrl: /images/bankofamerica/alaska-airlines.png
   credits:
     - value: 200
@@ -1050,10 +1050,18 @@
       url: http://alaska75k.com/
       details: Extra 5k for naming an Alaska employee's name and ID.
     - amount:
-        - amount: 60000
+        - amount: 70000
       spend: 3000
       days: 90
       credits: []
+    - amount:
+        - amount: 40000
+        - amount: 300
+          currency: USD
+      spend: 3000
+      days: 90
+      credits: []
+      url: https://www.doctorofcredit.com/bank-of-america-alaska-airlines-card-40000-miles-300-offer-companion-fare/
   historicalOffers:
     - amount:
         - amount: 70000
@@ -2252,7 +2260,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2277,7 +2285,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2301,7 +2309,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2328,7 +2336,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
       details: "NOTE: Points are nontransferable. Only cashback redemption."
   historicalOffers:
     - amount:
