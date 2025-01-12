@@ -17,4 +17,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: jdx/mise-action@v2
-      - run: pnpx --yes --package renovate -- renovate-config-validator
+      - run: pnpm dlx renovate -- renovate-config-validator
