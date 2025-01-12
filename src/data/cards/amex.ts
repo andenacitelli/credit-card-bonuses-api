@@ -812,11 +812,10 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 100_000 }],
+        amount: [{ amount: 80_000 }],
         spend: 2000,
         days: 180,
         credits: [],
-        expiration: "2025-01-08",
       },
     ],
     historicalOffers: [
@@ -849,11 +848,10 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 175_000 }],
+        amount: [{ amount: 150_000 }],
         spend: 6000,
         days: 180,
         credits: [],
-        expiration: "2025-01-08",
       },
     ],
     historicalOffers: [
@@ -887,11 +885,10 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 175_000 }],
+        amount: [{ amount: 130_000 }],
         spend: 8_000,
         days: 180,
         credits: [],
-        expiration: "2025-01-08",
       },
     ],
     historicalOffers: [
@@ -917,11 +914,10 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 165_000 }],
+        amount: [{ amount: 130_000 }],
         spend: 3000,
         days: 180,
         credits: [],
-        expiration: "2025-01-08",
       },
     ],
     historicalOffers: [
