@@ -18,3 +18,5 @@ jobs:
       - uses: actions/checkout@v4
       - uses: jdx/mise-action@v2
       - run: pnpm dlx renovate -- renovate-config-validator
+        env:
+          RENOVATE_CONFIG_FILE: "renovate.json"
