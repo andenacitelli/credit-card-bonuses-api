@@ -2,7 +2,7 @@ name: (CI) Tests
 on: push
 
 jobs:
-  ci:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -11,3 +11,10 @@ jobs:
       - run: pnpm generate
       - run: pnpm lint
       - run: pnpm test
+
+  renovate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: jdx/mise-action@v2
+      - run: pnpx --yes --package renovate -- renovate-config-validator

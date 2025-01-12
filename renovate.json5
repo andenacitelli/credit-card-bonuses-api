@@ -1,5 +1,0 @@
-{
-  /* I push version bumps enough that Renovate/Dependabot automation is overkill. However, having the dependency dashboard around is still nice. */
-  $schema: "https://docs.renovatebot.com/renovate-schema.json",
-  dependencyDashboard: true,
-}
