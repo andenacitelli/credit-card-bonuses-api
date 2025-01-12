@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/credit-card-bonuses-api.iml" filepath="$PROJECT_DIR$/.idea/credit-card-bonuses-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../offer-optimist/.idea/offer-optimist.iml" filepath="$PROJECT_DIR$/../offer-optimist/.idea/offer-optimist.iml" />
-    </modules>
-  </component>
-</project>
