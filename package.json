@@ -5,9 +5,11 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky",
+    "format": "prettier . --write",
     "lint": "pnpm run /^lint:.*/",
     "lint:format": "prettier --check .",
     "lint:linter": "eslint .",
+    "lint:renovate": "renovate-config-validator",
     "lint:typecheck": "tsc --noEmit",
     "lint:openapi": "redocly lint --extends=minimal src/api.yaml",
     "test": "vitest run",
@@ -31,12 +33,19 @@
     "date-fns": "^4.1.0",
     "eslint": "^9.17.0",
     "husky": "^9.1.7",
+    "lint-staged": "~15.3.0",
     "npm-check-updates": "^17.1.12",
     "openapi-zod-client": "^1.18.2",
+    "renovate": "~39.106.0",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.18.2",
     "vite-tsconfig-paths": "^5.1.4",
     "vitest": "^2.1.8"
+  },
+  "lint-staged": {
+    "*.{ts,json,yml,yaml}": [
+      "prettier --write"
+    ]
   }
 }

@@ -1,4 +1,5 @@
 eval "$(mise activate zsh --shims)"
+pnpx lint-staged # only for formatting
 pnpm run lint
 pnpm run generate:exports
 git add exports/

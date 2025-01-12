@@ -2,7 +2,7 @@ name: (CI) Tests
 on: push
 
 jobs:
-  ci:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
