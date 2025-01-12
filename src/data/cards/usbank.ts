@@ -93,6 +93,23 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    name: "Altitude Reserve",
+    issuer: schemas.IssuersEnum.enum.US_BANK,
+    network: schemas.NetworksEnum.enum.VISA,
+    currency: schemas.CurrenciesEnum.enum.US_BANK,
+    isBusiness: false,
+    annualFee: 0,
+    isAnnualFeeWaived: true,
+    universalCashbackPercent: 2,
+    url: "https://www.nerdwallet.com/article/credit-cards/u-s-bank-altitude-reserve-closed-to-new-applications",
+    imageUrl: "/images/usbank/altitude-reserve.png",
+    credits: [],
+    offers: [
+      // Card is being phased out; needs to stay here so people can still enter it under "My Cards"
+    ],
+    historicalOffers: [],
+  },
+  {
     name: "Altitude Go",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.VISA,

@@ -185,4 +185,21 @@ export const WELLS_FARGO_CARDS: z.input<typeof schemas.CreditCard>[] = [
       },
     ],
   },
+  {
+    name: "Bilt",
+    issuer: schemas.IssuersEnum.enum.WELLS_FARGO,
+    network: schemas.NetworksEnum.enum.MASTERCARD,
+    currency: schemas.CurrenciesEnum.enum.WELLS_FARGO,
+    isBusiness: false,
+    annualFee: 0,
+    isAnnualFeeWaived: false,
+    universalCashbackPercent: 1,
+    url: "https://www.biltrewards.com/card",
+    imageUrl: "/images/wellsfargo/bilt.png",
+    credits: [],
+    offers: [
+      // No current offer, but need to leave so it doesn't users that previously entered it
+    ],
+    historicalOffers: [],
+  },
 ];
