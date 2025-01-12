@@ -1149,13 +1149,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 125_000 }],
-        spend: 6000,
-        days: 180,
-        credits: [],
-        expiration: "2025-01-08",
-      },
-      {
         amount: [{ amount: 80_000 }],
         spend: 6000,
         days: 180,
@@ -1306,13 +1299,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     imageUrl: "/images/amex/schwab-investor.webp",
     credits: [],
     offers: [
-      {
-        amount: [{ amount: 300 }],
-        spend: 1000,
-        days: 90,
-        credits: [],
-        expiration: "2025-01-08",
-      },
       {
         amount: [{ amount: 200 }],
         spend: 1000,

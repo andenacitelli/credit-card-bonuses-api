@@ -868,12 +868,6 @@
       weight: 0.2
   offers:
     - amount:
-        - amount: 125000
-      spend: 6000
-      days: 180
-      credits: []
-      expiration: 2025-01-08
-    - amount:
         - amount: 80000
       spend: 6000
       days: 180
@@ -985,12 +979,6 @@
   credits: []
   offers:
     - amount:
-        - amount: 300
-      spend: 1000
-      days: 90
-      credits: []
-      expiration: 2025-01-08
-    - amount:
         - amount: 200
       spend: 1000
       days: 90
@@ -1043,12 +1031,11 @@
       weight: 0.8
   offers:
     - amount:
-        - amount: 70000
+        - amount: 75000
       spend: 3000
       days: 90
       credits: []
       url: http://alaska75k.com/
-      details: Extra 5k for naming an Alaska employee's name and ID.
     - amount:
         - amount: 70000
       spend: 3000
@@ -2260,7 +2247,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2285,7 +2272,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2309,7 +2296,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2336,7 +2323,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
       details: "NOTE: Points are nontransferable. Only cashback redemption."
   historicalOffers:
     - amount:
@@ -2802,10 +2789,11 @@
       weight: 0.8
   offers:
     - amount:
-        - amount: 30000
+        - amount: 35000
       spend: 3000
       days: 90
       credits: []
+      details: Also 2x on next $15k in spend.
   historicalOffers:
     - amount:
         - amount: 90000

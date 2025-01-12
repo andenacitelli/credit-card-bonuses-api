@@ -53,12 +53,11 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 70_000 }],
+        amount: [{ amount: 75_000 }],
         spend: 3000,
         days: 90,
         credits: [],
         url: "http://alaska75k.com/",
-        details: "Extra 5k for naming an Alaska employee's name and ID.",
       },
       {
         amount: [{ amount: 70_000 }],
