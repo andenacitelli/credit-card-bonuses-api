@@ -18,5 +18,11 @@ export const REFERRALS = {
     ]),
     MARRIOTT: getRandom(["https://www.referyourchasecard.com/252n/YV4FE606LH"]),
   },
+  AMERICAN_EXPRESS: {
+    BLUE_BUSINESS_PLUS: getRandom([
+      "https://americanexpress.com/en-us/referral/bluebusinessplus-credit-card?ref=ANDENaENLT&XLINK=MYCP",
+    ]),
+    // I don't seem to be able to refer people to my Gold for some reason
+  },
   DISCOVER: getRandom(["https://refer.discover.com/aacitelli3!a9f01e6210!a"]),
 };

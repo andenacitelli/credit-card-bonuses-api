@@ -1030,16 +1030,16 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 3000,
         days: 90,
         credits: [],
+        details: "70k available in-flight.",
         referralUrl: REFERRALS.CHASE.UNITED,
       },
     ],
     historicalOffers: [
       {
         amount: [{ amount: 70_000 }],
-        spend: 6000,
+        spend: 3000,
         days: 90,
         credits: [],
-        expiration: "2022-04-01",
       },
     ],
   },
@@ -1136,7 +1136,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 3000,
         days: 90,
         credits: [],
-        details: "Also 2x on next $15k in spend.",
+        details: "Also 2x (30k points total) on next $15k in spend.",
       },
     ],
     historicalOffers: [

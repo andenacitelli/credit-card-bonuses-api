@@ -61,6 +61,7 @@
       spend: 3000
       days: 90
       credits: []
+      referralUrl: https://americanexpress.com/en-us/referral/bluebusinessplus-credit-card?ref=ANDENaENLT&XLINK=MYCP
   historicalOffers:
     - amount:
         - amount: 15000
@@ -334,8 +335,8 @@
   network: AMERICAN_EXPRESS
   currency: DELTA
   isBusiness: false
-  annualFee: 99
-  isAnnualFeeWaived: false
+  annualFee: 150
+  isAnnualFeeWaived: true
   universalCashbackPercent: 1
   url: https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold-american-express-card/
   imageUrl: /images/amex/delta-skymiles-gold.jpg
@@ -346,16 +347,15 @@
   offers:
     - amount:
         - amount: 50000
-      spend: 3000
+      spend: 2000
       days: 180
       credits: []
   historicalOffers:
     - amount:
-        - amount: 75000
+        - amount: 70000
       spend: 2000
       days: 90
       credits: []
-      expiration: 2021-12-01
 - name: Delta SkyMiles Gold Business
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -434,13 +434,13 @@
   offers:
     - amount:
         - amount: 70000
-      spend: 8000
+      spend: 6000
       days: 180
       credits: []
   historicalOffers:
     - amount:
         - amount: 100000
-      spend: 3000
+      spend: 6000
       days: 90
       credits: []
 - name: Delta SkyMiles Reserve
@@ -448,7 +448,7 @@
   network: AMERICAN_EXPRESS
   currency: DELTA
   isBusiness: false
-  annualFee: 550
+  annualFee: 650
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
   url: https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/
@@ -460,7 +460,7 @@
   offers:
     - amount:
         - amount: 70000
-      spend: 6000
+      spend: 5000
       days: 180
       credits: []
   historicalOffers:
@@ -484,22 +484,16 @@
   offers:
     - amount:
         - amount: 80000
-      spend: 12000
+      spend: 10000
       days: 180
       credits: []
   historicalOffers:
     - amount:
         - amount: 110000
-      spend: 12000
+      spend: 10000
       days: 180
       credits: []
       expiration: 2024-07-17
-    - amount:
-        - amount: 60000
-      spend: 4000
-      days: 90
-      credits: []
-      url: https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-reserve/
 - name: Everyday
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -874,6 +868,7 @@
       credits: []
       spend: 6000
       days: 180
+      expiration: 2025-01-08
 - name: Platinum (Morgan Stanley)
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -2243,7 +2238,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2268,7 +2263,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2292,7 +2287,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2319,7 +2314,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
       details: "NOTE: Points are nontransferable. Only cashback redemption."
   historicalOffers:
     - amount:
@@ -2708,14 +2703,14 @@
       spend: 3000
       days: 90
       credits: []
+      details: 70k available in-flight.
       referralUrl: https://www.referyourchasecard.com/215n/D2KTYJ4FTP
   historicalOffers:
     - amount:
         - amount: 70000
-      spend: 6000
+      spend: 3000
       days: 90
       credits: []
-      expiration: 2022-04-01
 - name: United Gateway
   issuer: CHASE
   network: VISA
@@ -2789,7 +2784,7 @@
       spend: 3000
       days: 90
       credits: []
-      details: Also 2x on next $15k in spend.
+      details: Also 2x (30k points total) on next $15k in spend.
   historicalOffers:
     - amount:
         - amount: 90000

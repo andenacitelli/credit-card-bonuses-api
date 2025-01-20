@@ -2,6 +2,7 @@ import type { z } from "zod";
 
 import { schemas } from "@/generated/api.client.js";
 import { WEIGHTS } from "@/data/weights.js";
+import { REFERRALS } from "../referral-links.js";
 
 export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
@@ -78,6 +79,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 3000,
         days: 90,
         credits: [],
+        referralUrl: REFERRALS.AMERICAN_EXPRESS.BLUE_BUSINESS_PLUS,
       },
     ],
     historicalOffers: [
@@ -436,8 +438,8 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
     currency: schemas.CurrenciesEnum.enum.DELTA,
     isBusiness: false,
-    annualFee: 99,
-    isAnnualFeeWaived: false,
+    annualFee: 150,
+    isAnnualFeeWaived: true,
     universalCashbackPercent: 1,
     url: "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold-american-express-card/",
     imageUrl: "/images/amex/delta-skymiles-gold.jpg",
@@ -451,18 +453,17 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 50_000 }],
-        spend: 3000,
+        spend: 2000,
         days: 180,
         credits: [],
       },
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 75_000 }],
+        amount: [{ amount: 70_000 }],
         spend: 2000,
         days: 90,
         credits: [],
-        expiration: "2021-12-01",
       },
     ],
   },
@@ -568,7 +569,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 70_000 }],
-        spend: 8000,
+        spend: 6000,
         days: 180,
         credits: [],
       },
@@ -576,7 +577,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     historicalOffers: [
       {
         amount: [{ amount: 100_000 }],
-        spend: 3000,
+        spend: 6000,
         days: 90,
         credits: [],
       },
@@ -588,7 +589,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
     currency: schemas.CurrenciesEnum.enum.DELTA,
     isBusiness: false,
-    annualFee: 550,
+    annualFee: 650,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
     url: "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/",
@@ -603,7 +604,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 70_000 }],
-        spend: 6000,
+        spend: 5000,
         days: 180,
         credits: [],
       },
@@ -633,7 +634,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 80_000 }],
-        spend: 12_000,
+        spend: 10_000,
         days: 180,
         credits: [],
       },
@@ -641,17 +642,10 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     historicalOffers: [
       {
         amount: [{ amount: 110_000 }],
-        spend: 12_000,
+        spend: 10_000,
         days: 180,
         credits: [],
         expiration: "2024-07-17",
-      },
-      {
-        amount: [{ amount: 60_000 }],
-        spend: 4000,
-        days: 90,
-        credits: [],
-        url: "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-reserve/",
       },
     ],
   },
@@ -1157,6 +1151,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         credits: [],
         spend: 6000,
         days: 180,
+        expiration: "2025-01-08", // ref: https://www.doctorofcredit.com/american-express-charles-schwab-125000-point-bonus/
       },
     ],
   },
