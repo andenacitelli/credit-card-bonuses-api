@@ -331,6 +331,20 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
+        amount: [{ amount: 0 }],
+        spend: 4000,
+        days: 90,
+        credits: [
+          {
+            value: 200_000,
+            weight: 0.8,
+            currency: "IHG",
+            description: "5x FNC up to 40k each",
+          },
+        ],
+        url: "https://creditcards.chase.com/a1/ihg/PremierOnPropertyAEP?SPID=HK9M&CELL=622J",
+      },
+      {
         amount: [{ amount: 140_000 }],
         spend: 3000,
         days: 90,

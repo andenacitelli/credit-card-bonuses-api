@@ -2156,6 +2156,16 @@
   credits: []
   offers:
     - amount:
+        - amount: 0
+      spend: 4000
+      days: 90
+      credits:
+        - value: 200000
+          weight: 0.8
+          currency: IHG
+          description: 5x FNC up to 40k each
+      url: https://creditcards.chase.com/a1/ihg/PremierOnPropertyAEP?SPID=HK9M&CELL=622J
+    - amount:
         - amount: 140000
       spend: 3000
       days: 90
@@ -2238,7 +2248,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2263,7 +2273,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2287,7 +2297,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2314,7 +2324,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
       details: "NOTE: Points are nontransferable. Only cashback redemption."
   historicalOffers:
     - amount:
