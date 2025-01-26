@@ -345,8 +345,8 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         url: "https://creditcards.chase.com/a1/ihg/PremierOnPropertyAEP?SPID=HK9M&CELL=622J",
       },
       {
-        amount: [{ amount: 140_000 }],
-        spend: 3000,
+        amount: [{ amount: 170_000 }],
+        spend: 4000,
         days: 90,
         credits: [],
       },
@@ -354,7 +354,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     historicalOffers: [
       {
         amount: [{ amount: 175_000 }],
-        spend: 3000,
+        spend: 4000,
         days: 90,
         credits: [
           {
@@ -366,8 +366,8 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         url: "https://www.ihg.com/onerewards/content/us/en/creditcard",
       },
       {
-        amount: [{ amount: 140_000 }],
-        spend: 3000,
+        amount: [{ amount: 175_000 }],
+        spend: 4000,
         days: 90,
         credits: [],
       },
@@ -569,7 +569,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 30_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 1000,
         days: 90,
         credits: [],
@@ -578,11 +578,10 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 100_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 1000,
-        credits: [],
         days: 90,
-        expiration: "2023-07-01",
+        credits: [],
       },
     ],
   },
@@ -600,18 +599,17 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 0 }],
+        amount: [{ amount: 100_000 }],
         spend: 3000,
         days: 90,
         credits: [
           {
-            description: "3x Free Night Credits",
-            value: 150_000,
-            weight: 0.7,
-            currency: schemas.CurrenciesEnum.enum.MARRIOTT,
+            description: "$150 Statement Credit",
+            value: 150,
+            weight: 1.0,
+            currency: schemas.CurrenciesEnum.enum.USD,
           },
         ],
-        details: "3x FNC up to 50k per",
         referralUrl: REFERRALS.CHASE.MARRIOTT,
       },
     ],

@@ -2166,14 +2166,14 @@
           description: 5x FNC up to 40k each
       url: https://creditcards.chase.com/a1/ihg/PremierOnPropertyAEP?SPID=HK9M&CELL=622J
     - amount:
-        - amount: 140000
-      spend: 3000
+        - amount: 170000
+      spend: 4000
       days: 90
       credits: []
   historicalOffers:
     - amount:
         - amount: 175000
-      spend: 3000
+      spend: 4000
       days: 90
       credits:
         - value: 400
@@ -2181,8 +2181,8 @@
           weight: 0.8
       url: https://www.ihg.com/onerewards/content/us/en/creditcard
     - amount:
-        - amount: 140000
-      spend: 3000
+        - amount: 175000
+      spend: 4000
       days: 90
       credits: []
 - name: IHG Rewards Premier Business
@@ -2248,7 +2248,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2273,7 +2273,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2297,7 +2297,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2324,7 +2324,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
       details: "NOTE: Points are nontransferable. Only cashback redemption."
   historicalOffers:
     - amount:
@@ -2346,18 +2346,17 @@
   credits: []
   offers:
     - amount:
-        - amount: 30000
+        - amount: 60000
       spend: 1000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/252n/YV4FE606LH
   historicalOffers:
     - amount:
-        - amount: 100000
+        - amount: 60000
       spend: 1000
-      credits: []
       days: 90
-      expiration: 2023-07-01
+      credits: []
 - name: Marriott Bonvoy Boundless
   issuer: CHASE
   network: VISA
@@ -2371,15 +2370,14 @@
   credits: []
   offers:
     - amount:
-        - amount: 0
+        - amount: 100000
       spend: 3000
       days: 90
       credits:
-        - description: 3x Free Night Credits
-          value: 150000
-          weight: 0.7
-          currency: MARRIOTT
-      details: 3x FNC up to 50k per
+        - description: $150 Statement Credit
+          value: 150
+          weight: 1
+          currency: USD
       referralUrl: https://www.referyourchasecard.com/252n/YV4FE606LH
   historicalOffers:
     - amount:
