@@ -119,7 +119,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
           {
             value: 150,
             description: "Dining Credit",
-            weight: 0.75,
+            weight: WEIGHTS.DINING_CREDIT,
           },
         ],
         url: "https://resy.com/amex-offers?date=2022-10-01&seats=2",
@@ -158,7 +158,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 7 * 12,
         description: "$7/mo Disney Bundle Credit",
-        weight: 0.25,
+        weight: WEIGHTS.STREAMING_CREDIT,
       },
     ],
     offers: [
@@ -195,7 +195,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 84,
         description: "$7/mo Disney Bundle Credit",
-        weight: 0.25,
+        weight: WEIGHTS.STREAMING_CREDIT,
       },
     ],
     offers: [
@@ -315,12 +315,12 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 200,
         description: "Airline fee credit",
-        weight: 0.7,
+        weight: WEIGHTS.AIRLINE_FEE_CREDIT,
       },
       {
         value: 189,
         description: "CLEAR credit",
-        weight: 0.4,
+        weight: WEIGHTS.PRECHECK_OR_SIMILAR,
       },
       {
         value: 650,
@@ -330,7 +330,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 200,
         description: "Hilton credit ($50/qtr)",
-        weight: 0.5,
+        weight: WEIGHTS.TRAVEL_CREDIT_LOYALTY_PROGRAM_SPECIFIC,
       },
     ],
     offers: [
@@ -553,7 +553,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 100,
         description: "$100 Global Entry / $85 TSA PreCheck Credit",
-        weight: WEIGHTS.PRECHECK,
+        weight: WEIGHTS.PRECHECK_OR_SIMILAR,
       },
       {
         value: 500,
@@ -598,7 +598,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 240,
         description: "Resy Credit",
-        weight: 0.6,
+        weight: WEIGHTS.DINING_CREDIT,
       },
     ],
     offers: [
@@ -712,7 +712,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         description: "Semi-annual $50 Resy credit",
         value: 50 * 2,
-        weight: 0.75,
+        weight: WEIGHTS.DINING_CREDIT,
       },
     ],
     offers: [
@@ -766,7 +766,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 100,
         description: "CLEAR Credit",
-        weight: 0.4,
+        weight: WEIGHTS.PRECHECK_OR_SIMILAR,
       },
       {
         value: 100,
@@ -939,7 +939,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 300,
         description: "$25/mo Dining Credit",
-        weight: 0.75,
+        weight: WEIGHTS.DINING_CREDIT,
       },
     ],
     offers: [
@@ -978,14 +978,14 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         credits: [
           {
             currency: "MARRIOTT",
-            description: "3x Free Night Credit, up to 50k per",
+            description: "3x FNC, up to 50k per",
             value: 150_000,
-            weight: 0.7,
+            weight: WEIGHTS.FREE_NIGHT_CREDIT,
           },
         ],
         spend: 8000,
         days: 90,
-        details: "3x FNC up to 50k per",
+        details: "3x FNC, <= 50k per",
       },
     ],
     historicalOffers: [
@@ -995,9 +995,10 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [
           {
-            description: "3x FNC up to 50k per",
-            weight: 0.75,
+            description: "3x FNC, <= 50k per",
+            weight: WEIGHTS.FREE_NIGHT_CREDIT,
             value: 150_000,
+            currency: schemas.CurrenciesEnum.enum.MARRIOTT,
           },
         ],
       },
@@ -1030,7 +1031,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 200,
         description: "Hotel Credit",
-        weight: 0.7,
+        weight: WEIGHTS.TRAVEL_CREDIT_FUNGIBLE,
       },
       {
         value: 100,
@@ -1040,7 +1041,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 200,
         description: "$20/mo Digital Entertainment Credit",
-        weight: 0.6,
+        weight: WEIGHTS.STREAMING_CREDIT,
       },
       {
         value: 200,
@@ -1050,7 +1051,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 200,
         description: "Airline Fee Credit",
-        weight: 0.4,
+        weight: WEIGHTS.AIRLINE_FEE_CREDIT,
       },
       {
         value: 155,
@@ -1060,7 +1061,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 189,
         description: "CLEAR Credit",
-        weight: 0.2,
+        weight: WEIGHTS.PRECHECK_OR_SIMILAR,
       },
     ],
     offers: [
@@ -1109,12 +1110,12 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 200,
         description: "Hotel Credit",
-        weight: 0.8,
+        weight: WEIGHTS.TRAVEL_CREDIT_FUNGIBLE,
       },
       {
         value: 200,
         description: "$20/mo Digital Entertainment Credit",
-        weight: 0.6,
+        weight: WEIGHTS.STREAMING_CREDIT,
       },
       {
         value: 200,
@@ -1124,7 +1125,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 200,
         description: "Airline Fee Credit",
-        weight: 0.4,
+        weight: WEIGHTS.AIRLINE_FEE_CREDIT,
       },
       {
         value: 155,
@@ -1134,7 +1135,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 189,
         description: "CLEAR Credit",
-        weight: 0.2,
+        weight: WEIGHTS.PRECHECK_OR_SIMILAR,
       },
     ],
     offers: [
@@ -1170,12 +1171,12 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 200,
         description: "Hotel Credit",
-        weight: 0.8,
+        weight: WEIGHTS.TRAVEL_CREDIT_FUNGIBLE,
       },
       {
         value: 200,
         description: "$20/mo Digital Entertainment Credit",
-        weight: 0.6,
+        weight: WEIGHTS.STREAMING_CREDIT,
       },
       {
         value: 200,
@@ -1185,7 +1186,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 200,
         description: "Airline Fee Credit",
-        weight: 0.4,
+        weight: WEIGHTS.AIRLINE_FEE_CREDIT,
       },
       {
         value: 155,
@@ -1195,7 +1196,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 189,
         description: "CLEAR Credit",
-        weight: 0.2,
+        weight: WEIGHTS.PRECHECK_OR_SIMILAR,
       },
     ],
     offers: [

@@ -227,7 +227,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 100,
         description: "$100 credit for Global Entry or TSA PreCheck",
-        weight: WEIGHTS.PRECHECK,
+        weight: WEIGHTS.PRECHECK_OR_SIMILAR,
       },
     ],
     offers: [

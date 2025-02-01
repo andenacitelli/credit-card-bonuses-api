@@ -1,6 +1,7 @@
 import type { z } from "zod";
 
 import { schemas } from "@/generated/api.client.js";
+import { WEIGHTS } from "../weights.js";
 
 export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
@@ -218,7 +219,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 100,
         description: "Hotel Credit ($500 min purchase)",
-        weight: 0.75,
+        weight: WEIGHTS.TRAVEL_CREDIT_FUNGIBLE,
       },
     ],
     offers: [

@@ -337,9 +337,9 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         credits: [
           {
             value: 200_000,
-            weight: 0.8,
-            currency: "IHG",
-            description: "5x FNC up to 40k each",
+            weight: WEIGHTS.FREE_NIGHT_CREDIT,
+            currency: schemas.CurrenciesEnum.enum.IHG,
+            description: "5x FNC, <= 40k per",
           },
         ],
         url: "https://creditcards.chase.com/a1/ihg/PremierOnPropertyAEP?SPID=HK9M&CELL=622J",
@@ -359,8 +359,9 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         credits: [
           {
             value: 400,
-            description: "Free night credit worth up to 40k points.",
-            weight: 0.8,
+            description: "FNC worth up to 40k points.",
+            currency: schemas.CurrenciesEnum.enum.IHG,
+            weight: WEIGHTS.FREE_NIGHT_CREDIT,
           },
         ],
         url: "https://www.ihg.com/onerewards/content/us/en/creditcard",
@@ -572,7 +573,14 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         amount: [{ amount: 60_000 }],
         spend: 1000,
         days: 90,
-        credits: [],
+        credits: [
+          {
+            value: 50_000,
+            description: "1x FNC up to 50k",
+            currency: schemas.CurrenciesEnum.enum.MARRIOTT,
+            weight: WEIGHTS.FREE_NIGHT_CREDIT,
+          },
+        ],
         referralUrl: REFERRALS.CHASE.MARRIOTT,
       },
     ],
@@ -604,13 +612,27 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [
           {
-            description: "$150 Statement Credit",
+            description: "$150 Statement Credit on first purchase",
             value: 150,
             weight: 1.0,
             currency: schemas.CurrenciesEnum.enum.USD,
           },
         ],
         referralUrl: REFERRALS.CHASE.MARRIOTT,
+      },
+      {
+        amount: [{ amount: 25_000 }],
+        spend: 2000,
+        days: 90,
+        credits: [
+          {
+            description: "$400 gift card",
+            value: 400,
+            weight: 1.0,
+            currency: schemas.CurrenciesEnum.enum.USD,
+          },
+        ],
+        url: "https://www.doctorofcredit.com/chase-marriott-boundless-25000-points-400-egiftcard/",
       },
     ],
     historicalOffers: [
@@ -638,7 +660,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 50,
         description: "Hotel Credit",
-        weight: 0.75,
+        weight: WEIGHTS.TRAVEL_CREDIT_FUNGIBLE,
       },
     ],
     offers: [
@@ -731,7 +753,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         description: "Global Entry / TSA PreCheck / NEXUS Credit",
         value: 100,
-        weight: WEIGHTS.PRECHECK,
+        weight: WEIGHTS.PRECHECK_OR_SIMILAR,
       },
     ],
     offers: [
@@ -907,10 +929,11 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 75_000 }],
+        amount: [{ amount: 100_000 }],
         spend: 5000,
         days: 90,
         credits: [],
+        expiration: "2025-03-23",
       },
     ],
     historicalOffers: [
@@ -949,7 +972,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 100,
         description: "Global Entry, TSA PreCheck, or NEXUS Credit",
-        weight: WEIGHTS.PRECHECK,
+        weight: WEIGHTS.PRECHECK_OR_SIMILAR,
       },
     ],
     offers: [
@@ -1033,7 +1056,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 100,
         description: "Global Entry, TSA PreCheck, NEXUS Credit",
-        weight: WEIGHTS.PRECHECK,
+        weight: WEIGHTS.PRECHECK_OR_SIMILAR,
       },
     ],
     offers: [
@@ -1138,8 +1161,9 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [
       {
         value: 225,
-        description: "Free Night Credit @ Category 1-4 Property",
-        weight: 0.8,
+        description: "FNC @ Category 1-4 Property",
+        currency: schemas.CurrenciesEnum.enum.HYATT,
+        weight: WEIGHTS.FREE_NIGHT_CREDIT,
       },
     ],
     offers: [
@@ -1155,9 +1179,15 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         amount: [{ amount: 90_000, weight: 0.8 }],
         spend: 3000,
-        credits: [],
         days: 90,
-        details: "3x FNC, valued up to 30k per.",
+        credits: [
+          {
+            value: 90_000,
+            description: "3x FNC, <= 30k per.",
+            weight: WEIGHTS.FREE_NIGHT_CREDIT,
+            currency: schemas.CurrenciesEnum.enum.HYATT,
+          },
+        ],
         expiration: "2024-10-31",
       },
     ],

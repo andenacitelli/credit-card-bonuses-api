@@ -92,7 +92,7 @@
       credits:
         - value: 150
           description: Dining Credit
-          weight: 0.75
+          weight: 0.8
       url: https://resy.com/amex-offers?date=2022-10-01&seats=2
   historicalOffers:
     - amount:
@@ -242,16 +242,16 @@
       weight: 0.5
     - value: 200
       description: Airline fee credit
-      weight: 0.7
+      weight: 0.25
     - value: 189
       description: CLEAR credit
       weight: 0.4
     - value: 650
       description: Lounge access
-      weight: 0.3
+      weight: 0.25
     - value: 200
       description: Hilton credit ($50/qtr)
-      weight: 0.5
+      weight: 0.75
   offers:
     - amount:
         - amount: 250000
@@ -456,7 +456,7 @@
   credits:
     - value: 240
       description: Resy Credit
-      weight: 0.6
+      weight: 0.8
   offers:
     - amount:
         - amount: 70000
@@ -543,7 +543,7 @@
       weight: 0.4
     - description: Semi-annual $50 Resy credit
       value: 100
-      weight: 0.75
+      weight: 0.8
   offers:
     - amount:
         - amount: 75000
@@ -587,7 +587,7 @@
       weight: 0.4
     - value: 100
       description: Lounge Access Credit
-      weight: 0.3
+      weight: 0.25
   offers:
     - amount:
         - amount: 40000
@@ -716,7 +716,7 @@
   credits:
     - value: 300
       description: $25/mo Dining Credit
-      weight: 0.75
+      weight: 0.8
   offers:
     - amount:
         - amount: 95000
@@ -746,21 +746,22 @@
         - amount: 0
       credits:
         - currency: MARRIOTT
-          description: 3x Free Night Credit, up to 50k per
+          description: 3x FNC, up to 50k per
           value: 150000
           weight: 0.7
       spend: 8000
       days: 90
-      details: 3x FNC up to 50k per
+      details: 3x FNC, <= 50k per
   historicalOffers:
     - amount:
         - amount: 0
       spend: 3000
       days: 90
       credits:
-        - description: 3x FNC up to 50k per
-          weight: 0.75
+        - description: 3x FNC, <= 50k per
+          weight: 0.7
           value: 150000
+          currency: MARRIOTT
     - amount:
         - amount: 125000
       credits: []
@@ -784,25 +785,25 @@
   credits:
     - value: 200
       description: Hotel Credit
-      weight: 0.7
+      weight: 0.9
     - value: 100
       description: Bi-yearly $50 Saks Credit
       weight: 0.6
     - value: 200
       description: $20/mo Digital Entertainment Credit
-      weight: 0.6
+      weight: 0.25
     - value: 200
       description: $15/mo Uber Cash
       weight: 0.7
     - value: 200
       description: Airline Fee Credit
-      weight: 0.4
+      weight: 0.25
     - value: 155
       description: Walmart+ Credit
       weight: 0.2
     - value: 189
       description: CLEAR Credit
-      weight: 0.2
+      weight: 0.4
   offers:
     - amount:
         - amount: 80000
@@ -840,22 +841,22 @@
   credits:
     - value: 200
       description: Hotel Credit
-      weight: 0.8
+      weight: 0.9
     - value: 200
       description: $20/mo Digital Entertainment Credit
-      weight: 0.6
+      weight: 0.25
     - value: 200
       description: $15/mo Uber Cash
       weight: 0.7
     - value: 200
       description: Airline Fee Credit
-      weight: 0.4
+      weight: 0.25
     - value: 155
       description: Walmart+ Credit
       weight: 0.2
     - value: 189
       description: CLEAR Credit
-      weight: 0.2
+      weight: 0.4
   offers:
     - amount:
         - amount: 80000
@@ -882,22 +883,22 @@
   credits:
     - value: 200
       description: Hotel Credit
-      weight: 0.8
+      weight: 0.9
     - value: 200
       description: $20/mo Digital Entertainment Credit
-      weight: 0.6
+      weight: 0.25
     - value: 200
       description: $15/mo Uber Cash
       weight: 0.7
     - value: 200
       description: Airline Fee Credit
-      weight: 0.4
+      weight: 0.25
     - value: 155
       description: Walmart+ Credit
       weight: 0.2
     - value: 189
       description: CLEAR Credit
-      weight: 0.2
+      weight: 0.4
   offers:
     - amount:
         - amount: 80000
@@ -1355,13 +1356,6 @@
   credits: []
   offers:
     - amount:
-        - amount: 70000
-      spend: 99.01
-      days: 90
-      credits: []
-      details: ANY purchase + AF.
-      url: https://cards.barclaycardus.com/banking/credit-card/american-airlines/mastercard-mastercard-world-elite/out-of-home/d35e9a0c-7c9b-4509-a56a-f6801a1eff9e/
-    - amount:
         - amount: 60000
       spend: 99.01
       days: 90
@@ -1641,6 +1635,39 @@
       days: 90
       credits: []
       expiration: 2022-12-01
+- name: JetBlue Premier
+  issuer: BARCLAYS
+  network: MASTERCARD
+  currency: JETBLUE
+  isBusiness: false
+  annualFee: 499
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://cards.barclaycardus.com/banking/cards/jetblue-premier-card/
+  imageUrl: /images/barclays/jetblue-premier.png
+  credits:
+    - value: 120
+      description: $120 credit for Global Entry or TSA PreCheck
+      weight: 0.4
+    - value: 300
+      description: $300 credit for Paisly, JetBlue's portal.
+      weight: 0.7
+    - value: 5000
+      currency: JETBLUE
+      description: 5k yearly anniversary credit
+      weight: 1
+  offers:
+    - amount:
+        - amount: 70000
+      spend: 5000
+      days: 90
+      credits: []
+  historicalOffers:
+    - amount:
+        - amount: 70000
+      spend: 5000
+      days: 90
+      credits: []
 - name: Lufthansa Miles & More
   issuer: BARCLAYS
   network: MASTERCARD
@@ -2161,9 +2188,9 @@
       days: 90
       credits:
         - value: 200000
-          weight: 0.8
+          weight: 0.7
           currency: IHG
-          description: 5x FNC up to 40k each
+          description: 5x FNC, <= 40k per
       url: https://creditcards.chase.com/a1/ihg/PremierOnPropertyAEP?SPID=HK9M&CELL=622J
     - amount:
         - amount: 170000
@@ -2177,8 +2204,9 @@
       days: 90
       credits:
         - value: 400
-          description: Free night credit worth up to 40k points.
-          weight: 0.8
+          description: FNC worth up to 40k points.
+          currency: IHG
+          weight: 0.7
       url: https://www.ihg.com/onerewards/content/us/en/creditcard
     - amount:
         - amount: 175000
@@ -2248,7 +2276,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2273,7 +2301,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2297,7 +2325,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2324,7 +2352,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
       details: "NOTE: Points are nontransferable. Only cashback redemption."
   historicalOffers:
     - amount:
@@ -2349,7 +2377,11 @@
         - amount: 60000
       spend: 1000
       days: 90
-      credits: []
+      credits:
+        - value: 50000
+          description: 1x FNC up to 50k
+          currency: MARRIOTT
+          weight: 0.7
       referralUrl: https://www.referyourchasecard.com/252n/YV4FE606LH
   historicalOffers:
     - amount:
@@ -2374,11 +2406,21 @@
       spend: 3000
       days: 90
       credits:
-        - description: $150 Statement Credit
+        - description: $150 Statement Credit on first purchase
           value: 150
           weight: 1
           currency: USD
       referralUrl: https://www.referyourchasecard.com/252n/YV4FE606LH
+    - amount:
+        - amount: 25000
+      spend: 2000
+      days: 90
+      credits:
+        - description: $400 gift card
+          value: 400
+          weight: 1
+          currency: USD
+      url: https://www.doctorofcredit.com/chase-marriott-boundless-25000-points-400-egiftcard/
   historicalOffers:
     - amount:
         - amount: 125000
@@ -2399,7 +2441,7 @@
   credits:
     - value: 50
       description: Hotel Credit
-      weight: 0.75
+      weight: 0.9
   offers:
     - amount:
         - amount: 60000
@@ -2609,10 +2651,11 @@
       weight: 0.8
   offers:
     - amount:
-        - amount: 75000
+        - amount: 100000
       spend: 5000
       days: 90
       credits: []
+      expiration: 2025-03-23
   historicalOffers:
     - amount:
         - amount: 100000
@@ -2638,7 +2681,7 @@
   credits:
     - value: 650
       description: United Lounges
-      weight: 0.3
+      weight: 0.25
     - value: 100
       description: Global Entry, TSA PreCheck, or NEXUS Credit
       weight: 0.4
@@ -2669,7 +2712,7 @@
   credits:
     - value: 650
       description: United Lounge Access
-      weight: 0.3
+      weight: 0.25
   offers:
     - amount:
         - amount: 50000
@@ -2784,8 +2827,9 @@
   imageUrl: /images/chase/world-of-hyatt.png
   credits:
     - value: 225
-      description: Free Night Credit @ Category 1-4 Property
-      weight: 0.8
+      description: FNC @ Category 1-4 Property
+      currency: HYATT
+      weight: 0.7
   offers:
     - amount:
         - amount: 35000
@@ -2798,9 +2842,12 @@
         - amount: 90000
           weight: 0.8
       spend: 3000
-      credits: []
       days: 90
-      details: 3x FNC, valued up to 30k per.
+      credits:
+        - value: 90000
+          description: 3x FNC, <= 30k per.
+          weight: 0.7
+          currency: HYATT
       expiration: 2024-10-31
 - name: World of Hyatt Business
   issuer: CHASE
@@ -3010,7 +3057,7 @@
   credits:
     - value: 100
       description: 2x Capital One Lounge Visits
-      weight: 0.075
+      weight: 0.25
     - value: 100
       description: Global Entry / TSA PreCheck Credit
       weight: 0.4
@@ -3045,7 +3092,7 @@
       weight: 0.4
     - value: 300
       description: Capital One Lounge Access
-      weight: 0.3
+      weight: 0.25
   offers:
     - amount:
         - amount: 75000
@@ -3088,7 +3135,7 @@
       weight: 0.4
     - value: 300
       description: Capital One Lounge Access
-      weight: 0.3
+      weight: 0.25
   offers: []
   historicalOffers:
     - amount:
@@ -3291,7 +3338,7 @@
   credits:
     - value: 100
       description: Hotel Credit ($500 min purchase)
-      weight: 0.75
+      weight: 0.9
   offers:
     - amount:
         - amount: 75000

@@ -1,6 +1,7 @@
 import type { z } from "zod";
 
 import { schemas } from "@/generated/api.client.js";
+import { WEIGHTS } from "../weights.js";
 
 export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
@@ -16,14 +17,6 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     imageUrl: "/images/barclays/aadvantage-aviator-red-world-elite.png",
     credits: [],
     offers: [
-      {
-        amount: [{ amount: 70_000 }],
-        spend: 99 + 0.01,
-        days: 90,
-        credits: [],
-        details: "ANY purchase + AF.",
-        url: "https://cards.barclaycardus.com/banking/credit-card/american-airlines/mastercard-mastercard-world-elite/out-of-home/d35e9a0c-7c9b-4509-a56a-f6801a1eff9e/",
-      },
       {
         amount: [{ amount: 60_000 }],
         spend: 99 + 0.01,
@@ -380,6 +373,52 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         expiration: "2022-12-01",
+      },
+    ],
+  },
+  {
+    name: "JetBlue Premier",
+    issuer: schemas.IssuersEnum.enum.BARCLAYS,
+    network: schemas.NetworksEnum.enum.MASTERCARD,
+    currency: schemas.CurrenciesEnum.enum.JETBLUE,
+    isBusiness: false,
+    annualFee: 499,
+    isAnnualFeeWaived: false,
+    universalCashbackPercent: 1,
+    url: "https://cards.barclaycardus.com/banking/cards/jetblue-premier-card/",
+    imageUrl: "/images/barclays/jetblue-premier.png",
+    credits: [
+      {
+        value: 120,
+        description: "$120 credit for Global Entry or TSA PreCheck",
+        weight: WEIGHTS.PRECHECK_OR_SIMILAR,
+      },
+      {
+        value: 300,
+        description: "$300 credit for Paisly, JetBlue's portal.",
+        weight: 0.7,
+      },
+      {
+        value: 5_000,
+        currency: schemas.CurrenciesEnum.enum.JETBLUE,
+        description: "5k yearly anniversary credit",
+        weight: 1.0,
+      },
+    ],
+    offers: [
+      {
+        amount: [{ amount: 70_000 }],
+        spend: 5000,
+        days: 90,
+        credits: [],
+      },
+    ],
+    historicalOffers: [
+      {
+        amount: [{ amount: 70_000 }],
+        spend: 5000,
+        days: 90,
+        credits: [],
       },
     ],
   },
