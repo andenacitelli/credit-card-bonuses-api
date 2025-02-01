@@ -74,6 +74,11 @@ components:
         - description
         - value
         - weight
+    Expiration:
+      type: string
+      format: date # YYYY-MM-DD
+      description: The last day that the offer is valid, in YYYY-MM-DD format.
+      example: 2024-06-01
     Offer:
       type: object
       properties:
@@ -92,10 +97,7 @@ components:
           minimum: 30
           example: 90
         expiration:
-          type: string
-          format: date # YYYY-MM-DD
-          description: The last day that the offer is valid, in YYYY-MM-DD format. The offer becomes invalid at 11:59pm this day.
-          example: 2021-12-31
+          $ref: "#/components/schemas/Expiration"
         isPublic:
           type: boolean
           description: Whether the offer is publicly available. A value of `true` indicates it's public. A value of `false` indicates it's a targeted offer.

@@ -338,11 +338,11 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 100_000 }],
+        amount: [{ amount: 70_000 }],
         spend: 2000,
         days: 90,
         credits: [],
-        expiration: "2021-04-01",
+        expiration: "2023-05-01",
       },
     ],
   },

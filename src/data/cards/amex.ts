@@ -45,13 +45,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 3000,
         days: 90,
         credits: [],
-        expiration: "2022-11-01",
-      },
-      {
-        amount: [{ amount: 250 }],
-        spend: 5000,
-        days: 90,
-        credits: [],
+        expiration: "2023-10-01",
       },
       {
         amount: [{ amount: 500 }],
@@ -122,24 +116,22 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
             weight: WEIGHTS.DINING_CREDIT,
           },
         ],
-        url: "https://resy.com/amex-offers?date=2022-10-01&seats=2",
+        url: "https://resy.com/amex-offers",
       },
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 350 }],
-        spend: 3000,
-        days: 180,
-        credits: [],
-        expiration: "2021-10-01",
-      },
-      {
-        amount: [{ amount: 250 }],
+        amount: [{ amount: 200 }],
         spend: 2000,
         days: 180,
-        credits: [],
-        url: "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/",
-        details: "Requires incognito or a VPN.",
+        credits: [
+          {
+            value: 150,
+            description: "Dining Credit",
+            weight: WEIGHTS.DINING_CREDIT,
+          },
+        ],
+        url: "https://resy.com/amex-offers",
       },
     ],
   },
@@ -172,11 +164,11 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 400 }],
+        amount: [{ amount: 300 }],
         spend: 3000,
         days: 180,
         credits: [],
-        expiration: "2022-06-01",
+        expiration: "2024-06-01",
       },
     ],
   },
@@ -231,26 +223,26 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 70_000 }],
-        spend: 10_000,
+        amount: [{ amount: 200_000 }],
+        spend: 15_000,
         days: 90,
         credits: [],
+        url: "https://www.uscreditcardguide.com/amex-business-gold-rewards-card/",
+        details: "Via referral; see link.",
       },
       {
         amount: [{ amount: 100_000 }],
         spend: 10_000,
         days: 90,
         credits: [],
-        details: "Inconsistent, YMMV.",
       },
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 130_000 }],
+        amount: [{ amount: 200_000 }],
         spend: 10_000,
         days: 90,
         credits: [],
-        expiration: "2022-09-01",
       },
     ],
   },
@@ -340,7 +332,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         url: "https://www.uscreditcardguide.com/amex-business-platinum-card/",
-        details: "Available only via referral, see link.",
+        details: "Via referral; see link.",
       },
       {
         amount: [{ amount: 150_000 }],
@@ -351,11 +343,11 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 260_000 }],
+        amount: [{ amount: 250_000 }],
         spend: 30_000,
         days: 90,
         credits: [],
-        expiration: "2022-10-01",
+        expiration: "2024-03-01",
       },
       {
         amount: [{ amount: 180_000 }],
@@ -615,7 +607,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 5000,
         days: 90,
         credits: [],
-        expiration: "2021-12-01",
+        expiration: "2023-05-01",
       },
     ],
   },
@@ -731,7 +723,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         spend: 6000,
         days: 180,
         credits: [],
-        details: "Inconsistent. Try incognito mode.",
+        details: "Inconsistent (try incognito).",
       },
       {
         amount: [{ amount: 60_000 }],
@@ -814,11 +806,11 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 150_000 }],
+        amount: [{ amount: 100_000 }],
         spend: 5000,
         days: 180,
         credits: [],
-        expiration: "2021-12-01",
+        expiration: "2025-01-01",
       },
     ],
   },
@@ -916,11 +908,11 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 200_000 }],
+        amount: [{ amount: 170_000 }],
         spend: 2000,
         days: 180,
         credits: [],
-        details: "2021-12-01",
+        details: "2024-02-01",
       },
     ],
   },
@@ -1066,13 +1058,6 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 80_000 }],
-        spend: 8000,
-        days: 180,
-        credits: [],
-        details: "Inconsistent, may require incognito.",
-      },
-      {
         amount: [{ amount: 100_000 }],
         spend: 8000,
         days: 180,
@@ -1080,7 +1065,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         url: "https://resy.com/amex-offers?date=2022-07-16&seats=2",
       },
       {
-        amount: [{ amount: 80_000 }],
+        amount: [{ amount: 50_000 }],
         spend: 8000,
         days: 180,
         credits: [],

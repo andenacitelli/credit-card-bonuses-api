@@ -33,12 +33,7 @@
       spend: 3000
       days: 90
       credits: []
-      expiration: 2022-11-01
-    - amount:
-        - amount: 250
-      spend: 5000
-      days: 90
-      credits: []
+      expiration: 2023-10-01
     - amount:
         - amount: 500
       spend: 15000
@@ -93,21 +88,17 @@
         - value: 150
           description: Dining Credit
           weight: 0.8
-      url: https://resy.com/amex-offers?date=2022-10-01&seats=2
+      url: https://resy.com/amex-offers
   historicalOffers:
     - amount:
-        - amount: 350
-      spend: 3000
-      days: 180
-      credits: []
-      expiration: 2021-10-01
-    - amount:
-        - amount: 250
+        - amount: 200
       spend: 2000
       days: 180
-      credits: []
-      url: https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/
-      details: Requires incognito or a VPN.
+      credits:
+        - value: 150
+          description: Dining Credit
+          weight: 0.8
+      url: https://resy.com/amex-offers
 - name: Blue Cash Preferred
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -131,11 +122,11 @@
       url: https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/
   historicalOffers:
     - amount:
-        - amount: 400
+        - amount: 300
       spend: 3000
       days: 180
       credits: []
-      expiration: 2022-06-01
+      expiration: 2024-06-01
 - name: Blue Cash Preferred (Morgan Stanley)
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -177,23 +168,23 @@
   credits: []
   offers:
     - amount:
-        - amount: 70000
-      spend: 10000
+        - amount: 200000
+      spend: 15000
       days: 90
       credits: []
+      url: https://www.uscreditcardguide.com/amex-business-gold-rewards-card/
+      details: Via referral; see link.
     - amount:
         - amount: 100000
       spend: 10000
       days: 90
       credits: []
-      details: Inconsistent, YMMV.
   historicalOffers:
     - amount:
-        - amount: 130000
+        - amount: 200000
       spend: 10000
       days: 90
       credits: []
-      expiration: 2022-09-01
 - name: Business Green
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -259,7 +250,7 @@
       days: 90
       credits: []
       url: https://www.uscreditcardguide.com/amex-business-platinum-card/
-      details: Available only via referral, see link.
+      details: Via referral; see link.
     - amount:
         - amount: 150000
       spend: 20000
@@ -267,11 +258,11 @@
       credits: []
   historicalOffers:
     - amount:
-        - amount: 260000
+        - amount: 250000
       spend: 30000
       days: 90
       credits: []
-      expiration: 2022-10-01
+      expiration: 2024-03-01
     - amount:
         - amount: 180000
       spend: 15000
@@ -469,7 +460,7 @@
       spend: 5000
       days: 90
       credits: []
-      expiration: 2021-12-01
+      expiration: 2023-05-01
 - name: Delta SkyMiles Reserve Business
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -558,7 +549,7 @@
       spend: 6000
       days: 180
       credits: []
-      details: Inconsistent. Try incognito mode.
+      details: Inconsistent (try incognito).
     - amount:
         - amount: 60000
       spend: 6000
@@ -620,11 +611,11 @@
       credits: []
   historicalOffers:
     - amount:
-        - amount: 150000
+        - amount: 100000
       spend: 5000
       days: 180
       credits: []
-      expiration: 2021-12-01
+      expiration: 2025-01-01
 - name: Hilton Honors Aspire
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -698,11 +689,11 @@
       credits: []
   historicalOffers:
     - amount:
-        - amount: 200000
+        - amount: 170000
       spend: 2000
       days: 180
       credits: []
-      details: 2021-12-01
+      details: 2024-02-01
 - name: Marriott Bonvoy Brilliant
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -806,19 +797,13 @@
       weight: 0.4
   offers:
     - amount:
-        - amount: 80000
-      spend: 8000
-      days: 180
-      credits: []
-      details: Inconsistent, may require incognito.
-    - amount:
         - amount: 100000
       spend: 8000
       days: 180
       credits: []
       url: https://resy.com/amex-offers?date=2022-07-16&seats=2
     - amount:
-        - amount: 80000
+        - amount: 50000
       spend: 8000
       days: 180
       credits: []
@@ -1606,11 +1591,11 @@
       credits: []
   historicalOffers:
     - amount:
-        - amount: 100000
+        - amount: 70000
       spend: 2000
       days: 90
       credits: []
-      expiration: 2021-04-01
+      expiration: 2023-05-01
 - name: JetBlue Plus
   issuer: BARCLAYS
   network: MASTERCARD
@@ -2111,11 +2096,10 @@
       url: https://www.referyourchasecard.com/18J/BDWS964YDG
   historicalOffers:
     - amount:
-        - amount: 25000
+        - amount: 20000
       credits: []
       spend: 500
       days: 90
-      expiration: 2022-02-01
 - name: Freedom Unlimited
   issuer: CHASE
   network: VISA
@@ -2276,7 +2260,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2301,7 +2285,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2325,7 +2309,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2352,7 +2336,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
       details: "NOTE: Points are nontransferable. Only cashback redemption."
   historicalOffers:
     - amount:
@@ -2451,19 +2435,11 @@
       referralUrl: https://www.referyourchasecard.com/19Q/QN3N8HQ4KX
   historicalOffers:
     - amount:
-        - amount: 70000
-        - amount: 300
-          currency: USD
+        - amount: 90000
       spend: 4000
       days: 90
       credits: []
-      expiration: 2024-11-16
-    - amount:
-        - amount: 100000
-      spend: 4000
-      days: 90
-      credits: []
-      expiration: 2022-02-01
+      expiration: 2023-06-01
 - name: Sapphire Reserve
   issuer: CHASE
   network: VISA
@@ -3458,12 +3434,6 @@
   imageUrl: /images/first/latam-airlines-world-elite.webp
   credits: []
   offers:
-    - amount:
-        - amount: 70000
-      spend: 2500
-      days: 90
-      credits: []
-      expiration: 2025-01-17
     - amount:
         - amount: 40000
       spend: 2500
