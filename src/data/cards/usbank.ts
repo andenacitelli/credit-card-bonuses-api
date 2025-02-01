@@ -353,7 +353,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 100,
         description: "TSA PreCheck or Global Entry fee credit",
-        weight: WEIGHTS.PRECHECK_OR_SIMILAR,
+        weight: WEIGHTS.TSA_PRECHECK_OR_SIMILAR,
       },
     ],
     offers: [
@@ -393,7 +393,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 100,
         description: "TSA PreCheck or Global Entry fee credit",
-        weight: WEIGHTS.PRECHECK_OR_SIMILAR,
+        weight: WEIGHTS.TSA_PRECHECK_OR_SIMILAR,
       },
     ],
     offers: [

@@ -391,7 +391,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 120,
         description: "$120 credit for Global Entry or TSA PreCheck",
-        weight: WEIGHTS.PRECHECK_OR_SIMILAR,
+        weight: WEIGHTS.TSA_PRECHECK_OR_SIMILAR,
       },
       {
         value: 300,

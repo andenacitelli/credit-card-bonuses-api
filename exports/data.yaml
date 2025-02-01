@@ -4295,3 +4295,57 @@
   credits: []
   offers: []
   historicalOffers: []
+- name: Expedia One Key
+  issuer: WELLS_FARGO
+  network: MASTERCARD
+  currency: EXPEDIA
+  isBusiness: false
+  annualFee: 0
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1.5
+  url: https://www.expedia.com/one-key-cards
+  imageUrl: /images/wellsfargo/one-key.png
+  credits: []
+  offers:
+    - amount:
+        - amount: 300
+          currency: EXPEDIA
+      spend: 1000
+      days: 90
+      credits: []
+  historicalOffers:
+    - amount:
+        - amount: 300
+      spend: 1000
+      days: 90
+      credits: []
+- name: Expedia One Key+
+  issuer: WELLS_FARGO
+  network: MASTERCARD
+  currency: EXPEDIA
+  isBusiness: false
+  annualFee: 99
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 2
+  url: https://www.expedia.com/one-key-cards
+  imageUrl: /images/wellsfargo/one-key.png
+  credits:
+    - value: 100
+      description: $100 anniversary bonus
+      weight: 0.9
+    - value: 120
+      description: $120 PreCheck / Global Entry Credit
+      weight: 0.4
+  offers:
+    - amount:
+        - amount: 400
+          currency: EXPEDIA
+      spend: 3000
+      days: 90
+      credits: []
+  historicalOffers:
+    - amount:
+        - amount: 300
+      spend: 1000
+      days: 90
+      credits: []

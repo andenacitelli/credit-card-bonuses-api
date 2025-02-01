@@ -320,7 +320,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 189,
         description: "CLEAR credit",
-        weight: WEIGHTS.PRECHECK_OR_SIMILAR,
+        weight: WEIGHTS.TSA_PRECHECK_OR_SIMILAR,
       },
       {
         value: 650,
@@ -553,7 +553,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 100,
         description: "$100 Global Entry / $85 TSA PreCheck Credit",
-        weight: WEIGHTS.PRECHECK_OR_SIMILAR,
+        weight: WEIGHTS.TSA_PRECHECK_OR_SIMILAR,
       },
       {
         value: 500,
@@ -766,7 +766,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 100,
         description: "CLEAR Credit",
-        weight: WEIGHTS.PRECHECK_OR_SIMILAR,
+        weight: WEIGHTS.TSA_PRECHECK_OR_SIMILAR,
       },
       {
         value: 100,
@@ -1061,7 +1061,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 189,
         description: "CLEAR Credit",
-        weight: WEIGHTS.PRECHECK_OR_SIMILAR,
+        weight: WEIGHTS.TSA_PRECHECK_OR_SIMILAR,
       },
     ],
     offers: [
@@ -1135,7 +1135,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 189,
         description: "CLEAR Credit",
-        weight: WEIGHTS.PRECHECK_OR_SIMILAR,
+        weight: WEIGHTS.TSA_PRECHECK_OR_SIMILAR,
       },
     ],
     offers: [
@@ -1196,7 +1196,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 189,
         description: "CLEAR Credit",
-        weight: WEIGHTS.PRECHECK_OR_SIMILAR,
+        weight: WEIGHTS.TSA_PRECHECK_OR_SIMILAR,
       },
     ],
     offers: [

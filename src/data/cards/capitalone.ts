@@ -196,7 +196,7 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 100,
         description: "Global Entry / TSA PreCheck Credit",
-        weight: WEIGHTS.PRECHECK_OR_SIMILAR,
+        weight: WEIGHTS.TSA_PRECHECK_OR_SIMILAR,
       },
     ],
     offers: [
@@ -236,7 +236,7 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 100,
         description: "Global Entry / TSA PreCheck Credit",
-        weight: WEIGHTS.PRECHECK_OR_SIMILAR,
+        weight: WEIGHTS.TSA_PRECHECK_OR_SIMILAR,
       },
       {
         value: 300,
@@ -294,7 +294,7 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 100,
         description: "Global Entry / TSA PreCheck Credit",
-        weight: WEIGHTS.PRECHECK_OR_SIMILAR,
+        weight: WEIGHTS.TSA_PRECHECK_OR_SIMILAR,
       },
       {
         value: 300,

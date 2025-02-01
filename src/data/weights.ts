@@ -25,7 +25,7 @@ export const WEIGHTS = {
   /**
    * Useful, but you aren't actually super likely to use this credit on every card you have the benefit for, and PreCheck doesn't usually cost the full amount of the credit (was $70 for me, but most cards offer $100 or $120)
    */
-  PRECHECK_OR_SIMILAR: 0.4,
+  TSA_PRECHECK_OR_SIMILAR: 0.4,
 
   /**
    * A dining credit, which is generally easy to get near-full value

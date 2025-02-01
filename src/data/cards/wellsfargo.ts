@@ -1,6 +1,7 @@
 import type { z } from "zod";
 
 import { schemas } from "@/generated/api.client.js";
+import { WEIGHTS } from "../weights.js";
 
 export const WELLS_FARGO_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
@@ -201,5 +202,78 @@ export const WELLS_FARGO_CARDS: z.input<typeof schemas.CreditCard>[] = [
       // No current offer, but need to leave so it doesn't users that previously entered it
     ],
     historicalOffers: [],
+  },
+  {
+    name: "Expedia One Key",
+    issuer: schemas.IssuersEnum.enum.WELLS_FARGO,
+    network: schemas.NetworksEnum.enum.MASTERCARD,
+    currency: schemas.CurrenciesEnum.enum.EXPEDIA,
+    isBusiness: false,
+    annualFee: 0,
+    isAnnualFeeWaived: false,
+    universalCashbackPercent: 1.5,
+    url: "https://www.expedia.com/one-key-cards",
+    imageUrl: "/images/wellsfargo/one-key.png",
+    credits: [],
+    offers: [
+      {
+        amount: [
+          { amount: 300, currency: schemas.CurrenciesEnum.enum.EXPEDIA },
+        ],
+        spend: 1000,
+        days: 90,
+        credits: [],
+      },
+    ],
+    historicalOffers: [
+      {
+        amount: [{ amount: 300 }],
+        spend: 1000,
+        days: 90,
+        credits: [],
+      },
+    ],
+  },
+  {
+    name: "Expedia One Key+",
+    issuer: schemas.IssuersEnum.enum.WELLS_FARGO,
+    network: schemas.NetworksEnum.enum.MASTERCARD,
+    currency: schemas.CurrenciesEnum.enum.EXPEDIA,
+    isBusiness: false,
+    annualFee: 99,
+    isAnnualFeeWaived: false,
+    universalCashbackPercent: 2,
+    url: "https://www.expedia.com/one-key-cards",
+    imageUrl: "/images/wellsfargo/one-key.png",
+    credits: [
+      {
+        value: 100,
+        description: "$100 anniversary bonus",
+        weight: WEIGHTS.TRAVEL_CREDIT_FUNGIBLE,
+      },
+      {
+        value: 120,
+        description: "$120 PreCheck / Global Entry Credit",
+        weight: WEIGHTS.TSA_PRECHECK_OR_SIMILAR,
+      },
+    ],
+    offers: [
+      {
+        amount: [
+          { amount: 400, currency: schemas.CurrenciesEnum.enum.EXPEDIA },
+        ],
+        spend: 3000,
+        days: 90,
+        credits: [],
+      },
+    ],
+    historicalOffers: [
+      {
+        amount: [{ amount: 300 }],
+        spend: 1000,
+        days: 90,
+        credits: [],
+      },
+    ],
   },
 ];

@@ -753,7 +753,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         description: "Global Entry / TSA PreCheck / NEXUS Credit",
         value: 100,
-        weight: WEIGHTS.PRECHECK_OR_SIMILAR,
+        weight: WEIGHTS.TSA_PRECHECK_OR_SIMILAR,
       },
     ],
     offers: [
@@ -972,7 +972,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 100,
         description: "Global Entry, TSA PreCheck, or NEXUS Credit",
-        weight: WEIGHTS.PRECHECK_OR_SIMILAR,
+        weight: WEIGHTS.TSA_PRECHECK_OR_SIMILAR,
       },
     ],
     offers: [
@@ -1056,7 +1056,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
       {
         value: 100,
         description: "Global Entry, TSA PreCheck, NEXUS Credit",
-        weight: WEIGHTS.PRECHECK_OR_SIMILAR,
+        weight: WEIGHTS.TSA_PRECHECK_OR_SIMILAR,
       },
     ],
     offers: [

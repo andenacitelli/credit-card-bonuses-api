@@ -246,6 +246,7 @@ components:
         - CARNIVAL
         - AMTRAK
         - PENFED
+        - EXPEDIA
         - USD
     IssuersEnum:
       type: string
