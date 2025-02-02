@@ -1064,12 +1064,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         credits: [],
         url: "https://resy.com/amex-offers?date=2022-07-16&seats=2",
       },
-      {
-        amount: [{ amount: 50_000 }],
-        spend: 8000,
-        days: 180,
-        credits: [],
-      },
+      // resy is reliable, no need to include a fallback
     ],
     historicalOffers: [
       {
