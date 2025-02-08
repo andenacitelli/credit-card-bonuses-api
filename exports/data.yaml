@@ -337,15 +337,15 @@
       weight: 0.5
   offers:
     - amount:
-        - amount: 50000
-      spend: 2000
+        - amount: 80000
+      spend: 3000
       days: 180
       credits: []
   historicalOffers:
     - amount:
-        - amount: 70000
-      spend: 2000
-      days: 90
+        - amount: 80000
+      spend: 3000
+      days: 180
       credits: []
 - name: Delta SkyMiles Gold Business
   issuer: AMERICAN_EXPRESS
@@ -360,20 +360,15 @@
   credits: []
   offers:
     - amount:
-        - amount: 60000
-      spend: 4000
+        - amount: 90000
+      spend: 6000
       days: 180
       credits: []
   historicalOffers:
     - amount:
-        - amount: 50000
-      spend: 2000
-      days: 90
-      credits: []
-    - amount:
-        - amount: 75000
-      spend: 3000
-      days: 90
+        - amount: 90000
+      spend: 6000
+      days: 180
       credits: []
 - name: Delta SkyMiles Platinum
   issuer: AMERICAN_EXPRESS
@@ -391,17 +386,16 @@
       weight: 0.7
   offers:
     - amount:
-        - amount: 60000
-      spend: 3000
+        - amount: 90000
+      spend: 4000
       days: 180
       credits: []
   historicalOffers:
     - amount:
         - amount: 90000
-      credits: []
       spend: 4000
-      days: 90
-      expiration: 2024-03-01
+      days: 180
+      credits: []
 - name: Delta SkyMiles Platinum Business
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -424,15 +418,15 @@
       weight: 0.5
   offers:
     - amount:
-        - amount: 70000
-      spend: 6000
+        - amount: 100000
+      spend: 8000
       days: 180
       credits: []
   historicalOffers:
     - amount:
         - amount: 100000
-      spend: 6000
-      days: 90
+      spend: 8000
+      days: 180
       credits: []
 - name: Delta SkyMiles Reserve
   issuer: AMERICAN_EXPRESS
@@ -450,8 +444,8 @@
       weight: 0.8
   offers:
     - amount:
-        - amount: 70000
-      spend: 5000
+        - amount: 100000
+      spend: 8000
       days: 180
       credits: []
   historicalOffers:
@@ -474,17 +468,16 @@
   credits: []
   offers:
     - amount:
-        - amount: 80000
-      spend: 10000
+        - amount: 110000
+      spend: 12000
       days: 180
       credits: []
   historicalOffers:
     - amount:
         - amount: 110000
-      spend: 10000
+      spend: 12000
       days: 180
       credits: []
-      expiration: 2024-07-17
 - name: Everyday
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
