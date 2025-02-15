@@ -16,6 +16,7 @@ import { SYNCHRONY_CARDS } from "@/data/cards/synchrony.js";
 import { US_BANK_CARDS } from "@/data/cards/usbank.js";
 import { WELLS_FARGO_CARDS } from "@/data/cards/wellsfargo.js";
 import { DISCOVER_CARDS } from "./cards/discover.js";
+import { WEB_BANK_CARDS } from "./cards/web-bank.js";
 
 export const CREDIT_CARDS: z.input<typeof schemas.CreditCard>[] = [
   ...AMERICAN_EXPRESS_CARDS,
@@ -33,4 +34,5 @@ export const CREDIT_CARDS: z.input<typeof schemas.CreditCard>[] = [
   ...SYNCHRONY_CARDS,
   ...US_BANK_CARDS,
   ...WELLS_FARGO_CARDS,
+  ...WEB_BANK_CARDS,
 ];

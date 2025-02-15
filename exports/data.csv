@@ -167,3 +167,4 @@ Choice Privileges,WELLS_FARGO,VISA,CHOICE,false,0,false,1,,https://www.choicehot
 Choice Privileges Select,WELLS_FARGO,VISA,CHOICE,false,95,false,1,,https://www.choicehotels.com/choice-privileges/earn-points/mastercard-credit-card,https://offeroptimist.com/images/wellsfargo/choice-privileges-select.png,,,60000,3000,,90,true
 Expedia One Key,WELLS_FARGO,MASTERCARD,EXPEDIA,false,0,false,1.5,,https://www.expedia.com/one-key-cards,https://offeroptimist.com/images/wellsfargo/one-key.png,,,300,1000,,90,true
 Expedia One Key+,WELLS_FARGO,MASTERCARD,EXPEDIA,false,99,false,2,100 $100 anniversary bonus; 120 $120 PreCheck / Global Entry Credit,https://www.expedia.com/one-key-cards,https://offeroptimist.com/images/wellsfargo/one-key.png,,,400,3000,,90,true
+Gemini,WEB_BANK,MASTERCARD,USD,false,0,false,1,,https://www.gemini.com/credit-card,https://offeroptimist.com/images/web-bank/gemini.webp,,,200,3000,,90,true

@@ -267,6 +267,7 @@ components:
         - PNC
         - SYNCHRONY
         - US_BANK
+        - WEB_BANK
         - WELLS_FARGO
     NetworksEnum:
       type: string
