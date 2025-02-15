@@ -2248,7 +2248,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2273,7 +2273,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2297,7 +2297,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2324,7 +2324,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
       details: "NOTE: Points are nontransferable. Only cashback redemption."
   historicalOffers:
     - amount:
@@ -3191,19 +3191,19 @@
   credits: []
   offers:
     - amount:
-        - amount: 50000
-      spend: 5000
+        - amount: 75000
+      spend: 3500
       days: 120
       credits: []
   historicalOffers:
     - amount:
         - amount: 75000
-      spend: 5000
+      spend: 3500
       days: 120
       credits: []
     - amount:
         - amount: 125000
-      spend: 3500
+      spend: 5000
       days: 90
       credits: []
       expiration: 2024-03-01
@@ -3223,15 +3223,15 @@
       weight: 0.5
   offers:
     - amount:
-        - amount: 75000
-      spend: 5000
-      days: 150
+        - amount: 65000
+      spend: 4000
+      days: 120
       credits: []
   historicalOffers:
     - amount:
-        - amount: 75000
-      spend: 5000
-      days: 150
+        - amount: 65000
+      spend: 4000
+      days: 120
       credits: []
 - name: Double Cash
   issuer: CITI

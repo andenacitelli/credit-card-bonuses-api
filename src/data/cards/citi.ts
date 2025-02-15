@@ -77,8 +77,8 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
-        spend: 5000,
+        amount: [{ amount: 75_000 }],
+        spend: 3500,
         days: 120,
         credits: [],
       },
@@ -86,13 +86,13 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     historicalOffers: [
       {
         amount: [{ amount: 75_000 }],
-        spend: 5000,
+        spend: 3500,
         days: 120,
         credits: [],
       },
       {
         amount: [{ amount: 125_000 }],
-        spend: 3500,
+        spend: 5000,
         days: 90,
         credits: [],
         expiration: "2024-03-01",
@@ -119,17 +119,17 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 75_000 }],
-        spend: 5000,
-        days: 150,
+        amount: [{ amount: 65_000 }],
+        spend: 4000,
+        days: 120,
         credits: [],
       },
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 75_000 }],
-        spend: 5000,
-        days: 150,
+        amount: [{ amount: 65_000 }],
+        spend: 4000,
+        days: 120,
         credits: [],
       },
     ],
