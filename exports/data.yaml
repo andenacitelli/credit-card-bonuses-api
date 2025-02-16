@@ -341,6 +341,7 @@
       spend: 3000
       days: 180
       credits: []
+      expiration: 2025-04-02
   historicalOffers:
     - amount:
         - amount: 80000
@@ -364,6 +365,7 @@
       spend: 6000
       days: 180
       credits: []
+      expiration: 2025-04-02
   historicalOffers:
     - amount:
         - amount: 90000
@@ -390,6 +392,7 @@
       spend: 4000
       days: 180
       credits: []
+      expiration: 2025-04-02
   historicalOffers:
     - amount:
         - amount: 90000
@@ -422,6 +425,7 @@
       spend: 8000
       days: 180
       credits: []
+      expiration: 2025-04-02
   historicalOffers:
     - amount:
         - amount: 100000
@@ -448,6 +452,7 @@
       spend: 8000
       days: 180
       credits: []
+      expiration: 2025-04-02
   historicalOffers:
     - amount:
         - amount: 125000
@@ -472,6 +477,7 @@
       spend: 12000
       days: 180
       credits: []
+      expiration: 2025-04-02
   historicalOffers:
     - amount:
         - amount: 110000
@@ -2248,7 +2254,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2273,7 +2279,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2297,7 +2303,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2324,7 +2330,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
       details: "NOTE: Points are nontransferable. Only cashback redemption."
   historicalOffers:
     - amount:
