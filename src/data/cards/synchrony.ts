@@ -27,4 +27,35 @@ export const SYNCHRONY_CARDS: z.input<typeof schemas.CreditCard>[] = [
       },
     ],
   },
+  {
+    name: "Virgin Red Rewards",
+    issuer: schemas.IssuersEnum.enum.SYNCHRONY,
+    network: schemas.NetworksEnum.enum.MASTERCARD,
+    currency: schemas.CurrenciesEnum.enum.VIRGIN,
+    isBusiness: false,
+    annualFee: 99,
+    isAnnualFeeWaived: false,
+    universalCashbackPercent: 1,
+    url: "https://www.virgin.com/en-us/virgin-red/rewards-credit-card",
+    imageUrl: "/images/synchrony/virgin-red-rewards.webp",
+    credits: [],
+    offers: [
+      {
+        amount: [{ amount: 60_000 }],
+        spend: 3000,
+        days: 90,
+        credits: [],
+        expiration: "2025-03-31",
+      },
+    ],
+    historicalOffers: [
+      {
+        amount: [{ amount: 60_000 }],
+        spend: 3000,
+        days: 90,
+        credits: [],
+        expiration: "2025-03-31",
+      },
+    ],
+  },
 ];

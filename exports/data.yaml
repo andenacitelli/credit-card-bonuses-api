@@ -2254,7 +2254,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2279,7 +2279,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2303,7 +2303,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2330,7 +2330,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
       details: "NOTE: Points are nontransferable. Only cashback redemption."
   historicalOffers:
     - amount:
@@ -3036,12 +3036,20 @@
         - amount: 75000
       spend: 4000
       days: 90
-      credits: []
+      credits:
+        - value: 250
+          description: Travel Portal Credit
+          currency: USD
+          weight: 0.9
   historicalOffers:
     - amount:
         - amount: 75000
       spend: 4000
-      credits: []
+      credits:
+        - value: 250
+          description: Travel Portal Credit
+          currency: USD
+          weight: 0.9
       days: 90
 - name: Venture X
   issuer: CAPITAL_ONE
@@ -3756,6 +3764,31 @@
       spend: 3000
       days: 90
       credits: []
+- name: Virgin Red Rewards
+  issuer: SYNCHRONY
+  network: MASTERCARD
+  currency: VIRGIN
+  isBusiness: false
+  annualFee: 99
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://www.virgin.com/en-us/virgin-red/rewards-credit-card
+  imageUrl: /images/synchrony/virgin-red-rewards.webp
+  credits: []
+  offers:
+    - amount:
+        - amount: 60000
+      spend: 3000
+      days: 90
+      credits: []
+      expiration: 2025-03-31
+  historicalOffers:
+    - amount:
+        - amount: 60000
+      spend: 3000
+      days: 90
+      credits: []
+      expiration: 2025-03-31
 - name: Business Altitude Power
   issuer: US_BANK
   network: MASTERCARD
@@ -4103,6 +4136,19 @@
       spend: 2000
       days: 120
       credits: []
+- name: Smartly
+  issuer: US_BANK
+  network: VISA
+  currency: USD
+  isBusiness: false
+  annualFee: 0
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 2
+  url: https://www.usbank.com/credit-cards/bank-smartly-visa-signature-credit-card.html
+  imageUrl: /images/usbank/smartly.webp
+  credits: []
+  offers: []
+  historicalOffers: []
 - name: Signify Business Cash
   issuer: WELLS_FARGO
   network: MASTERCARD

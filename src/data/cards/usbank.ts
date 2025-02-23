@@ -449,4 +449,21 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
       },
     ],
   },
+  {
+    name: "Smartly",
+    issuer: schemas.IssuersEnum.enum.US_BANK,
+    network: schemas.NetworksEnum.enum.VISA,
+    currency: schemas.CurrenciesEnum.enum.USD,
+    isBusiness: false,
+    annualFee: 0,
+    isAnnualFeeWaived: false,
+    universalCashbackPercent: 2,
+    url: "https://www.usbank.com/credit-cards/bank-smartly-visa-signature-credit-card.html",
+    imageUrl: "/images/usbank/smartly.webp",
+    credits: [],
+    offers: [
+      // no current offers; it's an entry level card that likely won't have them anyway
+    ],
+    historicalOffers: [],
+  },
 ];
