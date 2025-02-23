@@ -2254,7 +2254,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2279,7 +2279,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2303,7 +2303,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2330,7 +2330,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
       details: "NOTE: Points are nontransferable. Only cashback redemption."
   historicalOffers:
     - amount:
@@ -2516,6 +2516,7 @@
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/226j/EK4J5RUTDJ
+      expiration: 2025-03-23
   historicalOffers:
     - amount:
         - amount: 100000
@@ -2541,6 +2542,7 @@
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/226j/EK4J5RUTDJ
+      expiration: 2025-03-23
   historicalOffers:
     - amount:
         - amount: 100000
@@ -2598,6 +2600,7 @@
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/226j/EK4J5RUTDJ
+      expiration: 2025-03-23
   historicalOffers:
     - amount:
         - amount: 100000
