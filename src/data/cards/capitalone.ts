@@ -201,6 +201,14 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
+        amount: [{ amount: 100_000 }],
+        spend: 4000,
+        days: 90,
+        credits: [],
+        url: "https://www.doctorofcredit.com/capital-one-venture-100000-points-referral-offer-share-your-referrals/",
+        details: "Referral-only, see link.",
+      },
+      {
         amount: [{ amount: 75_000 }],
         spend: 4000,
         days: 90,
@@ -215,6 +223,14 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
       },
     ],
     historicalOffers: [
+      {
+        amount: [{ amount: 100_000 }],
+        spend: 4000,
+        days: 90,
+        credits: [],
+        url: "https://www.doctorofcredit.com/capital-one-venture-100000-points-referral-offer-share-your-referrals/",
+        details: "Referral-only, see link.",
+      },
       {
         amount: [{ amount: 75_000 }],
         spend: 4000,

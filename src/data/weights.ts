@@ -48,3 +48,9 @@ export const WEIGHTS = {
    */
   LOUNGES: 0.25,
 };
+
+export const HILTON_FREE_NIGHT_CREDIT = {
+  description: "1x FNC",
+  value: 300, // can be used at any hotel, but I tend to value these conservatively b/c you don't usually stay only one night and would need to be on the hook for points for the rest
+  weight: WEIGHTS.FREE_NIGHT_CREDIT,
+};

@@ -604,10 +604,15 @@
   credits: []
   offers:
     - amount:
-        - amount: 80000
+        - amount: 70000
       spend: 2000
       days: 180
-      credits: []
+      credits:
+        - &a1
+          description: 1x FNC
+          value: 300
+          weight: 0.7
+      expiration: 2025-04-29
   historicalOffers:
     - amount:
         - amount: 100000
@@ -631,10 +636,11 @@
       weight: 0.8
   offers:
     - amount:
-        - amount: 150000
+        - amount: 175000
       spend: 6000
       days: 180
       credits: []
+      expiration: 2025-04-29
   historicalOffers:
     - amount:
         - amount: 180000
@@ -663,6 +669,7 @@
       spend: 8000
       days: 180
       credits: []
+      expiration: 2025-04-29
   historicalOffers:
     - amount:
         - amount: 175000
@@ -685,7 +692,9 @@
         - amount: 130000
       spend: 3000
       days: 180
-      credits: []
+      credits:
+        - *a1
+      expiration: 2025-04-29
   historicalOffers:
     - amount:
         - amount: 170000
@@ -3036,6 +3045,13 @@
       weight: 0.4
   offers:
     - amount:
+        - amount: 100000
+      spend: 4000
+      days: 90
+      credits: []
+      url: https://www.doctorofcredit.com/capital-one-venture-100000-points-referral-offer-share-your-referrals/
+      details: Referral-only, see link.
+    - amount:
         - amount: 75000
       spend: 4000
       days: 90
@@ -3045,6 +3061,13 @@
           currency: USD
           weight: 0.9
   historicalOffers:
+    - amount:
+        - amount: 100000
+      spend: 4000
+      days: 90
+      credits: []
+      url: https://www.doctorofcredit.com/capital-one-venture-100000-points-referral-offer-share-your-referrals/
+      details: Referral-only, see link.
     - amount:
         - amount: 75000
       spend: 4000
@@ -3561,6 +3584,29 @@
       days: 90
       credits: []
       details: Extra 40k on 25k spend in 1yr.
+- name: ANA Card USA Plus
+  issuer: FIRST
+  network: VISA
+  currency: ANA
+  isBusiness: true
+  annualFee: 85
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://www.anacardusa.com/en/
+  imageUrl: /images/first/ana-card-usa.png
+  credits: []
+  offers:
+    - amount:
+        - amount: 10000
+      spend: 3000
+      days: 90
+      credits: []
+  historicalOffers:
+    - amount:
+        - amount: 10000
+      spend: 3000
+      days: 90
+      credits: []
 - name: Amtrak Guest Rewards
   issuer: FNBO
   network: MASTERCARD

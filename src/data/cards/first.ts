@@ -198,4 +198,33 @@ export const FIRST_CARDS: z.input<typeof schemas.CreditCard>[] = [
       },
     ],
   },
+  {
+    name: "ANA Card USA Plus",
+    issuer: schemas.IssuersEnum.enum.FIRST,
+    network: schemas.NetworksEnum.enum.VISA,
+    currency: schemas.CurrenciesEnum.enum.ANA,
+    isBusiness: true,
+    annualFee: 85,
+    isAnnualFeeWaived: false,
+    universalCashbackPercent: 1,
+    url: "https://www.anacardusa.com/en/",
+    imageUrl: "/images/first/ana-card-usa.png",
+    credits: [],
+    offers: [
+      {
+        amount: [{ amount: 10_000 }],
+        spend: 3000,
+        days: 90,
+        credits: [],
+      },
+    ],
+    historicalOffers: [
+      {
+        amount: [{ amount: 10_000 }],
+        spend: 3000,
+        days: 90,
+        credits: [],
+      },
+    ],
+  },
 ];
