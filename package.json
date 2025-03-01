@@ -20,28 +20,28 @@
   },
   "dependencies": {
     "@zodios/core": "^10.9.6",
-    "papaparse": "^5.5.1",
+    "papaparse": "^5.5.2",
     "yaml": "^2.7.0",
-    "zod": "^3.24.1"
+    "zod": "^3.24.2"
   },
   "devDependencies": {
-    "@eslint/js": "^9.18.0",
-    "@redocly/cli": "^1.27.1",
+    "@eslint/js": "^9.21.0",
+    "@redocly/cli": "^1.31.3",
     "@tsconfig/recommended": "^1.0.8",
-    "@types/node": "~20.17.12",
+    "@types/node": "~20.17.22",
     "@types/papaparse": "^5.3.15",
     "date-fns": "^4.1.0",
-    "eslint": "^9.18.0",
+    "eslint": "^9.21.0",
     "husky": "^9.1.7",
     "lint-staged": "~15.3.0",
-    "npm-check-updates": "^17.1.13",
-    "openapi-zod-client": "^1.18.2",
-    "renovate": "~39.106.0",
-    "tsx": "^4.19.2",
-    "typescript": "^5.7.3",
-    "typescript-eslint": "^8.19.1",
+    "npm-check-updates": "^17.1.15",
+    "openapi-zod-client": "^1.18.3",
+    "renovate": "~39.106.1",
+    "tsx": "^4.19.3",
+    "typescript": "~5.7.0",
+    "typescript-eslint": "^8.25.0",
     "vite-tsconfig-paths": "^5.1.4",
-    "vitest": "^2.1.8"
+    "vitest": "^2.1.9"
   },
   "lint-staged": {
     "*.{ts,json,yml,yaml}": [
