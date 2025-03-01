@@ -2300,7 +2300,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2325,7 +2325,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2349,7 +2349,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2376,7 +2376,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
       details: "NOTE: Points are nontransferable. Only cashback redemption."
   historicalOffers:
     - amount:
@@ -3146,17 +3146,12 @@
       spend: 4000
       days: 90
       credits: []
+      expiration: 2023-12-01
     - amount:
         - amount: 75000
       credits: []
       spend: 4000
       days: 90
-    - amount:
-        - amount: 100000
-      credits: []
-      spend: 10000
-      days: 90
-      expiration: 2022-03-01
 - name: Venture X Business
   issuer: CAPITAL_ONE
   network: VISA
