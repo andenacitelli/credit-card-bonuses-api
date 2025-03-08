@@ -20,7 +20,7 @@ export const REFERRALS = {
   },
   AMERICAN_EXPRESS: {
     BLUE_BUSINESS_PLUS: getRandom([
-      "https://americanexpress.com/en-us/referral/bluebusinessplus-credit-card?ref=ANDENaENLT&XLINK=MYCP",
+      "https://americanexpress.com/en-us/referral/bluebusinessplus-credit-card?ref=ANDENaZ8L5&xl=cp10lg",
     ]),
     // I don't seem to be able to refer people to my Gold for some reason
   },

@@ -56,7 +56,7 @@
       spend: 3000
       days: 90
       credits: []
-      referralUrl: https://americanexpress.com/en-us/referral/bluebusinessplus-credit-card?ref=ANDENaENLT&XLINK=MYCP
+      referralUrl: https://americanexpress.com/en-us/referral/bluebusinessplus-credit-card?ref=ANDENaZ8L5&xl=cp10lg
   historicalOffers:
     - amount:
         - amount: 15000
@@ -1021,7 +1021,15 @@
     - amount:
         - amount: 70000
           currency: FLYING_BLUE
-      spend: 3000
+      spend: 2000
+      days: 90
+      credits: []
+    - amount:
+        - amount: 60000
+          currency: FLYING_BLUE
+        - amount: 100
+          currency: USD
+      spend: 2000
       days: 90
       credits: []
   historicalOffers:
@@ -1753,9 +1761,9 @@
   credits: []
   offers:
     - amount:
-        - amount: 45000
+        - amount: 60000
       spend: 2000
-      days: 180
+      days: 90
       credits: []
   historicalOffers:
     - amount:
@@ -1773,19 +1781,17 @@
   universalCashbackPercent: 1
   url: https://www.wyndhamrewardscreditcard.com/#earnerbusiness
   imageUrl: /images/barclays/wyndham-rewards-earner-business.png
-  credits: []
+  credits:
+    - value: 15000
+      description: Anniversary bonus points
+      currency: WYNDHAM
+      weight: 1
   offers:
     - amount:
-        - amount: 40000
+        - amount: 75000
       spend: 4000
       days: 90
       credits: []
-    - amount:
-        - amount: 80000
-      spend: 15000
-      days: 365
-      credits: []
-      details: High spend requirement, but long duration.
   historicalOffers:
     - amount:
         - amount: 90000
@@ -1802,12 +1808,16 @@
   universalCashbackPercent: 1
   url: https://www.wyndhamrewardscreditcard.com/#earnerplus
   imageUrl: /images/barclays/wyndham-rewards-earner-plus.png
-  credits: []
+  credits:
+    - value: 7500
+      description: Anniversary bonus points
+      currency: WYNDHAM
+      weight: 1
   offers:
     - amount:
-        - amount: 75000
+        - amount: 90000
       spend: 2000
-      days: 180
+      days: 90
       credits: []
   historicalOffers:
     - amount:

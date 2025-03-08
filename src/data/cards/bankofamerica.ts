@@ -19,7 +19,16 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 70_000, currency: "FLYING_BLUE" }],
-        spend: 3000,
+        spend: 2000,
+        days: 90,
+        credits: [],
+      },
+      {
+        amount: [
+          { amount: 60_000, currency: "FLYING_BLUE" },
+          { amount: 100, currency: "USD" },
+        ],
+        spend: 2000,
         days: 90,
         credits: [],
       },

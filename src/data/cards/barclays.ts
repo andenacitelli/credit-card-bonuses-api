@@ -495,9 +495,9 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 45_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 2000,
-        days: 180,
+        days: 90,
         credits: [],
       },
     ],
@@ -521,20 +521,20 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     universalCashbackPercent: 1,
     url: "https://www.wyndhamrewardscreditcard.com/#earnerbusiness",
     imageUrl: "/images/barclays/wyndham-rewards-earner-business.png",
-    credits: [],
+    credits: [
+      {
+        value: 15_000,
+        description: "Anniversary bonus points",
+        currency: "WYNDHAM",
+        weight: 1,
+      },
+    ],
     offers: [
       {
-        amount: [{ amount: 40_000 }],
+        amount: [{ amount: 75_000 }],
         spend: 4000,
         days: 90,
         credits: [],
-      },
-      {
-        amount: [{ amount: 80_000 }],
-        spend: 15_000,
-        days: 365,
-        credits: [],
-        details: "High spend requirement, but long duration.",
       },
     ],
     historicalOffers: [
@@ -557,12 +557,19 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     universalCashbackPercent: 1,
     url: "https://www.wyndhamrewardscreditcard.com/#earnerplus",
     imageUrl: "/images/barclays/wyndham-rewards-earner-plus.png",
-    credits: [],
+    credits: [
+      {
+        value: 7_500,
+        description: "Anniversary bonus points",
+        currency: "WYNDHAM",
+        weight: 1,
+      },
+    ],
     offers: [
       {
-        amount: [{ amount: 75_000 }],
+        amount: [{ amount: 90_000 }],
         spend: 2000,
-        days: 180,
+        days: 90,
         credits: [],
       },
     ],
