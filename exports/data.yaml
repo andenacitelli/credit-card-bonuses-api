@@ -718,10 +718,11 @@
       weight: 0.8
   offers:
     - amount:
-        - amount: 95000
+        - amount: 185000
       spend: 6000
       days: 180
       credits: []
+      expiration: 2025-05-14
   historicalOffers:
     - amount:
         - amount: 200000
@@ -748,8 +749,8 @@
           description: 3x FNC, up to 50k per
           value: 150000
           weight: 0.7
-      spend: 8000
-      days: 90
+      spend: 6000
+      days: 180
       details: 3x FNC, <= 50k per
   historicalOffers:
     - amount:
@@ -914,10 +915,11 @@
   credits: []
   offers:
     - amount:
-        - amount: 85000
+        - amount: 155000
       spend: 5000
       days: 180
       credits: []
+      expiration: 2025-05-14
   historicalOffers:
     - amount:
         - amount: 175000
@@ -3529,17 +3531,19 @@
   offers:
     - amount:
         - amount: 60000
-      spend: 3000
+      spend: 3500
       days: 90
       credits: []
-      details: 30k after any purchase, 30k after spend requirement.
+      details: 20k after any purchase, 40k after spend requirement.
+      expiration: 2025-03-31
   historicalOffers:
     - amount:
         - amount: 60000
-      spend: 3000
+      spend: 3500
       days: 90
       credits: []
-      details: 30k after any purchase, 30k after spend requirement.
+      details: 20k after any purchase, 40k after spend requirement.
+      expiration: 2025-03-31
 - name: Cardless Qatar Infinite
   issuer: FIRST
   network: VISA
@@ -3553,18 +3557,20 @@
   credits: []
   offers:
     - amount:
-        - amount: 80000
-      spend: 5000
+        - amount: 85000
+      spend: 6000
       days: 90
       credits: []
-      details: 40k after any purchase, 40k after spend requirement.
+      details: 25k after any purchase, 60k after spend requirement.
+      expiration: 2025-03-31
   historicalOffers:
     - amount:
-        - amount: 80000
-      spend: 5000
+        - amount: 85000
+      spend: 6000
       days: 90
       credits: []
-      details: 40k after any purchase, 40k after spend requirement.
+      details: 25k after any purchase, 60k after spend requirement.
+      expiration: 2025-03-31
 - name: Avianca LifeMiles
   issuer: FIRST
   network: AMERICAN_EXPRESS
