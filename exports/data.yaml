@@ -1391,7 +1391,7 @@
   credits: []
   offers:
     - amount:
-        - amount: 60000
+        - amount: 70000
       spend: 99.01
       days: 90
       credits: []
@@ -2312,7 +2312,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2337,7 +2337,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2361,7 +2361,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2388,7 +2388,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
       details: "NOTE: Points are nontransferable. Only cashback redemption."
   historicalOffers:
     - amount:
@@ -2767,7 +2767,7 @@
   network: VISA
   currency: UNITED
   isBusiness: false
-  annualFee: 95
+  annualFee: 150
   isAnnualFeeWaived: true
   universalCashbackPercent: 1
   url: https://www.theexplorercard.com/rewards-cards
@@ -2781,15 +2781,14 @@
       weight: 0.4
   offers:
     - amount:
-        - amount: 60000
+        - amount: 80000
       spend: 3000
       days: 90
       credits: []
-      details: 70k available in-flight.
       referralUrl: https://www.referyourchasecard.com/215f/2YQ6628FQC
   historicalOffers:
     - amount:
-        - amount: 70000
+        - amount: 80000
       spend: 3000
       days: 90
       credits: []
@@ -3411,12 +3410,7 @@
   url: https://www.citi.com/credit-cards/citi-rewards-plus-credit-card
   imageUrl: /images/citi/rewards-plus.png
   credits: []
-  offers:
-    - amount:
-        - amount: 20000
-      spend: 1500
-      days: 90
-      credits: []
+  offers: []
   historicalOffers:
     - amount:
         - amount: 25000

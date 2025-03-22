@@ -18,7 +18,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 70_000 }],
         spend: 99 + 0.01,
         days: 90,
         credits: [],

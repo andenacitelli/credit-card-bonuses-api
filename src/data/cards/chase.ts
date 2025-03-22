@@ -1037,7 +1037,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     network: schemas.NetworksEnum.enum.VISA,
     currency: schemas.CurrenciesEnum.enum.UNITED,
     isBusiness: false,
-    annualFee: 95,
+    annualFee: 150,
     isAnnualFeeWaived: true,
     universalCashbackPercent: 1,
     url: "https://www.theexplorercard.com/rewards-cards",
@@ -1056,17 +1056,16 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 80_000 }],
         spend: 3000,
         days: 90,
         credits: [],
-        details: "70k available in-flight.",
         referralUrl: REFERRALS.CHASE.UNITED,
       },
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 70_000 }],
+        amount: [{ amount: 80_000 }],
         spend: 3000,
         days: 90,
         credits: [],

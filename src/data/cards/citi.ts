@@ -253,12 +253,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     imageUrl: "/images/citi/rewards-plus.png",
     credits: [],
     offers: [
-      {
-        amount: [{ amount: 20_000 }],
-        spend: 1500,
-        days: 90,
-        credits: [],
-      },
+      // no offer and probably being discontinued (ref: https://www.doctorofcredit.com/rumor-citi-rewards-card-to-be-discontinued/)
     ],
     historicalOffers: [
       {
