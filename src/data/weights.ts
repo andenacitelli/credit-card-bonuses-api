@@ -45,12 +45,20 @@ export const WEIGHTS = {
 
   /**
    * Represents the value of being able to go to a lounge an indefinite number of times.
+   * This is weighted pretty low because the "anchor" value they usually provide is quite high.
    */
   LOUNGES: 0.25,
-};
 
-export const HILTON_FREE_NIGHT_CREDIT = {
-  description: "1x FNC",
-  value: 300, // can be used at any hotel, but I tend to value these conservatively b/c you don't usually stay only one night and would need to be on the hook for points for the rest
-  weight: WEIGHTS.FREE_NIGHT_CREDIT,
+  /**
+   * Represents a limited number of Lounge Passes.
+   * Weight is a bit higher b/c the "anchor" value tends to be higher.
+   * Is generally still much less useful than the above.
+   */
+  LOUNGES_LIMITED_USE: 0.4,
+
+  /**
+   * Checked bags are generally pretty useful.
+   * Some cards permit 2x; we weight this lower, but not half as low, as it's still an upgrade.
+   */
+  CHECKED_BAG: 0.75,
 };

@@ -2312,7 +2312,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2337,7 +2337,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2361,7 +2361,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2388,7 +2388,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
       details: "NOTE: Points are nontransferable. Only cashback redemption."
   historicalOffers:
     - amount:
@@ -2481,14 +2481,15 @@
   offers:
     - amount:
         - amount: 60000
-      spend: 4000
+      spend: 5000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/19Q/QN3N8HQ4KX
+      details: 100k available in-branch and soon online.
   historicalOffers:
     - amount:
         - amount: 90000
-      spend: 4000
+      spend: 5000
       days: 90
       credits: []
       expiration: 2023-06-01
@@ -2671,58 +2672,87 @@
   network: VISA
   currency: UNITED
   isBusiness: true
-  annualFee: 99
-  isAnnualFeeWaived: true
+  annualFee: 150
+  isAnnualFeeWaived: false
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/business-credit-cards/united/united-business-card
   imageUrl: /images/chase/united-business.png
   credits:
     - value: 100
+      description: Free Checked Bag
+      weight: 0.8
+    - value: 100
+      description: 2x Lounge Pass
+      weight: 0.4
+    - value: 125
       description: United Credit
       weight: 0.8
+    - value: 100
+      description: United Hotels
+      weight: 0.8
+    - value: 100
+      description: Rideshare
+      weight: 0.5
+    - value: 120
+      description: Instacard
+      weight: 0.5
+    - value: 50
+      description: Avis/Budget
+      weight: 0.5
   offers:
     - amount:
-        - amount: 100000
+        - amount: 125000
       spend: 5000
       days: 90
       credits: []
-      expiration: 2025-03-23
+      expiration: 2025-05-07
   historicalOffers:
     - amount:
-        - amount: 100000
+        - amount: 125000
       spend: 5000
-      credits: []
       days: 90
-    - amount:
-        - amount: 150000
-      spend: 20000
       credits: []
-      days: 90
-      expiration: 2022-11-01
+      expiration: 2025-05-07
 - name: United Club Infinite
   issuer: CHASE
   network: VISA
   currency: UNITED
   isBusiness: false
-  annualFee: 525
+  annualFee: 695
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
   url: https://www.theexplorercard.com/rewards-cards
   imageUrl: /images/chase/united-club-infinite.png
   credits:
-    - value: 650
-      description: United Lounges
+    - value: 150
+      description: 2x Checked Bags
+      weight: 0.75
+    - value: 750
+      description: United Lounge
       weight: 0.25
+    - value: 200
+      description: United Hotels
+      weight: 0.75
+    - value: 150
+      description: Rideshare
+      weight: 0.5
+    - value: 240
+      description: Instacart
+      weight: 0.5
+    - value: 100
+      description: Avis/Budget
+      weight: 0.5
     - value: 100
       description: Global Entry, TSA PreCheck, or NEXUS Credit
       weight: 0.4
   offers:
     - amount:
-        - amount: 90000
+        - amount: 95000
       spend: 5000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/215f/2YQ6628FQC
+      expiration: 2025-05-07
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2735,33 +2765,47 @@
   network: VISA
   currency: UNITED
   isBusiness: true
-  annualFee: 450
+  annualFee: 695
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/business-credit-cards/united/united-club-business
   imageUrl: /images/chase/united-club-business.png
   credits:
-    - value: 650
-      description: United Lounge Access
+    - value: 150
+      description: 2x Checked Bags
+      weight: 0.8
+    - value: 125
+      description: United Credit
+      weight: 0.8
+    - value: 200
+      description: United Hotels
+      weight: 0.8
+    - value: 150
+      description: Rideshare
+      weight: 0.5
+    - value: 240
+      description: Instacart
+      weight: 0.5
+    - value: 100
+      description: Avis/Budget
+      weight: 0.5
+    - value: 750
+      description: United Lounge
       weight: 0.25
   offers:
     - amount:
-        - amount: 50000
+        - amount: 125000
       spend: 5000
       days: 90
       credits: []
+      expiration: 2025-05-07
   historicalOffers:
     - amount:
-        - amount: 75000
+        - amount: 125000
       spend: 5000
       days: 90
       credits: []
-    - amount:
-        - amount: 100000
-      spend: 10000
-      credits: []
-      days: 90
-      expiration: 2022-11-01
+      expiration: 2025-05-07
 - name: United Explorer
   issuer: CHASE
   network: VISA
@@ -2773,9 +2817,38 @@
   url: https://www.theexplorercard.com/rewards-cards
   imageUrl: /images/chase/united-explorer.png
   credits:
-    - value: 50
-      description: First checked bag free
+    - value: 100
+      description: Free Checked Bag
+      weight: 0.8
+    - value: 100
+      description: 2x Lounge Pass
+      weight: 0.4
+    - value: 100
+      description: Global Entry, TSA PreCheck, NEXUS Credit
+      weight: 0.4
+    - value: 60
+      description: Rideshare Credits
       weight: 0.5
+    - value: 10000
+      currency: UNITED
+      description: 10k award flight discount
+      weight: 0.75
+    - value: 100
+      currency: USD
+      description: United Travel
+      weight: 0.8
+    - value: 100
+      currency: USD
+      description: United Hotels
+      weight: 0.5
+    - value: 50
+      currency: USD
+      description: Avis/Budget
+      weight: 0.5
+    - value: 120
+      currency: USD
+      description: Instacart+
+      weight: 0.4
     - value: 100
       description: Global Entry, TSA PreCheck, NEXUS Credit
       weight: 0.4
@@ -2786,6 +2859,7 @@
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/215f/2YQ6628FQC
+      expiration: 2025-05-07
   historicalOffers:
     - amount:
         - amount: 80000
@@ -2810,6 +2884,7 @@
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/215f/2YQ6628FQC
+      expiration: 2025-07-16
   historicalOffers:
     - amount:
         - amount: 30000
@@ -2822,22 +2897,42 @@
   network: VISA
   currency: UNITED
   isBusiness: false
-  annualFee: 250
+  annualFee: 350
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
   url: https://www.theexplorercard.com/rewards-cards
   imageUrl: /images/chase/united-quest.png
   credits:
-    - value: 125
+    - value: 200
       description: United Credit
-      weight: 0.7
+      weight: 0.8
+    - value: 150
+      description: United Hotels
+      weight: 0.5
+    - value: 100
+      description: Rideshare
+      weight: 0.5
+    - value: 180
+      description: Instacart+
+      weight: 0.5
+    - value: 80
+      description: Avis/Budget
+      weight: 0.5
+    - value: 10000
+      currency: UNITED
+      description: 10k award flight discount
+      weight: 0.8
+    - value: 150
+      description: 2x Checked Bags
+      weight: 0.8
   offers:
     - amount:
-        - amount: 70000
+        - amount: 90000
       spend: 4000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/215f/2YQ6628FQC
+      expiration: 2025-05-07
   historicalOffers:
     - amount:
         - amount: 90000

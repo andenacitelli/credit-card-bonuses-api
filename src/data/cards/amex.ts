@@ -1,7 +1,8 @@
 import type { z } from "zod";
 
 import { schemas } from "@/generated/api.client.js";
-import { HILTON_FREE_NIGHT_CREDIT, WEIGHTS } from "@/data/weights.js";
+import { WEIGHTS } from "@/data/weights.js";
+import { CREDITS } from "../credits.js";
 import { REFERRALS } from "../referral-links.js";
 
 export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
@@ -799,7 +800,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         amount: [{ amount: 70_000 }],
         spend: 2000,
         days: 180,
-        credits: [HILTON_FREE_NIGHT_CREDIT],
+        credits: [CREDITS.HILTON_FREE_NIGHT],
         expiration: "2025-04-29",
       },
     ],
@@ -904,7 +905,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
         amount: [{ amount: 130_000 }],
         spend: 3000,
         days: 180,
-        credits: [HILTON_FREE_NIGHT_CREDIT],
+        credits: [CREDITS.HILTON_FREE_NIGHT],
         expiration: "2025-04-29",
       },
     ],

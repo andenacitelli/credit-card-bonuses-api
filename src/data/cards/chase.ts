@@ -665,16 +665,17 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: [
       {
         amount: [{ amount: 60_000 }],
-        spend: 4000,
+        spend: 5000,
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.SAPPHIRE,
+        details: "100k available in-branch and soon online.",
       },
     ],
     historicalOffers: [
       {
         amount: [{ amount: 90_000 }],
-        spend: 4000,
+        spend: 5000,
         days: 90,
         credits: [],
         expiration: "2023-06-01",
@@ -910,40 +911,64 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     network: schemas.NetworksEnum.enum.VISA,
     currency: schemas.CurrenciesEnum.enum.UNITED,
     isBusiness: true,
-    annualFee: 99,
-    isAnnualFeeWaived: true,
+    annualFee: 150,
+    isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
     url: "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
     imageUrl: "/images/chase/united-business.png",
     credits: [
       {
         value: 100,
+        description: "Free Checked Bag",
+        weight: 0.8,
+      },
+      {
+        value: 100,
+        description: "2x Lounge Pass",
+        weight: WEIGHTS.LOUNGES_LIMITED_USE,
+      },
+      {
+        value: 125,
         description: "United Credit",
         weight: 0.8,
+      },
+      {
+        value: 100,
+        description: "United Hotels",
+        weight: 0.8,
+      },
+      {
+        value: 100,
+        description: "Rideshare",
+        weight: 0.5,
+      },
+      {
+        value: 120,
+        description: "Instacard",
+        weight: 0.5,
+      },
+      {
+        value: 50,
+        description: "Avis/Budget",
+        weight: 0.5,
       },
     ],
     offers: [
       {
-        amount: [{ amount: 100_000 }],
+        amount: [{ amount: 125_000 }],
         spend: 5000,
         days: 90,
         credits: [],
-        expiration: "2025-03-23",
+        expiration: "2025-05-07",
       },
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 100_000 }],
+        amount: [{ amount: 125_000 }],
         spend: 5000,
-        credits: [],
         days: 90,
-      },
-      {
-        amount: [{ amount: 150_000 }],
-        spend: 20_000,
         credits: [],
-        days: 90,
-        expiration: "2022-11-01",
+        expiration: "2025-05-07",
       },
     ],
   },
@@ -953,16 +978,41 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     network: schemas.NetworksEnum.enum.VISA,
     currency: schemas.CurrenciesEnum.enum.UNITED,
     isBusiness: false,
-    annualFee: 525,
+    annualFee: 695,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
     url: "https://www.theexplorercard.com/rewards-cards",
     imageUrl: "/images/chase/united-club-infinite.png",
     credits: [
       {
-        value: 650,
-        description: "United Lounges",
+        value: 150,
+        description: "2x Checked Bags",
+        weight: 0.75,
+      },
+      {
+        value: 750,
+        description: "United Lounge",
         weight: WEIGHTS.LOUNGES,
+      },
+      {
+        value: 200,
+        description: "United Hotels",
+        weight: 0.75,
+      },
+      {
+        value: 150,
+        description: "Rideshare",
+        weight: 0.5,
+      },
+      {
+        value: 240,
+        description: "Instacart",
+        weight: 0.5,
+      },
+      {
+        value: 100,
+        description: "Avis/Budget",
+        weight: 0.5,
       },
       {
         value: 100,
@@ -972,11 +1022,12 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 90_000 }],
+        amount: [{ amount: 95_000 }],
         spend: 5000,
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.UNITED,
+        expiration: "2025-05-07",
       },
     ],
     historicalOffers: [
@@ -995,39 +1046,64 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     network: schemas.NetworksEnum.enum.VISA,
     currency: schemas.CurrenciesEnum.enum.UNITED,
     isBusiness: true,
-    annualFee: 450,
+    annualFee: 695,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
     url: "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
     imageUrl: "/images/chase/united-club-business.png",
     credits: [
       {
-        value: 650,
-        description: "United Lounge Access",
+        value: 150,
+        description: "2x Checked Bags",
+        weight: 0.8,
+      },
+      {
+        value: 125,
+        description: "United Credit",
+        weight: 0.8,
+      },
+      {
+        value: 200,
+        description: "United Hotels",
+        weight: 0.8,
+      },
+      {
+        value: 150,
+        description: "Rideshare",
+        weight: 0.5,
+      },
+      {
+        value: 240,
+        description: "Instacart",
+        weight: 0.5,
+      },
+      {
+        value: 100,
+        description: "Avis/Budget",
+        weight: 0.5,
+      },
+      {
+        value: 750,
+        description: "United Lounge",
         weight: WEIGHTS.LOUNGES,
       },
     ],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 125_000 }],
         spend: 5000,
         days: 90,
         credits: [],
+        expiration: "2025-05-07",
       },
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 75_000 }],
+        amount: [{ amount: 125_000 }],
         spend: 5000,
         days: 90,
         credits: [],
-      },
-      {
-        amount: [{ amount: 100_000 }],
-        spend: 10_000,
-        credits: [],
-        days: 90,
-        expiration: "2022-11-01",
+        expiration: "2025-05-07",
       },
     ],
   },
@@ -1044,9 +1120,54 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     imageUrl: "/images/chase/united-explorer.png",
     credits: [
       {
-        value: 50,
-        description: "First checked bag free",
+        value: 100,
+        description: "Free Checked Bag",
+        weight: 0.8,
+      },
+      {
+        value: 100,
+        description: "2x Lounge Pass",
+        weight: WEIGHTS.LOUNGES_LIMITED_USE,
+      },
+      {
+        value: 100,
+        description: "Global Entry, TSA PreCheck, NEXUS Credit",
+        weight: WEIGHTS.TSA_PRECHECK_OR_SIMILAR,
+      },
+      {
+        value: 60,
+        description: "Rideshare Credits",
         weight: 0.5,
+      },
+      {
+        value: 10_000,
+        currency: schemas.CurrenciesEnum.enum.UNITED,
+        description: "10k award flight discount",
+        weight: 0.75,
+      },
+      {
+        value: 100,
+        currency: schemas.CurrenciesEnum.enum.USD,
+        description: "United Travel",
+        weight: 0.8,
+      },
+      {
+        value: 100,
+        currency: schemas.CurrenciesEnum.enum.USD,
+        description: "United Hotels",
+        weight: 0.5,
+      },
+      {
+        value: 50,
+        currency: schemas.CurrenciesEnum.enum.USD,
+        description: "Avis/Budget",
+        weight: 0.5,
+      },
+      {
+        value: 120,
+        currency: schemas.CurrenciesEnum.enum.USD,
+        description: "Instacart+",
+        weight: 0.4,
       },
       {
         value: 100,
@@ -1061,6 +1182,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.UNITED,
+        expiration: "2025-05-07",
       },
     ],
     historicalOffers: [
@@ -1091,6 +1213,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.UNITED,
+        expiration: "2025-07-16",
       },
     ],
     historicalOffers: [
@@ -1109,26 +1232,57 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     network: schemas.NetworksEnum.enum.VISA,
     currency: schemas.CurrenciesEnum.enum.UNITED,
     isBusiness: false,
-    annualFee: 250,
+    annualFee: 350,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
     url: "https://www.theexplorercard.com/rewards-cards",
     imageUrl: "/images/chase/united-quest.png",
     credits: [
       {
-        // This used to be a direct statement credit, but is now a credit to your United account, so is weighted a bit lower.
-        value: 125,
+        value: 200,
         description: "United Credit",
-        weight: 0.7,
+        weight: 0.8,
+      },
+      {
+        value: 150,
+        description: "United Hotels",
+        weight: 0.5,
+      },
+      {
+        value: 100,
+        description: "Rideshare",
+        weight: 0.5,
+      },
+      {
+        value: 180,
+        description: "Instacart+",
+        weight: 0.5,
+      },
+      {
+        value: 80,
+        description: "Avis/Budget",
+        weight: 0.5,
+      },
+      {
+        value: 10_000,
+        currency: "UNITED",
+        description: "10k award flight discount",
+        weight: 0.8,
+      },
+      {
+        value: 150,
+        description: "2x Checked Bags",
+        weight: 0.8,
       },
     ],
     offers: [
       {
-        amount: [{ amount: 70_000 }],
+        amount: [{ amount: 90_000 }],
         spend: 4000,
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.UNITED,
+        expiration: "2025-05-07",
       },
     ],
     historicalOffers: [
