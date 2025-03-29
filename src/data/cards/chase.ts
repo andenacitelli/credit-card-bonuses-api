@@ -781,12 +781,11 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 40_000 }],
+        amount: [{ amount: 30_000 }],
         spend: 1000,
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.SOUTHWEST,
-        expiration: "2025-03-23",
       },
     ],
     historicalOffers: [
@@ -813,12 +812,11 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 40_000 }],
+        amount: [{ amount: 30_000 }],
         spend: 1000,
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.SOUTHWEST,
-        expiration: "2025-03-23",
       },
     ],
     historicalOffers: [
@@ -887,12 +885,11 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
     offers: [
       {
-        amount: [{ amount: 40_000 }],
+        amount: [{ amount: 30_000 }],
         spend: 3000,
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.SOUTHWEST,
-        expiration: "2025-03-23",
       },
     ],
     historicalOffers: [
