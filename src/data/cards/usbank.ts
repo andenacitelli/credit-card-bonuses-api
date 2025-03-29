@@ -482,4 +482,22 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     offers: DISCONTINUED_OFFERS,
     historicalOffers: DISCONTINUED_OFFERS,
   },
+  {
+    id: "e1679e714c2139ed85bd250e229ded16",
+    name: "Business Triple Cash Rewards",
+    issuer: schemas.IssuersEnum.enum.US_BANK,
+    network: schemas.NetworksEnum.enum.VISA,
+    currency: schemas.CurrenciesEnum.enum.USD,
+    isBusiness: false,
+    annualFee: 0,
+    isAnnualFeeWaived: false,
+    universalCashbackPercent: 2,
+    url: "https://www.usbank.com/credit-cards/bank-smartly-visa-signature-credit-card.html",
+    imageUrl: "/images/usbank/smartly.webp",
+    credits: [],
+
+    discontinued: true,
+    offers: DISCONTINUED_OFFERS,
+    historicalOffers: DISCONTINUED_OFFERS,
+  },
 ];

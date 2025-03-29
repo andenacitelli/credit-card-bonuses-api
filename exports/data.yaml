@@ -2393,7 +2393,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2419,7 +2419,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2444,7 +2444,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2472,7 +2472,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
       details: "NOTE: Points are nontransferable. Only cashback redemption."
   historicalOffers:
     - amount:
@@ -4510,6 +4510,21 @@
       credits: []
 - id: b32c686e5d27a02baecdf59bcb9437c9
   name: Smartly
+  issuer: US_BANK
+  network: VISA
+  currency: USD
+  isBusiness: false
+  annualFee: 0
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 2
+  url: https://www.usbank.com/credit-cards/bank-smartly-visa-signature-credit-card.html
+  imageUrl: /images/usbank/smartly.webp
+  credits: []
+  discontinued: true
+  offers: *a2
+  historicalOffers: *a2
+- id: e1679e714c2139ed85bd250e229ded16
+  name: Business Triple Cash Rewards
   issuer: US_BANK
   network: VISA
   currency: USD
