@@ -1,4 +1,4 @@
-- id: 8d9fc2c67c37a1da02cf8e69a0ae15c3
+- id: a37efd1da4e7f0d468c87d3b6f021250
   name: Blue Business Cash
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -40,7 +40,7 @@
       spend: 15000
       days: 90
       credits: []
-- id: 8b2c2cf306dd26fc0210f1831929d815
+- id: a851f08b98f839a01a7e8fa367d8b8be
   name: Blue Business Plus
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -70,7 +70,7 @@
       spend: 8000
       days: 90
       credits: []
-- id: f311e22f1079c1e0d9ce5adafa7441a9
+- id: 6980c320c341292b63273e4362601aa8
   name: Blue Cash Everyday
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -102,7 +102,7 @@
           description: Dining Credit
           weight: 0.8
       url: https://resy.com/amex-offers
-- id: 39ce4dc5848b865b42318439e3aec462
+- id: 04abf9273e03fbe626fe80a9ffd53523
   name: Blue Cash Preferred
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -131,7 +131,7 @@
       days: 180
       credits: []
       expiration: 2024-06-01
-- id: 040ea30ce95bb2f633bf277b5486c070
+- id: b628058009b9f1a24093028750e18112
   name: Blue Cash Preferred (Morgan Stanley)
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -160,7 +160,7 @@
       days: 180
       credits: []
       expiration: 2023-01-11
-- id: 40d15eae9e6f6c6d61bee51f78ddd7e6
+- id: 191f603ca5af9306d5db0fb208e9a646
   name: Business Gold
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -191,7 +191,7 @@
       spend: 10000
       days: 90
       credits: []
-- id: 7dc4b19808b646af7357b8f9b2d3793a
+- id: aff8fcfdc6a69cef4936e1e474820516
   name: Business Green
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -221,7 +221,7 @@
       spend: 3000
       days: 90
       credits: []
-- id: 22f08cd774c49fabb1965b483a77be55
+- id: 656a6a4296d40de4c62cc3ec888e5018
   name: Business Platinum
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -277,7 +277,7 @@
       days: 90
       credits: []
       expiration: 2022-12-01
-- id: c85226d6f8e6265e7162eb873ca84681
+- id: 27ebb66ce240c9dcf6e1d13d63e319b4
   name: Cash Magnet
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -307,7 +307,7 @@
       spend: 1000
       days: 180
       credits: []
-- id: 105c5b0863c0ab39f1275e4429ab6958
+- id: 90436ebe63417596fbc6cb5b7e5a2e8c
   name: Delta SkyMiles Blue
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -331,7 +331,7 @@
       spend: 1000
       days: 90
       credits: []
-- id: 105c5b0863c0ab39f1275e4429ab6958
+- id: 99d4ec3c5bcd51b70b83b4b792af3ef6
   name: Delta SkyMiles Gold
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -359,7 +359,7 @@
       spend: 3000
       days: 180
       credits: []
-- id: 105c5b0863c0ab39f1275e4429ab6958
+- id: 509a09cbd31edd8df85928d044ef7802
   name: Delta SkyMiles Gold Business
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -384,7 +384,7 @@
       spend: 6000
       days: 180
       credits: []
-- id: 105c5b0863c0ab39f1275e4429ab6958
+- id: bdf4ae17ff6808592f785fff3ae81a2a
   name: Delta SkyMiles Platinum
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -412,7 +412,7 @@
       spend: 4000
       days: 180
       credits: []
-- id: 105c5b0863c0ab39f1275e4429ab6958
+- id: 1e9c3dae029612a7a40adf6144bf43d4
   name: Delta SkyMiles Platinum Business
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -446,7 +446,7 @@
       spend: 8000
       days: 180
       credits: []
-- id: 105c5b0863c0ab39f1275e4429ab6958
+- id: 2a3949c2232cf6646a59531728264a5c
   name: Delta SkyMiles Reserve
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -475,7 +475,7 @@
       days: 90
       credits: []
       expiration: 2023-05-01
-- id: 105c5b0863c0ab39f1275e4429ab6958
+- id: a8032dfcc9bc6af82eb1a0a487e710b5
   name: Delta SkyMiles Reserve Business
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -500,7 +500,7 @@
       spend: 12000
       days: 180
       credits: []
-- id: 105c5b0863c0ab39f1275e4429ab6958
+- id: 54fddf9e59dfad730320eb65a04b7ea5
   name: Everyday
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -514,7 +514,7 @@
   credits: []
   offers: []
   historicalOffers: []
-- id: 105c5b0863c0ab39f1275e4429ab6958
+- id: 84c122e1077e2929b1f563bd143ce82e
   name: Everyday Preferred
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -528,7 +528,7 @@
   credits: []
   offers: []
   historicalOffers: []
-- id: 105c5b0863c0ab39f1275e4429ab6958
+- id: cafe43d37256bec116dff4be6cced2cf
   name: Gold
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -580,7 +580,7 @@
       days: 180
       credits: []
       expiration: 2024-03-01
-- id: 105c5b0863c0ab39f1275e4429ab6958
+- id: ad9a96ed5f730a79d0171f1f8ca92d0c
   name: Green
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -611,7 +611,7 @@
       days: 180
       credits: []
       expiration: 2023-05-01
-- id: 105c5b0863c0ab39f1275e4429ab6958
+- id: 0710239dc6fbd92077bce7118572e217
   name: Hilton Honors
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -641,7 +641,7 @@
       days: 180
       credits: []
       expiration: 2025-01-01
-- id: 105c5b0863c0ab39f1275e4429ab6958
+- id: 59c1e4c423d078c91e9b7c51d72e893d
   name: Hilton Honors Aspire
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -670,7 +670,7 @@
       days: 180
       credits: []
       expiration: 2023-12-01
-- id: 105c5b0863c0ab39f1275e4429ab6958
+- id: 434df114291a974c876d58cf79158376
   name: Hilton Honors Business
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -699,7 +699,7 @@
       spend: 8000
       days: 180
       credits: []
-- id: 105c5b0863c0ab39f1275e4429ab6958
+- id: f6c6aa50b533b758df7be5151d805571
   name: Hilton Honors Surpass
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -726,7 +726,7 @@
       days: 180
       credits: []
       details: 2024-02-01
-- id: 105c5b0863c0ab39f1275e4429ab6958
+- id: 4d2115812f09d194440ef99b1a5210cd
   name: Marriott Bonvoy Brilliant
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -755,7 +755,7 @@
       days: 180
       credits: []
       expiration: 2023-07-01
-- id: 105c5b0863c0ab39f1275e4429ab6958
+- id: 1129280627d633940e575deabdaa105f
   name: Marriott Bonvoy Business
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -798,7 +798,7 @@
       spend: 3000
       days: 90
       credits: []
-- id: 105c5b0863c0ab39f1275e4429ab6958
+- id: ec1872dfd8a65491a33bae2da4dd487f
   name: Platinum
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -844,7 +844,7 @@
       spend: 8000
       days: 180
       credits: []
-- id: 105c5b0863c0ab39f1275e4429ab6958
+- id: 7eb93f5f9ab64e1c12b82ec8822c25ef
   name: Platinum (Schwab)
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -887,7 +887,7 @@
       spend: 6000
       days: 180
       expiration: 2025-01-08
-- id: 105c5b0863c0ab39f1275e4429ab6958
+- id: ab55a96910ffc7f31fc1605c99430ec5
   name: Platinum (Morgan Stanley)
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -931,7 +931,7 @@
       spend: 6000
       days: 180
       expiration: 2024-05-31
-- id: 105c5b0863c0ab39f1275e4429ab6958
+- id: 653b14a655f4edc9bfc0332e9370e139
   name: Marriott Bonvoy Bevy
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -957,7 +957,7 @@
       days: 180
       credits: []
       expiration: 2023-07-01
-- id: 105c5b0863c0ab39f1275e4429ab6958
+- id: 9bf8d331ae97a8ddc47ef3d22dcaf213
   name: Lowes
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -979,7 +979,7 @@
         - value: 100
           description: Automatic statement credit
           weight: 1
-- id: 105c5b0863c0ab39f1275e4429ab6958
+- id: a3b091353bd1a45ad58f75e5287f1fd6
   name: Schwab Investor
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -1003,7 +1003,7 @@
       spend: 1000
       days: 90
       credits: []
-- id: 105c5b0863c0ab39f1275e4429ab6958
+- id: 15cc2b7c31596c0112cfba30180ab739
   name: Amazon Business
   issuer: AMERICAN_EXPRESS
   network: AMERICAN_EXPRESS
@@ -1041,7 +1041,7 @@
       spend: 0.01
       days: 90
       credits: []
-- id: d647d5c0ce8e09cd888c84a73cdda256
+- id: f2d769efdbe2b9d8734787bc24297be6
   name: Air France KLM
   issuer: BANK_OF_AMERICA
   network: MASTERCARD
@@ -1076,7 +1076,7 @@
       spend: 2000
       days: 90
       credits: []
-- id: d647d5c0ce8e09cd888c84a73cdda256
+- id: e0971b7dcda10c271490b0443da30484
   name: Alaska Airlines
   issuer: BANK_OF_AMERICA
   network: VISA
@@ -1129,7 +1129,7 @@
       spend: 3000
       days: 90
       credits: []
-- id: d647d5c0ce8e09cd888c84a73cdda256
+- id: bdb66e9a6c5b5d1ccf5120a6c3e30851
   name: Alaska Airlines Business
   issuer: BANK_OF_AMERICA
   network: VISA
@@ -1164,7 +1164,7 @@
       spend: 4000
       days: 90
       credits: []
-- id: d647d5c0ce8e09cd888c84a73cdda256
+- id: f2461735a56702c428c209486e2f9e55
   name: Customized Cash Rewards
   issuer: BANK_OF_AMERICA
   network: VISA
@@ -1188,7 +1188,7 @@
       spend: 2000
       days: 90
       credits: []
-- id: d647d5c0ce8e09cd888c84a73cdda256
+- id: eb8bc1a6f86dc471aa0deeca619fbf59
   name: Premium Rewards
   issuer: BANK_OF_AMERICA
   network: VISA
@@ -1212,7 +1212,7 @@
       spend: 5000
       days: 90
       credits: []
-- id: d647d5c0ce8e09cd888c84a73cdda256
+- id: 20594480e9f5656485a12e13389f60c7
   name: Premium Rewards Elite
   issuer: BANK_OF_AMERICA
   network: VISA
@@ -1245,7 +1245,7 @@
       spend: 5000
       days: 90
       credits: []
-- id: d647d5c0ce8e09cd888c84a73cdda256
+- id: fecfaab2c32f3edd5d97eafd8f3f19d6
   name: Travel Rewards
   issuer: BANK_OF_AMERICA
   network: VISA
@@ -1269,7 +1269,7 @@
       spend: 1000
       days: 90
       credits: []
-- id: d647d5c0ce8e09cd888c84a73cdda256
+- id: 98db04658d4deee69293bd67bd2fd341
   name: Unlimited Cash Rewards
   issuer: BANK_OF_AMERICA
   network: VISA
@@ -1293,7 +1293,7 @@
       spend: 1000
       days: 90
       credits: []
-- id: d647d5c0ce8e09cd888c84a73cdda256
+- id: 4f6d71dd4d06ff960cae0990b5efda21
   name: Business Advantage Customized Cash
   issuer: BANK_OF_AMERICA
   network: MASTERCARD
@@ -1317,7 +1317,7 @@
       spend: 1000
       days: 90
       credits: []
-- id: d647d5c0ce8e09cd888c84a73cdda256
+- id: a99aa675065459b90144275ac18d9ab1
   name: Business Advantage Unlimited Cash
   issuer: BANK_OF_AMERICA
   network: MASTERCARD
@@ -1341,7 +1341,7 @@
       spend: 3000
       days: 90
       credits: []
-- id: d647d5c0ce8e09cd888c84a73cdda256
+- id: 1e75cf9ca2ccded9a621d5e8f5630c3c
   name: Business Advantage Travel Rewards
   issuer: BANK_OF_AMERICA
   network: MASTERCARD
@@ -1365,7 +1365,7 @@
       spend: 3000
       days: 90
       credits: []
-- id: d647d5c0ce8e09cd888c84a73cdda256
+- id: 9dce80bda519a8616ca4eb288d7cc693
   name: Platinum Plus
   issuer: BANK_OF_AMERICA
   network: MASTERCARD
@@ -1389,7 +1389,7 @@
       spend: 1000
       days: 90
       credits: []
-- id: d647d5c0ce8e09cd888c84a73cdda256
+- id: 541d121bd20b148d43a8c896d0de6830
   name: Free Spirit
   issuer: BANK_OF_AMERICA
   network: MASTERCARD
@@ -1424,7 +1424,7 @@
       spend: 1000
       days: 90
       credits: []
-- id: 5342fa854ea07924c955aacfb1eb56d0
+- id: bb54057b74adc9514885254a82fd8634
   name: AAdvantage Aviator Red World Elite
   issuer: BARCLAYS
   network: MASTERCARD
@@ -1449,7 +1449,7 @@
       spend: 99.01
       days: 90
       credits: []
-- id: 5342fa854ea07924c955aacfb1eb56d0
+- id: 4b3dee677718c19aace2e927e6e26704
   name: AAdvantage Aviator World Elite Business
   issuer: BARCLAYS
   network: MASTERCARD
@@ -1474,7 +1474,7 @@
         - value: 95
           description: $95 Statement Credit
           weight: 1
-- id: 5342fa854ea07924c955aacfb1eb56d0
+- id: f2fcdd7db964fb3c55f6df704f5678c8
   name: AARP Essential Rewards
   issuer: BARCLAYS
   network: MASTERCARD
@@ -1498,7 +1498,7 @@
       spend: 500
       days: 90
       credits: []
-- id: 5342fa854ea07924c955aacfb1eb56d0
+- id: fc80c887a321dde1faa7e9282c813683
   name: AARP Travel Rewards
   issuer: BARCLAYS
   network: MASTERCARD
@@ -1522,7 +1522,7 @@
       spend: 500
       days: 90
       credits: []
-- id: 5342fa854ea07924c955aacfb1eb56d0
+- id: eddb365c3098a64170b9e4fb322b2a05
   name: Carnival World Mastercard
   issuer: BARCLAYS
   network: MASTERCARD
@@ -1554,7 +1554,7 @@
       credits: []
       details: Requires ANY purchase.
       url: https://cards.barclaycardus.com/banking/cards/carnival-world-mastercard/
-- id: 5342fa854ea07924c955aacfb1eb56d0
+- id: 990a75f557890d22402183b20a8fe09d
   name: Emirates Skywards Premium World Elite
   issuer: BARCLAYS
   network: MASTERCARD
@@ -1578,7 +1578,7 @@
       spend: 3000
       days: 90
       credits: []
-- id: 5342fa854ea07924c955aacfb1eb56d0
+- id: e33253806e1da76436e527e3c7b6179d
   name: Emirates Skywards Rewards World Elite
   issuer: BARCLAYS
   network: MASTERCARD
@@ -1602,7 +1602,7 @@
       spend: 3000
       days: 90
       credits: []
-- id: 5342fa854ea07924c955aacfb1eb56d0
+- id: e33d8701c8e81d5befe82ec5ed5cda23
   name: Frontier Airlines World
   issuer: BARCLAYS
   network: MASTERCARD
@@ -1627,7 +1627,7 @@
       spend: 2000
       days: 180
       credits: []
-- id: 5342fa854ea07924c955aacfb1eb56d0
+- id: 44effaf95f470d31302d6f366207a543
   name: Hawaiian Airlines World Elite
   issuer: BARCLAYS
   network: MASTERCARD
@@ -1651,7 +1651,7 @@
       spend: 2000
       days: 90
       credits: []
-- id: 5342fa854ea07924c955aacfb1eb56d0
+- id: d760441e47fada8604f084285fbaeb39
   name: JetBlue
   issuer: BARCLAYS
   network: MASTERCARD
@@ -1675,7 +1675,7 @@
       spend: 1000
       days: 90
       credits: []
-- id: 5342fa854ea07924c955aacfb1eb56d0
+- id: 499685453910108ad817d64f9728eb46
   name: JetBlue Business
   issuer: BARCLAYS
   network: MASTERCARD
@@ -1703,7 +1703,7 @@
       days: 90
       credits: []
       expiration: 2023-05-01
-- id: 5342fa854ea07924c955aacfb1eb56d0
+- id: fafac50a80daae929873eca389fafd15
   name: JetBlue Plus
   issuer: BARCLAYS
   network: MASTERCARD
@@ -1728,7 +1728,7 @@
       days: 90
       credits: []
       expiration: 2022-12-01
-- id: 5342fa854ea07924c955aacfb1eb56d0
+- id: c7698b8b99a60ae3ccdd4d880ff5fe68
   name: JetBlue Premier
   issuer: BARCLAYS
   network: MASTERCARD
@@ -1762,7 +1762,7 @@
       spend: 5000
       days: 90
       credits: []
-- id: 5342fa854ea07924c955aacfb1eb56d0
+- id: fdd9a5b1485ab0f88d0abd28c32e3b89
   name: Lufthansa Miles & More
   issuer: BARCLAYS
   network: MASTERCARD
@@ -1786,7 +1786,7 @@
       spend: 3000
       credits: []
       days: 90
-- id: 5342fa854ea07924c955aacfb1eb56d0
+- id: d0fa846548af110fa31bc7bfa25828df
   name: Upromise
   issuer: BARCLAYS
   network: MASTERCARD
@@ -1811,7 +1811,7 @@
       spend: 500
       days: 90
       credits: []
-- id: 5342fa854ea07924c955aacfb1eb56d0
+- id: 6496ff471ffd822105f59ea276547110
   name: Wyndham Rewards Earner
   issuer: BARCLAYS
   network: VISA
@@ -1835,7 +1835,7 @@
       spend: 2000
       days: 180
       credits: []
-- id: 5342fa854ea07924c955aacfb1eb56d0
+- id: ba9027fba78b5ca88e4d9471aa9e31bd
   name: Wyndham Rewards Earner Business
   issuer: BARCLAYS
   network: VISA
@@ -1863,7 +1863,7 @@
       spend: 2000
       days: 90
       credits: []
-- id: 5342fa854ea07924c955aacfb1eb56d0
+- id: b910f422064772c65840288c632cf900
   name: Wyndham Rewards Earner Plus
   issuer: BARCLAYS
   network: VISA
@@ -1891,7 +1891,7 @@
       spend: 2000
       days: 180
       credits: []
-- id: 5342fa854ea07924c955aacfb1eb56d0
+- id: 9cbc127f6a0a485b64a7ddb5ed52d931
   name: Hawaiian Airlines World Elite Business
   issuer: BARCLAYS
   network: MASTERCARD
@@ -1936,7 +1936,7 @@
       spend: 1000
       days: 90
       credits: []
-- id: 5342fa854ea07924c955aacfb1eb56d0
+- id: b52f6b684aec5d5b2465c27e6ccd1adc
   name: Breeze
   issuer: BARCLAYS
   network: VISA
@@ -1965,7 +1965,7 @@
       spend: 2000
       days: 90
       credits: []
-- id: 5342fa854ea07924c955aacfb1eb56d0
+- id: 274b5ad3d42b14ff81fb588dd8938aa6
   name: Xbox
   issuer: BARCLAYS
   network: MASTERCARD
@@ -2000,7 +2000,7 @@
       days: 180
       credits: []
       details: Requires ANY purchase.
-- id: 5e419b61b68eb0551e5afce2f45d3910
+- id: be49d60cb01b9d5c3e919e6c570e9a48
   name: Brex
   issuer: BREX
   network: MASTERCARD
@@ -2024,7 +2024,7 @@
       spend: 11000
       days: 90
       credits: []
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: fb5e3887059d5d8600b2a5eaed7ddaf7
   name: Marriott Bonvoy Bountiful
   issuer: CHASE
   network: VISA
@@ -2050,7 +2050,7 @@
       spend: 5000
       days: 90
       expiration: 2023-12-01
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
   issuer: CHASE
   network: VISA
@@ -2081,7 +2081,7 @@
       days: 180
       credits: []
       expiration: 2024-12-31
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: 7662e34a89a906b869b93bb12a2e1b3b
   name: Aeroplan
   issuer: CHASE
   network: MASTERCARD
@@ -2112,7 +2112,7 @@
       spend: 20000
       days: 365
       credits: []
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: 7b06f0b6a307509b71862ffa5933ef0b
   name: British Airways Signature
   issuer: CHASE
   network: VISA
@@ -2143,7 +2143,7 @@
       days: 180
       credits: []
       expiration: 2024-12-31
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: cd81837eb0aedd4752197e044e77381a
   name: Disney Premier
   issuer: CHASE
   network: VISA
@@ -2172,7 +2172,7 @@
       credits: []
       spend: 1000
       days: 90
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: 12a1578aeb5bfcdd3bc794154ad1f6cc
   name: Disney
   issuer: CHASE
   network: VISA
@@ -2202,7 +2202,7 @@
       days: 90
       credits: []
       url: https://disneyrewards.com/compare-cards/?cell=608S11
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: 6ba7f561f6a4f7f2934bec25bd9a3130
   name: Freedom Flex
   issuer: CHASE
   network: MASTERCARD
@@ -2227,7 +2227,7 @@
       credits: []
       spend: 500
       days: 90
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: 3a9ea798ce73485fc8456280fd4b1816
   name: Freedom Unlimited
   issuer: CHASE
   network: VISA
@@ -2252,7 +2252,7 @@
       credits: []
       spend: 500
       days: 90
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: 60c2e7b4bc2e526bf38dac5be5f4433c
   name: Iberia Signature
   issuer: CHASE
   network: VISA
@@ -2283,7 +2283,7 @@
       days: 180
       credits: []
       expiration: 2024-12-31
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: 40192e08e31f059d91a108ff09ec5dd5
   name: IHG Rewards Premier
   issuer: CHASE
   network: MASTERCARD
@@ -2327,7 +2327,7 @@
       spend: 4000
       days: 90
       credits: []
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: bc82fb7022c639f90b9378410127b9e6
   name: IHG Rewards Premier Business
   issuer: CHASE
   network: MASTERCARD
@@ -2351,7 +2351,7 @@
       spend: 3000
       days: 90
       credits: []
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: 2c6c7e215b4a1e791250d1fb48997e02
   name: IHG Rewards Traveler
   issuer: CHASE
   network: MASTERCARD
@@ -2375,7 +2375,7 @@
       spend: 2000
       days: 90
       credits: []
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: 8ec7f405d03afa62eaeea7e197a29e8a
   name: Ink Business Cash
   issuer: CHASE
   network: VISA
@@ -2401,7 +2401,7 @@
       credits: []
       days: 90
       expiration: 2023-03-19
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: c80cdb77c3eda940e2a36abb4f943c69
   name: Ink Business Preferred
   issuer: CHASE
   network: VISA
@@ -2426,7 +2426,7 @@
       spend: 8000
       days: 90
       credits: []
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: 4a1c1e46f145b76fcc72ebd391fc5766
   name: Ink Business Unlimited
   issuer: CHASE
   network: VISA
@@ -2453,7 +2453,7 @@
       credits: []
       url: https://creditcards.chase.com/business-credit-cards/ink/unlimited
       expiration: 2024-11-01
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: 94c9b624738adce05fbe0e5bfc5d620e
   name: Ink Business Premier
   issuer: CHASE
   network: VISA
@@ -2481,7 +2481,7 @@
       spend: 10000
       credits: []
       days: 90
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: 918c978a06c7c36f9a321b2efa0ff974
   name: Marriott Bonvoy Bold
   issuer: CHASE
   network: VISA
@@ -2510,7 +2510,7 @@
       spend: 1000
       days: 90
       credits: []
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: 6a4a30b866d4d37216b9d586a15ad1cc
   name: Marriott Bonvoy Boundless
   issuer: CHASE
   network: VISA
@@ -2550,7 +2550,7 @@
       days: 90
       credits: []
       expiration: 2023-07-01
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: 57f8a819c3bb4c6aa494016703281f35
   name: Sapphire Preferred
   issuer: CHASE
   network: VISA
@@ -2580,7 +2580,7 @@
       days: 90
       credits: []
       expiration: 2023-06-01
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: 77e3ef2fc9c35498ba1a3f46a63235cb
   name: Sapphire Reserve
   issuer: CHASE
   network: VISA
@@ -2615,7 +2615,7 @@
       days: 90
       credits: []
       expiration: 2024-06-08
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: 682a4f0c425d15b5ca34214378cfc3de
   name: Southwest Rapid Rewards Performance Business
   issuer: CHASE
   network: VISA
@@ -2646,7 +2646,7 @@
       spend: 5000
       credits: []
       days: 90
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: 32a0c8c7eda25330e2c176589e386d7f
   name: Southwest Rapid Rewards Plus
   issuer: CHASE
   network: VISA
@@ -2672,7 +2672,7 @@
       days: 90
       credits: []
       expiration: 2023-02-01
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: 76e73a4afe8dfc1f8f1be1e345d7eca8
   name: Southwest Rapid Rewards Premier
   issuer: CHASE
   network: VISA
@@ -2698,7 +2698,7 @@
       days: 90
       credits: []
       expiration: 2023-02-01
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: f86d26bad5af78feff0335845003c47e
   name: Southwest Rapid Rewards Premier Business
   issuer: CHASE
   network: VISA
@@ -2728,7 +2728,7 @@
       spend: 18000
       days: 270
       credits: []
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: 169256a9988f3161381ee6a9ebe6667e
   name: Southwest Rapid Rewards Priority
   issuer: CHASE
   network: VISA
@@ -2757,7 +2757,7 @@
       days: 90
       credits: []
       expiration: 2023-02-01
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: 8101f7827e3a1e797b09653f117b72d9
   name: United Business
   issuer: CHASE
   network: VISA
@@ -2804,7 +2804,7 @@
       days: 90
       credits: []
       expiration: 2025-05-07
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: d2517ce6b72999e14f50c399347100ed
   name: United Club Infinite
   issuer: CHASE
   network: VISA
@@ -2852,7 +2852,7 @@
       days: 90
       credits: []
       expiration: 2022-04-01
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: 80c6aca49a0e1442d51635c316f4a5ff
   name: United Club Business
   issuer: CHASE
   network: VISA
@@ -2899,7 +2899,7 @@
       days: 90
       credits: []
       expiration: 2025-05-07
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: 85cd2b7d172e494eefad5b2ab012f21c
   name: United Explorer
   issuer: CHASE
   network: VISA
@@ -2960,7 +2960,7 @@
       spend: 3000
       days: 90
       credits: []
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: 4071699fe4b21cafb02cf8b2c9c57c86
   name: United Gateway
   issuer: CHASE
   network: VISA
@@ -2987,7 +2987,7 @@
       days: 90
       credits: []
       expiration: 2024-03-01
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: 34ab99720941eaa2a1671e5b3a996b19
   name: United Quest
   issuer: CHASE
   network: VISA
@@ -3036,7 +3036,7 @@
       credits: []
       days: 90
       expiration: 2022-04-01
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: d378a38b56d4c9bd5e1ad184a6ce84f0
   name: World of Hyatt
   issuer: CHASE
   network: VISA
@@ -3071,7 +3071,7 @@
           weight: 0.7
           currency: HYATT
       expiration: 2024-10-31
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: 0d9d833e7298ab0f1892a4035686fa06
   name: World of Hyatt Business
   issuer: CHASE
   network: VISA
@@ -3102,7 +3102,7 @@
       days: 180
       credits: []
       url: https://creditcards.chase.com/worldofhyatt/22/naepb?CELL=69T0
-- id: e6ed4c5a6022ea08e5215fb033285895
+- id: f4d8c429f58f9f74944a9108bcae4a22
   name: Amazon Prime
   issuer: CHASE
   network: VISA
@@ -3131,7 +3131,7 @@
       spend: 2500
       days: 90
       credits: []
-- id: f4f3f66f8b94cdb1b0c1fc6ccce9181f
+- id: 66f7413248c7f2c61ce1e8008685eac2
   name: Quicksilver
   issuer: CAPITAL_ONE
   network: VISA
@@ -3155,7 +3155,7 @@
       spend: 500
       credits: []
       days: 90
-- id: c9a3de7e82160912a9d8b487be075de8
+- id: 2d16431e0caee645b420cc3d3255b2ee
   name: Savor
   issuer: CAPITAL_ONE
   network: VISA
@@ -3180,7 +3180,7 @@
       spend: 500
       credits: []
       days: 90
-- id: 8132178286448571fa0810bd0d7d0195
+- id: d4955a21df61a45ad86c3d60c58b91fc
   name: Spark 1.5% Cash Select
   issuer: CAPITAL_ONE
   network: VISA
@@ -3204,7 +3204,7 @@
       spend: 6000
       days: 90
       credits: []
-- id: c63996d0f6e262280fa52d73071b006a
+- id: c8d364bb32a8d2f6a359cf57a5e58cde
   name: Spark 1.5% Miles Select
   issuer: CAPITAL_ONE
   network: VISA
@@ -3228,7 +3228,7 @@
       spend: 4500
       credits: []
       days: 90
-- id: 8d088cb560a1243fec20acf4ee4a5bc3
+- id: 9bd7d14db16dcc106d2eb062b08bf15f
   name: Spark 2% Cash Plus
   issuer: CAPITAL_ONE
   network: VISA
@@ -3254,7 +3254,7 @@
       days: 90
       credits: []
       url: https://www.capitalone.com/small-business/credit-cards/spark-cash-plus/
-- id: 8d088cb560a1243fec20acf4ee4a5bc3
+- id: e48261ce7908f2ed8403245217f44de7
   name: Spark 2x Miles Plus
   issuer: CAPITAL_ONE
   network: VISA
@@ -3274,7 +3274,7 @@
       spend: 4500
       days: 90
       credits: []
-- id: 8d088cb560a1243fec20acf4ee4a5bc3
+- id: 4a7a8036e514f187ca7c41b31925251e
   name: Venture Rewards
   issuer: CAPITAL_ONE
   network: VISA
@@ -3326,7 +3326,7 @@
           currency: USD
           weight: 0.9
       days: 90
-- id: 8d088cb560a1243fec20acf4ee4a5bc3
+- id: 9aa036266b8cc7e7512a630efdecae0b
   name: Venture X
   issuer: CAPITAL_ONE
   network: VISA
@@ -3365,7 +3365,7 @@
       credits: []
       spend: 4000
       days: 90
-- id: 8d088cb560a1243fec20acf4ee4a5bc3
+- id: 1d2ff07648fdd4b06d89ef0309f1c4cb
   name: Venture X Business
   issuer: CAPITAL_ONE
   network: VISA
@@ -3394,7 +3394,7 @@
       days: 90
       details: Extremely high spend requirement, be aware.
       credits: []
-- id: 8d088cb560a1243fec20acf4ee4a5bc3
+- id: d0298263cc453d34160558a93fd1bcb2
   name: VentureOne
   issuer: CAPITAL_ONE
   network: VISA
@@ -3418,7 +3418,7 @@
       credits: []
       spend: 1000
       days: 90
-- id: de34c9f31ae99ab87f64254a5e595253
+- id: 3543149f6555df6f7e4974923c55d853
   name: AAdvantage Executive
   issuer: CITI
   network: MASTERCARD
@@ -3443,7 +3443,7 @@
       days: 90
       credits: []
       expiration: 2023-10-01
-- id: de34c9f31ae99ab87f64254a5e595253
+- id: 196b33e005dd1bc8e1c505f2bf98a1d1
   name: AAdvantage MileUp
   issuer: CITI
   network: MASTERCARD
@@ -3467,7 +3467,7 @@
       spend: 500
       days: 90
       credits: []
-- id: de34c9f31ae99ab87f64254a5e595253
+- id: a497d6ba509538db9e3e4a3e5e313fe9
   name: AAdvantage Platinum Select
   issuer: CITI
   network: MASTERCARD
@@ -3497,7 +3497,7 @@
       days: 90
       credits: []
       expiration: 2024-03-01
-- id: de34c9f31ae99ab87f64254a5e595253
+- id: f6ff3383cc6c52a81eb4715eb8d5de03
   name: AAdvantage Platinum Select Business
   issuer: CITI
   network: MASTERCARD
@@ -3524,7 +3524,7 @@
       spend: 4000
       days: 120
       credits: []
-- id: de34c9f31ae99ab87f64254a5e595253
+- id: 06b9a384d710e73db7f0ded7613c9c4b
   name: Double Cash
   issuer: CITI
   network: MASTERCARD
@@ -3553,7 +3553,7 @@
       spend: 750
       days: 180
       credits: []
-- id: de34c9f31ae99ab87f64254a5e595253
+- id: 49fe6c73c0e823a89346979f50d5b981
   name: Custom Cash
   issuer: CITI
   network: MASTERCARD
@@ -3582,7 +3582,7 @@
       spend: 750
       credits: []
       days: 180
-- id: de34c9f31ae99ab87f64254a5e595253
+- id: d7e2e5b5e595ca6510c101349c914513
   name: Strata Premier
   issuer: CITI
   network: MASTERCARD
@@ -3610,7 +3610,7 @@
       credits: []
       days: 90
       expiration: 2023-01-17
-- id: de34c9f31ae99ab87f64254a5e595253
+- id: cbc737da5cbd44575dec6325bbbd8688
   name: Rewards+
   issuer: CITI
   network: MASTERCARD
@@ -3629,7 +3629,7 @@
       spend: 1500
       credits: []
       days: 90
-- id: de34c9f31ae99ab87f64254a5e595253
+- id: d4bbd57e45d6a6ddb445ddec4e781d7c
   name: AT&T Points Plus
   issuer: CITI
   network: MASTERCARD
@@ -3653,7 +3653,7 @@
       spend: 1000
       days: 90
       credits: []
-- id: 35853e78f11658dca90bc64ad1645727
+- id: dae75a5609dea8f39f750f4b225d2c5c
   name: Discover It
   issuer: DISCOVER
   network: DISCOVER
@@ -3679,7 +3679,7 @@
       spend: 1000
       days: 90
       credits: []
-- id: a7f610e8c06a78c5e4898985c0afe019
+- id: 73015adf7b2ca52331e05203c4ad5462
   name: LATAM Airlines
   issuer: FIRST
   network: MASTERCARD
@@ -3703,7 +3703,7 @@
       spend: 1000
       days: 90
       credits: []
-- id: a7f610e8c06a78c5e4898985c0afe019
+- id: 7e578b54e8976a7b9027124c56b2377f
   name: LATAM Airlines World Elite
   issuer: FIRST
   network: MASTERCARD
@@ -3727,7 +3727,7 @@
       spend: 2500
       days: 90
       credits: []
-- id: a7f610e8c06a78c5e4898985c0afe019
+- id: 684de802ca5bf73c791a752537da84c5
   name: Cardless Qatar Signature
   issuer: FIRST
   network: VISA
@@ -3755,7 +3755,7 @@
       credits: []
       details: 20k after any purchase, 40k after spend requirement.
       expiration: 2025-03-31
-- id: a7f610e8c06a78c5e4898985c0afe019
+- id: ea277f6af8a60065a83e5f16569dcce8
   name: Cardless Qatar Infinite
   issuer: FIRST
   network: VISA
@@ -3783,7 +3783,7 @@
       credits: []
       details: 25k after any purchase, 60k after spend requirement.
       expiration: 2025-03-31
-- id: a7f610e8c06a78c5e4898985c0afe019
+- id: 1babfb0011a010a6149965531021ad2e
   name: Avianca LifeMiles
   issuer: FIRST
   network: AMERICAN_EXPRESS
@@ -3813,7 +3813,7 @@
       spend: 3000
       days: 90
       credits: []
-- id: a7f610e8c06a78c5e4898985c0afe019
+- id: 0bcc80cc6922e7c7d89e9c9b2efcd9e1
   name: Avianca LifeMiles Elite
   issuer: FIRST
   network: AMERICAN_EXPRESS
@@ -3846,7 +3846,7 @@
       days: 90
       credits: []
       details: Extra 40k on 25k spend in 1yr.
-- id: a7f610e8c06a78c5e4898985c0afe019
+- id: 0b3a9849575c68ce5cbf31aad08f015e
   name: ANA Card USA Plus
   issuer: FIRST
   network: VISA
@@ -3870,7 +3870,7 @@
       spend: 3000
       days: 90
       credits: []
-- id: 243b05e39ce477935452f0b50ed70beb
+- id: 1f13c36d3b8218b1a22d5ab050d30b09
   name: Amtrak Guest Rewards
   issuer: FNBO
   network: MASTERCARD
@@ -3894,7 +3894,7 @@
       spend: 1000
       days: 90
       credits: []
-- id: 243b05e39ce477935452f0b50ed70beb
+- id: 4a2f48392c94bc6b0ef9b6d30153bddc
   name: Amtrak Guest Rewards Preferred
   issuer: FNBO
   network: MASTERCARD
@@ -3918,7 +3918,7 @@
       spend: 2000
       days: 90
       credits: []
-- id: 243b05e39ce477935452f0b50ed70beb
+- id: 1b70fa39672eb066b7a3a5092888e7b2
   name: Best Western Rewards
   issuer: FNBO
   network: MASTERCARD
@@ -3942,7 +3942,7 @@
       spend: 1000
       days: 90
       credits: []
-- id: 243b05e39ce477935452f0b50ed70beb
+- id: cf10cfcfab787460b24ecbf8b76f7bdc
   name: Best Western Rewards Premium
   issuer: FNBO
   network: MASTERCARD
@@ -3966,7 +3966,7 @@
       spend: 3000
       days: 90
       credits: []
-- id: e8a756a7fb8df994dda80764619e4518
+- id: 879d4dccd8e59ba55a3a688adeb2c773
   name: Power Cash Rewards
   issuer: PENFED
   network: VISA
@@ -3990,7 +3990,7 @@
       spend: 1500
       days: 90
       credits: []
-- id: e8a756a7fb8df994dda80764619e4518
+- id: 2743ba5aabdadc15aa6bd046f1b71a5c
   name: Platinum Rewards
   issuer: PENFED
   network: VISA
@@ -4014,7 +4014,7 @@
       spend: 1500
       days: 90
       credits: []
-- id: e8a756a7fb8df994dda80764619e4518
+- id: 9afcb83bfffcdc108fc3ac90a8b384da
   name: Pathfinder
   issuer: PENFED
   network: VISA
@@ -4042,7 +4042,7 @@
       spend: 1500
       days: 90
       credits: []
-- id: 86041b52d1f5b7f834a08bc9d859c519
+- id: dfaa58e5c67e69cb711960cfd4567f9c
   name: Cash Rewards Visa Signature Business
   issuer: PNC
   network: VISA
@@ -4066,7 +4066,7 @@
       spend: 6000
       days: 90
       credits: []
-- id: 857b0c6a1f3cc51015878c2e9e3b6637
+- id: 0d2caa1705cde187692a28873930c605
   name: Cathay Pacific
   issuer: SYNCHRONY
   network: VISA
@@ -4085,7 +4085,7 @@
       spend: 3000
       days: 90
       credits: []
-- id: 857b0c6a1f3cc51015878c2e9e3b6637
+- id: 06b77b791c904e42695dd12747e89cd8
   name: Virgin Red Rewards
   issuer: SYNCHRONY
   network: MASTERCARD
@@ -4111,7 +4111,7 @@
       days: 90
       credits: []
       expiration: 2025-03-31
-- id: ebf096c7caec6cb6c7c4025f0b5de955
+- id: 3d777bda73262fa43b11626eb383f9ab
   name: Business Altitude Power
   issuer: US_BANK
   network: MASTERCARD
@@ -4135,7 +4135,7 @@
       spend: 10000
       days: 120
       credits: []
-- id: ebf096c7caec6cb6c7c4025f0b5de955
+- id: 1e6ddb097a524ce3b68719ae6c5eb1e8
   name: Business Altitude Connect
   issuer: US_BANK
   network: MASTERCARD
@@ -4159,7 +4159,7 @@
       spend: 6000
       days: 180
       credits: []
-- id: ebf096c7caec6cb6c7c4025f0b5de955
+- id: 9a35bfe5845f7f9909244b1e3549b7e1
   name: Altitude Connect
   issuer: US_BANK
   network: VISA
@@ -4185,7 +4185,7 @@
       spend: 1000
       days: 90
       credits: []
-- id: ebf096c7caec6cb6c7c4025f0b5de955
+- id: f81e751b8d46af2e7c84cc4cf4083dec
   name: Altitude Reserve
   issuer: US_BANK
   network: VISA
@@ -4199,7 +4199,7 @@
   credits: []
   offers: []
   historicalOffers: []
-- id: ebf096c7caec6cb6c7c4025f0b5de955
+- id: b523a3cc7d6d355737b1c4dda1eb7a04
   name: Altitude Go
   issuer: US_BANK
   network: VISA
@@ -4224,7 +4224,7 @@
       spend: 1000
       days: 120
       credits: []
-- id: ebf096c7caec6cb6c7c4025f0b5de955
+- id: 78726438553c1f6b63383f3bac6df57b
   name: Cash+
   issuer: US_BANK
   network: VISA
@@ -4248,7 +4248,7 @@
       spend: 1000
       credits: []
       days: 90
-- id: ebf096c7caec6cb6c7c4025f0b5de955
+- id: 6ad6818a9b47a8e42efd29440616e249
   name: FlexPerks Gold
   issuer: US_BANK
   network: AMERICAN_EXPRESS
@@ -4267,7 +4267,7 @@
       spend: 2000
       days: 120
       credits: []
-- id: ebf096c7caec6cb6c7c4025f0b5de955
+- id: 4899141df2aa46191c192c6f216b74cf
   name: Business Leverage
   issuer: US_BANK
   network: VISA
@@ -4292,7 +4292,7 @@
       spend: 7500
       credits: []
       days: 120
-- id: ebf096c7caec6cb6c7c4025f0b5de955
+- id: a9fe40efecc22039a980c039bb6841be
   name: Business Triple Cash Rewards
   issuer: US_BANK
   network: MASTERCARD
@@ -4316,7 +4316,7 @@
       spend: 6000
       days: 180
       credits: []
-- id: ebf096c7caec6cb6c7c4025f0b5de955
+- id: 90d9bd31d33bc6cfbdb1eb0962cbce57
   name: Skypass Blue
   issuer: US_BANK
   network: VISA
@@ -4340,7 +4340,7 @@
       spend: 1000
       days: 90
       credits: []
-- id: ebf096c7caec6cb6c7c4025f0b5de955
+- id: 824f4be5b9f38164fb8f44522467876e
   name: Skypass
   issuer: US_BANK
   network: VISA
@@ -4379,7 +4379,7 @@
       days: 90
       credits: []
       url: https://www.skypassvisa.com/credit/visaSignatureCard.do
-- id: ebf096c7caec6cb6c7c4025f0b5de955
+- id: aceef720d7ec6cf06ee46865fc39d612
   name: Skypass Select
   issuer: US_BANK
   network: VISA
@@ -4412,7 +4412,7 @@
       spend: 5000
       days: 90
       credits: []
-- id: ebf096c7caec6cb6c7c4025f0b5de955
+- id: cf146925642ec392eee6c924cfc7ec0d
   name: Skypass Business
   issuer: US_BANK
   network: VISA
@@ -4448,7 +4448,7 @@
       days: 90
       expiration: 2022-07-01
       credits: []
-- id: ebf096c7caec6cb6c7c4025f0b5de955
+- id: 8de694e89b9c26c9f72fc7450c66665b
   name: Shopper Cash Rewards
   issuer: US_BANK
   network: VISA
@@ -4472,7 +4472,7 @@
       spend: 2000
       days: 120
       credits: []
-- id: ebf096c7caec6cb6c7c4025f0b5de955
+- id: b32c686e5d27a02baecdf59bcb9437c9
   name: Smartly
   issuer: US_BANK
   network: VISA
@@ -4486,7 +4486,7 @@
   credits: []
   offers: []
   historicalOffers: []
-- id: fe30fc9556bf1027ac5924abb801d90f
+- id: 429640c66f9a2e3bd077978aa5a1f0aa
   name: Signify Business Cash
   issuer: WELLS_FARGO
   network: MASTERCARD
@@ -4510,7 +4510,7 @@
       spend: 5000
       days: 90
       credits: []
-- id: fe30fc9556bf1027ac5924abb801d90f
+- id: df2960b75b50536daa6e05a33479b198
   name: Active Cash
   issuer: WELLS_FARGO
   network: VISA
@@ -4534,7 +4534,7 @@
       spend: 2000
       days: 90
       credits: []
-- id: fe30fc9556bf1027ac5924abb801d90f
+- id: ce08e0bddd774433cb77be87f5d6af76
   name: Autograph
   issuer: WELLS_FARGO
   network: VISA
@@ -4559,7 +4559,7 @@
       days: 90
       credits: []
       expiration: 2023-01-01
-- id: fe30fc9556bf1027ac5924abb801d90f
+- id: d1fcd95962c94d1b56d691fda30acead
   name: Autograph Journey
   issuer: WELLS_FARGO
   network: VISA
@@ -4587,7 +4587,7 @@
       spend: 4000
       days: 90
       credits: []
-- id: fe30fc9556bf1027ac5924abb801d90f
+- id: 2745fd62ecf1bba1056f7933b1ab285e
   name: Choice Privileges
   issuer: WELLS_FARGO
   network: VISA
@@ -4611,7 +4611,7 @@
       spend: 1000
       days: 90
       credits: []
-- id: fe30fc9556bf1027ac5924abb801d90f
+- id: c68bed03d88b439b70c905e490757271
   name: Choice Privileges Select
   issuer: WELLS_FARGO
   network: VISA
@@ -4635,7 +4635,7 @@
       spend: 3000
       days: 90
       credits: []
-- id: fe30fc9556bf1027ac5924abb801d90f
+- id: c077a47639c7b47d1895200c72588ee3
   name: Bilt
   issuer: WELLS_FARGO
   network: MASTERCARD
@@ -4649,7 +4649,7 @@
   credits: []
   offers: []
   historicalOffers: []
-- id: fe30fc9556bf1027ac5924abb801d90f
+- id: 546dccf995e97f42d656d069c95efacf
   name: Expedia One Key
   issuer: WELLS_FARGO
   network: MASTERCARD
@@ -4674,7 +4674,7 @@
       spend: 1000
       days: 90
       credits: []
-- id: fe30fc9556bf1027ac5924abb801d90f
+- id: dfdf46ff6cbfcea7b738c7092e00af78
   name: Expedia One Key+
   issuer: WELLS_FARGO
   network: MASTERCARD
@@ -4705,7 +4705,7 @@
       spend: 1000
       days: 90
       credits: []
-- id: 982e3edf77ad42be670486c7b64ee190
+- id: eb105ba41f6ad2ea3b5f151f03f3dcfa
   name: Gemini
   issuer: WEB_BANK
   network: MASTERCARD

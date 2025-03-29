@@ -5,7 +5,7 @@ import { WEIGHTS } from "../weights.js";
 
 export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
-    id: "de34c9f31ae99ab87f64254a5e595253",
+    id: "3543149f6555df6f7e4974923c55d853",
     name: "AAdvantage Executive",
     issuer: schemas.IssuersEnum.enum.CITI,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -36,7 +36,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "de34c9f31ae99ab87f64254a5e595253",
+    id: "196b33e005dd1bc8e1c505f2bf98a1d1",
     name: "AAdvantage MileUp",
     issuer: schemas.IssuersEnum.enum.CITI,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -66,7 +66,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "de34c9f31ae99ab87f64254a5e595253",
+    id: "a497d6ba509538db9e3e4a3e5e313fe9",
     name: "AAdvantage Platinum Select",
     issuer: schemas.IssuersEnum.enum.CITI,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -103,7 +103,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "de34c9f31ae99ab87f64254a5e595253",
+    id: "f6ff3383cc6c52a81eb4715eb8d5de03",
     name: "AAdvantage Platinum Select Business",
     issuer: schemas.IssuersEnum.enum.CITI,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -139,7 +139,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "de34c9f31ae99ab87f64254a5e595253",
+    id: "06b9a384d710e73db7f0ded7613c9c4b",
     name: "Double Cash",
     issuer: schemas.IssuersEnum.enum.CITI,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -175,7 +175,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "de34c9f31ae99ab87f64254a5e595253",
+    id: "49fe6c73c0e823a89346979f50d5b981",
     name: "Custom Cash",
     issuer: schemas.IssuersEnum.enum.CITI,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -211,7 +211,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "de34c9f31ae99ab87f64254a5e595253",
+    id: "d7e2e5b5e595ca6510c101349c914513",
     name: "Strata Premier",
     issuer: schemas.IssuersEnum.enum.CITI,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -248,7 +248,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "de34c9f31ae99ab87f64254a5e595253",
+    id: "cbc737da5cbd44575dec6325bbbd8688",
     name: "Rewards+",
     issuer: schemas.IssuersEnum.enum.CITI,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -273,7 +273,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "de34c9f31ae99ab87f64254a5e595253",
+    id: "d4bbd57e45d6a6ddb445ddec4e781d7c",
     name: "AT&T Points Plus",
     issuer: schemas.IssuersEnum.enum.CITI,
     network: schemas.NetworksEnum.enum.MASTERCARD,

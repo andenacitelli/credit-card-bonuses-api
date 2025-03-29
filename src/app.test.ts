@@ -32,7 +32,7 @@ describe("Data Validity Checks", () => {
         for (const offer of card.offers) {
           if (offer.expiration) {
             expect(
-              isBefore(new Date(), new Date(offer.expiration))
+              isBefore(new Date(), new Date(offer.expiration)),
             ).toBeTruthy();
           }
         }
@@ -45,7 +45,7 @@ describe("Data Validity Checks", () => {
           if (offer.expiration) {
             // cannot mandate expiration b/c it's possible (and not uncommon) for a card to actively be at its all-time high
             expect(
-              differenceInYears(new Date(), new Date(offer.expiration))
+              differenceInYears(new Date(), new Date(offer.expiration)),
             ).toBeLessThanOrEqual(2);
           }
         }

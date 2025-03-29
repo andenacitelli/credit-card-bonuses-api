@@ -5,7 +5,7 @@ import { WEIGHTS } from "@/data/weights.js";
 
 export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
-    id: "f4f3f66f8b94cdb1b0c1fc6ccce9181f",
+    id: "66f7413248c7f2c61ce1e8008685eac2",
     name: "Quicksilver",
     issuer: schemas.IssuersEnum.enum.CAPITAL_ONE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -35,7 +35,7 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "c9a3de7e82160912a9d8b487be075de8",
+    id: "2d16431e0caee645b420cc3d3255b2ee",
     name: "Savor",
     issuer: schemas.IssuersEnum.enum.CAPITAL_ONE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -66,7 +66,7 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "8132178286448571fa0810bd0d7d0195",
+    id: "d4955a21df61a45ad86c3d60c58b91fc",
     name: "Spark 1.5% Cash Select",
     issuer: schemas.IssuersEnum.enum.CAPITAL_ONE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -96,7 +96,7 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "c63996d0f6e262280fa52d73071b006a",
+    id: "c8d364bb32a8d2f6a359cf57a5e58cde",
     name: "Spark 1.5% Miles Select",
     issuer: schemas.IssuersEnum.enum.CAPITAL_ONE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -126,7 +126,7 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "8d088cb560a1243fec20acf4ee4a5bc3",
+    id: "9bd7d14db16dcc106d2eb062b08bf15f",
     name: "Spark 2% Cash Plus",
     issuer: schemas.IssuersEnum.enum.CAPITAL_ONE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -159,7 +159,7 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "8d088cb560a1243fec20acf4ee4a5bc3",
+    id: "e48261ce7908f2ed8403245217f44de7",
     name: "Spark 2x Miles Plus",
     issuer: schemas.IssuersEnum.enum.CAPITAL_ONE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -183,7 +183,7 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "8d088cb560a1243fec20acf4ee4a5bc3",
+    id: "4a7a8036e514f187ca7c41b31925251e",
     name: "Venture Rewards",
     issuer: schemas.IssuersEnum.enum.CAPITAL_ONE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -254,7 +254,7 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "8d088cb560a1243fec20acf4ee4a5bc3",
+    id: "9aa036266b8cc7e7512a630efdecae0b",
     name: "Venture X",
     issuer: schemas.IssuersEnum.enum.CAPITAL_ONE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -307,7 +307,7 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "8d088cb560a1243fec20acf4ee4a5bc3",
+    id: "1d2ff07648fdd4b06d89ef0309f1c4cb",
     name: "Venture X Business",
     issuer: schemas.IssuersEnum.enum.CAPITAL_ONE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -349,7 +349,7 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "8d088cb560a1243fec20acf4ee4a5bc3",
+    id: "d0298263cc453d34160558a93fd1bcb2",
     name: "VentureOne",
     issuer: schemas.IssuersEnum.enum.CAPITAL_ONE,
     network: schemas.NetworksEnum.enum.VISA,

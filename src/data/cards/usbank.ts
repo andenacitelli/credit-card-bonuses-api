@@ -5,7 +5,7 @@ import { WEIGHTS } from "@/data/weights.js";
 
 export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
-    id: "ebf096c7caec6cb6c7c4025f0b5de955",
+    id: "3d777bda73262fa43b11626eb383f9ab",
     name: "Business Altitude Power",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -35,7 +35,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "ebf096c7caec6cb6c7c4025f0b5de955",
+    id: "1e6ddb097a524ce3b68719ae6c5eb1e8",
     name: "Business Altitude Connect",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -65,7 +65,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "ebf096c7caec6cb6c7c4025f0b5de955",
+    id: "9a35bfe5845f7f9909244b1e3549b7e1",
     name: "Altitude Connect",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.VISA,
@@ -96,7 +96,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "ebf096c7caec6cb6c7c4025f0b5de955",
+    id: "f81e751b8d46af2e7c84cc4cf4083dec",
     name: "Altitude Reserve",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.VISA,
@@ -114,7 +114,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     historicalOffers: [],
   },
   {
-    id: "ebf096c7caec6cb6c7c4025f0b5de955",
+    id: "b523a3cc7d6d355737b1c4dda1eb7a04",
     name: "Altitude Go",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.VISA,
@@ -145,7 +145,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "ebf096c7caec6cb6c7c4025f0b5de955",
+    id: "78726438553c1f6b63383f3bac6df57b",
     name: "Cash+",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.VISA,
@@ -175,7 +175,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "ebf096c7caec6cb6c7c4025f0b5de955",
+    id: "6ad6818a9b47a8e42efd29440616e249",
     name: "FlexPerks Gold",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -200,7 +200,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "ebf096c7caec6cb6c7c4025f0b5de955",
+    id: "4899141df2aa46191c192c6f216b74cf",
     name: "Business Leverage",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.VISA,
@@ -230,7 +230,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "ebf096c7caec6cb6c7c4025f0b5de955",
+    id: "a9fe40efecc22039a980c039bb6841be",
     name: "Business Triple Cash Rewards",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -260,7 +260,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "ebf096c7caec6cb6c7c4025f0b5de955",
+    id: "90d9bd31d33bc6cfbdb1eb0962cbce57",
     name: "Skypass Blue",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.VISA,
@@ -290,7 +290,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "ebf096c7caec6cb6c7c4025f0b5de955",
+    id: "824f4be5b9f38164fb8f44522467876e",
     name: "Skypass",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.VISA,
@@ -340,7 +340,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "ebf096c7caec6cb6c7c4025f0b5de955",
+    id: "aceef720d7ec6cf06ee46865fc39d612",
     name: "Skypass Select",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.VISA,
@@ -386,7 +386,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "ebf096c7caec6cb6c7c4025f0b5de955",
+    id: "cf146925642ec392eee6c924cfc7ec0d",
     name: "Skypass Business",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.VISA,
@@ -434,7 +434,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "ebf096c7caec6cb6c7c4025f0b5de955",
+    id: "8de694e89b9c26c9f72fc7450c66665b",
     name: "Shopper Cash Rewards",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.VISA,
@@ -464,7 +464,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "ebf096c7caec6cb6c7c4025f0b5de955",
+    id: "b32c686e5d27a02baecdf59bcb9437c9",
     name: "Smartly",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.VISA,
