@@ -2,6 +2,7 @@ import type { z } from "zod";
 
 import { schemas } from "@/generated/api.client.js";
 import { WEIGHTS } from "../weights.js";
+import { DISCONTINUED_OFFERS } from "../placeholder-offers.js";
 
 export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
@@ -316,15 +317,9 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     url: "",
     imageUrl: "",
     credits: [],
-    offers: [
-      {
-        // zero value placeholder required for it to work
-        amount: [{ amount: 0 }],
-        spend: 500,
-        credits: [],
-        days: 90,
-      },
-    ],
-    historicalOffers: [],
+
+    discontinued: true,
+    offers: DISCONTINUED_OFFERS,
+    historicalOffers: DISCONTINUED_OFFERS,
   },
 ];

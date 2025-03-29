@@ -191,6 +191,10 @@ components:
           description: An array of the best recent historical offers for the card. We define "recent" as within the last three years or so.
           items:
             $ref: "#/components/schemas/Offer"
+        discontinued:
+          type: boolean
+          description: Whether the card has been discontinued.
+          default: false
       required:
         - id
         - name
@@ -206,6 +210,7 @@ components:
         - credits
         - offers
         - historicalOffers
+        - discontinued
 
     # --- Enums --- #
     CurrenciesEnum:

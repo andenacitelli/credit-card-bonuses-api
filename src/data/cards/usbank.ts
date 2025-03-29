@@ -2,6 +2,7 @@ import type { z } from "zod";
 
 import { schemas } from "@/generated/api.client.js";
 import { WEIGHTS } from "@/data/weights.js";
+import { DISCONTINUED_OFFERS } from "../placeholder-offers.js";
 
 export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
@@ -476,9 +477,9 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     url: "https://www.usbank.com/credit-cards/bank-smartly-visa-signature-credit-card.html",
     imageUrl: "/images/usbank/smartly.webp",
     credits: [],
-    offers: [
-      // no current offers; it's an entry level card that likely won't have them anyway
-    ],
-    historicalOffers: [],
+
+    discontinued: true,
+    offers: DISCONTINUED_OFFERS,
+    historicalOffers: DISCONTINUED_OFFERS,
   },
 ];

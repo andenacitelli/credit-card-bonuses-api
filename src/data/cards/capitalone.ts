@@ -2,6 +2,7 @@ import type { z } from "zod";
 
 import { schemas } from "@/generated/api.client.js";
 import { WEIGHTS } from "@/data/weights.js";
+import { DISCONTINUED_OFFERS } from "../placeholder-offers.js";
 
 export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
@@ -81,16 +82,11 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     imageUrl: "/images/capitalone/savor.webp",
     details: "Previously SavorOne. Original Savor was discontinued.",
     credits: [],
-    offers: [
-      {
-        // zero value placeholder required for it to work
-        amount: [{ amount: 0 }],
-        spend: 500,
-        credits: [],
-        days: 90,
-      },
-    ],
-    historicalOffers: [],
+
+    // TODO: Technically not discontinued. Need to just altogether migrate these.
+    discontinued: true,
+    offers: DISCONTINUED_OFFERS,
+    historicalOffers: DISCONTINUED_OFFERS,
   },
   {
     id: "d4955a21df61a45ad86c3d60c58b91fc",

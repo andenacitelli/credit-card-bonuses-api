@@ -2393,7 +2393,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2419,7 +2419,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2444,7 +2444,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2472,7 +2472,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
       details: "NOTE: Points are nontransferable. Only cashback redemption."
   historicalOffers:
     - amount:
@@ -3193,13 +3193,14 @@
   imageUrl: /images/capitalone/savor.webp
   details: Previously SavorOne. Original Savor was discontinued.
   credits: []
-  offers:
+  discontinued: true
+  offers: &a2
     - amount:
         - amount: 0
-      spend: 500
-      credits: []
+      spend: 3000
       days: 90
-  historicalOffers: []
+      credits: []
+  historicalOffers: *a2
 - id: d4955a21df61a45ad86c3d60c58b91fc
   name: Spark 1.5% Cash Select
   issuer: CAPITAL_ONE
@@ -3685,13 +3686,9 @@
   url: ""
   imageUrl: ""
   credits: []
-  offers:
-    - amount:
-        - amount: 0
-      spend: 500
-      credits: []
-      days: 90
-  historicalOffers: []
+  discontinued: true
+  offers: *a2
+  historicalOffers: *a2
 - id: dae75a5609dea8f39f750f4b225d2c5c
   name: Discover It
   issuer: DISCOVER
@@ -4523,8 +4520,9 @@
   url: https://www.usbank.com/credit-cards/bank-smartly-visa-signature-credit-card.html
   imageUrl: /images/usbank/smartly.webp
   credits: []
-  offers: []
-  historicalOffers: []
+  discontinued: true
+  offers: *a2
+  historicalOffers: *a2
 - id: 429640c66f9a2e3bd077978aa5a1f0aa
   name: Signify Business Cash
   issuer: WELLS_FARGO
