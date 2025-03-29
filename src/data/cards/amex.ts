@@ -7,6 +7,7 @@ import { REFERRALS } from "../referral-links.js";
 
 export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
+    id: "8d9fc2c67c37a1da02cf8e69a0ae15c3",
     name: "Blue Business Cash",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -57,6 +58,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "8b2c2cf306dd26fc0210f1831929d815",
     name: "Blue Business Plus",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -93,6 +95,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "f311e22f1079c1e0d9ce5adafa7441a9",
     name: "Blue Cash Everyday",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -137,6 +140,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "39ce4dc5848b865b42318439e3aec462",
     name: "Blue Cash Preferred",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -174,6 +178,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "040ea30ce95bb2f633bf277b5486c070",
     name: "Blue Cash Preferred (Morgan Stanley)",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -211,6 +216,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "40d15eae9e6f6c6d61bee51f78ddd7e6",
     name: "Business Gold",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -248,6 +254,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "7dc4b19808b646af7357b8f9b2d3793a",
     name: "Business Green",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -284,6 +291,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "22f08cd774c49fabb1965b483a77be55",
     name: "Business Platinum",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -360,6 +368,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "c85226d6f8e6265e7162eb873ca84681",
     name: "Cash Magnet",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -397,6 +406,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Delta SkyMiles Blue",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -426,6 +436,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Delta SkyMiles Gold",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -462,6 +473,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Delta SkyMiles Gold Business",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -492,6 +504,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Delta SkyMiles Platinum",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -528,6 +541,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Delta SkyMiles Platinum Business",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -574,6 +588,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Delta SkyMiles Reserve",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -611,6 +626,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Delta SkyMiles Reserve Business",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -641,6 +657,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     // TODO: Currently discontinued, may be reintroduced
     name: "Everyday",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
@@ -657,6 +674,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     historicalOffers: [],
   },
   {
+    id: "",
     // TODO: Currently discontinued, may be reintroduced
     name: "Everyday Preferred",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
@@ -673,6 +691,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     historicalOffers: [],
   },
   {
+    id: "",
     name: "Gold",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -743,6 +762,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Green",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -784,6 +804,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Hilton Honors",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -815,6 +836,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Hilton Honors Aspire",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -852,6 +874,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Hilton Honors Business",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -889,6 +912,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Hilton Honors Surpass",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -920,6 +944,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Marriott Bonvoy Brilliant",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -957,6 +982,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Marriott Bonvoy Business",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -1013,6 +1039,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Platinum",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -1080,6 +1107,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Platinum (Schwab)",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -1141,6 +1169,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Platinum (Morgan Stanley)",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -1203,6 +1232,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Marriott Bonvoy Bevy",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -1234,6 +1264,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Lowes",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -1264,6 +1295,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Schwab Investor",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -1293,6 +1325,7 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Amazon Business",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,

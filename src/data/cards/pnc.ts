@@ -4,6 +4,7 @@ import { schemas } from "@/generated/api.client.js";
 
 export const PNC_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
+    id: "",
     name: "Cash Rewards Visa Signature Business",
     issuer: schemas.IssuersEnum.enum.PNC,
     network: schemas.NetworksEnum.enum.VISA,

@@ -5,6 +5,7 @@ import { WEIGHTS } from "@/data/weights.js";
 
 export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
+    id: "",
     name: "Air France KLM",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -43,6 +44,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Alaska Airlines",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.VISA,
@@ -107,6 +109,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Alaska Airlines Business",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.VISA,
@@ -153,6 +156,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Customized Cash Rewards",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.VISA,
@@ -182,6 +186,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Premium Rewards",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.VISA,
@@ -211,6 +216,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Premium Rewards Elite",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.VISA,
@@ -257,6 +263,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Travel Rewards",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.VISA,
@@ -286,6 +293,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Unlimited Cash Rewards",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.VISA,
@@ -315,6 +323,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Business Advantage Customized Cash",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -344,6 +353,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Business Advantage Unlimited Cash",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -373,6 +383,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Business Advantage Travel Rewards",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -402,6 +413,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Platinum Plus",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -431,6 +443,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Free Spirit",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.MASTERCARD,

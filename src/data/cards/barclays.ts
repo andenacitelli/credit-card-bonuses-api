@@ -5,6 +5,7 @@ import { WEIGHTS } from "../weights.js";
 
 export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
+    id: "",
     name: "AAdvantage Aviator Red World Elite",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -35,6 +36,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "AAdvantage Aviator World Elite Business",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -69,6 +71,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "AARP Essential Rewards",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -98,6 +101,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "AARP Travel Rewards",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -127,6 +131,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Carnival World Mastercard",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -165,6 +170,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Emirates Skywards Premium World Elite",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -194,6 +200,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Emirates Skywards Rewards World Elite",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -223,6 +230,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Frontier Airlines World",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -253,6 +261,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Hawaiian Airlines World Elite",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -282,6 +291,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "JetBlue",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -311,6 +321,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "JetBlue Business",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -347,6 +358,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "JetBlue Plus",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -377,6 +389,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "JetBlue Premier",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -423,6 +436,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Lufthansa Miles & More",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -452,6 +466,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Upromise",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -482,6 +497,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Wyndham Rewards Earner",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.VISA,
@@ -511,6 +527,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Wyndham Rewards Earner Business",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.VISA,
@@ -547,6 +564,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Wyndham Rewards Earner Plus",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.VISA,
@@ -583,6 +601,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Hawaiian Airlines World Elite Business",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -639,6 +658,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Breeze",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.VISA,
@@ -674,6 +694,7 @@ export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Xbox",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,

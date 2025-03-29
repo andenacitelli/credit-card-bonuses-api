@@ -7,6 +7,7 @@ import { WEIGHTS } from "@/data/weights.js";
 
 export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
+    id: "",
     name: "Marriott Bonvoy Bountiful",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -38,6 +39,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Aer Lingus Signature",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -75,6 +77,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Aeroplan",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -112,6 +115,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "British Airways Signature",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -149,6 +153,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Disney Premier",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -184,6 +189,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Disney",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -220,6 +226,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Freedom Flex",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -250,6 +257,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Freedom Unlimited",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -280,6 +288,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Iberia Signature",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -317,6 +326,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "IHG Rewards Premier",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -374,6 +384,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "IHG Rewards Premier Business",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -403,6 +414,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "IHG Rewards Traveler",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -432,6 +444,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Ink Business Cash",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -463,6 +476,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Ink Business Preferred",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -493,6 +507,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Ink Business Unlimited",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -525,6 +540,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Ink Business Premier",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -556,6 +572,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Marriott Bonvoy Bold",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -593,6 +610,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Marriott Bonvoy Boundless",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -645,6 +663,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Sapphire Preferred",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -683,6 +702,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Sapphire Reserve",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -727,6 +747,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Southwest Rapid Rewards Performance Business",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -768,6 +789,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Southwest Rapid Rewards Plus",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -799,6 +821,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Southwest Rapid Rewards Premier",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -830,6 +853,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Southwest Rapid Rewards Premier Business",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -866,6 +890,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Southwest Rapid Rewards Priority",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -903,6 +928,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "United Business",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -970,6 +996,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "United Club Infinite",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -1038,6 +1065,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "United Club Business",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -1105,6 +1133,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "United Explorer",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -1192,6 +1221,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "United Gateway",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -1224,6 +1254,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "United Quest",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -1293,6 +1324,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "World of Hyatt",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -1338,6 +1370,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "World of Hyatt Business",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -1375,6 +1408,7 @@ export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Amazon Prime",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,

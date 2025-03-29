@@ -5,6 +5,7 @@ import { WEIGHTS } from "../weights.js";
 
 export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
+    id: "",
     name: "AAdvantage Executive",
     issuer: schemas.IssuersEnum.enum.CITI,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -35,6 +36,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "AAdvantage MileUp",
     issuer: schemas.IssuersEnum.enum.CITI,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -64,6 +66,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "AAdvantage Platinum Select",
     issuer: schemas.IssuersEnum.enum.CITI,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -100,6 +103,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "AAdvantage Platinum Select Business",
     issuer: schemas.IssuersEnum.enum.CITI,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -135,6 +139,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Double Cash",
     issuer: schemas.IssuersEnum.enum.CITI,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -170,6 +175,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Custom Cash",
     issuer: schemas.IssuersEnum.enum.CITI,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -205,6 +211,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Strata Premier",
     issuer: schemas.IssuersEnum.enum.CITI,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -241,6 +248,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Rewards+",
     issuer: schemas.IssuersEnum.enum.CITI,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -265,6 +273,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "AT&T Points Plus",
     issuer: schemas.IssuersEnum.enum.CITI,
     network: schemas.NetworksEnum.enum.MASTERCARD,

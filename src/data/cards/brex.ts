@@ -4,6 +4,7 @@ import { schemas } from "@/generated/api.client.js";
 
 export const BREX_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
+    id: "",
     name: "Brex",
     issuer: schemas.IssuersEnum.enum.BREX,
     network: schemas.NetworksEnum.enum.MASTERCARD,

@@ -57,4 +57,16 @@ describe("Data Validity Checks", () => {
       expect(card.name).toBe(card.name.trim());
     });
   });
+
+  /**
+   * Enforce unique "constraint" on the `id` field, which is basically a database primary key
+   * I'm basically inadvertently using the name as the primary key rather than the id, which is brittle
+   */
+  describe("ID Constraints", () => {
+    test.each(inputs)("$name", ({ card }) => {
+      expect(CREDIT_CARDS.filter((c) => c.id === card.id).length).toBe(1); // unique
+      expect(card.id.length).toEqual("c9a3de7e82160912a9d8b487be075de8".length); // however many characters this is, dunno
+      expect(card.id).toBe(card.id.trim()); // trimmed
+    });
+  });
 });

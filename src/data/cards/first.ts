@@ -4,6 +4,7 @@ import { schemas } from "@/generated/api.client.js";
 
 export const FIRST_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
+    id: "",
     name: "LATAM Airlines",
     issuer: schemas.IssuersEnum.enum.FIRST,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -33,6 +34,7 @@ export const FIRST_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "LATAM Airlines World Elite",
     issuer: schemas.IssuersEnum.enum.FIRST,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -62,6 +64,7 @@ export const FIRST_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Cardless Qatar Signature",
     issuer: schemas.IssuersEnum.enum.FIRST,
     network: schemas.NetworksEnum.enum.VISA,
@@ -95,6 +98,7 @@ export const FIRST_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Cardless Qatar Infinite",
     issuer: schemas.IssuersEnum.enum.FIRST,
     network: schemas.NetworksEnum.enum.VISA,
@@ -128,6 +132,7 @@ export const FIRST_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Avianca LifeMiles",
     issuer: schemas.IssuersEnum.enum.FIRST,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -164,6 +169,7 @@ export const FIRST_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Avianca LifeMiles Elite",
     issuer: schemas.IssuersEnum.enum.FIRST,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -203,6 +209,7 @@ export const FIRST_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "ANA Card USA Plus",
     issuer: schemas.IssuersEnum.enum.FIRST,
     network: schemas.NetworksEnum.enum.VISA,

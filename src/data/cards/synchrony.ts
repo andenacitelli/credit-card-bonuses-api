@@ -4,6 +4,7 @@ import { schemas } from "@/generated/api.client.js";
 
 export const SYNCHRONY_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
+    id: "",
     name: "Cathay Pacific",
     issuer: schemas.IssuersEnum.enum.SYNCHRONY,
     network: schemas.NetworksEnum.enum.VISA,
@@ -28,6 +29,7 @@ export const SYNCHRONY_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "",
     name: "Virgin Red Rewards",
     issuer: schemas.IssuersEnum.enum.SYNCHRONY,
     network: schemas.NetworksEnum.enum.MASTERCARD,
