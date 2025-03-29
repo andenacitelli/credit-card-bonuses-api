@@ -2,7 +2,7 @@ import { schemas } from "@/generated/api.client.js";
 import { CreditCardInput } from "../types.js";
 export const SYNCHRONY_CARDS: Array<CreditCardInput> = [
   {
-    id: "0d2caa1705cde187692a28873930c605",
+    cardId: "0d2caa1705cde187692a28873930c605",
     name: "Cathay Pacific",
     issuer: schemas.IssuersEnum.enum.SYNCHRONY,
     network: schemas.NetworksEnum.enum.VISA,
@@ -27,7 +27,7 @@ export const SYNCHRONY_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "06b77b791c904e42695dd12747e89cd8",
+    cardId: "06b77b791c904e42695dd12747e89cd8",
     name: "Virgin Red Rewards",
     issuer: schemas.IssuersEnum.enum.SYNCHRONY,
     network: schemas.NetworksEnum.enum.MASTERCARD,

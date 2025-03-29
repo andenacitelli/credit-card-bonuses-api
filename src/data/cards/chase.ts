@@ -5,7 +5,7 @@ import { WEIGHTS } from "@/data/weights.js";
 import { CreditCardInput } from "../types.js";
 export const CHASE_CARDS: Array<CreditCardInput> = [
   {
-    id: "fb5e3887059d5d8600b2a5eaed7ddaf7",
+    cardId: "fb5e3887059d5d8600b2a5eaed7ddaf7",
     name: "Marriott Bonvoy Bountiful",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -37,7 +37,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "dcafcac45d86331a7f6b9cfdb980b81e",
+    cardId: "dcafcac45d86331a7f6b9cfdb980b81e",
     name: "Aer Lingus Signature",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -75,7 +75,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "7662e34a89a906b869b93bb12a2e1b3b",
+    cardId: "7662e34a89a906b869b93bb12a2e1b3b",
     name: "Aeroplan",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -113,7 +113,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "7b06f0b6a307509b71862ffa5933ef0b",
+    cardId: "7b06f0b6a307509b71862ffa5933ef0b",
     name: "British Airways Signature",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -151,7 +151,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "cd81837eb0aedd4752197e044e77381a",
+    cardId: "cd81837eb0aedd4752197e044e77381a",
     name: "Disney Premier",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -187,7 +187,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "12a1578aeb5bfcdd3bc794154ad1f6cc",
+    cardId: "12a1578aeb5bfcdd3bc794154ad1f6cc",
     name: "Disney",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -224,7 +224,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "6ba7f561f6a4f7f2934bec25bd9a3130",
+    cardId: "6ba7f561f6a4f7f2934bec25bd9a3130",
     name: "Freedom Flex",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -255,7 +255,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "3a9ea798ce73485fc8456280fd4b1816",
+    cardId: "3a9ea798ce73485fc8456280fd4b1816",
     name: "Freedom Unlimited",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -286,7 +286,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "60c2e7b4bc2e526bf38dac5be5f4433c",
+    cardId: "60c2e7b4bc2e526bf38dac5be5f4433c",
     name: "Iberia Signature",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -324,7 +324,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "40192e08e31f059d91a108ff09ec5dd5",
+    cardId: "40192e08e31f059d91a108ff09ec5dd5",
     name: "IHG Rewards Premier",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -382,7 +382,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "bc82fb7022c639f90b9378410127b9e6",
+    cardId: "bc82fb7022c639f90b9378410127b9e6",
     name: "IHG Rewards Premier Business",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -412,7 +412,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "2c6c7e215b4a1e791250d1fb48997e02",
+    cardId: "2c6c7e215b4a1e791250d1fb48997e02",
     name: "IHG Rewards Traveler",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -442,7 +442,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "8ec7f405d03afa62eaeea7e197a29e8a",
+    cardId: "8ec7f405d03afa62eaeea7e197a29e8a",
     name: "Ink Business Cash",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -474,7 +474,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "c80cdb77c3eda940e2a36abb4f943c69",
+    cardId: "c80cdb77c3eda940e2a36abb4f943c69",
     name: "Ink Business Preferred",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -505,7 +505,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "4a1c1e46f145b76fcc72ebd391fc5766",
+    cardId: "4a1c1e46f145b76fcc72ebd391fc5766",
     name: "Ink Business Unlimited",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -538,7 +538,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "94c9b624738adce05fbe0e5bfc5d620e",
+    cardId: "94c9b624738adce05fbe0e5bfc5d620e",
     name: "Ink Business Premier",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -570,7 +570,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "918c978a06c7c36f9a321b2efa0ff974",
+    cardId: "918c978a06c7c36f9a321b2efa0ff974",
     name: "Marriott Bonvoy Bold",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -608,7 +608,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "6a4a30b866d4d37216b9d586a15ad1cc",
+    cardId: "6a4a30b866d4d37216b9d586a15ad1cc",
     name: "Marriott Bonvoy Boundless",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -661,7 +661,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "57f8a819c3bb4c6aa494016703281f35",
+    cardId: "57f8a819c3bb4c6aa494016703281f35",
     name: "Sapphire Preferred",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -700,7 +700,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "77e3ef2fc9c35498ba1a3f46a63235cb",
+    cardId: "77e3ef2fc9c35498ba1a3f46a63235cb",
     name: "Sapphire Reserve",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -745,7 +745,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "682a4f0c425d15b5ca34214378cfc3de",
+    cardId: "682a4f0c425d15b5ca34214378cfc3de",
     name: "Southwest Rapid Rewards Performance Business",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -787,7 +787,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "32a0c8c7eda25330e2c176589e386d7f",
+    cardId: "32a0c8c7eda25330e2c176589e386d7f",
     name: "Southwest Rapid Rewards Plus",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -819,7 +819,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "76e73a4afe8dfc1f8f1be1e345d7eca8",
+    cardId: "76e73a4afe8dfc1f8f1be1e345d7eca8",
     name: "Southwest Rapid Rewards Premier",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -851,7 +851,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "f86d26bad5af78feff0335845003c47e",
+    cardId: "f86d26bad5af78feff0335845003c47e",
     name: "Southwest Rapid Rewards Premier Business",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -888,7 +888,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "169256a9988f3161381ee6a9ebe6667e",
+    cardId: "169256a9988f3161381ee6a9ebe6667e",
     name: "Southwest Rapid Rewards Priority",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -926,7 +926,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "8101f7827e3a1e797b09653f117b72d9",
+    cardId: "8101f7827e3a1e797b09653f117b72d9",
     name: "United Business",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -994,7 +994,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "d2517ce6b72999e14f50c399347100ed",
+    cardId: "d2517ce6b72999e14f50c399347100ed",
     name: "United Club Infinite",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -1063,7 +1063,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "80c6aca49a0e1442d51635c316f4a5ff",
+    cardId: "80c6aca49a0e1442d51635c316f4a5ff",
     name: "United Club Business",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -1131,7 +1131,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "85cd2b7d172e494eefad5b2ab012f21c",
+    cardId: "85cd2b7d172e494eefad5b2ab012f21c",
     name: "United Explorer",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -1219,7 +1219,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "4071699fe4b21cafb02cf8b2c9c57c86",
+    cardId: "4071699fe4b21cafb02cf8b2c9c57c86",
     name: "United Gateway",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -1252,7 +1252,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "34ab99720941eaa2a1671e5b3a996b19",
+    cardId: "34ab99720941eaa2a1671e5b3a996b19",
     name: "United Quest",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -1322,7 +1322,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "d378a38b56d4c9bd5e1ad184a6ce84f0",
+    cardId: "d378a38b56d4c9bd5e1ad184a6ce84f0",
     name: "World of Hyatt",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -1368,7 +1368,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "0d9d833e7298ab0f1892a4035686fa06",
+    cardId: "0d9d833e7298ab0f1892a4035686fa06",
     name: "World of Hyatt Business",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
@@ -1406,7 +1406,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "f4d8c429f58f9f74944a9108bcae4a22",
+    cardId: "f4d8c429f58f9f74944a9108bcae4a22",
     name: "Amazon Prime",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,

@@ -2,7 +2,7 @@ import { schemas } from "@/generated/api.client.js";
 import { CreditCardInput } from "../types.js";
 export const FNBO_CARDS: Array<CreditCardInput> = [
   {
-    id: "1f13c36d3b8218b1a22d5ab050d30b09",
+    cardId: "1f13c36d3b8218b1a22d5ab050d30b09",
     name: "Amtrak Guest Rewards",
     issuer: schemas.IssuersEnum.enum.FNBO,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -32,7 +32,7 @@ export const FNBO_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "4a2f48392c94bc6b0ef9b6d30153bddc",
+    cardId: "4a2f48392c94bc6b0ef9b6d30153bddc",
     name: "Amtrak Guest Rewards Preferred",
     issuer: schemas.IssuersEnum.enum.FNBO,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -62,7 +62,7 @@ export const FNBO_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "1b70fa39672eb066b7a3a5092888e7b2",
+    cardId: "1b70fa39672eb066b7a3a5092888e7b2",
     name: "Best Western Rewards",
     issuer: schemas.IssuersEnum.enum.FNBO,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -92,7 +92,7 @@ export const FNBO_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "cf10cfcfab787460b24ecbf8b76f7bdc",
+    cardId: "cf10cfcfab787460b24ecbf8b76f7bdc",
     name: "Best Western Rewards Premium",
     issuer: schemas.IssuersEnum.enum.FNBO,
     network: schemas.NetworksEnum.enum.MASTERCARD,

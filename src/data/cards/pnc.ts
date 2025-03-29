@@ -2,7 +2,7 @@ import { schemas } from "@/generated/api.client.js";
 import { CreditCardInput } from "../types.js";
 export const PNC_CARDS: Array<CreditCardInput> = [
   {
-    id: "dfaa58e5c67e69cb711960cfd4567f9c",
+    cardId: "dfaa58e5c67e69cb711960cfd4567f9c",
     name: "Cash Rewards Visa Signature Business",
     issuer: schemas.IssuersEnum.enum.PNC,
     network: schemas.NetworksEnum.enum.VISA,

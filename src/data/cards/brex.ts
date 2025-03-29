@@ -2,7 +2,7 @@ import { schemas } from "@/generated/api.client.js";
 import { CreditCardInput } from "../types.js";
 export const BREX_CARDS: Array<CreditCardInput> = [
   {
-    id: "be49d60cb01b9d5c3e919e6c570e9a48",
+    cardId: "be49d60cb01b9d5c3e919e6c570e9a48",
     name: "Brex",
     issuer: schemas.IssuersEnum.enum.BREX,
     network: schemas.NetworksEnum.enum.MASTERCARD,

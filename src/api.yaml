@@ -134,7 +134,7 @@ components:
     CreditCard:
       type: object
       properties:
-        id:
+        cardId:
           type: string
           description: A unique identifier for this card. Basically a primary key.
           example: "7501f96ab2cfc952c2ef9119"
@@ -199,7 +199,7 @@ components:
           description: Whether the card has been discontinued.
           default: false
       required:
-        - id
+        - cardId
         - name
         - issuer
         - network

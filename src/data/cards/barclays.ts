@@ -3,7 +3,7 @@ import { WEIGHTS } from "../weights.js";
 import { CreditCardInput } from "../types.js";
 export const BARCLAYS_CARDS: Array<CreditCardInput> = [
   {
-    id: "bb54057b74adc9514885254a82fd8634",
+    cardId: "bb54057b74adc9514885254a82fd8634",
     name: "AAdvantage Aviator Red World Elite",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -34,7 +34,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "4b3dee677718c19aace2e927e6e26704",
+    cardId: "4b3dee677718c19aace2e927e6e26704",
     name: "AAdvantage Aviator World Elite Business",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -69,7 +69,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "f2fcdd7db964fb3c55f6df704f5678c8",
+    cardId: "f2fcdd7db964fb3c55f6df704f5678c8",
     name: "AARP Essential Rewards",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -99,7 +99,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "fc80c887a321dde1faa7e9282c813683",
+    cardId: "fc80c887a321dde1faa7e9282c813683",
     name: "AARP Travel Rewards",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -129,7 +129,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "eddb365c3098a64170b9e4fb322b2a05",
+    cardId: "eddb365c3098a64170b9e4fb322b2a05",
     name: "Carnival World Mastercard",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -168,7 +168,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "990a75f557890d22402183b20a8fe09d",
+    cardId: "990a75f557890d22402183b20a8fe09d",
     name: "Emirates Skywards Premium World Elite",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -198,7 +198,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "e33253806e1da76436e527e3c7b6179d",
+    cardId: "e33253806e1da76436e527e3c7b6179d",
     name: "Emirates Skywards Rewards World Elite",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -228,7 +228,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "e33d8701c8e81d5befe82ec5ed5cda23",
+    cardId: "e33d8701c8e81d5befe82ec5ed5cda23",
     name: "Frontier Airlines World",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -259,7 +259,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "44effaf95f470d31302d6f366207a543",
+    cardId: "44effaf95f470d31302d6f366207a543",
     name: "Hawaiian Airlines World Elite",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -289,7 +289,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "d760441e47fada8604f084285fbaeb39",
+    cardId: "d760441e47fada8604f084285fbaeb39",
     name: "JetBlue",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -319,7 +319,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "499685453910108ad817d64f9728eb46",
+    cardId: "499685453910108ad817d64f9728eb46",
     name: "JetBlue Business",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -356,7 +356,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "fafac50a80daae929873eca389fafd15",
+    cardId: "fafac50a80daae929873eca389fafd15",
     name: "JetBlue Plus",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -387,7 +387,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "c7698b8b99a60ae3ccdd4d880ff5fe68",
+    cardId: "c7698b8b99a60ae3ccdd4d880ff5fe68",
     name: "JetBlue Premier",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -434,7 +434,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "fdd9a5b1485ab0f88d0abd28c32e3b89",
+    cardId: "fdd9a5b1485ab0f88d0abd28c32e3b89",
     name: "Lufthansa Miles & More",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -464,7 +464,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "d0fa846548af110fa31bc7bfa25828df",
+    cardId: "d0fa846548af110fa31bc7bfa25828df",
     name: "Upromise",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -495,7 +495,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "6496ff471ffd822105f59ea276547110",
+    cardId: "6496ff471ffd822105f59ea276547110",
     name: "Wyndham Rewards Earner",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.VISA,
@@ -525,7 +525,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "ba9027fba78b5ca88e4d9471aa9e31bd",
+    cardId: "ba9027fba78b5ca88e4d9471aa9e31bd",
     name: "Wyndham Rewards Earner Business",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.VISA,
@@ -562,7 +562,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "b910f422064772c65840288c632cf900",
+    cardId: "b910f422064772c65840288c632cf900",
     name: "Wyndham Rewards Earner Plus",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.VISA,
@@ -599,7 +599,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "9cbc127f6a0a485b64a7ddb5ed52d931",
+    cardId: "9cbc127f6a0a485b64a7ddb5ed52d931",
     name: "Hawaiian Airlines World Elite Business",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -656,7 +656,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "b52f6b684aec5d5b2465c27e6ccd1adc",
+    cardId: "b52f6b684aec5d5b2465c27e6ccd1adc",
     name: "Breeze",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.VISA,
@@ -692,7 +692,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "274b5ad3d42b14ff81fb588dd8938aa6",
+    cardId: "274b5ad3d42b14ff81fb588dd8938aa6",
     name: "Xbox",
     issuer: schemas.IssuersEnum.enum.BARCLAYS,
     network: schemas.NetworksEnum.enum.MASTERCARD,

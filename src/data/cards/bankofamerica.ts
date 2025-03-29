@@ -3,7 +3,7 @@ import { WEIGHTS } from "@/data/weights.js";
 import { CreditCardInput } from "../types.js";
 export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
   {
-    id: "f2d769efdbe2b9d8734787bc24297be6",
+    cardId: "f2d769efdbe2b9d8734787bc24297be6",
     name: "Air France KLM",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -42,7 +42,7 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "e0971b7dcda10c271490b0443da30484",
+    cardId: "e0971b7dcda10c271490b0443da30484",
     name: "Alaska Airlines",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.VISA,
@@ -107,7 +107,7 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "bdb66e9a6c5b5d1ccf5120a6c3e30851",
+    cardId: "bdb66e9a6c5b5d1ccf5120a6c3e30851",
     name: "Alaska Airlines Business",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.VISA,
@@ -154,7 +154,7 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "f2461735a56702c428c209486e2f9e55",
+    cardId: "f2461735a56702c428c209486e2f9e55",
     name: "Customized Cash Rewards",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.VISA,
@@ -184,7 +184,7 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "eb8bc1a6f86dc471aa0deeca619fbf59",
+    cardId: "eb8bc1a6f86dc471aa0deeca619fbf59",
     name: "Premium Rewards",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.VISA,
@@ -214,7 +214,7 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "20594480e9f5656485a12e13389f60c7",
+    cardId: "20594480e9f5656485a12e13389f60c7",
     name: "Premium Rewards Elite",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.VISA,
@@ -261,7 +261,7 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "fecfaab2c32f3edd5d97eafd8f3f19d6",
+    cardId: "fecfaab2c32f3edd5d97eafd8f3f19d6",
     name: "Travel Rewards",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.VISA,
@@ -291,7 +291,7 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "98db04658d4deee69293bd67bd2fd341",
+    cardId: "98db04658d4deee69293bd67bd2fd341",
     name: "Unlimited Cash Rewards",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.VISA,
@@ -321,7 +321,7 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "4f6d71dd4d06ff960cae0990b5efda21",
+    cardId: "4f6d71dd4d06ff960cae0990b5efda21",
     name: "Business Advantage Customized Cash",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -351,7 +351,7 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "a99aa675065459b90144275ac18d9ab1",
+    cardId: "a99aa675065459b90144275ac18d9ab1",
     name: "Business Advantage Unlimited Cash",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -381,7 +381,7 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "1e75cf9ca2ccded9a621d5e8f5630c3c",
+    cardId: "1e75cf9ca2ccded9a621d5e8f5630c3c",
     name: "Business Advantage Travel Rewards",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -411,7 +411,7 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "9dce80bda519a8616ca4eb288d7cc693",
+    cardId: "9dce80bda519a8616ca4eb288d7cc693",
     name: "Platinum Plus",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -441,7 +441,7 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
-    id: "541d121bd20b148d43a8c896d0de6830",
+    cardId: "541d121bd20b148d43a8c896d0de6830",
     name: "Free Spirit",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.MASTERCARD,
