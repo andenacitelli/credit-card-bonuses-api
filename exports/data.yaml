@@ -2393,7 +2393,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2419,7 +2419,7 @@
       spend: 8000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - amount:
         - amount: 120000
@@ -2444,7 +2444,7 @@
       spend: 6000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - amount:
         - amount: 90000
@@ -2472,7 +2472,7 @@
       spend: 10000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
       details: "NOTE: Points are nontransferable. Only cashback redemption."
   historicalOffers:
     - amount:
@@ -3653,6 +3653,34 @@
       spend: 1000
       days: 90
       credits: []
+- id: c908014aae7680e73d084b37698386b7
+  name: Premier
+  issuer: CITI
+  network: MASTERCARD
+  currency: USD
+  isBusiness: false
+  annualFee: 0
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: ""
+  imageUrl: ""
+  credits: []
+  offers: []
+  historicalOffers: []
+- id: c908014aae7680e73d084b37698386b7
+  name: Premier
+  issuer: CITI
+  network: MASTERCARD
+  currency: USD
+  isBusiness: false
+  annualFee: 0
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: ""
+  imageUrl: ""
+  credits: []
+  offers: []
+  historicalOffers: []
 - id: dae75a5609dea8f39f750f4b225d2c5c
   name: Discover It
   issuer: DISCOVER
