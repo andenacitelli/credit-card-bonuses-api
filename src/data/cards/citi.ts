@@ -316,24 +316,15 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     url: "",
     imageUrl: "",
     credits: [],
-    offers: [],
-    historicalOffers: [],
-  },
-  {
-    // discontinued; retained only so users that entered it don't break
-    id: "c908014aae7680e73d084b37698386b7",
-    name: "Premier",
-    issuer: schemas.IssuersEnum.enum.CITI,
-    network: schemas.NetworksEnum.enum.MASTERCARD,
-    currency: schemas.CurrenciesEnum.enum.USD,
-    isBusiness: false,
-    annualFee: 0,
-    isAnnualFeeWaived: false,
-    universalCashbackPercent: 1,
-    url: "",
-    imageUrl: "",
-    credits: [],
-    offers: [],
+    offers: [
+      {
+        // zero value placeholder required for it to work
+        amount: [{ amount: 0 }],
+        spend: 500,
+        credits: [],
+        days: 90,
+      },
+    ],
     historicalOffers: [],
   },
 ];

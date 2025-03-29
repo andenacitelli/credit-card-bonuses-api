@@ -81,7 +81,15 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
     imageUrl: "/images/capitalone/savor.webp",
     details: "Previously SavorOne. Original Savor was discontinued.",
     credits: [],
-    offers: [],
+    offers: [
+      {
+        // zero value placeholder required for it to work
+        amount: [{ amount: 0 }],
+        spend: 500,
+        credits: [],
+        days: 90,
+      },
+    ],
     historicalOffers: [],
   },
   {
