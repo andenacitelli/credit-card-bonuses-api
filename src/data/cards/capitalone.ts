@@ -2,7 +2,6 @@ import type { z } from "zod";
 
 import { schemas } from "@/generated/api.client.js";
 import { WEIGHTS } from "@/data/weights.js";
-import { DISCONTINUED_OFFERS } from "../placeholder-offers.js";
 
 export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
@@ -65,28 +64,6 @@ export const CAPITAL_ONE_CARDS: z.input<typeof schemas.CreditCard>[] = [
         days: 90,
       },
     ],
-  },
-  {
-    // discontinued, retained only for users that entered it prior
-    // TODO: Migrate those users to Savor, which this card turned into
-    id: "bbb0be66d08bfce0af149a81a4e873df",
-    name: "SavorOne",
-    issuer: schemas.IssuersEnum.enum.CAPITAL_ONE,
-    network: schemas.NetworksEnum.enum.VISA,
-    currency: schemas.CurrenciesEnum.enum.USD,
-    isBusiness: false,
-    annualFee: 0,
-    isAnnualFeeWaived: false,
-    universalCashbackPercent: 1,
-    url: "https://www.capitalone.com/credit-cards/savorone-dining-rewards/",
-    imageUrl: "/images/capitalone/savor.webp",
-    details: "Previously SavorOne. Original Savor was discontinued.",
-    credits: [],
-
-    // TODO: Technically not discontinued. Need to just altogether migrate these.
-    discontinued: true,
-    offers: DISCONTINUED_OFFERS,
-    historicalOffers: DISCONTINUED_OFFERS,
   },
   {
     id: "d4955a21df61a45ad86c3d60c58b91fc",

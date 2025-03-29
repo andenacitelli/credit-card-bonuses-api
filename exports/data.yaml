@@ -3180,27 +3180,6 @@
       spend: 500
       credits: []
       days: 90
-- id: bbb0be66d08bfce0af149a81a4e873df
-  name: SavorOne
-  issuer: CAPITAL_ONE
-  network: VISA
-  currency: USD
-  isBusiness: false
-  annualFee: 0
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://www.capitalone.com/credit-cards/savorone-dining-rewards/
-  imageUrl: /images/capitalone/savor.webp
-  details: Previously SavorOne. Original Savor was discontinued.
-  credits: []
-  discontinued: true
-  offers: &a2
-    - amount:
-        - amount: 0
-      spend: 3000
-      days: 90
-      credits: []
-  historicalOffers: *a2
 - id: d4955a21df61a45ad86c3d60c58b91fc
   name: Spark 1.5% Cash Select
   issuer: CAPITAL_ONE
@@ -3687,7 +3666,12 @@
   imageUrl: ""
   credits: []
   discontinued: true
-  offers: *a2
+  offers: &a2
+    - amount:
+        - amount: 0
+      spend: 3000
+      days: 90
+      credits: []
   historicalOffers: *a2
 - id: dae75a5609dea8f39f750f4b225d2c5c
   name: Discover It
