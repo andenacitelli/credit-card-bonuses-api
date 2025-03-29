@@ -1,6 +1,6 @@
-import type { z } from "zod";
+import { z } from "zod";
 
-import type { schemas } from "../generated/api.client.js";
+import { schemas } from "../generated/api.client.js";
 import { AMERICAN_EXPRESS_CARDS } from "@/data/cards/amex.js";
 import { BANK_OF_AMERICA_CARDS } from "@/data/cards/bankofamerica.js";
 import { BARCLAYS_CARDS } from "@/data/cards/barclays.js";
@@ -17,22 +17,25 @@ import { US_BANK_CARDS } from "@/data/cards/usbank.js";
 import { WELLS_FARGO_CARDS } from "@/data/cards/wellsfargo.js";
 import { DISCOVER_CARDS } from "./cards/discover.js";
 import { WEB_BANK_CARDS } from "./cards/web-bank.js";
+import { CreditCard } from "./types.js";
 
-export const CREDIT_CARDS: z.input<typeof schemas.CreditCard>[] = [
-  ...AMERICAN_EXPRESS_CARDS,
-  ...BANK_OF_AMERICA_CARDS,
-  ...BARCLAYS_CARDS,
-  ...BREX_CARDS,
-  ...CHASE_CARDS,
-  ...CAPITAL_ONE_CARDS,
-  ...CITI_CARDS,
-  ...DISCOVER_CARDS,
-  ...FIRST_CARDS,
-  ...FNBO_CARDS,
-  ...PENFED_CARDS,
-  ...PNC_CARDS,
-  ...SYNCHRONY_CARDS,
-  ...US_BANK_CARDS,
-  ...WELLS_FARGO_CARDS,
-  ...WEB_BANK_CARDS,
-];
+export const CREDIT_CARDS: Array<CreditCard> = z
+  .array(schemas.CreditCard)
+  .parse([
+    ...AMERICAN_EXPRESS_CARDS,
+    ...BANK_OF_AMERICA_CARDS,
+    ...BARCLAYS_CARDS,
+    ...BREX_CARDS,
+    ...CHASE_CARDS,
+    ...CAPITAL_ONE_CARDS,
+    ...CITI_CARDS,
+    ...DISCOVER_CARDS,
+    ...FIRST_CARDS,
+    ...FNBO_CARDS,
+    ...PENFED_CARDS,
+    ...PNC_CARDS,
+    ...SYNCHRONY_CARDS,
+    ...US_BANK_CARDS,
+    ...WELLS_FARGO_CARDS,
+    ...WEB_BANK_CARDS,
+  ]);

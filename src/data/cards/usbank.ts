@@ -1,10 +1,9 @@
-import type { z } from "zod";
-
+import { CreditCardInput } from "../types.js";
 import { schemas } from "@/generated/api.client.js";
 import { WEIGHTS } from "@/data/weights.js";
 import { DISCONTINUED_OFFERS } from "../placeholder-offers.js";
 
-export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
+export const US_BANK_CARDS: Array<CreditCardInput> = [
   {
     id: "3d777bda73262fa43b11626eb383f9ab",
     name: "Business Altitude Power",

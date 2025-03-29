@@ -1,6 +1,5 @@
 import type { schemas } from "@/generated/api.client.js";
-import type { z } from "zod";
-
+import { z } from "zod";
 /**
  * I can't clean up discontinued cards properly yet, so this placeholder offer will have to do
  */

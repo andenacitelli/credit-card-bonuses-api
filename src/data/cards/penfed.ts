@@ -1,8 +1,6 @@
-import type { z } from "zod";
-
 import { schemas } from "@/generated/api.client.js";
-
-export const PENFED_CARDS: z.input<typeof schemas.CreditCard>[] = [
+import { CreditCardInput } from "../types.js";
+export const PENFED_CARDS: Array<CreditCardInput> = [
   {
     id: "879d4dccd8e59ba55a3a688adeb2c773",
     name: "Power Cash Rewards",

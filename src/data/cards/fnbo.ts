@@ -1,8 +1,6 @@
-import type { z } from "zod";
-
 import { schemas } from "@/generated/api.client.js";
-
-export const FNBO_CARDS: z.input<typeof schemas.CreditCard>[] = [
+import { CreditCardInput } from "../types.js";
+export const FNBO_CARDS: Array<CreditCardInput> = [
   {
     id: "1f13c36d3b8218b1a22d5ab050d30b09",
     name: "Amtrak Guest Rewards",

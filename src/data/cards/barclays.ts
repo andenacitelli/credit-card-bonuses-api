@@ -1,9 +1,7 @@
-import type { z } from "zod";
-
 import { schemas } from "@/generated/api.client.js";
 import { WEIGHTS } from "../weights.js";
-
-export const BARCLAYS_CARDS: z.input<typeof schemas.CreditCard>[] = [
+import { CreditCardInput } from "../types.js";
+export const BARCLAYS_CARDS: Array<CreditCardInput> = [
   {
     id: "bb54057b74adc9514885254a82fd8634",
     name: "AAdvantage Aviator Red World Elite",

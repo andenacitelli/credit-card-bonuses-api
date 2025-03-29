@@ -1,11 +1,11 @@
-import type { z } from "zod";
-
 import { schemas } from "@/generated/api.client.js";
 import { WEIGHTS } from "@/data/weights.js";
 import { CREDITS } from "../credits.js";
 import { REFERRALS } from "../referral-links.js";
+import { DISCONTINUED_OFFERS } from "../placeholder-offers.js";
+import { CreditCardInput } from "../types.js";
 
-export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
+export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
   {
     id: "a37efd1da4e7f0d468c87d3b6f021250",
     name: "Blue Business Cash",
@@ -670,8 +670,10 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     url: "https://global.americanexpress.com/card-benefits/view-all/amex-everyday",
     imageUrl: "/images/amex/everyday.png",
     credits: [],
-    offers: [],
-    historicalOffers: [],
+
+    discontinued: true,
+    offers: DISCONTINUED_OFFERS,
+    historicalOffers: DISCONTINUED_OFFERS,
   },
   {
     id: "84c122e1077e2929b1f563bd143ce82e",
@@ -687,8 +689,10 @@ export const AMERICAN_EXPRESS_CARDS: z.input<typeof schemas.CreditCard>[] = [
     url: "https://www.americanexpress.com/us/credit-cards/card/amex-everyday-preferred/",
     imageUrl: "/images/amex/everyday-preferred.jpg",
     credits: [],
-    offers: [],
-    historicalOffers: [],
+
+    discontinued: true,
+    offers: DISCONTINUED_OFFERS,
+    historicalOffers: DISCONTINUED_OFFERS,
   },
   {
     id: "cafe43d37256bec116dff4be6cced2cf",

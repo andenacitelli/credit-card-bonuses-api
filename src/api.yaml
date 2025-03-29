@@ -182,15 +182,18 @@ components:
           type: array
           items:
             $ref: "#/components/schemas/Credit"
+          default: []
         offers:
           type: array
           items:
             $ref: "#/components/schemas/Offer"
+          default: []
         historicalOffers:
           type: array
           description: An array of the best recent historical offers for the card. We define "recent" as within the last three years or so.
           items:
             $ref: "#/components/schemas/Offer"
+          default: []
         discontinued:
           type: boolean
           description: Whether the card has been discontinued.

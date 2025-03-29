@@ -1,30 +1,6 @@
-import type { z } from "zod";
-
+import { CreditCard } from "./data/types.js";
 import { schemas } from "./generated/api.client.js";
-
-export const CSV_COLUMN_ORDER = [
-  "name",
-  "issuer",
-  "network",
-  "currency",
-  "offerAmount",
-  "offerSpend",
-  "offerDays",
-  "offerUrl",
-  "countsTowards524",
-  "details",
-  "isBusiness",
-  "annualFee",
-  "isAnnualFeeWaived",
-  "universalCashbackPercent",
-  "url",
-  "imageUrl",
-  "credits",
-];
-
-export const cardToDumpableObjects = (
-  card: z.input<typeof schemas.CreditCard>,
-): object[] => {
+export const cardToDumpableObjects = (card: CreditCard): object[] => {
   return card.offers.map((offer) => {
     if (!offer.amount[0]) {
       throw new Error(

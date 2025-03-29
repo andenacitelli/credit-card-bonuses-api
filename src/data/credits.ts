@@ -1,7 +1,6 @@
 import { WEIGHTS } from "./weights.js";
 import type { schemas } from "@/generated/api.client.js";
-import type { z } from "zod";
-
+import { z } from "zod";
 /**
  * Credits generally consistent across cards.
  * Sourcing from one place to promote code reuse and consistency.

@@ -1,9 +1,7 @@
-import type { z } from "zod";
-
 import { schemas } from "@/generated/api.client.js";
 import { WEIGHTS } from "../weights.js";
-
-export const WELLS_FARGO_CARDS: z.input<typeof schemas.CreditCard>[] = [
+import { CreditCardInput } from "../types.js";
+export const WELLS_FARGO_CARDS: Array<CreditCardInput> = [
   {
     id: "429640c66f9a2e3bd077978aa5a1f0aa",
     name: "Signify Business Cash",

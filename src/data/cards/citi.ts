@@ -1,10 +1,8 @@
-import type { z } from "zod";
-
 import { schemas } from "@/generated/api.client.js";
 import { WEIGHTS } from "../weights.js";
 import { DISCONTINUED_OFFERS } from "../placeholder-offers.js";
-
-export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
+import { CreditCardInput } from "../types.js";
+export const CITI_CARDS: Array<CreditCardInput> = [
   {
     id: "3543149f6555df6f7e4974923c55d853",
     name: "AAdvantage Executive",

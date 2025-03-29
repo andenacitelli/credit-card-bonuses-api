@@ -1,9 +1,7 @@
-import type { z } from "zod";
-
 import { schemas } from "@/generated/api.client.js";
 import { WEIGHTS } from "@/data/weights.js";
-
-export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
+import { CreditCardInput } from "../types.js";
+export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
   {
     id: "f2d769efdbe2b9d8734787bc24297be6",
     name: "Air France KLM",

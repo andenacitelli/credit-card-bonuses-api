@@ -1,9 +1,7 @@
-import type { z } from "zod";
-
 import { schemas } from "@/generated/api.client.js";
 import { REFERRALS } from "../referral-links.js";
-
-export const DISCOVER_CARDS: z.input<typeof schemas.CreditCard>[] = [
+import { CreditCardInput } from "../types.js";
+export const DISCOVER_CARDS: Array<CreditCardInput> = [
   {
     id: "dae75a5609dea8f39f750f4b225d2c5c",
     name: "Discover It",

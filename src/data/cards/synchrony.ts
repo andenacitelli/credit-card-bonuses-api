@@ -1,8 +1,6 @@
-import type { z } from "zod";
-
 import { schemas } from "@/generated/api.client.js";
-
-export const SYNCHRONY_CARDS: z.input<typeof schemas.CreditCard>[] = [
+import { CreditCardInput } from "../types.js";
+export const SYNCHRONY_CARDS: Array<CreditCardInput> = [
   {
     id: "0d2caa1705cde187692a28873930c605",
     name: "Cathay Pacific",

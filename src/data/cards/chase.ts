@@ -1,11 +1,9 @@
-import type { z } from "zod";
-
 import { REFERRALS } from "@/data/referral-links.js";
 
 import { schemas } from "@/generated/api.client.js";
 import { WEIGHTS } from "@/data/weights.js";
-
-export const CHASE_CARDS: z.input<typeof schemas.CreditCard>[] = [
+import { CreditCardInput } from "../types.js";
+export const CHASE_CARDS: Array<CreditCardInput> = [
   {
     id: "fb5e3887059d5d8600b2a5eaed7ddaf7",
     name: "Marriott Bonvoy Bountiful",

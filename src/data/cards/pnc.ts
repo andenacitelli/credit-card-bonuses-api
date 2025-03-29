@@ -1,8 +1,6 @@
-import type { z } from "zod";
-
 import { schemas } from "@/generated/api.client.js";
-
-export const PNC_CARDS: z.input<typeof schemas.CreditCard>[] = [
+import { CreditCardInput } from "../types.js";
+export const PNC_CARDS: Array<CreditCardInput> = [
   {
     id: "dfaa58e5c67e69cb711960cfd4567f9c",
     name: "Cash Rewards Visa Signature Business",

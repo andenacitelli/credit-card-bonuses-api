@@ -1,8 +1,6 @@
-import type { z } from "zod";
-
 import { schemas } from "@/generated/api.client.js";
-
-export const WEB_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
+import { CreditCardInput } from "../types.js";
+export const WEB_BANK_CARDS: Array<CreditCardInput> = [
   {
     id: "eb105ba41f6ad2ea3b5f151f03f3dcfa",
     name: "Gemini",

@@ -9,5 +9,8 @@ jobs:
       - uses: jdx/mise-action@v2
       - run: pnpm i
       - run: pnpm generate
-      - run: pnpm lint
+      - run: pnpm exec -- depcheck
+      - run: pnpm exec -- prettier --check .
+      - run: pnpm exec -- eslint .
+      - run: pnpm exec -- tsc --noEmit
       - run: pnpm test
