@@ -5,6 +5,7 @@ import { REFERRALS } from "../referral-links.js";
 
 export const DISCOVER_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
+    id: "dae75a5609dea8f39f750f4b225d2c5c",
     name: "Discover It",
     issuer: schemas.IssuersEnum.enum.DISCOVER,
     network: schemas.NetworksEnum.enum.DISCOVER,

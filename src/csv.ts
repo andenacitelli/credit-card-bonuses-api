@@ -23,12 +23,12 @@ export const CSV_COLUMN_ORDER = [
 ];
 
 export const cardToDumpableObjects = (
-  card: z.input<typeof schemas.CreditCard>
+  card: z.input<typeof schemas.CreditCard>,
 ): object[] => {
   return card.offers.map((offer) => {
     if (!offer.amount[0]) {
       throw new Error(
-        `Unable to parse card ${card.issuer} ${card.name} into csv due to no amounts!`
+        `Unable to parse card ${card.issuer} ${card.name} into csv due to no amounts!`,
       );
     }
     return {

@@ -134,6 +134,11 @@ components:
     CreditCard:
       type: object
       properties:
+        id:
+          type: string
+          description: A unique identifier for this card. Basically a primary key.
+          example: "7501f96ab2cfc952c2ef9119"
+          minLength: 1
         name:
           type: string
           description: The name of the card. Does not include the issuer.
@@ -187,6 +192,7 @@ components:
           items:
             $ref: "#/components/schemas/Offer"
       required:
+        - id
         - name
         - issuer
         - network

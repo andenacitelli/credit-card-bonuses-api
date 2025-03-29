@@ -10,7 +10,7 @@ export function getDataInCsvFormat(): string {
         accumulator.push(offer);
       }
       return accumulator;
-    }, [] as object[])
+    }, [] as object[]),
   );
 }
 

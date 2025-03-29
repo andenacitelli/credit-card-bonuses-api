@@ -5,6 +5,7 @@ import { WEIGHTS } from "../weights.js";
 
 export const WELLS_FARGO_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
+    id: "429640c66f9a2e3bd077978aa5a1f0aa",
     name: "Signify Business Cash",
     issuer: schemas.IssuersEnum.enum.WELLS_FARGO,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -34,6 +35,7 @@ export const WELLS_FARGO_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "df2960b75b50536daa6e05a33479b198",
     name: "Active Cash",
     issuer: schemas.IssuersEnum.enum.WELLS_FARGO,
     network: schemas.NetworksEnum.enum.VISA,
@@ -63,6 +65,7 @@ export const WELLS_FARGO_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "ce08e0bddd774433cb77be87f5d6af76",
     name: "Autograph",
     issuer: schemas.IssuersEnum.enum.WELLS_FARGO,
     network: schemas.NetworksEnum.enum.VISA,
@@ -93,6 +96,7 @@ export const WELLS_FARGO_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "d1fcd95962c94d1b56d691fda30acead",
     name: "Autograph Journey",
     issuer: schemas.IssuersEnum.enum.WELLS_FARGO,
     network: schemas.NetworksEnum.enum.VISA,
@@ -129,6 +133,7 @@ export const WELLS_FARGO_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "2745fd62ecf1bba1056f7933b1ab285e",
     name: "Choice Privileges",
     issuer: schemas.IssuersEnum.enum.WELLS_FARGO,
     network: schemas.NetworksEnum.enum.VISA,
@@ -158,6 +163,7 @@ export const WELLS_FARGO_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "c68bed03d88b439b70c905e490757271",
     name: "Choice Privileges Select",
     issuer: schemas.IssuersEnum.enum.WELLS_FARGO,
     network: schemas.NetworksEnum.enum.VISA,
@@ -187,6 +193,7 @@ export const WELLS_FARGO_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "c077a47639c7b47d1895200c72588ee3",
     name: "Bilt",
     issuer: schemas.IssuersEnum.enum.WELLS_FARGO,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -204,6 +211,7 @@ export const WELLS_FARGO_CARDS: z.input<typeof schemas.CreditCard>[] = [
     historicalOffers: [],
   },
   {
+    id: "546dccf995e97f42d656d069c95efacf",
     name: "Expedia One Key",
     issuer: schemas.IssuersEnum.enum.WELLS_FARGO,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -235,6 +243,7 @@ export const WELLS_FARGO_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
+    id: "dfdf46ff6cbfcea7b738c7092e00af78",
     name: "Expedia One Key+",
     issuer: schemas.IssuersEnum.enum.WELLS_FARGO,
     network: schemas.NetworksEnum.enum.MASTERCARD,
