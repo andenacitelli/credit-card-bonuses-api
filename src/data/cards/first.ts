@@ -4,7 +4,7 @@ import { schemas } from "@/generated/api.client.js";
 
 export const FIRST_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
-    id: "",
+    id: "a7f610e8c06a78c5e4898985c0afe019",
     name: "LATAM Airlines",
     issuer: schemas.IssuersEnum.enum.FIRST,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -34,7 +34,7 @@ export const FIRST_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "a7f610e8c06a78c5e4898985c0afe019",
     name: "LATAM Airlines World Elite",
     issuer: schemas.IssuersEnum.enum.FIRST,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -64,7 +64,7 @@ export const FIRST_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "a7f610e8c06a78c5e4898985c0afe019",
     name: "Cardless Qatar Signature",
     issuer: schemas.IssuersEnum.enum.FIRST,
     network: schemas.NetworksEnum.enum.VISA,
@@ -98,7 +98,7 @@ export const FIRST_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "a7f610e8c06a78c5e4898985c0afe019",
     name: "Cardless Qatar Infinite",
     issuer: schemas.IssuersEnum.enum.FIRST,
     network: schemas.NetworksEnum.enum.VISA,
@@ -132,7 +132,7 @@ export const FIRST_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "a7f610e8c06a78c5e4898985c0afe019",
     name: "Avianca LifeMiles",
     issuer: schemas.IssuersEnum.enum.FIRST,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -169,7 +169,7 @@ export const FIRST_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "a7f610e8c06a78c5e4898985c0afe019",
     name: "Avianca LifeMiles Elite",
     issuer: schemas.IssuersEnum.enum.FIRST,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -209,7 +209,7 @@ export const FIRST_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "a7f610e8c06a78c5e4898985c0afe019",
     name: "ANA Card USA Plus",
     issuer: schemas.IssuersEnum.enum.FIRST,
     network: schemas.NetworksEnum.enum.VISA,

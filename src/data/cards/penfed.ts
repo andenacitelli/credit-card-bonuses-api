@@ -4,7 +4,7 @@ import { schemas } from "@/generated/api.client.js";
 
 export const PENFED_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
-    id: "",
+    id: "e8a756a7fb8df994dda80764619e4518",
     name: "Power Cash Rewards",
     issuer: schemas.IssuersEnum.enum.PENFED,
     network: schemas.NetworksEnum.enum.VISA,
@@ -34,7 +34,7 @@ export const PENFED_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "e8a756a7fb8df994dda80764619e4518",
     name: "Platinum Rewards",
     issuer: schemas.IssuersEnum.enum.PENFED,
     network: schemas.NetworksEnum.enum.VISA,
@@ -64,7 +64,7 @@ export const PENFED_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "e8a756a7fb8df994dda80764619e4518",
     name: "Pathfinder",
     issuer: schemas.IssuersEnum.enum.PENFED,
     network: schemas.NetworksEnum.enum.VISA,

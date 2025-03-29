@@ -5,7 +5,7 @@ import { WEIGHTS } from "../weights.js";
 
 export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
-    id: "",
+    id: "de34c9f31ae99ab87f64254a5e595253",
     name: "AAdvantage Executive",
     issuer: schemas.IssuersEnum.enum.CITI,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -36,7 +36,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "de34c9f31ae99ab87f64254a5e595253",
     name: "AAdvantage MileUp",
     issuer: schemas.IssuersEnum.enum.CITI,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -66,7 +66,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "de34c9f31ae99ab87f64254a5e595253",
     name: "AAdvantage Platinum Select",
     issuer: schemas.IssuersEnum.enum.CITI,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -103,7 +103,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "de34c9f31ae99ab87f64254a5e595253",
     name: "AAdvantage Platinum Select Business",
     issuer: schemas.IssuersEnum.enum.CITI,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -139,7 +139,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "de34c9f31ae99ab87f64254a5e595253",
     name: "Double Cash",
     issuer: schemas.IssuersEnum.enum.CITI,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -175,7 +175,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "de34c9f31ae99ab87f64254a5e595253",
     name: "Custom Cash",
     issuer: schemas.IssuersEnum.enum.CITI,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -211,7 +211,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "de34c9f31ae99ab87f64254a5e595253",
     name: "Strata Premier",
     issuer: schemas.IssuersEnum.enum.CITI,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -248,7 +248,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "de34c9f31ae99ab87f64254a5e595253",
     name: "Rewards+",
     issuer: schemas.IssuersEnum.enum.CITI,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -273,7 +273,7 @@ export const CITI_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "de34c9f31ae99ab87f64254a5e595253",
     name: "AT&T Points Plus",
     issuer: schemas.IssuersEnum.enum.CITI,
     network: schemas.NetworksEnum.enum.MASTERCARD,

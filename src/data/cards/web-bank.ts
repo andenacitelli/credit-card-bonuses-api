@@ -4,7 +4,7 @@ import { schemas } from "@/generated/api.client.js";
 
 export const WEB_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
-    id: "",
+    id: "982e3edf77ad42be670486c7b64ee190",
     name: "Gemini",
     issuer: schemas.IssuersEnum.enum.WEB_BANK,
     network: schemas.NetworksEnum.enum.MASTERCARD,

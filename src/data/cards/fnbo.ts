@@ -4,7 +4,7 @@ import { schemas } from "@/generated/api.client.js";
 
 export const FNBO_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
-    id: "",
+    id: "243b05e39ce477935452f0b50ed70beb",
     name: "Amtrak Guest Rewards",
     issuer: schemas.IssuersEnum.enum.FNBO,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -34,7 +34,7 @@ export const FNBO_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "243b05e39ce477935452f0b50ed70beb",
     name: "Amtrak Guest Rewards Preferred",
     issuer: schemas.IssuersEnum.enum.FNBO,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -64,7 +64,7 @@ export const FNBO_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "243b05e39ce477935452f0b50ed70beb",
     name: "Best Western Rewards",
     issuer: schemas.IssuersEnum.enum.FNBO,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -94,7 +94,7 @@ export const FNBO_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "243b05e39ce477935452f0b50ed70beb",
     name: "Best Western Rewards Premium",
     issuer: schemas.IssuersEnum.enum.FNBO,
     network: schemas.NetworksEnum.enum.MASTERCARD,

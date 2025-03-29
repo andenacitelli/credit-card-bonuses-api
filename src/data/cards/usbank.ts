@@ -5,7 +5,7 @@ import { WEIGHTS } from "@/data/weights.js";
 
 export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
-    id: "",
+    id: "ebf096c7caec6cb6c7c4025f0b5de955",
     name: "Business Altitude Power",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -35,7 +35,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "ebf096c7caec6cb6c7c4025f0b5de955",
     name: "Business Altitude Connect",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -65,7 +65,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "ebf096c7caec6cb6c7c4025f0b5de955",
     name: "Altitude Connect",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.VISA,
@@ -96,7 +96,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "ebf096c7caec6cb6c7c4025f0b5de955",
     name: "Altitude Reserve",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.VISA,
@@ -114,7 +114,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     historicalOffers: [],
   },
   {
-    id: "",
+    id: "ebf096c7caec6cb6c7c4025f0b5de955",
     name: "Altitude Go",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.VISA,
@@ -145,7 +145,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "ebf096c7caec6cb6c7c4025f0b5de955",
     name: "Cash+",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.VISA,
@@ -175,7 +175,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "ebf096c7caec6cb6c7c4025f0b5de955",
     name: "FlexPerks Gold",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -200,7 +200,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "ebf096c7caec6cb6c7c4025f0b5de955",
     name: "Business Leverage",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.VISA,
@@ -230,7 +230,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "ebf096c7caec6cb6c7c4025f0b5de955",
     name: "Business Triple Cash Rewards",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -260,7 +260,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "ebf096c7caec6cb6c7c4025f0b5de955",
     name: "Skypass Blue",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.VISA,
@@ -290,7 +290,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "ebf096c7caec6cb6c7c4025f0b5de955",
     name: "Skypass",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.VISA,
@@ -340,7 +340,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "ebf096c7caec6cb6c7c4025f0b5de955",
     name: "Skypass Select",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.VISA,
@@ -386,7 +386,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "ebf096c7caec6cb6c7c4025f0b5de955",
     name: "Skypass Business",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.VISA,
@@ -434,7 +434,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "ebf096c7caec6cb6c7c4025f0b5de955",
     name: "Shopper Cash Rewards",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.VISA,
@@ -464,7 +464,7 @@ export const US_BANK_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "ebf096c7caec6cb6c7c4025f0b5de955",
     name: "Smartly",
     issuer: schemas.IssuersEnum.enum.US_BANK,
     network: schemas.NetworksEnum.enum.VISA,

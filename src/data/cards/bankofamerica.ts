@@ -5,7 +5,7 @@ import { WEIGHTS } from "@/data/weights.js";
 
 export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
   {
-    id: "",
+    id: "d647d5c0ce8e09cd888c84a73cdda256",
     name: "Air France KLM",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -44,7 +44,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "d647d5c0ce8e09cd888c84a73cdda256",
     name: "Alaska Airlines",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.VISA,
@@ -109,7 +109,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "d647d5c0ce8e09cd888c84a73cdda256",
     name: "Alaska Airlines Business",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.VISA,
@@ -156,7 +156,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "d647d5c0ce8e09cd888c84a73cdda256",
     name: "Customized Cash Rewards",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.VISA,
@@ -186,7 +186,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "d647d5c0ce8e09cd888c84a73cdda256",
     name: "Premium Rewards",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.VISA,
@@ -216,7 +216,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "d647d5c0ce8e09cd888c84a73cdda256",
     name: "Premium Rewards Elite",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.VISA,
@@ -263,7 +263,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "d647d5c0ce8e09cd888c84a73cdda256",
     name: "Travel Rewards",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.VISA,
@@ -293,7 +293,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "d647d5c0ce8e09cd888c84a73cdda256",
     name: "Unlimited Cash Rewards",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.VISA,
@@ -323,7 +323,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "d647d5c0ce8e09cd888c84a73cdda256",
     name: "Business Advantage Customized Cash",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -353,7 +353,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "d647d5c0ce8e09cd888c84a73cdda256",
     name: "Business Advantage Unlimited Cash",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -383,7 +383,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "d647d5c0ce8e09cd888c84a73cdda256",
     name: "Business Advantage Travel Rewards",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -413,7 +413,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "d647d5c0ce8e09cd888c84a73cdda256",
     name: "Platinum Plus",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.MASTERCARD,
@@ -443,7 +443,7 @@ export const BANK_OF_AMERICA_CARDS: z.input<typeof schemas.CreditCard>[] = [
     ],
   },
   {
-    id: "",
+    id: "d647d5c0ce8e09cd888c84a73cdda256",
     name: "Free Spirit",
     issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
     network: schemas.NetworksEnum.enum.MASTERCARD,
