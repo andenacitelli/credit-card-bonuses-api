@@ -230,18 +230,11 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 200_000 }],
-        spend: 15_000,
-        days: 90,
-        credits: [],
-        url: "https://www.uscreditcardguide.com/amex-business-gold-rewards-card/",
-        details: "Via referral; see link.",
-      },
-      {
         amount: [{ amount: 100_000 }],
         spend: 10_000,
         days: 90,
         credits: [],
+        details: "200k available via referral; see USCreditCardGuide.",
       },
     ],
     historicalOffers: [
@@ -336,18 +329,11 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 250_000 }],
-        spend: 20_000,
-        days: 90,
-        credits: [],
-        url: "https://www.uscreditcardguide.com/amex-business-platinum-card/",
-        details: "Via referral; see link.",
-      },
-      {
         amount: [{ amount: 150_000 }],
         spend: 20_000,
         days: 90,
         credits: [],
+        details: "250k available via referral, see USCreditCardGuide.",
       },
     ],
     historicalOffers: [
