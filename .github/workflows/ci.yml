@@ -7,6 +7,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: jdx/mise-action@v2
+        with:
+          version: "2025.3.11" # pin version, can't hurt
       - run: pnpm i
       - run: pnpm generate
       - run: pnpm exec -- depcheck
