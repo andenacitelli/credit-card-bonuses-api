@@ -160,7 +160,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     annualFee: 49,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://disneyrewards.com/compare-cards/?cell=608S11",
+    url: "https://disneyrewards.com/compare-credit-cards/?cell=6H2H11",
     imageUrl: "/images/chase/disney.png",
     credits: [],
     offers: [
@@ -196,7 +196,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://disneyrewards.com/",
+    url: "https://disneyrewards.com/compare-credit-cards/?cell=6H2H11",
     imageUrl: "/images/chase/disney.png",
     credits: [],
     offers: [
@@ -219,7 +219,6 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
         spend: 500,
         days: 90,
         credits: [],
-        url: "https://disneyrewards.com/compare-cards/?cell=608S11",
       },
     ],
   },
@@ -458,7 +457,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
       {
         amount: [{ amount: 75_000 }],
         spend: 6000,
-        days: 90,
+        days: 180,
         credits: [],
         referralUrl: REFERRALS.CHASE.INKS,
       },
@@ -540,6 +539,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
   {
     cardId: "94c9b624738adce05fbe0e5bfc5d620e",
     name: "Ink Business Premier",
+    details: "Points are nontransferable. Only cashback redemption.",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
     currency: schemas.CurrenciesEnum.enum.USD,
@@ -557,7 +557,6 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.INKS,
-        details: "NOTE: Points are nontransferable. Only cashback redemption.",
       },
     ],
     historicalOffers: [
@@ -584,17 +583,10 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 30_000 }],
         spend: 1000,
         days: 90,
-        credits: [
-          {
-            value: 50_000,
-            description: "1x FNC up to 50k",
-            currency: schemas.CurrenciesEnum.enum.MARRIOTT,
-            weight: WEIGHTS.FREE_NIGHT_CREDIT,
-          },
-        ],
+        credits: [],
         referralUrl: REFERRALS.CHASE.MARRIOTT,
       },
     ],
@@ -681,21 +673,26 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 100_000 }],
         spend: 5000,
         days: 90,
         credits: [],
+      },
+      {
+        amount: [{ amount: 60_000 }],
+        spend: 4000,
+        days: 90,
+        credits: [],
         referralUrl: REFERRALS.CHASE.SAPPHIRE,
-        details: "100k available in-branch and soon online.",
       },
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 90_000 }],
+        amount: [{ amount: 100_000 }],
         spend: 5000,
         days: 90,
         credits: [],
-        expiration: "2023-06-01",
+        expiration: "2025-06-01",
       },
     ],
   },
@@ -802,7 +799,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     offers: [
       {
         amount: [{ amount: 30_000 }],
-        spend: 1000,
+        spend: 4000,
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.SOUTHWEST,
@@ -811,7 +808,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     historicalOffers: [
       {
         amount: [{ amount: 100_000 }],
-        spend: 3000,
+        spend: 4000,
         days: 90,
         credits: [],
         expiration: "2023-02-01",
@@ -834,7 +831,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     offers: [
       {
         amount: [{ amount: 30_000 }],
-        spend: 1000,
+        spend: 4000,
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.SOUTHWEST,
@@ -843,7 +840,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     historicalOffers: [
       {
         amount: [{ amount: 100_000 }],
-        spend: 3000,
+        spend: 4000,
         days: 90,
         credits: [],
         expiration: "2023-02-01",
@@ -909,7 +906,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     offers: [
       {
         amount: [{ amount: 30_000 }],
-        spend: 3000,
+        spend: 4000,
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.SOUTHWEST,
@@ -1420,7 +1417,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 150 }],
+        amount: [{ amount: 100 }],
         spend: 0.01,
         days: 365,
         credits: [],

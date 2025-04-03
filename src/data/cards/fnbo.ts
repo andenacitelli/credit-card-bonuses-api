@@ -46,10 +46,11 @@ export const FNBO_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 20_000 }],
-        spend: 1000,
+        amount: [{ amount: 40_000 }],
+        spend: 2000,
         days: 90,
         credits: [],
+        expiration: "2025-04-30",
       },
     ],
     historicalOffers: [

@@ -644,7 +644,6 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
   },
   {
     cardId: "54fddf9e59dfad730320eb65a04b7ea5",
-    // TODO: Currently discontinued, may be reintroduced
     name: "Everyday",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
@@ -663,7 +662,6 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
   },
   {
     cardId: "84c122e1077e2929b1f563bd143ce82e",
-    // TODO: Currently discontinued, may be reintroduced
     name: "Everyday Preferred",
     issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,

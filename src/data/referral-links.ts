@@ -12,9 +12,9 @@ export const REFERRALS = {
       "https://www.referyourchasecard.com/21s/6I9J2FNU9T",
     ]),
     FREEDOM: getRandom(["https://www.referyourchasecard.com/18J/BDWS964YDG"]),
-    UNITED: getRandom(["https://www.referyourchasecard.com/215f/2YQ6628FQC"]),
+    UNITED: getRandom(["https://www.referyourchasecard.com/19q/AX64UADB74"]),
     SOUTHWEST: getRandom([
-      "https://www.referyourchasecard.com/226j/EK4J5RUTDJ",
+      "https://www.referyourchasecard.com/226m/EK4J5RUTDJ",
     ]),
     MARRIOTT: getRandom(["https://www.referyourchasecard.com/252j/PSOE5X37UU"]),
   },

@@ -15,12 +15,7 @@ export const PNC_CARDS: Array<CreditCardInput> = [
     imageUrl: "/images/pnc/cash-rewards-visa-signature-business.webp",
     credits: [],
     offers: [
-      {
-        amount: [{ amount: 600 }],
-        spend: 6000,
-        days: 90,
-        credits: [],
-      },
+      // technically has an elevated cashback rate for the first year, but nothing that's an actual offer
     ],
     historicalOffers: [
       {

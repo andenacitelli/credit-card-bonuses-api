@@ -1096,7 +1096,7 @@
   imageUrl: /images/bankofamerica/air-france-klm.webp
   credits: []
   offers:
-    - spend: 2000
+    - spend: 3000
       amount:
         - amount: 70000
           currency: FLYING_BLUE
@@ -1594,7 +1594,7 @@
   imageUrl: /images/barclays/carnival-world-mastercard.png
   credits: []
   offers:
-    - spend: 500
+    - spend: 1000
       amount:
         - amount: 20000
       days: 90
@@ -1612,7 +1612,6 @@
       days: 90
       credits: []
       details: Requires ANY purchase.
-      url: https://cards.barclaycardus.com/banking/cards/carnival-world-mastercard/
   discontinued: false
 - cardId: 990a75f557890d22402183b20a8fe09d
   name: Emirates Skywards Premium World Elite
@@ -1629,7 +1628,7 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 40000
+        - amount: 50000
       days: 90
       credits: []
   historicalOffers:
@@ -1654,7 +1653,7 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 30000
+        - amount: 40000
       days: 90
       credits: []
   historicalOffers:
@@ -1679,7 +1678,7 @@
   offers:
     - spend: 500
       amount:
-        - amount: 50000
+        - amount: 40000
       days: 90
       credits: []
       details: Requires paying AF.
@@ -1705,7 +1704,7 @@
   offers:
     - spend: 2000
       amount:
-        - amount: 70000
+        - amount: 60000
       days: 90
       credits: []
   historicalOffers:
@@ -1756,9 +1755,9 @@
       value: 50
       weight: 0.5
   offers:
-    - spend: 4000
+    - spend: 2000
       amount:
-        - amount: 60000
+        - amount: 50000
       days: 90
       credits: []
   historicalOffers:
@@ -1784,7 +1783,7 @@
   offers:
     - spend: 1000
       amount:
-        - amount: 50000
+        - amount: 70000
       days: 90
       credits: []
   historicalOffers:
@@ -1980,7 +1979,7 @@
       value: 99
       weight: 0.8
   offers:
-    - spend: 2000
+    - spend: 4000
       amount:
         - amount: 50000
       days: 90
@@ -2233,7 +2232,7 @@
   annualFee: 49
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://disneyrewards.com/compare-cards/?cell=608S11
+  url: https://disneyrewards.com/compare-credit-cards/?cell=6H2H11
   imageUrl: /images/chase/disney.png
   credits: []
   offers:
@@ -2263,7 +2262,7 @@
   annualFee: 0
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://disneyrewards.com/
+  url: https://disneyrewards.com/compare-credit-cards/?cell=6H2H11
   imageUrl: /images/chase/disney.png
   credits: []
   offers:
@@ -2283,7 +2282,6 @@
         - amount: 150
       days: 90
       credits: []
-      url: https://disneyrewards.com/compare-cards/?cell=608S11
   discontinued: false
 - cardId: 6ba7f561f6a4f7f2934bec25bd9a3130
   name: Freedom Flex
@@ -2480,9 +2478,9 @@
     - spend: 6000
       amount:
         - amount: 75000
-      days: 90
+      days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - spend: 6000
       amount:
@@ -2509,7 +2507,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - spend: 8000
       amount:
@@ -2535,7 +2533,7 @@
         - amount: 75000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - spend: 6000
       amount:
@@ -2550,6 +2548,7 @@
   issuer: CHASE
   network: VISA
   currency: USD
+  details: Points are nontransferable. Only cashback redemption.
   isBusiness: true
   annualFee: 195
   isAnnualFeeWaived: false
@@ -2564,8 +2563,7 @@
           currency: USD
       days: 90
       credits: []
-      details: "NOTE: Points are nontransferable. Only cashback redemption."
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - spend: 10000
       amount:
@@ -2589,13 +2587,9 @@
   offers:
     - spend: 1000
       amount:
-        - amount: 60000
+        - amount: 30000
       days: 90
-      credits:
-        - description: 1x FNC up to 50k
-          value: 50000
-          weight: 0.7
-          currency: MARRIOTT
+      credits: []
       referralUrl: https://www.referyourchasecard.com/252j/PSOE5X37UU
   historicalOffers:
     - spend: 1000
@@ -2663,17 +2657,21 @@
   offers:
     - spend: 5000
       amount:
+        - amount: 100000
+      days: 90
+      credits: []
+    - spend: 4000
+      amount:
         - amount: 60000
       days: 90
       credits: []
-      details: 100k available in-branch and soon online.
       referralUrl: https://www.referyourchasecard.com/19Q/QN3N8HQ4KX
   historicalOffers:
     - spend: 5000
       amount:
-        - amount: 90000
+        - amount: 100000
       days: 90
-      expiration: 2023-06-01
+      expiration: 2025-06-01
       credits: []
   discontinued: false
 - cardId: 77e3ef2fc9c35498ba1a3f46a63235cb
@@ -2736,7 +2734,7 @@
         - amount: 80000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/226j/EK4J5RUTDJ
+      referralUrl: https://www.referyourchasecard.com/226m/EK4J5RUTDJ
   historicalOffers:
     - spend: 5000
       amount:
@@ -2757,14 +2755,14 @@
   imageUrl: /images/chase/southwest-rapid-rewards-plus.png
   credits: []
   offers:
-    - spend: 1000
+    - spend: 4000
       amount:
         - amount: 30000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/226j/EK4J5RUTDJ
+      referralUrl: https://www.referyourchasecard.com/226m/EK4J5RUTDJ
   historicalOffers:
-    - spend: 3000
+    - spend: 4000
       amount:
         - amount: 100000
       days: 90
@@ -2784,14 +2782,14 @@
   imageUrl: /images/chase/southwest-rapid-rewards-premier.png
   credits: []
   offers:
-    - spend: 1000
+    - spend: 4000
       amount:
         - amount: 30000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/226j/EK4J5RUTDJ
+      referralUrl: https://www.referyourchasecard.com/226m/EK4J5RUTDJ
   historicalOffers:
-    - spend: 3000
+    - spend: 4000
       amount:
         - amount: 100000
       days: 90
@@ -2816,7 +2814,7 @@
         - amount: 60000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/226j/EK4J5RUTDJ
+      referralUrl: https://www.referyourchasecard.com/226m/EK4J5RUTDJ
   historicalOffers:
     - spend: 3000
       amount:
@@ -2845,12 +2843,12 @@
       value: 75
       weight: 0.8
   offers:
-    - spend: 3000
+    - spend: 4000
       amount:
         - amount: 30000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/226j/EK4J5RUTDJ
+      referralUrl: https://www.referyourchasecard.com/226m/EK4J5RUTDJ
   historicalOffers:
     - spend: 3000
       amount:
@@ -2947,7 +2945,7 @@
       days: 90
       expiration: 2025-05-07
       credits: []
-      referralUrl: https://www.referyourchasecard.com/215f/2YQ6628FQC
+      referralUrl: https://www.referyourchasecard.com/19q/AX64UADB74
   historicalOffers:
     - spend: 5000
       amount:
@@ -3058,7 +3056,7 @@
       days: 90
       expiration: 2025-05-07
       credits: []
-      referralUrl: https://www.referyourchasecard.com/215f/2YQ6628FQC
+      referralUrl: https://www.referyourchasecard.com/19q/AX64UADB74
   historicalOffers:
     - spend: 3000
       amount:
@@ -3085,7 +3083,7 @@
       days: 90
       expiration: 2025-07-16
       credits: []
-      referralUrl: https://www.referyourchasecard.com/215f/2YQ6628FQC
+      referralUrl: https://www.referyourchasecard.com/19q/AX64UADB74
   historicalOffers:
     - spend: 1000
       amount:
@@ -3135,7 +3133,7 @@
       days: 90
       expiration: 2025-05-07
       credits: []
-      referralUrl: https://www.referyourchasecard.com/215f/2YQ6628FQC
+      referralUrl: https://www.referyourchasecard.com/19q/AX64UADB74
   historicalOffers:
     - spend: 5000
       amount:
@@ -3227,7 +3225,7 @@
   offers:
     - spend: 0.01
       amount:
-        - amount: 150
+        - amount: 100
       days: 365
       credits: []
   historicalOffers:
@@ -3277,7 +3275,7 @@
   annualFee: 0
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://www.capitalone.com/credit-cards/savorone-dining-rewards/
+  url: https://www.capitalone.com/credit-cards/savor/
   imageUrl: /images/capitalone/savor.webp
   credits: []
   offers:
@@ -3306,13 +3304,13 @@
   imageUrl: /images/capitalone/spark-cash.webp
   credits: []
   offers:
-    - spend: 6000
+    - spend: 4500
       amount:
         - amount: 500
       days: 90
       credits: []
   historicalOffers:
-    - spend: 6000
+    - spend: 4500
       amount:
         - amount: 750
       days: 90
@@ -3848,15 +3846,15 @@
   imageUrl: /images/first/latam-airlines.svg
   credits: []
   offers:
-    - spend: 1000
+    - spend: 1500
       amount:
-        - amount: 15000
+        - amount: 25000
       days: 90
       credits: []
   historicalOffers:
-    - spend: 1000
+    - spend: 5000
       amount:
-        - amount: 15000
+        - amount: 25000
       days: 90
       credits: []
   discontinued: false
@@ -3873,15 +3871,15 @@
   imageUrl: /images/first/latam-airlines-world-elite.webp
   credits: []
   offers:
-    - spend: 2500
+    - spend: 3500
       amount:
-        - amount: 40000
+        - amount: 60000
       days: 90
       credits: []
   historicalOffers:
-    - spend: 2500
+    - spend: 3500
       amount:
-        - amount: 40000
+        - amount: 60000
       days: 90
       credits: []
   discontinued: false
@@ -4071,10 +4069,11 @@
   imageUrl: /images/fnbo/amtrak-guest-rewards-preferred.jpg
   credits: []
   offers:
-    - spend: 1000
+    - spend: 2000
       amount:
-        - amount: 20000
+        - amount: 40000
       days: 90
+      expiration: 2025-04-30
       credits: []
   historicalOffers:
     - spend: 2000
@@ -4224,12 +4223,7 @@
   url: https://www.pnc.com/en/small-business/borrowing/business-credit-cards/pnc-cash-rewards-visa-signature-business-credit-card.html
   imageUrl: /images/pnc/cash-rewards-visa-signature-business.webp
   credits: []
-  offers:
-    - spend: 6000
-      amount:
-        - amount: 600
-      days: 90
-      credits: []
+  offers: []
   historicalOffers:
     - spend: 6000
       amount:

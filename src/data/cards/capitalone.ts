@@ -42,7 +42,7 @@ export const CAPITAL_ONE_CARDS: Array<CreditCardInput> = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://www.capitalone.com/credit-cards/savorone-dining-rewards/",
+    url: "https://www.capitalone.com/credit-cards/savor/",
     imageUrl: "/images/capitalone/savor.webp",
     details: "Previously SavorOne. Original Savor was discontinued.",
     credits: [],
@@ -79,7 +79,7 @@ export const CAPITAL_ONE_CARDS: Array<CreditCardInput> = [
     offers: [
       {
         amount: [{ amount: 500 }],
-        spend: 6000,
+        spend: 4500,
         days: 90,
         credits: [],
       },
@@ -87,7 +87,7 @@ export const CAPITAL_ONE_CARDS: Array<CreditCardInput> = [
     historicalOffers: [
       {
         amount: [{ amount: 750 }],
-        spend: 6000,
+        spend: 4500,
         days: 90,
         credits: [],
       },

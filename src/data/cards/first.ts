@@ -16,16 +16,16 @@ export const FIRST_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 15_000 }],
-        spend: 1000,
+        amount: [{ amount: 25_000 }],
+        spend: 1500,
         days: 90,
         credits: [],
       },
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 15_000 }],
-        spend: 1000,
+        amount: [{ amount: 25_000 }],
+        spend: 5000,
         days: 90,
         credits: [],
       },
@@ -46,16 +46,16 @@ export const FIRST_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 40_000 }],
-        spend: 2500,
+        amount: [{ amount: 60_000 }],
+        spend: 3500,
         days: 90,
         credits: [],
       },
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 40_000 }],
-        spend: 2500,
+        amount: [{ amount: 60_000 }],
+        spend: 3500,
         days: 90,
         credits: [],
       },
