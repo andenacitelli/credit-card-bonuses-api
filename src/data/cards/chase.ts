@@ -89,11 +89,10 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 75_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 4000,
         days: 90,
         credits: [],
-        details: "+25k for 20k in 12mo.",
       },
     ],
     historicalOffers: [

@@ -1,6 +1,5 @@
 import { schemas } from "@/generated/api.client.js";
 import { WEIGHTS } from "../weights.js";
-import { DISCONTINUED_OFFERS } from "../placeholder-offers.js";
 import { CreditCardInput } from "../types.js";
 export const CITI_CARDS: Array<CreditCardInput> = [
   {
@@ -300,24 +299,5 @@ export const CITI_CARDS: Array<CreditCardInput> = [
         credits: [],
       },
     ],
-  },
-  {
-    // discontinued; retained only so users that entered it don't break
-    cardId: "c908014aae7680e73d084b37698386b7",
-    name: "Premier",
-    issuer: schemas.IssuersEnum.enum.CITI,
-    network: schemas.NetworksEnum.enum.MASTERCARD,
-    currency: schemas.CurrenciesEnum.enum.USD,
-    isBusiness: false,
-    annualFee: 0,
-    isAnnualFeeWaived: false,
-    universalCashbackPercent: 1,
-    url: "",
-    imageUrl: "",
-    credits: [],
-
-    discontinued: true,
-    offers: DISCONTINUED_OFFERS,
-    historicalOffers: DISCONTINUED_OFFERS,
   },
 ];
