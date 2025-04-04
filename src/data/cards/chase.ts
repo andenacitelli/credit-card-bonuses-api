@@ -14,7 +14,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     annualFee: 250,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bountiful?iCELL=61GD",
+    url: "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bountiful",
     imageUrl: "/images/chase/marriott-bonvoy-bountiful.png",
     credits: [],
     offers: [
@@ -159,7 +159,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     annualFee: 49,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://disneyrewards.com/compare-credit-cards/?cell=6H2H11",
+    url: "https://disneyrewards.com/compare-credit-cards",
     imageUrl: "/images/chase/disney.png",
     credits: [],
     offers: [
@@ -195,7 +195,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://disneyrewards.com/compare-credit-cards/?cell=6H2H11",
+    url: "https://disneyrewards.com/compare-credit-cards",
     imageUrl: "/images/chase/disney.png",
     credits: [],
     offers: [
@@ -347,7 +347,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
             description: "5x FNC, <= 40k per",
           },
         ],
-        url: "https://creditcards.chase.com/a1/ihg/PremierOnPropertyAEP?SPID=HK9M&CELL=622J",
+        url: "https://creditcards.chase.com/a1/ihg/PremierOnPropertyAEP",
       },
       {
         amount: [{ amount: 170_000 }],
@@ -546,7 +546,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     annualFee: 195,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 2,
-    url: "https://creditcards.chase.com/business-credit-cards/ink/premier?CELL=6G3K",
+    url: "https://creditcards.chase.com/business-credit-cards/ink/premier",
     imageUrl: "/images/chase/ink-business-premier.png",
     credits: [],
     offers: [
@@ -1050,11 +1050,11 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 120_000 }],
+        amount: [{ amount: 95_000 }],
         spend: 5000,
         days: 90,
         credits: [],
-        expiration: "2022-04-01",
+        expiration: "2025-05-07",
       },
     ],
   },
@@ -1310,10 +1310,10 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     historicalOffers: [
       {
         amount: [{ amount: 90_000 }],
-        spend: 5000,
+        spend: 4000,
         credits: [],
         days: 90,
-        expiration: "2022-04-01",
+        expiration: "2025-05-07",
       },
     ],
   },
@@ -1390,14 +1390,14 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
         spend: 3000,
         days: 90,
         credits: [],
-        url: "https://creditcards.chase.com/worldofhyatt/22/naepb?CELL=69T0",
+        url: "https://creditcards.chase.com/worldofhyatt/22/naepb",
       },
       {
         amount: [{ amount: 75_000 }],
         spend: 12000,
         days: 180,
         credits: [],
-        url: "https://creditcards.chase.com/worldofhyatt/22/naepb?CELL=69T0",
+        url: "https://creditcards.chase.com/worldofhyatt/22/naepb",
       },
     ],
   },
@@ -1411,7 +1411,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://www.amazon.com/dp/BT00LN946S?bypass=1",
+    url: "https://www.amazon.com/dp/BT00LN946S",
     imageUrl: "/images/chase/amazon-prime.png",
     credits: [],
     offers: [

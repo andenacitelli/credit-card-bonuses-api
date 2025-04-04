@@ -347,15 +347,15 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 80000
+        - amount: 50000
       days: 180
-      expiration: 2025-04-02
       credits: []
   historicalOffers:
     - spend: 3000
       amount:
         - amount: 80000
       days: 180
+      expiration: 2025-04-02
       credits: []
   discontinued: false
 - cardId: 509a09cbd31edd8df85928d044ef7802
@@ -373,15 +373,15 @@
   offers:
     - spend: 6000
       amount:
-        - amount: 90000
+        - amount: 60000
       days: 180
-      expiration: 2025-04-02
       credits: []
   historicalOffers:
     - spend: 6000
       amount:
         - amount: 90000
       days: 180
+      expiration: 2025-04-02
       credits: []
   discontinued: false
 - cardId: bdf4ae17ff6808592f785fff3ae81a2a
@@ -402,15 +402,15 @@
   offers:
     - spend: 4000
       amount:
-        - amount: 90000
+        - amount: 60000
       days: 180
-      expiration: 2025-04-02
       credits: []
   historicalOffers:
     - spend: 4000
       amount:
         - amount: 90000
       days: 180
+      expiration: 2025-04-02
       credits: []
   discontinued: false
 - cardId: 1e9c3dae029612a7a40adf6144bf43d4
@@ -437,15 +437,15 @@
   offers:
     - spend: 8000
       amount:
-        - amount: 100000
+        - amount: 70000
       days: 180
-      expiration: 2025-04-02
       credits: []
   historicalOffers:
     - spend: 8000
       amount:
         - amount: 100000
       days: 180
+      expiration: 2025-04-02
       credits: []
   discontinued: false
 - cardId: 2a3949c2232cf6646a59531728264a5c
@@ -464,18 +464,17 @@
       value: 240
       weight: 0.8
   offers:
-    - spend: 8000
+    - spend: 5000
       amount:
-        - amount: 100000
+        - amount: 70000
       days: 180
-      expiration: 2025-04-02
       credits: []
   historicalOffers:
     - spend: 5000
       amount:
-        - amount: 125000
+        - amount: 100000
       days: 90
-      expiration: 2023-05-01
+      expiration: 2025-04-02
       credits: []
   discontinued: false
 - cardId: a8032dfcc9bc6af82eb1a0a487e710b5
@@ -491,17 +490,17 @@
   imageUrl: /images/amex/delta-skymiles-reserve-business.webp
   credits: []
   offers:
-    - spend: 12000
+    - spend: 10000
       amount:
-        - amount: 110000
+        - amount: 80000
       days: 180
-      expiration: 2025-04-02
       credits: []
   historicalOffers:
     - spend: 12000
       amount:
         - amount: 110000
       days: 180
+      expiration: 2025-04-02
       credits: []
   discontinued: false
 - cardId: 54fddf9e59dfad730320eb65a04b7ea5
@@ -587,7 +586,7 @@
           currency: USD
       days: 180
       credits: []
-      url: https://resy.com/amex-offers?date=2022-07-16&seats=2
+      url: https://resy.com/amex-offers
     - spend: 6000
       amount:
         - amount: 75000
@@ -872,7 +871,7 @@
         - amount: 100000
       days: 180
       credits: []
-      url: https://resy.com/amex-offers?date=2022-07-16&seats=2
+      url: https://resy.com/amex-offers
   historicalOffers:
     - spend: 8000
       amount:
@@ -1028,7 +1027,7 @@
   annualFee: 0
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://www.schwab.com/public/schwab/investing/accounts_products/credit_cards?ENTRY_POINT=IIAH
+  url: https://www.schwab.com/public/schwab/investing/accounts_products/credit_cards
   imageUrl: /images/amex/schwab-investor.webp
   credits: []
   offers:
@@ -1352,7 +1351,7 @@
   annualFee: 0
   isAnnualFeeWaived: false
   universalCashbackPercent: 1.5
-  url: https://www.bankofamerica.com/smallbusiness/credit-cards/products/cash-rewards-business-credit-card/?campaign=4053371~X7~en_US
+  url: https://www.bankofamerica.com/smallbusiness/credit-cards/products/cash-rewards-business-credit-card
   imageUrl: /images/bankofamerica/business-advantage-customized-cash.jpg
   credits: []
   offers:
@@ -1377,7 +1376,7 @@
   annualFee: 0
   isAnnualFeeWaived: false
   universalCashbackPercent: 1.5
-  url: https://www.bankofamerica.com/smallbusiness/credit-cards/products/unlimited-cash-rewards-business-credit-card/?campaign=4052289~52~en_US
+  url: https://www.bankofamerica.com/smallbusiness/credit-cards/products/unlimited-cash-rewards-business-credit-card
   imageUrl: /images/bankofamerica/business-advantage-unlimited-cash.webp
   credits: []
   offers:
@@ -1402,7 +1401,7 @@
   annualFee: 0
   isAnnualFeeWaived: false
   universalCashbackPercent: 1.5
-  url: https://www.bankofamerica.com/smallbusiness/credit-cards/products/travel-rewards-business-credit-card/?campaign=4053417~2P~en_US
+  url: https://www.bankofamerica.com/smallbusiness/credit-cards/products/travel-rewards-business-credit-card
   imageUrl: /images/bankofamerica/business-advantage-travel-rewards.webp
   credits: []
   offers:
@@ -1427,7 +1426,7 @@
   annualFee: 0
   isAnnualFeeWaived: false
   universalCashbackPercent: 1.5
-  url: https://www.bankofamerica.com/smallbusiness/credit-cards/products/platinum-plus-business-credit-card/?campaign=4053445~YT~en_US
+  url: https://www.bankofamerica.com/smallbusiness/credit-cards/products/platinum-plus-business-credit-card
   imageUrl: /images/bankofamerica/platinum-plus.webp
   credits: []
   offers:
@@ -2018,7 +2017,7 @@
   annualFee: 89
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://cards.barclaycardus.com/banking/credit-card/breeze-airways/visa-visa-signature-preferred/partner-banner/d4de94d1-c1da-4237-9eff-df975fb4bb87/?referrerid=PTRBAHPE50XX0324
+  url: https://cards.barclaycardus.com/banking/credit-card/breeze-airways/visa-visa-signature-preferred/partner-banner/d4de94d1-c1da-4237-9eff-df975fb4bb87
   imageUrl: /images/barclays/breeze.png
   credits: []
   offers:
@@ -2109,7 +2108,7 @@
   annualFee: 250
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bountiful?iCELL=61GD
+  url: https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bountiful
   imageUrl: /images/chase/marriott-bonvoy-bountiful.png
   credits: []
   offers:
@@ -2231,7 +2230,7 @@
   annualFee: 49
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://disneyrewards.com/compare-credit-cards/?cell=6H2H11
+  url: https://disneyrewards.com/compare-credit-cards
   imageUrl: /images/chase/disney.png
   credits: []
   offers:
@@ -2261,7 +2260,7 @@
   annualFee: 0
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://disneyrewards.com/compare-credit-cards/?cell=6H2H11
+  url: https://disneyrewards.com/compare-credit-cards
   imageUrl: /images/chase/disney.png
   credits: []
   offers:
@@ -2388,7 +2387,7 @@
           value: 200000
           weight: 0.7
           currency: IHG
-      url: https://creditcards.chase.com/a1/ihg/PremierOnPropertyAEP?SPID=HK9M&CELL=622J
+      url: https://creditcards.chase.com/a1/ihg/PremierOnPropertyAEP
     - spend: 4000
       amount:
         - amount: 170000
@@ -2552,7 +2551,7 @@
   annualFee: 195
   isAnnualFeeWaived: false
   universalCashbackPercent: 2
-  url: https://creditcards.chase.com/business-credit-cards/ink/premier?CELL=6G3K
+  url: https://creditcards.chase.com/business-credit-cards/ink/premier
   imageUrl: /images/chase/ink-business-premier.png
   credits: []
   offers:
@@ -2948,9 +2947,9 @@
   historicalOffers:
     - spend: 5000
       amount:
-        - amount: 120000
+        - amount: 95000
       days: 90
-      expiration: 2022-04-01
+      expiration: 2025-05-07
       credits: []
   discontinued: false
 - cardId: 80c6aca49a0e1442d51635c316f4a5ff
@@ -3134,11 +3133,11 @@
       credits: []
       referralUrl: https://www.referyourchasecard.com/19q/AX64UADB74
   historicalOffers:
-    - spend: 5000
+    - spend: 4000
       amount:
         - amount: 90000
       days: 90
-      expiration: 2022-04-01
+      expiration: 2025-05-07
       credits: []
   discontinued: false
 - cardId: d378a38b56d4c9bd5e1ad184a6ce84f0
@@ -3201,13 +3200,13 @@
         - amount: 60000
       days: 90
       credits: []
-      url: https://creditcards.chase.com/worldofhyatt/22/naepb?CELL=69T0
+      url: https://creditcards.chase.com/worldofhyatt/22/naepb
     - spend: 12000
       amount:
         - amount: 75000
       days: 180
       credits: []
-      url: https://creditcards.chase.com/worldofhyatt/22/naepb?CELL=69T0
+      url: https://creditcards.chase.com/worldofhyatt/22/naepb
   discontinued: false
 - cardId: f4d8c429f58f9f74944a9108bcae4a22
   name: Amazon Prime
@@ -3218,7 +3217,7 @@
   annualFee: 0
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://www.amazon.com/dp/BT00LN946S?bypass=1
+  url: https://www.amazon.com/dp/BT00LN946S
   imageUrl: /images/chase/amazon-prime.png
   credits: []
   offers:
@@ -3872,11 +3871,10 @@
   offers:
     - spend: 3500
       amount:
-        - amount: 60000
+        - amount: 40000
       days: 90
-      expiration: 2025-03-31
       credits: []
-      details: 20k after any purchase, 40k after spend requirement.
+      details: 20k after any purchase, 20k after spend requirement.
   historicalOffers:
     - spend: 3500
       amount:
@@ -3901,11 +3899,10 @@
   offers:
     - spend: 6000
       amount:
-        - amount: 85000
+        - amount: 50000
       days: 90
-      expiration: 2025-03-31
       credits: []
-      details: 25k after any purchase, 60k after spend requirement.
+      details: 25k after any purchase, 25k after spend requirement.
   historicalOffers:
     - spend: 6000
       amount:
@@ -4240,9 +4237,8 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 60000
+        - amount: 40000
       days: 90
-      expiration: 2025-03-31
       credits: []
   historicalOffers:
     - spend: 3000
@@ -4736,7 +4732,7 @@
   annualFee: 0
   isAnnualFeeWaived: false
   universalCashbackPercent: 2
-  url: https://creditcards.wellsfargo.com/autograph-visa-credit-card/?sub_channel=SEO&vendor_code=G
+  url: https://creditcards.wellsfargo.com/autograph-visa-credit-card
   imageUrl: /images/wellsfargo/autograph.png
   credits: []
   offers:

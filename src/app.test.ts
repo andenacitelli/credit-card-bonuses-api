@@ -73,4 +73,10 @@ describe("Data Validity Checks", () => {
       expect(card.cardId).toBe(card.cardId.trim()); // trimmed
     });
   });
+
+  describe("URLs", () => {
+    test.each(inputs)("$name", ({ card }) => {
+      expect(card.url).not.toContain("?"); // no query params
+    });
+  });
 });

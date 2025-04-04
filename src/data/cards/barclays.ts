@@ -664,7 +664,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     annualFee: 89,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://cards.barclaycardus.com/banking/credit-card/breeze-airways/visa-visa-signature-preferred/partner-banner/d4de94d1-c1da-4237-9eff-df975fb4bb87/?referrerid=PTRBAHPE50XX0324",
+    url: "https://cards.barclaycardus.com/banking/credit-card/breeze-airways/visa-visa-signature-preferred/partner-banner/d4de94d1-c1da-4237-9eff-df975fb4bb87",
     imageUrl: "/images/barclays/breeze.png",
     credits: [],
     offers: [

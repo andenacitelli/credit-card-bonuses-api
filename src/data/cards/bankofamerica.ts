@@ -330,7 +330,7 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1.5,
-    url: "https://www.bankofamerica.com/smallbusiness/credit-cards/products/cash-rewards-business-credit-card/?campaign=4053371~X7~en_US",
+    url: "https://www.bankofamerica.com/smallbusiness/credit-cards/products/cash-rewards-business-credit-card",
     imageUrl: "/images/bankofamerica/business-advantage-customized-cash.jpg",
     credits: [],
     offers: [
@@ -360,7 +360,7 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1.5,
-    url: "https://www.bankofamerica.com/smallbusiness/credit-cards/products/unlimited-cash-rewards-business-credit-card/?campaign=4052289~52~en_US",
+    url: "https://www.bankofamerica.com/smallbusiness/credit-cards/products/unlimited-cash-rewards-business-credit-card",
     imageUrl: "/images/bankofamerica/business-advantage-unlimited-cash.webp",
     credits: [],
     offers: [
@@ -390,7 +390,7 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1.5,
-    url: "https://www.bankofamerica.com/smallbusiness/credit-cards/products/travel-rewards-business-credit-card/?campaign=4053417~2P~en_US",
+    url: "https://www.bankofamerica.com/smallbusiness/credit-cards/products/travel-rewards-business-credit-card",
     imageUrl: "/images/bankofamerica/business-advantage-travel-rewards.webp",
     credits: [],
     offers: [
@@ -420,7 +420,7 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1.5,
-    url: "https://www.bankofamerica.com/smallbusiness/credit-cards/products/platinum-plus-business-credit-card/?campaign=4053445~YT~en_US",
+    url: "https://www.bankofamerica.com/smallbusiness/credit-cards/products/platinum-plus-business-credit-card",
     imageUrl: "/images/bankofamerica/platinum-plus.webp",
     credits: [],
     offers: [

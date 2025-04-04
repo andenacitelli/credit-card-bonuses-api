@@ -72,7 +72,7 @@ export const WELLS_FARGO_CARDS: Array<CreditCardInput> = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 2,
-    url: "https://creditcards.wellsfargo.com/autograph-visa-credit-card/?sub_channel=SEO&vendor_code=G",
+    url: "https://creditcards.wellsfargo.com/autograph-visa-credit-card",
     imageUrl: "/images/wellsfargo/autograph.png",
     credits: [],
     offers: [

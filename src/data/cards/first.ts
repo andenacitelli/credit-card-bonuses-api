@@ -76,12 +76,11 @@ export const FIRST_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 40_000 }],
         spend: 3500,
         days: 90,
         credits: [],
-        details: "20k after any purchase, 40k after spend requirement.",
-        expiration: "2025-03-31",
+        details: "20k after any purchase, 20k after spend requirement.",
       },
     ],
     historicalOffers: [
@@ -110,12 +109,11 @@ export const FIRST_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 85_000 }],
+        amount: [{ amount: 50_000 }],
         spend: 6000,
         days: 90,
         credits: [],
-        details: "25k after any purchase, 60k after spend requirement.",
-        expiration: "2025-03-31",
+        details: "25k after any purchase, 25k after spend requirement.",
       },
     ],
     historicalOffers: [
