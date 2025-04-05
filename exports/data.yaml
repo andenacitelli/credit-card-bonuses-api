@@ -87,13 +87,15 @@
   offers:
     - spend: 2000
       amount:
+        - amount: 250
+      days: 180
+      credits: []
+      details: Requires Incognito, YMMV.
+    - spend: 2000
+      amount:
         - amount: 200
       days: 180
-      credits:
-        - description: Dining Credit
-          value: 150
-          weight: 0.8
-      url: https://resy.com/amex-offers
+      credits: []
   historicalOffers:
     - spend: 2000
       amount:
@@ -123,10 +125,15 @@
   offers:
     - spend: 3000
       amount:
+        - amount: 300
+      days: 180
+      credits: []
+      details: Requires Incognito, YMMV.
+    - spend: 3000
+      amount:
         - amount: 250
       days: 180
       credits: []
-      url: https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/
   historicalOffers:
     - spend: 3000
       amount:
@@ -183,7 +190,6 @@
         - amount: 100000
       days: 90
       credits: []
-      details: 200k available via referral; see USCreditCardGuide.
   historicalOffers:
     - spend: 10000
       amount:
@@ -347,6 +353,12 @@
   offers:
     - spend: 3000
       amount:
+        - amount: 80000
+      days: 180
+      credits: []
+      details: Requires Incognito, YMMV.
+    - spend: 3000
+      amount:
         - amount: 50000
       days: 180
       credits: []
@@ -400,6 +412,12 @@
       value: 500
       weight: 0.7
   offers:
+    - spend: 4000
+      amount:
+        - amount: 90000
+      days: 180
+      credits: []
+      details: Requires Incognito, YMMV.
     - spend: 4000
       amount:
         - amount: 60000
@@ -464,6 +482,12 @@
       value: 240
       weight: 0.8
   offers:
+    - spend: 5000
+      amount:
+        - amount: 100000
+      days: 180
+      credits: []
+      details: Requires Incognito, YMMV.
     - spend: 5000
       amount:
         - amount: 70000
@@ -910,13 +934,13 @@
       value: 189
       weight: 0.4
   offers:
-    - spend: 6000
+    - spend: 8000
       amount:
         - amount: 80000
       days: 180
       credits: []
   historicalOffers:
-    - spend: 6000
+    - spend: 8000
       amount:
         - amount: 125000
       days: 180
@@ -1056,16 +1080,9 @@
   imageUrl: /images/amex/amazon-business.avif
   credits: []
   offers:
-    - spend: 3000
+    - spend: 4000
       amount:
         - amount: 400
-      days: 90
-      credits: []
-      details: Targeted, YMMV.
-      url: https://www.doctorofcredit.com/ymmv-american-express-amazon-card-400-statement-credit-bonus/
-    - spend: 0.01
-      amount:
-        - amount: 125
       days: 90
       credits: []
       url: https://www.amazon.com/Amazon-Business-American-Express-Card/dp/B07984JN3L
@@ -1074,13 +1091,18 @@
         - amount: 100
       days: 90
       credits: []
-      url: https://www.amazon.com/Amazon-Business-American-Express-Card/dp/B07984JN3L
   historicalOffers:
     - spend: 0.01
       amount:
         - amount: 100
       days: 90
       credits: []
+    - spend: 4000
+      amount:
+        - amount: 400
+      days: 90
+      credits: []
+      url: https://www.amazon.com/Amazon-Business-American-Express-Card/dp/B07984JN3L
   discontinued: false
 - cardId: f2d769efdbe2b9d8734787bc24297be6
   name: Air France KLM
@@ -1142,17 +1164,9 @@
       url: http://alaska75k.com/
     - spend: 3000
       amount:
-        - amount: 70000
+        - amount: 60000
       days: 90
       credits: []
-    - spend: 3000
-      amount:
-        - amount: 40000
-        - amount: 300
-          currency: USD
-      days: 90
-      credits: []
-      url: https://www.doctorofcredit.com/bank-of-america-alaska-airlines-card-40000-miles-300-offer-companion-fare/
   historicalOffers:
     - spend: 2000
       amount:
@@ -1193,7 +1207,7 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 50000
+        - amount: 60000
       days: 90
       credits: []
   historicalOffers:
@@ -1493,7 +1507,7 @@
   offers:
     - spend: 99.01
       amount:
-        - amount: 70000
+        - amount: 60000
       days: 90
       credits: []
       details: ANY purchase + AF.
@@ -2139,12 +2153,6 @@
   imageUrl: /images/chase/aer-lingus-signature.png
   credits: []
   offers:
-    - spend: 7500
-      amount:
-        - amount: 100000
-      days: 180
-      credits: []
-      url: https://creditcards.chase.com/a1/aerlingus/LTO
     - spend: 5000
       amount:
         - amount: 75000
@@ -2171,7 +2179,7 @@
   imageUrl: /images/chase/aeroplan.jpg
   credits: []
   offers:
-    - spend: 4000
+    - spend: 3000
       amount:
         - amount: 60000
       days: 90
@@ -2202,12 +2210,6 @@
   imageUrl: /images/chase/british-airways.png
   credits: []
   offers:
-    - spend: 7500
-      amount:
-        - amount: 100000
-      days: 180
-      credits: []
-      url: https://creditcards.chase.com/a1/britishairways/aep/LTO
     - spend: 5000
       amount:
         - amount: 75000
@@ -2341,12 +2343,6 @@
   imageUrl: /images/chase/iberia-signature.png
   credits: []
   offers:
-    - spend: 7500
-      amount:
-        - amount: 100000
-      days: 180
-      credits: []
-      url: https://creditcards.chase.com/a1/iberia/LTO
     - spend: 5000
       amount:
         - amount: 75000
@@ -2385,7 +2381,7 @@
       url: https://creditcards.chase.com/a1/ihg/PremierOnPropertyAEP
     - spend: 4000
       amount:
-        - amount: 170000
+        - amount: 140000
       days: 90
       credits: []
   historicalOffers:
@@ -2473,7 +2469,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - spend: 6000
       amount:
@@ -2500,7 +2496,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - spend: 8000
       amount:
@@ -2526,7 +2522,7 @@
         - amount: 75000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - spend: 6000
       amount:
@@ -2556,7 +2552,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - spend: 10000
       amount:
@@ -2606,25 +2602,23 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 100000
+        - amount: 0
       days: 90
       credits:
-        - description: $150 Statement Credit on first purchase
-          value: 150
-          weight: 1
-          currency: USD
+        - description: 3x FNC up to 50k each
+          value: 50000
+          weight: 0.7
       referralUrl: https://www.referyourchasecard.com/252j/PSOE5X37UU
-    - spend: 2000
+  historicalOffers:
+    - spend: 3000
       amount:
-        - amount: 25000
+        - amount: 0
       days: 90
       credits:
-        - description: $400 gift card
-          value: 400
-          weight: 1
-          currency: USD
-      url: https://www.doctorofcredit.com/chase-marriott-boundless-25000-points-400-egiftcard/
-  historicalOffers:
+        - description: 3x FNC up to 50k each
+          value: 50000
+          weight: 0.7
+      referralUrl: https://www.referyourchasecard.com/252j/PSOE5X37UU
     - spend: 3000
       amount:
         - amount: 125000
@@ -2775,7 +2769,7 @@
   imageUrl: /images/chase/southwest-rapid-rewards-premier.png
   credits: []
   offers:
-    - spend: 4000
+    - spend: 1000
       amount:
         - amount: 30000
       days: 90
@@ -2859,7 +2853,7 @@
   annualFee: 150
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://creditcards.chase.com/business-credit-cards/united/united-business-card
+  url: https://www.theexplorercard.com/business-rewards-cards/business-card
   imageUrl: /images/chase/united-business.png
   credits:
     - description: Free Checked Bag
@@ -2907,7 +2901,7 @@
   annualFee: 695
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://www.theexplorercard.com/rewards-cards
+  url: https://www.theexplorercard.com/rewards-cards/club-card
   imageUrl: /images/chase/united-club-infinite.png
   credits:
     - description: 2x Checked Bags
@@ -2956,7 +2950,7 @@
   annualFee: 695
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://creditcards.chase.com/business-credit-cards/united/united-club-business
+  url: https://www.theexplorercard.com/business-rewards-cards/club-card
   imageUrl: /images/chase/united-club-business.png
   credits:
     - description: 2x Checked Bags
@@ -3004,7 +2998,7 @@
   annualFee: 150
   isAnnualFeeWaived: true
   universalCashbackPercent: 1
-  url: https://www.theexplorercard.com/rewards-cards
+  url: https://www.theexplorercard.com/rewards-cards/explorer-card
   imageUrl: /images/chase/united-explorer.png
   credits:
     - description: Free Checked Bag
@@ -3066,7 +3060,7 @@
   annualFee: 0
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://www.theexplorercard.com/rewards-cards
+  url: https://www.theexplorercard.com/rewards-cards/gateway-card
   imageUrl: /images/chase/united-gateway.png
   credits: []
   offers:
@@ -3094,7 +3088,7 @@
   annualFee: 350
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://www.theexplorercard.com/rewards-cards
+  url: https://www.theexplorercard.com/rewards-cards/quest-card
   imageUrl: /images/chase/united-quest.png
   credits:
     - description: United Credit
@@ -3274,7 +3268,7 @@
   offers:
     - spend: 500
       amount:
-        - amount: 250
+        - amount: 200
       days: 90
       credits: []
   historicalOffers:
@@ -3374,7 +3368,12 @@
   url: https://www.capitalone.com/small-business/credit-cards/spark-miles/
   imageUrl: /images/capitalone/spark-miles.webp
   credits: []
-  offers: []
+  offers:
+    - spend: 4500
+      amount:
+        - amount: 50000
+      days: 90
+      credits: []
   historicalOffers:
     - spend: 4500
       amount:
@@ -4405,7 +4404,7 @@
         - amount: 30000
       days: 120
       credits: []
-  discontinued: false
+  discontinued: true
 - cardId: 4899141df2aa46191c192c6f216b74cf
   name: Business Leverage
   issuer: US_BANK
@@ -4618,33 +4617,8 @@
       days: 120
       credits: []
   discontinued: false
-- cardId: b32c686e5d27a02baecdf59bcb9437c9
-  name: Smartly
-  issuer: US_BANK
-  network: VISA
-  currency: USD
-  isBusiness: false
-  annualFee: 0
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 2
-  url: https://www.usbank.com/credit-cards/bank-smartly-visa-signature-credit-card.html
-  imageUrl: /images/usbank/smartly.webp
-  credits: []
-  offers:
-    - spend: 3000
-      amount:
-        - amount: 0
-      days: 90
-      credits: []
-  historicalOffers:
-    - spend: 3000
-      amount:
-        - amount: 0
-      days: 90
-      credits: []
-  discontinued: true
 - cardId: e1679e714c2139ed85bd250e229ded16
-  name: Business Triple Cash Rewards
+  name: Smartly
   issuer: US_BANK
   network: VISA
   currency: USD

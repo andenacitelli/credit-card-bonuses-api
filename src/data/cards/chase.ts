@@ -51,13 +51,6 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 100_000 }],
-        spend: 7500,
-        days: 180,
-        url: "https://creditcards.chase.com/a1/aerlingus/LTO",
-        credits: [],
-      },
-      {
         amount: [{ amount: 75_000 }],
         spend: 5000,
         days: 90,
@@ -90,7 +83,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     offers: [
       {
         amount: [{ amount: 60_000 }],
-        spend: 4000,
+        spend: 3000,
         days: 90,
         credits: [],
       },
@@ -125,13 +118,6 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     imageUrl: "/images/chase/british-airways.png",
     credits: [],
     offers: [
-      {
-        amount: [{ amount: 100_000 }],
-        spend: 7500,
-        days: 180,
-        credits: [],
-        url: "https://creditcards.chase.com/a1/britishairways/aep/LTO",
-      },
       {
         amount: [{ amount: 75_000 }],
         spend: 5000,
@@ -292,13 +278,6 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 100_000 }],
-        spend: 7500,
-        days: 180,
-        url: "https://creditcards.chase.com/a1/iberia/LTO",
-        credits: [],
-      },
-      {
         amount: [{ amount: 75_000 }],
         spend: 5000,
         days: 90,
@@ -344,7 +323,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
         url: "https://creditcards.chase.com/a1/ihg/PremierOnPropertyAEP",
       },
       {
-        amount: [{ amount: 170_000 }],
+        amount: [{ amount: 140_000 }],
         spend: 4000,
         days: 90,
         credits: [],
@@ -607,35 +586,33 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 100_000 }],
+        amount: [{ amount: 0 }],
         spend: 3000,
         days: 90,
         credits: [
           {
-            description: "$150 Statement Credit on first purchase",
-            value: 150,
-            weight: 1.0,
-            currency: schemas.CurrenciesEnum.enum.USD,
+            description: "3x FNC up to 50k each",
+            value: 50_000,
+            weight: WEIGHTS.FREE_NIGHT_CREDIT,
           },
         ],
         referralUrl: REFERRALS.CHASE.MARRIOTT,
       },
+    ],
+    historicalOffers: [
       {
-        amount: [{ amount: 25_000 }],
-        spend: 2000,
+        amount: [{ amount: 0 }],
+        spend: 3000,
         days: 90,
         credits: [
           {
-            description: "$400 gift card",
-            value: 400,
-            weight: 1.0,
-            currency: schemas.CurrenciesEnum.enum.USD,
+            description: "3x FNC up to 50k each",
+            value: 50_000,
+            weight: WEIGHTS.FREE_NIGHT_CREDIT,
           },
         ],
-        url: "https://www.doctorofcredit.com/chase-marriott-boundless-25000-points-400-egiftcard/",
+        referralUrl: REFERRALS.CHASE.MARRIOTT,
       },
-    ],
-    historicalOffers: [
       {
         amount: [{ amount: 125_000 }],
         spend: 3000,
@@ -824,7 +801,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     offers: [
       {
         amount: [{ amount: 30_000 }],
-        spend: 4000,
+        spend: 1000,
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.SOUTHWEST,
@@ -925,7 +902,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     annualFee: 150,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://creditcards.chase.com/business-credit-cards/united/united-business-card",
+    url: "https://www.theexplorercard.com/business-rewards-cards/business-card",
     imageUrl: "/images/chase/united-business.png",
     credits: [
       {
@@ -993,7 +970,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     annualFee: 695,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://www.theexplorercard.com/rewards-cards",
+    url: "https://www.theexplorercard.com/rewards-cards/club-card",
     imageUrl: "/images/chase/united-club-infinite.png",
     credits: [
       {
@@ -1062,7 +1039,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     annualFee: 695,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+    url: "https://www.theexplorercard.com/business-rewards-cards/club-card",
     imageUrl: "/images/chase/united-club-business.png",
     credits: [
       {
@@ -1130,7 +1107,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     annualFee: 150,
     isAnnualFeeWaived: true,
     universalCashbackPercent: 1,
-    url: "https://www.theexplorercard.com/rewards-cards",
+    url: "https://www.theexplorercard.com/rewards-cards/explorer-card",
     imageUrl: "/images/chase/united-explorer.png",
     credits: [
       {
@@ -1218,7 +1195,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://www.theexplorercard.com/rewards-cards",
+    url: "https://www.theexplorercard.com/rewards-cards/gateway-card",
     imageUrl: "/images/chase/united-gateway.png",
     credits: [],
     offers: [
@@ -1251,7 +1228,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     annualFee: 350,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://www.theexplorercard.com/rewards-cards",
+    url: "https://www.theexplorercard.com/rewards-cards/quest-card",
     imageUrl: "/images/chase/united-quest.png",
     credits: [
       {

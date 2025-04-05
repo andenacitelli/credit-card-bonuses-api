@@ -110,17 +110,17 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
+        amount: [{ amount: 250 }],
+        spend: 2000,
+        days: 180,
+        credits: [],
+        details: "Requires Incognito, YMMV.",
+      },
+      {
         amount: [{ amount: 200 }],
         spend: 2000,
         days: 180,
-        credits: [
-          {
-            value: 150,
-            description: "Dining Credit",
-            weight: WEIGHTS.DINING_CREDIT,
-          },
-        ],
-        url: "https://resy.com/amex-offers",
+        credits: [],
       },
     ],
     historicalOffers: [
@@ -160,11 +160,17 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
+        amount: [{ amount: 300 }],
+        spend: 3000,
+        days: 180,
+        credits: [],
+        details: "Requires Incognito, YMMV.",
+      },
+      {
         amount: [{ amount: 250 }],
         spend: 3000,
         days: 180,
         credits: [],
-        url: "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/",
       },
     ],
     historicalOffers: [
@@ -234,7 +240,6 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
         spend: 10_000,
         days: 90,
         credits: [],
-        details: "200k available via referral; see USCreditCardGuide.",
       },
     ],
     historicalOffers: [
@@ -442,6 +447,13 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
+        amount: [{ amount: 80_000 }],
+        spend: 3000,
+        days: 180,
+        credits: [],
+        details: "Requires Incognito, YMMV.",
+      },
+      {
         amount: [{ amount: 50_000 }],
         spend: 3000,
         days: 180,
@@ -509,6 +521,13 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
       },
     ],
     offers: [
+      {
+        amount: [{ amount: 90_000 }],
+        spend: 4000,
+        days: 180,
+        credits: [],
+        details: "Requires Incognito, YMMV.",
+      },
       {
         amount: [{ amount: 60_000 }],
         spend: 4000,
@@ -593,6 +612,13 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
       },
     ],
     offers: [
+      {
+        amount: [{ amount: 100_000 }],
+        spend: 5000,
+        days: 180,
+        credits: [],
+        details: "Requires Incognito, YMMV.",
+      },
       {
         amount: [{ amount: 70_000 }],
         spend: 5000,
@@ -1140,7 +1166,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     offers: [
       {
         amount: [{ amount: 80_000 }],
-        spend: 6000,
+        spend: 8000,
         days: 180,
         credits: [],
       },
@@ -1149,7 +1175,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
       {
         amount: [{ amount: 125_000 }],
         credits: [],
-        spend: 6000,
+        spend: 8000,
         days: 180,
         expiration: "2025-01-08", // ref: https://www.doctorofcredit.com/american-express-charles-schwab-125000-point-bonus/
       },
@@ -1327,15 +1353,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     offers: [
       {
         amount: [{ amount: 400 }],
-        spend: 3000,
-        days: 90,
-        credits: [],
-        url: "https://www.doctorofcredit.com/ymmv-american-express-amazon-card-400-statement-credit-bonus/",
-        details: "Targeted, YMMV.",
-      },
-      {
-        amount: [{ amount: 125 }],
-        spend: 0.01,
+        spend: 4000,
         days: 90,
         url: "https://www.amazon.com/Amazon-Business-American-Express-Card/dp/B07984JN3L",
         credits: [],
@@ -1344,7 +1362,6 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
         amount: [{ amount: 100 }],
         spend: 0.01,
         days: 90,
-        url: "https://www.amazon.com/Amazon-Business-American-Express-Card/dp/B07984JN3L",
         credits: [],
       },
     ],
@@ -1353,6 +1370,13 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
         amount: [{ amount: 100 }],
         spend: 0.01,
         days: 90,
+        credits: [],
+      },
+      {
+        amount: [{ amount: 400 }],
+        spend: 4000,
+        days: 90,
+        url: "https://www.amazon.com/Amazon-Business-American-Express-Card/dp/B07984JN3L",
         credits: [],
       },
     ],

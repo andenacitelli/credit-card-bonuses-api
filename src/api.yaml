@@ -105,6 +105,7 @@ components:
           type: array
           items:
             $ref: "#/components/schemas/Credit"
+          default: []
         details:
           type: string
           description: Additional relevant details about the offer. Generally only provided if there's things you should know outside of initial face value.

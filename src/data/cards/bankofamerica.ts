@@ -69,17 +69,10 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
         url: "http://alaska75k.com/",
       },
       {
-        amount: [{ amount: 70_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 3000,
         days: 90,
         credits: [],
-      },
-      {
-        amount: [{ amount: 40_000 }, { amount: 300, currency: "USD" }],
-        spend: 3000,
-        days: 90,
-        credits: [],
-        url: "https://www.doctorofcredit.com/bank-of-america-alaska-airlines-card-40000-miles-300-offer-companion-fare/",
       },
     ],
     historicalOffers: [
@@ -132,7 +125,7 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 3000,
         days: 90,
         credits: [],

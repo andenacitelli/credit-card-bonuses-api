@@ -48,7 +48,7 @@ export const CAPITAL_ONE_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 250 }],
+        amount: [{ amount: 200 }],
         spend: 500,
         days: 90,
         credits: [],
@@ -170,7 +170,14 @@ export const CAPITAL_ONE_CARDS: Array<CreditCardInput> = [
     countsTowards524: false,
     imageUrl: "/images/capitalone/spark-miles.webp",
     credits: [],
-    offers: [],
+    offers: [
+      {
+        amount: [{ amount: 50_000 }],
+        spend: 4500,
+        days: 90,
+        credits: [],
+      },
+    ],
     historicalOffers: [
       {
         amount: [{ amount: 50_000 }],
