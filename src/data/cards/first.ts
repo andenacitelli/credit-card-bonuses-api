@@ -137,7 +137,7 @@ export const FIRST_CARDS: Array<CreditCardInput> = [
     annualFee: 99,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://www.lifemiles.com/discover/landing-page/avianca-lifemiles-creditcard-promo",
+    url: "https://www.lifemiles.com/credit-card/get-credit-card",
     imageUrl: "/images/first/avianca-lifemiles.webp",
     credits: [],
     offers: [
@@ -174,7 +174,7 @@ export const FIRST_CARDS: Array<CreditCardInput> = [
     annualFee: 250,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://www.lifemiles.com/discover/landing-page/avianca-lifemiles-creditcard-promo",
+    url: "https://www.lifemiles.com/credit-card/get-credit-card",
     imageUrl: "/images/first/avianca-lifemiles-elite.webp",
     credits: [],
     offers: [
@@ -219,7 +219,7 @@ export const FIRST_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 10_000 }],
+        amount: [{ amount: 5_000 }],
         spend: 3000,
         days: 90,
         credits: [],

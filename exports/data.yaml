@@ -320,13 +320,13 @@
     - spend: 1000
       amount:
         - amount: 10000
-      days: 90
+      days: 180
       credits: []
   historicalOffers:
     - spend: 1000
       amount:
         - amount: 10000
-      days: 90
+      days: 180
       credits: []
   discontinued: false
 - cardId: 99d4ec3c5bcd51b70b83b4b792af3ef6
@@ -371,7 +371,7 @@
   imageUrl: /images/amex/delta-skymiles-gold-business.webp
   credits: []
   offers:
-    - spend: 6000
+    - spend: 4000
       amount:
         - amount: 60000
       days: 180
@@ -1539,19 +1539,19 @@
   annualFee: 0
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://cards.barclaycardus.com/banking/cards/aarp-essential-rewards-mastercard/
+  url: https://www.aarp.org/membership/benefits/finance/aarp-essential-rewards-mastercard-from-barclays/
   imageUrl: /images/barclays/aarp-essential-rewards.png
   credits: []
   offers:
-    - spend: 500
+    - spend: 1000
       amount:
-        - amount: 100
+        - amount: 200
       days: 90
       credits: []
   historicalOffers:
-    - spend: 500
+    - spend: 1000
       amount:
-        - amount: 100
+        - amount: 200
       days: 90
       credits: []
   discontinued: false
@@ -1564,19 +1564,19 @@
   annualFee: 0
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://cards.barclaycardus.com/banking/cards/aarp-travel-rewards-mastercard/
+  url: https://www.aarp.org/membership/benefits/finance/aarp-travel-rewards-mastercard-from-barclays/
   imageUrl: /images/barclays/aarp-travel-rewards.png
   credits: []
   offers:
-    - spend: 500
+    - spend: 1000
       amount:
-        - amount: 100
+        - amount: 200
       days: 90
       credits: []
   historicalOffers:
-    - spend: 500
+    - spend: 1000
       amount:
-        - amount: 100
+        - amount: 200
       days: 90
       credits: []
   discontinued: false
@@ -2230,7 +2230,7 @@
   annualFee: 49
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://disneyrewards.com/compare-credit-cards
+  url: https://creditcards.chase.com/rewards-credit-cards/disney/premier
   imageUrl: /images/chase/disney.png
   credits: []
   offers:
@@ -2260,7 +2260,7 @@
   annualFee: 0
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://disneyrewards.com/compare-credit-cards
+  url: https://creditcards.chase.com/rewards-credit-cards/disney/rewards
   imageUrl: /images/chase/disney.png
   credits: []
   offers:
@@ -2269,15 +2269,10 @@
         - amount: 200
       days: 90
       credits: []
-    - spend: 500
-      amount:
-        - amount: 150
-      days: 90
-      credits: []
   historicalOffers:
     - spend: 500
       amount:
-        - amount: 150
+        - amount: 200
       days: 90
       credits: []
   discontinued: false
@@ -2478,7 +2473,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
   historicalOffers:
     - spend: 6000
       amount:
@@ -2505,7 +2500,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
   historicalOffers:
     - spend: 8000
       amount:
@@ -2531,7 +2526,7 @@
         - amount: 75000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
   historicalOffers:
     - spend: 6000
       amount:
@@ -2561,7 +2556,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
   historicalOffers:
     - spend: 10000
       amount:
@@ -3921,7 +3916,7 @@
   annualFee: 99
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://www.lifemiles.com/discover/landing-page/avianca-lifemiles-creditcard-promo
+  url: https://www.lifemiles.com/credit-card/get-credit-card
   imageUrl: /images/first/avianca-lifemiles.webp
   credits: []
   offers:
@@ -3952,7 +3947,7 @@
   annualFee: 250
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://www.lifemiles.com/discover/landing-page/avianca-lifemiles-creditcard-promo
+  url: https://www.lifemiles.com/credit-card/get-credit-card
   imageUrl: /images/first/avianca-lifemiles-elite.webp
   credits: []
   offers:
@@ -3992,7 +3987,7 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 10000
+        - amount: 5000
       days: 90
       credits: []
   historicalOffers:
@@ -4426,8 +4421,8 @@
   offers:
     - spend: 7500
       amount:
-        - amount: 75000
-          currency: US_BANK
+        - amount: 750
+          currency: USD
       days: 120
       credits: []
   historicalOffers:
@@ -4787,7 +4782,7 @@
   annualFee: 0
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://www.choicehotels.com/choice-privileges/earn-points/mastercard-credit-card
+  url: https://creditcards.wellsfargo.com/wells-fargo-choice-privileges-credit-cards
   imageUrl: /images/wellsfargo/choice-privileges.png
   credits: []
   offers:
@@ -4812,7 +4807,7 @@
   annualFee: 95
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://www.choicehotels.com/choice-privileges/earn-points/mastercard-credit-card
+  url: https://creditcards.wellsfargo.com/wells-fargo-choice-privileges-credit-cards
   imageUrl: /images/wellsfargo/choice-privileges-select.png
   credits: []
   offers:

@@ -214,7 +214,7 @@ export const US_BANK_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 75_000, currency: "US_BANK" }],
+        amount: [{ amount: 750, currency: "USD" }],
         spend: 7_500,
         days: 120,
         credits: [],

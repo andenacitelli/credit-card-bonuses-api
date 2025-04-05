@@ -78,21 +78,21 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://cards.barclaycardus.com/banking/cards/aarp-essential-rewards-mastercard/",
+    url: "https://www.aarp.org/membership/benefits/finance/aarp-essential-rewards-mastercard-from-barclays/",
     imageUrl: "/images/barclays/aarp-essential-rewards.png",
     credits: [],
     offers: [
       {
-        amount: [{ amount: 100 }],
-        spend: 500,
+        amount: [{ amount: 200 }],
+        spend: 1000,
         days: 90,
         credits: [],
       },
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 100 }],
-        spend: 500,
+        amount: [{ amount: 200 }],
+        spend: 1000,
         days: 90,
         credits: [],
       },
@@ -108,21 +108,21 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://cards.barclaycardus.com/banking/cards/aarp-travel-rewards-mastercard/",
+    url: "https://www.aarp.org/membership/benefits/finance/aarp-travel-rewards-mastercard-from-barclays/",
     imageUrl: "/images/barclays/aarp-travel-rewards.png",
     credits: [],
     offers: [
       {
-        amount: [{ amount: 100 }],
-        spend: 500,
+        amount: [{ amount: 200 }],
+        spend: 1000,
         days: 90,
         credits: [],
       },
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 100 }],
-        spend: 500,
+        amount: [{ amount: 200 }],
+        spend: 1000,
         days: 90,
         credits: [],
       },

@@ -408,7 +408,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
       {
         amount: [{ amount: 10_000 }],
         spend: 1000,
-        days: 90,
+        days: 180,
         credits: [],
       },
     ],
@@ -416,7 +416,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
       {
         amount: [{ amount: 10_000 }],
         spend: 1000,
-        days: 90,
+        days: 180,
         credits: [],
       },
     ],
@@ -474,7 +474,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     offers: [
       {
         amount: [{ amount: 60_000 }],
-        spend: 6000,
+        spend: 4000,
         days: 180,
         credits: [],
       },

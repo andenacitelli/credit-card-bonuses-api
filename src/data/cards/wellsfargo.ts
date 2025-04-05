@@ -140,7 +140,7 @@ export const WELLS_FARGO_CARDS: Array<CreditCardInput> = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://www.choicehotels.com/choice-privileges/earn-points/mastercard-credit-card",
+    url: "https://creditcards.wellsfargo.com/wells-fargo-choice-privileges-credit-cards",
     imageUrl: "/images/wellsfargo/choice-privileges.png", // Card is technically issued by wells fargo now, but keeping the image in the old place isn't a big deal
     credits: [],
     offers: [
@@ -170,7 +170,7 @@ export const WELLS_FARGO_CARDS: Array<CreditCardInput> = [
     annualFee: 95,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://www.choicehotels.com/choice-privileges/earn-points/mastercard-credit-card",
+    url: "https://creditcards.wellsfargo.com/wells-fargo-choice-privileges-credit-cards",
     imageUrl: "/images/wellsfargo/choice-privileges-select.png",
     credits: [],
     offers: [

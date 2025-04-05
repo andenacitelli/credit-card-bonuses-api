@@ -159,7 +159,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     annualFee: 49,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://disneyrewards.com/compare-credit-cards",
+    url: "https://creditcards.chase.com/rewards-credit-cards/disney/premier",
     imageUrl: "/images/chase/disney.png",
     credits: [],
     offers: [
@@ -195,7 +195,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://disneyrewards.com/compare-credit-cards",
+    url: "https://creditcards.chase.com/rewards-credit-cards/disney/rewards",
     imageUrl: "/images/chase/disney.png",
     credits: [],
     offers: [
@@ -205,16 +205,10 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
         days: 90,
         credits: [],
       },
-      {
-        amount: [{ amount: 150 }],
-        spend: 500,
-        days: 90,
-        credits: [],
-      },
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 150 }],
+        amount: [{ amount: 200 }],
         spend: 500,
         days: 90,
         credits: [],
