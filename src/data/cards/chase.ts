@@ -793,7 +793,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 30_000 }],
+        amount: [{ amount: 50_000 }],
         spend: 1000,
         days: 90,
         credits: [],
@@ -868,8 +868,8 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 30_000 }],
-        spend: 4000,
+        amount: [{ amount: 50_000 }],
+        spend: 1000,
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.SOUTHWEST,

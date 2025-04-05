@@ -2480,7 +2480,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - spend: 6000
       amount:
@@ -2507,7 +2507,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - spend: 8000
       amount:
@@ -2533,7 +2533,7 @@
         - amount: 75000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - spend: 6000
       amount:
@@ -2563,7 +2563,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - spend: 10000
       amount:
@@ -2776,7 +2776,7 @@
   offers:
     - spend: 1000
       amount:
-        - amount: 30000
+        - amount: 50000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/226m/EK4J5RUTDJ
@@ -2835,9 +2835,9 @@
       value: 75
       weight: 0.8
   offers:
-    - spend: 4000
+    - spend: 1000
       amount:
-        - amount: 30000
+        - amount: 50000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/226m/EK4J5RUTDJ
