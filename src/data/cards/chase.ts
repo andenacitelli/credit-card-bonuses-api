@@ -119,7 +119,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 75_000 }],
+        amount: [{ amount: 85_000 }],
         spend: 5000,
         days: 90,
         credits: [],
@@ -687,15 +687,8 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 65_000 }],
-        spend: 4000,
-        days: 90,
-        credits: [],
-        url: "https://www.theinfatuation.com/experiences",
-      },
-      {
         amount: [{ amount: 60_000 }],
-        spend: 4000,
+        spend: 5000,
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.SAPPHIRE,
@@ -704,7 +697,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     historicalOffers: [
       {
         amount: [{ amount: 75_000 }],
-        spend: 4000,
+        spend: 5000,
         days: 90,
         credits: [],
         expiration: "2024-06-08",
@@ -768,8 +761,8 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 30_000 }],
-        spend: 4000,
+        amount: [{ amount: 50_000 }],
+        spend: 1000,
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.SOUTHWEST,

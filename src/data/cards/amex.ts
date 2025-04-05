@@ -240,6 +240,13 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
         spend: 10_000,
         days: 90,
         credits: [],
+        details: "May require Incognito, YMMV.",
+      },
+      {
+        amount: [{ amount: 70_000 }],
+        spend: 10_000,
+        days: 90,
+        credits: [],
       },
     ],
     historicalOffers: [
@@ -656,6 +663,12 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
         days: 180,
         credits: [],
       },
+      {
+        amount: [{ amount: 75_000 }],
+        spend: 4000,
+        days: 180,
+        credits: [],
+      },
     ],
     historicalOffers: [
       {
@@ -740,6 +753,13 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
+        amount: [{ amount: 90_000 }],
+        spend: 6000,
+        days: 180,
+        credits: [],
+        details: "Requires Incognito, YMMV.",
+      },
+      {
         amount: [
           { amount: 75_000 },
           { amount: 250, currency: schemas.CurrenciesEnum.enum.USD },
@@ -748,13 +768,6 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
         days: 180,
         credits: [],
         url: "https://resy.com/amex-offers",
-      },
-      {
-        amount: [{ amount: 75_000 }],
-        spend: 6000,
-        days: 180,
-        credits: [],
-        details: "Inconsistent (try incognito).",
       },
       {
         amount: [{ amount: 60_000 }],

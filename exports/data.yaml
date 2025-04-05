@@ -190,6 +190,12 @@
         - amount: 100000
       days: 90
       credits: []
+      details: May require Incognito, YMMV.
+    - spend: 10000
+      amount:
+        - amount: 70000
+      days: 90
+      credits: []
   historicalOffers:
     - spend: 10000
       amount:
@@ -519,6 +525,11 @@
         - amount: 80000
       days: 180
       credits: []
+    - spend: 4000
+      amount:
+        - amount: 75000
+      days: 180
+      credits: []
   historicalOffers:
     - spend: 12000
       amount:
@@ -605,18 +616,18 @@
   offers:
     - spend: 6000
       amount:
+        - amount: 90000
+      days: 180
+      credits: []
+      details: Requires Incognito, YMMV.
+    - spend: 6000
+      amount:
         - amount: 75000
         - amount: 250
           currency: USD
       days: 180
       credits: []
       url: https://resy.com/amex-offers
-    - spend: 6000
-      amount:
-        - amount: 75000
-      days: 180
-      credits: []
-      details: Inconsistent (try incognito).
     - spend: 6000
       amount:
         - amount: 60000
@@ -1505,7 +1516,7 @@
   imageUrl: /images/barclays/aadvantage-aviator-red-world-elite.png
   credits: []
   offers:
-    - spend: 99.01
+    - spend: 99
       amount:
         - amount: 60000
       days: 90
@@ -2212,7 +2223,7 @@
   offers:
     - spend: 5000
       amount:
-        - amount: 75000
+        - amount: 85000
       days: 90
       credits: []
   historicalOffers:
@@ -2469,7 +2480,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
   historicalOffers:
     - spend: 6000
       amount:
@@ -2496,7 +2507,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
   historicalOffers:
     - spend: 8000
       amount:
@@ -2522,7 +2533,7 @@
         - amount: 75000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
   historicalOffers:
     - spend: 6000
       amount:
@@ -2552,7 +2563,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
   historicalOffers:
     - spend: 10000
       amount:
@@ -2677,20 +2688,14 @@
       value: 600
       weight: 0.95
   offers:
-    - spend: 4000
-      amount:
-        - amount: 65000
-      days: 90
-      credits: []
-      url: https://www.theinfatuation.com/experiences
-    - spend: 4000
+    - spend: 5000
       amount:
         - amount: 60000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/19Q/QN3N8HQ4KX
   historicalOffers:
-    - spend: 4000
+    - spend: 5000
       amount:
         - amount: 75000
       days: 90
@@ -2742,9 +2747,9 @@
   imageUrl: /images/chase/southwest-rapid-rewards-plus.png
   credits: []
   offers:
-    - spend: 4000
+    - spend: 1000
       amount:
-        - amount: 30000
+        - amount: 50000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/226m/EK4J5RUTDJ
