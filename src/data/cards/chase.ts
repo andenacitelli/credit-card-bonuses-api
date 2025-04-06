@@ -593,6 +593,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
           {
             description: "3x FNC up to 50k each",
             value: 50_000,
+            currency: "MARRIOTT",
             weight: WEIGHTS.FREE_NIGHT_CREDIT,
           },
         ],

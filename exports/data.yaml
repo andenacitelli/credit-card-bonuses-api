@@ -2619,6 +2619,7 @@
         - description: 3x FNC up to 50k each
           value: 50000
           weight: 0.7
+          currency: MARRIOTT
       referralUrl: https://www.referyourchasecard.com/252j/PSOE5X37UU
   historicalOffers:
     - spend: 3000
