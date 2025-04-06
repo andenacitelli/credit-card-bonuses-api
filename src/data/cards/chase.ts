@@ -586,17 +586,10 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 0 }],
+        amount: [{ amount: 50_000 * 3, currency: "MARRIOTT" }],
         spend: 3000,
         days: 90,
-        credits: [
-          {
-            description: "3x FNC up to 50k each",
-            value: 50_000,
-            currency: "MARRIOTT",
-            weight: WEIGHTS.FREE_NIGHT_CREDIT,
-          },
-        ],
+        credits: [],
         referralUrl: REFERRALS.CHASE.MARRIOTT,
       },
     ],
