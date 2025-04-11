@@ -78,8 +78,8 @@ export const CITI_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 75_000 }],
-        spend: 3500,
+        amount: [{ amount: 50_000 }],
+        spend: 2500,
         days: 120,
         credits: [],
       },
@@ -121,8 +121,8 @@ export const CITI_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 65_000 }],
-        spend: 4000,
+        amount: [{ amount: 75_000 }],
+        spend: 5000,
         days: 120,
         credits: [],
       },

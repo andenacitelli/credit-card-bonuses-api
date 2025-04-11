@@ -219,10 +219,11 @@ export const FIRST_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 5_000 }],
+        amount: [{ amount: 10_000 }],
         spend: 3000,
         days: 90,
         credits: [],
+        url: "https://www.anacardusa.com/en/new-enrollment-campaign/",
       },
     ],
     historicalOffers: [

@@ -107,6 +107,7 @@ export const US_BANK_CARDS: Array<CreditCardInput> = [
     universalCashbackPercent: 2,
     url: "https://www.nerdwallet.com/article/credit-cards/u-s-bank-altitude-reserve-closed-to-new-applications",
     imageUrl: "/images/usbank/altitude-reserve.png",
+    discontinued: true,
     credits: [],
     offers: [
       // Card is being phased out; needs to stay here so people can still enter it under "My Cards"

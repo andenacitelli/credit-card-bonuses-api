@@ -2166,7 +2166,7 @@
   offers:
     - spend: 5000
       amount:
-        - amount: 75000
+        - amount: 85000
       days: 90
       credits: []
   historicalOffers:
@@ -2356,7 +2356,7 @@
   offers:
     - spend: 5000
       amount:
-        - amount: 75000
+        - amount: 85000
       days: 90
       credits: []
   historicalOffers:
@@ -2480,7 +2480,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - spend: 6000
       amount:
@@ -2507,7 +2507,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - spend: 8000
       amount:
@@ -2533,7 +2533,7 @@
         - amount: 75000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - spend: 6000
       amount:
@@ -2563,7 +2563,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - spend: 10000
       amount:
@@ -3596,9 +3596,9 @@
   imageUrl: /images/citi/aadvantage-platinum-select.webp
   credits: []
   offers:
-    - spend: 3500
+    - spend: 2500
       amount:
-        - amount: 75000
+        - amount: 50000
       days: 120
       credits: []
   historicalOffers:
@@ -3630,9 +3630,9 @@
       value: 50
       weight: 0.5
   offers:
-    - spend: 4000
+    - spend: 5000
       amount:
-        - amount: 65000
+        - amount: 75000
       days: 120
       credits: []
   historicalOffers:
@@ -3989,9 +3989,10 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 5000
+        - amount: 10000
       days: 90
       credits: []
+      url: https://www.anacardusa.com/en/new-enrollment-campaign/
   historicalOffers:
     - spend: 3000
       amount:
@@ -4336,7 +4337,7 @@
   credits: []
   offers: []
   historicalOffers: []
-  discontinued: false
+  discontinued: true
 - cardId: b523a3cc7d6d355737b1c4dda1eb7a04
   name: Altitude Go
   issuer: US_BANK
