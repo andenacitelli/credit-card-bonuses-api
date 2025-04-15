@@ -17,20 +17,21 @@ export const DISCOVER_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 0 }],
+        amount: [{ amount: 100 }],
         spend: 0.01,
         days: 90,
         credits: [],
-        details: "No offer currently available.",
+        details: "Referral only. You get $100, referrer gets $100.",
         referralUrl: REFERRALS.DISCOVER,
       },
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 0 }],
-        spend: 1000,
+        amount: [{ amount: 100 }],
+        spend: 0.01,
         days: 90,
         credits: [],
+        details: "Referral only.",
       },
     ],
   },

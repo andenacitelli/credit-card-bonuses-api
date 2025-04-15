@@ -641,13 +641,13 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
         spend: 5000,
         days: 90,
         credits: [],
+        referralUrl: REFERRALS.CHASE.SAPPHIRE,
       },
       {
         amount: [{ amount: 60_000 }],
         spend: 4000,
         days: 90,
         credits: [],
-        referralUrl: REFERRALS.CHASE.SAPPHIRE,
       },
     ],
     historicalOffers: [
@@ -700,7 +700,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
   },
   {
     cardId: "682a4f0c425d15b5ca34214378cfc3de",
-    name: "Southwest Rapid Rewards Performance Business",
+    name: "Southwest Performance Business",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
     currency: schemas.CurrenciesEnum.enum.SOUTHWEST,
@@ -742,7 +742,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
   },
   {
     cardId: "32a0c8c7eda25330e2c176589e386d7f",
-    name: "Southwest Rapid Rewards Plus",
+    name: "Southwest Plus",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
     currency: schemas.CurrenciesEnum.enum.SOUTHWEST,
@@ -774,7 +774,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
   },
   {
     cardId: "76e73a4afe8dfc1f8f1be1e345d7eca8",
-    name: "Southwest Rapid Rewards Premier",
+    name: "Southwest Premier",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
     currency: schemas.CurrenciesEnum.enum.SOUTHWEST,
@@ -806,7 +806,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
   },
   {
     cardId: "f86d26bad5af78feff0335845003c47e",
-    name: "Southwest Rapid Rewards Premier Business",
+    name: "Southwest Premier Business",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
     currency: schemas.CurrenciesEnum.enum.SOUTHWEST,
@@ -843,7 +843,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
   },
   {
     cardId: "169256a9988f3161381ee6a9ebe6667e",
-    name: "Southwest Rapid Rewards Priority",
+    name: "Southwest Priority",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
     currency: schemas.CurrenciesEnum.enum.SOUTHWEST,

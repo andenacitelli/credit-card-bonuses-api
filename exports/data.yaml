@@ -2656,12 +2656,12 @@
         - amount: 100000
       days: 90
       credits: []
+      referralUrl: https://www.referyourchasecard.com/19Q/QN3N8HQ4KX
     - spend: 4000
       amount:
         - amount: 60000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/19Q/QN3N8HQ4KX
   historicalOffers:
     - spend: 5000
       amount:
@@ -2701,7 +2701,7 @@
       credits: []
   discontinued: false
 - cardId: 682a4f0c425d15b5ca34214378cfc3de
-  name: Southwest Rapid Rewards Performance Business
+  name: Southwest Performance Business
   issuer: CHASE
   network: VISA
   currency: SOUTHWEST
@@ -2733,7 +2733,7 @@
       credits: []
   discontinued: false
 - cardId: 32a0c8c7eda25330e2c176589e386d7f
-  name: Southwest Rapid Rewards Plus
+  name: Southwest Plus
   issuer: CHASE
   network: VISA
   currency: SOUTHWEST
@@ -2760,7 +2760,7 @@
       credits: []
   discontinued: false
 - cardId: 76e73a4afe8dfc1f8f1be1e345d7eca8
-  name: Southwest Rapid Rewards Premier
+  name: Southwest Premier
   issuer: CHASE
   network: VISA
   currency: SOUTHWEST
@@ -2787,7 +2787,7 @@
       credits: []
   discontinued: false
 - cardId: f86d26bad5af78feff0335845003c47e
-  name: Southwest Rapid Rewards Premier Business
+  name: Southwest Premier Business
   issuer: CHASE
   network: VISA
   currency: SOUTHWEST
@@ -2818,7 +2818,7 @@
       credits: []
   discontinued: false
 - cardId: 169256a9988f3161381ee6a9ebe6667e
-  name: Southwest Rapid Rewards Priority
+  name: Southwest Priority
   issuer: CHASE
   network: VISA
   currency: SOUTHWEST
@@ -3791,17 +3791,18 @@
   offers:
     - spend: 0.01
       amount:
-        - amount: 0
+        - amount: 100
       days: 90
       credits: []
-      details: No offer currently available.
+      details: Referral only. You get $100, referrer gets $100.
       referralUrl: https://refer.discover.com/aacitelli3!a9f01e6210!a
   historicalOffers:
-    - spend: 1000
+    - spend: 0.01
       amount:
-        - amount: 0
+        - amount: 100
       days: 90
       credits: []
+      details: Referral only.
   discontinued: false
 - cardId: 73015adf7b2ca52331e05203c4ad5462
   name: LATAM Airlines
