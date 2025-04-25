@@ -1,0 +1,9 @@
+name: setup-node
+description: Installs dependencies and performs any generation steps.
+
+runs:
+  using: "composite"
+  steps:
+    - uses: ./.github/actions/setup-mise
+    - run: npm ci
+      shell: bash

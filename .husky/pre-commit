@@ -1,5 +1,5 @@
 eval "$(~/.local/bin/mise activate zsh --shims)"
-pnpm dlx lint-staged # only for formatting
-pnpm run lint
-pnpm run generate:exports
+npx lint-staged # only for formatting
+npm run lint
+npm run generate:exports
 git add exports/
