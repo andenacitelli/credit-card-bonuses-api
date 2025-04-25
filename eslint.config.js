@@ -15,6 +15,13 @@ const LANGUAGE_CONFIGS = [
   // Configuration presets scoped to just languages
   js.configs.recommended,
   ...ts_eslint.configs.recommended,
+  {
+    name: "endwise/typescript",
+    files: ["**/*.ts"],
+    rules: {
+      "@typescript-eslint/no-explicit-any": "warn",
+    },
+  },
 ];
 
 /** @type {import('eslint').Linter.Config[]} */
