@@ -688,13 +688,9 @@
   offers:
     - spend: 2000
       amount:
-        - amount: 70000
+        - amount: 80000
       days: 180
-      expiration: 2025-04-29
-      credits:
-        - description: 1x FNC
-          value: 300
-          weight: 0.7
+      credits: []
   historicalOffers:
     - spend: 5000
       amount:
@@ -721,9 +717,8 @@
   offers:
     - spend: 6000
       amount:
-        - amount: 175000
+        - amount: 150000
       days: 180
-      expiration: 2025-04-29
       credits: []
   historicalOffers:
     - spend: 4000
@@ -750,11 +745,10 @@
       weight: 0.5
       currency: HILTON
   offers:
-    - spend: 8000
+    - spend: 6000
       amount:
         - amount: 130000
       days: 180
-      expiration: 2025-04-29
       credits: []
   historicalOffers:
     - spend: 8000
@@ -780,11 +774,7 @@
       amount:
         - amount: 130000
       days: 180
-      expiration: 2025-04-29
-      credits:
-        - description: 1x FNC
-          value: 300
-          weight: 0.7
+      credits: []
   historicalOffers:
     - spend: 2000
       amount:
@@ -2198,14 +2188,9 @@
   historicalOffers:
     - spend: 3000
       amount:
-        - amount: 80000
-      days: 90
-      expiration: 2022-05-01
-      credits: []
-    - spend: 20000
-      amount:
         - amount: 100000
-      days: 365
+      days: 90
+      expiration: 2024-10-01
       credits: []
   discontinued: false
 - cardId: 7b06f0b6a307509b71862ffa5933ef0b
@@ -2480,7 +2465,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - spend: 6000
       amount:
@@ -2507,7 +2492,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - spend: 8000
       amount:
@@ -2533,7 +2518,7 @@
         - amount: 75000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - spend: 6000
       amount:
@@ -2563,7 +2548,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - spend: 10000
       amount:
@@ -2655,6 +2640,7 @@
       amount:
         - amount: 100000
       days: 90
+      expiration: 2025-05-15
       credits: []
       referralUrl: https://www.referyourchasecard.com/19r/EKKGSTEZXG
     - spend: 4000
@@ -2885,14 +2871,19 @@
       amount:
         - amount: 125000
       days: 90
-      expiration: 2025-05-07
+      expiration: 2025-05-08
+      credits: []
+    - spend: 5000
+      amount:
+        - amount: 100000
+      days: 90
       credits: []
   historicalOffers:
     - spend: 5000
       amount:
         - amount: 125000
       days: 90
-      expiration: 2025-05-07
+      expiration: 2025-05-08
       credits: []
   discontinued: false
 - cardId: d2517ce6b72999e14f50c399347100ed
@@ -2933,7 +2924,7 @@
       amount:
         - amount: 95000
       days: 90
-      expiration: 2025-05-07
+      expiration: 2025-05-08
       credits: []
       referralUrl: https://www.referyourchasecard.com/215R/C3NRCBIUPP
   historicalOffers:
@@ -2941,7 +2932,7 @@
       amount:
         - amount: 95000
       days: 90
-      expiration: 2025-05-07
+      expiration: 2025-05-08
       credits: []
   discontinued: false
 - cardId: 80c6aca49a0e1442d51635c316f4a5ff
@@ -2982,14 +2973,14 @@
       amount:
         - amount: 125000
       days: 90
-      expiration: 2025-05-07
+      expiration: 2025-05-08
       credits: []
   historicalOffers:
     - spend: 5000
       amount:
         - amount: 125000
       days: 90
-      expiration: 2025-05-07
+      expiration: 2025-05-08
       credits: []
   discontinued: false
 - cardId: 85cd2b7d172e494eefad5b2ab012f21c
@@ -3044,7 +3035,7 @@
       amount:
         - amount: 80000
       days: 90
-      expiration: 2025-05-07
+      expiration: 2025-05-08
       credits: []
       referralUrl: https://www.referyourchasecard.com/215R/C3NRCBIUPP
   historicalOffers:
@@ -3121,7 +3112,7 @@
       amount:
         - amount: 90000
       days: 90
-      expiration: 2025-05-07
+      expiration: 2025-05-08
       credits: []
       referralUrl: https://www.referyourchasecard.com/215R/C3NRCBIUPP
   historicalOffers:
@@ -3129,7 +3120,7 @@
       amount:
         - amount: 90000
       days: 90
-      expiration: 2025-05-07
+      expiration: 2025-05-08
       credits: []
   discontinued: false
 - cardId: d378a38b56d4c9bd5e1ad184a6ce84f0
@@ -4024,6 +4015,7 @@
       amount:
         - amount: 20000
       days: 90
+      expiration: 2025-05-01
       credits: []
   discontinued: false
 - cardId: 4a2f48392c94bc6b0ef9b6d30153bddc
@@ -4041,15 +4033,15 @@
   offers:
     - spend: 2000
       amount:
-        - amount: 40000
+        - amount: 20000
       days: 90
-      expiration: 2025-04-30
       credits: []
   historicalOffers:
     - spend: 2000
       amount:
         - amount: 40000
       days: 90
+      expiration: 2025-05-01
       credits: []
   discontinued: false
 - cardId: 1b70fa39672eb066b7a3a5092888e7b2
