@@ -643,7 +643,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
         spend: 5000,
         days: 90,
         credits: [],
-        expiration: "2025-05-01",
+        expiration: "2025-05-15",
       },
     ],
   },

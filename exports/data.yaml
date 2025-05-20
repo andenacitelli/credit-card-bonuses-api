@@ -980,6 +980,13 @@
   offers:
     - spend: 8000
       amount:
+        - amount: 150000
+      days: 180
+      expiration: 2025-06-11
+      credits: []
+      details: Requires a relationship with Morgan Stanley.
+    - spend: 8000
+      amount:
         - amount: 80000
       days: 180
       credits: []
@@ -987,9 +994,9 @@
   historicalOffers:
     - spend: 6000
       amount:
-        - amount: 125000
+        - amount: 150000
       days: 180
-      expiration: 2024-05-31
+      expiration: 2025-06-11
       credits: []
   discontinued: false
 - cardId: 653b14a655f4edc9bfc0332e9370e139
@@ -1056,7 +1063,7 @@
   offers:
     - spend: 1000
       amount:
-        - amount: 200
+        - amount: 300
       days: 90
       credits: []
   historicalOffers:
@@ -2644,7 +2651,7 @@
       amount:
         - amount: 100000
       days: 90
-      expiration: 2025-05-01
+      expiration: 2025-05-15
       credits: []
   discontinued: false
 - cardId: 77e3ef2fc9c35498ba1a3f46a63235cb

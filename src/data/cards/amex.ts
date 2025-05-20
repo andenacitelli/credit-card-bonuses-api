@@ -1234,6 +1234,14 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
+        amount: [{ amount: 150_000 }],
+        spend: 8000,
+        days: 180,
+        credits: [],
+        details: "Requires a relationship with Morgan Stanley.",
+        expiration: "2025-06-11",
+      },
+      {
         amount: [{ amount: 80_000 }],
         spend: 8000,
         days: 180,
@@ -1243,11 +1251,11 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 125_000 }],
+        amount: [{ amount: 150_000 }],
         credits: [],
         spend: 6000,
         days: 180,
-        expiration: "2024-05-31",
+        expiration: "2025-06-11",
       },
     ],
   },
@@ -1328,7 +1336,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 200 }],
+        amount: [{ amount: 300 }],
         spend: 1000,
         days: 90,
         credits: [],
