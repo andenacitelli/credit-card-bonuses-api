@@ -631,14 +631,6 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 100_000 }],
-        spend: 5000,
-        days: 90,
-        credits: [],
-        referralUrl: REFERRALS.CHASE.SAPPHIRE,
-        expiration: "2025-05-15",
-      },
-      {
         amount: [{ amount: 60_000 }],
         spend: 4000,
         days: 90,
@@ -651,7 +643,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
         spend: 5000,
         days: 90,
         credits: [],
-        expiration: "2025-06-01",
+        expiration: "2025-05-01",
       },
     ],
   },
@@ -925,14 +917,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 125_000 }],
-        spend: 5000,
-        days: 90,
-        credits: [],
-        expiration: "2025-05-08",
-      },
-      {
-        amount: [{ amount: 100_000 }],
+        amount: [{ amount: 75_000 }],
         spend: 5000,
         days: 90,
         credits: [],
@@ -999,12 +984,11 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 95_000 }],
+        amount: [{ amount: 90_000 }],
         spend: 5000,
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.UNITED,
-        expiration: "2025-05-08",
       },
     ],
     historicalOffers: [
@@ -1068,11 +1052,10 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 125_000 }],
+        amount: [{ amount: 80_000 }],
         spend: 5000,
         days: 90,
         credits: [],
-        expiration: "2025-05-08",
       },
     ],
     historicalOffers: [
@@ -1156,12 +1139,11 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 80_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 3000,
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.UNITED,
-        expiration: "2025-05-08",
       },
     ],
     historicalOffers: [
@@ -1258,12 +1240,11 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 90_000 }],
+        amount: [{ amount: 70_000 }],
         spend: 4000,
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.UNITED,
-        expiration: "2025-05-08",
       },
     ],
     historicalOffers: [
