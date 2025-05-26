@@ -2470,7 +2470,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - spend: 6000
       amount:
@@ -2497,7 +2497,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - spend: 8000
       amount:
@@ -2523,7 +2523,7 @@
         - amount: 75000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - spend: 6000
       amount:
@@ -2553,7 +2553,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - spend: 10000
       amount:
@@ -3384,28 +3384,10 @@
   offers:
     - spend: 4000
       amount:
-        - amount: 100000
-      days: 90
-      credits: []
-      details: Referral-only, see link.
-      url: https://www.doctorofcredit.com/capital-one-venture-100000-points-referral-offer-share-your-referrals/
-    - spend: 4000
-      amount:
         - amount: 75000
       days: 90
-      credits:
-        - description: Travel Portal Credit
-          value: 250
-          weight: 0.9
-          currency: USD
-  historicalOffers:
-    - spend: 4000
-      amount:
-        - amount: 100000
-      days: 90
       credits: []
-      details: Referral-only, see link.
-      url: https://www.doctorofcredit.com/capital-one-venture-100000-points-referral-offer-share-your-referrals/
+  historicalOffers:
     - spend: 4000
       amount:
         - amount: 75000

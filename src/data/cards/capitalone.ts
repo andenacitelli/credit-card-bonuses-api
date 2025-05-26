@@ -213,36 +213,13 @@ export const CAPITAL_ONE_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 100_000 }],
-        spend: 4000,
-        days: 90,
-        credits: [],
-        url: "https://www.doctorofcredit.com/capital-one-venture-100000-points-referral-offer-share-your-referrals/",
-        details: "Referral-only, see link.",
-      },
-      {
         amount: [{ amount: 75_000 }],
         spend: 4000,
         days: 90,
-        credits: [
-          {
-            value: 250,
-            description: "Travel Portal Credit",
-            currency: "USD",
-            weight: WEIGHTS.TRAVEL_CREDIT_FUNGIBLE,
-          },
-        ],
+        credits: [],
       },
     ],
     historicalOffers: [
-      {
-        amount: [{ amount: 100_000 }],
-        spend: 4000,
-        days: 90,
-        credits: [],
-        url: "https://www.doctorofcredit.com/capital-one-venture-100000-points-referral-offer-share-your-referrals/",
-        details: "Referral-only, see link.",
-      },
       {
         amount: [{ amount: 75_000 }],
         spend: 4000,
