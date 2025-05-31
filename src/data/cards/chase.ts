@@ -82,7 +82,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 75_000 }],
         spend: 3000,
         days: 90,
         credits: [],
@@ -290,7 +290,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
   },
   {
     cardId: "40192e08e31f059d91a108ff09ec5dd5",
-    name: "IHG Rewards Premier",
+    name: "IHG Premier",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.MASTERCARD,
     currency: schemas.CurrenciesEnum.enum.IHG,
@@ -348,7 +348,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
   },
   {
     cardId: "bc82fb7022c639f90b9378410127b9e6",
-    name: "IHG Rewards Premier Business",
+    name: "IHG Premier Business",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.MASTERCARD,
     currency: schemas.CurrenciesEnum.enum.IHG,
@@ -378,7 +378,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
   },
   {
     cardId: "2c6c7e215b4a1e791250d1fb48997e02",
-    name: "IHG Rewards Traveler",
+    name: "IHG Traveler",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.MASTERCARD,
     currency: schemas.CurrenciesEnum.enum.IHG,
@@ -589,16 +589,11 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 0 }],
+        amount: [{ amount: 50_000 * 3, currency: "MARRIOTT" }],
+        details: "3x FNC, <= 50k per",
         spend: 3000,
         days: 90,
-        credits: [
-          {
-            description: "3x FNC up to 50k each",
-            value: 50_000,
-            weight: WEIGHTS.FREE_NIGHT_CREDIT,
-          },
-        ],
+        credits: [],
         referralUrl: REFERRALS.CHASE.MARRIOTT,
       },
       {

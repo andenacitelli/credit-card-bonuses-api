@@ -17,13 +17,19 @@ export const CITI_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 70_000 }],
-        spend: 7000,
+        amount: [{ amount: 100_000 }],
+        spend: 10_000,
         days: 90,
         credits: [],
       },
     ],
     historicalOffers: [
+      {
+        amount: [{ amount: 100_000 }],
+        spend: 10_000,
+        days: 90,
+        credits: [],
+      },
       {
         amount: [{ amount: 70_000 }],
         spend: 7000,
@@ -220,6 +226,7 @@ export const CITI_CARDS: Array<CreditCardInput> = [
     universalCashbackPercent: 2,
     url: "https://www.citi.com/credit-cards/citi-strata-premier-credit-card",
     imageUrl: "/images/citi/strata-premier.png",
+    details: "Cashback rate is 0.75cpp w/o Double Cash or Custom Cash.",
     credits: [
       {
         value: 100,

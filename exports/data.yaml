@@ -2187,7 +2187,7 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 60000
+        - amount: 75000
       days: 90
       credits: []
   historicalOffers:
@@ -2358,7 +2358,7 @@
       credits: []
   discontinued: false
 - cardId: 40192e08e31f059d91a108ff09ec5dd5
-  name: IHG Rewards Premier
+  name: IHG Premier
   issuer: CHASE
   network: MASTERCARD
   currency: IHG
@@ -2403,7 +2403,7 @@
       credits: []
   discontinued: false
 - cardId: bc82fb7022c639f90b9378410127b9e6
-  name: IHG Rewards Premier Business
+  name: IHG Premier Business
   issuer: CHASE
   network: MASTERCARD
   currency: IHG
@@ -2428,7 +2428,7 @@
       credits: []
   discontinued: false
 - cardId: 2c6c7e215b4a1e791250d1fb48997e02
-  name: IHG Rewards Traveler
+  name: IHG Traveler
   issuer: CHASE
   network: MASTERCARD
   currency: IHG
@@ -2470,7 +2470,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - spend: 6000
       amount:
@@ -2497,7 +2497,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - spend: 8000
       amount:
@@ -2523,7 +2523,7 @@
         - amount: 75000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - spend: 6000
       amount:
@@ -2553,7 +2553,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/6I9J2FNU9T
   historicalOffers:
     - spend: 10000
       amount:
@@ -2611,12 +2611,11 @@
   historicalOffers:
     - spend: 3000
       amount:
-        - amount: 0
+        - amount: 150000
+          currency: MARRIOTT
       days: 90
-      credits:
-        - description: 3x FNC up to 50k each
-          value: 50000
-          weight: 0.7
+      credits: []
+      details: 3x FNC, <= 50k per
       referralUrl: https://www.referyourchasecard.com/252a/YV4FE606LH
     - spend: 3000
       amount:
@@ -3506,12 +3505,17 @@
   imageUrl: /images/citi/aadvantage-executive.webp
   credits: []
   offers:
-    - spend: 7000
+    - spend: 10000
       amount:
-        - amount: 70000
+        - amount: 100000
       days: 90
       credits: []
   historicalOffers:
+    - spend: 10000
+      amount:
+        - amount: 100000
+      days: 90
+      credits: []
     - spend: 7000
       amount:
         - amount: 70000
@@ -3668,6 +3672,7 @@
   issuer: CITI
   network: MASTERCARD
   currency: CITI
+  details: Cashback rate is 0.75cpp w/o Double Cash or Custom Cash.
   isBusiness: false
   annualFee: 95
   isAnnualFeeWaived: false
