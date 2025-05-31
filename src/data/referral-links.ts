@@ -11,7 +11,7 @@ export const REFERRALS = {
       "https://www.referyourchasecard.com/21s/63VP5J3DX1",
       "https://www.referyourchasecard.com/21s/B4FA0PBHTK",
     ]),
-    FREEDOM: getRandom(["https://www.referyourchasecard.com/18m/Y02RUGKSU9"]),
+    FREEDOM: getRandom(["https://www.referyourchasecard.com/18A/A85BX0FG21"]),
     UNITED: getRandom(["https://www.referyourchasecard.com/215R/C3NRCBIUPP"]),
     SOUTHWEST: getRandom([
       "https://www.referyourchasecard.com/226m/EK4J5RUTDJ",
@@ -20,6 +20,9 @@ export const REFERRALS = {
   },
   AMERICAN_EXPRESS: {
     BLUE_BUSINESS_PLUS: getRandom([
+      "https://americanexpress.com/en-us/referral/bluebusinessplus-credit-card?ref=ANDENa2lzi&XLINK=MYCP",
+    ]),
+    GOLD: getRandom([
       "https://americanexpress.com/en-us/referral/gold-card?ref=ANDENagIRZ&XLINK=MYCP",
     ]),
     // I don't seem to be able to refer people to my Gold for some reason
