@@ -308,7 +308,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     imageUrl: "/images/amex/business-platinum.webp",
     credits: [
       {
-        value: 400,
+        value: 150,
         description: "Dell credit",
         weight: 0.2,
       },

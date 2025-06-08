@@ -549,10 +549,17 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 30_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 1000,
         days: 90,
-        credits: [],
+        credits: [
+          {
+            description: "1x FNC, <= 50k per",
+            value: 50_000,
+            currency: "MARRIOTT",
+            weight: 1.0,
+          },
+        ],
         referralUrl: REFERRALS.CHASE.MARRIOTT,
       },
     ],
@@ -580,7 +587,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 50_000 * 3, currency: "MARRIOTT" }],
+        amount: [{ amount: 50_000 * 5, currency: "MARRIOTT" }],
         spend: 3000,
         days: 90,
         credits: [],
@@ -589,19 +596,12 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 50_000 * 3, currency: "MARRIOTT" }],
-        details: "3x FNC, <= 50k per",
+        amount: [{ amount: 50_000 * 5, currency: "MARRIOTT" }],
+        details: "5x FNC, <= 50k per",
         spend: 3000,
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.MARRIOTT,
-      },
-      {
-        amount: [{ amount: 125_000 }],
-        spend: 3000,
-        days: 90,
-        credits: [],
-        expiration: "2023-07-01",
       },
     ],
   },

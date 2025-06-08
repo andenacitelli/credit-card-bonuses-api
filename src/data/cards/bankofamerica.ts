@@ -454,7 +454,7 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 65_000 }],
         spend: 1000,
         days: 90,
         credits: [

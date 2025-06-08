@@ -247,7 +247,7 @@
   imageUrl: /images/amex/business-platinum.webp
   credits:
     - description: Dell credit
-      value: 400
+      value: 150
       weight: 0.2
     - description: Wireless credit
       value: 120
@@ -1463,7 +1463,7 @@
   offers:
     - spend: 1000
       amount:
-        - amount: 50000
+        - amount: 65000
       days: 90
       credits:
         - description: Companion Flight Voucher
@@ -2453,7 +2453,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
   historicalOffers:
     - spend: 6000
       amount:
@@ -2480,7 +2480,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
   historicalOffers:
     - spend: 8000
       amount:
@@ -2506,7 +2506,7 @@
         - amount: 75000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
   historicalOffers:
     - spend: 6000
       amount:
@@ -2536,7 +2536,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
   historicalOffers:
     - spend: 10000
       amount:
@@ -2560,9 +2560,13 @@
   offers:
     - spend: 1000
       amount:
-        - amount: 30000
+        - amount: 60000
       days: 90
-      credits: []
+      credits:
+        - description: 1x FNC, <= 50k per
+          value: 50000
+          weight: 1
+          currency: MARRIOTT
       referralUrl: https://www.referyourchasecard.com/252a/YV4FE606LH
   historicalOffers:
     - spend: 1000
@@ -2586,7 +2590,7 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 150000
+        - amount: 250000
           currency: MARRIOTT
       days: 90
       credits: []
@@ -2594,18 +2598,12 @@
   historicalOffers:
     - spend: 3000
       amount:
-        - amount: 150000
+        - amount: 250000
           currency: MARRIOTT
       days: 90
       credits: []
-      details: 3x FNC, <= 50k per
+      details: 5x FNC, <= 50k per
       referralUrl: https://www.referyourchasecard.com/252a/YV4FE606LH
-    - spend: 3000
-      amount:
-        - amount: 125000
-      days: 90
-      expiration: 2023-07-01
-      credits: []
   discontinued: false
 - cardId: 57f8a819c3bb4c6aa494016703281f35
   name: Sapphire Preferred
