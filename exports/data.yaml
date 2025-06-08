@@ -361,12 +361,7 @@
       amount:
         - amount: 80000
       days: 180
-      credits: []
-      details: Requires Incognito, YMMV.
-    - spend: 3000
-      amount:
-        - amount: 50000
-      days: 180
+      expiration: 2025-07-16
       credits: []
   historicalOffers:
     - spend: 3000
@@ -391,8 +386,9 @@
   offers:
     - spend: 4000
       amount:
-        - amount: 60000
+        - amount: 90000
       days: 180
+      expiration: 2025-07-16
       credits: []
   historicalOffers:
     - spend: 6000
@@ -422,12 +418,7 @@
       amount:
         - amount: 90000
       days: 180
-      credits: []
-      details: Requires Incognito, YMMV.
-    - spend: 4000
-      amount:
-        - amount: 60000
-      days: 180
+      expiration: 2025-07-16
       credits: []
   historicalOffers:
     - spend: 4000
@@ -461,8 +452,9 @@
   offers:
     - spend: 8000
       amount:
-        - amount: 70000
+        - amount: 100000
       days: 180
+      expiration: 2025-07-16
       credits: []
   historicalOffers:
     - spend: 8000
@@ -492,12 +484,7 @@
       amount:
         - amount: 100000
       days: 180
-      credits: []
-      details: Requires Incognito, YMMV.
-    - spend: 5000
-      amount:
-        - amount: 70000
-      days: 180
+      expiration: 2025-07-16
       credits: []
   historicalOffers:
     - spend: 5000
@@ -522,13 +509,9 @@
   offers:
     - spend: 10000
       amount:
-        - amount: 80000
+        - amount: 110000
       days: 180
-      credits: []
-    - spend: 4000
-      amount:
-        - amount: 75000
-      days: 180
+      expiration: 2025-07-16
       credits: []
   historicalOffers:
     - spend: 12000
@@ -2470,7 +2453,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - spend: 6000
       amount:
@@ -2497,7 +2480,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - spend: 8000
       amount:
@@ -2523,7 +2506,7 @@
         - amount: 75000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - spend: 6000
       amount:
@@ -2553,7 +2536,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/B4FA0PBHTK
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - spend: 10000
       amount:

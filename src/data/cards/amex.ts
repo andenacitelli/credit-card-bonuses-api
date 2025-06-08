@@ -457,14 +457,14 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
         spend: 3000,
         days: 180,
         credits: [],
-        details: "Requires Incognito, YMMV.",
+        expiration: "2025-07-16",
       },
-      {
-        amount: [{ amount: 50_000 }],
-        spend: 3000,
-        days: 180,
-        credits: [],
-      },
+      // {
+      //   amount: [{ amount: 50_000 }],
+      //   spend: 3000,
+      //   days: 180,
+      //   credits: [],
+      // },
     ],
     historicalOffers: [
       {
@@ -491,11 +491,18 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 90_000 }],
         spend: 4000,
         days: 180,
         credits: [],
+        expiration: "2025-07-16",
       },
+      // {
+      //   amount: [{ amount: 60_000 }],
+      //   spend: 4000,
+      //   days: 180,
+      //   credits: [],
+      // },
     ],
     historicalOffers: [
       {
@@ -532,14 +539,14 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
         spend: 4000,
         days: 180,
         credits: [],
-        details: "Requires Incognito, YMMV.",
+        expiration: "2025-07-16",
       },
-      {
-        amount: [{ amount: 60_000 }],
-        spend: 4000,
-        days: 180,
-        credits: [],
-      },
+      // {
+      //   amount: [{ amount: 60_000 }],
+      //   spend: 4000,
+      //   days: 180,
+      //   credits: [],
+      // },
     ],
     historicalOffers: [
       {
@@ -582,11 +589,18 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 70_000 }],
+        amount: [{ amount: 100_000 }],
         spend: 8000,
         days: 180,
         credits: [],
+        expiration: "2025-07-16",
       },
+      // {
+      //   amount: [{ amount: 70_000 }],
+      //   spend: 8000,
+      //   days: 180,
+      //   credits: [],
+      // },
     ],
     historicalOffers: [
       {
@@ -623,14 +637,14 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
         spend: 5000,
         days: 180,
         credits: [],
-        details: "Requires Incognito, YMMV.",
+        expiration: "2025-07-16",
       },
-      {
-        amount: [{ amount: 70_000 }],
-        spend: 5000,
-        days: 180,
-        credits: [],
-      },
+      // {
+      //   amount: [{ amount: 70_000 }],
+      //   spend: 5000,
+      //   days: 180,
+      //   credits: [],
+      // },
     ],
     historicalOffers: [
       {
@@ -657,17 +671,18 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 80_000 }],
+        amount: [{ amount: 110_000 }],
         spend: 10_000,
         days: 180,
         credits: [],
+        expiration: "2025-07-16",
       },
-      {
-        amount: [{ amount: 75_000 }],
-        spend: 4000,
-        days: 180,
-        credits: [],
-      },
+      // {
+      //   amount: [{ amount: 80_000 }],
+      //   spend: 10_000,
+      //   days: 180,
+      //   credits: [],
+      // },
     ],
     historicalOffers: [
       {
