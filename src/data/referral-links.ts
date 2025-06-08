@@ -12,7 +12,7 @@ export const REFERRALS = {
       "https://www.referyourchasecard.com/21s/B4FA0PBHTK",
     ]),
     FREEDOM: getRandom(["https://www.referyourchasecard.com/18A/A85BX0FG21"]),
-    UNITED: getRandom(["https://www.referyourchasecard.com/215R/C3NRCBIUPP"]),
+    UNITED: getRandom(["https://www.referyourchasecard.com/215Y/RO0613CS0T"]),
     SOUTHWEST: getRandom([
       "https://www.referyourchasecard.com/226m/EK4J5RUTDJ",
     ]),
@@ -25,7 +25,6 @@ export const REFERRALS = {
     GOLD: getRandom([
       "https://americanexpress.com/en-us/referral/gold-card?ref=ANDENagIRZ&XLINK=MYCP",
     ]),
-    // I don't seem to be able to refer people to my Gold for some reason
   },
   DISCOVER: getRandom(["https://refer.discover.com/aacitelli3!a9f01e6210!a"]),
 };
