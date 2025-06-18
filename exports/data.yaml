@@ -1134,13 +1134,7 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 75000
-      days: 90
-      credits: []
-      url: http://alaska75k.com/
-    - spend: 3000
-      amount:
-        - amount: 60000
+        - amount: 50000
       days: 90
       credits: []
   historicalOffers:
@@ -1450,7 +1444,7 @@
   offers:
     - spend: 1000
       amount:
-        - amount: 65000
+        - amount: 50000
       days: 90
       credits:
         - description: Companion Flight Voucher
@@ -1772,7 +1766,7 @@
   offers:
     - spend: 1000
       amount:
-        - amount: 70000
+        - amount: 60000
       days: 90
       credits: []
   historicalOffers:
@@ -1808,7 +1802,7 @@
   offers:
     - spend: 5000
       amount:
-        - amount: 70000
+        - amount: 60000
       days: 90
       credits: []
   historicalOffers:
@@ -1833,7 +1827,7 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 50000
+        - amount: 60000
       days: 90
       credits: []
   historicalOffers:
@@ -2047,15 +2041,6 @@
       days: 180
       credits: []
       details: Requires ANY purchase.
-    - spend: 7000
-      amount:
-        - amount: 7000
-      days: 365
-      credits:
-        - description: 2x 3-month Game Pass Ultimate
-          value: 102
-          weight: 0.5
-          currency: USD
   historicalOffers:
     - spend: 0.01
       amount:
@@ -2440,7 +2425,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
   historicalOffers:
     - spend: 6000
       amount:
@@ -2467,7 +2452,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
   historicalOffers:
     - spend: 8000
       amount:
@@ -2493,7 +2478,7 @@
         - amount: 75000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
   historicalOffers:
     - spend: 6000
       amount:
@@ -2523,7 +2508,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
   historicalOffers:
     - spend: 10000
       amount:
@@ -3563,9 +3548,9 @@
       value: 50
       weight: 0.5
   offers:
-    - spend: 5000
+    - spend: 4000
       amount:
-        - amount: 75000
+        - amount: 65000
       days: 120
       credits: []
   historicalOffers:
@@ -3654,15 +3639,14 @@
   offers:
     - spend: 4000
       amount:
-        - amount: 75000
+        - amount: 60000
       days: 90
       credits: []
   historicalOffers:
     - spend: 4000
       amount:
-        - amount: 80000
+        - amount: 75000
       days: 90
-      expiration: 2023-01-17
       credits: []
   discontinued: false
 - cardId: cbc737da5cbd44575dec6325bbbd8688
@@ -3753,7 +3737,7 @@
   offers:
     - spend: 1500
       amount:
-        - amount: 25000
+        - amount: 15000
       days: 90
       credits: []
   historicalOffers:
@@ -3778,7 +3762,7 @@
   offers:
     - spend: 3500
       amount:
-        - amount: 60000
+        - amount: 40000
       days: 90
       credits: []
   historicalOffers:
@@ -3801,7 +3785,7 @@
   imageUrl: /images/first/cardless-qatar-signature.jpg
   credits: []
   offers:
-    - spend: 3500
+    - spend: 3000
       amount:
         - amount: 40000
       days: 90
@@ -3916,16 +3900,17 @@
   currency: ANA
   isBusiness: true
   annualFee: 85
-  isAnnualFeeWaived: false
+  isAnnualFeeWaived: true
   universalCashbackPercent: 1
   url: https://www.anacardusa.com/en/
   imageUrl: /images/first/ana-card-usa.png
   credits: []
   offers:
-    - spend: 3000
+    - spend: 7000
       amount:
         - amount: 10000
       days: 90
+      expiration: 2025-07-30
       credits: []
       url: https://www.anacardusa.com/en/new-enrollment-campaign/
   historicalOffers:
@@ -3976,8 +3961,9 @@
   offers:
     - spend: 2000
       amount:
-        - amount: 20000
+        - amount: 40000
       days: 90
+      expiration: 2025-07-30
       credits: []
   historicalOffers:
     - spend: 2000
@@ -4142,17 +4128,22 @@
   network: VISA
   currency: CATHAY_PACIFIC
   isBusiness: false
-  annualFee: 0
+  annualFee: 99
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
   url: https://pay.cathaypacific.com/en_US/offers/uscreditcard.html
   imageUrl: /images/synchrony/cathay-pacific.jpg
   credits: []
-  offers: []
+  offers:
+    - spend: 3000
+      amount:
+        - amount: 38000
+      days: 90
+      credits: []
   historicalOffers:
     - spend: 3000
       amount:
-        - amount: 35000
+        - amount: 38000
       days: 90
       credits: []
   discontinued: false
@@ -4767,14 +4758,15 @@
   offers:
     - spend: 1000
       amount:
-        - amount: 300
+        - amount: 400
           currency: EXPEDIA
       days: 90
       credits: []
   historicalOffers:
     - spend: 1000
       amount:
-        - amount: 300
+        - amount: 400
+          currency: EXPEDIA
       days: 90
       credits: []
   discontinued: false
@@ -4799,14 +4791,15 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 400
+        - amount: 600
           currency: EXPEDIA
       days: 90
       credits: []
   historicalOffers:
-    - spend: 1000
+    - spend: 3000
       amount:
-        - amount: 300
+        - amount: 600
+          currency: EXPEDIA
       days: 90
       credits: []
   discontinued: false

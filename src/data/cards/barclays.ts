@@ -369,7 +369,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 70_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 1000,
         days: 90,
         credits: [],
@@ -417,7 +417,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 70_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 5000,
         days: 90,
         credits: [],
@@ -447,7 +447,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 3000,
         days: 90,
         credits: [],
@@ -710,19 +710,6 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
         days: 180,
         credits: [],
         details: "Requires ANY purchase.",
-      },
-      {
-        amount: [{ amount: 7_000 }],
-        spend: 7000,
-        days: 365,
-        credits: [
-          {
-            description: "2x 3-month Game Pass Ultimate",
-            currency: "USD",
-            value: 17 * 6,
-            weight: 0.5,
-          },
-        ],
       },
     ],
     historicalOffers: [

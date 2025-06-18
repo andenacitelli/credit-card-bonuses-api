@@ -8,18 +8,23 @@ export const SYNCHRONY_CARDS: Array<CreditCardInput> = [
     network: schemas.NetworksEnum.enum.VISA,
     currency: schemas.CurrenciesEnum.enum.CATHAY_PACIFIC,
     isBusiness: false,
-    annualFee: 0,
+    annualFee: 99,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
     url: "https://pay.cathaypacific.com/en_US/offers/uscreditcard.html",
     imageUrl: "/images/synchrony/cathay-pacific.jpg",
     credits: [],
     offers: [
-      // No current offers; they mention they'll probably re-launch in 2025
+      {
+        amount: [{ amount: 38_000 }],
+        spend: 3000,
+        days: 90,
+        credits: [],
+      },
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 35_000 }],
+        amount: [{ amount: 38_000 }],
         spend: 3000,
         days: 90,
         credits: [],

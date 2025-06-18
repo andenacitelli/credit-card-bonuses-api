@@ -62,14 +62,7 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 75_000 }],
-        spend: 3000,
-        days: 90,
-        credits: [],
-        url: "http://alaska75k.com/",
-      },
-      {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 50_000 }],
         spend: 3000,
         days: 90,
         credits: [],
@@ -454,7 +447,7 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 65_000 }],
+        amount: [{ amount: 50_000 }],
         spend: 1000,
         days: 90,
         credits: [
