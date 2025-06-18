@@ -1,9 +1,17 @@
 name: setup-node
 description: Installs dependencies and performs any generation steps.
 
+inputs:
+  arguments:
+    description: "Arguments to pass to pnpm i, generally for scoping the install to a specific directory."
+    required: false
+    default: ""
+
 runs:
   using: "composite"
   steps:
     - uses: ./.github/actions/setup-mise
-    - run: npm ci
+      with:
+        arguments: "node pnpm"
+    - run: pnpm i --frozen-lockfile --prefer-offline ${{ inputs.arguments }}
       shell: bash
