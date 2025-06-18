@@ -1,9 +1,18 @@
 name: setup-mise
 description: Installs dependencies and performs any generation steps.
 
+inputs:
+  working-directory:
+    description: The working directory to run the setup in.
+    default: .
+  arguments:
+    description: "Space-delimited string of arguments to specify to mise install."
+    required: true
 runs:
   using: "composite"
   steps:
     - uses: jdx/mise-action@v2
       with:
-        version: "2025.4.1"
+        version: "2025.6.0"
+        install_args: ${{ inputs.arguments }}
+        working_directory: ${{ inputs.working-directory }}

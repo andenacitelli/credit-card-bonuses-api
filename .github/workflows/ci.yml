@@ -7,8 +7,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/setup-node
-      - run: npm run generate
-      - run: npm exec -- prettier --check .
-      - run: npm exec -- eslint .
-      - run: npm exec -- tsc --noEmit
-      - run: npm run test
+      - run: pnpm run generate
+      - run: pnpm exec -- prettier --check .
+      - run: pnpm exec -- eslint .
+      - run: pnpm exec -- tsc --noEmit
+      - run: pnpm run test
