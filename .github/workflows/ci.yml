@@ -9,6 +9,6 @@ jobs:
       - uses: ./.github/actions/setup-node
       - run: pnpm run generate
       - run: pnpm exec -- prettier --check .
-      - run: pnpm exec -- eslint .
+      - run: pnpm exec -- oxlint .
       - run: pnpm exec -- tsc --noEmit
       - run: pnpm run test
