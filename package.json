@@ -39,11 +39,11 @@
     "oxlint": "1.2.0"
   },
   "lint-staged": {
-    "*.{ts,json,yml,yaml}": [
-      "prettier --write"
-    ],
     "*.ts": [
       "oxlint --fix"
+    ],
+    "*.{ts,json,yml,yaml}": [
+      "prettier --write"
     ]
   }
 }
