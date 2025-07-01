@@ -671,9 +671,13 @@
   offers:
     - spend: 2000
       amount:
-        - amount: 80000
+        - amount: 100000
       days: 180
-      credits: []
+      expiration: 2025-08-13
+      credits:
+        - description: Statement Credit
+          value: 100
+          weight: 0.8
   historicalOffers:
     - spend: 5000
       amount:
@@ -700,8 +704,9 @@
   offers:
     - spend: 6000
       amount:
-        - amount: 150000
+        - amount: 175000
       days: 180
+      expiration: 2025-08-13
       credits: []
   historicalOffers:
     - spend: 4000
@@ -730,8 +735,9 @@
   offers:
     - spend: 6000
       amount:
-        - amount: 130000
+        - amount: 175000
       days: 180
+      expiration: 2025-08-13
       credits: []
   historicalOffers:
     - spend: 8000
@@ -757,6 +763,7 @@
       amount:
         - amount: 130000
       days: 180
+      expiration: 2025-08-13
       credits: []
   historicalOffers:
     - spend: 2000
@@ -1529,7 +1536,7 @@
   offers:
     - spend: 1000
       amount:
-        - amount: 200
+        - amount: 100
       days: 90
       credits: []
   historicalOffers:
@@ -1554,7 +1561,7 @@
   offers:
     - spend: 1000
       amount:
-        - amount: 200
+        - amount: 100
       days: 90
       credits: []
   historicalOffers:
@@ -1611,7 +1618,7 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 50000
+        - amount: 70000
       days: 90
       credits: []
   historicalOffers:
@@ -2116,7 +2123,7 @@
   offers:
     - spend: 5000
       amount:
-        - amount: 85000
+        - amount: 75000
       days: 90
       credits: []
   historicalOffers:
@@ -2168,7 +2175,7 @@
   offers:
     - spend: 5000
       amount:
-        - amount: 85000
+        - amount: 75000
       days: 90
       credits: []
   historicalOffers:
@@ -2224,7 +2231,7 @@
   offers:
     - spend: 500
       amount:
-        - amount: 200
+        - amount: 150
       days: 90
       credits: []
   historicalOffers:
@@ -2301,7 +2308,7 @@
   offers:
     - spend: 5000
       amount:
-        - amount: 85000
+        - amount: 75000
       days: 90
       credits: []
   historicalOffers:
@@ -2425,7 +2432,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
   historicalOffers:
     - spend: 6000
       amount:
@@ -2452,7 +2459,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
   historicalOffers:
     - spend: 8000
       amount:
@@ -2478,7 +2485,7 @@
         - amount: 75000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
   historicalOffers:
     - spend: 6000
       amount:
@@ -2508,7 +2515,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
+      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
   historicalOffers:
     - spend: 10000
       amount:
@@ -2612,19 +2619,37 @@
   network: VISA
   currency: CHASE
   isBusiness: false
-  annualFee: 550
+  annualFee: 795
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve
   imageUrl: /images/chase/sapphire-reserve.png
   credits:
-    - description: Double-Dippable $300 Travel Credit
-      value: 600
-      weight: 0.95
+    - description: Travel Credit
+      value: 300
+      weight: 1
+    - description: Travel Credit (The Edit)
+      value: 500
+      weight: 0.8
+    - description: Lounge Access
+      value: 469
+      weight: 0.2
+    - description: PreCheck Credit
+      value: 100
+      weight: 0.5
+    - description: Dining Credit
+      value: 300
+      weight: 0.75
+    - description: Apple TV / Apple Music
+      value: 250
+      weight: 0.4
+    - description: Dashpass
+      value: 120
+      weight: 0.4
   offers:
     - spend: 5000
       amount:
-        - amount: 60000
+        - amount: 100000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/19r/EKKGSTEZXG
@@ -3051,7 +3076,7 @@
   offers:
     - spend: 4000
       amount:
-        - amount: 70000
+        - amount: 100000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/215Y/RO0613CS0T
@@ -4434,17 +4459,6 @@
       days: 90
       credits: []
   historicalOffers:
-    - spend: 10000
-      amount:
-        - amount: 50000
-      days: 90
-      expiration: 2022-07-01
-      credits: []
-    - spend: 3000
-      amount:
-        - amount: 30000
-      days: 90
-      credits: []
     - spend: 4000
       amount:
         - amount: 40000
@@ -4482,7 +4496,7 @@
   historicalOffers:
     - spend: 5000
       amount:
-        - amount: 70000
+        - amount: 60000
       days: 90
       credits: []
   discontinued: false
@@ -4511,16 +4525,10 @@
       days: 90
       credits: []
   historicalOffers:
-    - spend: 3000
-      amount:
-        - amount: 30000
-      days: 90
-      credits: []
-    - spend: 10000
+    - spend: 5000
       amount:
         - amount: 50000
       days: 90
-      expiration: 2022-07-01
       credits: []
   discontinued: false
 - cardId: 8de694e89b9c26c9f72fc7450c66665b

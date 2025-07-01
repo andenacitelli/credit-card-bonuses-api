@@ -3,6 +3,7 @@ import { REFERRALS } from "@/data/referral-links.js";
 import { schemas } from "@/generated/api.client.js";
 import { WEIGHTS } from "@/data/weights.js";
 import { CreditCardInput } from "../types.js";
+import { CREDITS } from "../credits.js";
 export const CHASE_CARDS: Array<CreditCardInput> = [
   {
     cardId: "fb5e3887059d5d8600b2a5eaed7ddaf7",
@@ -51,7 +52,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 85_000 }],
+        amount: [{ amount: 75_000 }],
         spend: 5000,
         days: 90,
         credits: [],
@@ -113,7 +114,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 85_000 }],
+        amount: [{ amount: 75_000 }],
         spend: 5000,
         days: 90,
         credits: [],
@@ -180,7 +181,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 200 }],
+        amount: [{ amount: 150 }],
         spend: 500,
         days: 90,
         credits: [],
@@ -272,7 +273,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 85_000 }],
+        amount: [{ amount: 75_000 }],
         spend: 5000,
         days: 90,
         credits: [],
@@ -649,21 +650,51 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     network: schemas.NetworksEnum.enum.VISA,
     currency: schemas.CurrenciesEnum.enum.CHASE,
     isBusiness: false,
-    annualFee: 550,
+    annualFee: 795,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
     url: "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
     imageUrl: "/images/chase/sapphire-reserve.png",
     credits: [
       {
-        value: 600,
-        description: "Double-Dippable $300 Travel Credit",
-        weight: 0.95,
+        value: 300,
+        description: "Travel Credit",
+        weight: 1.0,
+      },
+      {
+        value: 500,
+        description: "Travel Credit (The Edit)",
+        weight: 0.8,
+      },
+      {
+        value: 469,
+        description: "Lounge Access",
+        weight: 0.2,
+      },
+      {
+        value: 100,
+        description: "PreCheck Credit",
+        weight: 0.5,
+      },
+      {
+        value: 300,
+        description: "Dining Credit",
+        weight: 0.75,
+      },
+      {
+        value: 250,
+        description: "Apple TV / Apple Music",
+        weight: 0.4,
+      },
+      {
+        value: 120,
+        description: "Dashpass",
+        weight: 0.4,
       },
     ],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 100_000 }],
         spend: 5000,
         days: 90,
         credits: [],
@@ -1235,7 +1266,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 70_000 }],
+        amount: [{ amount: 100_000 }],
         spend: 4000,
         days: 90,
         credits: [],
