@@ -242,7 +242,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 25_000 }],
+        amount: [{ amount: 20_000 }],
         spend: 500,
         days: 90,
         credits: [],
@@ -627,8 +627,8 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
-        spend: 4000,
+        amount: [{ amount: 75_000 }],
+        spend: 5000,
         days: 90,
         credits: [],
       },
@@ -1305,11 +1305,10 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 35_000 }],
+        amount: [{ amount: 30_000 }],
         spend: 3000,
         days: 90,
         credits: [],
-        details: "Also 2x (30k points total) on next $15k in spend.",
       },
     ],
     historicalOffers: [
@@ -1382,7 +1381,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 100 }],
+        amount: [{ amount: 200 }],
         spend: 0.01,
         days: 365,
         credits: [],

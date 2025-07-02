@@ -17,7 +17,7 @@ export const FIRST_CARDS: Array<CreditCardInput> = [
     offers: [
       {
         amount: [{ amount: 15_000 }],
-        spend: 1500,
+        spend: 1000,
         days: 90,
         credits: [],
       },
@@ -219,7 +219,7 @@ export const FIRST_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 10_000 }],
+        amount: [{ amount: 5_000 }],
         spend: 7000,
         days: 90,
         credits: [],

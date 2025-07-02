@@ -20,24 +20,10 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     imageUrl: "/images/amex/blue-business-cash.webp",
     offers: [
       {
-        amount: [{ amount: 250 }],
+        amount: [{ amount: 200 }],
         spend: 3000,
         days: 90,
         credits: [],
-      },
-      {
-        amount: [{ amount: 300 }],
-        spend: 6000,
-        days: 90,
-        credits: [],
-        details: "Inconsistent, YMMV. Incognito may help.",
-      },
-      {
-        amount: [{ amount: 500 }],
-        spend: 8000,
-        days: 90,
-        credits: [],
-        details: "Inconsistent, YMMV. Incognito may help.",
       },
     ],
     historicalOffers: [
@@ -497,12 +483,6 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
         credits: [],
         expiration: "2025-07-16",
       },
-      // {
-      //   amount: [{ amount: 60_000 }],
-      //   spend: 4000,
-      //   days: 180,
-      //   credits: [],
-      // },
     ],
     historicalOffers: [
       {
@@ -767,13 +747,6 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 90_000 }],
-        spend: 6000,
-        days: 180,
-        credits: [],
-        details: "Requires Incognito, YMMV.",
-      },
-      {
         amount: [
           { amount: 75_000 },
           { amount: 250, currency: schemas.CurrenciesEnum.enum.USD },
@@ -788,6 +761,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
         spend: 6000,
         days: 180,
         credits: [],
+        details: "Fuzzy language, may be more.",
       },
     ],
 
@@ -1011,7 +985,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     offers: [
       {
         amount: [{ amount: 150_000 }],
-        spend: 8000,
+        spend: 6000,
         days: 180,
         credits: [],
       },
@@ -1139,6 +1113,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
         days: 180,
         credits: [],
         url: "https://resy.com/amex-offers",
+        details: "Fuzzy language, may be > 100k.",
       },
       // resy is reliable, no need to include a fallback
     ],
@@ -1330,6 +1305,11 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     imageUrl: "/images/amex/lowes-business.webp",
     credits: [],
     offers: [
+      {
+        amount: [{ amount: 250 }],
+        spend: 1000,
+        days: 90,
+      },
       // No offers seemingly available right now
     ],
     historicalOffers: [
@@ -1362,7 +1342,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 300 }],
+        amount: [{ amount: 200 }],
         spend: 1000,
         days: 90,
         credits: [],

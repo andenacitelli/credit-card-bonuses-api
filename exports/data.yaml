@@ -13,21 +13,9 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 250
+        - amount: 200
       days: 90
       credits: []
-    - spend: 6000
-      amount:
-        - amount: 300
-      days: 90
-      credits: []
-      details: Inconsistent, YMMV. Incognito may help.
-    - spend: 8000
-      amount:
-        - amount: 500
-      days: 90
-      credits: []
-      details: Inconsistent, YMMV. Incognito may help.
   historicalOffers:
     - spend: 3000
       amount:
@@ -599,12 +587,6 @@
   offers:
     - spend: 6000
       amount:
-        - amount: 90000
-      days: 180
-      credits: []
-      details: Requires Incognito, YMMV.
-    - spend: 6000
-      amount:
         - amount: 75000
         - amount: 250
           currency: USD
@@ -616,6 +598,7 @@
         - amount: 60000
       days: 180
       credits: []
+      details: Fuzzy language, may be more.
   historicalOffers:
     - spend: 4000
       amount:
@@ -789,7 +772,7 @@
       value: 300
       weight: 0.8
   offers:
-    - spend: 8000
+    - spend: 6000
       amount:
         - amount: 150000
       days: 180
@@ -885,6 +868,7 @@
         - amount: 100000
       days: 180
       credits: []
+      details: Fuzzy language, may be > 100k.
       url: https://resy.com/amex-offers
   historicalOffers:
     - spend: 8000
@@ -1014,7 +998,12 @@
   url: https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/lowes-credit-cards/
   imageUrl: /images/amex/lowes-business.webp
   credits: []
-  offers: []
+  offers:
+    - spend: 1000
+      amount:
+        - amount: 250
+      days: 90
+      credits: []
   historicalOffers:
     - spend: 0
       amount:
@@ -1040,7 +1029,7 @@
   offers:
     - spend: 1000
       amount:
-        - amount: 300
+        - amount: 200
       days: 90
       credits: []
   historicalOffers:
@@ -1484,7 +1473,7 @@
   offers:
     - spend: 99
       amount:
-        - amount: 60000
+        - amount: 50000
       days: 90
       credits: []
       details: ANY purchase + AF.
@@ -1534,7 +1523,7 @@
   imageUrl: /images/barclays/aarp-essential-rewards.png
   credits: []
   offers:
-    - spend: 1000
+    - spend: 500
       amount:
         - amount: 100
       days: 90
@@ -1559,7 +1548,7 @@
   imageUrl: /images/barclays/aarp-travel-rewards.png
   credits: []
   offers:
-    - spend: 1000
+    - spend: 500
       amount:
         - amount: 100
       days: 90
@@ -1747,7 +1736,7 @@
   offers:
     - spend: 2000
       amount:
-        - amount: 50000
+        - amount: 60000
       days: 90
       credits: []
   historicalOffers:
@@ -2014,15 +2003,10 @@
   offers:
     - spend: 1000
       amount:
-        - amount: 30000
+        - amount: 50000
       days: 90
       credits: []
   historicalOffers:
-    - spend: 1000
-      amount:
-        - amount: 30000
-      days: 90
-      credits: []
     - spend: 2000
       amount:
         - amount: 50000
@@ -2282,7 +2266,7 @@
   offers:
     - spend: 500
       amount:
-        - amount: 25000
+        - amount: 20000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/18A/A85BX0FG21
@@ -2432,7 +2416,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - spend: 6000
       amount:
@@ -2459,7 +2443,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - spend: 8000
       amount:
@@ -2485,7 +2469,7 @@
         - amount: 75000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - spend: 6000
       amount:
@@ -2515,7 +2499,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21s/63VP5J3DX1
+      referralUrl: https://www.referyourchasecard.com/21s/9BZH8BJC1Z
   historicalOffers:
     - spend: 10000
       amount:
@@ -2600,9 +2584,9 @@
       value: 50
       weight: 0.9
   offers:
-    - spend: 4000
+    - spend: 5000
       amount:
-        - amount: 60000
+        - amount: 75000
       days: 90
       credits: []
   historicalOffers:
@@ -3107,10 +3091,9 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 35000
+        - amount: 30000
       days: 90
       credits: []
-      details: Also 2x (30k points total) on next $15k in spend.
   historicalOffers:
     - spend: 3000
       amount:
@@ -3171,7 +3154,7 @@
   offers:
     - spend: 0.01
       amount:
-        - amount: 100
+        - amount: 200
       days: 365
       credits: []
   historicalOffers:
@@ -3542,7 +3525,7 @@
     - spend: 2500
       amount:
         - amount: 50000
-      days: 120
+      days: 90
       credits: []
   historicalOffers:
     - spend: 3500
@@ -3760,7 +3743,7 @@
   imageUrl: /images/first/latam-airlines.svg
   credits: []
   offers:
-    - spend: 1500
+    - spend: 1000
       amount:
         - amount: 15000
       days: 90
@@ -3933,7 +3916,7 @@
   offers:
     - spend: 7000
       amount:
-        - amount: 10000
+        - amount: 5000
       days: 90
       expiration: 2025-07-30
       credits: []
@@ -4400,9 +4383,9 @@
   imageUrl: /images/usbank/business-triple-cash-rewards.webp
   credits: []
   offers:
-    - spend: 6000
+    - spend: 4500
       amount:
-        - amount: 750
+        - amount: 500
       days: 180
       credits: []
   historicalOffers:

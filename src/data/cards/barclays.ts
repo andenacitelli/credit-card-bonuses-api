@@ -17,7 +17,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 50_000 }],
         spend: 99,
         days: 90,
         credits: [],
@@ -84,7 +84,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     offers: [
       {
         amount: [{ amount: 100 }],
-        spend: 1000,
+        spend: 500,
         days: 90,
         credits: [],
       },
@@ -114,7 +114,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     offers: [
       {
         amount: [{ amount: 100 }],
-        spend: 1000,
+        spend: 500,
         days: 90,
         credits: [],
       },
@@ -338,7 +338,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 2000,
         days: 90,
         credits: [],
@@ -669,19 +669,13 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 30_000 }],
+        amount: [{ amount: 50000 }],
         spend: 1000,
         days: 90,
         credits: [],
       },
     ],
     historicalOffers: [
-      {
-        amount: [{ amount: 30_000 }],
-        spend: 1000,
-        days: 90,
-        credits: [],
-      },
       {
         amount: [{ amount: 50_000 }],
         spend: 2000,
