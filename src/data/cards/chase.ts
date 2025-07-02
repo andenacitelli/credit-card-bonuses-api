@@ -631,6 +631,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
         spend: 5000,
         days: 90,
         credits: [],
+        referralUrl: REFERRALS.CHASE.SAPPHIRE,
       },
     ],
     historicalOffers: [
@@ -947,6 +948,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
         spend: 5000,
         days: 90,
         credits: [],
+        referralUrl: REFERRALS.CHASE.UNITED,
       },
     ],
     historicalOffers: [
@@ -1082,6 +1084,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
         spend: 5000,
         days: 90,
         credits: [],
+        referralUrl: REFERRALS.CHASE.UNITED,
       },
     ],
     historicalOffers: [
