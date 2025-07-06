@@ -258,7 +258,6 @@
         - amount: 150000
       days: 90
       credits: []
-      details: 250k available via referral, see USCreditCardGuide.
   historicalOffers:
     - spend: 30000
       amount:

@@ -330,7 +330,6 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
         spend: 20_000,
         days: 90,
         credits: [],
-        details: "250k available via referral, see USCreditCardGuide.",
       },
     ],
     historicalOffers: [
