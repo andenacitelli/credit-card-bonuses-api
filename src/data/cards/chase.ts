@@ -710,11 +710,17 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 75_000 }],
+        amount: [{ amount: 100_000 }],
         spend: 5000,
         days: 90,
-        credits: [],
-        expiration: "2024-06-08",
+        credits: [
+          {
+            value: 500,
+            description: "Chase Travel Credit",
+            weight: 0.8,
+          },
+        ],
+        referralUrl: REFERRALS.CHASE.SAPPHIRE,
       },
     ],
   },

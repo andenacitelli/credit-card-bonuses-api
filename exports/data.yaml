@@ -2644,10 +2644,13 @@
   historicalOffers:
     - spend: 5000
       amount:
-        - amount: 75000
+        - amount: 100000
       days: 90
-      expiration: 2024-06-08
-      credits: []
+      credits:
+        - description: Chase Travel Credit
+          value: 500
+          weight: 0.8
+      referralUrl: https://www.referyourchasecard.com/19t/F0DZZK1XD0
   discontinued: false
 - cardId: 5d8c589d1e7c1294d04fa6e4a2685624
   name: Sapphire Reserve Business
