@@ -2416,7 +2416,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 6000
       amount:
@@ -2443,7 +2443,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 8000
       amount:
@@ -2469,7 +2469,7 @@
         - amount: 75000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 6000
       amount:
@@ -2499,7 +2499,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 10000
       amount:
@@ -2636,7 +2636,10 @@
       amount:
         - amount: 100000
       days: 90
-      credits: []
+      credits:
+        - description: Chase Travel Credit
+          value: 500
+          weight: 0.8
       referralUrl: https://www.referyourchasecard.com/19t/F0DZZK1XD0
   historicalOffers:
     - spend: 5000
@@ -2645,6 +2648,66 @@
       days: 90
       expiration: 2024-06-08
       credits: []
+  discontinued: false
+- cardId: 5d8c589d1e7c1294d04fa6e4a2685624
+  name: Sapphire Reserve Business
+  issuer: CHASE
+  network: VISA
+  currency: CHASE
+  isBusiness: true
+  annualFee: 795
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://creditcards.chase.com/business-credit-cards/sapphire/reserve
+  imageUrl: /images/chase/sapphire-reserve-business.jpg
+  credits:
+    - description: Travel Credit
+      value: 300
+      weight: 1
+    - description: Travel Credit (The Edit)
+      value: 500
+      weight: 0.8
+    - description: Lounge Access
+      value: 469
+      weight: 0.2
+    - description: PreCheck Credit
+      value: 120
+      weight: 0.5
+    - description: Apple TV / Apple Music
+      value: 250
+      weight: 0.4
+    - description: Dashpass
+      value: 120
+      weight: 0.3
+    - description: $25/mo DoorDash Promos
+      value: 300
+      weight: 0.3
+    - description: Google Workspace Credit
+      value: 200
+      weight: 0.5
+    - description: ZipRecruiter Credit
+      value: 400
+      weight: 0.25
+    - description: $10/mo Lyft Credit
+      value: 120
+      weight: 0.25
+    - description: Gift Card Credit
+      value: 100
+      weight: 0.5
+  offers:
+    - spend: 30000
+      amount:
+        - amount: 200000
+      days: 180
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+  historicalOffers:
+    - spend: 30000
+      amount:
+        - amount: 200000
+      days: 180
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   discontinued: false
 - cardId: 682a4f0c425d15b5ca34214378cfc3de
   name: Southwest Performance Business
