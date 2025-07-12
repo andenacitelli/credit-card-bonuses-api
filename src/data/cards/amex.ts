@@ -340,13 +340,6 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
         credits: [],
         expiration: "2024-03-01",
       },
-      {
-        amount: [{ amount: 180_000 }],
-        spend: 15_000,
-        days: 90,
-        credits: [],
-        expiration: "2022-12-01",
-      },
     ],
   },
   {
@@ -364,13 +357,14 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     imageUrl: "/images/amex/cash-magnet.webp",
     credits: [],
     offers: [
-      {
-        amount: [{ amount: 200 }],
-        spend: 2000,
-        days: 180,
-        credits: [],
-        url: "https://www.americanexpress.com/us/credit-cards/card/cash-magnet/",
-      },
+      // seemingly no offers right now
+      // {
+      //   amount: [{ amount: 200 }],
+      //   spend: 2000,
+      //   days: 180,
+      //   credits: [],
+      //   url: "https://www.americanexpress.com/us/credit-cards/card/cash-magnet/",
+      // },
     ],
     historicalOffers: [
       {
@@ -438,10 +432,11 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 80_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 3000,
         days: 180,
         credits: [],
+        details: "Sometimes 90k, try incognito.",
         expiration: "2025-07-16",
       },
       // {

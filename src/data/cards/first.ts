@@ -110,7 +110,7 @@ export const FIRST_CARDS: Array<CreditCardInput> = [
     offers: [
       {
         amount: [{ amount: 50_000 }],
-        spend: 6000,
+        spend: 5000,
         days: 90,
         credits: [],
         details: "25k after any purchase, 25k after spend requirement.",
@@ -137,17 +137,10 @@ export const FIRST_CARDS: Array<CreditCardInput> = [
     annualFee: 99,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://www.lifemiles.com/credit-card/get-credit-card",
+    url: "https://www.lifemiles.com/discover/landing-page/avianca-lifemiles-creditcard",
     imageUrl: "/images/first/avianca-lifemiles.webp",
     credits: [],
     offers: [
-      {
-        amount: [{ amount: 50_000 }],
-        spend: 3000,
-        days: 90,
-        credits: [],
-        expires: "2025-01-21",
-      },
       {
         amount: [{ amount: 40_000 }],
         spend: 3000,
@@ -174,18 +167,10 @@ export const FIRST_CARDS: Array<CreditCardInput> = [
     annualFee: 250,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://www.lifemiles.com/credit-card/get-credit-card",
+    url: "https://www.lifemiles.com/discover/landing-page/avianca-lifemiles-creditcard",
     imageUrl: "/images/first/avianca-lifemiles-elite.webp",
     credits: [],
     offers: [
-      {
-        amount: [{ amount: 80_000 }],
-        spend: 4500,
-        days: 90,
-        credits: [],
-        details: "Extra 40k on 25k spend in 1yr.",
-        expires: "2025-01-21",
-      },
       {
         amount: [{ amount: 60_000 }],
         spend: 4500,

@@ -145,12 +145,6 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 400 }],
-        spend: 1000,
-        days: 90,
-        credits: [],
-      },
-      {
         amount: [{ amount: 300 }],
         spend: 1000,
         days: 90,
@@ -315,7 +309,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
             description: "5x FNC, <= 40k per",
           },
         ],
-        url: "https://creditcards.chase.com/a1/ihg/PremierOnPropertyAEP",
+        details: "Marked as ending soon.",
       },
       {
         amount: [{ amount: 140_000 }],
@@ -391,6 +385,13 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     imageUrl: "/images/chase/ihg-rewards-traveler.jpeg",
     credits: [],
     offers: [
+      {
+        amount: [{ amount: 120_000 }],
+        spend: 2000,
+        days: 90,
+        credits: [],
+        details: "Marked as ending soon.",
+      },
       {
         amount: [{ amount: 80_000 }],
         spend: 2000,
@@ -1484,6 +1485,13 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
+        amount: [{ amount: 250 }],
+        spend: 0.01,
+        days: 365,
+        credits: [],
+        expiration: "2025-07-14",
+      },
+      {
         amount: [{ amount: 200 }],
         spend: 0.01,
         days: 365,
@@ -1492,16 +1500,11 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 200 }],
+        amount: [{ amount: 250 }],
         spend: 0.01,
         days: 365,
         credits: [],
-      },
-      {
-        amount: [{ amount: 275 }],
-        spend: 2500,
-        days: 90,
-        credits: [],
+        expiration: "2025-07-14",
       },
     ],
   },

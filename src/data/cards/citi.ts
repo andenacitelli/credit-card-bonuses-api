@@ -71,7 +71,7 @@ export const CITI_CARDS: Array<CreditCardInput> = [
   },
   {
     cardId: "a497d6ba509538db9e3e4a3e5e313fe9",
-    name: "AAdvantage Platinum Select",
+    name: "AAdvantage Platinum Select World Elite",
     issuer: schemas.IssuersEnum.enum.CITI,
     network: schemas.NetworksEnum.enum.MASTERCARD,
     currency: schemas.CurrenciesEnum.enum.AMERICAN,
@@ -79,20 +79,26 @@ export const CITI_CARDS: Array<CreditCardInput> = [
     annualFee: 99,
     isAnnualFeeWaived: true,
     universalCashbackPercent: 1,
-    url: "https://creditcards.aa.com/",
+    url: "https://creditcards.aa.com/credit-cards/citi-platinum-card-american-airlines-direct/",
     imageUrl: "/images/citi/aadvantage-platinum-select.webp",
     credits: [],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
-        spend: 2500,
-        days: 90,
+        amount: [{ amount: 80_000 }],
+        spend: 3500,
+        days: 120,
         credits: [],
       },
+      // {
+      //   amount: [{ amount: 50_000 }],
+      //   spend: 2500,
+      //   days: 90,
+      //   credits: [],
+      // },
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 75_000 }],
+        amount: [{ amount: 80_000 }],
         spend: 3500,
         days: 120,
         credits: [],
