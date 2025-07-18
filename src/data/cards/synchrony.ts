@@ -46,7 +46,7 @@ export const SYNCHRONY_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 40_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 3000,
         days: 90,
         credits: [],
@@ -58,7 +58,6 @@ export const SYNCHRONY_CARDS: Array<CreditCardInput> = [
         spend: 3000,
         days: 90,
         credits: [],
-        expiration: "2025-03-31",
       },
     ],
   },

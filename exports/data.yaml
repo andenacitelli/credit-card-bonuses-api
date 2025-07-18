@@ -2118,9 +2118,9 @@
   imageUrl: /images/chase/aeroplan.jpg
   credits: []
   offers:
-    - spend: 3000
+    - spend: 4000
       amount:
-        - amount: 75000
+        - amount: 85000
       days: 90
       credits: []
   historicalOffers:
@@ -2404,7 +2404,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
   historicalOffers:
     - spend: 6000
       amount:
@@ -2431,7 +2431,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
   historicalOffers:
     - spend: 8000
       amount:
@@ -2457,7 +2457,7 @@
         - amount: 75000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
   historicalOffers:
     - spend: 6000
       amount:
@@ -2487,7 +2487,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
   historicalOffers:
     - spend: 10000
       amount:
@@ -2691,14 +2691,14 @@
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
   historicalOffers:
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
   discontinued: false
 - cardId: 682a4f0c425d15b5ca34214378cfc3de
   name: Southwest Performance Business
@@ -4216,7 +4216,7 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 40000
+        - amount: 60000
       days: 90
       credits: []
   historicalOffers:
@@ -4224,7 +4224,6 @@
       amount:
         - amount: 60000
       days: 90
-      expiration: 2025-03-31
       credits: []
   discontinued: false
 - cardId: 3d777bda73262fa43b11626eb383f9ab
