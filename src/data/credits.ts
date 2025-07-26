@@ -1,5 +1,5 @@
-import { WEIGHTS } from "./weights.js";
-import type { schemas } from "@/generated/api.client.js";
+import { WEIGHTS } from "./weights";
+import type { schemas } from "@/generated/api.client";
 import { z } from "zod";
 /**
  * Credits generally consistent across cards.
@@ -15,6 +15,12 @@ export const CREDITS = {
     description: "Multiple Checked Bags",
     value: 120, // reasonable average across airlines
     weight: WEIGHTS.CHECKED_BAG,
+  },
+
+  PRECHECK_OR_SIMILAR: {
+    description: "PreCheck Credit",
+    value: 100,
+    weight: WEIGHTS.TSA_PRECHECK_OR_SIMILAR,
   },
 
   HILTON_FREE_NIGHT: {

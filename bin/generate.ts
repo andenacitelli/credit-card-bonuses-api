@@ -3,7 +3,7 @@ import {
   getDataInCsvFormat,
   getDataInJsonFormat,
   getDataInYamlFormat,
-} from "@/conversion.js";
+} from "@/conversion";
 import path from "node:path";
 
 const ROOT_FOLDER = "./exports";

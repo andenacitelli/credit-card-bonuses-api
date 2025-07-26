@@ -1,23 +1,23 @@
 import { z } from "zod";
 
-import { schemas } from "../generated/api.client.js";
-import { AMERICAN_EXPRESS_CARDS } from "@/data/cards/amex.js";
-import { BANK_OF_AMERICA_CARDS } from "@/data/cards/bankofamerica.js";
-import { BARCLAYS_CARDS } from "@/data/cards/barclays.js";
-import { BREX_CARDS } from "@/data/cards/brex.js";
-import { CAPITAL_ONE_CARDS } from "@/data/cards/capitalone.js";
-import { CHASE_CARDS } from "@/data/cards/chase.js";
-import { CITI_CARDS } from "@/data/cards/citi.js";
-import { FIRST_CARDS } from "@/data/cards/first.js";
-import { FNBO_CARDS } from "@/data/cards/fnbo.js";
-import { PENFED_CARDS } from "@/data/cards/penfed.js";
-import { PNC_CARDS } from "@/data/cards/pnc.js";
-import { SYNCHRONY_CARDS } from "@/data/cards/synchrony.js";
-import { US_BANK_CARDS } from "@/data/cards/usbank.js";
-import { WELLS_FARGO_CARDS } from "@/data/cards/wellsfargo.js";
-import { DISCOVER_CARDS } from "./cards/discover.js";
-import { WEB_BANK_CARDS } from "./cards/web-bank.js";
-import { CreditCard } from "./types.js";
+import { schemas } from "../generated/api.client";
+import { AMERICAN_EXPRESS_CARDS } from "@/data/cards/amex/amex";
+import { BANK_OF_AMERICA_CARDS } from "@/data/cards/bankofamerica";
+import { BARCLAYS_CARDS } from "@/data/cards/barclays";
+import { BREX_CARDS } from "@/data/cards/brex";
+import { CAPITAL_ONE_CARDS } from "@/data/cards/capitalone";
+import { CHASE_CARDS } from "@/data/cards/chase/chase";
+import { CITI_CARDS } from "@/data/cards/citi";
+import { FIRST_CARDS } from "@/data/cards/first";
+import { FNBO_CARDS } from "@/data/cards/fnbo";
+import { PENFED_CARDS } from "@/data/cards/penfed";
+import { PNC_CARDS } from "@/data/cards/pnc";
+import { SYNCHRONY_CARDS } from "@/data/cards/synchrony";
+import { US_BANK_CARDS } from "@/data/cards/usbank";
+import { WELLS_FARGO_CARDS } from "@/data/cards/wellsfargo";
+import { DISCOVER_CARDS } from "./cards/discover";
+import { WEB_BANK_CARDS } from "./cards/web-bank";
+import { CreditCard } from "./types";
 
 export const CREDIT_CARDS: Array<CreditCard> = z
   .array(schemas.CreditCard)

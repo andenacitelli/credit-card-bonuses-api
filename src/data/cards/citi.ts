@@ -1,6 +1,6 @@
-import { schemas } from "@/generated/api.client.js";
-import { WEIGHTS } from "../weights.js";
-import { CreditCardInput } from "../types.js";
+import { schemas } from "@/generated/api.client";
+import { WEIGHTS } from "../weights";
+import { CreditCardInput } from "../types";
 export const CITI_CARDS: Array<CreditCardInput> = [
   {
     cardId: "3543149f6555df6f7e4974923c55d853",

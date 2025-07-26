@@ -3,8 +3,8 @@ import {
   getDataInCsvFormat,
   getDataInJsonFormat,
   getDataInYamlFormat,
-} from "./conversion.js";
-import { CREDIT_CARDS } from "./data/data.js";
+} from "./conversion";
+import { CREDIT_CARDS } from "./data/data";
 import { isBefore, differenceInYears } from "date-fns";
 
 describe("Export", () => {

@@ -1,3 +1,202 @@
+- cardId: 90436ebe63417596fbc6cb5b7e5a2e8c
+  name: Delta SkyMiles Blue
+  issuer: AMERICAN_EXPRESS
+  network: AMERICAN_EXPRESS
+  currency: DELTA
+  isBusiness: false
+  annualFee: 0
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-blue-american-express-card/
+  imageUrl: /images/amex/delta-skymiles-blue.jpg
+  credits: []
+  offers:
+    - spend: 1000
+      amount:
+        - amount: 10000
+      days: 180
+      credits: []
+  historicalOffers:
+    - spend: 1000
+      amount:
+        - amount: 10000
+      days: 180
+      credits: []
+  discontinued: false
+- cardId: 99d4ec3c5bcd51b70b83b4b792af3ef6
+  name: Delta SkyMiles Gold
+  issuer: AMERICAN_EXPRESS
+  network: AMERICAN_EXPRESS
+  currency: DELTA
+  isBusiness: false
+  annualFee: 150
+  isAnnualFeeWaived: true
+  universalCashbackPercent: 1
+  url: https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold-american-express-card/
+  imageUrl: /images/amex/delta-skymiles-gold.jpg
+  credits:
+    - description: First checked bag free
+      value: 50
+      weight: 0.5
+  offers:
+    - spend: 3000
+      amount:
+        - amount: 50000
+      days: 180
+      credits: []
+  historicalOffers:
+    - spend: 3000
+      amount:
+        - amount: 80000
+      days: 180
+      expiration: 2025-04-02
+      credits: []
+  discontinued: false
+- cardId: 509a09cbd31edd8df85928d044ef7802
+  name: Delta SkyMiles Gold Business
+  issuer: AMERICAN_EXPRESS
+  network: AMERICAN_EXPRESS
+  currency: DELTA
+  isBusiness: true
+  annualFee: 150
+  isAnnualFeeWaived: true
+  universalCashbackPercent: 1
+  url: https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-gold/
+  imageUrl: /images/amex/delta-skymiles-gold-business.webp
+  credits: []
+  offers:
+    - spend: 4000
+      amount:
+        - amount: 60000
+      days: 180
+      credits: []
+  historicalOffers:
+    - spend: 6000
+      amount:
+        - amount: 90000
+      days: 180
+      expiration: 2025-04-02
+      credits: []
+  discontinued: false
+- cardId: bdf4ae17ff6808592f785fff3ae81a2a
+  name: Delta SkyMiles Platinum
+  issuer: AMERICAN_EXPRESS
+  network: AMERICAN_EXPRESS
+  currency: DELTA
+  isBusiness: false
+  annualFee: 350
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-platinum-american-express-card/
+  imageUrl: /images/amex/delta-skymiles-platinum.webp
+  credits:
+    - description: Companion Pass
+      value: 500
+      weight: 0.7
+  offers:
+    - spend: 4000
+      amount:
+        - amount: 60000
+      days: 180
+      credits: []
+  historicalOffers:
+    - spend: 4000
+      amount:
+        - amount: 90000
+      days: 180
+      expiration: 2025-04-02
+      credits: []
+  discontinued: false
+- cardId: 1e9c3dae029612a7a40adf6144bf43d4
+  name: Delta SkyMiles Platinum Business
+  issuer: AMERICAN_EXPRESS
+  network: AMERICAN_EXPRESS
+  currency: DELTA
+  isBusiness: true
+  annualFee: 350
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-platinum/
+  imageUrl: /images/amex/delta-skymiles-platinum-business.webp
+  credits:
+    - description: PreCheck Credit
+      value: 100
+      weight: 0.4
+    - description: Companion Pass
+      value: 500
+      weight: 0.7
+    - description: First checked bag free
+      value: 50
+      weight: 0.5
+  offers:
+    - spend: 8000
+      amount:
+        - amount: 70000
+      days: 180
+      credits: []
+  historicalOffers:
+    - spend: 8000
+      amount:
+        - amount: 100000
+      days: 180
+      expiration: 2025-04-02
+      credits: []
+  discontinued: false
+- cardId: 2a3949c2232cf6646a59531728264a5c
+  name: Delta SkyMiles Reserve
+  issuer: AMERICAN_EXPRESS
+  network: AMERICAN_EXPRESS
+  currency: DELTA
+  isBusiness: false
+  annualFee: 650
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/
+  imageUrl: /images/amex/delta-skymiles-reserve.webp
+  credits:
+    - description: Resy Credit
+      value: 240
+      weight: 0.8
+  offers:
+    - spend: 5000
+      amount:
+        - amount: 70000
+      days: 180
+      credits: []
+  historicalOffers:
+    - spend: 5000
+      amount:
+        - amount: 100000
+      days: 90
+      expiration: 2025-04-02
+      credits: []
+  discontinued: false
+- cardId: a8032dfcc9bc6af82eb1a0a487e710b5
+  name: Delta SkyMiles Reserve Business
+  issuer: AMERICAN_EXPRESS
+  network: AMERICAN_EXPRESS
+  currency: DELTA
+  isBusiness: true
+  annualFee: 550
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-reserve/
+  imageUrl: /images/amex/delta-skymiles-reserve-business.webp
+  credits: []
+  offers:
+    - spend: 10000
+      amount:
+        - amount: 80000
+      days: 180
+      credits: []
+  historicalOffers:
+    - spend: 12000
+      amount:
+        - amount: 110000
+      days: 180
+      expiration: 2025-04-02
+      credits: []
+  discontinued: false
 - cardId: a37efd1da4e7f0d468c87d3b6f021250
   name: Blue Business Cash
   issuer: AMERICAN_EXPRESS
@@ -291,212 +490,6 @@
       days: 180
       credits: []
   discontinued: false
-- cardId: 90436ebe63417596fbc6cb5b7e5a2e8c
-  name: Delta SkyMiles Blue
-  issuer: AMERICAN_EXPRESS
-  network: AMERICAN_EXPRESS
-  currency: DELTA
-  isBusiness: false
-  annualFee: 0
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-blue-american-express-card/
-  imageUrl: /images/amex/delta-skymiles-blue.jpg
-  credits: []
-  offers:
-    - spend: 1000
-      amount:
-        - amount: 10000
-      days: 180
-      credits: []
-  historicalOffers:
-    - spend: 1000
-      amount:
-        - amount: 10000
-      days: 180
-      credits: []
-  discontinued: false
-- cardId: 99d4ec3c5bcd51b70b83b4b792af3ef6
-  name: Delta SkyMiles Gold
-  issuer: AMERICAN_EXPRESS
-  network: AMERICAN_EXPRESS
-  currency: DELTA
-  isBusiness: false
-  annualFee: 150
-  isAnnualFeeWaived: true
-  universalCashbackPercent: 1
-  url: https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold-american-express-card/
-  imageUrl: /images/amex/delta-skymiles-gold.jpg
-  credits:
-    - description: First checked bag free
-      value: 50
-      weight: 0.5
-  offers:
-    - spend: 3000
-      amount:
-        - amount: 60000
-      days: 180
-      expiration: 2025-07-16
-      credits: []
-      details: Sometimes 90k, try incognito.
-  historicalOffers:
-    - spend: 3000
-      amount:
-        - amount: 80000
-      days: 180
-      expiration: 2025-04-02
-      credits: []
-  discontinued: false
-- cardId: 509a09cbd31edd8df85928d044ef7802
-  name: Delta SkyMiles Gold Business
-  issuer: AMERICAN_EXPRESS
-  network: AMERICAN_EXPRESS
-  currency: DELTA
-  isBusiness: true
-  annualFee: 150
-  isAnnualFeeWaived: true
-  universalCashbackPercent: 1
-  url: https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-gold/
-  imageUrl: /images/amex/delta-skymiles-gold-business.webp
-  credits: []
-  offers:
-    - spend: 4000
-      amount:
-        - amount: 90000
-      days: 180
-      expiration: 2025-07-16
-      credits: []
-  historicalOffers:
-    - spend: 6000
-      amount:
-        - amount: 90000
-      days: 180
-      expiration: 2025-04-02
-      credits: []
-  discontinued: false
-- cardId: bdf4ae17ff6808592f785fff3ae81a2a
-  name: Delta SkyMiles Platinum
-  issuer: AMERICAN_EXPRESS
-  network: AMERICAN_EXPRESS
-  currency: DELTA
-  isBusiness: false
-  annualFee: 350
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-platinum-american-express-card/
-  imageUrl: /images/amex/delta-skymiles-platinum.webp
-  credits:
-    - description: Companion Pass
-      value: 500
-      weight: 0.7
-  offers:
-    - spend: 4000
-      amount:
-        - amount: 90000
-      days: 180
-      expiration: 2025-07-16
-      credits: []
-  historicalOffers:
-    - spend: 4000
-      amount:
-        - amount: 90000
-      days: 180
-      expiration: 2025-04-02
-      credits: []
-  discontinued: false
-- cardId: 1e9c3dae029612a7a40adf6144bf43d4
-  name: Delta SkyMiles Platinum Business
-  issuer: AMERICAN_EXPRESS
-  network: AMERICAN_EXPRESS
-  currency: DELTA
-  isBusiness: true
-  annualFee: 350
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-platinum/
-  imageUrl: /images/amex/delta-skymiles-platinum-business.webp
-  credits:
-    - description: $100 Global Entry / $85 TSA PreCheck Credit
-      value: 100
-      weight: 0.4
-    - description: Companion Pass
-      value: 500
-      weight: 0.7
-    - description: First checked bag free
-      value: 50
-      weight: 0.5
-  offers:
-    - spend: 8000
-      amount:
-        - amount: 100000
-      days: 180
-      expiration: 2025-07-16
-      credits: []
-  historicalOffers:
-    - spend: 8000
-      amount:
-        - amount: 100000
-      days: 180
-      expiration: 2025-04-02
-      credits: []
-  discontinued: false
-- cardId: 2a3949c2232cf6646a59531728264a5c
-  name: Delta SkyMiles Reserve
-  issuer: AMERICAN_EXPRESS
-  network: AMERICAN_EXPRESS
-  currency: DELTA
-  isBusiness: false
-  annualFee: 650
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/
-  imageUrl: /images/amex/delta-skymiles-reserve.webp
-  credits:
-    - description: Resy Credit
-      value: 240
-      weight: 0.8
-  offers:
-    - spend: 5000
-      amount:
-        - amount: 100000
-      days: 180
-      expiration: 2025-07-16
-      credits: []
-  historicalOffers:
-    - spend: 5000
-      amount:
-        - amount: 100000
-      days: 90
-      expiration: 2025-04-02
-      credits: []
-  discontinued: false
-- cardId: a8032dfcc9bc6af82eb1a0a487e710b5
-  name: Delta SkyMiles Reserve Business
-  issuer: AMERICAN_EXPRESS
-  network: AMERICAN_EXPRESS
-  currency: DELTA
-  isBusiness: true
-  annualFee: 550
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-reserve/
-  imageUrl: /images/amex/delta-skymiles-reserve-business.webp
-  credits: []
-  offers:
-    - spend: 10000
-      amount:
-        - amount: 110000
-      days: 180
-      expiration: 2025-07-16
-      credits: []
-  historicalOffers:
-    - spend: 12000
-      amount:
-        - amount: 110000
-      days: 180
-      expiration: 2025-04-02
-      credits: []
-  discontinued: false
 - cardId: 54fddf9e59dfad730320eb65a04b7ea5
   name: Everyday
   issuer: AMERICAN_EXPRESS
@@ -607,7 +600,7 @@
   url: https://www.americanexpress.com/us/credit-cards/card/green/
   imageUrl: /images/amex/green.webp
   credits:
-    - description: CLEAR Credit
+    - description: PreCheck Credit
       value: 100
       weight: 0.4
     - description: Lounge Access Credit
@@ -829,6 +822,9 @@
   url: https://www.americanexpress.com/us/credit-cards/card/platinum/
   imageUrl: /images/amex/platinum.webp
   credits:
+    - description: PreCheck Credit
+      value: 100
+      weight: 0.4
     - description: Hotel Credit
       value: 200
       weight: 0.9
@@ -847,9 +843,6 @@
     - description: Walmart+ Credit
       value: 155
       weight: 0.2
-    - description: CLEAR Credit
-      value: 189
-      weight: 0.4
   offers:
     - spend: 8000
       amount:
@@ -877,6 +870,9 @@
   url: https://www.schwab.com/credit-cards#panel--50-media-right-117911
   imageUrl: /images/amex/platinum-schwab.webp
   credits:
+    - description: PreCheck Credit
+      value: 100
+      weight: 0.4
     - description: Hotel Credit
       value: 200
       weight: 0.9
@@ -892,9 +888,6 @@
     - description: Walmart+ Credit
       value: 155
       weight: 0.2
-    - description: CLEAR Credit
-      value: 189
-      weight: 0.4
   offers:
     - spend: 8000
       amount:
@@ -921,6 +914,9 @@
   url: https://apply.americanexpress.com/amex-morgan-stanley-credit-cards/
   imageUrl: /images/amex/platinum-morgan-stanley.webp
   credits:
+    - description: PreCheck Credit
+      value: 100
+      weight: 0.4
     - description: Hotel Credit
       value: 200
       weight: 0.9
@@ -936,9 +932,6 @@
     - description: Walmart+ Credit
       value: 155
       weight: 0.2
-    - description: CLEAR Credit
-      value: 189
-      weight: 0.4
   offers: []
   historicalOffers:
     - spend: 6000
@@ -1063,6 +1056,31 @@
       days: 90
       credits: []
       url: https://www.amazon.com/Amazon-Business-American-Express-Card/dp/B07984JN3L
+  discontinued: false
+- cardId: 6ca9fd6caab5364f72928dd5ba04bb58
+  name: Rakuten
+  issuer: AMERICAN_EXPRESS
+  network: AMERICAN_EXPRESS
+  currency: USD
+  isBusiness: true
+  annualFee: 0
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://www.rakuten.com/american-express-card/
+  imageUrl: /images/amex/rakuten.jpg
+  credits: []
+  offers:
+    - spend: 500
+      amount:
+        - amount: 25
+      days: 90
+      credits: []
+  historicalOffers:
+    - spend: 500
+      amount:
+        - amount: 25
+      days: 90
+      credits: []
   discontinued: false
 - cardId: f2d769efdbe2b9d8734787bc24297be6
   name: Air France KLM
@@ -1238,15 +1256,15 @@
   url: https://www.bankofamerica.com/credit-cards/products/premium-rewards-elite-credit-card/
   imageUrl: /images/bankofamerica/premium-rewards-elite.png
   credits:
+    - description: PreCheck Credit
+      value: 100
+      weight: 0.4
     - description: Incidental Airline Statement Credits
       value: 300
       weight: 0.3
     - description: Annaul $150 streaming, delivery, fitness, and transit credit
       value: 150
       weight: 0.8
-    - description: $100 credit for Global Entry or TSA PreCheck
-      value: 100
-      weight: 0.4
   offers:
     - spend: 5000
       amount:
@@ -1772,8 +1790,8 @@
   url: https://cards.barclaycardus.com/banking/cards/jetblue-premier-card/
   imageUrl: /images/barclays/jetblue-premier.png
   credits:
-    - description: $120 credit for Global Entry or TSA PreCheck
-      value: 120
+    - description: PreCheck Credit
+      value: 100
       weight: 0.4
     - description: $300 credit for Paisly, JetBlue's portal.
       value: 300
@@ -2079,6 +2097,875 @@
       expiration: 2023-12-01
       credits: []
   discontinued: false
+- cardId: 918c978a06c7c36f9a321b2efa0ff974
+  name: Marriott Bonvoy Bold
+  issuer: CHASE
+  network: VISA
+  currency: MARRIOTT
+  isBusiness: false
+  annualFee: 0
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold
+  imageUrl: /images/chase/marriott-bonvoy-bold.jpeg
+  credits: []
+  offers:
+    - spend: 1000
+      amount:
+        - amount: 60000
+      days: 90
+      credits:
+        - description: 1x FNC, <= 50k per
+          value: 50000
+          weight: 1
+          currency: MARRIOTT
+      referralUrl: https://www.referyourchasecard.com/252p/HAZXLB93C3
+  historicalOffers:
+    - spend: 1000
+      amount:
+        - amount: 60000
+      days: 90
+      credits: []
+  discontinued: false
+- cardId: 6a4a30b866d4d37216b9d586a15ad1cc
+  name: Marriott Bonvoy Boundless
+  issuer: CHASE
+  network: VISA
+  currency: MARRIOTT
+  isBusiness: false
+  annualFee: 95
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless
+  imageUrl: /images/chase/marriott-bonvoy-boundless.jpeg
+  credits: []
+  offers:
+    - spend: 3000
+      amount:
+        - amount: 250000
+          currency: MARRIOTT
+      days: 90
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/252p/HAZXLB93C3
+  historicalOffers:
+    - spend: 3000
+      amount:
+        - amount: 250000
+          currency: MARRIOTT
+      days: 90
+      credits: []
+      details: 5x FNC, <= 50k per
+      referralUrl: https://www.referyourchasecard.com/252p/HAZXLB93C3
+  discontinued: false
+- cardId: 682a4f0c425d15b5ca34214378cfc3de
+  name: Southwest Performance Business
+  issuer: CHASE
+  network: VISA
+  currency: SOUTHWEST
+  isBusiness: true
+  annualFee: 299
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://creditcards.chase.com/business-credit-cards/southwest/performance-business
+  imageUrl: /images/chase/southwest-rapid-rewards-performance-business.png
+  credits:
+    - description: Free Checked Bag
+      value: 100
+      weight: 0.75
+    - description: PreCheck Credit
+      value: 100
+      weight: 0.4
+    - description: Anniversary Points
+      value: 9000
+      weight: 1
+      currency: SOUTHWEST
+  offers:
+    - spend: 5000
+      amount:
+        - amount: 80000
+      days: 90
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/226m/EK4J5RUTDJ
+  historicalOffers:
+    - spend: 5000
+      amount:
+        - amount: 80000
+      days: 90
+      credits: []
+  discontinued: false
+- cardId: 32a0c8c7eda25330e2c176589e386d7f
+  name: Southwest Plus
+  issuer: CHASE
+  network: VISA
+  currency: SOUTHWEST
+  isBusiness: false
+  annualFee: 99
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://creditcards.chase.com/travel-credit-cards/southwest/plus
+  imageUrl: /images/chase/southwest-rapid-rewards-plus.png
+  credits:
+    - description: Free Checked Bag
+      value: 100
+      weight: 0.75
+    - description: Anniversary Points
+      value: 3000
+      weight: 1
+      currency: SOUTHWEST
+  offers:
+    - spend: 4000
+      amount:
+        - amount: 100000
+      days: 150
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/226m/EK4J5RUTDJ
+  historicalOffers:
+    - spend: 4000
+      amount:
+        - amount: 100000
+      days: 150
+      expiration: 2025-09-17
+      credits: []
+  discontinued: false
+- cardId: 76e73a4afe8dfc1f8f1be1e345d7eca8
+  name: Southwest Premier
+  issuer: CHASE
+  network: VISA
+  currency: SOUTHWEST
+  isBusiness: false
+  annualFee: 149
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://creditcards.chase.com/travel-credit-cards/southwest/premier
+  imageUrl: /images/chase/southwest-rapid-rewards-premier.png
+  credits:
+    - description: Free Checked Bag
+      value: 100
+      weight: 0.75
+    - description: Anniversary Points
+      value: 6000
+      weight: 1
+      currency: SOUTHWEST
+  offers:
+    - spend: 4000
+      amount:
+        - amount: 100000
+      days: 150
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/226m/EK4J5RUTDJ
+  historicalOffers:
+    - spend: 4000
+      amount:
+        - amount: 100000
+      days: 150
+      expiration: 2025-09-17
+      credits: []
+  discontinued: false
+- cardId: f86d26bad5af78feff0335845003c47e
+  name: Southwest Premier Business
+  issuer: CHASE
+  network: VISA
+  currency: SOUTHWEST
+  isBusiness: true
+  annualFee: 149
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://creditcards.chase.com/business-credit-cards/southwest/premier-business
+  imageUrl: /images/chase/southwest-rapid-rewards-premier-business.png
+  credits:
+    - description: Free Checked Bag
+      value: 100
+      weight: 0.75
+    - description: Anniversary Points
+      value: 6000
+      weight: 1
+      currency: SOUTHWEST
+  offers:
+    - spend: 3000
+      amount:
+        - amount: 60000
+      days: 90
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/226m/EK4J5RUTDJ
+  historicalOffers:
+    - spend: 3000
+      amount:
+        - amount: 60000
+      days: 90
+      credits: []
+    - spend: 18000
+      amount:
+        - amount: 120000
+      days: 270
+      credits: []
+  discontinued: false
+- cardId: 169256a9988f3161381ee6a9ebe6667e
+  name: Southwest Priority
+  issuer: CHASE
+  network: VISA
+  currency: SOUTHWEST
+  isBusiness: false
+  annualFee: 229
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://creditcards.chase.com/travel-credit-cards/southwest/priority
+  imageUrl: /images/chase/southwest-rapid-rewards-priority.png
+  credits:
+    - description: Free Checked Bag
+      value: 100
+      weight: 0.75
+    - description: Anniversary Points
+      value: 7500
+      weight: 1
+      currency: SOUTHWEST
+  offers:
+    - spend: 4000
+      amount:
+        - amount: 100000
+      days: 150
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/226m/EK4J5RUTDJ
+  historicalOffers:
+    - spend: 4000
+      amount:
+        - amount: 100000
+      days: 150
+      expiration: 2025-09-17
+      credits: []
+  discontinued: false
+- cardId: 8101f7827e3a1e797b09653f117b72d9
+  name: United Business
+  issuer: CHASE
+  network: VISA
+  currency: UNITED
+  isBusiness: true
+  annualFee: 150
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://www.theexplorercard.com/business-rewards-cards/business-card
+  imageUrl: /images/chase/united-business.png
+  credits:
+    - description: Free Checked Bag
+      value: 100
+      weight: 0.8
+    - description: 2x Lounge Pass
+      value: 100
+      weight: 0.4
+    - description: United Credit
+      value: 125
+      weight: 0.8
+    - description: United Hotels
+      value: 100
+      weight: 0.8
+    - description: Rideshare
+      value: 100
+      weight: 0.5
+    - description: Instacard
+      value: 120
+      weight: 0.5
+    - description: Avis/Budget
+      value: 50
+      weight: 0.5
+  offers:
+    - spend: 5000
+      amount:
+        - amount: 75000
+      days: 90
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/215Y/RO0613CS0T
+  historicalOffers:
+    - spend: 5000
+      amount:
+        - amount: 125000
+      days: 90
+      expiration: 2025-05-08
+      credits: []
+  discontinued: false
+- cardId: d2517ce6b72999e14f50c399347100ed
+  name: United Club Infinite
+  issuer: CHASE
+  network: VISA
+  currency: UNITED
+  isBusiness: false
+  annualFee: 695
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://www.theexplorercard.com/rewards-cards/club-card
+  imageUrl: /images/chase/united-club-infinite.png
+  credits:
+    - description: PreCheck Credit
+      value: 100
+      weight: 0.4
+    - description: 2x Checked Bags
+      value: 150
+      weight: 0.75
+    - description: United Lounge
+      value: 750
+      weight: 0.25
+    - description: United Hotels
+      value: 200
+      weight: 0.75
+    - description: Rideshare
+      value: 150
+      weight: 0.5
+    - description: Instacart
+      value: 240
+      weight: 0.5
+    - description: Avis/Budget
+      value: 100
+      weight: 0.5
+  offers:
+    - spend: 5000
+      amount:
+        - amount: 90000
+      days: 90
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/215Y/RO0613CS0T
+  historicalOffers:
+    - spend: 5000
+      amount:
+        - amount: 95000
+      days: 90
+      expiration: 2025-05-08
+      credits: []
+  discontinued: false
+- cardId: 80c6aca49a0e1442d51635c316f4a5ff
+  name: United Club Business
+  issuer: CHASE
+  network: VISA
+  currency: UNITED
+  isBusiness: true
+  annualFee: 695
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://www.theexplorercard.com/business-rewards-cards/club-card
+  imageUrl: /images/chase/united-club-business.png
+  credits:
+    - description: 2x Checked Bags
+      value: 150
+      weight: 0.8
+    - description: United Credit
+      value: 125
+      weight: 0.8
+    - description: United Hotels
+      value: 200
+      weight: 0.8
+    - description: Rideshare
+      value: 150
+      weight: 0.5
+    - description: Instacart
+      value: 240
+      weight: 0.5
+    - description: Avis/Budget
+      value: 100
+      weight: 0.5
+    - description: United Lounge
+      value: 750
+      weight: 0.25
+  offers:
+    - spend: 5000
+      amount:
+        - amount: 80000
+      days: 90
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/215Y/RO0613CS0T
+  historicalOffers:
+    - spend: 5000
+      amount:
+        - amount: 125000
+      days: 90
+      expiration: 2025-05-08
+      credits: []
+  discontinued: false
+- cardId: 85cd2b7d172e494eefad5b2ab012f21c
+  name: United Explorer
+  issuer: CHASE
+  network: VISA
+  currency: UNITED
+  isBusiness: false
+  annualFee: 150
+  isAnnualFeeWaived: true
+  universalCashbackPercent: 1
+  url: https://www.theexplorercard.com/rewards-cards/explorer-card
+  imageUrl: /images/chase/united-explorer.png
+  credits:
+    - description: PreCheck Credit
+      value: 100
+      weight: 0.4
+    - description: Free Checked Bag
+      value: 100
+      weight: 0.8
+    - description: 2x Lounge Pass
+      value: 100
+      weight: 0.4
+    - description: Rideshare Credits
+      value: 60
+      weight: 0.5
+    - description: 10k award flight discount
+      value: 10000
+      weight: 0.75
+      currency: UNITED
+    - description: United Travel
+      value: 100
+      weight: 0.8
+      currency: USD
+    - description: United Hotels
+      value: 100
+      weight: 0.5
+      currency: USD
+    - description: Avis/Budget
+      value: 50
+      weight: 0.5
+      currency: USD
+    - description: Instacart+
+      value: 120
+      weight: 0.4
+      currency: USD
+  offers:
+    - spend: 3000
+      amount:
+        - amount: 60000
+      days: 90
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/215Y/RO0613CS0T
+  historicalOffers:
+    - spend: 3000
+      amount:
+        - amount: 80000
+      days: 90
+      credits: []
+  discontinued: false
+- cardId: 4071699fe4b21cafb02cf8b2c9c57c86
+  name: United Gateway
+  issuer: CHASE
+  network: VISA
+  currency: UNITED
+  isBusiness: false
+  annualFee: 0
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://www.theexplorercard.com/rewards-cards/gateway-card
+  imageUrl: /images/chase/united-gateway.png
+  credits: []
+  offers:
+    - spend: 1000
+      amount:
+        - amount: 20000
+      days: 90
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/215Y/RO0613CS0T
+  historicalOffers:
+    - spend: 1000
+      amount:
+        - amount: 30000
+      days: 90
+      expiration: 2024-07-01
+      credits: []
+  discontinued: false
+- cardId: 34ab99720941eaa2a1671e5b3a996b19
+  name: United Quest
+  issuer: CHASE
+  network: VISA
+  currency: UNITED
+  isBusiness: false
+  annualFee: 350
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://www.theexplorercard.com/rewards-cards/quest-card
+  imageUrl: /images/chase/united-quest.png
+  credits:
+    - description: United Credit
+      value: 200
+      weight: 0.8
+    - description: United Hotels
+      value: 150
+      weight: 0.5
+    - description: Rideshare
+      value: 100
+      weight: 0.5
+    - description: Instacart+
+      value: 180
+      weight: 0.5
+    - description: Avis/Budget
+      value: 80
+      weight: 0.5
+    - description: 10k award flight discount
+      value: 10000
+      weight: 0.8
+      currency: UNITED
+    - description: 2x Checked Bags
+      value: 150
+      weight: 0.8
+  offers:
+    - spend: 4000
+      amount:
+        - amount: 100000
+      days: 90
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/215Y/RO0613CS0T
+  historicalOffers:
+    - spend: 4000
+      amount:
+        - amount: 90000
+      days: 90
+      expiration: 2025-05-08
+      credits: []
+  discontinued: false
+- cardId: 8ec7f405d03afa62eaeea7e197a29e8a
+  name: Ink Business Cash
+  issuer: CHASE
+  network: VISA
+  currency: CHASE
+  isBusiness: true
+  annualFee: 0
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://creditcards.chase.com/business-credit-cards/ink/cash
+  imageUrl: /images/chase/ink-business-cash.png
+  credits: []
+  offers:
+    - spend: 6000
+      amount:
+        - amount: 75000
+      days: 180
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+  historicalOffers:
+    - spend: 6000
+      amount:
+        - amount: 90000
+      days: 90
+      expiration: 2023-03-19
+      credits: []
+  discontinued: false
+- cardId: c80cdb77c3eda940e2a36abb4f943c69
+  name: Ink Business Preferred
+  issuer: CHASE
+  network: VISA
+  currency: CHASE
+  isBusiness: true
+  annualFee: 95
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://creditcards.chase.com/business-credit-cards/ink/business-preferred
+  imageUrl: /images/chase/ink-business-preferred.png
+  credits: []
+  offers:
+    - spend: 8000
+      amount:
+        - amount: 90000
+      days: 90
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+  historicalOffers:
+    - spend: 8000
+      amount:
+        - amount: 120000
+      days: 90
+      credits: []
+  discontinued: false
+- cardId: 4a1c1e46f145b76fcc72ebd391fc5766
+  name: Ink Business Unlimited
+  issuer: CHASE
+  network: VISA
+  currency: CHASE
+  isBusiness: true
+  annualFee: 0
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://creditcards.chase.com/business-credit-cards/ink/unlimited
+  imageUrl: /images/chase/ink-business-unlimited.png
+  credits: []
+  offers:
+    - spend: 6000
+      amount:
+        - amount: 75000
+      days: 90
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+  historicalOffers:
+    - spend: 6000
+      amount:
+        - amount: 90000
+      days: 90
+      expiration: 2024-11-01
+      credits: []
+      url: https://creditcards.chase.com/business-credit-cards/ink/unlimited
+  discontinued: false
+- cardId: 94c9b624738adce05fbe0e5bfc5d620e
+  name: Ink Business Premier
+  issuer: CHASE
+  network: VISA
+  currency: USD
+  details: Points are nontransferable. Only cashback redemption.
+  isBusiness: true
+  annualFee: 195
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 2
+  url: https://creditcards.chase.com/business-credit-cards/ink/premier
+  imageUrl: /images/chase/ink-business-premier.png
+  credits: []
+  offers:
+    - spend: 10000
+      amount:
+        - amount: 1000
+          currency: USD
+      days: 90
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+  historicalOffers:
+    - spend: 10000
+      amount:
+        - amount: 1000
+          currency: USD
+      days: 90
+      credits: []
+  discontinued: false
+- cardId: 40192e08e31f059d91a108ff09ec5dd5
+  name: IHG Premier
+  issuer: CHASE
+  network: MASTERCARD
+  currency: IHG
+  isBusiness: false
+  annualFee: 99
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier
+  imageUrl: /images/chase/ihg-rewards-premier.jpg
+  credits: []
+  offers:
+    - spend: 4000
+      amount:
+        - amount: 0
+      days: 90
+      credits:
+        - description: 5x FNC, <= 40k per
+          value: 200000
+          weight: 0.7
+          currency: IHG
+      details: Marked as ending soon.
+    - spend: 4000
+      amount:
+        - amount: 140000
+      days: 90
+      credits: []
+  historicalOffers:
+    - spend: 4000
+      amount:
+        - amount: 175000
+      days: 90
+      credits:
+        - description: FNC worth up to 40k points.
+          value: 400
+          weight: 0.7
+          currency: IHG
+      url: https://www.ihg.com/onerewards/content/us/en/creditcard
+    - spend: 4000
+      amount:
+        - amount: 175000
+      days: 90
+      credits: []
+  discontinued: false
+- cardId: bc82fb7022c639f90b9378410127b9e6
+  name: IHG Premier Business
+  issuer: CHASE
+  network: MASTERCARD
+  currency: IHG
+  isBusiness: true
+  annualFee: 99
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://creditcards.chase.com/business-credit-cards/IHG/business-premier
+  imageUrl: /images/chase/ihg-rewards-premier-business.png
+  credits: []
+  offers:
+    - spend: 4000
+      amount:
+        - amount: 140000
+      days: 90
+      credits: []
+  historicalOffers:
+    - spend: 3000
+      amount:
+        - amount: 175000
+      days: 90
+      credits: []
+  discontinued: false
+- cardId: 2c6c7e215b4a1e791250d1fb48997e02
+  name: IHG Traveler
+  issuer: CHASE
+  network: MASTERCARD
+  currency: IHG
+  isBusiness: false
+  annualFee: 0
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler
+  imageUrl: /images/chase/ihg-rewards-traveler.jpeg
+  credits: []
+  offers:
+    - spend: 2000
+      amount:
+        - amount: 120000
+      days: 90
+      credits: []
+      details: Marked as ending soon.
+    - spend: 2000
+      amount:
+        - amount: 80000
+      days: 90
+      credits: []
+  historicalOffers:
+    - spend: 2000
+      amount:
+        - amount: 120000
+      days: 90
+      credits: []
+  discontinued: false
+- cardId: 57f8a819c3bb4c6aa494016703281f35
+  name: Sapphire Preferred
+  issuer: CHASE
+  network: VISA
+  currency: CHASE
+  isBusiness: false
+  annualFee: 95
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred
+  imageUrl: /images/chase/sapphire-preferred.png
+  credits:
+    - description: Hotel Credit
+      value: 50
+      weight: 0.9
+  offers:
+    - spend: 5000
+      amount:
+        - amount: 75000
+      days: 90
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/19t/F0DZZK1XD0
+  historicalOffers:
+    - spend: 5000
+      amount:
+        - amount: 100000
+      days: 90
+      expiration: 2025-05-15
+      credits: []
+  discontinued: false
+- cardId: 77e3ef2fc9c35498ba1a3f46a63235cb
+  name: Sapphire Reserve
+  issuer: CHASE
+  network: VISA
+  currency: CHASE
+  isBusiness: false
+  annualFee: 795
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve
+  imageUrl: /images/chase/sapphire-reserve.png
+  credits:
+    - description: PreCheck Credit
+      value: 100
+      weight: 0.4
+    - description: Travel Credit
+      value: 300
+      weight: 1
+    - description: Travel Credit (The Edit)
+      value: 500
+      weight: 0.8
+    - description: Lounge Access
+      value: 469
+      weight: 0.2
+    - description: Dining Credit
+      value: 300
+      weight: 0.75
+    - description: Apple TV / Apple Music
+      value: 250
+      weight: 0.4
+    - description: Dashpass
+      value: 120
+      weight: 0.4
+  offers:
+    - spend: 5000
+      amount:
+        - amount: 100000
+      days: 90
+      credits:
+        - description: Chase Travel Credit
+          value: 500
+          weight: 0.8
+      referralUrl: https://www.referyourchasecard.com/19t/F0DZZK1XD0
+  historicalOffers:
+    - spend: 5000
+      amount:
+        - amount: 100000
+      days: 90
+      credits:
+        - description: Chase Travel Credit
+          value: 500
+          weight: 0.8
+      referralUrl: https://www.referyourchasecard.com/19t/F0DZZK1XD0
+  discontinued: false
+- cardId: 5d8c589d1e7c1294d04fa6e4a2685624
+  name: Sapphire Reserve Business
+  issuer: CHASE
+  network: VISA
+  currency: CHASE
+  isBusiness: true
+  annualFee: 795
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://creditcards.chase.com/business-credit-cards/sapphire/reserve
+  imageUrl: /images/chase/sapphire-reserve-business.jpg
+  credits:
+    - description: PreCheck Credit
+      value: 100
+      weight: 0.4
+    - description: Travel Credit
+      value: 300
+      weight: 1
+    - description: Travel Credit (The Edit)
+      value: 500
+      weight: 0.8
+    - description: Lounge Access
+      value: 469
+      weight: 0.2
+    - description: Apple TV / Apple Music
+      value: 250
+      weight: 0.4
+    - description: Dashpass
+      value: 120
+      weight: 0.3
+    - description: $25/mo DoorDash Promos
+      value: 300
+      weight: 0.3
+    - description: Google Workspace Credit
+      value: 200
+      weight: 0.5
+    - description: ZipRecruiter Credit
+      value: 400
+      weight: 0.25
+    - description: $10/mo Lyft Credit
+      value: 120
+      weight: 0.25
+    - description: Gift Card Credit
+      value: 100
+      weight: 0.5
+  offers:
+    - spend: 30000
+      amount:
+        - amount: 200000
+      days: 180
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+  historicalOffers:
+    - spend: 30000
+      amount:
+        - amount: 200000
+      days: 180
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+  discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
   issuer: CHASE
@@ -2285,850 +3172,6 @@
       expiration: 2024-12-31
       credits: []
   discontinued: false
-- cardId: 40192e08e31f059d91a108ff09ec5dd5
-  name: IHG Premier
-  issuer: CHASE
-  network: MASTERCARD
-  currency: IHG
-  isBusiness: false
-  annualFee: 99
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier
-  imageUrl: /images/chase/ihg-rewards-premier.jpg
-  credits: []
-  offers:
-    - spend: 4000
-      amount:
-        - amount: 0
-      days: 90
-      credits:
-        - description: 5x FNC, <= 40k per
-          value: 200000
-          weight: 0.7
-          currency: IHG
-      details: Marked as ending soon.
-    - spend: 4000
-      amount:
-        - amount: 140000
-      days: 90
-      credits: []
-  historicalOffers:
-    - spend: 4000
-      amount:
-        - amount: 175000
-      days: 90
-      credits:
-        - description: FNC worth up to 40k points.
-          value: 400
-          weight: 0.7
-          currency: IHG
-      url: https://www.ihg.com/onerewards/content/us/en/creditcard
-    - spend: 4000
-      amount:
-        - amount: 175000
-      days: 90
-      credits: []
-  discontinued: false
-- cardId: bc82fb7022c639f90b9378410127b9e6
-  name: IHG Premier Business
-  issuer: CHASE
-  network: MASTERCARD
-  currency: IHG
-  isBusiness: true
-  annualFee: 99
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://creditcards.chase.com/business-credit-cards/IHG/business-premier
-  imageUrl: /images/chase/ihg-rewards-premier-business.png
-  credits: []
-  offers:
-    - spend: 4000
-      amount:
-        - amount: 140000
-      days: 90
-      credits: []
-  historicalOffers:
-    - spend: 3000
-      amount:
-        - amount: 175000
-      days: 90
-      credits: []
-  discontinued: false
-- cardId: 2c6c7e215b4a1e791250d1fb48997e02
-  name: IHG Traveler
-  issuer: CHASE
-  network: MASTERCARD
-  currency: IHG
-  isBusiness: false
-  annualFee: 0
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler
-  imageUrl: /images/chase/ihg-rewards-traveler.jpeg
-  credits: []
-  offers:
-    - spend: 2000
-      amount:
-        - amount: 120000
-      days: 90
-      credits: []
-      details: Marked as ending soon.
-    - spend: 2000
-      amount:
-        - amount: 80000
-      days: 90
-      credits: []
-  historicalOffers:
-    - spend: 2000
-      amount:
-        - amount: 120000
-      days: 90
-      credits: []
-  discontinued: false
-- cardId: 8ec7f405d03afa62eaeea7e197a29e8a
-  name: Ink Business Cash
-  issuer: CHASE
-  network: VISA
-  currency: CHASE
-  isBusiness: true
-  annualFee: 0
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://creditcards.chase.com/business-credit-cards/ink/cash
-  imageUrl: /images/chase/ink-business-cash.png
-  credits: []
-  offers:
-    - spend: 6000
-      amount:
-        - amount: 75000
-      days: 180
-      credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
-  historicalOffers:
-    - spend: 6000
-      amount:
-        - amount: 90000
-      days: 90
-      expiration: 2023-03-19
-      credits: []
-  discontinued: false
-- cardId: c80cdb77c3eda940e2a36abb4f943c69
-  name: Ink Business Preferred
-  issuer: CHASE
-  network: VISA
-  currency: CHASE
-  isBusiness: true
-  annualFee: 95
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://creditcards.chase.com/business-credit-cards/ink/business-preferred
-  imageUrl: /images/chase/ink-business-preferred.png
-  credits: []
-  offers:
-    - spend: 8000
-      amount:
-        - amount: 90000
-      days: 90
-      credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
-  historicalOffers:
-    - spend: 8000
-      amount:
-        - amount: 120000
-      days: 90
-      credits: []
-  discontinued: false
-- cardId: 4a1c1e46f145b76fcc72ebd391fc5766
-  name: Ink Business Unlimited
-  issuer: CHASE
-  network: VISA
-  currency: CHASE
-  isBusiness: true
-  annualFee: 0
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://creditcards.chase.com/business-credit-cards/ink/unlimited
-  imageUrl: /images/chase/ink-business-unlimited.png
-  credits: []
-  offers:
-    - spend: 6000
-      amount:
-        - amount: 75000
-      days: 90
-      credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
-  historicalOffers:
-    - spend: 6000
-      amount:
-        - amount: 90000
-      days: 90
-      expiration: 2024-11-01
-      credits: []
-      url: https://creditcards.chase.com/business-credit-cards/ink/unlimited
-  discontinued: false
-- cardId: 94c9b624738adce05fbe0e5bfc5d620e
-  name: Ink Business Premier
-  issuer: CHASE
-  network: VISA
-  currency: USD
-  details: Points are nontransferable. Only cashback redemption.
-  isBusiness: true
-  annualFee: 195
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 2
-  url: https://creditcards.chase.com/business-credit-cards/ink/premier
-  imageUrl: /images/chase/ink-business-premier.png
-  credits: []
-  offers:
-    - spend: 10000
-      amount:
-        - amount: 1000
-          currency: USD
-      days: 90
-      credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
-  historicalOffers:
-    - spend: 10000
-      amount:
-        - amount: 1000
-          currency: USD
-      days: 90
-      credits: []
-  discontinued: false
-- cardId: 918c978a06c7c36f9a321b2efa0ff974
-  name: Marriott Bonvoy Bold
-  issuer: CHASE
-  network: VISA
-  currency: MARRIOTT
-  isBusiness: false
-  annualFee: 0
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold
-  imageUrl: /images/chase/marriott-bonvoy-bold.jpeg
-  credits: []
-  offers:
-    - spend: 1000
-      amount:
-        - amount: 60000
-      days: 90
-      credits:
-        - description: 1x FNC, <= 50k per
-          value: 50000
-          weight: 1
-          currency: MARRIOTT
-      referralUrl: https://www.referyourchasecard.com/252p/HAZXLB93C3
-  historicalOffers:
-    - spend: 1000
-      amount:
-        - amount: 60000
-      days: 90
-      credits: []
-  discontinued: false
-- cardId: 6a4a30b866d4d37216b9d586a15ad1cc
-  name: Marriott Bonvoy Boundless
-  issuer: CHASE
-  network: VISA
-  currency: MARRIOTT
-  isBusiness: false
-  annualFee: 95
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless
-  imageUrl: /images/chase/marriott-bonvoy-boundless.jpeg
-  credits: []
-  offers:
-    - spend: 3000
-      amount:
-        - amount: 250000
-          currency: MARRIOTT
-      days: 90
-      credits: []
-      referralUrl: https://www.referyourchasecard.com/252p/HAZXLB93C3
-  historicalOffers:
-    - spend: 3000
-      amount:
-        - amount: 250000
-          currency: MARRIOTT
-      days: 90
-      credits: []
-      details: 5x FNC, <= 50k per
-      referralUrl: https://www.referyourchasecard.com/252p/HAZXLB93C3
-  discontinued: false
-- cardId: 57f8a819c3bb4c6aa494016703281f35
-  name: Sapphire Preferred
-  issuer: CHASE
-  network: VISA
-  currency: CHASE
-  isBusiness: false
-  annualFee: 95
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred
-  imageUrl: /images/chase/sapphire-preferred.png
-  credits:
-    - description: Hotel Credit
-      value: 50
-      weight: 0.9
-  offers:
-    - spend: 5000
-      amount:
-        - amount: 75000
-      days: 90
-      credits: []
-      referralUrl: https://www.referyourchasecard.com/19t/F0DZZK1XD0
-  historicalOffers:
-    - spend: 5000
-      amount:
-        - amount: 100000
-      days: 90
-      expiration: 2025-05-15
-      credits: []
-  discontinued: false
-- cardId: 77e3ef2fc9c35498ba1a3f46a63235cb
-  name: Sapphire Reserve
-  issuer: CHASE
-  network: VISA
-  currency: CHASE
-  isBusiness: false
-  annualFee: 795
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve
-  imageUrl: /images/chase/sapphire-reserve.png
-  credits:
-    - description: Travel Credit
-      value: 300
-      weight: 1
-    - description: Travel Credit (The Edit)
-      value: 500
-      weight: 0.8
-    - description: Lounge Access
-      value: 469
-      weight: 0.2
-    - description: PreCheck Credit
-      value: 100
-      weight: 0.5
-    - description: Dining Credit
-      value: 300
-      weight: 0.75
-    - description: Apple TV / Apple Music
-      value: 250
-      weight: 0.4
-    - description: Dashpass
-      value: 120
-      weight: 0.4
-  offers:
-    - spend: 5000
-      amount:
-        - amount: 100000
-      days: 90
-      credits:
-        - description: Chase Travel Credit
-          value: 500
-          weight: 0.8
-      referralUrl: https://www.referyourchasecard.com/19t/F0DZZK1XD0
-  historicalOffers:
-    - spend: 5000
-      amount:
-        - amount: 100000
-      days: 90
-      credits:
-        - description: Chase Travel Credit
-          value: 500
-          weight: 0.8
-      referralUrl: https://www.referyourchasecard.com/19t/F0DZZK1XD0
-  discontinued: false
-- cardId: 5d8c589d1e7c1294d04fa6e4a2685624
-  name: Sapphire Reserve Business
-  issuer: CHASE
-  network: VISA
-  currency: CHASE
-  isBusiness: true
-  annualFee: 795
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://creditcards.chase.com/business-credit-cards/sapphire/reserve
-  imageUrl: /images/chase/sapphire-reserve-business.jpg
-  credits:
-    - description: Travel Credit
-      value: 300
-      weight: 1
-    - description: Travel Credit (The Edit)
-      value: 500
-      weight: 0.8
-    - description: Lounge Access
-      value: 469
-      weight: 0.2
-    - description: PreCheck Credit
-      value: 120
-      weight: 0.5
-    - description: Apple TV / Apple Music
-      value: 250
-      weight: 0.4
-    - description: Dashpass
-      value: 120
-      weight: 0.3
-    - description: $25/mo DoorDash Promos
-      value: 300
-      weight: 0.3
-    - description: Google Workspace Credit
-      value: 200
-      weight: 0.5
-    - description: ZipRecruiter Credit
-      value: 400
-      weight: 0.25
-    - description: $10/mo Lyft Credit
-      value: 120
-      weight: 0.25
-    - description: Gift Card Credit
-      value: 100
-      weight: 0.5
-  offers:
-    - spend: 30000
-      amount:
-        - amount: 200000
-      days: 180
-      credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
-  historicalOffers:
-    - spend: 30000
-      amount:
-        - amount: 200000
-      days: 180
-      credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
-  discontinued: false
-- cardId: 682a4f0c425d15b5ca34214378cfc3de
-  name: Southwest Performance Business
-  issuer: CHASE
-  network: VISA
-  currency: SOUTHWEST
-  isBusiness: true
-  annualFee: 199
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://creditcards.chase.com/business-credit-cards/southwest/performance-business
-  imageUrl: /images/chase/southwest-rapid-rewards-performance-business.png
-  credits:
-    - description: 4x Upgraded Boardings
-      value: 100
-      weight: 0.5
-    - description: Global Entry / TSA PreCheck / NEXUS Credit
-      value: 100
-      weight: 0.4
-  offers:
-    - spend: 5000
-      amount:
-        - amount: 80000
-      days: 90
-      credits: []
-      referralUrl: https://www.referyourchasecard.com/226m/EK4J5RUTDJ
-  historicalOffers:
-    - spend: 5000
-      amount:
-        - amount: 80000
-      days: 90
-      credits: []
-  discontinued: false
-- cardId: 32a0c8c7eda25330e2c176589e386d7f
-  name: Southwest Plus
-  issuer: CHASE
-  network: VISA
-  currency: SOUTHWEST
-  isBusiness: false
-  annualFee: 69
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://creditcards.chase.com/travel-credit-cards/southwest/plus
-  imageUrl: /images/chase/southwest-rapid-rewards-plus.png
-  credits: []
-  offers:
-    - spend: 1000
-      amount:
-        - amount: 50000
-      days: 90
-      credits: []
-      referralUrl: https://www.referyourchasecard.com/226m/EK4J5RUTDJ
-  historicalOffers:
-    - spend: 4000
-      amount:
-        - amount: 100000
-      days: 90
-      expiration: 2023-02-01
-      credits: []
-  discontinued: false
-- cardId: 76e73a4afe8dfc1f8f1be1e345d7eca8
-  name: Southwest Premier
-  issuer: CHASE
-  network: VISA
-  currency: SOUTHWEST
-  isBusiness: false
-  annualFee: 99
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://creditcards.chase.com/travel-credit-cards/southwest/premier
-  imageUrl: /images/chase/southwest-rapid-rewards-premier.png
-  credits: []
-  offers:
-    - spend: 1000
-      amount:
-        - amount: 50000
-      days: 90
-      credits: []
-      referralUrl: https://www.referyourchasecard.com/226m/EK4J5RUTDJ
-  historicalOffers:
-    - spend: 4000
-      amount:
-        - amount: 100000
-      days: 90
-      expiration: 2023-02-01
-      credits: []
-  discontinued: false
-- cardId: f86d26bad5af78feff0335845003c47e
-  name: Southwest Premier Business
-  issuer: CHASE
-  network: VISA
-  currency: SOUTHWEST
-  isBusiness: true
-  annualFee: 99
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://creditcards.chase.com/business-credit-cards/southwest/premier-business
-  imageUrl: /images/chase/southwest-rapid-rewards-premier-business.png
-  credits: []
-  offers:
-    - spend: 3000
-      amount:
-        - amount: 60000
-      days: 90
-      credits: []
-      referralUrl: https://www.referyourchasecard.com/226m/EK4J5RUTDJ
-  historicalOffers:
-    - spend: 3000
-      amount:
-        - amount: 60000
-      days: 90
-      credits: []
-    - spend: 18000
-      amount:
-        - amount: 120000
-      days: 270
-      credits: []
-  discontinued: false
-- cardId: 169256a9988f3161381ee6a9ebe6667e
-  name: Southwest Priority
-  issuer: CHASE
-  network: VISA
-  currency: SOUTHWEST
-  isBusiness: false
-  annualFee: 149
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://creditcards.chase.com/travel-credit-cards/southwest/priority
-  imageUrl: /images/chase/southwest-rapid-rewards-priority.png
-  credits:
-    - description: Southwest Credit
-      value: 75
-      weight: 0.8
-  offers:
-    - spend: 1000
-      amount:
-        - amount: 50000
-      days: 90
-      credits: []
-      referralUrl: https://www.referyourchasecard.com/226m/EK4J5RUTDJ
-  historicalOffers:
-    - spend: 3000
-      amount:
-        - amount: 100000
-      days: 90
-      expiration: 2023-02-01
-      credits: []
-  discontinued: false
-- cardId: 8101f7827e3a1e797b09653f117b72d9
-  name: United Business
-  issuer: CHASE
-  network: VISA
-  currency: UNITED
-  isBusiness: true
-  annualFee: 150
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://www.theexplorercard.com/business-rewards-cards/business-card
-  imageUrl: /images/chase/united-business.png
-  credits:
-    - description: Free Checked Bag
-      value: 100
-      weight: 0.8
-    - description: 2x Lounge Pass
-      value: 100
-      weight: 0.4
-    - description: United Credit
-      value: 125
-      weight: 0.8
-    - description: United Hotels
-      value: 100
-      weight: 0.8
-    - description: Rideshare
-      value: 100
-      weight: 0.5
-    - description: Instacard
-      value: 120
-      weight: 0.5
-    - description: Avis/Budget
-      value: 50
-      weight: 0.5
-  offers:
-    - spend: 5000
-      amount:
-        - amount: 75000
-      days: 90
-      credits: []
-      referralUrl: https://www.referyourchasecard.com/215Y/RO0613CS0T
-  historicalOffers:
-    - spend: 5000
-      amount:
-        - amount: 125000
-      days: 90
-      expiration: 2025-05-08
-      credits: []
-  discontinued: false
-- cardId: d2517ce6b72999e14f50c399347100ed
-  name: United Club Infinite
-  issuer: CHASE
-  network: VISA
-  currency: UNITED
-  isBusiness: false
-  annualFee: 695
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://www.theexplorercard.com/rewards-cards/club-card
-  imageUrl: /images/chase/united-club-infinite.png
-  credits:
-    - description: 2x Checked Bags
-      value: 150
-      weight: 0.75
-    - description: United Lounge
-      value: 750
-      weight: 0.25
-    - description: United Hotels
-      value: 200
-      weight: 0.75
-    - description: Rideshare
-      value: 150
-      weight: 0.5
-    - description: Instacart
-      value: 240
-      weight: 0.5
-    - description: Avis/Budget
-      value: 100
-      weight: 0.5
-    - description: Global Entry, TSA PreCheck, or NEXUS Credit
-      value: 100
-      weight: 0.4
-  offers:
-    - spend: 5000
-      amount:
-        - amount: 90000
-      days: 90
-      credits: []
-      referralUrl: https://www.referyourchasecard.com/215Y/RO0613CS0T
-  historicalOffers:
-    - spend: 5000
-      amount:
-        - amount: 95000
-      days: 90
-      expiration: 2025-05-08
-      credits: []
-  discontinued: false
-- cardId: 80c6aca49a0e1442d51635c316f4a5ff
-  name: United Club Business
-  issuer: CHASE
-  network: VISA
-  currency: UNITED
-  isBusiness: true
-  annualFee: 695
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://www.theexplorercard.com/business-rewards-cards/club-card
-  imageUrl: /images/chase/united-club-business.png
-  credits:
-    - description: 2x Checked Bags
-      value: 150
-      weight: 0.8
-    - description: United Credit
-      value: 125
-      weight: 0.8
-    - description: United Hotels
-      value: 200
-      weight: 0.8
-    - description: Rideshare
-      value: 150
-      weight: 0.5
-    - description: Instacart
-      value: 240
-      weight: 0.5
-    - description: Avis/Budget
-      value: 100
-      weight: 0.5
-    - description: United Lounge
-      value: 750
-      weight: 0.25
-  offers:
-    - spend: 5000
-      amount:
-        - amount: 80000
-      days: 90
-      credits: []
-      referralUrl: https://www.referyourchasecard.com/215Y/RO0613CS0T
-  historicalOffers:
-    - spend: 5000
-      amount:
-        - amount: 125000
-      days: 90
-      expiration: 2025-05-08
-      credits: []
-  discontinued: false
-- cardId: 85cd2b7d172e494eefad5b2ab012f21c
-  name: United Explorer
-  issuer: CHASE
-  network: VISA
-  currency: UNITED
-  isBusiness: false
-  annualFee: 150
-  isAnnualFeeWaived: true
-  universalCashbackPercent: 1
-  url: https://www.theexplorercard.com/rewards-cards/explorer-card
-  imageUrl: /images/chase/united-explorer.png
-  credits:
-    - description: Free Checked Bag
-      value: 100
-      weight: 0.8
-    - description: 2x Lounge Pass
-      value: 100
-      weight: 0.4
-    - description: Global Entry, TSA PreCheck, NEXUS Credit
-      value: 100
-      weight: 0.4
-    - description: Rideshare Credits
-      value: 60
-      weight: 0.5
-    - description: 10k award flight discount
-      value: 10000
-      weight: 0.75
-      currency: UNITED
-    - description: United Travel
-      value: 100
-      weight: 0.8
-      currency: USD
-    - description: United Hotels
-      value: 100
-      weight: 0.5
-      currency: USD
-    - description: Avis/Budget
-      value: 50
-      weight: 0.5
-      currency: USD
-    - description: Instacart+
-      value: 120
-      weight: 0.4
-      currency: USD
-    - description: Global Entry, TSA PreCheck, NEXUS Credit
-      value: 100
-      weight: 0.4
-  offers:
-    - spend: 3000
-      amount:
-        - amount: 60000
-      days: 90
-      credits: []
-      referralUrl: https://www.referyourchasecard.com/215Y/RO0613CS0T
-  historicalOffers:
-    - spend: 3000
-      amount:
-        - amount: 80000
-      days: 90
-      credits: []
-  discontinued: false
-- cardId: 4071699fe4b21cafb02cf8b2c9c57c86
-  name: United Gateway
-  issuer: CHASE
-  network: VISA
-  currency: UNITED
-  isBusiness: false
-  annualFee: 0
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://www.theexplorercard.com/rewards-cards/gateway-card
-  imageUrl: /images/chase/united-gateway.png
-  credits: []
-  offers:
-    - spend: 1000
-      amount:
-        - amount: 30000
-      days: 90
-      expiration: 2025-07-16
-      credits: []
-      referralUrl: https://www.referyourchasecard.com/215Y/RO0613CS0T
-  historicalOffers:
-    - spend: 1000
-      amount:
-        - amount: 30000
-      days: 90
-      expiration: 2024-03-01
-      credits: []
-  discontinued: false
-- cardId: 34ab99720941eaa2a1671e5b3a996b19
-  name: United Quest
-  issuer: CHASE
-  network: VISA
-  currency: UNITED
-  isBusiness: false
-  annualFee: 350
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://www.theexplorercard.com/rewards-cards/quest-card
-  imageUrl: /images/chase/united-quest.png
-  credits:
-    - description: United Credit
-      value: 200
-      weight: 0.8
-    - description: United Hotels
-      value: 150
-      weight: 0.5
-    - description: Rideshare
-      value: 100
-      weight: 0.5
-    - description: Instacart+
-      value: 180
-      weight: 0.5
-    - description: Avis/Budget
-      value: 80
-      weight: 0.5
-    - description: 10k award flight discount
-      value: 10000
-      weight: 0.8
-      currency: UNITED
-    - description: 2x Checked Bags
-      value: 150
-      weight: 0.8
-  offers:
-    - spend: 4000
-      amount:
-        - amount: 100000
-      days: 90
-      credits: []
-      referralUrl: https://www.referyourchasecard.com/215Y/RO0613CS0T
-  historicalOffers:
-    - spend: 4000
-      amount:
-        - amount: 90000
-      days: 90
-      expiration: 2025-05-08
-      credits: []
-  discontinued: false
 - cardId: d378a38b56d4c9bd5e1ad184a6ce84f0
   name: World of Hyatt
   issuer: CHASE
@@ -3211,13 +3254,7 @@
   offers:
     - spend: 0.01
       amount:
-        - amount: 250
-      days: 365
-      expiration: 2025-07-14
-      credits: []
-    - spend: 0.01
-      amount:
-        - amount: 200
+        - amount: 150
       days: 365
       credits: []
   historicalOffers:
@@ -3394,12 +3431,12 @@
   url: https://www.capitalone.com/credit-cards/venture/
   imageUrl: /images/capitalone/venture-rewards.webp
   credits:
+    - description: PreCheck Credit
+      value: 100
+      weight: 0.4
     - description: 2x Capital One Lounge Visits
       value: 100
       weight: 0.25
-    - description: Global Entry / TSA PreCheck Credit
-      value: 100
-      weight: 0.4
   offers:
     - spend: 4000
       amount:
@@ -3429,12 +3466,12 @@
   url: https://www.capitalone.com/credit-cards/venture-x/
   imageUrl: /images/capitalone/venture-x.webp
   credits:
+    - description: PreCheck Credit
+      value: 100
+      weight: 0.4
     - description: Travel Credit
       value: 300
       weight: 0.9
-    - description: Global Entry / TSA PreCheck Credit
-      value: 100
-      weight: 0.4
     - description: Capital One Lounge Access
       value: 300
       weight: 0.25
@@ -3469,12 +3506,12 @@
   url: https://www.capitalone.com/small-business/credit-cards/venture-x-business/
   imageUrl: /images/capitalone/venture-x-business.png
   credits:
+    - description: PreCheck Credit
+      value: 100
+      weight: 0.4
     - description: Travel Credit
       value: 300
       weight: 0.9
-    - description: Global Entry / TSA PreCheck Credit
-      value: 100
-      weight: 0.4
     - description: Capital One Lounge Access
       value: 300
       weight: 0.25
@@ -4506,15 +4543,15 @@
   url: https://www.skypassvisa.com/credit/visaSelectCard.do
   imageUrl: /images/usbank/skypass-select.png
   credits:
+    - description: PreCheck Credit
+      value: 100
+      weight: 0.4
     - description: $200 travel credit
       value: 200
       weight: 0.8
     - description: Korean Air credit
       value: 50
       weight: 0.8
-    - description: TSA PreCheck or Global Entry fee credit
-      value: 100
-      weight: 0.4
   offers:
     - spend: 5000
       amount:
@@ -4540,12 +4577,12 @@
   url: https://www.skypassvisa.com/credit/visaBusinessCard.do
   imageUrl: /images/usbank/skypass-business.png
   credits:
+    - description: PreCheck Credit
+      value: 100
+      weight: 0.4
     - description: Korean Air credit
       value: 50
       weight: 0.8
-    - description: TSA PreCheck or Global Entry fee credit
-      value: 100
-      weight: 0.4
   offers:
     - spend: 5000
       amount:
@@ -4818,12 +4855,12 @@
   url: https://www.expedia.com/one-key-cards
   imageUrl: /images/wellsfargo/one-key.png
   credits:
+    - description: PreCheck Credit
+      value: 100
+      weight: 0.4
     - description: $100 anniversary bonus
       value: 100
       weight: 0.9
-    - description: $120 PreCheck / Global Entry Credit
-      value: 120
-      weight: 0.4
   offers:
     - spend: 3000
       amount:

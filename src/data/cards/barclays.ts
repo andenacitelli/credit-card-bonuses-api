@@ -1,6 +1,7 @@
-import { schemas } from "@/generated/api.client.js";
-import { WEIGHTS } from "../weights.js";
-import { CreditCardInput } from "../types.js";
+import { schemas } from "@/generated/api.client";
+import { WEIGHTS } from "../weights";
+import { CreditCardInput } from "../types";
+import { CREDITS } from "@/data/credits";
 export const BARCLAYS_CARDS: Array<CreditCardInput> = [
   {
     cardId: "bb54057b74adc9514885254a82fd8634",
@@ -397,11 +398,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     url: "https://cards.barclaycardus.com/banking/cards/jetblue-premier-card/",
     imageUrl: "/images/barclays/jetblue-premier.png",
     credits: [
-      {
-        value: 120,
-        description: "$120 credit for Global Entry or TSA PreCheck",
-        weight: WEIGHTS.TSA_PRECHECK_OR_SIMILAR,
-      },
+      CREDITS.PRECHECK_OR_SIMILAR,
       {
         value: 300,
         description: "$300 credit for Paisly, JetBlue's portal.",

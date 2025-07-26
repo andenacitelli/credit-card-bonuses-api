@@ -1,6 +1,6 @@
-import { schemas } from "@/generated/api.client.js";
-import { REFERRALS } from "../referral-links.js";
-import { CreditCardInput } from "../types.js";
+import { schemas } from "@/generated/api.client";
+import { REFERRALS } from "../referral-links";
+import { CreditCardInput } from "../types";
 export const DISCOVER_CARDS: Array<CreditCardInput> = [
   {
     cardId: "dae75a5609dea8f39f750f4b225d2c5c",

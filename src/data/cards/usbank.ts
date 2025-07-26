@@ -1,7 +1,8 @@
-import { CreditCardInput } from "../types.js";
-import { schemas } from "@/generated/api.client.js";
-import { WEIGHTS } from "@/data/weights.js";
-import { DISCONTINUED_OFFERS } from "../placeholder-offers.js";
+import { CreditCardInput } from "../types";
+import { schemas } from "@/generated/api.client";
+import { WEIGHTS } from "@/data/weights";
+import { DISCONTINUED_OFFERS } from "../placeholder-offers";
+import { CREDITS } from "@/data/credits";
 
 export const US_BANK_CARDS: Array<CreditCardInput> = [
   {
@@ -341,6 +342,7 @@ export const US_BANK_CARDS: Array<CreditCardInput> = [
     url: "https://www.skypassvisa.com/credit/visaSelectCard.do",
     imageUrl: "/images/usbank/skypass-select.png",
     credits: [
+      CREDITS.PRECHECK_OR_SIMILAR,
       {
         value: 200,
         description: "$200 travel credit",
@@ -350,11 +352,6 @@ export const US_BANK_CARDS: Array<CreditCardInput> = [
         value: 50,
         description: "Korean Air credit",
         weight: 0.8,
-      },
-      {
-        value: 100,
-        description: "TSA PreCheck or Global Entry fee credit",
-        weight: WEIGHTS.TSA_PRECHECK_OR_SIMILAR,
       },
     ],
     offers: [
@@ -387,15 +384,11 @@ export const US_BANK_CARDS: Array<CreditCardInput> = [
     url: "https://www.skypassvisa.com/credit/visaBusinessCard.do",
     imageUrl: "/images/usbank/skypass-business.png",
     credits: [
+      CREDITS.PRECHECK_OR_SIMILAR,
       {
         value: 50,
         description: "Korean Air credit",
         weight: 0.8,
-      },
-      {
-        value: 100,
-        description: "TSA PreCheck or Global Entry fee credit",
-        weight: WEIGHTS.TSA_PRECHECK_OR_SIMILAR,
       },
     ],
     offers: [
