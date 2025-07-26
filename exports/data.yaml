@@ -2624,7 +2624,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
   historicalOffers:
     - spend: 6000
       amount:
@@ -2651,7 +2651,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
   historicalOffers:
     - spend: 8000
       amount:
@@ -2677,7 +2677,7 @@
         - amount: 75000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
   historicalOffers:
     - spend: 6000
       amount:
@@ -2707,7 +2707,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
   historicalOffers:
     - spend: 10000
       amount:
@@ -2739,7 +2739,7 @@
           weight: 0.7
           currency: IHG
       details: Marked as ending soon.
-    - spend: 4000
+    - spend: 3000
       amount:
         - amount: 140000
       days: 90
@@ -2952,14 +2952,14 @@
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
   historicalOffers:
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
@@ -3178,15 +3178,14 @@
   universalCashbackPercent: 1
   url: https://world.hyatt.com/content/gp/en/rewards/hyatt-credit-card.html
   imageUrl: /images/chase/world-of-hyatt.png
-  credits:
-    - description: FNC @ Category 1-4 Property
-      value: 225
-      weight: 0.7
-      currency: HYATT
+  credits: []
   offers:
     - spend: 3000
       amount:
-        - amount: 30000
+        - amount: 600
+          currency: HYATT
+          description: 2x FNC @ Category 1-4 Property
+          weight: 0.7
       days: 90
       credits: []
   historicalOffers:

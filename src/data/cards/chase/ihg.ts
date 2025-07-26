@@ -33,7 +33,7 @@ export const IHG_CARDS: Array<CreditCardInput> = [
       },
       {
         amount: [{ amount: 140_000 }],
-        spend: 4000,
+        spend: 3000,
         days: 90,
         credits: [],
       },

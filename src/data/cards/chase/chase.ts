@@ -275,17 +275,17 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     universalCashbackPercent: 1,
     url: "https://world.hyatt.com/content/gp/en/rewards/hyatt-credit-card.html",
     imageUrl: "/images/chase/world-of-hyatt.png",
-    credits: [
-      {
-        value: 225,
-        description: "FNC @ Category 1-4 Property",
-        currency: schemas.CurrenciesEnum.enum.HYATT,
-        weight: WEIGHTS.FREE_NIGHT_CREDIT,
-      },
-    ],
+    credits: [],
     offers: [
       {
-        amount: [{ amount: 30_000 }],
+        amount: [
+          {
+            amount: 2 * 300,
+            description: "2x FNC @ Category 1-4 Property",
+            currency: schemas.CurrenciesEnum.enum.HYATT,
+            weight: WEIGHTS.FREE_NIGHT_CREDIT,
+          },
+        ],
         spend: 3000,
         days: 90,
         credits: [],
