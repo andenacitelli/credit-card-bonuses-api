@@ -1096,4 +1096,34 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
       },
     ],
   },
+  {
+    cardId: "6ca9fd6caab5364f72928dd5ba04bb58",
+    name: "Rakuten",
+    issuer: schemas.IssuersEnum.enum.AMERICAN_EXPRESS,
+    network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
+    currency: schemas.CurrenciesEnum.enum.USD,
+    isBusiness: true,
+    annualFee: 0,
+    isAnnualFeeWaived: false,
+    universalCashbackPercent: 1,
+    url: "https://www.rakuten.com/american-express-card/",
+    imageUrl: "/images/amex/rakuten.jpg",
+    credits: [],
+    offers: [
+      {
+        amount: [{ amount: 25 }],
+        spend: 500,
+        days: 90,
+        credits: [],
+      },
+    ],
+    historicalOffers: [
+      {
+        amount: [{ amount: 25 }],
+        spend: 500,
+        days: 90,
+        credits: [],
+      },
+    ],
+  },
 ];

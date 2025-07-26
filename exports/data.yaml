@@ -1057,6 +1057,31 @@
       credits: []
       url: https://www.amazon.com/Amazon-Business-American-Express-Card/dp/B07984JN3L
   discontinued: false
+- cardId: 6ca9fd6caab5364f72928dd5ba04bb58
+  name: Rakuten
+  issuer: AMERICAN_EXPRESS
+  network: AMERICAN_EXPRESS
+  currency: USD
+  isBusiness: true
+  annualFee: 0
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://www.rakuten.com/american-express-card/
+  imageUrl: /images/amex/rakuten.jpg
+  credits: []
+  offers:
+    - spend: 500
+      amount:
+        - amount: 25
+      days: 90
+      credits: []
+  historicalOffers:
+    - spend: 500
+      amount:
+        - amount: 25
+      days: 90
+      credits: []
+  discontinued: false
 - cardId: f2d769efdbe2b9d8734787bc24297be6
   name: Air France KLM
   issuer: BANK_OF_AMERICA
