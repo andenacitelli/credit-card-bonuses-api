@@ -1,8 +1,9 @@
-import { schemas } from "@/generated/api.client.js";
-import { WEIGHTS } from "@/data/weights.js";
-import { REFERRALS } from "../referral-links.js";
-import { DISCONTINUED_OFFERS } from "../placeholder-offers.js";
-import { CreditCardInput } from "../types.js";
+import { schemas } from "@/generated/api.client";
+import { WEIGHTS } from "@/data/weights";
+import { REFERRALS } from "../referral-links";
+import { DISCONTINUED_OFFERS } from "../placeholder-offers";
+import { CreditCardInput } from "../types";
+import { CREDITS } from "@/data/credits";
 
 export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
   {
@@ -545,11 +546,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     url: "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-platinum/",
     imageUrl: "/images/amex/delta-skymiles-platinum-business.webp",
     credits: [
-      {
-        value: 100,
-        description: "$100 Global Entry / $85 TSA PreCheck Credit",
-        weight: WEIGHTS.TSA_PRECHECK_OR_SIMILAR,
-      },
+      CREDITS.PRECHECK_OR_SIMILAR,
       {
         value: 500,
         description: "Companion Pass",
@@ -782,11 +779,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     url: "https://www.americanexpress.com/us/credit-cards/card/green/",
     imageUrl: "/images/amex/green.webp",
     credits: [
-      {
-        value: 100,
-        description: "CLEAR Credit",
-        weight: WEIGHTS.TSA_PRECHECK_OR_SIMILAR,
-      },
+      CREDITS.PRECHECK_OR_SIMILAR,
       {
         value: 100,
         description: "Lounge Access Credit",
@@ -1064,6 +1057,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     url: "https://www.americanexpress.com/us/credit-cards/card/platinum/",
     imageUrl: "/images/amex/platinum.webp",
     credits: [
+      CREDITS.PRECHECK_OR_SIMILAR,
       {
         value: 200,
         description: "Hotel Credit",
@@ -1093,11 +1087,6 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
         value: 155,
         description: "Walmart+ Credit",
         weight: 0.2,
-      },
-      {
-        value: 189,
-        description: "CLEAR Credit",
-        weight: WEIGHTS.TSA_PRECHECK_OR_SIMILAR,
       },
     ],
     offers: [
@@ -1133,6 +1122,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     url: "https://www.schwab.com/credit-cards#panel--50-media-right-117911",
     imageUrl: "/images/amex/platinum-schwab.webp",
     credits: [
+      CREDITS.PRECHECK_OR_SIMILAR,
       {
         value: 200,
         description: "Hotel Credit",
@@ -1157,11 +1147,6 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
         value: 155,
         description: "Walmart+ Credit",
         weight: 0.2,
-      },
-      {
-        value: 189,
-        description: "CLEAR Credit",
-        weight: WEIGHTS.TSA_PRECHECK_OR_SIMILAR,
       },
     ],
     offers: [
@@ -1195,6 +1180,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     url: "https://apply.americanexpress.com/amex-morgan-stanley-credit-cards/",
     imageUrl: "/images/amex/platinum-morgan-stanley.webp",
     credits: [
+      CREDITS.PRECHECK_OR_SIMILAR,
       {
         value: 200,
         description: "Hotel Credit",
@@ -1219,11 +1205,6 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
         value: 155,
         description: "Walmart+ Credit",
         weight: 0.2,
-      },
-      {
-        value: 189,
-        description: "CLEAR Credit",
-        weight: WEIGHTS.TSA_PRECHECK_OR_SIMILAR,
       },
     ],
     offers: [

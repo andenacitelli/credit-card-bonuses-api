@@ -1,5 +1,5 @@
-import { schemas } from "@/generated/api.client.js";
-import { CreditCardInput } from "../types.js";
+import { schemas } from "@/generated/api.client";
+import { CreditCardInput } from "../types";
 export const FNBO_CARDS: Array<CreditCardInput> = [
   {
     cardId: "1f13c36d3b8218b1a22d5ab050d30b09",

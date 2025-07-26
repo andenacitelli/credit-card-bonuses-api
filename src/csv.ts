@@ -1,5 +1,5 @@
-import { CreditCard } from "./data/types.js";
-import { schemas } from "./generated/api.client.js";
+import { CreditCard } from "./data/types";
+import { schemas } from "./generated/api.client";
 export const cardToDumpableObjects = (card: CreditCard): object[] => {
   return card.offers.map((offer) => {
     if (!offer.amount[0]) {

@@ -1,6 +1,7 @@
-import { schemas } from "@/generated/api.client.js";
-import { WEIGHTS } from "../weights.js";
-import { CreditCardInput } from "../types.js";
+import { schemas } from "@/generated/api.client";
+import { WEIGHTS } from "../weights";
+import { CreditCardInput } from "../types";
+import { CREDITS } from "@/data/credits";
 export const WELLS_FARGO_CARDS: Array<CreditCardInput> = [
   {
     cardId: "429640c66f9a2e3bd077978aa5a1f0aa",
@@ -255,15 +256,11 @@ export const WELLS_FARGO_CARDS: Array<CreditCardInput> = [
     url: "https://www.expedia.com/one-key-cards",
     imageUrl: "/images/wellsfargo/one-key.png",
     credits: [
+      CREDITS.PRECHECK_OR_SIMILAR,
       {
         value: 100,
         description: "$100 anniversary bonus",
         weight: WEIGHTS.TRAVEL_CREDIT_FUNGIBLE,
-      },
-      {
-        value: 120,
-        description: "$120 PreCheck / Global Entry Credit",
-        weight: WEIGHTS.TSA_PRECHECK_OR_SIMILAR,
       },
     ],
     offers: [

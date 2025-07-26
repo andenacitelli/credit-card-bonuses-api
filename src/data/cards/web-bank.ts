@@ -1,5 +1,5 @@
-import { schemas } from "@/generated/api.client.js";
-import { CreditCardInput } from "../types.js";
+import { schemas } from "@/generated/api.client";
+import { CreditCardInput } from "../types";
 export const WEB_BANK_CARDS: Array<CreditCardInput> = [
   {
     cardId: "eb105ba41f6ad2ea3b5f151f03f3dcfa",

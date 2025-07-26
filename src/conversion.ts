@@ -1,7 +1,7 @@
 import Papa from "papaparse";
 import yaml from "yaml";
-import { CREDIT_CARDS } from "@/data/data.js";
-import { cardToDumpableObjects } from "@/csv.js";
+import { CREDIT_CARDS } from "@/data/data";
+import { cardToDumpableObjects } from "@/csv";
 
 export function getDataInCsvFormat(): string {
   return Papa.unparse(

@@ -1,5 +1,5 @@
-import { schemas } from "@/generated/api.client.js";
-import { CreditCardInput } from "../types.js";
+import { schemas } from "@/generated/api.client";
+import { CreditCardInput } from "../types";
 export const BREX_CARDS: Array<CreditCardInput> = [
   {
     cardId: "be49d60cb01b9d5c3e919e6c570e9a48",

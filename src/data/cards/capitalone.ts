@@ -1,6 +1,7 @@
-import { schemas } from "@/generated/api.client.js";
-import { WEIGHTS } from "@/data/weights.js";
-import { CreditCardInput } from "../types.js";
+import { schemas } from "@/generated/api.client";
+import { WEIGHTS } from "@/data/weights";
+import { CreditCardInput } from "../types";
+import { CREDITS } from "@/data/credits";
 export const CAPITAL_ONE_CARDS: Array<CreditCardInput> = [
   {
     cardId: "66f7413248c7f2c61ce1e8008685eac2",
@@ -200,15 +201,11 @@ export const CAPITAL_ONE_CARDS: Array<CreditCardInput> = [
     url: "https://www.capitalone.com/credit-cards/venture/",
     imageUrl: "/images/capitalone/venture-rewards.webp",
     credits: [
+      CREDITS.PRECHECK_OR_SIMILAR,
       {
         value: 100,
         description: "2x Capital One Lounge Visits",
         weight: WEIGHTS.LOUNGES,
-      },
-      {
-        value: 100,
-        description: "Global Entry / TSA PreCheck Credit",
-        weight: WEIGHTS.TSA_PRECHECK_OR_SIMILAR,
       },
     ],
     offers: [
@@ -248,15 +245,11 @@ export const CAPITAL_ONE_CARDS: Array<CreditCardInput> = [
     url: "https://www.capitalone.com/credit-cards/venture-x/",
     imageUrl: "/images/capitalone/venture-x.webp",
     credits: [
+      CREDITS.PRECHECK_OR_SIMILAR,
       {
         value: 300,
         description: "Travel Credit",
         weight: 0.9,
-      },
-      {
-        value: 100,
-        description: "Global Entry / TSA PreCheck Credit",
-        weight: WEIGHTS.TSA_PRECHECK_OR_SIMILAR,
       },
       {
         value: 300,
@@ -301,15 +294,11 @@ export const CAPITAL_ONE_CARDS: Array<CreditCardInput> = [
     url: "https://www.capitalone.com/small-business/credit-cards/venture-x-business/",
     imageUrl: "/images/capitalone/venture-x-business.png",
     credits: [
+      CREDITS.PRECHECK_OR_SIMILAR,
       {
         value: 300,
         description: "Travel Credit",
         weight: 0.9,
-      },
-      {
-        value: 100,
-        description: "Global Entry / TSA PreCheck Credit",
-        weight: WEIGHTS.TSA_PRECHECK_OR_SIMILAR,
       },
       {
         value: 300,

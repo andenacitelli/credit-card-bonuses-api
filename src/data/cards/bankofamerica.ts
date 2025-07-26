@@ -1,6 +1,7 @@
-import { schemas } from "@/generated/api.client.js";
-import { WEIGHTS } from "@/data/weights.js";
-import { CreditCardInput } from "../types.js";
+import { schemas } from "@/generated/api.client";
+import { WEIGHTS } from "@/data/weights";
+import { CreditCardInput } from "../types";
+import { CREDITS } from "@/data/credits";
 export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
   {
     cardId: "f2d769efdbe2b9d8734787bc24297be6",
@@ -212,6 +213,7 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
     url: "https://www.bankofamerica.com/credit-cards/products/premium-rewards-elite-credit-card/",
     imageUrl: "/images/bankofamerica/premium-rewards-elite.png",
     credits: [
+      CREDITS.PRECHECK_OR_SIMILAR,
       {
         value: 300,
         description: "Incidental Airline Statement Credits",
@@ -222,11 +224,6 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
         description:
           "Annaul $150 streaming, delivery, fitness, and transit credit",
         weight: 0.8,
-      },
-      {
-        value: 100,
-        description: "$100 credit for Global Entry or TSA PreCheck",
-        weight: WEIGHTS.TSA_PRECHECK_OR_SIMILAR,
       },
     ],
     offers: [
