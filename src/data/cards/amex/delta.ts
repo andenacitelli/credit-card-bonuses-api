@@ -56,7 +56,7 @@ export const DELTA_CARDS: Array<CreditCardInput> = [
     offers: [
       {
         amount: [{ amount: 50_000 }],
-        spend: 3000,
+        spend: 2000,
         days: 180,
         credits: [],
       },
@@ -124,7 +124,7 @@ export const DELTA_CARDS: Array<CreditCardInput> = [
     offers: [
       {
         amount: [{ amount: 60_000 }],
-        spend: 4000,
+        spend: 3000,
         days: 180,
         credits: [],
       },
@@ -167,7 +167,7 @@ export const DELTA_CARDS: Array<CreditCardInput> = [
     offers: [
       {
         amount: [{ amount: 70_000 }],
-        spend: 8000,
+        spend: 6000,
         days: 180,
         credits: [],
       },

@@ -39,7 +39,7 @@
       value: 50
       weight: 0.5
   offers:
-    - spend: 3000
+    - spend: 2000
       amount:
         - amount: 50000
       days: 180
@@ -94,7 +94,7 @@
       value: 500
       weight: 0.7
   offers:
-    - spend: 4000
+    - spend: 3000
       amount:
         - amount: 60000
       days: 180
@@ -129,7 +129,7 @@
       value: 50
       weight: 0.5
   offers:
-    - spend: 8000
+    - spend: 6000
       amount:
         - amount: 70000
       days: 180
@@ -979,12 +979,7 @@
   url: https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/lowes-credit-cards/
   imageUrl: /images/amex/lowes-business.webp
   credits: []
-  offers:
-    - spend: 1000
-      amount:
-        - amount: 250
-      days: 90
-      credits: []
+  offers: []
   historicalOffers:
     - spend: 0
       amount:
@@ -1613,7 +1608,7 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 70000
+        - amount: 50000
       days: 90
       credits: []
   historicalOffers:
@@ -2382,7 +2377,7 @@
       credits: []
   discontinued: false
 - cardId: d2517ce6b72999e14f50c399347100ed
-  name: United Club Infinite
+  name: United Club
   issuer: CHASE
   network: VISA
   currency: UNITED
@@ -2417,7 +2412,7 @@
   offers:
     - spend: 5000
       amount:
-        - amount: 90000
+        - amount: 80000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/215Y/RO0613CS0T
@@ -2465,7 +2460,7 @@
   offers:
     - spend: 5000
       amount:
-        - amount: 80000
+        - amount: 100000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/215Y/RO0613CS0T
@@ -2629,7 +2624,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 6000
       amount:
@@ -2656,7 +2651,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 8000
       amount:
@@ -2682,7 +2677,7 @@
         - amount: 75000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 6000
       amount:
@@ -2712,7 +2707,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 10000
       amount:
@@ -2957,14 +2952,14 @@
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
@@ -3007,7 +3002,7 @@
   offers:
     - spend: 4000
       amount:
-        - amount: 85000
+        - amount: 75000
       days: 90
       credits: []
   historicalOffers:

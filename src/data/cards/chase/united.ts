@@ -75,7 +75,7 @@ export const UNITED_CARDS: Array<CreditCardInput> = [
   },
   {
     cardId: "d2517ce6b72999e14f50c399347100ed",
-    name: "United Club Infinite",
+    name: "United Club",
     issuer: schemas.IssuersEnum.enum.CHASE,
     network: schemas.NetworksEnum.enum.VISA,
     currency: schemas.CurrenciesEnum.enum.UNITED,
@@ -120,7 +120,7 @@ export const UNITED_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 90_000 }],
+        amount: [{ amount: 80_000 }],
         spend: 5000,
         days: 90,
         credits: [],
@@ -188,7 +188,7 @@ export const UNITED_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 80_000 }],
+        amount: [{ amount: 100_000 }],
         spend: 5000,
         days: 90,
         credits: [],

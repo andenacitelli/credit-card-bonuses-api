@@ -1000,11 +1000,6 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     imageUrl: "/images/amex/lowes-business.webp",
     credits: [],
     offers: [
-      {
-        amount: [{ amount: 250 }],
-        spend: 1000,
-        days: 90,
-      },
       // No offers seemingly available right now
     ],
     historicalOffers: [
