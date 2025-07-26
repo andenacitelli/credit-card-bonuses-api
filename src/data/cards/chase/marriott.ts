@@ -88,7 +88,7 @@ export const CHASE_MARRIOTT_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 50_000 * 5, currency: "MARRIOTT" }],
+        amount: [{ amount: 50_000 * 3, currency: "MARRIOTT" }],
         spend: 3000,
         days: 90,
         credits: [],
