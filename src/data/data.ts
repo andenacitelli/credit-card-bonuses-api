@@ -1,7 +1,7 @@
 import { z } from "zod";
 
 import { schemas } from "../generated/api.client";
-import { AMERICAN_EXPRESS_CARDS } from "@/data/cards/amex";
+import { AMERICAN_EXPRESS_CARDS } from "@/data/cards/amex/amex";
 import { BANK_OF_AMERICA_CARDS } from "@/data/cards/bankofamerica";
 import { BARCLAYS_CARDS } from "@/data/cards/barclays";
 import { BREX_CARDS } from "@/data/cards/brex";

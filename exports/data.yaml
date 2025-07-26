@@ -1,3 +1,202 @@
+- cardId: 90436ebe63417596fbc6cb5b7e5a2e8c
+  name: Delta SkyMiles Blue
+  issuer: AMERICAN_EXPRESS
+  network: AMERICAN_EXPRESS
+  currency: DELTA
+  isBusiness: false
+  annualFee: 0
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-blue-american-express-card/
+  imageUrl: /images/amex/delta-skymiles-blue.jpg
+  credits: []
+  offers:
+    - spend: 1000
+      amount:
+        - amount: 10000
+      days: 180
+      credits: []
+  historicalOffers:
+    - spend: 1000
+      amount:
+        - amount: 10000
+      days: 180
+      credits: []
+  discontinued: false
+- cardId: 99d4ec3c5bcd51b70b83b4b792af3ef6
+  name: Delta SkyMiles Gold
+  issuer: AMERICAN_EXPRESS
+  network: AMERICAN_EXPRESS
+  currency: DELTA
+  isBusiness: false
+  annualFee: 150
+  isAnnualFeeWaived: true
+  universalCashbackPercent: 1
+  url: https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold-american-express-card/
+  imageUrl: /images/amex/delta-skymiles-gold.jpg
+  credits:
+    - description: First checked bag free
+      value: 50
+      weight: 0.5
+  offers:
+    - spend: 3000
+      amount:
+        - amount: 50000
+      days: 180
+      credits: []
+  historicalOffers:
+    - spend: 3000
+      amount:
+        - amount: 80000
+      days: 180
+      expiration: 2025-04-02
+      credits: []
+  discontinued: false
+- cardId: 509a09cbd31edd8df85928d044ef7802
+  name: Delta SkyMiles Gold Business
+  issuer: AMERICAN_EXPRESS
+  network: AMERICAN_EXPRESS
+  currency: DELTA
+  isBusiness: true
+  annualFee: 150
+  isAnnualFeeWaived: true
+  universalCashbackPercent: 1
+  url: https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-gold/
+  imageUrl: /images/amex/delta-skymiles-gold-business.webp
+  credits: []
+  offers:
+    - spend: 4000
+      amount:
+        - amount: 60000
+      days: 180
+      credits: []
+  historicalOffers:
+    - spend: 6000
+      amount:
+        - amount: 90000
+      days: 180
+      expiration: 2025-04-02
+      credits: []
+  discontinued: false
+- cardId: bdf4ae17ff6808592f785fff3ae81a2a
+  name: Delta SkyMiles Platinum
+  issuer: AMERICAN_EXPRESS
+  network: AMERICAN_EXPRESS
+  currency: DELTA
+  isBusiness: false
+  annualFee: 350
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-platinum-american-express-card/
+  imageUrl: /images/amex/delta-skymiles-platinum.webp
+  credits:
+    - description: Companion Pass
+      value: 500
+      weight: 0.7
+  offers:
+    - spend: 4000
+      amount:
+        - amount: 60000
+      days: 180
+      credits: []
+  historicalOffers:
+    - spend: 4000
+      amount:
+        - amount: 90000
+      days: 180
+      expiration: 2025-04-02
+      credits: []
+  discontinued: false
+- cardId: 1e9c3dae029612a7a40adf6144bf43d4
+  name: Delta SkyMiles Platinum Business
+  issuer: AMERICAN_EXPRESS
+  network: AMERICAN_EXPRESS
+  currency: DELTA
+  isBusiness: true
+  annualFee: 350
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-platinum/
+  imageUrl: /images/amex/delta-skymiles-platinum-business.webp
+  credits:
+    - description: PreCheck Credit
+      value: 100
+      weight: 0.4
+    - description: Companion Pass
+      value: 500
+      weight: 0.7
+    - description: First checked bag free
+      value: 50
+      weight: 0.5
+  offers:
+    - spend: 8000
+      amount:
+        - amount: 70000
+      days: 180
+      credits: []
+  historicalOffers:
+    - spend: 8000
+      amount:
+        - amount: 100000
+      days: 180
+      expiration: 2025-04-02
+      credits: []
+  discontinued: false
+- cardId: 2a3949c2232cf6646a59531728264a5c
+  name: Delta SkyMiles Reserve
+  issuer: AMERICAN_EXPRESS
+  network: AMERICAN_EXPRESS
+  currency: DELTA
+  isBusiness: false
+  annualFee: 650
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/
+  imageUrl: /images/amex/delta-skymiles-reserve.webp
+  credits:
+    - description: Resy Credit
+      value: 240
+      weight: 0.8
+  offers:
+    - spend: 5000
+      amount:
+        - amount: 70000
+      days: 180
+      credits: []
+  historicalOffers:
+    - spend: 5000
+      amount:
+        - amount: 100000
+      days: 90
+      expiration: 2025-04-02
+      credits: []
+  discontinued: false
+- cardId: a8032dfcc9bc6af82eb1a0a487e710b5
+  name: Delta SkyMiles Reserve Business
+  issuer: AMERICAN_EXPRESS
+  network: AMERICAN_EXPRESS
+  currency: DELTA
+  isBusiness: true
+  annualFee: 550
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-reserve/
+  imageUrl: /images/amex/delta-skymiles-reserve-business.webp
+  credits: []
+  offers:
+    - spend: 10000
+      amount:
+        - amount: 80000
+      days: 180
+      credits: []
+  historicalOffers:
+    - spend: 12000
+      amount:
+        - amount: 110000
+      days: 180
+      expiration: 2025-04-02
+      credits: []
+  discontinued: false
 - cardId: a37efd1da4e7f0d468c87d3b6f021250
   name: Blue Business Cash
   issuer: AMERICAN_EXPRESS
@@ -289,212 +488,6 @@
       amount:
         - amount: 200
       days: 180
-      credits: []
-  discontinued: false
-- cardId: 90436ebe63417596fbc6cb5b7e5a2e8c
-  name: Delta SkyMiles Blue
-  issuer: AMERICAN_EXPRESS
-  network: AMERICAN_EXPRESS
-  currency: DELTA
-  isBusiness: false
-  annualFee: 0
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-blue-american-express-card/
-  imageUrl: /images/amex/delta-skymiles-blue.jpg
-  credits: []
-  offers:
-    - spend: 1000
-      amount:
-        - amount: 10000
-      days: 180
-      credits: []
-  historicalOffers:
-    - spend: 1000
-      amount:
-        - amount: 10000
-      days: 180
-      credits: []
-  discontinued: false
-- cardId: 99d4ec3c5bcd51b70b83b4b792af3ef6
-  name: Delta SkyMiles Gold
-  issuer: AMERICAN_EXPRESS
-  network: AMERICAN_EXPRESS
-  currency: DELTA
-  isBusiness: false
-  annualFee: 150
-  isAnnualFeeWaived: true
-  universalCashbackPercent: 1
-  url: https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold-american-express-card/
-  imageUrl: /images/amex/delta-skymiles-gold.jpg
-  credits:
-    - description: First checked bag free
-      value: 50
-      weight: 0.5
-  offers:
-    - spend: 3000
-      amount:
-        - amount: 60000
-      days: 180
-      expiration: 2025-07-16
-      credits: []
-      details: Sometimes 90k, try incognito.
-  historicalOffers:
-    - spend: 3000
-      amount:
-        - amount: 80000
-      days: 180
-      expiration: 2025-04-02
-      credits: []
-  discontinued: false
-- cardId: 509a09cbd31edd8df85928d044ef7802
-  name: Delta SkyMiles Gold Business
-  issuer: AMERICAN_EXPRESS
-  network: AMERICAN_EXPRESS
-  currency: DELTA
-  isBusiness: true
-  annualFee: 150
-  isAnnualFeeWaived: true
-  universalCashbackPercent: 1
-  url: https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-gold/
-  imageUrl: /images/amex/delta-skymiles-gold-business.webp
-  credits: []
-  offers:
-    - spend: 4000
-      amount:
-        - amount: 90000
-      days: 180
-      expiration: 2025-07-16
-      credits: []
-  historicalOffers:
-    - spend: 6000
-      amount:
-        - amount: 90000
-      days: 180
-      expiration: 2025-04-02
-      credits: []
-  discontinued: false
-- cardId: bdf4ae17ff6808592f785fff3ae81a2a
-  name: Delta SkyMiles Platinum
-  issuer: AMERICAN_EXPRESS
-  network: AMERICAN_EXPRESS
-  currency: DELTA
-  isBusiness: false
-  annualFee: 350
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-platinum-american-express-card/
-  imageUrl: /images/amex/delta-skymiles-platinum.webp
-  credits:
-    - description: Companion Pass
-      value: 500
-      weight: 0.7
-  offers:
-    - spend: 4000
-      amount:
-        - amount: 90000
-      days: 180
-      expiration: 2025-07-16
-      credits: []
-  historicalOffers:
-    - spend: 4000
-      amount:
-        - amount: 90000
-      days: 180
-      expiration: 2025-04-02
-      credits: []
-  discontinued: false
-- cardId: 1e9c3dae029612a7a40adf6144bf43d4
-  name: Delta SkyMiles Platinum Business
-  issuer: AMERICAN_EXPRESS
-  network: AMERICAN_EXPRESS
-  currency: DELTA
-  isBusiness: true
-  annualFee: 350
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-platinum/
-  imageUrl: /images/amex/delta-skymiles-platinum-business.webp
-  credits:
-    - description: PreCheck Credit
-      value: 100
-      weight: 0.4
-    - description: Companion Pass
-      value: 500
-      weight: 0.7
-    - description: First checked bag free
-      value: 50
-      weight: 0.5
-  offers:
-    - spend: 8000
-      amount:
-        - amount: 100000
-      days: 180
-      expiration: 2025-07-16
-      credits: []
-  historicalOffers:
-    - spend: 8000
-      amount:
-        - amount: 100000
-      days: 180
-      expiration: 2025-04-02
-      credits: []
-  discontinued: false
-- cardId: 2a3949c2232cf6646a59531728264a5c
-  name: Delta SkyMiles Reserve
-  issuer: AMERICAN_EXPRESS
-  network: AMERICAN_EXPRESS
-  currency: DELTA
-  isBusiness: false
-  annualFee: 650
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/
-  imageUrl: /images/amex/delta-skymiles-reserve.webp
-  credits:
-    - description: Resy Credit
-      value: 240
-      weight: 0.8
-  offers:
-    - spend: 5000
-      amount:
-        - amount: 100000
-      days: 180
-      expiration: 2025-07-16
-      credits: []
-  historicalOffers:
-    - spend: 5000
-      amount:
-        - amount: 100000
-      days: 90
-      expiration: 2025-04-02
-      credits: []
-  discontinued: false
-- cardId: a8032dfcc9bc6af82eb1a0a487e710b5
-  name: Delta SkyMiles Reserve Business
-  issuer: AMERICAN_EXPRESS
-  network: AMERICAN_EXPRESS
-  currency: DELTA
-  isBusiness: true
-  annualFee: 550
-  isAnnualFeeWaived: false
-  universalCashbackPercent: 1
-  url: https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-reserve/
-  imageUrl: /images/amex/delta-skymiles-reserve-business.webp
-  credits: []
-  offers:
-    - spend: 10000
-      amount:
-        - amount: 110000
-      days: 180
-      expiration: 2025-07-16
-      credits: []
-  historicalOffers:
-    - spend: 12000
-      amount:
-        - amount: 110000
-      days: 180
-      expiration: 2025-04-02
       credits: []
   discontinued: false
 - cardId: 54fddf9e59dfad730320eb65a04b7ea5
@@ -2612,7 +2605,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
   historicalOffers:
     - spend: 6000
       amount:
@@ -2639,7 +2632,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
   historicalOffers:
     - spend: 8000
       amount:
@@ -2665,7 +2658,7 @@
         - amount: 75000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
   historicalOffers:
     - spend: 6000
       amount:
@@ -2695,7 +2688,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
   historicalOffers:
     - spend: 10000
       amount:
@@ -2940,14 +2933,14 @@
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
   historicalOffers:
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
