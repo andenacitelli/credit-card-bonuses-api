@@ -2550,9 +2550,8 @@
   offers:
     - spend: 1000
       amount:
-        - amount: 30000
+        - amount: 20000
       days: 90
-      expiration: 2025-07-16
       credits: []
       referralUrl: https://www.referyourchasecard.com/215Y/RO0613CS0T
   historicalOffers:
@@ -2560,7 +2559,7 @@
       amount:
         - amount: 30000
       days: 90
-      expiration: 2024-03-01
+      expiration: 2024-07-01
       credits: []
   discontinued: false
 - cardId: 34ab99720941eaa2a1671e5b3a996b19
@@ -2630,7 +2629,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 6000
       amount:
@@ -2657,7 +2656,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 8000
       amount:
@@ -2683,7 +2682,7 @@
         - amount: 75000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 6000
       amount:
@@ -2713,7 +2712,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 10000
       amount:
@@ -2958,14 +2957,14 @@
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
@@ -3255,13 +3254,7 @@
   offers:
     - spend: 0.01
       amount:
-        - amount: 250
-      days: 365
-      expiration: 2025-07-14
-      credits: []
-    - spend: 0.01
-      amount:
-        - amount: 200
+        - amount: 150
       days: 365
       credits: []
   historicalOffers:

@@ -361,14 +361,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 250 }],
-        spend: 0.01,
-        days: 365,
-        credits: [],
-        expiration: "2025-07-14",
-      },
-      {
-        amount: [{ amount: 200 }],
+        amount: [{ amount: 150 }],
         spend: 0.01,
         days: 365,
         credits: [],

@@ -298,12 +298,11 @@ export const UNITED_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 30_000 }],
+        amount: [{ amount: 20_000 }],
         spend: 1000,
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.UNITED,
-        expiration: "2025-07-16",
       },
     ],
     historicalOffers: [
@@ -312,7 +311,7 @@ export const UNITED_CARDS: Array<CreditCardInput> = [
         spend: 1000,
         days: 90,
         credits: [],
-        expiration: "2024-03-01",
+        expiration: "2024-07-01",
       },
     ],
   },
