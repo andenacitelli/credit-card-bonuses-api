@@ -755,8 +755,9 @@
   offers:
     - spend: 6000
       amount:
-        - amount: 150000
+        - amount: 185000
       days: 180
+      expiration: 2025-09-24
       credits: []
   historicalOffers:
     - spend: 6000
@@ -849,7 +850,7 @@
         - amount: 100000
       days: 180
       credits: []
-      details: Fuzzy language, may be > 100k.
+      details: Fuzzy language, may be up to 175k.
       url: https://resy.com/amex-offers
   historicalOffers:
     - spend: 8000
@@ -956,8 +957,9 @@
   offers:
     - spend: 7000
       amount:
-        - amount: 135000
+        - amount: 155000
       days: 180
+      expiration: 2025-09-24
       credits: []
   historicalOffers:
     - spend: 5000
@@ -1823,7 +1825,7 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 60000
+        - amount: 50000
       days: 90
       credits: []
   historicalOffers:
@@ -2107,13 +2109,9 @@
   offers:
     - spend: 1000
       amount:
-        - amount: 60000
+        - amount: 30000
       days: 90
-      credits:
-        - description: 1x FNC, <= 50k per
-          value: 50000
-          weight: 1
-          currency: MARRIOTT
+      credits: []
       referralUrl: https://www.referyourchasecard.com/252p/HAZXLB93C3
   historicalOffers:
     - spend: 1000
@@ -2364,8 +2362,9 @@
   offers:
     - spend: 5000
       amount:
-        - amount: 75000
+        - amount: 100000
       days: 90
+      expiration: 2025-11-05
       credits: []
       referralUrl: https://www.referyourchasecard.com/215Y/RO0613CS0T
   historicalOffers:
@@ -3759,11 +3758,16 @@
   url: https://www.citi.com/credit-cards/citi-rewards-plus-credit-card
   imageUrl: /images/citi/rewards-plus.png
   credits: []
-  offers: []
-  historicalOffers:
-    - spend: 1500
+  offers:
+    - spend: 1000
       amount:
-        - amount: 25000
+        - amount: 30000
+      days: 90
+      credits: []
+  historicalOffers:
+    - spend: 1000
+      amount:
+        - amount: 30000
       days: 90
       credits: []
   discontinued: false
@@ -3941,7 +3945,7 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 40000
+        - amount: 60000
       days: 90
       credits: []
   historicalOffers:

@@ -271,12 +271,17 @@ export const CITI_CARDS: Array<CreditCardInput> = [
     imageUrl: "/images/citi/rewards-plus.png",
     credits: [],
     offers: [
-      // no offer and probably being discontinued (ref: https://www.doctorofcredit.com/rumor-citi-rewards-card-to-be-discontinued/)
+      {
+        amount: [{ amount: 30_000 }],
+        spend: 1000,
+        credits: [],
+        days: 90,
+      },
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 25_000 }],
-        spend: 1500,
+        amount: [{ amount: 30_000 }],
+        spend: 1000,
         credits: [],
         days: 90,
       },

@@ -691,11 +691,18 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 150_000 }],
+        amount: [{ amount: 185_000 }],
         spend: 6000,
         days: 180,
         credits: [],
+        expiration: "2025-09-24",
       },
+      // {
+      //   amount: [{ amount: 150_000 }],
+      //   spend: 6000,
+      //   days: 180,
+      //   credits: [],
+      // },
     ],
     historicalOffers: [
       {
@@ -816,7 +823,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
         days: 180,
         credits: [],
         url: "https://resy.com/amex-offers",
-        details: "Fuzzy language, may be > 100k.",
+        details: "Fuzzy language, may be up to 175k.",
       },
       // resy is reliable, no need to include a fallback
     ],
@@ -970,10 +977,11 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 135_000 }],
+        amount: [{ amount: 155_000 }],
         spend: 7000,
         days: 180,
         credits: [],
+        expiration: "2025-09-24",
       },
     ],
     historicalOffers: [
