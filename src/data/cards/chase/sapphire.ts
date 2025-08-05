@@ -141,7 +141,7 @@ export const SAPPHIRE_CARDS: Array<CreditCardInput> = [
       {
         value: 500,
         description: "Travel Credit (The Edit)",
-        weight: 0.8, // is supposedly hard to use
+        weight: 0.5, // is supposedly hard to use
       },
       {
         value: 469,
