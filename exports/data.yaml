@@ -2623,7 +2623,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
   historicalOffers:
     - spend: 6000
       amount:
@@ -2650,7 +2650,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
   historicalOffers:
     - spend: 8000
       amount:
@@ -2676,7 +2676,7 @@
         - amount: 75000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
   historicalOffers:
     - spend: 6000
       amount:
@@ -2706,7 +2706,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
   historicalOffers:
     - spend: 10000
       amount:
@@ -2866,7 +2866,7 @@
       weight: 1
     - description: Travel Credit (The Edit)
       value: 500
-      weight: 0.8
+      weight: 0.5
     - description: Lounge Access
       value: 469
       weight: 0.2
@@ -2951,14 +2951,14 @@
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
   historicalOffers:
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
