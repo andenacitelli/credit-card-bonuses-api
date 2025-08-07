@@ -1737,11 +1737,12 @@
       value: 50
       weight: 0.5
   offers:
-    - spend: 2000
+    - spend: 6000
       amount:
-        - amount: 50000
-      days: 90
+        - amount: 80000
+      days: 365
       credits: []
+      details: 60k @ $1k, +20k @ $6k.
   historicalOffers:
     - spend: 2000
       amount:
@@ -1763,11 +1764,12 @@
   imageUrl: /images/barclays/jetblue-plus.png
   credits: []
   offers:
-    - spend: 1000
+    - spend: 6000
       amount:
-        - amount: 60000
-      days: 90
+        - amount: 80000
+      days: 365
       credits: []
+      details: 60k @ $1k, +20k @ $6k.
   historicalOffers:
     - spend: 1000
       amount:
@@ -2623,7 +2625,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 6000
       amount:
@@ -2650,7 +2652,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 8000
       amount:
@@ -2676,7 +2678,7 @@
         - amount: 75000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 6000
       amount:
@@ -2706,7 +2708,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 10000
       amount:
@@ -2951,14 +2953,14 @@
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
