@@ -81,7 +81,7 @@ export const US_BANK_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 20_000, weight: 0.8 }],
+        amount: [{ amount: 30_000 }],
         spend: 1000,
         days: 90,
         credits: [],
@@ -89,7 +89,7 @@ export const US_BANK_CARDS: Array<CreditCardInput> = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 20_000 }],
+        amount: [{ amount: 30_000 }],
         spend: 1000,
         days: 90,
         credits: [],
