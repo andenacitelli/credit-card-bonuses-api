@@ -436,7 +436,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
       {
         description: "$10/mo credit for Uber",
         value: 120,
-        weight: 0.4,
+        weight: WEIGHTS.RIDESHARE_CREDIT,
       },
       {
         description:
@@ -785,7 +785,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
       {
         value: 200,
         description: "$15/mo Uber Cash",
-        weight: 0.7,
+        weight: WEIGHTS.RIDESHARE_CREDIT,
       },
       {
         value: 200,
@@ -845,7 +845,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
       {
         value: 200,
         description: "$15/mo Uber Cash",
-        weight: 0.7,
+        weight: WEIGHTS.RIDESHARE_CREDIT,
       },
       {
         value: 200,
@@ -903,7 +903,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
       {
         value: 200,
         description: "$15/mo Uber Cash",
-        weight: 0.7,
+        weight: WEIGHTS.RIDESHARE_CREDIT,
       },
       {
         value: 200,

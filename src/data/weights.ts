@@ -33,6 +33,11 @@ export const WEIGHTS = {
   DINING_CREDIT: 0.8,
 
   /**
+   * Useful, but not everyone uses rideshare, and it's usually a monthly per diem that's less than what a full ride usually costs
+   */
+  RIDESHARE_CREDIT: 0.5,
+
+  /**
    * Credit for streaming services
    * These are oftentimes money you wouldn't otherwise spend, so are valued fairly low (but nonzero)
    */

@@ -261,7 +261,7 @@ export const CAPITAL_ONE_CARDS: Array<CreditCardInput> = [
       {
         value: 300,
         description: "Travel Credit",
-        weight: 0.9,
+        weight: WEIGHTS.TRAVEL_CREDIT_FUNGIBLE,
       },
       {
         value: 300,
@@ -310,7 +310,7 @@ export const CAPITAL_ONE_CARDS: Array<CreditCardInput> = [
       {
         value: 300,
         description: "Travel Credit",
-        weight: 0.9,
+        weight: WEIGHTS.TRAVEL_CREDIT_FUNGIBLE,
       },
       {
         value: 300,

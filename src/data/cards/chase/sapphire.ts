@@ -60,7 +60,7 @@ export const SAPPHIRE_CARDS: Array<CreditCardInput> = [
       {
         value: 300,
         description: "Travel Credit",
-        weight: 1.0,
+        weight: WEIGHTS.TRAVEL_CREDIT_FUNGIBLE,
       },
       {
         value: 500,
@@ -70,7 +70,7 @@ export const SAPPHIRE_CARDS: Array<CreditCardInput> = [
       {
         value: 469,
         description: "Lounge Access",
-        weight: 0.2,
+        weight: WEIGHTS.LOUNGES,
       },
       {
         value: 300,
@@ -97,7 +97,7 @@ export const SAPPHIRE_CARDS: Array<CreditCardInput> = [
           {
             value: 500,
             description: "Chase Travel Credit",
-            weight: 0.8,
+            weight: WEIGHTS.TRAVEL_CREDIT_FUNGIBLE,
           },
         ],
         referralUrl: REFERRALS.CHASE.SAPPHIRE,
@@ -112,7 +112,7 @@ export const SAPPHIRE_CARDS: Array<CreditCardInput> = [
           {
             value: 500,
             description: "Chase Travel Credit",
-            weight: 0.8,
+            weight: WEIGHTS.TRAVEL_CREDIT_FUNGIBLE,
           },
         ],
         referralUrl: REFERRALS.CHASE.SAPPHIRE,
@@ -136,7 +136,7 @@ export const SAPPHIRE_CARDS: Array<CreditCardInput> = [
       {
         value: 300,
         description: "Travel Credit",
-        weight: 1.0,
+        weight: WEIGHTS.TRAVEL_CREDIT_FUNGIBLE,
       },
       {
         value: 500,
@@ -146,7 +146,7 @@ export const SAPPHIRE_CARDS: Array<CreditCardInput> = [
       {
         value: 469,
         description: "Lounge Access",
-        weight: 0.2,
+        weight: WEIGHTS.LOUNGES,
       },
       {
         value: 250,
@@ -176,7 +176,7 @@ export const SAPPHIRE_CARDS: Array<CreditCardInput> = [
       {
         value: 120,
         description: "$10/mo Lyft Credit",
-        weight: 0.25,
+        weight: WEIGHTS.RIDESHARE_CREDIT,
       },
       {
         value: 100,

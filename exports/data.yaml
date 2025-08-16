@@ -553,7 +553,7 @@
   credits:
     - description: $10/mo credit for Uber
       value: 120
-      weight: 0.4
+      weight: 0.5
     - description: $10/mo credit for Grubhub, Cheesecake Factory, Gold Belly,
         Wine.com, Milk, Shake Shack
       value: 120
@@ -823,7 +823,7 @@
       weight: 0.25
     - description: $15/mo Uber Cash
       value: 200
-      weight: 0.7
+      weight: 0.5
     - description: Airline Fee Credit
       value: 200
       weight: 0.25
@@ -868,7 +868,7 @@
       weight: 0.25
     - description: $15/mo Uber Cash
       value: 200
-      weight: 0.7
+      weight: 0.5
     - description: Airline Fee Credit
       value: 200
       weight: 0.25
@@ -912,7 +912,7 @@
       weight: 0.25
     - description: $15/mo Uber Cash
       value: 200
-      weight: 0.7
+      weight: 0.5
     - description: Airline Fee Credit
       value: 200
       weight: 0.25
@@ -2611,7 +2611,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
   historicalOffers:
     - spend: 6000
       amount:
@@ -2638,7 +2638,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
   historicalOffers:
     - spend: 8000
       amount:
@@ -2664,7 +2664,7 @@
         - amount: 75000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
   historicalOffers:
     - spend: 6000
       amount:
@@ -2694,7 +2694,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
   historicalOffers:
     - spend: 10000
       amount:
@@ -2851,13 +2851,13 @@
       weight: 0.4
     - description: Travel Credit
       value: 300
-      weight: 1
+      weight: 0.9
     - description: Travel Credit (The Edit)
       value: 500
       weight: 0.5
     - description: Lounge Access
       value: 469
-      weight: 0.2
+      weight: 0.25
     - description: Dining Credit
       value: 300
       weight: 0.75
@@ -2875,7 +2875,7 @@
       credits:
         - description: Chase Travel Credit
           value: 500
-          weight: 0.8
+          weight: 0.9
       referralUrl: https://www.referyourchasecard.com/19t/F0DZZK1XD0
   historicalOffers:
     - spend: 5000
@@ -2885,7 +2885,7 @@
       credits:
         - description: Chase Travel Credit
           value: 500
-          weight: 0.8
+          weight: 0.9
       referralUrl: https://www.referyourchasecard.com/19t/F0DZZK1XD0
   discontinued: false
 - cardId: 5d8c589d1e7c1294d04fa6e4a2685624
@@ -2905,13 +2905,13 @@
       weight: 0.4
     - description: Travel Credit
       value: 300
-      weight: 1
+      weight: 0.9
     - description: Travel Credit (The Edit)
       value: 500
       weight: 0.5
     - description: Lounge Access
       value: 469
-      weight: 0.2
+      weight: 0.25
     - description: Apple TV / Apple Music
       value: 250
       weight: 0.4
@@ -2929,7 +2929,7 @@
       weight: 0.25
     - description: $10/mo Lyft Credit
       value: 120
-      weight: 0.25
+      weight: 0.5
     - description: Gift Card Credit
       value: 100
       weight: 0.5
@@ -2939,14 +2939,14 @@
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
   historicalOffers:
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
