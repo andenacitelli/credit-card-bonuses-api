@@ -415,7 +415,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 80_000 }],
         spend: 5000,
         days: 90,
         credits: [],
@@ -423,7 +423,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 70_000 }],
+        amount: [{ amount: 80_000 }],
         spend: 5000,
         days: 90,
         credits: [],
@@ -662,12 +662,12 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     annualFee: 89,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://cards.barclaycardus.com/banking/credit-card/breeze-airways/visa-visa-signature-preferred/partner-banner/d4de94d1-c1da-4237-9eff-df975fb4bb87",
+    url: "https://cards.barclaycardus.com/banking/cards/breeze-airways/",
     imageUrl: "/images/barclays/breeze.png",
     credits: [],
     offers: [
       {
-        amount: [{ amount: 50000 }],
+        amount: [{ amount: 40_000 }],
         spend: 1000,
         days: 90,
         credits: [],
@@ -676,7 +676,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     historicalOffers: [
       {
         amount: [{ amount: 50_000 }],
-        spend: 2000,
+        spend: 1000,
         days: 90,
         credits: [],
       },

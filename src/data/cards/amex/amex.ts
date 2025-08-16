@@ -23,7 +23,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     imageUrl: "/images/amex/blue-business-cash.webp",
     offers: [
       {
-        amount: [{ amount: 200 }],
+        amount: [{ amount: 250 }],
         spend: 3000,
         days: 90,
         credits: [],
@@ -35,7 +35,6 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
         spend: 3000,
         days: 90,
         credits: [],
-        expiration: "2023-10-01",
       },
       {
         amount: [{ amount: 500 }],
@@ -539,7 +538,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 100_000 }],
+        amount: [{ amount: 80_000 }],
         spend: 2000,
         days: 180,
         credits: [
@@ -549,7 +548,6 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
             weight: 0.8,
           },
         ],
-        expiration: "2025-08-13",
       },
     ],
     historicalOffers: [
@@ -583,11 +581,10 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 175_000 }],
+        amount: [{ amount: 150_000 }],
         spend: 6000,
         days: 180,
         credits: [],
-        expiration: "2025-08-13",
       },
     ],
     historicalOffers: [
@@ -622,11 +619,10 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 175_000 }],
+        amount: [{ amount: 130_000 }],
         spend: 6_000,
         days: 180,
         credits: [],
-        expiration: "2025-08-13",
       },
     ],
     historicalOffers: [
@@ -657,7 +653,6 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
         spend: 3000,
         days: 180,
         credits: [],
-        expiration: "2025-08-13",
       },
     ],
     historicalOffers: [
@@ -729,18 +724,11 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 0 }],
-        credits: [
-          {
-            currency: "MARRIOTT",
-            description: "3x FNC, up to 50k per",
-            value: 150_000,
-            weight: WEIGHTS.FREE_NIGHT_CREDIT,
-          },
-        ],
-        spend: 6000,
-        days: 180,
-        details: "3x FNC, <= 50k per",
+        amount: [{ amount: 125_000 }],
+        credits: [],
+        spend: 8000,
+        days: 90,
+        expiration: "2025-10-22",
       },
     ],
     historicalOffers: [
@@ -760,14 +748,8 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
       {
         amount: [{ amount: 125_000 }],
         credits: [],
-        spend: 5000,
+        spend: 8000,
         days: 90,
-      },
-      {
-        amount: [{ amount: 75_000 }],
-        spend: 3000,
-        days: 90,
-        credits: [],
       },
     ],
   },
@@ -1070,8 +1052,8 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 400 }],
-        spend: 4000,
+        amount: [{ amount: 200 }],
+        spend: 0.01,
         days: 90,
         url: "https://www.amazon.com/Amazon-Business-American-Express-Card/dp/B07984JN3L",
         credits: [],

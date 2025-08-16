@@ -21,15 +21,27 @@ export const CAPITAL_ONE_CARDS: Array<CreditCardInput> = [
         amount: [{ amount: 200 }],
         spend: 500,
         days: 90,
-        credits: [],
+        credits: [
+          {
+            value: 100,
+            description: "Capital One Travel Credit",
+            weight: WEIGHTS.TRAVEL_CREDIT_FUNGIBLE,
+          },
+        ],
       },
     ],
     historicalOffers: [
       {
         amount: [{ amount: 200 }],
         spend: 500,
-        credits: [],
         days: 90,
+        credits: [
+          {
+            value: 100,
+            description: "Capital One Travel Credit",
+            weight: WEIGHTS.TRAVEL_CREDIT_FUNGIBLE,
+          },
+        ],
       },
     ],
   },

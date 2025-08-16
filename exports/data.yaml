@@ -212,7 +212,7 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 200
+        - amount: 250
       days: 90
       credits: []
   historicalOffers:
@@ -220,7 +220,6 @@
       amount:
         - amount: 250
       days: 90
-      expiration: 2023-10-01
       credits: []
     - spend: 15000
       amount:
@@ -635,9 +634,8 @@
   offers:
     - spend: 2000
       amount:
-        - amount: 100000
+        - amount: 80000
       days: 180
-      expiration: 2025-08-13
       credits:
         - description: Statement Credit
           value: 100
@@ -668,9 +666,8 @@
   offers:
     - spend: 6000
       amount:
-        - amount: 175000
+        - amount: 150000
       days: 180
-      expiration: 2025-08-13
       credits: []
   historicalOffers:
     - spend: 4000
@@ -699,9 +696,8 @@
   offers:
     - spend: 6000
       amount:
-        - amount: 175000
+        - amount: 130000
       days: 180
-      expiration: 2025-08-13
       credits: []
   historicalOffers:
     - spend: 8000
@@ -727,7 +723,6 @@
       amount:
         - amount: 130000
       days: 180
-      expiration: 2025-08-13
       credits: []
   historicalOffers:
     - spend: 2000
@@ -780,16 +775,12 @@
   imageUrl: /images/amex/marriott-bonvoy-business.webp
   credits: []
   offers:
-    - spend: 6000
+    - spend: 8000
       amount:
-        - amount: 0
-      days: 180
-      credits:
-        - description: 3x FNC, up to 50k per
-          value: 150000
-          weight: 0.7
-          currency: MARRIOTT
-      details: 3x FNC, <= 50k per
+        - amount: 125000
+      days: 90
+      expiration: 2025-10-22
+      credits: []
   historicalOffers:
     - spend: 3000
       amount:
@@ -800,14 +791,9 @@
           value: 150000
           weight: 0.7
           currency: MARRIOTT
-    - spend: 5000
+    - spend: 8000
       amount:
         - amount: 125000
-      days: 90
-      credits: []
-    - spend: 3000
-      amount:
-        - amount: 75000
       days: 90
       credits: []
   discontinued: false
@@ -1030,9 +1016,9 @@
   imageUrl: /images/amex/amazon-business.avif
   credits: []
   offers:
-    - spend: 4000
+    - spend: 0.01
       amount:
-        - amount: 400
+        - amount: 200
       days: 90
       credits: []
       url: https://www.amazon.com/Amazon-Business-American-Express-Card/dp/B07984JN3L
@@ -1802,13 +1788,13 @@
   offers:
     - spend: 5000
       amount:
-        - amount: 60000
+        - amount: 80000
       days: 90
       credits: []
   historicalOffers:
     - spend: 5000
       amount:
-        - amount: 70000
+        - amount: 80000
       days: 90
       credits: []
   discontinued: false
@@ -2001,17 +1987,17 @@
   annualFee: 89
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://cards.barclaycardus.com/banking/credit-card/breeze-airways/visa-visa-signature-preferred/partner-banner/d4de94d1-c1da-4237-9eff-df975fb4bb87
+  url: https://cards.barclaycardus.com/banking/cards/breeze-airways/
   imageUrl: /images/barclays/breeze.png
   credits: []
   offers:
     - spend: 1000
       amount:
-        - amount: 50000
+        - amount: 40000
       days: 90
       credits: []
   historicalOffers:
-    - spend: 2000
+    - spend: 1000
       amount:
         - amount: 50000
       days: 90
@@ -2625,7 +2611,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 6000
       amount:
@@ -2652,7 +2638,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 8000
       amount:
@@ -2678,7 +2664,7 @@
         - amount: 75000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 6000
       amount:
@@ -2708,7 +2694,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 10000
       amount:
@@ -2953,14 +2939,14 @@
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
@@ -3277,13 +3263,19 @@
       amount:
         - amount: 200
       days: 90
-      credits: []
+      credits:
+        - description: Capital One Travel Credit
+          value: 100
+          weight: 0.9
   historicalOffers:
     - spend: 500
       amount:
         - amount: 200
       days: 90
-      credits: []
+      credits:
+        - description: Capital One Travel Credit
+          value: 100
+          weight: 0.9
   discontinued: false
 - cardId: 2d16431e0caee645b420cc3d3255b2ee
   name: Savor
@@ -4051,9 +4043,8 @@
   offers:
     - spend: 2000
       amount:
-        - amount: 40000
+        - amount: 20000
       days: 90
-      expiration: 2025-08-13
       credits: []
     - spend: 2000
       amount:
@@ -4834,7 +4825,7 @@
   offers:
     - spend: 1000
       amount:
-        - amount: 400
+        - amount: 300
           currency: EXPEDIA
       days: 90
       credits: []
@@ -4867,7 +4858,7 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 600
+        - amount: 400
           currency: EXPEDIA
       days: 90
       credits: []
