@@ -471,4 +471,145 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
       },
     ],
   },
+  {
+    cardId: "12a1230229f936ee5f7b2d333e796ab8",
+    name: "Atmos Rewards Ascent",
+    issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
+    network: schemas.NetworksEnum.enum.VISA,
+    currency: schemas.CurrenciesEnum.enum.ALASKA,
+    isBusiness: false,
+    annualFee: 95,
+    isAnnualFeeWaived: false,
+    universalCashbackPercent: 1.0,
+    url: "https://www.alaskaair.com/atmosrewards/content/credit-cards",
+    imageUrl: "/images/bankofamerica/atmos-rewards-ascent.webp",
+    credits: [CREDITS.CHECKED_BAG_MULTIPLE],
+    offers: [
+      {
+        amount: [{ amount: 80_000 }],
+        spend: 4000,
+        days: 120,
+        credits: [
+          {
+            description: "Companion Flight Voucher",
+            value: 100,
+            weight: 0.6,
+          },
+        ],
+      },
+    ],
+    historicalOffers: [
+      {
+        amount: [{ amount: 80_000 }],
+        spend: 4000,
+        days: 120,
+        credits: [
+          {
+            description: "Companion Flight Voucher",
+            value: 100,
+            weight: 0.6,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    cardId: "2878b32104d7bf242496a8af56f33952",
+    name: "Atmos Rewards Summit",
+    issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
+    network: schemas.NetworksEnum.enum.VISA,
+    currency: schemas.CurrenciesEnum.enum.ALASKA,
+    isBusiness: false,
+    annualFee: 395,
+    isAnnualFeeWaived: false,
+    universalCashbackPercent: 1.0,
+    url: "https://www.alaskaair.com/atmosrewards/content/credit-cards",
+    imageUrl: "/images/bankofamerica/atmos-rewards-summit.webp",
+    credits: [
+      CREDITS.CHECKED_BAG_MULTIPLE,
+      CREDITS.PRECHECK_OR_SIMILAR,
+      {
+        description: "Lounge Access",
+        value: 300,
+        weight: WEIGHTS.LOUNGES,
+      },
+      {
+        description: "Wifi Passes",
+        value: 60,
+        weight: 0.5,
+      },
+    ],
+    offers: [
+      {
+        amount: [{ amount: 100_000 }],
+        spend: 6000,
+        days: 90,
+        credits: [
+          {
+            description: "Companion Award",
+            value: 2500,
+            currency: "ALASKA",
+            weight: 0.75,
+          },
+        ],
+      },
+    ],
+    historicalOffers: [
+      {
+        amount: [{ amount: 100_000 }],
+        spend: 6000,
+        days: 90,
+        credits: [
+          {
+            description: "Companion Award",
+            value: 2500,
+            currency: "ALASKA",
+            weight: 0.75,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    cardId: "9e42d6cf9c6dcfda0cf7d5f5f015285d",
+    name: "Atmos Rewards Business",
+    issuer: schemas.IssuersEnum.enum.BANK_OF_AMERICA,
+    network: schemas.NetworksEnum.enum.VISA,
+    currency: schemas.CurrenciesEnum.enum.ALASKA,
+    isBusiness: true,
+    annualFee: 95,
+    isAnnualFeeWaived: false,
+    universalCashbackPercent: 1.0,
+    url: "https://www.alaskaair.com/atmosrewards/content/credit-cards",
+    imageUrl: "/images/bankofamerica/atmos-rewards-ascent.webp",
+    credits: [CREDITS.CHECKED_BAG_MULTIPLE],
+    offers: [
+      {
+        amount: [{ amount: 80_000 }],
+        spend: 4000,
+        days: 120,
+        credits: [
+          {
+            description: "Companion Flight Voucher",
+            value: 100,
+            weight: 0.6,
+          },
+        ],
+      },
+    ],
+    historicalOffers: [
+      {
+        amount: [{ amount: 80_000 }],
+        spend: 5000,
+        days: 90,
+        credits: [
+          {
+            description: "Companion Flight Voucher",
+            value: 100,
+            weight: 0.6,
+          },
+        ],
+      },
+    ],
+  },
 ];

@@ -1447,6 +1447,119 @@
       days: 90
       credits: []
   discontinued: false
+- cardId: 12a1230229f936ee5f7b2d333e796ab8
+  name: Atmos Rewards Ascent
+  issuer: BANK_OF_AMERICA
+  network: VISA
+  currency: ALASKA
+  isBusiness: false
+  annualFee: 95
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://www.alaskaair.com/atmosrewards/content/credit-cards
+  imageUrl: /images/bankofamerica/atmos-rewards-ascent.webp
+  credits:
+    - description: Multiple Checked Bags
+      value: 120
+      weight: 0.75
+  offers:
+    - spend: 4000
+      amount:
+        - amount: 80000
+      days: 120
+      credits:
+        - description: Companion Flight Voucher
+          value: 100
+          weight: 0.6
+  historicalOffers:
+    - spend: 4000
+      amount:
+        - amount: 80000
+      days: 120
+      credits:
+        - description: Companion Flight Voucher
+          value: 100
+          weight: 0.6
+  discontinued: false
+- cardId: 2878b32104d7bf242496a8af56f33952
+  name: Atmos Rewards Summit
+  issuer: BANK_OF_AMERICA
+  network: VISA
+  currency: ALASKA
+  isBusiness: false
+  annualFee: 395
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://www.alaskaair.com/atmosrewards/content/credit-cards
+  imageUrl: /images/bankofamerica/atmos-rewards-summit.webp
+  credits:
+    - description: Multiple Checked Bags
+      value: 120
+      weight: 0.75
+    - description: PreCheck Credit
+      value: 100
+      weight: 0.4
+    - description: Lounge Access
+      value: 300
+      weight: 0.25
+    - description: Wifi Passes
+      value: 60
+      weight: 0.5
+  offers:
+    - spend: 6000
+      amount:
+        - amount: 100000
+      days: 90
+      credits:
+        - description: Companion Award
+          value: 2500
+          weight: 0.75
+          currency: ALASKA
+  historicalOffers:
+    - spend: 6000
+      amount:
+        - amount: 100000
+      days: 90
+      credits:
+        - description: Companion Award
+          value: 2500
+          weight: 0.75
+          currency: ALASKA
+  discontinued: false
+- cardId: 9e42d6cf9c6dcfda0cf7d5f5f015285d
+  name: Atmos Rewards Business
+  issuer: BANK_OF_AMERICA
+  network: VISA
+  currency: ALASKA
+  isBusiness: true
+  annualFee: 95
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://www.alaskaair.com/atmosrewards/content/credit-cards
+  imageUrl: /images/bankofamerica/atmos-rewards-ascent.webp
+  credits:
+    - description: Multiple Checked Bags
+      value: 120
+      weight: 0.75
+  offers:
+    - spend: 4000
+      amount:
+        - amount: 80000
+      days: 120
+      credits:
+        - description: Companion Flight Voucher
+          value: 100
+          weight: 0.6
+  historicalOffers:
+    - spend: 5000
+      amount:
+        - amount: 80000
+      days: 90
+      credits:
+        - description: Companion Flight Voucher
+          value: 100
+          weight: 0.6
+  discontinued: false
 - cardId: bb54057b74adc9514885254a82fd8634
   name: AAdvantage Aviator Red World Elite
   issuer: BARCLAYS
@@ -2611,7 +2724,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 6000
       amount:
@@ -2638,7 +2751,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 8000
       amount:
@@ -2664,7 +2777,7 @@
         - amount: 75000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 6000
       amount:
@@ -2694,7 +2807,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 10000
       amount:
@@ -2939,14 +3052,14 @@
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
