@@ -2618,16 +2618,16 @@
   offers:
     - spend: 4000
       amount:
-        - amount: 100000
+        - amount: 70000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/215Y/RO0613CS0T
   historicalOffers:
     - spend: 4000
       amount:
-        - amount: 90000
+        - amount: 100000
       days: 90
-      expiration: 2025-05-08
+      expiration: 2025-07-31
       credits: []
   discontinued: false
 - cardId: 8ec7f405d03afa62eaeea7e197a29e8a

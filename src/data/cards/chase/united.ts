@@ -368,7 +368,7 @@ export const UNITED_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 100_000 }],
+        amount: [{ amount: 70_000 }],
         spend: 4000,
         days: 90,
         credits: [],
@@ -377,11 +377,11 @@ export const UNITED_CARDS: Array<CreditCardInput> = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 90_000 }],
+        amount: [{ amount: 100_000 }],
         spend: 4000,
         credits: [],
         days: 90,
-        expiration: "2025-05-08",
+        expiration: "2025-07-31",
       },
     ],
   },
