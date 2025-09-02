@@ -1683,7 +1683,7 @@
   offers:
     - spend: 500
       amount:
-        - amount: 40000
+        - amount: 50000
       days: 90
       credits: []
       details: Requires paying AF.
@@ -1930,7 +1930,7 @@
   offers:
     - spend: 4000
       amount:
-        - amount: 75000
+        - amount: 50000
       days: 90
       credits: []
   historicalOffers:
@@ -2569,7 +2569,7 @@
   offers:
     - spend: 1000
       amount:
-        - amount: 20000
+        - amount: 30000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/215Y/RO0613CS0T
@@ -2907,12 +2907,9 @@
   offers:
     - spend: 5000
       amount:
-        - amount: 100000
+        - amount: 125000
       days: 90
-      credits:
-        - description: Chase Travel Credit
-          value: 500
-          weight: 0.9
+      credits: []
       referralUrl: https://www.referyourchasecard.com/19t/F0DZZK1XD0
   historicalOffers:
     - spend: 5000

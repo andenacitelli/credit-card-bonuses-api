@@ -90,16 +90,10 @@ export const SAPPHIRE_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 100_000 }],
+        amount: [{ amount: 125_000 }],
         spend: 5000,
         days: 90,
-        credits: [
-          {
-            value: 500,
-            description: "Chase Travel Credit",
-            weight: WEIGHTS.TRAVEL_CREDIT_FUNGIBLE,
-          },
-        ],
+        credits: [],
         referralUrl: REFERRALS.CHASE.SAPPHIRE,
       },
     ],
