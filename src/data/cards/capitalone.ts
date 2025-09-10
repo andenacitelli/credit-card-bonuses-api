@@ -91,8 +91,8 @@ export const CAPITAL_ONE_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 500 }],
-        spend: 4500,
+        amount: [{ amount: 750 }],
+        spend: 6000,
         days: 90,
         credits: [],
       },
@@ -100,7 +100,7 @@ export const CAPITAL_ONE_CARDS: Array<CreditCardInput> = [
     historicalOffers: [
       {
         amount: [{ amount: 750 }],
-        spend: 4500,
+        spend: 6000,
         days: 90,
         credits: [],
       },

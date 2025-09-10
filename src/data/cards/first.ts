@@ -143,15 +143,16 @@ export const FIRST_CARDS: Array<CreditCardInput> = [
     offers: [
       {
         amount: [{ amount: 60_000 }],
-        spend: 3000,
+        spend: 4500,
         days: 90,
         credits: [],
+        details: "+40k @ $25k.",
       },
     ],
     historicalOffers: [
       {
         amount: [{ amount: 50_000 }],
-        spend: 3000,
+        spend: 4500,
         days: 90,
         credits: [],
       },

@@ -18,21 +18,7 @@ export const IHG_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 0 }],
-        spend: 4000,
-        days: 90,
-        credits: [
-          {
-            value: 200_000,
-            weight: WEIGHTS.FREE_NIGHT_CREDIT,
-            currency: schemas.CurrenciesEnum.enum.IHG,
-            description: "5x FNC, <= 40k per",
-          },
-        ],
-        details: "Marked as ending soon.",
-      },
-      {
-        amount: [{ amount: 140_000 }],
+        amount: [{ amount: 165_000 }],
         spend: 3000,
         days: 90,
         credits: [],
@@ -76,10 +62,18 @@ export const IHG_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
+        amount: [{ amount: 200_000 }],
+        spend: 9000,
+        days: 90,
+        credits: [],
+        details: "140k @ $4k, +60k @ $9k.",
+      },
+      {
         amount: [{ amount: 140_000 }],
         spend: 4000,
         days: 90,
         credits: [],
+        details: "140k @ $4k, +60k @ $9k.",
       },
     ],
     historicalOffers: [
@@ -106,17 +100,11 @@ export const IHG_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 120_000 }],
+        amount: [{ amount: 40_000 }, { amount: 100_000, currency: "IHG" }],
         spend: 2000,
         days: 90,
         credits: [],
-        details: "Marked as ending soon.",
-      },
-      {
-        amount: [{ amount: 80_000 }],
-        spend: 2000,
-        days: 90,
-        credits: [],
+        details: "40k + 2x FNC (<= 50k per).",
       },
     ],
     historicalOffers: [

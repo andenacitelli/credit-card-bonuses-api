@@ -373,13 +373,13 @@
   offers:
     - spend: 10000
       amount:
-        - amount: 100000
+        - amount: 150000
       days: 90
       credits: []
-      details: May require Incognito, YMMV.
+      details: Requires Incognito; YMMV.
     - spend: 10000
       amount:
-        - amount: 70000
+        - amount: 100000
       days: 90
       credits: []
   historicalOffers:
@@ -1078,18 +1078,10 @@
   imageUrl: /images/bankofamerica/air-france-klm.webp
   credits: []
   offers:
-    - spend: 3000
-      amount:
-        - amount: 70000
-          currency: FLYING_BLUE
-      days: 90
-      credits: []
     - spend: 2000
       amount:
-        - amount: 60000
+        - amount: 50000
           currency: FLYING_BLUE
-        - amount: 100
-          currency: USD
       days: 90
       credits: []
   historicalOffers:
@@ -1633,7 +1625,7 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 50000
+        - amount: 70000
       days: 90
       credits: []
   historicalOffers:
@@ -1789,7 +1781,7 @@
   offers:
     - spend: 6000
       amount:
-        - amount: 80000
+        - amount: 60000
       days: 365
       credits: []
       details: 60k @ $1k, +20k @ $6k.
@@ -1899,9 +1891,9 @@
   imageUrl: /images/barclays/wyndham-rewards-earner.svg
   credits: []
   offers:
-    - spend: 2000
+    - spend: 1000
       amount:
-        - amount: 60000
+        - amount: 30000
       days: 90
       credits: []
   historicalOffers:
@@ -1909,6 +1901,7 @@
       amount:
         - amount: 75000
       days: 180
+      expiration: 2024-01-01
       credits: []
   discontinued: false
 - cardId: ba9027fba78b5ca88e4d9471aa9e31bd
@@ -1930,7 +1923,7 @@
   offers:
     - spend: 4000
       amount:
-        - amount: 50000
+        - amount: 45000
       days: 90
       credits: []
   historicalOffers:
@@ -2030,7 +2023,7 @@
   offers:
     - spend: 1000
       amount:
-        - amount: 40000
+        - amount: 30000
       days: 90
       credits: []
   historicalOffers:
@@ -2753,19 +2746,9 @@
   imageUrl: /images/chase/ihg-rewards-premier.jpg
   credits: []
   offers:
-    - spend: 4000
-      amount:
-        - amount: 0
-      days: 90
-      credits:
-        - description: 5x FNC, <= 40k per
-          value: 200000
-          weight: 0.7
-          currency: IHG
-      details: Marked as ending soon.
     - spend: 3000
       amount:
-        - amount: 140000
+        - amount: 165000
       days: 90
       credits: []
   historicalOffers:
@@ -2798,11 +2781,18 @@
   imageUrl: /images/chase/ihg-rewards-premier-business.png
   credits: []
   offers:
+    - spend: 9000
+      amount:
+        - amount: 200000
+      days: 90
+      credits: []
+      details: 140k @ $4k, +60k @ $9k.
     - spend: 4000
       amount:
         - amount: 140000
       days: 90
       credits: []
+      details: 140k @ $4k, +60k @ $9k.
   historicalOffers:
     - spend: 3000
       amount:
@@ -2825,15 +2815,12 @@
   offers:
     - spend: 2000
       amount:
-        - amount: 120000
+        - amount: 40000
+        - amount: 100000
+          currency: IHG
       days: 90
       credits: []
-      details: Marked as ending soon.
-    - spend: 2000
-      amount:
-        - amount: 80000
-      days: 90
-      credits: []
+      details: 40k + 2x FNC (<= 50k per).
   historicalOffers:
     - spend: 2000
       amount:
@@ -2997,7 +2984,7 @@
   offers:
     - spend: 5000
       amount:
-        - amount: 75000
+        - amount: 85000
       days: 90
       credits: []
   historicalOffers:
@@ -3049,7 +3036,7 @@
   offers:
     - spend: 5000
       amount:
-        - amount: 75000
+        - amount: 85000
       days: 90
       credits: []
   historicalOffers:
@@ -3177,7 +3164,7 @@
   offers:
     - spend: 5000
       amount:
-        - amount: 75000
+        - amount: 85000
       days: 90
       credits: []
   historicalOffers:
@@ -3350,13 +3337,13 @@
   imageUrl: /images/capitalone/spark-cash.webp
   credits: []
   offers:
-    - spend: 4500
+    - spend: 6000
       amount:
-        - amount: 500
+        - amount: 750
       days: 90
       credits: []
   historicalOffers:
-    - spend: 4500
+    - spend: 6000
       amount:
         - amount: 750
       days: 90
@@ -3971,13 +3958,14 @@
   imageUrl: /images/first/avianca-lifemiles.webp
   credits: []
   offers:
-    - spend: 3000
+    - spend: 4500
       amount:
         - amount: 60000
       days: 90
       credits: []
+      details: +40k @ $25k.
   historicalOffers:
-    - spend: 3000
+    - spend: 4500
       amount:
         - amount: 50000
       days: 90

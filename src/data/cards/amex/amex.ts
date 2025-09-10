@@ -223,14 +223,14 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 100_000 }],
+        amount: [{ amount: 150_000 }],
         spend: 10_000,
         days: 90,
         credits: [],
-        details: "May require Incognito, YMMV.",
+        details: "Requires Incognito; YMMV.",
       },
       {
-        amount: [{ amount: 70_000 }],
+        amount: [{ amount: 100_000 }],
         spend: 10_000,
         days: 90,
         credits: [],
