@@ -457,22 +457,14 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [
-          { amount: 75_000 },
-          { amount: 250, currency: schemas.CurrenciesEnum.enum.USD },
-        ],
-        spend: 6000,
-        days: 180,
-        credits: [],
-        url: "https://resy.com/amex-offers",
-      },
-      {
         amount: [{ amount: 60_000 }],
         spend: 6000,
         days: 180,
         credits: [],
+        url: "https://resy.com/amex-offers",
         details: "Fuzzy language, may be more.",
       },
+      // Resy is reliable, no fallback needed
     ],
 
     historicalOffers: [

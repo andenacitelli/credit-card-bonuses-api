@@ -567,18 +567,11 @@
   offers:
     - spend: 6000
       amount:
-        - amount: 75000
-        - amount: 250
-          currency: USD
-      days: 180
-      credits: []
-      url: https://resy.com/amex-offers
-    - spend: 6000
-      amount:
         - amount: 60000
       days: 180
       credits: []
       details: Fuzzy language, may be more.
+      url: https://resy.com/amex-offers
   historicalOffers:
     - spend: 4000
       amount:
@@ -2641,7 +2634,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
   historicalOffers:
     - spend: 6000
       amount:
@@ -2668,7 +2661,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
   historicalOffers:
     - spend: 8000
       amount:
@@ -2694,7 +2687,7 @@
         - amount: 75000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
   historicalOffers:
     - spend: 6000
       amount:
@@ -2724,7 +2717,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
   historicalOffers:
     - spend: 10000
       amount:
@@ -2960,14 +2953,14 @@
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
   historicalOffers:
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
