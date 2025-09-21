@@ -2772,7 +2772,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
   historicalOffers:
     - spend: 6000
       amount:
@@ -2799,7 +2799,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
   historicalOffers:
     - spend: 8000
       amount:
@@ -2825,7 +2825,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
   historicalOffers:
     - spend: 6000
       amount:
@@ -2854,7 +2854,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
   historicalOffers:
     - spend: 10000
       amount:
@@ -3090,14 +3090,14 @@
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
   historicalOffers:
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
@@ -3758,12 +3758,19 @@
       amount:
         - amount: 80000
       days: 120
+      expiration: 2025-09-29
+      credits: []
+    - spend: 3500
+      amount:
+        - amount: 50000
+      days: 120
       credits: []
   historicalOffers:
     - spend: 3500
       amount:
         - amount: 80000
       days: 120
+      expiration: 2025-09-29
       credits: []
     - spend: 5000
       amount:
@@ -3773,7 +3780,7 @@
       credits: []
   discontinued: false
 - cardId: f6ff3383cc6c52a81eb4715eb8d5de03
-  name: AAdvantage Platinum Select Business
+  name: AAdvantage Business World Elite
   issuer: CITI
   network: MASTERCARD
   currency: AMERICAN
@@ -3781,7 +3788,7 @@
   annualFee: 99
   isAnnualFeeWaived: true
   universalCashbackPercent: 1
-  url: https://creditcards.aa.com/cards/citi-business-card-american-airlines-direct/
+  url: https://creditcards.aa.com/credit-cards/citi-business-card-american-airlines-direct/
   imageUrl: /images/citi/aadvantage-platinum-select-business.webp
   credits:
     - description: First checked bag free

@@ -89,13 +89,14 @@ export const CITI_CARDS: Array<CreditCardInput> = [
         spend: 3500,
         days: 120,
         credits: [],
+        expiration: "2025-09-29",
       },
-      // {
-      //   amount: [{ amount: 50_000 }],
-      //   spend: 2500,
-      //   days: 90,
-      //   credits: [],
-      // },
+      {
+        amount: [{ amount: 50_000 }],
+        spend: 3500,
+        days: 120,
+        credits: [],
+      },
     ],
     historicalOffers: [
       {
@@ -103,6 +104,7 @@ export const CITI_CARDS: Array<CreditCardInput> = [
         spend: 3500,
         days: 120,
         credits: [],
+        expiration: "2025-09-29",
       },
       {
         amount: [{ amount: 125_000 }],
@@ -115,7 +117,7 @@ export const CITI_CARDS: Array<CreditCardInput> = [
   },
   {
     cardId: "f6ff3383cc6c52a81eb4715eb8d5de03",
-    name: "AAdvantage Platinum Select Business",
+    name: "AAdvantage Business World Elite",
     issuer: schemas.IssuersEnum.enum.CITI,
     network: schemas.NetworksEnum.enum.MASTERCARD,
     currency: schemas.CurrenciesEnum.enum.AMERICAN,
@@ -123,7 +125,7 @@ export const CITI_CARDS: Array<CreditCardInput> = [
     annualFee: 99,
     isAnnualFeeWaived: true,
     universalCashbackPercent: 1,
-    url: "https://creditcards.aa.com/cards/citi-business-card-american-airlines-direct/",
+    url: "https://creditcards.aa.com/credit-cards/citi-business-card-american-airlines-direct/",
     imageUrl: "/images/citi/aadvantage-platinum-select-business.webp",
     credits: [
       {
