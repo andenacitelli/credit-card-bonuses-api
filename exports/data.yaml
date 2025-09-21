@@ -2772,7 +2772,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
   historicalOffers:
     - spend: 6000
       amount:
@@ -2799,7 +2799,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
   historicalOffers:
     - spend: 8000
       amount:
@@ -2825,7 +2825,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
   historicalOffers:
     - spend: 6000
       amount:
@@ -2854,7 +2854,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
   historicalOffers:
     - spend: 10000
       amount:
@@ -3090,14 +3090,14 @@
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
   historicalOffers:
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
@@ -3509,7 +3509,6 @@
   issuer: CAPITAL_ONE
   network: VISA
   currency: USD
-  countsTowards524: false
   isBusiness: true
   annualFee: 150
   isAnnualFeeWaived: false
@@ -3532,11 +3531,10 @@
       url: https://www.capitalone.com/small-business/credit-cards/spark-cash-plus/
   discontinued: false
 - cardId: e48261ce7908f2ed8403245217f44de7
-  name: Spark 2x Miles Plus
+  name: Spark 2x Miles
   issuer: CAPITAL_ONE
   network: VISA
   currency: CAPITAL_ONE
-  countsTowards524: false
   isBusiness: true
   annualFee: 99
   isAnnualFeeWaived: false

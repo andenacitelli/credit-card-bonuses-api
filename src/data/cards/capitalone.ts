@@ -145,7 +145,6 @@ export const CAPITAL_ONE_CARDS: Array<CreditCardInput> = [
     isBusiness: true,
     annualFee: 150,
     isAnnualFeeWaived: false,
-    countsTowards524: false,
     universalCashbackPercent: 1,
     url: "https://www.capitalone.com/small-business/credit-cards/spark-cash-plus/",
     imageUrl: "/images/capitalone/spark-cash.webp",
@@ -171,7 +170,7 @@ export const CAPITAL_ONE_CARDS: Array<CreditCardInput> = [
   },
   {
     cardId: "e48261ce7908f2ed8403245217f44de7",
-    name: "Spark 2x Miles Plus",
+    name: "Spark 2x Miles",
     issuer: schemas.IssuersEnum.enum.CAPITAL_ONE,
     network: schemas.NetworksEnum.enum.VISA,
     currency: schemas.CurrenciesEnum.enum.CAPITAL_ONE,
@@ -180,7 +179,6 @@ export const CAPITAL_ONE_CARDS: Array<CreditCardInput> = [
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
     url: "https://www.capitalone.com/small-business/credit-cards/spark-miles/",
-    countsTowards524: false,
     imageUrl: "/images/capitalone/spark-miles.webp",
     credits: [],
     offers: [
