@@ -273,7 +273,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     annualFee: 95,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://world.hyatt.com/content/gp/en/rewards/hyatt-credit-card.html",
+    url: "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt-credit-card", // easier to scrape than direct Hyatt page
     imageUrl: "/images/chase/world-of-hyatt.png",
     credits: [],
     offers: [
@@ -318,7 +318,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     annualFee: 199,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://world.hyatt.com/content/gp/en/rewards/hyatt-credit-card.html",
+    url: "https://creditcards.chase.com/business-credit-cards/world-of-hyatt/hyatt-business-card?iCELL=6C1Y", // easier to scrape than direct Hyatt page
     imageUrl: "/images/chase/world-of-hyatt.png",
     credits: [],
     offers: [

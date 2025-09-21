@@ -41,6 +41,12 @@
   offers:
     - spend: 2000
       amount:
+        - amount: 80000
+      days: 180
+      expiration: 2025-10-29
+      credits: []
+    - spend: 2000
+      amount:
         - amount: 50000
       days: 180
       credits: []
@@ -49,7 +55,7 @@
       amount:
         - amount: 80000
       days: 180
-      expiration: 2025-04-02
+      expiration: 2025-10-29
       credits: []
   discontinued: false
 - cardId: 509a09cbd31edd8df85928d044ef7802
@@ -67,6 +73,12 @@
   offers:
     - spend: 4000
       amount:
+        - amount: 90000
+      days: 180
+      expiration: 2025-10-29
+      credits: []
+    - spend: 4000
+      amount:
         - amount: 60000
       days: 180
       credits: []
@@ -75,7 +87,7 @@
       amount:
         - amount: 90000
       days: 180
-      expiration: 2025-04-02
+      expiration: 2025-10-29
       credits: []
   discontinued: false
 - cardId: bdf4ae17ff6808592f785fff3ae81a2a
@@ -96,6 +108,12 @@
   offers:
     - spend: 3000
       amount:
+        - amount: 90000
+      days: 180
+      expiration: 2025-10-29
+      credits: []
+    - spend: 3000
+      amount:
         - amount: 60000
       days: 180
       credits: []
@@ -104,7 +122,7 @@
       amount:
         - amount: 90000
       days: 180
-      expiration: 2025-04-02
+      expiration: 2025-10-29
       credits: []
   discontinued: false
 - cardId: 1e9c3dae029612a7a40adf6144bf43d4
@@ -131,6 +149,12 @@
   offers:
     - spend: 6000
       amount:
+        - amount: 100000
+      days: 180
+      expiration: 2025-10-29
+      credits: []
+    - spend: 6000
+      amount:
         - amount: 70000
       days: 180
       credits: []
@@ -139,7 +163,7 @@
       amount:
         - amount: 100000
       days: 180
-      expiration: 2025-04-02
+      expiration: 2025-10-29
       credits: []
   discontinued: false
 - cardId: 2a3949c2232cf6646a59531728264a5c
@@ -158,17 +182,23 @@
       value: 240
       weight: 0.8
   offers:
+    - spend: 6000
+      amount:
+        - amount: 125000
+      days: 180
+      expiration: 2025-10-29
+      credits: []
     - spend: 5000
       amount:
         - amount: 70000
       days: 180
       credits: []
   historicalOffers:
-    - spend: 5000
+    - spend: 6000
       amount:
-        - amount: 100000
-      days: 90
-      expiration: 2025-04-02
+        - amount: 125000
+      days: 180
+      expiration: 2025-10-29
       credits: []
   discontinued: false
 - cardId: a8032dfcc9bc6af82eb1a0a487e710b5
@@ -186,6 +216,12 @@
   offers:
     - spend: 10000
       amount:
+        - amount: 125000
+      days: 180
+      expiration: 2025-10-29
+      credits: []
+    - spend: 10000
+      amount:
         - amount: 80000
       days: 180
       credits: []
@@ -194,7 +230,7 @@
       amount:
         - amount: 110000
       days: 180
-      expiration: 2025-04-02
+      expiration: 2025-10-29
       credits: []
   discontinued: false
 - cardId: a37efd1da4e7f0d468c87d3b6f021250
@@ -373,12 +409,6 @@
   offers:
     - spend: 10000
       amount:
-        - amount: 150000
-      days: 90
-      credits: []
-      details: Requires Incognito; YMMV.
-    - spend: 10000
-      amount:
         - amount: 100000
       days: 90
       credits: []
@@ -453,7 +483,7 @@
   offers:
     - spend: 20000
       amount:
-        - amount: 150000
+        - amount: 200000
       days: 90
       credits: []
   historicalOffers:
@@ -796,7 +826,7 @@
   network: AMERICAN_EXPRESS
   currency: AMERICAN_EXPRESS
   isBusiness: false
-  annualFee: 695
+  annualFee: 895
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
   url: https://www.americanexpress.com/us/credit-cards/card/platinum/
@@ -805,23 +835,50 @@
     - description: PreCheck Credit
       value: 100
       weight: 0.4
-    - description: Hotel Credit
-      value: 200
-      weight: 0.9
-    - description: Bi-yearly $50 Saks Credit
-      value: 100
-      weight: 0.6
-    - description: $20/mo Digital Entertainment Credit
-      value: 200
+    - description: Lounge Access
+      value: 850
       weight: 0.25
+    - description: Hotel Credit (2x/yr $300)
+      value: 600
+      weight: 0.9
+    - description: Misc. Hotel Perks
+      value: 250
+      weight: 0.4
+    - description: Marriott/Hilton Gold Status
+      value: 200
+      weight: 0.5
+    - description: Avis/Hertz/National Gold Status
+      value: 100
+      weight: 0.5
     - description: $15/mo Uber Cash
       value: 200
+      weight: 0.5
+    - description: Uber One Membership
+      value: 120
       weight: 0.5
     - description: Airline Fee Credit
       value: 200
       weight: 0.25
+    - description: Resy Credit ($100/qtr)
+      value: 400
+      weight: 0.8
+    - description: Digital Entertainment Credit ($25/mo)
+      value: 300
+      weight: 0.25
+    - description: Lululemon Credit
+      value: 300
+      weight: 0.2
     - description: Walmart+ Credit
       value: 155
+      weight: 0.3
+    - description: Saks Credit
+      value: 100
+      weight: 0.2
+    - description: Oura Ring Credit
+      value: 200
+      weight: 0.2
+    - description: Equinox Credit
+      value: 300
       weight: 0.2
   offers:
     - spend: 8000
@@ -831,6 +888,11 @@
       credits: []
       details: Fuzzy language, may be up to 175k.
       url: https://resy.com/amex-offers
+    - spend: 8000
+      amount:
+        - amount: 75000
+      days: 180
+      credits: []
   historicalOffers:
     - spend: 8000
       amount:
@@ -844,7 +906,7 @@
   network: AMERICAN_EXPRESS
   currency: AMERICAN_EXPRESS
   isBusiness: false
-  annualFee: 695
+  annualFee: 895
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
   url: https://www.schwab.com/credit-cards#panel--50-media-right-117911
@@ -853,26 +915,57 @@
     - description: PreCheck Credit
       value: 100
       weight: 0.4
-    - description: Hotel Credit
-      value: 200
-      weight: 0.9
-    - description: $20/mo Digital Entertainment Credit
-      value: 200
+    - description: Lounge Access
+      value: 850
       weight: 0.25
+    - description: Hotel Credit (2x/yr $300)
+      value: 600
+      weight: 0.9
+    - description: Misc. Hotel Perks
+      value: 250
+      weight: 0.4
+    - description: Marriott/Hilton Gold Status
+      value: 200
+      weight: 0.5
+    - description: Avis/Hertz/National Gold Status
+      value: 100
+      weight: 0.5
     - description: $15/mo Uber Cash
       value: 200
+      weight: 0.5
+    - description: Uber One Membership
+      value: 120
       weight: 0.5
     - description: Airline Fee Credit
       value: 200
       weight: 0.25
+    - description: Resy Credit ($100/qtr)
+      value: 400
+      weight: 0.8
+    - description: Digital Entertainment Credit ($25/mo)
+      value: 300
+      weight: 0.25
+    - description: Lululemon Credit
+      value: 300
+      weight: 0.2
     - description: Walmart+ Credit
       value: 155
+      weight: 0.3
+    - description: Saks Credit
+      value: 100
+      weight: 0.2
+    - description: Oura Ring Credit
+      value: 200
+      weight: 0.2
+    - description: Equinox Credit
+      value: 300
       weight: 0.2
   offers:
     - spend: 8000
       amount:
-        - amount: 80000
+        - amount: 125000
       days: 180
+      expiration: 2025-11-12
       credits: []
   historicalOffers:
     - spend: 8000
@@ -888,38 +981,76 @@
   network: AMERICAN_EXPRESS
   currency: AMERICAN_EXPRESS
   isBusiness: false
-  annualFee: 695
+  annualFee: 895
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://apply.americanexpress.com/amex-morgan-stanley-credit-cards/
+  url: https://apply.americanexpress.com/amex-morgan-stanley-credit-cards
   imageUrl: /images/amex/platinum-morgan-stanley.webp
   credits:
     - description: PreCheck Credit
       value: 100
       weight: 0.4
-    - description: Hotel Credit
-      value: 200
-      weight: 0.9
-    - description: $20/mo Digital Entertainment Credit
-      value: 200
+    - description: Lounge Access
+      value: 850
       weight: 0.25
+    - description: Hotel Credit (2x/yr $300)
+      value: 600
+      weight: 0.9
+    - description: Misc. Hotel Perks
+      value: 250
+      weight: 0.4
+    - description: Marriott/Hilton Gold Status
+      value: 200
+      weight: 0.5
+    - description: Avis/Hertz/National Gold Status
+      value: 100
+      weight: 0.5
     - description: $15/mo Uber Cash
       value: 200
+      weight: 0.5
+    - description: Uber One Membership
+      value: 120
       weight: 0.5
     - description: Airline Fee Credit
       value: 200
       weight: 0.25
+    - description: Resy Credit ($100/qtr)
+      value: 400
+      weight: 0.8
+    - description: Digital Entertainment Credit ($25/mo)
+      value: 300
+      weight: 0.25
+    - description: Lululemon Credit
+      value: 300
+      weight: 0.2
     - description: Walmart+ Credit
       value: 155
+      weight: 0.3
+    - description: Saks Credit
+      value: 100
       weight: 0.2
-  offers: []
-  historicalOffers:
-    - spend: 6000
+    - description: Oura Ring Credit
+      value: 200
+      weight: 0.2
+    - description: Equinox Credit
+      value: 300
+      weight: 0.2
+  offers:
+    - spend: 8000
       amount:
-        - amount: 150000
+        - amount: 125000
       days: 180
-      expiration: 2025-06-11
+      expiration: 2025-11-12
       credits: []
+      details: Requires a relationship with Morgan Stanley.
+  historicalOffers:
+    - spend: 8000
+      amount:
+        - amount: 125000
+      days: 180
+      expiration: 2025-11-12
+      credits: []
+      details: Requires a relationship with Morgan Stanley.
   discontinued: false
 - cardId: 653b14a655f4edc9bfc0332e9370e139
   name: Marriott Bonvoy Bevy
@@ -986,8 +1117,9 @@
   offers:
     - spend: 1000
       amount:
-        - amount: 200
+        - amount: 300
       days: 90
+      expiration: 2025-11-12
       credits: []
   historicalOffers:
     - spend: 1000
@@ -1074,7 +1206,6 @@
     - spend: 2000
       amount:
         - amount: 50000
-          currency: FLYING_BLUE
       days: 90
       credits: []
   historicalOffers:
@@ -1692,11 +1823,12 @@
   imageUrl: /images/barclays/hawaiian-airlines-world-elite.png
   credits: []
   offers:
-    - spend: 2000
+    - spend: 5000
       amount:
-        - amount: 60000
+        - amount: 80000
       days: 90
       credits: []
+      details: 50k @ $2k, 80k @ $5k.
   historicalOffers:
     - spend: 2000
       amount:
@@ -1914,7 +2046,7 @@
       weight: 1
       currency: WYNDHAM
   offers:
-    - spend: 4000
+    - spend: 3000
       amount:
         - amount: 45000
       days: 90
@@ -1943,9 +2075,9 @@
       weight: 1
       currency: WYNDHAM
   offers:
-    - spend: 2000
+    - spend: 1000
       amount:
-        - amount: 90000
+        - amount: 45000
       days: 90
       credits: []
   historicalOffers:
@@ -2096,7 +2228,7 @@
         - amount: 85000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/252p/HAZXLB93C3
+      referralUrl: https://www.referyourchasecard.com/252q/7X26JH6QGV
   historicalOffers:
     - spend: 5000
       amount:
@@ -2123,7 +2255,7 @@
         - amount: 30000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/252p/HAZXLB93C3
+      referralUrl: https://www.referyourchasecard.com/252q/7X26JH6QGV
   historicalOffers:
     - spend: 1000
       amount:
@@ -2150,7 +2282,7 @@
           currency: MARRIOTT
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/252p/HAZXLB93C3
+      referralUrl: https://www.referyourchasecard.com/252q/7X26JH6QGV
   historicalOffers:
     - spend: 3000
       amount:
@@ -2159,7 +2291,7 @@
       days: 90
       credits: []
       details: 5x FNC, <= 50k per
-      referralUrl: https://www.referyourchasecard.com/252p/HAZXLB93C3
+      referralUrl: https://www.referyourchasecard.com/252q/7X26JH6QGV
   discontinued: false
 - cardId: 682a4f0c425d15b5ca34214378cfc3de
   name: Southwest Performance Business
@@ -2184,16 +2316,22 @@
       weight: 1
       currency: SOUTHWEST
   offers:
+    - spend: 10000
+      amount:
+        - amount: 120000
+      days: 90
+      credits: []
+      details: "NOTE: Spend is usually $5k."
+      referralUrl: https://www.referyourchasecard.com/226s/1EI0FYIHYB
+  historicalOffers:
     - spend: 5000
       amount:
         - amount: 80000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/226m/EK4J5RUTDJ
-  historicalOffers:
-    - spend: 5000
+    - spend: 10000
       amount:
-        - amount: 80000
+        - amount: 120000
       days: 90
       credits: []
   discontinued: false
@@ -2219,10 +2357,10 @@
   offers:
     - spend: 4000
       amount:
-        - amount: 100000
+        - amount: 50000
       days: 150
       credits: []
-      referralUrl: https://www.referyourchasecard.com/226m/EK4J5RUTDJ
+      referralUrl: https://www.referyourchasecard.com/226s/1EI0FYIHYB
   historicalOffers:
     - spend: 4000
       amount:
@@ -2253,10 +2391,10 @@
   offers:
     - spend: 4000
       amount:
-        - amount: 100000
+        - amount: 50000
       days: 150
       credits: []
-      referralUrl: https://www.referyourchasecard.com/226m/EK4J5RUTDJ
+      referralUrl: https://www.referyourchasecard.com/226s/1EI0FYIHYB
   historicalOffers:
     - spend: 4000
       amount:
@@ -2290,7 +2428,7 @@
         - amount: 60000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/226m/EK4J5RUTDJ
+      referralUrl: https://www.referyourchasecard.com/226s/1EI0FYIHYB
   historicalOffers:
     - spend: 3000
       amount:
@@ -2325,10 +2463,10 @@
   offers:
     - spend: 4000
       amount:
-        - amount: 100000
+        - amount: 50000
       days: 150
       credits: []
-      referralUrl: https://www.referyourchasecard.com/226m/EK4J5RUTDJ
+      referralUrl: https://www.referyourchasecard.com/226s/1EI0FYIHYB
   historicalOffers:
     - spend: 4000
       amount:
@@ -2634,7 +2772,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
   historicalOffers:
     - spend: 6000
       amount:
@@ -2661,7 +2799,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
   historicalOffers:
     - spend: 8000
       amount:
@@ -2684,18 +2822,17 @@
   offers:
     - spend: 6000
       amount:
-        - amount: 75000
+        - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
   historicalOffers:
     - spend: 6000
       amount:
         - amount: 90000
       days: 90
-      expiration: 2024-11-01
+      expiration: 2025-09-20
       credits: []
-      url: https://creditcards.chase.com/business-credit-cards/ink/unlimited
   discontinued: false
 - cardId: 94c9b624738adce05fbe0e5bfc5d620e
   name: Ink Business Premier
@@ -2717,7 +2854,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
   historicalOffers:
     - spend: 10000
       amount:
@@ -2953,14 +3090,14 @@
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
   historicalOffers:
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
@@ -3177,7 +3314,7 @@
   annualFee: 95
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://world.hyatt.com/content/gp/en/rewards/hyatt-credit-card.html
+  url: https://creditcards.chase.com/travel-credit-cards/world-of-hyatt-credit-card
   imageUrl: /images/chase/world-of-hyatt.png
   credits: []
   offers:
@@ -3211,7 +3348,7 @@
   annualFee: 199
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://world.hyatt.com/content/gp/en/rewards/hyatt-credit-card.html
+  url: https://creditcards.chase.com/business-credit-cards/world-of-hyatt/hyatt-business-card?iCELL=6C1Y
   imageUrl: /images/chase/world-of-hyatt.png
   credits: []
   offers:
@@ -3723,6 +3860,50 @@
       amount:
         - amount: 300
       days: 180
+      credits: []
+  discontinued: false
+- cardId: 19c94f90056968ebde2882f7bb0f1010
+  name: Strata Elite
+  issuer: CITI
+  network: MASTERCARD
+  currency: CITI
+  isBusiness: false
+  annualFee: 595
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1.5
+  url: https://www.citi.com/credit-cards/citi-strata-elite-credit-card
+  imageUrl: /images/citi/strata-elite.webp
+  credits:
+    - description: PreCheck Credit
+      value: 100
+      weight: 0.4
+    - description: Lounge Access
+      value: 469
+      weight: 0.25
+    - description: American Airlines Lounge Access
+      value: 150
+      weight: 0.25
+    - description: Hotel Credit
+      value: 300
+      weight: 0.9
+    - description: '"Splurge" Credit (1stDibs, American Airlines, Best Buy, Future
+        Personal Training, Live Nation)'
+      value: 200
+      weight: 0.3
+    - description: Blacklane Credit
+      value: 200
+      weight: 0.2
+  offers:
+    - spend: 4000
+      amount:
+        - amount: 80000
+      days: 90
+      credits: []
+  historicalOffers:
+    - spend: 4000
+      amount:
+        - amount: 80000
+      days: 90
       credits: []
   discontinued: false
 - cardId: d7e2e5b5e595ca6510c101349c914513

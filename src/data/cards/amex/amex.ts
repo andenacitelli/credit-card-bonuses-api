@@ -2,9 +2,99 @@ import { schemas } from "@/generated/api.client";
 import { WEIGHTS } from "@/data/weights";
 import { REFERRALS } from "../../referral-links";
 import { DISCONTINUED_OFFERS } from "../../placeholder-offers";
-import { CreditCardInput } from "../../types";
+import { Credit, CreditCardInput } from "../../types";
 import { CREDITS } from "@/data/credits";
 import { DELTA_CARDS } from "@/data/cards/amex/delta";
+
+const PLATINUM_CREDITS: Array<Credit> = [
+  /**
+   * Travel
+   */
+  CREDITS.PRECHECK_OR_SIMILAR,
+  {
+    value: 850,
+    description: "Lounge Access",
+    weight: WEIGHTS.LOUNGES,
+  },
+  {
+    value: 600,
+    description: "Hotel Credit (2x/yr $300)",
+    weight: WEIGHTS.TRAVEL_CREDIT_FUNGIBLE,
+  },
+  {
+    value: 250,
+    description: "Misc. Hotel Perks",
+    weight: 0.4,
+  },
+  {
+    value: 200,
+    description: "Marriott/Hilton Gold Status",
+    weight: 0.5,
+  },
+  {
+    value: 100,
+    description: "Avis/Hertz/National Gold Status",
+    weight: 0.5,
+  },
+  {
+    value: 200,
+    description: "$15/mo Uber Cash",
+    weight: WEIGHTS.RIDESHARE_CREDIT,
+  },
+  {
+    value: 120,
+    description: "Uber One Membership",
+    weight: WEIGHTS.RIDESHARE_CREDIT,
+  },
+  {
+    value: 200,
+    description: "Airline Fee Credit",
+    weight: WEIGHTS.AIRLINE_FEE_CREDIT,
+  },
+
+  /**
+   * Dining & Entertainment
+   */
+  {
+    value: 400,
+    description: "Resy Credit ($100/qtr)",
+    weight: WEIGHTS.DINING_CREDIT,
+  },
+  {
+    value: 300,
+    description: "Digital Entertainment Credit ($25/mo)",
+    weight: WEIGHTS.ENTERTAINMENT_CREDIT,
+  },
+
+  /**
+   * Shopping & Wellness
+   */
+  {
+    value: 300,
+    description: "Lululemon Credit",
+    weight: 0.2,
+  },
+  {
+    value: 155,
+    description: "Walmart+ Credit",
+    weight: 0.3,
+  },
+  {
+    value: 100,
+    description: "Saks Credit",
+    weight: 0.2,
+  },
+  {
+    value: 200,
+    description: "Oura Ring Credit",
+    weight: 0.2,
+  },
+  {
+    value: 300,
+    description: "Equinox Credit",
+    weight: 0.2,
+  },
+];
 
 export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
   ...DELTA_CARDS,
@@ -142,7 +232,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
       {
         value: 7 * 12,
         description: "$7/mo Disney Bundle Credit",
-        weight: WEIGHTS.STREAMING_CREDIT,
+        weight: WEIGHTS.ENTERTAINMENT_CREDIT,
       },
     ],
     offers: [
@@ -186,7 +276,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
       {
         value: 84,
         description: "$7/mo Disney Bundle Credit",
-        weight: WEIGHTS.STREAMING_CREDIT,
+        weight: WEIGHTS.ENTERTAINMENT_CREDIT,
       },
     ],
     offers: [
@@ -222,13 +312,6 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     imageUrl: "/images/amex/business-gold.webp",
     credits: [],
     offers: [
-      {
-        amount: [{ amount: 150_000 }],
-        spend: 10_000,
-        days: 90,
-        credits: [],
-        details: "Requires Incognito; YMMV.",
-      },
       {
         amount: [{ amount: 100_000 }],
         spend: 10_000,
@@ -328,7 +411,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 150_000 }],
+        amount: [{ amount: 200_000 }],
         spend: 20_000,
         days: 90,
         credits: [],
@@ -752,44 +835,12 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
     currency: schemas.CurrenciesEnum.enum.AMERICAN_EXPRESS,
     isBusiness: false,
-    annualFee: 695,
+    annualFee: 895,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
     url: "https://www.americanexpress.com/us/credit-cards/card/platinum/",
     imageUrl: "/images/amex/platinum.webp",
-    credits: [
-      CREDITS.PRECHECK_OR_SIMILAR,
-      {
-        value: 200,
-        description: "Hotel Credit",
-        weight: WEIGHTS.TRAVEL_CREDIT_FUNGIBLE,
-      },
-      {
-        value: 100,
-        description: "Bi-yearly $50 Saks Credit",
-        weight: 0.6,
-      },
-      {
-        value: 200,
-        description: "$20/mo Digital Entertainment Credit",
-        weight: WEIGHTS.STREAMING_CREDIT,
-      },
-      {
-        value: 200,
-        description: "$15/mo Uber Cash",
-        weight: WEIGHTS.RIDESHARE_CREDIT,
-      },
-      {
-        value: 200,
-        description: "Airline Fee Credit",
-        weight: WEIGHTS.AIRLINE_FEE_CREDIT,
-      },
-      {
-        value: 155,
-        description: "Walmart+ Credit",
-        weight: 0.2,
-      },
-    ],
+    credits: PLATINUM_CREDITS,
     offers: [
       {
         amount: [{ amount: 100_000 }],
@@ -798,6 +849,12 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
         credits: [],
         url: "https://resy.com/amex-offers",
         details: "Fuzzy language, may be up to 175k.",
+      },
+      {
+        amount: [{ amount: 75_000 }],
+        spend: 8000,
+        days: 180,
+        credits: [],
       },
       // resy is reliable, no need to include a fallback
     ],
@@ -817,45 +874,19 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
     currency: schemas.CurrenciesEnum.enum.AMERICAN_EXPRESS,
     isBusiness: false,
-    annualFee: 695,
+    annualFee: 895,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
     url: "https://www.schwab.com/credit-cards#panel--50-media-right-117911",
     imageUrl: "/images/amex/platinum-schwab.webp",
-    credits: [
-      CREDITS.PRECHECK_OR_SIMILAR,
-      {
-        value: 200,
-        description: "Hotel Credit",
-        weight: WEIGHTS.TRAVEL_CREDIT_FUNGIBLE,
-      },
-      {
-        value: 200,
-        description: "$20/mo Digital Entertainment Credit",
-        weight: WEIGHTS.STREAMING_CREDIT,
-      },
-      {
-        value: 200,
-        description: "$15/mo Uber Cash",
-        weight: WEIGHTS.RIDESHARE_CREDIT,
-      },
-      {
-        value: 200,
-        description: "Airline Fee Credit",
-        weight: WEIGHTS.AIRLINE_FEE_CREDIT,
-      },
-      {
-        value: 155,
-        description: "Walmart+ Credit",
-        weight: 0.2,
-      },
-    ],
+    credits: PLATINUM_CREDITS,
     offers: [
       {
-        amount: [{ amount: 80_000 }],
+        amount: [{ amount: 125_000 }],
         spend: 8000,
         days: 180,
         credits: [],
+        expiration: "2025-11-12",
       },
     ],
     historicalOffers: [
@@ -875,64 +906,30 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     network: schemas.NetworksEnum.enum.AMERICAN_EXPRESS,
     currency: schemas.CurrenciesEnum.enum.AMERICAN_EXPRESS,
     isBusiness: false,
-    annualFee: 695,
+    annualFee: 895,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://apply.americanexpress.com/amex-morgan-stanley-credit-cards/",
+    url: "https://apply.americanexpress.com/amex-morgan-stanley-credit-cards",
     imageUrl: "/images/amex/platinum-morgan-stanley.webp",
-    credits: [
-      CREDITS.PRECHECK_OR_SIMILAR,
-      {
-        value: 200,
-        description: "Hotel Credit",
-        weight: WEIGHTS.TRAVEL_CREDIT_FUNGIBLE,
-      },
-      {
-        value: 200,
-        description: "$20/mo Digital Entertainment Credit",
-        weight: WEIGHTS.STREAMING_CREDIT,
-      },
-      {
-        value: 200,
-        description: "$15/mo Uber Cash",
-        weight: WEIGHTS.RIDESHARE_CREDIT,
-      },
-      {
-        value: 200,
-        description: "Airline Fee Credit",
-        weight: WEIGHTS.AIRLINE_FEE_CREDIT,
-      },
-      {
-        value: 155,
-        description: "Walmart+ Credit",
-        weight: 0.2,
-      },
-    ],
+    credits: PLATINUM_CREDITS,
     offers: [
-      // TODO: None available right now? Their page 404s
-      // {
-      //   amount: [{ amount: 150_000 }],
-      //   spend: 8000,
-      //   days: 180,
-      //   credits: [],
-      //   details: "Requires a relationship with Morgan Stanley.",
-      //   expiration: "2025-06-11",
-      // },
-      // {
-      //   amount: [{ amount: 80_000 }],
-      //   spend: 8000,
-      //   days: 180,
-      //   credits: [],
-      //   details: "Requires a relationship with Morgan Stanley.",
-      // },
+      {
+        amount: [{ amount: 125_000 }],
+        spend: 8000,
+        days: 180,
+        credits: [],
+        details: "Requires a relationship with Morgan Stanley.",
+        expiration: "2025-11-12",
+      },
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 150_000 }],
-        credits: [],
-        spend: 6000,
+        amount: [{ amount: 125_000 }],
+        spend: 8000,
         days: 180,
-        expiration: "2025-06-11",
+        credits: [],
+        details: "Requires a relationship with Morgan Stanley.",
+        expiration: "2025-11-12",
       },
     ],
   },
@@ -1014,10 +1011,11 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 200 }],
+        amount: [{ amount: 300 }],
         spend: 1000,
         days: 90,
         credits: [],
+        expiration: "2025-11-12",
       },
     ],
     historicalOffers: [

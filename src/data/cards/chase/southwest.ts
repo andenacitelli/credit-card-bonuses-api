@@ -38,17 +38,24 @@ export const SOUTHWEST_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 80_000 }],
-        spend: 5000,
+        amount: [{ amount: 120_000 }],
+        spend: 10000,
         days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.SOUTHWEST,
+        details: "NOTE: Spend is usually $5k.",
       },
     ],
     historicalOffers: [
       {
         amount: [{ amount: 80_000 }],
         spend: 5000,
+        credits: [],
+        days: 90,
+      },
+      {
+        amount: [{ amount: 120_000 }],
+        spend: 10_000,
         credits: [],
         days: 90,
       },
@@ -77,7 +84,7 @@ export const SOUTHWEST_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 100_000 }],
+        amount: [{ amount: 50_000 }],
         spend: 4000,
         days: 150,
         credits: [],
@@ -117,7 +124,7 @@ export const SOUTHWEST_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 100_000 }],
+        amount: [{ amount: 50_000 }],
         spend: 4000,
         days: 150,
         credits: [],
@@ -202,7 +209,7 @@ export const SOUTHWEST_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 100_000 }],
+        amount: [{ amount: 50_000 }],
         spend: 4000,
         days: 150,
         credits: [],

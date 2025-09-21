@@ -1,6 +1,7 @@
 import { schemas } from "@/generated/api.client";
 import { WEIGHTS } from "../weights";
 import { CreditCardInput } from "../types";
+import { CREDITS } from "@/data/credits";
 export const CITI_CARDS: Array<CreditCardInput> = [
   {
     cardId: "3543149f6555df6f7e4974923c55d853",
@@ -217,6 +218,64 @@ export const CITI_CARDS: Array<CreditCardInput> = [
         spend: 750,
         credits: [],
         days: 180,
+      },
+    ],
+  },
+  {
+    cardId: "19c94f90056968ebde2882f7bb0f1010",
+    name: "Strata Elite",
+    issuer: schemas.IssuersEnum.enum.CITI,
+    network: schemas.NetworksEnum.enum.MASTERCARD,
+    currency: schemas.CurrenciesEnum.enum.CITI,
+    isBusiness: false,
+    annualFee: 595,
+    isAnnualFeeWaived: false,
+    universalCashbackPercent: 1.5,
+    url: "https://www.citi.com/credit-cards/citi-strata-elite-credit-card",
+    imageUrl: "/images/citi/strata-elite.webp",
+    credits: [
+      CREDITS.PRECHECK_OR_SIMILAR,
+      {
+        value: 469,
+        description: "Lounge Access",
+        weight: WEIGHTS.LOUNGES,
+      },
+      {
+        value: 150, // dunno, ballpark
+        description: "American Airlines Lounge Access",
+        weight: WEIGHTS.LOUNGES,
+      },
+      {
+        value: 300,
+        description: "Hotel Credit",
+        weight: WEIGHTS.TRAVEL_CREDIT_FUNGIBLE,
+      },
+      {
+        value: 200,
+        description:
+          '"Splurge" Credit (1stDibs, American Airlines, Best Buy, Future Personal Training, Live Nation)',
+        weight: 0.3, // american airlines and live nation are nice but otherwise these are meh
+      },
+      {
+        value: 200,
+        description: "Blacklane Credit",
+        weight: 0.2, // pretty niche service
+      },
+    ],
+    offers: [
+      {
+        amount: [{ amount: 80_000 }],
+        spend: 4000,
+        days: 90,
+        credits: [],
+      },
+    ],
+    historicalOffers: [
+      {
+        amount: [{ amount: 80_000 }],
+        spend: 4000,
+        days: 90,
+        credits: [],
       },
     ],
   },

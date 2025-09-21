@@ -41,7 +41,7 @@ export const WEIGHTS = {
    * Credit for streaming services
    * These are oftentimes money you wouldn't otherwise spend, so are valued fairly low (but nonzero)
    */
-  STREAMING_CREDIT: 0.25,
+  ENTERTAINMENT_CREDIT: 0.25,
 
   /**
    * Not frequently useful

@@ -81,7 +81,7 @@ export const INK_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 75_000 }],
+        amount: [{ amount: 90_000 }],
         spend: 6000,
         days: 90,
         credits: [],
@@ -94,8 +94,7 @@ export const INK_CARDS: Array<CreditCardInput> = [
         spend: 6000,
         days: 90,
         credits: [],
-        url: "https://creditcards.chase.com/business-credit-cards/ink/unlimited",
-        expiration: "2024-11-01",
+        expiration: "2025-09-20",
       },
     ],
   },

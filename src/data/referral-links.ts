@@ -14,9 +14,9 @@ export const REFERRALS = {
     FREEDOM: getRandom(["https://www.referyourchasecard.com/18A/A85BX0FG21"]),
     UNITED: getRandom(["https://www.referyourchasecard.com/215d/OPTN75PXFL"]),
     SOUTHWEST: getRandom([
-      "https://www.referyourchasecard.com/226m/EK4J5RUTDJ",
+      "https://www.referyourchasecard.com/226s/1EI0FYIHYB",
     ]),
-    MARRIOTT: getRandom(["https://www.referyourchasecard.com/252p/HAZXLB93C3"]),
+    MARRIOTT: getRandom(["https://www.referyourchasecard.com/252q/7X26JH6QGV"]),
   },
   AMERICAN_EXPRESS: {
     BLUE_BUSINESS_PLUS: getRandom([
