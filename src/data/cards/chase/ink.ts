@@ -18,7 +18,7 @@ export const INK_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 75_000 }],
+        amount: [{ amount: 90_000 }],
         spend: 6000,
         days: 180,
         credits: [],
