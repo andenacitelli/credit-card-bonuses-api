@@ -657,7 +657,7 @@
   offers:
     - spend: 2000
       amount:
-        - amount: 80000
+        - amount: 100000
       days: 180
       credits:
         - description: Statement Credit
@@ -689,7 +689,7 @@
   offers:
     - spend: 6000
       amount:
-        - amount: 150000
+        - amount: 175000
       days: 180
       credits: []
   historicalOffers:
@@ -719,7 +719,7 @@
   offers:
     - spend: 6000
       amount:
-        - amount: 130000
+        - amount: 175000
       days: 180
       credits: []
   historicalOffers:
@@ -744,7 +744,7 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 130000
+        - amount: 155000
       days: 180
       credits: []
   historicalOffers:
@@ -773,9 +773,8 @@
   offers:
     - spend: 6000
       amount:
-        - amount: 185000
+        - amount: 100000
       days: 180
-      expiration: 2025-09-24
       credits: []
   historicalOffers:
     - spend: 6000
@@ -1067,9 +1066,8 @@
   offers:
     - spend: 7000
       amount:
-        - amount: 155000
+        - amount: 85000
       days: 180
-      expiration: 2025-09-24
       credits: []
   historicalOffers:
     - spend: 5000
@@ -1879,7 +1877,7 @@
   offers:
     - spend: 6000
       amount:
-        - amount: 80000
+        - amount: 60000
       days: 365
       credits: []
       details: 60k @ $1k, +20k @ $6k.
@@ -2252,7 +2250,7 @@
   offers:
     - spend: 1000
       amount:
-        - amount: 30000
+        - amount: 60000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/252q/7X26JH6QGV
@@ -2278,8 +2276,11 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 150000
+        - amount: 125000
           currency: MARRIOTT
+        - amount: 50000
+          currency: MARRIOTT
+          weight: 0.7
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/252q/7X26JH6QGV
@@ -2772,7 +2773,7 @@
         - amount: 90000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
+      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
   historicalOffers:
     - spend: 6000
       amount:
@@ -2799,7 +2800,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
+      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
   historicalOffers:
     - spend: 8000
       amount:
@@ -2825,7 +2826,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
+      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
   historicalOffers:
     - spend: 6000
       amount:
@@ -2854,7 +2855,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
+      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
   historicalOffers:
     - spend: 10000
       amount:
@@ -3090,14 +3091,14 @@
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
+      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
   historicalOffers:
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
+      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
@@ -3320,10 +3321,7 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 600
-          currency: HYATT
-          description: 2x FNC @ Category 1-4 Property
-          weight: 0.7
+        - amount: 30000
       days: 90
       credits: []
   historicalOffers:
@@ -3797,7 +3795,7 @@
   offers:
     - spend: 4000
       amount:
-        - amount: 65000
+        - amount: 75000
       days: 120
       credits: []
   historicalOffers:
@@ -3901,13 +3899,13 @@
   offers:
     - spend: 4000
       amount:
-        - amount: 80000
+        - amount: 100000
       days: 90
       credits: []
   historicalOffers:
-    - spend: 4000
+    - spend: 5000
       amount:
-        - amount: 80000
+        - amount: 100000
       days: 90
       credits: []
   discontinued: false
@@ -4139,10 +4137,9 @@
   offers:
     - spend: 4500
       amount:
-        - amount: 60000
+        - amount: 40000
       days: 90
       credits: []
-      details: +40k @ $25k.
   historicalOffers:
     - spend: 4500
       amount:
@@ -4525,7 +4522,7 @@
   offers:
     - spend: 1000
       amount:
-        - amount: 30000
+        - amount: 20000
       days: 90
       credits: []
   historicalOffers:
@@ -4662,7 +4659,7 @@
   offers:
     - spend: 4500
       amount:
-        - amount: 500
+        - amount: 750
       days: 150
       credits: []
   historicalOffers:
@@ -5026,9 +5023,10 @@
   offers:
     - spend: 1000
       amount:
-        - amount: 300
+        - amount: 400
           currency: EXPEDIA
       days: 90
+      expiration: 2025-12-01
       credits: []
   historicalOffers:
     - spend: 1000
@@ -5059,9 +5057,10 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 400
+        - amount: 600
           currency: EXPEDIA
       days: 90
+      expiration: 2025-12-01
       credits: []
   historicalOffers:
     - spend: 3000

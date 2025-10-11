@@ -1,5 +1,6 @@
 import { REFERRALS } from "@/data/referral-links";
 import { CreditCardInput } from "@/data/types";
+import { WEIGHTS } from "@/data/weights";
 import { schemas } from "@/generated/api.client";
 
 export const CHASE_MARRIOTT_CARDS: Array<CreditCardInput> = [
@@ -50,7 +51,7 @@ export const CHASE_MARRIOTT_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 30_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 1000,
         days: 90,
         credits: [],
@@ -81,7 +82,14 @@ export const CHASE_MARRIOTT_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 50_000 * 3, currency: "MARRIOTT" }],
+        amount: [
+          { amount: 125_000, currency: "MARRIOTT" },
+          {
+            amount: 50_000,
+            currency: "MARRIOTT",
+            weight: WEIGHTS.FREE_NIGHT_CREDIT,
+          },
+        ],
         spend: 3000,
         days: 90,
         credits: [],

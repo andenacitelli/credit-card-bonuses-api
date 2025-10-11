@@ -280,10 +280,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
       {
         amount: [
           {
-            amount: 2 * 300,
-            description: "2x FNC @ Category 1-4 Property",
-            currency: schemas.CurrenciesEnum.enum.HYATT,
-            weight: WEIGHTS.FREE_NIGHT_CREDIT,
+            amount: 30_000,
           },
         ],
         spend: 3000,
