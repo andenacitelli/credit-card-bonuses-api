@@ -61,4 +61,22 @@ export const SYNCHRONY_CARDS: Array<CreditCardInput> = [
       },
     ],
   },
+  {
+    cardId: "25e394e76617c0a660b48d7c5c4449ea",
+    name: "Amazon Prime Store Card",
+    issuer: schemas.IssuersEnum.enum.SYNCHRONY,
+    network: schemas.NetworksEnum.enum.VISA, // card is only for Amazon, this is arbitrary
+    currency: schemas.CurrenciesEnum.enum.USD,
+    isBusiness: false,
+    annualFee: 0,
+    isAnnualFeeWaived: false,
+    universalCashbackPercent: 5,
+    url: "https://www.amazon.com/Synchrony-Bank-Amazon-com-Store-Card/dp/B008A0GNA8",
+    imageUrl: "/images/synchrony/amazon-prime-store-card.png",
+    credits: [],
+    offers: [
+      // no offer, just so it can be tracked
+    ],
+    historicalOffers: [],
+  },
 ];

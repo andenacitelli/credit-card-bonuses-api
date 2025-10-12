@@ -2773,7 +2773,7 @@
         - amount: 90000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 6000
       amount:
@@ -2800,7 +2800,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 8000
       amount:
@@ -2826,7 +2826,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 6000
       amount:
@@ -2855,7 +2855,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 10000
       amount:
@@ -3091,14 +3091,14 @@
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   historicalOffers:
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
@@ -4455,6 +4455,21 @@
         - amount: 60000
       days: 90
       credits: []
+  discontinued: false
+- cardId: 25e394e76617c0a660b48d7c5c4449ea
+  name: Amazon Prime Store Card
+  issuer: SYNCHRONY
+  network: VISA
+  currency: USD
+  isBusiness: false
+  annualFee: 0
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 5
+  url: https://www.amazon.com/Synchrony-Bank-Amazon-com-Store-Card/dp/B008A0GNA8
+  imageUrl: /images/synchrony/amazon-prime-store-card.png
+  credits: []
+  offers: []
+  historicalOffers: []
   discontinued: false
 - cardId: 3d777bda73262fa43b11626eb383f9ab
   name: Business Altitude Power
