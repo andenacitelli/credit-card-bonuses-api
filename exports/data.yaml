@@ -462,24 +462,42 @@
   url: https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/
   imageUrl: /images/amex/business-platinum.webp
   credits:
-    - description: Dell credit
-      value: 150
-      weight: 0.2
-    - description: Wireless credit
-      value: 120
-      weight: 0.5
-    - description: Airline fee credit
-      value: 200
-      weight: 0.25
-    - description: CLEAR credit
-      value: 189
+    - description: PreCheck Credit
+      value: 100
       weight: 0.4
-    - description: Lounge access
-      value: 650
+    - description: Lounge Access
+      value: 850
       weight: 0.25
-    - description: Hilton credit ($50/qtr)
+    - description: Hotel Credit (2x/yr $300)
+      value: 600
+      weight: 0.9
+    - description: Misc. Hotel Perks
+      value: 550
+      weight: 0.4
+    - description: Hilton Credit
       value: 200
       weight: 0.75
+    - description: Airline Fee Credit
+      value: 200
+      weight: 0.25
+    - description: Hotel Collection Credit
+      value: 100
+      weight: 0.9
+    - description: Marriott/Hilton Gold Status
+      value: 200
+      weight: 0.5
+    - description: Dell Credit ($150/yr). Also comes w/ $1k bonus on $5k in spend.
+      value: 150
+      weight: 0.25
+    - description: Adobe Credit ($250 w/ $600 purchase).
+      value: 250
+      weight: 0.25
+    - description: Indeed Credit ($90/qtr).
+      value: 90
+      weight: 0.25
+    - description: Wireless Credit ($10/mo).
+      value: 120
+      weight: 0.25
   offers:
     - spend: 20000
       amount:

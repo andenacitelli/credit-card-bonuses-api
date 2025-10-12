@@ -378,35 +378,69 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     url: "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
     imageUrl: "/images/amex/business-platinum.webp",
     credits: [
+      /**
+       * Travel
+       */
+      CREDITS.PRECHECK_OR_SIMILAR, // card gets Clear+
       {
-        value: 150,
-        description: "Dell credit",
-        weight: 0.2,
-      },
-      {
-        value: 120,
-        description: "Wireless credit",
-        weight: 0.5,
-      },
-      {
-        value: 200,
-        description: "Airline fee credit",
-        weight: WEIGHTS.AIRLINE_FEE_CREDIT,
-      },
-      {
-        value: 189,
-        description: "CLEAR credit",
-        weight: WEIGHTS.TSA_PRECHECK_OR_SIMILAR,
-      },
-      {
-        value: 650,
-        description: "Lounge access",
+        value: 850,
+        description: "Lounge Access",
         weight: WEIGHTS.LOUNGES,
       },
       {
+        value: 600,
+        description: "Hotel Credit (2x/yr $300)",
+        weight: WEIGHTS.TRAVEL_CREDIT_FUNGIBLE,
+      },
+      {
+        value: 550,
+        description: "Misc. Hotel Perks",
+        weight: 0.4,
+      },
+      {
         value: 200,
-        description: "Hilton credit ($50/qtr)",
+        description: "Hilton Credit",
         weight: WEIGHTS.TRAVEL_CREDIT_LOYALTY_PROGRAM_SPECIFIC,
+      },
+      {
+        value: 200,
+        description: "Airline Fee Credit",
+        weight: WEIGHTS.AIRLINE_FEE_CREDIT,
+      },
+      {
+        value: 100,
+        description: "Hotel Collection Credit",
+        weight: WEIGHTS.TRAVEL_CREDIT_FUNGIBLE,
+      },
+      {
+        value: 200,
+        description: "Marriott/Hilton Gold Status",
+        weight: 0.5,
+      },
+
+      /**
+       * Business
+       */
+      {
+        value: 150,
+        description:
+          "Dell Credit ($150/yr). Also comes w/ $1k bonus on $5k in spend.",
+        weight: 0.25,
+      },
+      {
+        value: 250,
+        description: "Adobe Credit ($250 w/ $600 purchase).",
+        weight: 0.25,
+      },
+      {
+        value: 90,
+        description: "Indeed Credit ($90/qtr).",
+        weight: 0.25,
+      },
+      {
+        value: 120,
+        description: "Wireless Credit ($10/mo).",
+        weight: 0.25,
       },
     ],
     offers: [
