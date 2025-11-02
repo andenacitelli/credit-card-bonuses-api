@@ -41,12 +41,6 @@
   offers:
     - spend: 2000
       amount:
-        - amount: 80000
-      days: 180
-      expiration: 2025-10-29
-      credits: []
-    - spend: 2000
-      amount:
         - amount: 50000
       days: 180
       credits: []
@@ -71,12 +65,6 @@
   imageUrl: /images/amex/delta-skymiles-gold-business.webp
   credits: []
   offers:
-    - spend: 4000
-      amount:
-        - amount: 90000
-      days: 180
-      expiration: 2025-10-29
-      credits: []
     - spend: 4000
       amount:
         - amount: 60000
@@ -106,12 +94,6 @@
       value: 500
       weight: 0.7
   offers:
-    - spend: 3000
-      amount:
-        - amount: 90000
-      days: 180
-      expiration: 2025-10-29
-      credits: []
     - spend: 3000
       amount:
         - amount: 60000
@@ -149,12 +131,6 @@
   offers:
     - spend: 6000
       amount:
-        - amount: 100000
-      days: 180
-      expiration: 2025-10-29
-      credits: []
-    - spend: 6000
-      amount:
         - amount: 70000
       days: 180
       credits: []
@@ -182,12 +158,6 @@
       value: 240
       weight: 0.8
   offers:
-    - spend: 6000
-      amount:
-        - amount: 125000
-      days: 180
-      expiration: 2025-10-29
-      credits: []
     - spend: 5000
       amount:
         - amount: 70000
@@ -214,12 +184,6 @@
   imageUrl: /images/amex/delta-skymiles-reserve-business.webp
   credits: []
   offers:
-    - spend: 10000
-      amount:
-        - amount: 125000
-      days: 180
-      expiration: 2025-10-29
-      credits: []
     - spend: 10000
       amount:
         - amount: 80000
@@ -815,11 +779,16 @@
   imageUrl: /images/amex/marriott-bonvoy-business.webp
   credits: []
   offers:
-    - spend: 8000
+    - spend: 6000
+      amount:
+        - amount: 75000
+      days: 90
+      credits: []
+      details: +75k @ 6k, 125k total @ 9k
+    - spend: 9000
       amount:
         - amount: 125000
       days: 90
-      expiration: 2025-10-22
       credits: []
   historicalOffers:
     - spend: 3000
@@ -3362,7 +3331,7 @@
   annualFee: 199
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://creditcards.chase.com/business-credit-cards/world-of-hyatt/hyatt-business-card?iCELL=6C1Y
+  url: https://creditcards.chase.com/business-credit-cards/world-of-hyatt/hyatt-business-card
   imageUrl: /images/chase/world-of-hyatt.png
   credits: []
   offers:
@@ -3768,13 +3737,7 @@
   imageUrl: /images/citi/aadvantage-platinum-select.webp
   credits: []
   offers:
-    - spend: 3500
-      amount:
-        - amount: 80000
-      days: 120
-      expiration: 2025-09-29
-      credits: []
-    - spend: 3500
+    - spend: 2500
       amount:
         - amount: 50000
       days: 120

@@ -315,7 +315,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     annualFee: 199,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://creditcards.chase.com/business-credit-cards/world-of-hyatt/hyatt-business-card?iCELL=6C1Y", // easier to scrape than direct Hyatt page
+    url: "https://creditcards.chase.com/business-credit-cards/world-of-hyatt/hyatt-business-card", // easier to scrape than direct Hyatt page
     imageUrl: "/images/chase/world-of-hyatt.png",
     credits: [],
     offers: [
