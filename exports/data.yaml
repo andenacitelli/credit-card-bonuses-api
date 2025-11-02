@@ -2304,12 +2304,11 @@
       weight: 1
       currency: SOUTHWEST
   offers:
-    - spend: 10000
+    - spend: 5000
       amount:
-        - amount: 120000
+        - amount: 80000
       days: 90
       credits: []
-      details: "NOTE: Spend is usually $5k."
       referralUrl: https://www.referyourchasecard.com/226s/1EI0FYIHYB
   historicalOffers:
     - spend: 5000
@@ -2345,7 +2344,7 @@
   offers:
     - spend: 4000
       amount:
-        - amount: 50000
+        - amount: 85000
       days: 150
       credits: []
       referralUrl: https://www.referyourchasecard.com/226s/1EI0FYIHYB
@@ -2379,7 +2378,7 @@
   offers:
     - spend: 4000
       amount:
-        - amount: 50000
+        - amount: 85000
       days: 150
       credits: []
       referralUrl: https://www.referyourchasecard.com/226s/1EI0FYIHYB
@@ -2449,9 +2448,9 @@
       weight: 1
       currency: SOUTHWEST
   offers:
-    - spend: 4000
+    - spend: 3000
       amount:
-        - amount: 50000
+        - amount: 85000
       days: 150
       credits: []
       referralUrl: https://www.referyourchasecard.com/226s/1EI0FYIHYB
@@ -2760,7 +2759,7 @@
         - amount: 90000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
   historicalOffers:
     - spend: 6000
       amount:
@@ -2787,7 +2786,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
   historicalOffers:
     - spend: 8000
       amount:
@@ -2813,7 +2812,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
   historicalOffers:
     - spend: 6000
       amount:
@@ -2842,7 +2841,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
   historicalOffers:
     - spend: 10000
       amount:
@@ -3076,14 +3075,14 @@
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
   historicalOffers:
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
@@ -3100,7 +3099,7 @@
   offers:
     - spend: 5000
       amount:
-        - amount: 85000
+        - amount: 75000
       days: 90
       credits: []
   historicalOffers:
@@ -3152,7 +3151,7 @@
   offers:
     - spend: 5000
       amount:
-        - amount: 85000
+        - amount: 75000
       days: 90
       credits: []
   historicalOffers:
@@ -3280,7 +3279,7 @@
   offers:
     - spend: 5000
       amount:
-        - amount: 85000
+        - amount: 75000
       days: 90
       credits: []
   historicalOffers:
