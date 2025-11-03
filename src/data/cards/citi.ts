@@ -313,7 +313,7 @@ export const CITI_CARDS: Array<CreditCardInput> = [
   },
   {
     cardId: "cbc737da5cbd44575dec6325bbbd8688",
-    name: "Rewards+",
+    name: "Strata",
     issuer: schemas.IssuersEnum.enum.CITI,
     network: schemas.NetworksEnum.enum.MASTERCARD,
     currency: schemas.CurrenciesEnum.enum.CITI,
@@ -321,8 +321,8 @@ export const CITI_CARDS: Array<CreditCardInput> = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 2,
-    url: "https://www.citi.com/credit-cards/citi-rewards-plus-credit-card",
-    imageUrl: "/images/citi/rewards-plus.png",
+    url: "https://www.citi.com/credit-cards/citi-strata-credit-card",
+    imageUrl: "/images/citi/strata.webp",
     credits: [],
     offers: [
       {
