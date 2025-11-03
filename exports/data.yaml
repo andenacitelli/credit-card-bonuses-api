@@ -2759,7 +2759,7 @@
         - amount: 90000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
   historicalOffers:
     - spend: 6000
       amount:
@@ -2786,7 +2786,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
   historicalOffers:
     - spend: 8000
       amount:
@@ -2812,7 +2812,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
   historicalOffers:
     - spend: 6000
       amount:
@@ -2841,7 +2841,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
   historicalOffers:
     - spend: 10000
       amount:
@@ -3075,14 +3075,14 @@
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
   historicalOffers:
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
@@ -5017,7 +5017,7 @@
     - spend: 1000
       amount:
         - amount: 400
-          currency: EXPEDIA
+          currency: USD
       days: 90
       expiration: 2025-12-01
       credits: []
@@ -5025,7 +5025,7 @@
     - spend: 1000
       amount:
         - amount: 400
-          currency: EXPEDIA
+          currency: USD
       days: 90
       credits: []
   discontinued: false
@@ -5051,7 +5051,7 @@
     - spend: 3000
       amount:
         - amount: 600
-          currency: EXPEDIA
+          currency: USD
       days: 90
       expiration: 2025-12-01
       credits: []
@@ -5059,7 +5059,7 @@
     - spend: 3000
       amount:
         - amount: 600
-          currency: EXPEDIA
+          currency: USD
       days: 90
       credits: []
   discontinued: false

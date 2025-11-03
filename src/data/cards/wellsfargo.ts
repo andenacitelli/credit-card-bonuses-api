@@ -224,9 +224,7 @@ export const WELLS_FARGO_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [
-          { amount: 400, currency: schemas.CurrenciesEnum.enum.EXPEDIA },
-        ],
+        amount: [{ amount: 400, currency: schemas.CurrenciesEnum.enum.USD }],
         spend: 1000,
         days: 90,
         credits: [],
@@ -235,9 +233,7 @@ export const WELLS_FARGO_CARDS: Array<CreditCardInput> = [
     ],
     historicalOffers: [
       {
-        amount: [
-          { amount: 400, currency: schemas.CurrenciesEnum.enum.EXPEDIA },
-        ],
+        amount: [{ amount: 400, currency: schemas.CurrenciesEnum.enum.USD }],
         spend: 1000,
         days: 90,
         credits: [],
@@ -266,9 +262,7 @@ export const WELLS_FARGO_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [
-          { amount: 600, currency: schemas.CurrenciesEnum.enum.EXPEDIA },
-        ],
+        amount: [{ amount: 600, currency: schemas.CurrenciesEnum.enum.USD }],
         spend: 3000,
         days: 90,
         credits: [],
@@ -277,9 +271,7 @@ export const WELLS_FARGO_CARDS: Array<CreditCardInput> = [
     ],
     historicalOffers: [
       {
-        amount: [
-          { amount: 600, currency: schemas.CurrenciesEnum.enum.EXPEDIA },
-        ],
+        amount: [{ amount: 600, currency: schemas.CurrenciesEnum.enum.USD }],
         spend: 3000,
         days: 90,
         credits: [],
