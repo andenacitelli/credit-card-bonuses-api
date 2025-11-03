@@ -3966,6 +3966,36 @@
       days: 90
       credits: []
   discontinued: false
+- cardId: eb573cdc20d07fc2d60e8528f73cafb0
+  name: AAA Daily Advantage
+  issuer: COMENITY
+  network: VISA
+  currency: USD
+  isBusiness: false
+  annualFee: 0
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://www.ace.aaa.com/financial/aaa-credit-card.html
+  imageUrl: /images/comenity/aaa-daily-advantage.png
+  credits: []
+  offers: []
+  historicalOffers: []
+  discontinued: false
+- cardId: 6862ac82f65ac34d31032dbe0cf1e87b
+  name: AAA Travel Advantage
+  issuer: COMENITY
+  network: VISA
+  currency: USD
+  isBusiness: false
+  annualFee: 0
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://www.ace.aaa.com/financial/aaa-credit-card.html
+  imageUrl: /images/comenity/aaa-travel-advantage.webp
+  credits: []
+  offers: []
+  historicalOffers: []
+  discontinued: false
 - cardId: dae75a5609dea8f39f750f4b225d2c5c
   name: Discover It
   issuer: DISCOVER

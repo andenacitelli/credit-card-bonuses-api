@@ -18,6 +18,7 @@ import { WELLS_FARGO_CARDS } from "@/data/cards/wellsfargo";
 import { DISCOVER_CARDS } from "./cards/discover";
 import { WEB_BANK_CARDS } from "./cards/web-bank";
 import { CreditCard } from "./types";
+import { COMENITY_CARDS } from "@/data/cards/comenity";
 
 export const CREDIT_CARDS: Array<CreditCard> = z
   .array(schemas.CreditCard)
@@ -29,6 +30,7 @@ export const CREDIT_CARDS: Array<CreditCard> = z
     ...CHASE_CARDS,
     ...CAPITAL_ONE_CARDS,
     ...CITI_CARDS,
+    ...COMENITY_CARDS,
     ...DISCOVER_CARDS,
     ...FIRST_CARDS,
     ...FNBO_CARDS,
