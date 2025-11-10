@@ -2498,9 +2498,8 @@
   offers:
     - spend: 5000
       amount:
-        - amount: 100000
+        - amount: 75000
       days: 90
-      expiration: 2025-11-05
       credits: []
       referralUrl: https://www.referyourchasecard.com/215d/OPTN75PXFL
   historicalOffers:
@@ -2547,7 +2546,7 @@
   offers:
     - spend: 5000
       amount:
-        - amount: 80000
+        - amount: 90000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/215d/OPTN75PXFL
@@ -2759,7 +2758,7 @@
         - amount: 90000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
   historicalOffers:
     - spend: 6000
       amount:
@@ -2786,7 +2785,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
   historicalOffers:
     - spend: 8000
       amount:
@@ -2812,7 +2811,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
   historicalOffers:
     - spend: 6000
       amount:
@@ -2841,7 +2840,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
   historicalOffers:
     - spend: 10000
       amount:
@@ -3075,14 +3074,14 @@
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
   historicalOffers:
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/6NRVE22NPE
+      referralUrl: https://www.referyourchasecard.com/21u/77SVORJIWF
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
