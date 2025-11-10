@@ -75,8 +75,20 @@ export const SYNCHRONY_CARDS: Array<CreditCardInput> = [
     imageUrl: "/images/synchrony/amazon-prime-store-card.png",
     credits: [],
     offers: [
-      // no offer, just so it can be tracked
+      {
+        amount: [{ amount: 60, currency: "USD" }],
+        spend: 0.01,
+        days: 90,
+        credits: [],
+      },
     ],
-    historicalOffers: [],
+    historicalOffers: [
+      {
+        amount: [{ amount: 60, currency: "USD" }],
+        spend: 0.01,
+        days: 90,
+        credits: [],
+      },
+    ],
   },
 ];

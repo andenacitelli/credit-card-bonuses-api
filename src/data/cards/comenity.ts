@@ -15,9 +15,19 @@ export const COMENITY_CARDS: Array<CreditCardInput> = [
     imageUrl: "/images/comenity/aaa-daily-advantage.png",
     credits: [],
     offers: [
-      // doesn't really have viable offers, just for tracking purposes
+      {
+        amount: [{ amount: 100, currency: "USD" }],
+        spend: 1000,
+        days: 90,
+      },
     ],
-    historicalOffers: [],
+    historicalOffers: [
+      {
+        amount: [{ amount: 100, currency: "USD" }],
+        spend: 1000,
+        days: 90,
+      },
+    ],
   },
   {
     cardId: "6862ac82f65ac34d31032dbe0cf1e87b",
@@ -33,8 +43,18 @@ export const COMENITY_CARDS: Array<CreditCardInput> = [
     imageUrl: "/images/comenity/aaa-travel-advantage.webp",
     credits: [],
     offers: [
-      // doesn't really have viable offers, just for tracking purposes
+      {
+        amount: [{ amount: 100, currency: "USD" }],
+        spend: 1000,
+        days: 90,
+      },
     ],
-    historicalOffers: [],
+    historicalOffers: [
+      {
+        amount: [{ amount: 100, currency: "USD" }],
+        spend: 1000,
+        days: 90,
+      },
+    ],
   },
 ];
