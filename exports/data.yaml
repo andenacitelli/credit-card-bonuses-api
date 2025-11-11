@@ -2757,6 +2757,13 @@
       amount:
         - amount: 90000
       days: 180
+      expiration: 2025-11-13
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
+    - spend: 6000
+      amount:
+        - amount: 75000
+      days: 180
       credits: []
       referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
   historicalOffers:
@@ -2810,6 +2817,13 @@
       amount:
         - amount: 90000
       days: 90
+      expiration: 2025-11-13
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
+    - spend: 6000
+      amount:
+        - amount: 75000
+      days: 180
       credits: []
       referralUrl: https://www.referyourchasecard.com/21u/5P2JOG1KV1
   historicalOffers:
