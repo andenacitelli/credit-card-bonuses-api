@@ -18,14 +18,6 @@ export const INK_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 90_000 }],
-        spend: 6000,
-        days: 180,
-        credits: [],
-        referralUrl: REFERRALS.CHASE.INKS,
-        expiration: "2025-11-13",
-      },
-      {
         amount: [{ amount: 75_000 }],
         spend: 6000,
         days: 180,
@@ -58,6 +50,13 @@ export const INK_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
+        amount: [{ amount: 100_000 }],
+        spend: 8_000,
+        days: 90,
+        credits: [],
+        referralUrl: REFERRALS.CHASE.INKS,
+      },
+      {
         amount: [{ amount: 90_000 }],
         spend: 8_000,
         days: 90,
@@ -88,14 +87,6 @@ export const INK_CARDS: Array<CreditCardInput> = [
     imageUrl: "/images/chase/ink-business-unlimited.png",
     credits: [],
     offers: [
-      {
-        amount: [{ amount: 90_000 }],
-        spend: 6000,
-        days: 90,
-        credits: [],
-        referralUrl: REFERRALS.CHASE.INKS,
-        expiration: "2025-11-13",
-      },
       {
         amount: [{ amount: 75_000 }],
         spend: 6000,

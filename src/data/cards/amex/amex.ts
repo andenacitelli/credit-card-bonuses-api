@@ -910,16 +910,15 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     annualFee: 895,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://www.schwab.com/credit-cards#panel--50-media-right-117911",
+    url: "https://www.schwab.com/creditx-cards#panel--50-media-right-117911",
     imageUrl: "/images/amex/platinum-schwab.webp",
     credits: PLATINUM_CREDITS,
     offers: [
       {
-        amount: [{ amount: 125_000 }],
+        amount: [{ amount: 80_000 }],
         spend: 8000,
         days: 180,
         credits: [],
-        expiration: "2025-11-12",
       },
     ],
     historicalOffers: [
@@ -942,17 +941,16 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     annualFee: 895,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://apply.americanexpress.com/amex-morgan-stanley-credit-cards",
+    url: "https://us.etrade.com/l/morgan-stanley-platinum",
     imageUrl: "/images/amex/platinum-morgan-stanley.webp",
     credits: PLATINUM_CREDITS,
     offers: [
       {
-        amount: [{ amount: 125_000 }],
+        amount: [{ amount: 80_000 }],
         spend: 8000,
         days: 180,
         credits: [],
         details: "Requires a relationship with Morgan Stanley.",
-        expiration: "2025-11-12",
       },
     ],
     historicalOffers: [
@@ -1043,11 +1041,10 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 300 }],
+        amount: [{ amount: 200 }],
         spend: 1000,
         days: 90,
         credits: [],
-        expiration: "2025-11-12",
       },
     ],
     historicalOffers: [

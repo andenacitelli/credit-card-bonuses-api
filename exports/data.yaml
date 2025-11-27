@@ -895,7 +895,7 @@
   annualFee: 895
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://www.schwab.com/credit-cards#panel--50-media-right-117911
+  url: https://www.schwab.com/creditx-cards#panel--50-media-right-117911
   imageUrl: /images/amex/platinum-schwab.webp
   credits:
     - description: PreCheck Credit
@@ -949,9 +949,8 @@
   offers:
     - spend: 8000
       amount:
-        - amount: 125000
+        - amount: 80000
       days: 180
-      expiration: 2025-11-12
       credits: []
   historicalOffers:
     - spend: 8000
@@ -970,7 +969,7 @@
   annualFee: 895
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://apply.americanexpress.com/amex-morgan-stanley-credit-cards
+  url: https://us.etrade.com/l/morgan-stanley-platinum
   imageUrl: /images/amex/platinum-morgan-stanley.webp
   credits:
     - description: PreCheck Credit
@@ -1024,9 +1023,8 @@
   offers:
     - spend: 8000
       amount:
-        - amount: 125000
+        - amount: 80000
       days: 180
-      expiration: 2025-11-12
       credits: []
       details: Requires a relationship with Morgan Stanley.
   historicalOffers:
@@ -1102,9 +1100,8 @@
   offers:
     - spend: 1000
       amount:
-        - amount: 300
+        - amount: 200
       days: 90
-      expiration: 2025-11-12
       credits: []
   historicalOffers:
     - spend: 1000
@@ -1975,16 +1972,16 @@
   imageUrl: /images/barclays/upromise.png
   credits: []
   offers:
-    - spend: 500
+    - spend: 1000
       amount:
-        - amount: 100
+        - amount: 300
       days: 90
       credits: []
       url: https://cards.barclaycardus.com/banking/cards/upromise-world-mastercard/
   historicalOffers:
-    - spend: 500
+    - spend: 1000
       amount:
-        - amount: 100
+        - amount: 300
       days: 90
       credits: []
   discontinued: false
@@ -2755,17 +2752,10 @@
   offers:
     - spend: 6000
       amount:
-        - amount: 90000
-      days: 180
-      expiration: 2025-11-13
-      credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
-    - spend: 6000
-      amount:
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21a/77SVORJIWF
   historicalOffers:
     - spend: 6000
       amount:
@@ -2789,10 +2779,16 @@
   offers:
     - spend: 8000
       amount:
+        - amount: 100000
+      days: 90
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/21a/77SVORJIWF
+    - spend: 8000
+      amount:
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21a/77SVORJIWF
   historicalOffers:
     - spend: 8000
       amount:
@@ -2815,17 +2811,10 @@
   offers:
     - spend: 6000
       amount:
-        - amount: 90000
-      days: 90
-      expiration: 2025-11-13
-      credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
-    - spend: 6000
-      amount:
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21a/77SVORJIWF
   historicalOffers:
     - spend: 6000
       amount:
@@ -2854,7 +2843,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21a/77SVORJIWF
   historicalOffers:
     - spend: 10000
       amount:
@@ -3088,14 +3077,14 @@
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21a/77SVORJIWF
   historicalOffers:
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21u/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21a/77SVORJIWF
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature

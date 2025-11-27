@@ -476,8 +476,8 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 100 }],
-        spend: 500,
+        amount: [{ amount: 300 }],
+        spend: 1_000,
         days: 90,
         credits: [],
         url: "https://cards.barclaycardus.com/banking/cards/upromise-world-mastercard/",
@@ -485,8 +485,8 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 100 }],
-        spend: 500,
+        amount: [{ amount: 300 }],
+        spend: 1_000,
         days: 90,
         credits: [],
       },

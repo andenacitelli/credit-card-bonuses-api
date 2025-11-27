@@ -6,10 +6,10 @@ export const REFERRALS = {
   CHASE: {
     SAPPHIRE: getRandom(["https://www.referyourchasecard.com/19t/F0DZZK1XD0"]),
     INKS: getRandom([
-      "https://www.referyourchasecard.com/21u/6NRVE22NPE",
-      "https://www.referyourchasecard.com/21u/5P2JOG1KV1",
-      "https://www.referyourchasecard.com/21u/VHD03DKTV7",
-      "https://www.referyourchasecard.com/21u/77SVORJIWF",
+      "https://www.referyourchasecard.com/21a/6NRVE22NPE",
+      "https://www.referyourchasecard.com/21a/5P2JOG1KV1",
+      "https://www.referyourchasecard.com/21a/77SVORJIWF",
+      "https://www.referyourchasecard.com/21a/VHD03DKTV7",
     ]),
     FREEDOM: getRandom(["https://www.referyourchasecard.com/18A/A85BX0FG21"]),
     UNITED: getRandom(["https://www.referyourchasecard.com/215d/OPTN75PXFL"]),
