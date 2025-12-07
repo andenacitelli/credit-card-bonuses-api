@@ -273,12 +273,6 @@
   offers:
     - spend: 2000
       amount:
-        - amount: 250
-      days: 180
-      credits: []
-      details: Requires Incognito, YMMV.
-    - spend: 2000
-      amount:
         - amount: 200
       days: 180
       credits: []
@@ -309,12 +303,6 @@
       value: 84
       weight: 0.25
   offers:
-    - spend: 3000
-      amount:
-        - amount: 300
-      days: 180
-      credits: []
-      details: Requires Incognito, YMMV.
     - spend: 3000
       amount:
         - amount: 250
@@ -371,13 +359,13 @@
   imageUrl: /images/amex/business-gold.webp
   credits: []
   offers:
-    - spend: 10000
+    - spend: 15000
       amount:
         - amount: 100000
       days: 90
       credits: []
   historicalOffers:
-    - spend: 10000
+    - spend: 15000
       amount:
         - amount: 200000
       days: 90
@@ -396,12 +384,6 @@
   imageUrl: /images/amex/business-green.webp
   credits: []
   offers:
-    - spend: 3000
-      amount:
-        - amount: 25000
-      days: 90
-      credits: []
-      details: Inconsistent, YMMV.
     - spend: 3000
       amount:
         - amount: 15000
@@ -5084,10 +5066,9 @@
   offers:
     - spend: 1000
       amount:
-        - amount: 400
+        - amount: 300
           currency: USD
       days: 90
-      expiration: 2025-12-01
       credits: []
   historicalOffers:
     - spend: 1000
@@ -5118,10 +5099,9 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 600
+        - amount: 400
           currency: USD
       days: 90
-      expiration: 2025-12-01
       credits: []
   historicalOffers:
     - spend: 3000

@@ -187,13 +187,6 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 250 }],
-        spend: 2000,
-        days: 180,
-        credits: [],
-        details: "Requires Incognito, YMMV.",
-      },
-      {
         amount: [{ amount: 200 }],
         spend: 2000,
         days: 180,
@@ -236,13 +229,6 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
       },
     ],
     offers: [
-      {
-        amount: [{ amount: 300 }],
-        spend: 3000,
-        days: 180,
-        credits: [],
-        details: "Requires Incognito, YMMV.",
-      },
       {
         amount: [{ amount: 250 }],
         spend: 3000,
@@ -314,7 +300,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     offers: [
       {
         amount: [{ amount: 100_000 }],
-        spend: 10_000,
+        spend: 15_000,
         days: 90,
         credits: [],
       },
@@ -322,7 +308,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     historicalOffers: [
       {
         amount: [{ amount: 200_000 }],
-        spend: 10_000,
+        spend: 15_000,
         days: 90,
         credits: [],
       },
@@ -342,13 +328,6 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     imageUrl: "/images/amex/business-green.webp",
     credits: [],
     offers: [
-      {
-        amount: [{ amount: 25_000 }],
-        spend: 3000,
-        days: 90,
-        credits: [],
-        details: "Inconsistent, YMMV.",
-      },
       {
         amount: [{ amount: 15_000 }],
         spend: 3000,
@@ -476,6 +455,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     imageUrl: "/images/amex/cash-magnet.webp",
     credits: [],
     offers: [
+      // this card doesn't take new applications, I think
       // seemingly no offers right now
       // {
       //   amount: [{ amount: 200 }],
