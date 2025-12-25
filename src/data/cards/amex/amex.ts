@@ -191,6 +191,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
         spend: 2000,
         days: 180,
         credits: [],
+        details: "$250 possible via incognito.",
       },
     ],
     historicalOffers: [
@@ -234,6 +235,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
         spend: 3000,
         days: 180,
         credits: [],
+        details: "$300 possible via incognito.",
       },
     ],
     historicalOffers: [
@@ -303,6 +305,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
         spend: 15_000,
         days: 90,
         credits: [],
+        details: "150k possible via incognito.",
       },
     ],
     historicalOffers: [
@@ -428,6 +431,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
         spend: 20_000,
         days: 90,
         credits: [],
+        details: "300k possible via incognito.",
       },
     ],
     historicalOffers: [

@@ -216,6 +216,13 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
+        amount: [{ amount: 30_000 }],
+        spend: 500,
+        days: 90,
+        credits: [],
+        referralUrl: REFERRALS.CHASE.FREEDOM,
+      },
+      {
         amount: [{ amount: 20_000 }],
         spend: 500,
         days: 90,

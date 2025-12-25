@@ -276,6 +276,7 @@
         - amount: 200
       days: 180
       credits: []
+      details: $250 possible via incognito.
   historicalOffers:
     - spend: 2000
       amount:
@@ -308,6 +309,7 @@
         - amount: 250
       days: 180
       credits: []
+      details: $300 possible via incognito.
   historicalOffers:
     - spend: 3000
       amount:
@@ -364,6 +366,7 @@
         - amount: 100000
       days: 90
       credits: []
+      details: 150k possible via incognito.
   historicalOffers:
     - spend: 15000
       amount:
@@ -450,6 +453,7 @@
         - amount: 200000
       days: 90
       credits: []
+      details: 300k possible via incognito.
   historicalOffers:
     - spend: 30000
       amount:
@@ -2323,8 +2327,8 @@
   offers:
     - spend: 4000
       amount:
-        - amount: 85000
-      days: 150
+        - amount: 50000
+      days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/226s/1EI0FYIHYB
   historicalOffers:
@@ -2357,8 +2361,8 @@
   offers:
     - spend: 4000
       amount:
-        - amount: 85000
-      days: 150
+        - amount: 50000
+      days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/226s/1EI0FYIHYB
   historicalOffers:
@@ -2429,8 +2433,8 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 85000
-      days: 150
+        - amount: 50000
+      days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/226s/1EI0FYIHYB
   historicalOffers:
@@ -3237,6 +3241,12 @@
   offers:
     - spend: 500
       amount:
+        - amount: 30000
+      days: 90
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/18A/A85BX0FG21
+    - spend: 500
+      amount:
         - amount: 20000
       days: 90
       credits: []
@@ -3757,7 +3767,7 @@
   offers:
     - spend: 4000
       amount:
-        - amount: 75000
+        - amount: 65000
       days: 120
       credits: []
   historicalOffers:
