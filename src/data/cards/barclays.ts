@@ -17,13 +17,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     imageUrl: "/images/barclays/aadvantage-aviator-red-world-elite.png",
     credits: [],
     offers: [
-      {
-        amount: [{ amount: 50_000 }],
-        spend: 99,
-        days: 90,
-        credits: [],
-        details: "ANY purchase + AF.",
-      },
+      // card is no longer offered; gotta keep around so I don't break ppl that registered it on the site
     ],
     historicalOffers: [
       {
@@ -182,7 +176,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 70_000 }],
         spend: 3000,
         days: 90,
         credits: [],
@@ -446,7 +440,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 3000,
         days: 90,
         credits: [],
@@ -480,7 +474,6 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
         spend: 1_000,
         days: 90,
         credits: [],
-        url: "https://cards.barclaycardus.com/banking/cards/upromise-world-mastercard/",
       },
     ],
     historicalOffers: [
@@ -669,7 +662,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 40_000 }],
+        amount: [{ amount: 30_000 }],
         spend: 1000,
         days: 90,
         credits: [],

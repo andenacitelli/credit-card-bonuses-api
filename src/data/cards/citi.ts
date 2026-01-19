@@ -18,8 +18,8 @@ export const CITI_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 70_000 }],
-        spend: 7_000,
+        amount: [{ amount: 100_000 }],
+        spend: 10_000,
         days: 90,
         credits: [],
       },
@@ -85,8 +85,8 @@ export const CITI_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
-        spend: 2500,
+        amount: [{ amount: 80_000 }],
+        spend: 3500,
         days: 120,
         credits: [],
       },
@@ -105,6 +105,57 @@ export const CITI_CARDS: Array<CreditCardInput> = [
         days: 90,
         credits: [],
         expiration: "2024-03-01",
+      },
+    ],
+  },
+  {
+    cardId: "c6b04cf07dd821ddcfba3dbe398a4b31",
+    name: "AAdvantage Globe",
+    issuer: schemas.IssuersEnum.enum.CITI,
+    network: schemas.NetworksEnum.enum.MASTERCARD,
+    currency: schemas.CurrenciesEnum.enum.AMERICAN,
+    isBusiness: false,
+    annualFee: 350,
+    isAnnualFeeWaived: false,
+    universalCashbackPercent: 1,
+    url: "https://creditcards.aa.com/credit-cards/citi-globe-card-american-airlines-direct/",
+    imageUrl: "/images/citi/aadvantage-globe.webp",
+    credits: [
+      {
+        value: 300,
+        weight: WEIGHTS.LOUNGES,
+        description: "Lounge Access",
+      },
+      {
+        value: 100,
+        weight: WEIGHTS.TRAVEL_CREDIT_FUNGIBLE,
+        description: "'Splurge' Credit",
+      },
+      {
+        value: 240,
+        weight: WEIGHTS.TURO,
+        description: "Turo Credit",
+      },
+      {
+        value: 100,
+        weight: WEIGHTS.AIRLINE_FEE_CREDIT,
+        description: "In-Flight Purchase Credit",
+      },
+    ],
+    offers: [
+      {
+        amount: [{ amount: 90_000 }],
+        spend: 5000,
+        days: 120,
+        credits: [],
+      },
+    ],
+    historicalOffers: [
+      {
+        amount: [{ amount: 90_000 }],
+        spend: 5000,
+        days: 120,
+        credits: [],
       },
     ],
   },
@@ -326,7 +377,7 @@ export const CITI_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 30_000 }],
+        amount: [{ amount: 20_000 }],
         spend: 1000,
         credits: [],
         days: 90,

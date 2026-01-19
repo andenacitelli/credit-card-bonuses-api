@@ -63,7 +63,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 75_000 }],
+        amount: [{ amount: 60_000 }],
         spend: 4000,
         days: 90,
         credits: [],
@@ -285,6 +285,20 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
+        amount: [{ amount: 0 }], // placeholder, otherwise fails parse
+        spend: 3000,
+        days: 90,
+        credits: [
+          {
+            value: 3 * 30_000,
+            description: "3x FNC, <= 30k per.",
+            weight: WEIGHTS.FREE_NIGHT_CREDIT,
+            currency: schemas.CurrenciesEnum.enum.HYATT,
+          },
+        ],
+        expiration: "2026-02-26",
+      },
+      {
         amount: [
           {
             amount: 30_000,
@@ -297,7 +311,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 90_000, weight: 0.8 }],
+        amount: [],
         spend: 3000,
         days: 90,
         credits: [
@@ -365,7 +379,7 @@ export const CHASE_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 250 }],
+        amount: [{ amount: 150 }],
         spend: 0.01,
         days: 365,
         credits: [],

@@ -366,7 +366,7 @@
         - amount: 100000
       days: 90
       credits: []
-      details: 150k possible via incognito.
+      details: 150-200k possible via incognito.
   historicalOffers:
     - spend: 15000
       amount:
@@ -625,12 +625,9 @@
   offers:
     - spend: 2000
       amount:
-        - amount: 100000
+        - amount: 80000
       days: 180
-      credits:
-        - description: Statement Credit
-          value: 100
-          weight: 0.8
+      credits: []
   historicalOffers:
     - spend: 5000
       amount:
@@ -657,7 +654,7 @@
   offers:
     - spend: 6000
       amount:
-        - amount: 175000
+        - amount: 150000
       days: 180
       credits: []
   historicalOffers:
@@ -687,7 +684,7 @@
   offers:
     - spend: 6000
       amount:
-        - amount: 175000
+        - amount: 130000
       days: 180
       credits: []
   historicalOffers:
@@ -712,7 +709,7 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 155000
+        - amount: 130000
       days: 180
       credits: []
   historicalOffers:
@@ -1111,19 +1108,13 @@
   offers:
     - spend: 0.01
       amount:
-        - amount: 200
-      days: 90
-      credits: []
-      url: https://www.amazon.com/Amazon-Business-American-Express-Card/dp/B07984JN3L
-    - spend: 0.01
-      amount:
         - amount: 100
       days: 90
       credits: []
   historicalOffers:
     - spend: 0.01
       amount:
-        - amount: 100
+        - amount: 200
       days: 90
       credits: []
     - spend: 4000
@@ -1580,13 +1571,7 @@
   url: https://cards.barclaycardus.com/banking/cards/aadvantage-aviator-red-world-elite-mastercard/
   imageUrl: /images/barclays/aadvantage-aviator-red-world-elite.png
   credits: []
-  offers:
-    - spend: 99
-      amount:
-        - amount: 50000
-      days: 90
-      credits: []
-      details: ANY purchase + AF.
+  offers: []
   historicalOffers:
     - spend: 99.01
       amount:
@@ -1717,7 +1702,7 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 50000
+        - amount: 70000
       days: 90
       credits: []
   historicalOffers:
@@ -1935,7 +1920,7 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 50000
+        - amount: 60000
       days: 90
       credits: []
   historicalOffers:
@@ -1963,7 +1948,6 @@
         - amount: 300
       days: 90
       credits: []
-      url: https://cards.barclaycardus.com/banking/cards/upromise-world-mastercard/
   historicalOffers:
     - spend: 1000
       amount:
@@ -2116,7 +2100,7 @@
   offers:
     - spend: 1000
       amount:
-        - amount: 40000
+        - amount: 30000
       days: 90
       credits: []
   historicalOffers:
@@ -2247,12 +2231,12 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 150000
+        - amount: 250000
           currency: MARRIOTT
           weight: 0.7
       days: 90
       credits: []
-      details: 3x FNC, <= 50k per
+      details: 5x FNC, <= 50k per
       referralUrl: https://www.referyourchasecard.com/252s/ZB09TY4LRN
   historicalOffers:
     - spend: 3000
@@ -2741,7 +2725,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21a/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21a/VHD03DKTV7
   historicalOffers:
     - spend: 6000
       amount:
@@ -2768,13 +2752,13 @@
         - amount: 100000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21a/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21a/VHD03DKTV7
     - spend: 8000
       amount:
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21a/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21a/VHD03DKTV7
   historicalOffers:
     - spend: 8000
       amount:
@@ -2800,7 +2784,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21a/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21a/VHD03DKTV7
   historicalOffers:
     - spend: 6000
       amount:
@@ -2829,7 +2813,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21a/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21a/VHD03DKTV7
   historicalOffers:
     - spend: 10000
       amount:
@@ -3063,14 +3047,14 @@
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21a/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21a/VHD03DKTV7
   historicalOffers:
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21a/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21a/VHD03DKTV7
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
@@ -3113,7 +3097,7 @@
   offers:
     - spend: 4000
       amount:
-        - amount: 75000
+        - amount: 60000
       days: 90
       credits: []
   historicalOffers:
@@ -3299,14 +3283,22 @@
   offers:
     - spend: 3000
       amount:
+        - amount: 0
+      days: 90
+      expiration: 2026-02-26
+      credits:
+        - description: 3x FNC, <= 30k per.
+          value: 90000
+          weight: 0.7
+          currency: HYATT
+    - spend: 3000
+      amount:
         - amount: 30000
       days: 90
       credits: []
   historicalOffers:
     - spend: 3000
-      amount:
-        - amount: 90000
-          weight: 0.8
+      amount: []
       days: 90
       expiration: 2024-10-31
       credits:
@@ -3362,7 +3354,7 @@
   offers:
     - spend: 0.01
       amount:
-        - amount: 250
+        - amount: 150
       days: 365
       credits: []
   historicalOffers:
@@ -3674,9 +3666,9 @@
   imageUrl: /images/citi/aadvantage-executive.webp
   credits: []
   offers:
-    - spend: 7000
+    - spend: 10000
       amount:
-        - amount: 70000
+        - amount: 100000
       days: 90
       credits: []
   historicalOffers:
@@ -3730,9 +3722,9 @@
   imageUrl: /images/citi/aadvantage-platinum-select.webp
   credits: []
   offers:
-    - spend: 2500
+    - spend: 3500
       amount:
-        - amount: 50000
+        - amount: 80000
       days: 120
       credits: []
   historicalOffers:
@@ -3747,6 +3739,43 @@
         - amount: 125000
       days: 90
       expiration: 2024-03-01
+      credits: []
+  discontinued: false
+- cardId: c6b04cf07dd821ddcfba3dbe398a4b31
+  name: AAdvantage Globe
+  issuer: CITI
+  network: MASTERCARD
+  currency: AMERICAN
+  isBusiness: false
+  annualFee: 350
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://creditcards.aa.com/credit-cards/citi-globe-card-american-airlines-direct/
+  imageUrl: /images/citi/aadvantage-globe.webp
+  credits:
+    - description: Lounge Access
+      value: 300
+      weight: 0.25
+    - description: "'Splurge' Credit"
+      value: 100
+      weight: 0.9
+    - description: Turo Credit
+      value: 240
+      weight: 0.25
+    - description: In-Flight Purchase Credit
+      value: 100
+      weight: 0.25
+  offers:
+    - spend: 5000
+      amount:
+        - amount: 90000
+      days: 120
+      credits: []
+  historicalOffers:
+    - spend: 5000
+      amount:
+        - amount: 90000
+      days: 120
       credits: []
   discontinued: false
 - cardId: f6ff3383cc6c52a81eb4715eb8d5de03
@@ -3925,7 +3954,7 @@
   offers:
     - spend: 1000
       amount:
-        - amount: 30000
+        - amount: 20000
       days: 90
       credits: []
   historicalOffers:

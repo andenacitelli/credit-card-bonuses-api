@@ -85,12 +85,12 @@ export const CHASE_MARRIOTT_CARDS: Array<CreditCardInput> = [
       {
         amount: [
           {
-            amount: 3 * 50_000,
+            amount: 5 * 50_000,
             currency: "MARRIOTT",
             weight: WEIGHTS.FREE_NIGHT_CREDIT,
           },
         ],
-        details: "3x FNC, <= 50k per",
+        details: "5x FNC, <= 50k per",
         spend: 3000,
         days: 90,
         credits: [],

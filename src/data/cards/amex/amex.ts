@@ -305,7 +305,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
         spend: 15_000,
         days: 90,
         credits: [],
-        details: "150k possible via incognito.",
+        details: "150-200k possible via incognito.",
       },
     ],
     historicalOffers: [
@@ -631,16 +631,10 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 100_000 }],
+        amount: [{ amount: 80_000 }],
         spend: 2000,
         days: 180,
-        credits: [
-          {
-            value: 100,
-            description: "Statement Credit",
-            weight: 0.8,
-          },
-        ],
+        credits: [],
       },
     ],
     historicalOffers: [
@@ -674,7 +668,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 175_000 }],
+        amount: [{ amount: 150_000 }],
         spend: 6000,
         days: 180,
         credits: [],
@@ -712,7 +706,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 175_000 }],
+        amount: [{ amount: 130_000 }],
         spend: 6_000,
         days: 180,
         credits: [],
@@ -742,7 +736,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 155_000 }],
+        amount: [{ amount: 130_000 }],
         spend: 3000,
         days: 180,
         credits: [],
@@ -1055,13 +1049,6 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 200 }],
-        spend: 0.01,
-        days: 90,
-        url: "https://www.amazon.com/Amazon-Business-American-Express-Card/dp/B07984JN3L",
-        credits: [],
-      },
-      {
         amount: [{ amount: 100 }],
         spend: 0.01,
         days: 90,
@@ -1070,7 +1057,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 100 }],
+        amount: [{ amount: 200 }],
         spend: 0.01,
         days: 90,
         credits: [],

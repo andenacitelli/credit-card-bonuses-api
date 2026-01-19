@@ -66,4 +66,9 @@ export const WEIGHTS = {
    * Some cards permit 2x; we weight this lower, but not half as low, as it's still an upgrade.
    */
   CHECKED_BAG: 0.75,
+
+  /**
+   * Turo isn't particularly easy to fit into travel plans imo
+   */
+  TURO: 0.25,
 };
