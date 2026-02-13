@@ -258,7 +258,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     annualFee: 95,
     isAnnualFeeWaived: true,
     universalCashbackPercent: 2,
-    url: "https://apply.americanexpress.com/amex-morgan-stanley-credit-cards/",
+    url: "https://us.etrade.com/l/morgan-stanley-blue-cash-preferred",
     imageUrl: "/images/amex/blue-cash-preferred-morgan-stanley.png",
     credits: [
       {
@@ -804,17 +804,17 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 75_000 }],
-        credits: [],
-        spend: 6000,
+        amount: [{ amount: 0 }],
+        spend: 3000,
         days: 90,
-        details: "+75k @ 6k, 125k total @ 9k",
-      },
-      {
-        amount: [{ amount: 125_000 }],
-        credits: [],
-        spend: 9000,
-        days: 90,
+        credits: [
+          {
+            description: "3x FNC, <= 50k per",
+            weight: WEIGHTS.FREE_NIGHT_CREDIT,
+            value: 150_000,
+            currency: schemas.CurrenciesEnum.enum.MARRIOTT,
+          },
+        ],
       },
     ],
     historicalOffers: [
@@ -888,7 +888,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     annualFee: 895,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://www.schwab.com/creditx-cards#panel--50-media-right-117911",
+    url: "https://www.schwab.com/credit-cards/platinum-card",
     imageUrl: "/images/amex/platinum-schwab.webp",
     credits: PLATINUM_CREDITS,
     offers: [

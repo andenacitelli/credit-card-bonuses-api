@@ -180,7 +180,7 @@ export const SAPPHIRE_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 200_000 }],
+        amount: [{ amount: 150_000 }],
         spend: 30_000,
         days: 180,
         credits: [],

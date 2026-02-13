@@ -327,7 +327,7 @@
   annualFee: 95
   isAnnualFeeWaived: true
   universalCashbackPercent: 2
-  url: https://apply.americanexpress.com/amex-morgan-stanley-credit-cards/
+  url: https://us.etrade.com/l/morgan-stanley-blue-cash-preferred
   imageUrl: /images/amex/blue-cash-preferred-morgan-stanley.png
   credits:
     - description: $7/mo Disney Bundle Credit
@@ -762,17 +762,15 @@
   imageUrl: /images/amex/marriott-bonvoy-business.webp
   credits: []
   offers:
-    - spend: 6000
+    - spend: 3000
       amount:
-        - amount: 75000
+        - amount: 0
       days: 90
-      credits: []
-      details: +75k @ 6k, 125k total @ 9k
-    - spend: 9000
-      amount:
-        - amount: 125000
-      days: 90
-      credits: []
+      credits:
+        - description: 3x FNC, <= 50k per
+          value: 150000
+          weight: 0.7
+          currency: MARRIOTT
   historicalOffers:
     - spend: 3000
       amount:
@@ -878,7 +876,7 @@
   annualFee: 895
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://www.schwab.com/creditx-cards#panel--50-media-right-117911
+  url: https://www.schwab.com/credit-cards/platinum-card
   imageUrl: /images/amex/platinum-schwab.webp
   credits:
     - description: PreCheck Credit
@@ -1164,7 +1162,7 @@
   offers:
     - spend: 2000
       amount:
-        - amount: 50000
+        - amount: 70000
       days: 90
       credits: []
   historicalOffers:
@@ -1772,7 +1770,7 @@
   annualFee: 99
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://cards.barclaycardus.com/banking/cards/hawaiian-airlines-world-elite-mastercard/
+  url: https://cards.barclaycardus.com/banking/credit-card/hawaiian-airlines/child/hawaiian-hcl-inflight-landing-page/
   imageUrl: /images/barclays/hawaiian-airlines-world-elite.png
   credits: []
   offers:
@@ -1859,10 +1857,9 @@
   offers:
     - spend: 6000
       amount:
-        - amount: 60000
+        - amount: 70000
       days: 365
       credits: []
-      details: 60k @ $1k, +20k @ $6k.
   historicalOffers:
     - spend: 1000
       amount:
@@ -2048,7 +2045,7 @@
   annualFee: 99
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://cards.barclaycardus.com/banking/cards/hawaiian-airlines-world-elite-business-mastercard/
+  url: https://cards.barclaycardus.com/banking/credit-card/hawaiian-airlines/combo-app/hawaiian-bha-boh---combo-app/
   imageUrl: /images/barclays/hawaiian-airlines-world-elite-business.png
   credits:
     - description: Hawaiian statement credit
@@ -2204,17 +2201,21 @@
   offers:
     - spend: 1000
       amount:
-        - amount: 30000
+        - amount: 100000
+          weight: 0.7
+          details: 2x FNC
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/252s/ZB09TY4LRN
   historicalOffers:
     - spend: 1000
       amount:
-        - amount: 60000
+        - amount: 100000
+          weight: 0.7
+          details: 2x FNC
       days: 90
-      expiration: 2025-10-31
       credits: []
+      referralUrl: https://www.referyourchasecard.com/252s/ZB09TY4LRN
   discontinued: false
 - cardId: 6a4a30b866d4d37216b9d586a15ad1cc
   name: Marriott Bonvoy Boundless
@@ -2311,7 +2312,7 @@
   offers:
     - spend: 4000
       amount:
-        - amount: 50000
+        - amount: 20000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/226s/1EI0FYIHYB
@@ -2345,7 +2346,7 @@
   offers:
     - spend: 4000
       amount:
-        - amount: 50000
+        - amount: 20000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/226s/1EI0FYIHYB
@@ -2417,7 +2418,7 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 50000
+        - amount: 40000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/226s/1EI0FYIHYB
@@ -2465,7 +2466,7 @@
   offers:
     - spend: 5000
       amount:
-        - amount: 75000
+        - amount: 100000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/215d/OPTN75PXFL
@@ -2620,7 +2621,7 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 60000
+        - amount: 70000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/215d/OPTN75PXFL
@@ -2695,7 +2696,7 @@
   offers:
     - spend: 4000
       amount:
-        - amount: 70000
+        - amount: 80000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/215d/OPTN75PXFL
@@ -2725,7 +2726,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21a/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21a/77SVORJIWF
   historicalOffers:
     - spend: 6000
       amount:
@@ -2752,13 +2753,13 @@
         - amount: 100000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21a/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21a/77SVORJIWF
     - spend: 8000
       amount:
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21a/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21a/77SVORJIWF
   historicalOffers:
     - spend: 8000
       amount:
@@ -2784,7 +2785,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21a/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21a/77SVORJIWF
   historicalOffers:
     - spend: 6000
       amount:
@@ -2813,7 +2814,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21a/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21a/77SVORJIWF
   historicalOffers:
     - spend: 10000
       amount:
@@ -2837,7 +2838,7 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 140000
+        - amount: 175000
       days: 90
       credits: []
   historicalOffers:
@@ -2904,7 +2905,7 @@
   offers:
     - spend: 2000
       amount:
-        - amount: 80000
+        - amount: 90000
       days: 90
       credits: []
       details: 40k + 2x FNC (<= 50k per).
@@ -3044,17 +3045,17 @@
   offers:
     - spend: 30000
       amount:
-        - amount: 200000
+        - amount: 150000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21a/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21a/77SVORJIWF
   historicalOffers:
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21a/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21a/77SVORJIWF
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
@@ -3900,7 +3901,7 @@
   offers:
     - spend: 4000
       amount:
-        - amount: 100000
+        - amount: 75000
       days: 90
       credits: []
   historicalOffers:
@@ -4741,7 +4742,7 @@
   offers:
     - spend: 4500
       amount:
-        - amount: 500
+        - amount: 750
       days: 150
       credits: []
   historicalOffers:
@@ -5105,7 +5106,7 @@
   offers:
     - spend: 1000
       amount:
-        - amount: 300
+        - amount: 250
           currency: USD
       days: 90
       credits: []
@@ -5138,7 +5139,7 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 400
+        - amount: 350
           currency: USD
       days: 90
       credits: []

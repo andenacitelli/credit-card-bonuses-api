@@ -262,7 +262,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     annualFee: 99,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://cards.barclaycardus.com/banking/cards/hawaiian-airlines-world-elite-mastercard/",
+    url: "https://cards.barclaycardus.com/banking/credit-card/hawaiian-airlines/child/hawaiian-hcl-inflight-landing-page/",
     imageUrl: "/images/barclays/hawaiian-airlines-world-elite.png",
     credits: [],
     offers: [
@@ -366,11 +366,10 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 60_000 }],
+        amount: [{ amount: 70_000 }],
         spend: 6000,
         days: 365,
         credits: [],
-        details: "60k @ $1k, +20k @ $6k.",
       },
     ],
     historicalOffers: [
@@ -600,7 +599,7 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     annualFee: 99,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
-    url: "https://cards.barclaycardus.com/banking/cards/hawaiian-airlines-world-elite-business-mastercard/",
+    url: "https://cards.barclaycardus.com/banking/credit-card/hawaiian-airlines/combo-app/hawaiian-bha-boh---combo-app/",
     imageUrl: "/images/barclays/hawaiian-airlines-world-elite-business.png",
     credits: [
       {

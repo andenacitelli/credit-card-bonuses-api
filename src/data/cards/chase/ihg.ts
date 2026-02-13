@@ -18,7 +18,7 @@ export const IHG_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 140_000 }],
+        amount: [{ amount: 175_000 }],
         spend: 3000,
         days: 90,
         credits: [],
@@ -100,7 +100,7 @@ export const IHG_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 80_000 }],
+        amount: [{ amount: 90_000 }],
         spend: 2000,
         days: 90,
         credits: [],

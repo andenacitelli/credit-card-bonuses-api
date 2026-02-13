@@ -83,7 +83,7 @@ export const SOUTHWEST_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 20_000 }],
         spend: 4000,
         days: 90,
         credits: [],
@@ -123,7 +123,7 @@ export const SOUTHWEST_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 20_000 }],
         spend: 4000,
         days: 90,
         credits: [],
@@ -208,7 +208,7 @@ export const SOUTHWEST_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 40_000 }],
         spend: 3000,
         days: 90,
         credits: [],
