@@ -188,7 +188,7 @@ export const UNITED_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 80_000 }],
+        amount: [{ amount: 100_000 }],
         spend: 5000,
         days: 90,
         credits: [],

@@ -2346,7 +2346,7 @@
   offers:
     - spend: 4000
       amount:
-        - amount: 20000
+        - amount: 30000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/226s/1EI0FYIHYB
@@ -2562,7 +2562,7 @@
   offers:
     - spend: 5000
       amount:
-        - amount: 80000
+        - amount: 100000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/215d/OPTN75PXFL
@@ -2726,7 +2726,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21a/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21a/VHD03DKTV7
   historicalOffers:
     - spend: 6000
       amount:
@@ -2753,13 +2753,13 @@
         - amount: 100000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21a/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21a/VHD03DKTV7
     - spend: 8000
       amount:
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21a/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21a/VHD03DKTV7
   historicalOffers:
     - spend: 8000
       amount:
@@ -2785,7 +2785,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21a/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21a/VHD03DKTV7
   historicalOffers:
     - spend: 6000
       amount:
@@ -2814,7 +2814,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21a/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21a/VHD03DKTV7
   historicalOffers:
     - spend: 10000
       amount:
@@ -3048,14 +3048,14 @@
         - amount: 150000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21a/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21a/VHD03DKTV7
   historicalOffers:
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21a/77SVORJIWF
+      referralUrl: https://www.referyourchasecard.com/21a/VHD03DKTV7
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature

@@ -123,7 +123,7 @@ export const SOUTHWEST_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 20_000 }],
+        amount: [{ amount: 30_000 }],
         spend: 4000,
         days: 90,
         credits: [],
