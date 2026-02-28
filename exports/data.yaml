@@ -625,9 +625,14 @@
   offers:
     - spend: 2000
       amount:
-        - amount: 80000
+        - amount: 70000
       days: 180
-      credits: []
+      expiration: 2026-04-15
+      credits:
+        - description: 1x FNC, ballpark ~30k per.
+          value: 30000
+          weight: 0.7
+          currency: HYATT
   historicalOffers:
     - spend: 5000
       amount:
@@ -654,8 +659,9 @@
   offers:
     - spend: 6000
       amount:
-        - amount: 150000
+        - amount: 175000
       days: 180
+      expiration: 2026-04-15
       credits: []
   historicalOffers:
     - spend: 4000
@@ -682,16 +688,23 @@
       weight: 0.5
       currency: HILTON
   offers:
-    - spend: 6000
-      amount:
-        - amount: 130000
-      days: 180
-      credits: []
-  historicalOffers:
     - spend: 8000
       amount:
         - amount: 175000
       days: 180
+      credits: []
+  historicalOffers:
+    - spend: 6000
+      amount:
+        - amount: 175000
+      days: 180
+      expiration: 2026-02-28
+      credits: []
+    - spend: 8000
+      amount:
+        - amount: 175000
+      days: 180
+      expiration: 2026-04-15
       credits: []
   discontinued: false
 - cardId: f6c6aa50b533b758df7be5151d805571
@@ -711,7 +724,12 @@
       amount:
         - amount: 130000
       days: 180
-      credits: []
+      expiration: 2026-04-15
+      credits:
+        - description: 1x FNC, ballpark ~30k per.
+          value: 30000
+          weight: 0.7
+          currency: HYATT
   historicalOffers:
     - spend: 2000
       amount:
@@ -2277,7 +2295,7 @@
         - amount: 80000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/226s/1EI0FYIHYB
+      referralUrl: https://www.referyourchasecard.com/226f/L4650PBX9E
   historicalOffers:
     - spend: 5000
       amount:
@@ -2315,7 +2333,7 @@
         - amount: 20000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/226s/1EI0FYIHYB
+      referralUrl: https://www.referyourchasecard.com/226f/L4650PBX9E
   historicalOffers:
     - spend: 4000
       amount:
@@ -2349,7 +2367,7 @@
         - amount: 30000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/226s/1EI0FYIHYB
+      referralUrl: https://www.referyourchasecard.com/226f/L4650PBX9E
   historicalOffers:
     - spend: 4000
       amount:
@@ -2383,7 +2401,7 @@
         - amount: 60000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/226s/1EI0FYIHYB
+      referralUrl: https://www.referyourchasecard.com/226f/L4650PBX9E
   historicalOffers:
     - spend: 3000
       amount:
@@ -2421,7 +2439,7 @@
         - amount: 40000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/226s/1EI0FYIHYB
+      referralUrl: https://www.referyourchasecard.com/226f/L4650PBX9E
   historicalOffers:
     - spend: 4000
       amount:
@@ -2469,7 +2487,7 @@
         - amount: 100000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/215d/OPTN75PXFL
+      referralUrl: https://www.referyourchasecard.com/215e/OPTN75PXFL
   historicalOffers:
     - spend: 5000
       amount:
@@ -2517,7 +2535,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/215d/OPTN75PXFL
+      referralUrl: https://www.referyourchasecard.com/215e/OPTN75PXFL
   historicalOffers:
     - spend: 5000
       amount:
@@ -2565,7 +2583,7 @@
         - amount: 100000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/215d/OPTN75PXFL
+      referralUrl: https://www.referyourchasecard.com/215e/OPTN75PXFL
   historicalOffers:
     - spend: 5000
       amount:
@@ -2624,7 +2642,7 @@
         - amount: 70000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/215d/OPTN75PXFL
+      referralUrl: https://www.referyourchasecard.com/215e/OPTN75PXFL
   historicalOffers:
     - spend: 3000
       amount:
@@ -2650,7 +2668,7 @@
         - amount: 30000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/215d/OPTN75PXFL
+      referralUrl: https://www.referyourchasecard.com/215e/OPTN75PXFL
   historicalOffers:
     - spend: 1000
       amount:
@@ -2699,7 +2717,7 @@
         - amount: 80000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/215d/OPTN75PXFL
+      referralUrl: https://www.referyourchasecard.com/215e/OPTN75PXFL
   historicalOffers:
     - spend: 4000
       amount:
@@ -2726,7 +2744,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21a/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21d/NYYV1UTE81
   historicalOffers:
     - spend: 6000
       amount:
@@ -2753,13 +2771,13 @@
         - amount: 100000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21a/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21d/NYYV1UTE81
     - spend: 8000
       amount:
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21a/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21d/NYYV1UTE81
   historicalOffers:
     - spend: 8000
       amount:
@@ -2785,7 +2803,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21a/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21d/NYYV1UTE81
   historicalOffers:
     - spend: 6000
       amount:
@@ -2814,7 +2832,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21a/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21d/NYYV1UTE81
   historicalOffers:
     - spend: 10000
       amount:
@@ -2937,7 +2955,7 @@
         - amount: 75000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/19t/F0DZZK1XD0
+      referralUrl: https://www.referyourchasecard.com/19u/F0DZZK1XD0
   historicalOffers:
     - spend: 5000
       amount:
@@ -2985,7 +3003,7 @@
         - amount: 125000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/19t/F0DZZK1XD0
+      referralUrl: https://www.referyourchasecard.com/19u/F0DZZK1XD0
   historicalOffers:
     - spend: 5000
       amount:
@@ -2995,7 +3013,7 @@
         - description: Chase Travel Credit
           value: 500
           weight: 0.9
-      referralUrl: https://www.referyourchasecard.com/19t/F0DZZK1XD0
+      referralUrl: https://www.referyourchasecard.com/19u/F0DZZK1XD0
   discontinued: false
 - cardId: 5d8c589d1e7c1294d04fa6e4a2685624
   name: Sapphire Reserve Business
@@ -3048,14 +3066,14 @@
         - amount: 150000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21a/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21d/NYYV1UTE81
   historicalOffers:
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21a/VHD03DKTV7
+      referralUrl: https://www.referyourchasecard.com/21d/NYYV1UTE81
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
@@ -3203,7 +3221,7 @@
         - amount: 20000
       days: 90
       credits: []
-      url: https://www.referyourchasecard.com/18A/A85BX0FG21
+      url: https://www.referyourchasecard.com/18e/A85BX0FG21
   historicalOffers:
     - spend: 500
       amount:
@@ -3229,13 +3247,13 @@
         - amount: 30000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/18A/A85BX0FG21
+      referralUrl: https://www.referyourchasecard.com/18e/A85BX0FG21
     - spend: 500
       amount:
         - amount: 20000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/18A/A85BX0FG21
+      referralUrl: https://www.referyourchasecard.com/18e/A85BX0FG21
   historicalOffers:
     - spend: 500
       amount:

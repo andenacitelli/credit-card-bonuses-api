@@ -4,17 +4,17 @@ const getRandom = (array: string[]): string => {
 
 export const REFERRALS = {
   CHASE: {
-    SAPPHIRE: getRandom(["https://www.referyourchasecard.com/19t/F0DZZK1XD0"]),
+    SAPPHIRE: getRandom(["https://www.referyourchasecard.com/19u/F0DZZK1XD0"]),
     INKS: getRandom([
-      "https://www.referyourchasecard.com/21a/6NRVE22NPE",
-      "https://www.referyourchasecard.com/21a/5P2JOG1KV1",
-      "https://www.referyourchasecard.com/21a/77SVORJIWF",
-      "https://www.referyourchasecard.com/21a/VHD03DKTV7",
+      "https://www.referyourchasecard.com/21d/868SJCY65Q",
+      "https://www.referyourchasecard.com/21d/AZFPSQ0R69",
+      "https://www.referyourchasecard.com/21d/NYYV1UTE81",
+      "https://www.referyourchasecard.com/21d/20AIM7KB7G",
     ]),
-    FREEDOM: getRandom(["https://www.referyourchasecard.com/18A/A85BX0FG21"]),
-    UNITED: getRandom(["https://www.referyourchasecard.com/215d/OPTN75PXFL"]),
+    FREEDOM: getRandom(["https://www.referyourchasecard.com/18e/A85BX0FG21"]),
+    UNITED: getRandom(["https://www.referyourchasecard.com/215e/OPTN75PXFL"]),
     SOUTHWEST: getRandom([
-      "https://www.referyourchasecard.com/226s/1EI0FYIHYB",
+      "https://www.referyourchasecard.com/226f/L4650PBX9E",
     ]),
     MARRIOTT: getRandom(["https://www.referyourchasecard.com/252s/ZB09TY4LRN"]),
   },

@@ -631,10 +631,18 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 80_000 }],
+        amount: [{ amount: 70_000 }],
         spend: 2000,
         days: 180,
-        credits: [],
+        credits: [
+          {
+            value: 1 * 30_000,
+            description: "1x FNC, ballpark ~30k per.",
+            weight: WEIGHTS.FREE_NIGHT_CREDIT,
+            currency: schemas.CurrenciesEnum.enum.HYATT,
+          },
+        ],
+        expiration: "2026-04-15",
       },
     ],
     historicalOffers: [
@@ -668,10 +676,11 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 150_000 }],
+        amount: [{ amount: 175_000 }],
         spend: 6000,
         days: 180,
         credits: [],
+        expiration: "2026-04-15",
       },
     ],
     historicalOffers: [
@@ -706,8 +715,8 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 130_000 }],
-        spend: 6_000,
+        amount: [{ amount: 175_000 }],
+        spend: 8000,
         days: 180,
         credits: [],
       },
@@ -715,9 +724,17 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     historicalOffers: [
       {
         amount: [{ amount: 175_000 }],
+        spend: 6_000,
+        days: 180,
+        credits: [],
+        expiration: "2026-02-28",
+      },
+      {
+        amount: [{ amount: 175_000 }],
         spend: 8000,
         days: 180,
         credits: [],
+        expiration: "2026-04-15",
       },
     ],
   },
@@ -739,7 +756,15 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
         amount: [{ amount: 130_000 }],
         spend: 3000,
         days: 180,
-        credits: [],
+        credits: [
+          {
+            value: 1 * 30_000,
+            description: "1x FNC, ballpark ~30k per.",
+            weight: WEIGHTS.FREE_NIGHT_CREDIT,
+            currency: schemas.CurrenciesEnum.enum.HYATT,
+          },
+        ],
+        expiration: "2026-04-15",
       },
     ],
     historicalOffers: [
