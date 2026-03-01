@@ -1,0 +1,16 @@
+name: (Setup) Conductor Setup
+on:
+  push:
+    paths:
+      - 'conductor.json'
+      - '.conductor/**'
+      - 'package.json'
+      - 'pnpm-lock.yaml'
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/setup-node
+      - run: sh .conductor/setup.sh
