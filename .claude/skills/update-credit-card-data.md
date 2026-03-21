@@ -52,6 +52,7 @@ When updating a card's offer:
 - **Multiple offers are OK**: Some cards legitimately have multiple concurrent public offers (e.g., a direct offer and a higher referral offer). Keep both if they're distinct.
 - **Currency matters**: Pay attention to whether amounts are in points/miles or USD. The `currency` field on the amount object controls this — if omitted, it defaults to the card's `currency` field.
 - **Be conservative**: If you're unsure whether an offer changed, leave it. False positives (incorrect updates) are worse than missing an update.
+- **Tag expiration dates when available**: If a source mentions when an offer expires, add an `expiration` field (format `"YYYY-MM-DD"`) to the offer. This is not mandatory — many offers don't have a known end date — but include it whenever the information is available.
 
 ## Process
 
@@ -62,7 +63,8 @@ When updating a card's offer:
 5. For any cards where you couldn't find data from the above sources, use WebSearch as a fallback.
 6. Use Exa only as a last resort for remaining gaps.
 7. Make all necessary edits to the card files.
-8. After all updates, print a summary table showing:
+8. Run `pnpm run test` — the test suite validates things like expired offers (based on `expiration` dates) and other data integrity checks. Use any failures as an additional signal for what needs updating.
+9. After all updates, print a summary table showing:
    - Cards updated (old offer -> new offer)
    - Cards verified as current (no change needed)
    - Cards where you couldn't verify the offer (left unchanged)
