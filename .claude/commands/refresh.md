@@ -26,3 +26,5 @@ Merge the remote `master` branch into the current branch, resolve any conflicts,
      If there are errors, fix them and commit the fixes as a separate commit.
 
 6. Push the result to the remote with `git push`.
+
+7. If the current branch has an open PR, quickly audit the PR title and description against the actual diff (`git diff master...HEAD`). If the title or description have diverged substantially from the implementation, update them with `gh pr edit`.
