@@ -1,6 +1,5 @@
 ---
 allowed-tools: Bash, Read, Edit, Write, Glob, Grep
-user-invocable: true
 ---
 
 Merge the remote `master` branch into the current branch, resolve any conflicts, validate, and push.
