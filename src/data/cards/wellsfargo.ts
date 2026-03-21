@@ -90,7 +90,6 @@ export const WELLS_FARGO_CARDS: Array<CreditCardInput> = [
         spend: 1500,
         days: 90,
         credits: [],
-        expiration: "2023-01-01",
       },
     ],
   },
