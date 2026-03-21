@@ -1,19 +1,17 @@
 # Credit Card Bonuses API
 
-## Tech Stack
+## Mise
 
-| Tool | Version | Purpose |
-|------|---------|---------|
-| Node.js | 22.15.0 | Runtime |
-| pnpm | 10.12.1 | Package manager |
-| TypeScript | 5.8.3 | Language |
-| mise | 2025.6.0 | Tool version manager |
-| Vitest | 3.2.4 | Test runner |
-| oxlint | 1.2.0 | Linter |
-| Prettier | 3.5.3 | Formatter |
-| Husky | 9.1.7 | Git hooks |
-| tsx | 4.20.3 | TypeScript execution |
-| Redocly CLI | 1.34.3 | OpenAPI linting |
+- All CLI dependencies are versioned through mise; see `mise.toml` for pinned versions
+- Run CLI tools via `mise exec --` to ensure the correct version is used
+- Cross-reference `mise.toml` when using potentially version-sensitive behavior (very old or very new flags/options) of any managed tool
+
+## Git
+
+- Avoid `--no-verify` flag on `git commit`; pre-commit hooks are mandatory and enforce formatting
+- Pre-commit runs `lint-staged` (prettier + oxlint) and regenerates exports
+- Always commit and push before returning control to the user. You can ask the user to clarify things of course, but should never prompt the user along the lines of "would you like me to commit and push this?"
+- Always bias towards automatic PR creation (open, not draft) if you are not on the default branch. This is common in worktrees and/or when you are running through the Conductor application.
 
 ## Validation
 
