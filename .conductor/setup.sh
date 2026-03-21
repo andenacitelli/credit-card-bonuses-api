@@ -7,4 +7,6 @@ mise trust -a && mise install
 
 pnpm install
 
+pnpm run generate
+
 echo "Setup complete!"
