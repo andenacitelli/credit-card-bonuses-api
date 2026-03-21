@@ -1,5 +1,6 @@
 ---
 allowed-tools: Bash, Read, Edit, Write, Glob, Grep
+disable-model-invocation: true
 ---
 
 Merge the remote `master` branch into the current branch, resolve any conflicts, validate, and push.
