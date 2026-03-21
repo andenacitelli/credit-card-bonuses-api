@@ -1,6 +1,5 @@
 ---
-name: update-credit-card-data
-description: Audit and update all credit card sign-up bonus data in src/data/cards/ using blog sources, spreadsheets, and web search fallbacks.
+user-invocable: true
 disable-model-invocation: true
 ---
 
