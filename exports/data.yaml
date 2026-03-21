@@ -45,6 +45,11 @@
       days: 180
       expiration: 2026-04-01
       credits: []
+    - spend: 2000
+      amount:
+        - amount: 50000
+      days: 180
+      credits: []
   historicalOffers:
     - spend: 2000
       amount:
@@ -77,6 +82,11 @@
         - amount: 90000
       days: 180
       expiration: 2026-04-01
+      credits: []
+    - spend: 4000
+      amount:
+        - amount: 60000
+      days: 180
       credits: []
   historicalOffers:
     - spend: 4000
@@ -113,6 +123,11 @@
         - amount: 100000
       days: 180
       expiration: 2026-04-01
+      credits: []
+    - spend: 3000
+      amount:
+        - amount: 60000
+      days: 180
       credits: []
   historicalOffers:
     - spend: 3000
@@ -156,6 +171,11 @@
       days: 180
       expiration: 2026-04-01
       credits: []
+    - spend: 6000
+      amount:
+        - amount: 70000
+      days: 180
+      credits: []
   historicalOffers:
     - spend: 6000
       amount:
@@ -192,6 +212,11 @@
       days: 180
       expiration: 2026-04-01
       credits: []
+    - spend: 5000
+      amount:
+        - amount: 70000
+      days: 180
+      credits: []
   historicalOffers:
     - spend: 5000
       amount:
@@ -224,6 +249,11 @@
         - amount: 125000
       days: 180
       expiration: 2026-04-01
+      credits: []
+    - spend: 10000
+      amount:
+        - amount: 80000
+      days: 180
       credits: []
   historicalOffers:
     - spend: 10000
@@ -802,6 +832,11 @@
       days: 180
       expiration: 2026-05-13
       credits: []
+    - spend: 6000
+      amount:
+        - amount: 100000
+      days: 180
+      credits: []
   historicalOffers:
     - spend: 6000
       amount:
@@ -1102,6 +1137,11 @@
         - amount: 175000
       days: 180
       expiration: 2026-05-13
+      credits: []
+    - spend: 7000
+      amount:
+        - amount: 85000
+      days: 180
       credits: []
   historicalOffers:
     - spend: 7000
@@ -3433,6 +3473,11 @@
         - amount: 80000
       days: 90
       expiration: 2026-04-30
+      credits: []
+    - spend: 5000
+      amount:
+        - amount: 60000
+      days: 90
       credits: []
   historicalOffers:
     - spend: 5000
