@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "setup": "sh .conductor/setup.sh",
+    "archive": "sh .conductor/archive.sh"
+  }
+}
