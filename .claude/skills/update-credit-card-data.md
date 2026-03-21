@@ -11,11 +11,13 @@ You are auditing and updating the credit card sign-up bonus offers stored in `sr
 ## Data Structure
 
 Each card in the TypeScript files has this structure (relevant fields):
+
 - `name` / `issuer`: identifies the card
 - `offers`: array of current public offers. Each offer has `amount` (array of `{amount, currency?}`), `spend`, `days`, `credits`, and optional `details`, `url`, `referralUrl`, `expiration`
 - `historicalOffers`: past offers for reference
 
 When updating a card's offer:
+
 1. If the current offer in the file matches what you find, leave it alone
 2. If the offer has changed, move the old offer(s) to `historicalOffers` (add an `expiration` field with today's date or the known expiration) and replace `offers` with the new one(s)
 3. Preserve any `referralUrl` or `url` fields on offers if they still apply

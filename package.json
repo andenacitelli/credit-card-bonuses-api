@@ -42,7 +42,7 @@
     "*.ts": [
       "oxlint --fix"
     ],
-    "*.{ts,json,yml,yaml}": [
+    "*.{ts,js,mjs,json,yml,yaml,md}": [
       "prettier --write"
     ]
   }
