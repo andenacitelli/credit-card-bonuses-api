@@ -282,7 +282,6 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
         spend: 3000,
         days: 180,
         credits: [],
-        expiration: "2023-01-11",
       },
     ],
   },
@@ -719,6 +718,7 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
         spend: 8000,
         days: 180,
         credits: [],
+        expiration: "2026-04-15",
       },
     ],
     historicalOffers: [
@@ -798,13 +798,21 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
+        amount: [{ amount: 200_000 }],
+        spend: 6000,
+        days: 180,
+        credits: [],
+        expiration: "2026-05-13",
+      },
+    ],
+    historicalOffers: [
+      {
         amount: [{ amount: 100_000 }],
         spend: 6000,
         days: 180,
         credits: [],
+        expiration: "2026-03-21",
       },
-    ],
-    historicalOffers: [
       {
         amount: [{ amount: 200_000 }],
         spend: 6000,
@@ -982,13 +990,21 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
+        amount: [{ amount: 175_000 }],
+        spend: 5000,
+        days: 180,
+        credits: [],
+        expiration: "2026-05-13",
+      },
+    ],
+    historicalOffers: [
+      {
         amount: [{ amount: 85_000 }],
         spend: 7000,
         days: 180,
         credits: [],
+        expiration: "2026-03-21",
       },
-    ],
-    historicalOffers: [
       {
         amount: [{ amount: 175_000 }],
         spend: 5000,

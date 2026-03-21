@@ -211,13 +211,20 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 300 }],
-        spend: 3000,
+        amount: [{ amount: 500 }],
+        spend: 5000,
         days: 90,
         credits: [],
       },
     ],
     historicalOffers: [
+      {
+        amount: [{ amount: 300 }],
+        spend: 3000,
+        days: 90,
+        credits: [],
+        expiration: "2026-03-21",
+      },
       {
         amount: [{ amount: 300 }],
         spend: 1000,
@@ -241,8 +248,8 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 300 }],
-        spend: 3000,
+        amount: [{ amount: 500 }],
+        spend: 5000,
         days: 90,
         credits: [],
       },
@@ -253,6 +260,7 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
         spend: 3000,
         days: 90,
         credits: [],
+        expiration: "2026-03-21",
       },
     ],
   },
@@ -271,8 +279,8 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 30_000 }],
-        spend: 3000,
+        amount: [{ amount: 50_000 }],
+        spend: 5000,
         days: 90,
         credits: [],
       },
@@ -283,6 +291,7 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
         spend: 3000,
         days: 90,
         credits: [],
+        expiration: "2026-03-21",
       },
     ],
   },

@@ -39,12 +39,18 @@
       value: 50
       weight: 0.5
   offers:
+    - spend: 3000
+      amount:
+        - amount: 90000
+      days: 180
+      credits: []
+  historicalOffers:
     - spend: 2000
       amount:
         - amount: 50000
       days: 180
+      expiration: 2026-03-21
       credits: []
-  historicalOffers:
     - spend: 3000
       amount:
         - amount: 80000
@@ -67,10 +73,16 @@
   offers:
     - spend: 4000
       amount:
-        - amount: 60000
+        - amount: 90000
       days: 180
       credits: []
   historicalOffers:
+    - spend: 4000
+      amount:
+        - amount: 60000
+      days: 180
+      expiration: 2026-03-21
+      credits: []
     - spend: 6000
       amount:
         - amount: 90000
@@ -94,12 +106,18 @@
       value: 500
       weight: 0.7
   offers:
+    - spend: 4000
+      amount:
+        - amount: 100000
+      days: 180
+      credits: []
+  historicalOffers:
     - spend: 3000
       amount:
         - amount: 60000
       days: 180
+      expiration: 2026-03-21
       credits: []
-  historicalOffers:
     - spend: 4000
       amount:
         - amount: 90000
@@ -131,10 +149,16 @@
   offers:
     - spend: 6000
       amount:
-        - amount: 70000
+        - amount: 100000
       days: 180
       credits: []
   historicalOffers:
+    - spend: 6000
+      amount:
+        - amount: 70000
+      days: 180
+      expiration: 2026-03-21
+      credits: []
     - spend: 8000
       amount:
         - amount: 100000
@@ -158,12 +182,18 @@
       value: 240
       weight: 0.8
   offers:
+    - spend: 6000
+      amount:
+        - amount: 125000
+      days: 180
+      credits: []
+  historicalOffers:
     - spend: 5000
       amount:
         - amount: 70000
       days: 180
+      expiration: 2026-03-21
       credits: []
-  historicalOffers:
     - spend: 6000
       amount:
         - amount: 125000
@@ -186,10 +216,16 @@
   offers:
     - spend: 10000
       amount:
-        - amount: 80000
+        - amount: 125000
       days: 180
       credits: []
   historicalOffers:
+    - spend: 10000
+      amount:
+        - amount: 80000
+      days: 180
+      expiration: 2026-03-21
+      credits: []
     - spend: 12000
       amount:
         - amount: 110000
@@ -345,7 +381,6 @@
       amount:
         - amount: 400
       days: 180
-      expiration: 2023-01-11
       credits: []
   discontinued: false
 - cardId: 191f603ca5af9306d5db0fb208e9a646
@@ -692,6 +727,7 @@
       amount:
         - amount: 175000
       days: 180
+      expiration: 2026-04-15
       credits: []
   historicalOffers:
     - spend: 6000
@@ -756,10 +792,17 @@
   offers:
     - spend: 6000
       amount:
-        - amount: 100000
+        - amount: 200000
       days: 180
+      expiration: 2026-05-13
       credits: []
   historicalOffers:
+    - spend: 6000
+      amount:
+        - amount: 100000
+      days: 180
+      expiration: 2026-03-21
+      credits: []
     - spend: 6000
       amount:
         - amount: 200000
@@ -1048,12 +1091,19 @@
   imageUrl: /images/amex/marriott-bonvoy-bevy.png
   credits: []
   offers:
+    - spend: 5000
+      amount:
+        - amount: 175000
+      days: 180
+      expiration: 2026-05-13
+      credits: []
+  historicalOffers:
     - spend: 7000
       amount:
         - amount: 85000
       days: 180
+      expiration: 2026-03-21
       credits: []
-  historicalOffers:
     - spend: 5000
       amount:
         - amount: 175000
@@ -1339,12 +1389,18 @@
   imageUrl: /images/bankofamerica/business-advantage-customized-cash.jpg
   credits: []
   offers:
+    - spend: 5000
+      amount:
+        - amount: 500
+      days: 90
+      credits: []
+  historicalOffers:
     - spend: 3000
       amount:
         - amount: 300
       days: 90
+      expiration: 2026-03-21
       credits: []
-  historicalOffers:
     - spend: 1000
       amount:
         - amount: 300
@@ -1364,9 +1420,9 @@
   imageUrl: /images/bankofamerica/business-advantage-unlimited-cash.webp
   credits: []
   offers:
-    - spend: 3000
+    - spend: 5000
       amount:
-        - amount: 300
+        - amount: 500
       days: 90
       credits: []
   historicalOffers:
@@ -1374,6 +1430,7 @@
       amount:
         - amount: 300
       days: 90
+      expiration: 2026-03-21
       credits: []
   discontinued: false
 - cardId: 1e75cf9ca2ccded9a621d5e8f5630c3c
@@ -1389,9 +1446,9 @@
   imageUrl: /images/bankofamerica/business-advantage-travel-rewards.webp
   credits: []
   offers:
-    - spend: 3000
+    - spend: 5000
       amount:
-        - amount: 30000
+        - amount: 50000
       days: 90
       credits: []
   historicalOffers:
@@ -1399,6 +1456,7 @@
       amount:
         - amount: 30000
       days: 90
+      expiration: 2026-03-21
       credits: []
   discontinued: false
 - cardId: 9dce80bda519a8616ca4eb288d7cc693
@@ -2750,7 +2808,6 @@
       amount:
         - amount: 90000
       days: 90
-      expiration: 2023-03-19
       credits: []
   discontinued: false
 - cardId: c80cdb77c3eda940e2a36abb4f943c69
@@ -3116,10 +3173,16 @@
   offers:
     - spend: 4000
       amount:
-        - amount: 60000
+        - amount: 85000
       days: 90
       credits: []
   historicalOffers:
+    - spend: 4000
+      amount:
+        - amount: 60000
+      days: 90
+      expiration: 2026-03-21
+      credits: []
     - spend: 3000
       amount:
         - amount: 100000
@@ -3142,10 +3205,16 @@
   offers:
     - spend: 5000
       amount:
-        - amount: 75000
+        - amount: 90000
       days: 90
       credits: []
   historicalOffers:
+    - spend: 5000
+      amount:
+        - amount: 75000
+      days: 90
+      expiration: 2026-03-21
+      credits: []
     - spend: 7500
       amount:
         - amount: 100000
@@ -3244,7 +3313,7 @@
   offers:
     - spend: 500
       amount:
-        - amount: 30000
+        - amount: 25000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/18e/A85BX0FG21
@@ -3255,6 +3324,12 @@
       credits: []
       referralUrl: https://www.referyourchasecard.com/18e/A85BX0FG21
   historicalOffers:
+    - spend: 500
+      amount:
+        - amount: 30000
+      days: 90
+      expiration: 2026-03-21
+      credits: []
     - spend: 500
       amount:
         - amount: 25000
@@ -3302,6 +3377,12 @@
   offers:
     - spend: 3000
       amount:
+        - amount: 30000
+      days: 90
+      credits: []
+  historicalOffers:
+    - spend: 3000
+      amount:
         - amount: 0
       days: 90
       expiration: 2026-02-26
@@ -3310,12 +3391,6 @@
           value: 90000
           weight: 0.7
           currency: HYATT
-    - spend: 3000
-      amount:
-        - amount: 30000
-      days: 90
-      credits: []
-  historicalOffers:
     - spend: 3000
       amount: []
       days: 90
@@ -3339,12 +3414,19 @@
   imageUrl: /images/chase/world-of-hyatt.png
   credits: []
   offers:
+    - spend: 10000
+      amount:
+        - amount: 80000
+      days: 90
+      expiration: 2026-04-30
+      credits: []
+  historicalOffers:
     - spend: 5000
       amount:
         - amount: 60000
       days: 90
+      expiration: 2026-03-21
       credits: []
-  historicalOffers:
     - spend: 3000
       amount:
         - amount: 60000
@@ -5012,7 +5094,6 @@
       amount:
         - amount: 30000
       days: 90
-      expiration: 2023-01-01
       credits: []
   discontinued: false
 - cardId: d1fcd95962c94d1b56d691fda30acead
