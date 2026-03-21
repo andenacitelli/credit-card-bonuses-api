@@ -1,5 +1,11 @@
 # Credit Card Bonuses API
 
+## Mise
+
+- All CLI dependencies are versioned through mise; see `mise.toml` for pinned versions
+- Run CLI tools via `mise exec --` to ensure the correct version is used
+- Cross-reference `mise.toml` when using potentially version-sensitive behavior (very old or very new flags/options) of any managed tool
+
 ## Git
 
 - Avoid `--no-verify` flag on `git commit`; pre-commit hooks are mandatory and enforce formatting
