@@ -19,7 +19,7 @@ Merge the remote `master` branch into the current branch, resolve any conflicts,
    - Complete the merge with `git commit --no-edit`.
 
 5. Run validation from the repository root:
-   - `pnpm run lint:linter` (oxlint)
+   - `pnpm run lint:oxlint` (oxlint)
    - `pnpm run lint:typecheck` (TypeScript)
    If there are errors, fix them and commit the fixes as a separate commit.
 
