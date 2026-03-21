@@ -2744,7 +2744,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21d/NYYV1UTE81
+      referralUrl: https://www.referyourchasecard.com/21d/AZFPSQ0R69
   historicalOffers:
     - spend: 6000
       amount:
@@ -2771,13 +2771,13 @@
         - amount: 100000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21d/NYYV1UTE81
+      referralUrl: https://www.referyourchasecard.com/21d/AZFPSQ0R69
     - spend: 8000
       amount:
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21d/NYYV1UTE81
+      referralUrl: https://www.referyourchasecard.com/21d/AZFPSQ0R69
   historicalOffers:
     - spend: 8000
       amount:
@@ -2803,7 +2803,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21d/NYYV1UTE81
+      referralUrl: https://www.referyourchasecard.com/21d/AZFPSQ0R69
   historicalOffers:
     - spend: 6000
       amount:
@@ -2832,7 +2832,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21d/NYYV1UTE81
+      referralUrl: https://www.referyourchasecard.com/21d/AZFPSQ0R69
   historicalOffers:
     - spend: 10000
       amount:
@@ -3066,14 +3066,14 @@
         - amount: 150000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21d/NYYV1UTE81
+      referralUrl: https://www.referyourchasecard.com/21d/AZFPSQ0R69
   historicalOffers:
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21d/NYYV1UTE81
+      referralUrl: https://www.referyourchasecard.com/21d/AZFPSQ0R69
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature

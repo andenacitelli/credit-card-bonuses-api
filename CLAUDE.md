@@ -14,3 +14,12 @@
 | Husky | 9.1.7 | Git hooks |
 | tsx | 4.20.3 | TypeScript execution |
 | Redocly CLI | 1.34.3 | OpenAPI linting |
+
+## Validation
+
+Always run these checks before handing control back to the user:
+
+```sh
+npm run lint:oxlint
+npm run lint:typecheck
+```
