@@ -43,6 +43,7 @@
       amount:
         - amount: 90000
       days: 180
+      expiration: 2026-04-01
       credits: []
   historicalOffers:
     - spend: 2000
@@ -75,6 +76,7 @@
       amount:
         - amount: 90000
       days: 180
+      expiration: 2026-04-01
       credits: []
   historicalOffers:
     - spend: 4000
@@ -110,6 +112,7 @@
       amount:
         - amount: 100000
       days: 180
+      expiration: 2026-04-01
       credits: []
   historicalOffers:
     - spend: 3000
@@ -151,6 +154,7 @@
       amount:
         - amount: 100000
       days: 180
+      expiration: 2026-04-01
       credits: []
   historicalOffers:
     - spend: 6000
@@ -186,6 +190,7 @@
       amount:
         - amount: 125000
       days: 180
+      expiration: 2026-04-01
       credits: []
   historicalOffers:
     - spend: 5000
@@ -218,6 +223,7 @@
       amount:
         - amount: 125000
       days: 180
+      expiration: 2026-04-01
       credits: []
   historicalOffers:
     - spend: 10000
@@ -1579,9 +1585,9 @@
       value: 60
       weight: 0.5
   offers:
-    - spend: 6000
+    - spend: 4000
       amount:
-        - amount: 100000
+        - amount: 80000
       days: 90
       credits:
         - description: Companion Award
@@ -1593,6 +1599,7 @@
       amount:
         - amount: 100000
       days: 90
+      expiration: 2026-03-21
       credits:
         - description: Companion Award
           value: 2500
@@ -2802,7 +2809,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21d/AZFPSQ0R69
+      referralUrl: https://www.referyourchasecard.com/21d/868SJCY65Q
   historicalOffers:
     - spend: 6000
       amount:
@@ -2828,13 +2835,13 @@
         - amount: 100000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21d/AZFPSQ0R69
+      referralUrl: https://www.referyourchasecard.com/21d/868SJCY65Q
     - spend: 8000
       amount:
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21d/AZFPSQ0R69
+      referralUrl: https://www.referyourchasecard.com/21d/868SJCY65Q
   historicalOffers:
     - spend: 8000
       amount:
@@ -2860,7 +2867,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21d/AZFPSQ0R69
+      referralUrl: https://www.referyourchasecard.com/21d/868SJCY65Q
   historicalOffers:
     - spend: 6000
       amount:
@@ -2889,7 +2896,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21d/AZFPSQ0R69
+      referralUrl: https://www.referyourchasecard.com/21d/868SJCY65Q
   historicalOffers:
     - spend: 10000
       amount:
@@ -3118,19 +3125,26 @@
       value: 100
       weight: 0.5
   offers:
+    - spend: 20000
+      amount:
+        - amount: 150000
+      days: 90
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/21d/868SJCY65Q
+  historicalOffers:
     - spend: 30000
       amount:
         - amount: 150000
       days: 180
+      expiration: 2026-03-21
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21d/AZFPSQ0R69
-  historicalOffers:
+      referralUrl: https://www.referyourchasecard.com/21d/868SJCY65Q
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21d/AZFPSQ0R69
+      referralUrl: https://www.referyourchasecard.com/21d/868SJCY65Q
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature

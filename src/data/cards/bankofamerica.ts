@@ -443,8 +443,8 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 100_000 }],
-        spend: 6000,
+        amount: [{ amount: 80_000 }],
+        spend: 4000,
         days: 90,
         credits: [
           {
@@ -469,6 +469,7 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
             weight: 0.75,
           },
         ],
+        expiration: "2026-03-21",
       },
     ],
   },

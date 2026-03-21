@@ -59,6 +59,7 @@ export const DELTA_CARDS: Array<CreditCardInput> = [
         spend: 3000,
         days: 180,
         credits: [],
+        expiration: "2026-04-01",
       },
     ],
     historicalOffers: [
@@ -97,6 +98,7 @@ export const DELTA_CARDS: Array<CreditCardInput> = [
         spend: 4000,
         days: 180,
         credits: [],
+        expiration: "2026-04-01",
       },
     ],
     historicalOffers: [
@@ -141,6 +143,7 @@ export const DELTA_CARDS: Array<CreditCardInput> = [
         spend: 4000,
         days: 180,
         credits: [],
+        expiration: "2026-04-01",
       },
     ],
     historicalOffers: [
@@ -191,6 +194,7 @@ export const DELTA_CARDS: Array<CreditCardInput> = [
         spend: 6000,
         days: 180,
         credits: [],
+        expiration: "2026-04-01",
       },
     ],
     historicalOffers: [
@@ -235,6 +239,7 @@ export const DELTA_CARDS: Array<CreditCardInput> = [
         spend: 6000,
         days: 180,
         credits: [],
+        expiration: "2026-04-01",
       },
     ],
     historicalOffers: [
@@ -273,6 +278,7 @@ export const DELTA_CARDS: Array<CreditCardInput> = [
         spend: 10_000,
         days: 180,
         credits: [],
+        expiration: "2026-04-01",
       },
     ],
     historicalOffers: [
