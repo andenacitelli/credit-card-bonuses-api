@@ -7,7 +7,7 @@
     "format": "prettier . --write",
     "lint": "run-p lint:*",
     "lint:format": "prettier --check .",
-    "lint:linter": "oxlint .",
+    "lint:oxlint": "oxlint .",
     "lint:typecheck": "tsc --noEmit",
     "lint:openapi": "redocly lint --extends=minimal src/api.yaml",
     "test": "vitest run",
