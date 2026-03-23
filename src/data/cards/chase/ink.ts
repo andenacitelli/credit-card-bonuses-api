@@ -31,7 +31,6 @@ export const INK_CARDS: Array<CreditCardInput> = [
         spend: 6000,
         credits: [],
         days: 90,
-        expiration: "2023-03-19",
       },
     ],
   },

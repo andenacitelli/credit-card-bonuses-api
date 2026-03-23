@@ -181,13 +181,21 @@ export const SAPPHIRE_CARDS: Array<CreditCardInput> = [
     offers: [
       {
         amount: [{ amount: 150_000 }],
-        spend: 30_000,
-        days: 180,
+        spend: 20_000,
+        days: 90,
         credits: [],
         referralUrl: REFERRALS.CHASE.INKS,
       },
     ],
     historicalOffers: [
+      {
+        amount: [{ amount: 150_000 }],
+        spend: 30_000,
+        days: 180,
+        credits: [],
+        referralUrl: REFERRALS.CHASE.INKS,
+        expiration: "2026-03-21",
+      },
       {
         amount: [{ amount: 200_000 }],
         spend: 30_000,

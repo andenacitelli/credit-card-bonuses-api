@@ -22,6 +22,7 @@ When updating a card's offer:
 4. Preserve any `credits` within offers unless you have specific info that they changed
 5. Do NOT modify any card-level fields (annualFee, credits, etc.) unless you have very high confidence they changed
 6. If you cannot verify a card's current offer from any source, leave it unchanged and note it in your summary
+7. **Keep the "normal" offer alongside elevated offers**: When a card has a temporary elevated offer (often with an `expiration` date) that is higher than its usual "normal" offer, list **both** in the `offers` array — the elevated offer first, then the normal offer without an expiration. This way, when the elevated offer expires, the downstream site can automatically filter it out and still serve the normal offer without requiring a code change. For example, if Delta Gold normally offers 50k but has a limited-time 90k offer expiring April 1, the `offers` array should contain both the 90k (with expiration) and the 50k (without).
 
 ## Sources (in priority order)
 
