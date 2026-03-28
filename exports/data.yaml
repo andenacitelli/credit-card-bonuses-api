@@ -2363,7 +2363,15 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bountiful
   imageUrl: /images/chase/marriott-bonvoy-bountiful.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: HOTELS
+      multiplier: 6
+    - category: DINING
+      multiplier: 3
+    - category: FLIGHTS
+      multiplier: 3
+    - category: GROCERIES
+      multiplier: 2
   credits: []
   offers:
     - spend: 4000
@@ -2391,7 +2399,9 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold
   imageUrl: /images/chase/marriott-bonvoy-bold.jpeg
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: HOTELS
+      multiplier: 3
   credits: []
   offers:
     - spend: 1000
@@ -2423,7 +2433,13 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless
   imageUrl: /images/chase/marriott-bonvoy-boundless.jpeg
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: HOTELS
+      multiplier: 6
+    - category: DINING
+      multiplier: 2
+    - category: GROCERIES
+      multiplier: 2
   credits: []
   offers:
     - spend: 3000
@@ -2456,7 +2472,13 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/business-credit-cards/southwest/performance-business
   imageUrl: /images/chase/southwest-rapid-rewards-performance-business.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 4
+    - category: HOTELS
+      multiplier: 3
+    - category: CAR_RENTALS
+      multiplier: 2
   credits:
     - description: Free Checked Bag
       value: 100
@@ -2498,7 +2520,13 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/travel-credit-cards/southwest/plus
   imageUrl: /images/chase/southwest-rapid-rewards-plus.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 2
+    - category: HOTELS
+      multiplier: 2
+    - category: CAR_RENTALS
+      multiplier: 2
   credits:
     - description: Free Checked Bag
       value: 100
@@ -2533,7 +2561,13 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/travel-credit-cards/southwest/premier
   imageUrl: /images/chase/southwest-rapid-rewards-premier.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 3
+    - category: HOTELS
+      multiplier: 2
+    - category: CAR_RENTALS
+      multiplier: 2
   credits:
     - description: Free Checked Bag
       value: 100
@@ -2568,7 +2602,13 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/business-credit-cards/southwest/premier-business
   imageUrl: /images/chase/southwest-rapid-rewards-premier-business.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 3
+    - category: HOTELS
+      multiplier: 2
+    - category: CAR_RENTALS
+      multiplier: 2
   credits:
     - description: Free Checked Bag
       value: 100
@@ -2607,7 +2647,13 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/travel-credit-cards/southwest/priority
   imageUrl: /images/chase/southwest-rapid-rewards-priority.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 3
+    - category: HOTELS
+      multiplier: 2
+    - category: CAR_RENTALS
+      multiplier: 2
   credits:
     - description: Free Checked Bag
       value: 100
@@ -2642,7 +2688,17 @@
   universalCashbackPercent: 1
   url: https://www.theexplorercard.com/business-rewards-cards/business-card
   imageUrl: /images/chase/united-business.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 2
+    - category: DINING
+      multiplier: 2
+    - category: GAS
+      multiplier: 2
+    - category: OFFICE_SUPPLY
+      multiplier: 2
+    - category: TRANSIT
+      multiplier: 2
   credits:
     - description: Free Checked Bag
       value: 100
@@ -2691,7 +2747,13 @@
   universalCashbackPercent: 1
   url: https://www.theexplorercard.com/rewards-cards/club-card
   imageUrl: /images/chase/united-club-infinite.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 4
+    - category: TRAVEL
+      multiplier: 2
+    - category: DINING
+      multiplier: 2
   credits:
     - description: PreCheck Credit
       value: 100
@@ -2740,7 +2802,13 @@
   universalCashbackPercent: 1
   url: https://www.theexplorercard.com/business-rewards-cards/club-card
   imageUrl: /images/chase/united-club-business.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 4
+    - category: TRAVEL
+      multiplier: 2
+    - category: DINING
+      multiplier: 2
   credits:
     - description: 2x Checked Bags
       value: 150
@@ -2789,7 +2857,15 @@
   universalCashbackPercent: 1
   url: https://www.theexplorercard.com/rewards-cards/explorer-card
   imageUrl: /images/chase/united-explorer.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 2
+    - category: HOTELS
+      multiplier: 2
+    - category: DINING
+      multiplier: 2
+    - category: STREAMING
+      multiplier: 2
   credits:
     - description: PreCheck Credit
       value: 100
@@ -2848,7 +2924,9 @@
   universalCashbackPercent: 1
   url: https://www.theexplorercard.com/rewards-cards/gateway-card
   imageUrl: /images/chase/united-gateway.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 2
   credits: []
   offers:
     - spend: 1000
@@ -2876,7 +2954,15 @@
   universalCashbackPercent: 1
   url: https://www.theexplorercard.com/rewards-cards/quest-card
   imageUrl: /images/chase/united-quest.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 3
+    - category: HOTELS
+      multiplier: 2
+    - category: DINING
+      multiplier: 2
+    - category: STREAMING
+      multiplier: 2
   credits:
     - description: United Credit
       value: 200
@@ -2926,7 +3012,17 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/business-credit-cards/ink/cash
   imageUrl: /images/chase/ink-business-cash.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: OFFICE_SUPPLY
+      multiplier: 5
+    - category: PHONE
+      multiplier: 5
+    - category: INTERNET
+      multiplier: 5
+    - category: GAS
+      multiplier: 2
+    - category: DINING
+      multiplier: 2
   credits: []
   offers:
     - spend: 6000
@@ -2934,7 +3030,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/CJ3VTYDKCY
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   historicalOffers:
     - spend: 6000
       amount:
@@ -2953,7 +3049,17 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/business-credit-cards/ink/business-preferred
   imageUrl: /images/chase/ink-business-preferred.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: TRAVEL
+      multiplier: 3
+    - category: SHIPPING
+      multiplier: 3
+    - category: ADVERTISING
+      multiplier: 3
+    - category: INTERNET
+      multiplier: 3
+    - category: PHONE
+      multiplier: 3
   credits: []
   offers:
     - spend: 8000
@@ -2961,13 +3067,13 @@
         - amount: 100000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/CJ3VTYDKCY
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
     - spend: 8000
       amount:
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/CJ3VTYDKCY
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   historicalOffers:
     - spend: 8000
       amount:
@@ -2994,7 +3100,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/CJ3VTYDKCY
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   historicalOffers:
     - spend: 6000
       amount:
@@ -3015,7 +3121,9 @@
   universalCashbackPercent: 2
   url: https://creditcards.chase.com/business-credit-cards/ink/premier
   imageUrl: /images/chase/ink-business-premier.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: TRAVEL
+      multiplier: 5
   credits: []
   offers:
     - spend: 10000
@@ -3024,7 +3132,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/CJ3VTYDKCY
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   historicalOffers:
     - spend: 10000
       amount:
@@ -3044,7 +3152,15 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier
   imageUrl: /images/chase/ihg-rewards-premier.jpg
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: HOTELS
+      multiplier: 10
+    - category: DINING
+      multiplier: 2
+    - category: GAS
+      multiplier: 2
+    - category: GROCERIES
+      multiplier: 2
   credits: []
   offers:
     - spend: 3000
@@ -3080,7 +3196,15 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/business-credit-cards/IHG/business-premier
   imageUrl: /images/chase/ihg-rewards-premier-business.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: HOTELS
+      multiplier: 5
+    - category: TRAVEL
+      multiplier: 3
+    - category: DINING
+      multiplier: 3
+    - category: GAS
+      multiplier: 3
   credits: []
   offers:
     - spend: 9000
@@ -3113,7 +3237,13 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler
   imageUrl: /images/chase/ihg-rewards-traveler.jpeg
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: HOTELS
+      multiplier: 3
+    - category: DINING
+      multiplier: 2
+    - category: GAS
+      multiplier: 2
   credits: []
   offers:
     - spend: 2000
@@ -3140,7 +3270,15 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred
   imageUrl: /images/chase/sapphire-preferred.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: DINING
+      multiplier: 3
+    - category: STREAMING
+      multiplier: 3
+    - category: ONLINE_SHOPPING
+      multiplier: 3
+    - category: TRAVEL
+      multiplier: 5
   credits:
     - description: Hotel Credit
       value: 50
@@ -3171,7 +3309,17 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve
   imageUrl: /images/chase/sapphire-reserve.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: TRAVEL
+      multiplier: 5
+    - category: FLIGHTS
+      multiplier: 5
+    - category: HOTELS
+      multiplier: 10
+    - category: DINING
+      multiplier: 3
+    - category: STREAMING
+      multiplier: 3
   credits:
     - description: PreCheck Credit
       value: 100
@@ -3223,7 +3371,17 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/business-credit-cards/sapphire/reserve
   imageUrl: /images/chase/sapphire-reserve-business.jpg
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: TRAVEL
+      multiplier: 5
+    - category: FLIGHTS
+      multiplier: 5
+    - category: HOTELS
+      multiplier: 10
+    - category: DINING
+      multiplier: 3
+    - category: STREAMING
+      multiplier: 3
   credits:
     - description: PreCheck Credit
       value: 100
@@ -3264,7 +3422,7 @@
         - amount: 150000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/CJ3VTYDKCY
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   historicalOffers:
     - spend: 30000
       amount:
@@ -3272,13 +3430,13 @@
       days: 180
       expiration: 2026-03-21
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/CJ3VTYDKCY
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/CJ3VTYDKCY
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
@@ -3291,7 +3449,9 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/travel-credit-cards/avios/aer-lingus
   imageUrl: /images/chase/aer-lingus-signature.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 3
   credits: []
   offers:
     - spend: 5000
@@ -3318,7 +3478,11 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/travel-credit-cards/aircanada/aeroplan
   imageUrl: /images/chase/aeroplan.jpg
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 3
+    - category: DINING
+      multiplier: 2
   credits: []
   offers:
     - spend: 4000
@@ -3351,7 +3515,9 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/travel-credit-cards/avios/british-airways
   imageUrl: /images/chase/british-airways.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 3
   credits: []
   offers:
     - spend: 5000
@@ -3384,7 +3550,11 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/rewards-credit-cards/disney/premier
   imageUrl: /images/chase/disney.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: DINING
+      multiplier: 2
+    - category: GROCERIES
+      multiplier: 2
   credits: []
   offers:
     - spend: 1000
@@ -3436,7 +3606,13 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/cash-back-credit-cards/freedom/flex
   imageUrl: /images/chase/freedom-flex.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: DINING
+      multiplier: 3
+    - category: DRUGSTORES
+      multiplier: 3
+    - category: TRAVEL
+      multiplier: 5
   credits: []
   offers:
     - spend: 500
@@ -3463,7 +3639,13 @@
   universalCashbackPercent: 1.5
   url: https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited
   imageUrl: /images/chase/freedom-unlimited.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: DINING
+      multiplier: 3
+    - category: DRUGSTORES
+      multiplier: 3
+    - category: TRAVEL
+      multiplier: 5
   credits: []
   offers:
     - spend: 500
@@ -3502,7 +3684,9 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/travel-credit-cards/avios/iberia
   imageUrl: /images/chase/iberia-signature.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 3
   credits: []
   offers:
     - spend: 5000
@@ -3529,7 +3713,19 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/travel-credit-cards/world-of-hyatt-credit-card
   imageUrl: /images/chase/world-of-hyatt.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: HOTELS
+      multiplier: 4
+    - category: DINING
+      multiplier: 2
+    - category: FLIGHTS
+      multiplier: 2
+    - category: GAS
+      multiplier: 2
+    - category: TRANSIT
+      multiplier: 2
+    - category: STREAMING
+      multiplier: 2
   credits: []
   offers:
     - spend: 3000
@@ -3569,7 +3765,23 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/business-credit-cards/world-of-hyatt/hyatt-business-card
   imageUrl: /images/chase/world-of-hyatt.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: HOTELS
+      multiplier: 4
+    - category: DINING
+      multiplier: 2
+    - category: FLIGHTS
+      multiplier: 2
+    - category: GAS
+      multiplier: 2
+    - category: TRANSIT
+      multiplier: 2
+    - category: SHIPPING
+      multiplier: 2
+    - category: ADVERTISING
+      multiplier: 2
+    - category: PHONE
+      multiplier: 2
   credits: []
   offers:
     - spend: 10000
@@ -3614,7 +3826,15 @@
   universalCashbackPercent: 1
   url: https://www.amazon.com/dp/BT00LN946S
   imageUrl: /images/chase/amazon-prime.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: ONLINE_SHOPPING
+      multiplier: 5
+    - category: DINING
+      multiplier: 2
+    - category: GAS
+      multiplier: 2
+    - category: DRUGSTORES
+      multiplier: 2
   credits: []
   offers:
     - spend: 0.01
