@@ -14,6 +14,10 @@ export const DELTA_CARDS: Array<CreditCardInput> = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
+    categoryEarningRates: [
+      { category: "DINING", multiplier: 2 },
+      { category: "FLIGHTS", multiplier: 2 },
+    ],
     url: "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-blue-american-express-card/",
     imageUrl: "/images/amex/delta-skymiles-blue.jpg",
     credits: [],
@@ -44,6 +48,11 @@ export const DELTA_CARDS: Array<CreditCardInput> = [
     annualFee: 150,
     isAnnualFeeWaived: true,
     universalCashbackPercent: 1,
+    categoryEarningRates: [
+      { category: "FLIGHTS", multiplier: 2 },
+      { category: "DINING", multiplier: 2 },
+      { category: "GROCERIES", multiplier: 2 },
+    ],
     url: "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold-american-express-card/",
     imageUrl: "/images/amex/delta-skymiles-gold.jpg",
     credits: [
@@ -95,6 +104,11 @@ export const DELTA_CARDS: Array<CreditCardInput> = [
     annualFee: 150,
     isAnnualFeeWaived: true,
     universalCashbackPercent: 1,
+    categoryEarningRates: [
+      { category: "FLIGHTS", multiplier: 2 },
+      { category: "SHIPPING", multiplier: 2 },
+      { category: "ADVERTISING", multiplier: 2 },
+    ],
     url: "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-gold/",
     imageUrl: "/images/amex/delta-skymiles-gold-business.webp",
     credits: [],
@@ -140,6 +154,11 @@ export const DELTA_CARDS: Array<CreditCardInput> = [
     annualFee: 350,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
+    categoryEarningRates: [
+      { category: "FLIGHTS", multiplier: 3 },
+      { category: "HOTELS", multiplier: 3 },
+      { category: "DINING", multiplier: 2 },
+    ],
     url: "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-platinum-american-express-card/",
     imageUrl: "/images/amex/delta-skymiles-platinum.webp",
     credits: [
@@ -191,6 +210,12 @@ export const DELTA_CARDS: Array<CreditCardInput> = [
     annualFee: 350,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
+    categoryEarningRates: [
+      { category: "FLIGHTS", multiplier: 3 },
+      { category: "HOTELS", multiplier: 3 },
+      { category: "SHIPPING", multiplier: 2 },
+      { category: "ADVERTISING", multiplier: 2 },
+    ],
     url: "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-platinum/",
     imageUrl: "/images/amex/delta-skymiles-platinum-business.webp",
     credits: [
@@ -248,6 +273,11 @@ export const DELTA_CARDS: Array<CreditCardInput> = [
     annualFee: 650,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
+    categoryEarningRates: [
+      { category: "FLIGHTS", multiplier: 3 },
+      { category: "HOTELS", multiplier: 3 },
+      { category: "DINING", multiplier: 2 },
+    ],
     url: "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/",
     imageUrl: "/images/amex/delta-skymiles-reserve.webp",
     credits: [
@@ -299,6 +329,11 @@ export const DELTA_CARDS: Array<CreditCardInput> = [
     annualFee: 550,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
+    categoryEarningRates: [
+      { category: "FLIGHTS", multiplier: 3 },
+      { category: "HOTELS", multiplier: 3 },
+      { category: "SHIPPING", multiplier: 2 },
+    ],
     url: "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-reserve/",
     imageUrl: "/images/amex/delta-skymiles-reserve-business.webp",
     credits: [],
