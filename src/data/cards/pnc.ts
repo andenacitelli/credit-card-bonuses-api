@@ -11,6 +11,7 @@ export const PNC_CARDS: Array<CreditCardInput> = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1.5,
+    categoryEarningRates: [],
     url: "https://www.pnc.com/en/small-business/borrowing/business-credit-cards/pnc-cash-rewards-visa-signature-business-credit-card.html",
     imageUrl: "/images/pnc/cash-rewards-visa-signature-business.webp",
     credits: [],

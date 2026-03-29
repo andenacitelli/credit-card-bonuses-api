@@ -9,6 +9,11 @@
   universalCashbackPercent: 1
   url: https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-blue-american-express-card/
   imageUrl: /images/amex/delta-skymiles-blue.jpg
+  categoryEarningRates:
+    - category: DINING
+      multiplier: 2
+    - category: FLIGHTS
+      multiplier: 2
   credits: []
   offers:
     - spend: 1000
@@ -34,6 +39,13 @@
   universalCashbackPercent: 1
   url: https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold-american-express-card/
   imageUrl: /images/amex/delta-skymiles-gold.jpg
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 2
+    - category: DINING
+      multiplier: 2
+    - category: GROCERIES
+      multiplier: 2
   credits:
     - description: First checked bag free
       value: 50
@@ -75,6 +87,13 @@
   universalCashbackPercent: 1
   url: https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-gold/
   imageUrl: /images/amex/delta-skymiles-gold-business.webp
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 2
+    - category: SHIPPING
+      multiplier: 2
+    - category: ADVERTISING
+      multiplier: 2
   credits: []
   offers:
     - spend: 4000
@@ -113,6 +132,13 @@
   universalCashbackPercent: 1
   url: https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-platinum-american-express-card/
   imageUrl: /images/amex/delta-skymiles-platinum.webp
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 3
+    - category: HOTELS
+      multiplier: 3
+    - category: DINING
+      multiplier: 2
   credits:
     - description: Companion Pass
       value: 500
@@ -154,6 +180,15 @@
   universalCashbackPercent: 1
   url: https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-platinum/
   imageUrl: /images/amex/delta-skymiles-platinum-business.webp
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 3
+    - category: HOTELS
+      multiplier: 3
+    - category: SHIPPING
+      multiplier: 2
+    - category: ADVERTISING
+      multiplier: 2
   credits:
     - description: PreCheck Credit
       value: 100
@@ -201,6 +236,13 @@
   universalCashbackPercent: 1
   url: https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/
   imageUrl: /images/amex/delta-skymiles-reserve.webp
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 3
+    - category: HOTELS
+      multiplier: 3
+    - category: DINING
+      multiplier: 2
   credits:
     - description: Resy Credit
       value: 240
@@ -242,6 +284,13 @@
   universalCashbackPercent: 1
   url: https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-reserve/
   imageUrl: /images/amex/delta-skymiles-reserve-business.webp
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 3
+    - category: HOTELS
+      multiplier: 3
+    - category: SHIPPING
+      multiplier: 2
   credits: []
   offers:
     - spend: 10000
@@ -280,6 +329,7 @@
   universalCashbackPercent: 2
   url: https://www.americanexpress.com/en-us/business/credit-cards/blue-business-cash/
   imageUrl: /images/amex/blue-business-cash.webp
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 3000
@@ -310,6 +360,7 @@
   universalCashbackPercent: 2
   url: https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-blue-business-plus-credit-card-amex/
   imageUrl: /images/amex/blue-business-plus.webp
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 3000
@@ -341,6 +392,13 @@
   universalCashbackPercent: 2
   url: https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/
   imageUrl: /images/amex/blue-cash-everyday.webp
+  categoryEarningRates:
+    - category: GROCERIES
+      multiplier: 3
+    - category: ONLINE_SHOPPING
+      multiplier: 3
+    - category: GAS
+      multiplier: 3
   credits: []
   offers:
     - spend: 2000
@@ -371,6 +429,15 @@
   universalCashbackPercent: 2
   url: https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/
   imageUrl: /images/amex/blue-cash-preferred.webp
+  categoryEarningRates:
+    - category: GROCERIES
+      multiplier: 6
+    - category: STREAMING
+      multiplier: 6
+    - category: TRANSIT
+      multiplier: 3
+    - category: GAS
+      multiplier: 3
   credits:
     - description: $7/mo Disney Bundle Credit
       value: 84
@@ -401,6 +468,15 @@
   universalCashbackPercent: 2
   url: https://us.etrade.com/l/morgan-stanley-blue-cash-preferred
   imageUrl: /images/amex/blue-cash-preferred-morgan-stanley.png
+  categoryEarningRates:
+    - category: GROCERIES
+      multiplier: 6
+    - category: STREAMING
+      multiplier: 6
+    - category: TRANSIT
+      multiplier: 3
+    - category: GAS
+      multiplier: 3
   credits:
     - description: $7/mo Disney Bundle Credit
       value: 84
@@ -430,6 +506,15 @@
   universalCashbackPercent: 1
   url: https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-gold-card-amex/
   imageUrl: /images/amex/business-gold.webp
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 4
+    - category: ADVERTISING
+      multiplier: 4
+    - category: GAS
+      multiplier: 4
+    - category: SHIPPING
+      multiplier: 4
   credits: []
   offers:
     - spend: 15000
@@ -456,6 +541,7 @@
   universalCashbackPercent: 1
   url: https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-green-card-amex/
   imageUrl: /images/amex/business-green.webp
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 3000
@@ -481,6 +567,11 @@
   universalCashbackPercent: 1
   url: https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/
   imageUrl: /images/amex/business-platinum.webp
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 5
+    - category: HOTELS
+      multiplier: 5
   credits:
     - description: PreCheck Credit
       value: 100
@@ -544,6 +635,7 @@
   universalCashbackPercent: 1.5
   url: https://www.americanexpress.com/us/credit-cards/card/cash-magnet/
   imageUrl: /images/amex/cash-magnet.webp
+  categoryEarningRates: []
   credits: []
   offers: []
   historicalOffers:
@@ -569,6 +661,7 @@
   universalCashbackPercent: 1
   url: https://global.americanexpress.com/card-benefits/view-all/amex-everyday
   imageUrl: /images/amex/everyday.png
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 3000
@@ -594,6 +687,7 @@
   universalCashbackPercent: 1
   url: https://www.americanexpress.com/us/credit-cards/card/amex-everyday-preferred/
   imageUrl: /images/amex/everyday-preferred.jpg
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 3000
@@ -619,6 +713,13 @@
   universalCashbackPercent: 1
   url: https://www.americanexpress.com/us/credit-cards/card/gold-card/
   imageUrl: /images/amex/gold.webp
+  categoryEarningRates:
+    - category: DINING
+      multiplier: 4
+    - category: GROCERIES
+      multiplier: 4
+    - category: FLIGHTS
+      multiplier: 3
   credits:
     - description: $10/mo credit for Uber
       value: 120
@@ -660,6 +761,13 @@
   universalCashbackPercent: 1
   url: https://www.americanexpress.com/us/credit-cards/card/green/
   imageUrl: /images/amex/green.webp
+  categoryEarningRates:
+    - category: TRAVEL
+      multiplier: 3
+    - category: DINING
+      multiplier: 3
+    - category: TRANSIT
+      multiplier: 3
   credits:
     - description: PreCheck Credit
       value: 100
@@ -692,6 +800,15 @@
   universalCashbackPercent: 1
   url: https://www.hilton.com/en/hilton-honors/credit-cards/
   imageUrl: /images/amex/hilton-honors.png
+  categoryEarningRates:
+    - category: HOTELS
+      multiplier: 7
+    - category: DINING
+      multiplier: 5
+    - category: GROCERIES
+      multiplier: 5
+    - category: GAS
+      multiplier: 5
   credits: []
   offers:
     - spend: 2000
@@ -723,6 +840,15 @@
   universalCashbackPercent: 1
   url: https://www.hilton.com/en/hilton-honors/credit-cards/
   imageUrl: /images/amex/hilton-honors-aspire.png
+  categoryEarningRates:
+    - category: HOTELS
+      multiplier: 14
+    - category: FLIGHTS
+      multiplier: 7
+    - category: DINING
+      multiplier: 7
+    - category: CAR_RENTALS
+      multiplier: 7
   credits:
     - description: Hilton Resort Credit
       value: 250
@@ -753,6 +879,19 @@
   universalCashbackPercent: 5
   url: https://www.hilton.com/en/hilton-honors/credit-cards/
   imageUrl: /images/amex/hilton-honors-business.png
+  categoryEarningRates:
+    - category: HOTELS
+      multiplier: 12
+    - category: FLIGHTS
+      multiplier: 6
+    - category: DINING
+      multiplier: 6
+    - category: CAR_RENTALS
+      multiplier: 6
+    - category: GAS
+      multiplier: 6
+    - category: SHIPPING
+      multiplier: 6
   credits:
     - description: $60 Hilton credit per quarter.
       value: 240
@@ -790,6 +929,15 @@
   universalCashbackPercent: 1
   url: https://www.hilton.com/en/hilton-honors/credit-cards/
   imageUrl: /images/amex/hilton-honors-surpass.jpg
+  categoryEarningRates:
+    - category: HOTELS
+      multiplier: 12
+    - category: DINING
+      multiplier: 6
+    - category: GROCERIES
+      multiplier: 6
+    - category: GAS
+      multiplier: 6
   credits: []
   offers:
     - spend: 3000
@@ -821,6 +969,13 @@
   universalCashbackPercent: 1
   url: https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-brilliant/
   imageUrl: /images/amex/marriott-bonvoy-brilliant.webp
+  categoryEarningRates:
+    - category: HOTELS
+      multiplier: 6
+    - category: FLIGHTS
+      multiplier: 3
+    - category: DINING
+      multiplier: 3
   credits:
     - description: $25/mo Dining Credit
       value: 300
@@ -862,6 +1017,17 @@
   universalCashbackPercent: 1
   url: https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/
   imageUrl: /images/amex/marriott-bonvoy-business.webp
+  categoryEarningRates:
+    - category: HOTELS
+      multiplier: 6
+    - category: DINING
+      multiplier: 4
+    - category: GAS
+      multiplier: 4
+    - category: SHIPPING
+      multiplier: 4
+    - category: PHONE
+      multiplier: 4
   credits: []
   offers:
     - spend: 3000
@@ -900,6 +1066,11 @@
   universalCashbackPercent: 1
   url: https://www.americanexpress.com/us/credit-cards/card/platinum/
   imageUrl: /images/amex/platinum.webp
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 5
+    - category: HOTELS
+      multiplier: 5
   credits:
     - description: PreCheck Credit
       value: 100
@@ -980,6 +1151,11 @@
   universalCashbackPercent: 1
   url: https://www.schwab.com/credit-cards/platinum-card
   imageUrl: /images/amex/platinum-schwab.webp
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 5
+    - category: HOTELS
+      multiplier: 5
   credits:
     - description: PreCheck Credit
       value: 100
@@ -1054,6 +1230,11 @@
   universalCashbackPercent: 1
   url: https://us.etrade.com/l/morgan-stanley-platinum
   imageUrl: /images/amex/platinum-morgan-stanley.webp
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 5
+    - category: HOTELS
+      multiplier: 5
   credits:
     - description: PreCheck Credit
       value: 100
@@ -1130,6 +1311,13 @@
   universalCashbackPercent: 1
   url: https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-bevy/
   imageUrl: /images/amex/marriott-bonvoy-bevy.png
+  categoryEarningRates:
+    - category: HOTELS
+      multiplier: 6
+    - category: DINING
+      multiplier: 2
+    - category: GROCERIES
+      multiplier: 2
   credits: []
   offers:
     - spend: 5000
@@ -1168,6 +1356,9 @@
   universalCashbackPercent: 1
   url: https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/lowes-credit-cards/
   imageUrl: /images/amex/lowes-business.webp
+  categoryEarningRates:
+    - category: HOME_IMPROVEMENT
+      multiplier: 2
   credits: []
   offers: []
   historicalOffers:
@@ -1191,6 +1382,7 @@
   universalCashbackPercent: 1
   url: https://www.schwab.com/public/schwab/investing/accounts_products/credit_cards
   imageUrl: /images/amex/schwab-investor.webp
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 1000
@@ -1216,6 +1408,13 @@
   universalCashbackPercent: 1
   url: https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amazon-business-card/
   imageUrl: /images/amex/amazon-business.avif
+  categoryEarningRates:
+    - category: ONLINE_SHOPPING
+      multiplier: 5
+    - category: GAS
+      multiplier: 2
+    - category: DINING
+      multiplier: 2
   credits: []
   offers:
     - spend: 0.01
@@ -1247,6 +1446,7 @@
   universalCashbackPercent: 1
   url: https://www.rakuten.com/american-express-card/
   imageUrl: /images/amex/rakuten.jpg
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 500
@@ -1272,6 +1472,7 @@
   universalCashbackPercent: 1
   url: https://wwws.airfrance.us/information/flyingblue/carte-bancaire-partenaire
   imageUrl: /images/bankofamerica/air-france-klm.webp
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 2000
@@ -1299,6 +1500,11 @@
   universalCashbackPercent: 1
   url: https://www.bankofamerica.com/credit-cards/products/cash-back-credit-card/
   imageUrl: /images/bankofamerica/customized-cash-rewards.jpg
+  categoryEarningRates:
+    - category: DINING
+      multiplier: 3
+    - category: GROCERIES
+      multiplier: 3
   credits: []
   offers:
     - spend: 1000
@@ -1324,6 +1530,11 @@
   universalCashbackPercent: 1
   url: https://www.bankofamerica.com/credit-cards/products/premium-rewards-credit-card/
   imageUrl: /images/bankofamerica/premium-rewards.png
+  categoryEarningRates:
+    - category: DINING
+      multiplier: 2
+    - category: TRAVEL
+      multiplier: 2
   credits: []
   offers:
     - spend: 4000
@@ -1349,6 +1560,11 @@
   universalCashbackPercent: 1
   url: https://www.bankofamerica.com/credit-cards/products/premium-rewards-elite-credit-card/
   imageUrl: /images/bankofamerica/premium-rewards-elite.png
+  categoryEarningRates:
+    - category: DINING
+      multiplier: 2
+    - category: TRAVEL
+      multiplier: 2
   credits:
     - description: PreCheck Credit
       value: 100
@@ -1383,6 +1599,7 @@
   universalCashbackPercent: 1.5
   url: https://www.bankofamerica.com/credit-cards/products/travel-rewards-credit-card/
   imageUrl: /images/bankofamerica/travel-rewards.png
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 1000
@@ -1408,6 +1625,7 @@
   universalCashbackPercent: 1.5
   url: https://www.bankofamerica.com/credit-cards/products/unlimited-cash-back-credit-card/
   imageUrl: /images/bankofamerica/unlimited-cash-rewards.png
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 1000
@@ -1433,6 +1651,11 @@
   universalCashbackPercent: 1.5
   url: https://www.bankofamerica.com/smallbusiness/credit-cards/products/cash-rewards-business-credit-card
   imageUrl: /images/bankofamerica/business-advantage-customized-cash.jpg
+  categoryEarningRates:
+    - category: DINING
+      multiplier: 3
+    - category: GROCERIES
+      multiplier: 3
   credits: []
   offers:
     - spend: 5000
@@ -1464,6 +1687,7 @@
   universalCashbackPercent: 1.5
   url: https://www.bankofamerica.com/smallbusiness/credit-cards/products/unlimited-cash-rewards-business-credit-card
   imageUrl: /images/bankofamerica/business-advantage-unlimited-cash.webp
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 5000
@@ -1490,6 +1714,7 @@
   universalCashbackPercent: 1.5
   url: https://www.bankofamerica.com/smallbusiness/credit-cards/products/travel-rewards-business-credit-card
   imageUrl: /images/bankofamerica/business-advantage-travel-rewards.webp
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 5000
@@ -1516,6 +1741,7 @@
   universalCashbackPercent: 1.5
   url: https://www.bankofamerica.com/smallbusiness/credit-cards/products/platinum-plus-business-credit-card
   imageUrl: /images/bankofamerica/platinum-plus.webp
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 3000
@@ -1541,6 +1767,7 @@
   universalCashbackPercent: 1.5
   url: https://www.bankofamerica.com/credit-cards/products/spirit-airlines-credit-card/
   imageUrl: /images/bankofamerica/free-spirit.webp
+  categoryEarningRates: []
   credits:
     - description: Companion Flight Voucher
       value: 100
@@ -1577,6 +1804,7 @@
   universalCashbackPercent: 1
   url: https://www.alaskaair.com/atmosrewards/content/credit-cards
   imageUrl: /images/bankofamerica/atmos-rewards-ascent.webp
+  categoryEarningRates: []
   credits:
     - description: Multiple Checked Bags
       value: 120
@@ -1611,6 +1839,7 @@
   universalCashbackPercent: 1
   url: https://www.alaskaair.com/atmosrewards/content/credit-cards
   imageUrl: /images/bankofamerica/atmos-rewards-summit.webp
+  categoryEarningRates: []
   credits:
     - description: Multiple Checked Bags
       value: 120
@@ -1657,6 +1886,7 @@
   universalCashbackPercent: 1
   url: https://www.alaskaair.com/atmosrewards/content/credit-cards
   imageUrl: /images/bankofamerica/atmos-rewards-ascent.webp
+  categoryEarningRates: []
   credits:
     - description: Multiple Checked Bags
       value: 120
@@ -1691,6 +1921,7 @@
   universalCashbackPercent: 1
   url: https://cards.barclaycardus.com/banking/cards/aadvantage-aviator-red-world-elite-mastercard/
   imageUrl: /images/barclays/aadvantage-aviator-red-world-elite.png
+  categoryEarningRates: []
   credits: []
   offers: []
   historicalOffers:
@@ -1711,6 +1942,7 @@
   universalCashbackPercent: 1
   url: https://creditcards.aa.com/barclay-credit-card-aviator-business-american-airlines-aadvantage/
   imageUrl: /images/barclays/aadvantage-aviator-world-elite-business.png
+  categoryEarningRates: []
   credits:
     - description: First checked bag free
       value: 50
@@ -1737,6 +1969,11 @@
   universalCashbackPercent: 1
   url: https://www.aarp.org/membership/benefits/finance/aarp-essential-rewards-mastercard-from-barclays/
   imageUrl: /images/barclays/aarp-essential-rewards.png
+  categoryEarningRates:
+    - category: GAS
+      multiplier: 3
+    - category: DRUGSTORES
+      multiplier: 3
   credits: []
   offers:
     - spend: 500
@@ -1762,6 +1999,7 @@
   universalCashbackPercent: 1
   url: https://www.aarp.org/membership/benefits/finance/aarp-travel-rewards-mastercard-from-barclays/
   imageUrl: /images/barclays/aarp-travel-rewards.png
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 500
@@ -1787,6 +2025,7 @@
   universalCashbackPercent: 1
   url: https://cards.barclaycardus.com/banking/cards/carnival-world-mastercard/
   imageUrl: /images/barclays/carnival-world-mastercard.png
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 1000
@@ -1819,6 +2058,7 @@
   universalCashbackPercent: 1
   url: https://cards.barclaycardus.com/banking/cards/emirates-skywards-premium-world-elite-mastercard/
   imageUrl: /images/barclays/emirates-skywards-premium-world-elite.png
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 3000
@@ -1844,6 +2084,7 @@
   universalCashbackPercent: 1
   url: https://cards.barclaycardus.com/banking/cards/emirates-skywards-rewards-world-elite-mastercard/
   imageUrl: /images/barclays/emirates-skywards-rewards-world-elite.png
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 3000
@@ -1869,6 +2110,7 @@
   universalCashbackPercent: 1
   url: https://cards.barclaycardus.com/banking/cards/frontier-airlines-world-mastercard/
   imageUrl: /images/barclays/frontier-airlines-world.png
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 500
@@ -1895,6 +2137,7 @@
   universalCashbackPercent: 1
   url: https://cards.barclaycardus.com/banking/credit-card/hawaiian-airlines/child/hawaiian-hcl-inflight-landing-page/
   imageUrl: /images/barclays/hawaiian-airlines-world-elite.png
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 5000
@@ -1921,6 +2164,7 @@
   universalCashbackPercent: 1
   url: https://cards.barclaycardus.com/banking/cards/jetblue-card/
   imageUrl: /images/barclays/jetblue.png
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 1000
@@ -1946,6 +2190,7 @@
   universalCashbackPercent: 1
   url: https://cards.barclaycardus.com/banking/cards/jetblue-business-card/
   imageUrl: /images/barclays/jetblue-business.png
+  categoryEarningRates: []
   credits:
     - description: Free checked bag
       value: 50
@@ -1976,6 +2221,7 @@
   universalCashbackPercent: 1
   url: https://cards.barclaycardus.com/banking/cards/jetblue-plus-card/
   imageUrl: /images/barclays/jetblue-plus.png
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 6000
@@ -2001,6 +2247,7 @@
   universalCashbackPercent: 1
   url: https://cards.barclaycardus.com/banking/cards/jetblue-premier-card/
   imageUrl: /images/barclays/jetblue-premier.png
+  categoryEarningRates: []
   credits:
     - description: PreCheck Credit
       value: 100
@@ -2036,6 +2283,7 @@
   universalCashbackPercent: 1
   url: https://cards.barclaycardus.com/banking/cards/lufthansa-miles-more-world-elite-mastercard
   imageUrl: /images/barclays/lufthansa-miles-and-more.png
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 3000
@@ -2061,6 +2309,7 @@
   universalCashbackPercent: 1
   url: https://cards.barclaycardus.com/banking/cards/upromise-world-mastercard/
   imageUrl: /images/barclays/upromise.png
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 1000
@@ -2086,6 +2335,7 @@
   universalCashbackPercent: 1
   url: https://www.wyndhamrewardscreditcard.com/#earner
   imageUrl: /images/barclays/wyndham-rewards-earner.svg
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 1000
@@ -2112,6 +2362,7 @@
   universalCashbackPercent: 1
   url: https://www.wyndhamrewardscreditcard.com/#earnerbusiness
   imageUrl: /images/barclays/wyndham-rewards-earner-business.png
+  categoryEarningRates: []
   credits:
     - description: Anniversary bonus points
       value: 15000
@@ -2141,6 +2392,7 @@
   universalCashbackPercent: 1
   url: https://www.wyndhamrewardscreditcard.com/#earnerplus
   imageUrl: /images/barclays/wyndham-rewards-earner-plus.png
+  categoryEarningRates: []
   credits:
     - description: Anniversary bonus points
       value: 7500
@@ -2170,6 +2422,7 @@
   universalCashbackPercent: 1
   url: https://cards.barclaycardus.com/banking/credit-card/hawaiian-airlines/combo-app/hawaiian-bha-boh---combo-app/
   imageUrl: /images/barclays/hawaiian-airlines-world-elite-business.png
+  categoryEarningRates: []
   credits:
     - description: Hawaiian statement credit
       value: 99
@@ -2216,6 +2469,7 @@
   universalCashbackPercent: 1
   url: https://cards.barclaycardus.com/banking/cards/breeze-airways/
   imageUrl: /images/barclays/breeze.png
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 1000
@@ -2241,6 +2495,7 @@
   universalCashbackPercent: 1
   url: https://cards.barclaycardus.com/banking/cards/xbox-mastercard/
   imageUrl: /images/barclays/xbox.png
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 0.01
@@ -2268,6 +2523,15 @@
   universalCashbackPercent: 1
   url: https://www.brex.com/product/credit-card/
   imageUrl: /images/brex/brex.png
+  categoryEarningRates:
+    - category: RIDESHARE
+      multiplier: 7
+    - category: TRAVEL
+      multiplier: 4
+    - category: DINING
+      multiplier: 3
+    - category: ADVERTISING
+      multiplier: 2
   credits: []
   offers: []
   historicalOffers:
@@ -2293,6 +2557,15 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bountiful
   imageUrl: /images/chase/marriott-bonvoy-bountiful.png
+  categoryEarningRates:
+    - category: HOTELS
+      multiplier: 6
+    - category: DINING
+      multiplier: 3
+    - category: FLIGHTS
+      multiplier: 3
+    - category: GROCERIES
+      multiplier: 2
   credits: []
   offers:
     - spend: 4000
@@ -2320,6 +2593,9 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold
   imageUrl: /images/chase/marriott-bonvoy-bold.jpeg
+  categoryEarningRates:
+    - category: HOTELS
+      multiplier: 3
   credits: []
   offers:
     - spend: 1000
@@ -2351,6 +2627,13 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless
   imageUrl: /images/chase/marriott-bonvoy-boundless.jpeg
+  categoryEarningRates:
+    - category: HOTELS
+      multiplier: 6
+    - category: DINING
+      multiplier: 2
+    - category: GROCERIES
+      multiplier: 2
   credits: []
   offers:
     - spend: 3000
@@ -2383,6 +2666,13 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/business-credit-cards/southwest/performance-business
   imageUrl: /images/chase/southwest-rapid-rewards-performance-business.png
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 4
+    - category: HOTELS
+      multiplier: 3
+    - category: CAR_RENTALS
+      multiplier: 2
   credits:
     - description: Free Checked Bag
       value: 100
@@ -2424,6 +2714,13 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/travel-credit-cards/southwest/plus
   imageUrl: /images/chase/southwest-rapid-rewards-plus.png
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 2
+    - category: HOTELS
+      multiplier: 2
+    - category: CAR_RENTALS
+      multiplier: 2
   credits:
     - description: Free Checked Bag
       value: 100
@@ -2458,6 +2755,13 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/travel-credit-cards/southwest/premier
   imageUrl: /images/chase/southwest-rapid-rewards-premier.png
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 3
+    - category: HOTELS
+      multiplier: 2
+    - category: CAR_RENTALS
+      multiplier: 2
   credits:
     - description: Free Checked Bag
       value: 100
@@ -2492,6 +2796,13 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/business-credit-cards/southwest/premier-business
   imageUrl: /images/chase/southwest-rapid-rewards-premier-business.png
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 3
+    - category: HOTELS
+      multiplier: 2
+    - category: CAR_RENTALS
+      multiplier: 2
   credits:
     - description: Free Checked Bag
       value: 100
@@ -2530,6 +2841,13 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/travel-credit-cards/southwest/priority
   imageUrl: /images/chase/southwest-rapid-rewards-priority.png
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 3
+    - category: HOTELS
+      multiplier: 2
+    - category: CAR_RENTALS
+      multiplier: 2
   credits:
     - description: Free Checked Bag
       value: 100
@@ -2564,6 +2882,17 @@
   universalCashbackPercent: 1
   url: https://www.theexplorercard.com/business-rewards-cards/business-card
   imageUrl: /images/chase/united-business.png
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 2
+    - category: DINING
+      multiplier: 2
+    - category: GAS
+      multiplier: 2
+    - category: OFFICE_SUPPLY
+      multiplier: 2
+    - category: TRANSIT
+      multiplier: 2
   credits:
     - description: Free Checked Bag
       value: 100
@@ -2612,6 +2941,13 @@
   universalCashbackPercent: 1
   url: https://www.theexplorercard.com/rewards-cards/club-card
   imageUrl: /images/chase/united-club-infinite.png
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 4
+    - category: TRAVEL
+      multiplier: 2
+    - category: DINING
+      multiplier: 2
   credits:
     - description: PreCheck Credit
       value: 100
@@ -2660,6 +2996,13 @@
   universalCashbackPercent: 1
   url: https://www.theexplorercard.com/business-rewards-cards/club-card
   imageUrl: /images/chase/united-club-business.png
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 4
+    - category: TRAVEL
+      multiplier: 2
+    - category: DINING
+      multiplier: 2
   credits:
     - description: 2x Checked Bags
       value: 150
@@ -2708,6 +3051,15 @@
   universalCashbackPercent: 1
   url: https://www.theexplorercard.com/rewards-cards/explorer-card
   imageUrl: /images/chase/united-explorer.png
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 2
+    - category: HOTELS
+      multiplier: 2
+    - category: DINING
+      multiplier: 2
+    - category: STREAMING
+      multiplier: 2
   credits:
     - description: PreCheck Credit
       value: 100
@@ -2766,6 +3118,9 @@
   universalCashbackPercent: 1
   url: https://www.theexplorercard.com/rewards-cards/gateway-card
   imageUrl: /images/chase/united-gateway.png
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 2
   credits: []
   offers:
     - spend: 1000
@@ -2793,6 +3148,15 @@
   universalCashbackPercent: 1
   url: https://www.theexplorercard.com/rewards-cards/quest-card
   imageUrl: /images/chase/united-quest.png
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 3
+    - category: HOTELS
+      multiplier: 2
+    - category: DINING
+      multiplier: 2
+    - category: STREAMING
+      multiplier: 2
   credits:
     - description: United Credit
       value: 200
@@ -2842,6 +3206,17 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/business-credit-cards/ink/cash
   imageUrl: /images/chase/ink-business-cash.png
+  categoryEarningRates:
+    - category: OFFICE_SUPPLY
+      multiplier: 5
+    - category: PHONE
+      multiplier: 5
+    - category: INTERNET
+      multiplier: 5
+    - category: GAS
+      multiplier: 2
+    - category: DINING
+      multiplier: 2
   credits: []
   offers:
     - spend: 6000
@@ -2849,7 +3224,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   historicalOffers:
     - spend: 6000
       amount:
@@ -2868,6 +3243,17 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/business-credit-cards/ink/business-preferred
   imageUrl: /images/chase/ink-business-preferred.png
+  categoryEarningRates:
+    - category: TRAVEL
+      multiplier: 3
+    - category: SHIPPING
+      multiplier: 3
+    - category: ADVERTISING
+      multiplier: 3
+    - category: INTERNET
+      multiplier: 3
+    - category: PHONE
+      multiplier: 3
   credits: []
   offers:
     - spend: 8000
@@ -2875,13 +3261,13 @@
         - amount: 100000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
     - spend: 8000
       amount:
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   historicalOffers:
     - spend: 8000
       amount:
@@ -2900,6 +3286,7 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/business-credit-cards/ink/unlimited
   imageUrl: /images/chase/ink-business-unlimited.png
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 6000
@@ -2907,7 +3294,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   historicalOffers:
     - spend: 6000
       amount:
@@ -2928,6 +3315,9 @@
   universalCashbackPercent: 2
   url: https://creditcards.chase.com/business-credit-cards/ink/premier
   imageUrl: /images/chase/ink-business-premier.png
+  categoryEarningRates:
+    - category: TRAVEL
+      multiplier: 5
   credits: []
   offers:
     - spend: 10000
@@ -2936,7 +3326,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   historicalOffers:
     - spend: 10000
       amount:
@@ -2956,6 +3346,15 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier
   imageUrl: /images/chase/ihg-rewards-premier.jpg
+  categoryEarningRates:
+    - category: HOTELS
+      multiplier: 10
+    - category: DINING
+      multiplier: 2
+    - category: GAS
+      multiplier: 2
+    - category: GROCERIES
+      multiplier: 2
   credits: []
   offers:
     - spend: 3000
@@ -2991,6 +3390,15 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/business-credit-cards/IHG/business-premier
   imageUrl: /images/chase/ihg-rewards-premier-business.png
+  categoryEarningRates:
+    - category: HOTELS
+      multiplier: 5
+    - category: TRAVEL
+      multiplier: 3
+    - category: DINING
+      multiplier: 3
+    - category: GAS
+      multiplier: 3
   credits: []
   offers:
     - spend: 9000
@@ -3023,6 +3431,13 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler
   imageUrl: /images/chase/ihg-rewards-traveler.jpeg
+  categoryEarningRates:
+    - category: HOTELS
+      multiplier: 3
+    - category: DINING
+      multiplier: 2
+    - category: GAS
+      multiplier: 2
   credits: []
   offers:
     - spend: 2000
@@ -3049,6 +3464,15 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred
   imageUrl: /images/chase/sapphire-preferred.png
+  categoryEarningRates:
+    - category: DINING
+      multiplier: 3
+    - category: STREAMING
+      multiplier: 3
+    - category: ONLINE_SHOPPING
+      multiplier: 3
+    - category: TRAVEL
+      multiplier: 5
   credits:
     - description: Hotel Credit
       value: 50
@@ -3079,6 +3503,17 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve
   imageUrl: /images/chase/sapphire-reserve.png
+  categoryEarningRates:
+    - category: TRAVEL
+      multiplier: 5
+    - category: FLIGHTS
+      multiplier: 5
+    - category: HOTELS
+      multiplier: 10
+    - category: DINING
+      multiplier: 3
+    - category: STREAMING
+      multiplier: 3
   credits:
     - description: PreCheck Credit
       value: 100
@@ -3130,6 +3565,17 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/business-credit-cards/sapphire/reserve
   imageUrl: /images/chase/sapphire-reserve-business.jpg
+  categoryEarningRates:
+    - category: TRAVEL
+      multiplier: 5
+    - category: FLIGHTS
+      multiplier: 5
+    - category: HOTELS
+      multiplier: 10
+    - category: DINING
+      multiplier: 3
+    - category: STREAMING
+      multiplier: 3
   credits:
     - description: PreCheck Credit
       value: 100
@@ -3170,7 +3616,7 @@
         - amount: 150000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   historicalOffers:
     - spend: 30000
       amount:
@@ -3178,13 +3624,13 @@
       days: 180
       expiration: 2026-03-21
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
@@ -3197,6 +3643,9 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/travel-credit-cards/avios/aer-lingus
   imageUrl: /images/chase/aer-lingus-signature.png
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 3
   credits: []
   offers:
     - spend: 5000
@@ -3223,6 +3672,11 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/travel-credit-cards/aircanada/aeroplan
   imageUrl: /images/chase/aeroplan.jpg
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 3
+    - category: DINING
+      multiplier: 2
   credits: []
   offers:
     - spend: 4000
@@ -3255,6 +3709,9 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/travel-credit-cards/avios/british-airways
   imageUrl: /images/chase/british-airways.png
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 3
   credits: []
   offers:
     - spend: 5000
@@ -3287,6 +3744,11 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/rewards-credit-cards/disney/premier
   imageUrl: /images/chase/disney.png
+  categoryEarningRates:
+    - category: DINING
+      multiplier: 2
+    - category: GROCERIES
+      multiplier: 2
   credits: []
   offers:
     - spend: 1000
@@ -3312,6 +3774,7 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/rewards-credit-cards/disney/rewards
   imageUrl: /images/chase/disney.png
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 500
@@ -3337,6 +3800,13 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/cash-back-credit-cards/freedom/flex
   imageUrl: /images/chase/freedom-flex.png
+  categoryEarningRates:
+    - category: DINING
+      multiplier: 3
+    - category: DRUGSTORES
+      multiplier: 3
+    - category: TRAVEL
+      multiplier: 5
   credits: []
   offers:
     - spend: 500
@@ -3363,6 +3833,13 @@
   universalCashbackPercent: 1.5
   url: https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited
   imageUrl: /images/chase/freedom-unlimited.png
+  categoryEarningRates:
+    - category: DINING
+      multiplier: 3
+    - category: DRUGSTORES
+      multiplier: 3
+    - category: TRAVEL
+      multiplier: 5
   credits: []
   offers:
     - spend: 500
@@ -3401,6 +3878,9 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/travel-credit-cards/avios/iberia
   imageUrl: /images/chase/iberia-signature.png
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 3
   credits: []
   offers:
     - spend: 5000
@@ -3427,6 +3907,19 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/travel-credit-cards/world-of-hyatt-credit-card
   imageUrl: /images/chase/world-of-hyatt.png
+  categoryEarningRates:
+    - category: HOTELS
+      multiplier: 4
+    - category: DINING
+      multiplier: 2
+    - category: FLIGHTS
+      multiplier: 2
+    - category: GAS
+      multiplier: 2
+    - category: TRANSIT
+      multiplier: 2
+    - category: STREAMING
+      multiplier: 2
   credits: []
   offers:
     - spend: 3000
@@ -3466,6 +3959,23 @@
   universalCashbackPercent: 1
   url: https://creditcards.chase.com/business-credit-cards/world-of-hyatt/hyatt-business-card
   imageUrl: /images/chase/world-of-hyatt.png
+  categoryEarningRates:
+    - category: HOTELS
+      multiplier: 4
+    - category: DINING
+      multiplier: 2
+    - category: FLIGHTS
+      multiplier: 2
+    - category: GAS
+      multiplier: 2
+    - category: TRANSIT
+      multiplier: 2
+    - category: SHIPPING
+      multiplier: 2
+    - category: ADVERTISING
+      multiplier: 2
+    - category: PHONE
+      multiplier: 2
   credits: []
   offers:
     - spend: 10000
@@ -3510,6 +4020,15 @@
   universalCashbackPercent: 1
   url: https://www.amazon.com/dp/BT00LN946S
   imageUrl: /images/chase/amazon-prime.png
+  categoryEarningRates:
+    - category: ONLINE_SHOPPING
+      multiplier: 5
+    - category: DINING
+      multiplier: 2
+    - category: GAS
+      multiplier: 2
+    - category: DRUGSTORES
+      multiplier: 2
   credits: []
   offers:
     - spend: 0.01
@@ -3536,6 +4055,7 @@
   universalCashbackPercent: 1
   url: https://www.capitalone.com/credit-cards/quicksilver/
   imageUrl: /images/capitalone/quicksilver.webp
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 500
@@ -3568,6 +4088,15 @@
   universalCashbackPercent: 1
   url: https://www.capitalone.com/credit-cards/savor/
   imageUrl: /images/capitalone/savor.webp
+  categoryEarningRates:
+    - category: DINING
+      multiplier: 3
+    - category: ENTERTAINMENT
+      multiplier: 3
+    - category: STREAMING
+      multiplier: 3
+    - category: GROCERIES
+      multiplier: 3
   credits: []
   offers:
     - spend: 500
@@ -3593,6 +4122,7 @@
   universalCashbackPercent: 1
   url: https://www.capitalone.com/small-business/credit-cards/spark-cash-select
   imageUrl: /images/capitalone/spark-cash.webp
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 6000
@@ -3618,6 +4148,7 @@
   universalCashbackPercent: 1
   url: https://www.capitalone.com/small-business/credit-cards/spark-miles-select/
   imageUrl: /images/capitalone/spark-miles.webp
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 4500
@@ -3643,6 +4174,7 @@
   universalCashbackPercent: 1
   url: https://www.capitalone.com/small-business/credit-cards/spark-cash-plus/
   imageUrl: /images/capitalone/spark-cash.webp
+  categoryEarningRates: []
   credits: []
   offers: []
   historicalOffers:
@@ -3669,6 +4201,7 @@
   universalCashbackPercent: 1
   url: https://www.capitalone.com/small-business/credit-cards/spark-miles/
   imageUrl: /images/capitalone/spark-miles.webp
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 4500
@@ -3694,6 +4227,7 @@
   universalCashbackPercent: 1
   url: https://www.capitalone.com/credit-cards/venture/
   imageUrl: /images/capitalone/venture-rewards.webp
+  categoryEarningRates: []
   credits:
     - description: PreCheck Credit
       value: 100
@@ -3729,6 +4263,11 @@
   universalCashbackPercent: 2
   url: https://www.capitalone.com/credit-cards/venture-x/
   imageUrl: /images/capitalone/venture-x.webp
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 5
+    - category: HOTELS
+      multiplier: 10
   credits:
     - description: PreCheck Credit
       value: 100
@@ -3769,6 +4308,11 @@
   universalCashbackPercent: 2
   url: https://www.capitalone.com/small-business/credit-cards/venture-x-business/
   imageUrl: /images/capitalone/venture-x-business.png
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 5
+    - category: HOTELS
+      multiplier: 10
   credits:
     - description: PreCheck Credit
       value: 100
@@ -3799,6 +4343,7 @@
   universalCashbackPercent: 1
   url: https://www.capitalone.com/credit-cards/ventureone/
   imageUrl: /images/capitalone/venture-one.webp
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 500
@@ -3824,6 +4369,7 @@
   universalCashbackPercent: 1
   url: https://creditcards.aa.com/citi-executive-card-american-airlines-direct/
   imageUrl: /images/citi/aadvantage-executive.webp
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 10000
@@ -3855,6 +4401,9 @@
   universalCashbackPercent: 1
   url: https://creditcards.aa.com/citi-mileup-card-american-airlines-direct/
   imageUrl: /images/citi/aadvantage-mileup.webp
+  categoryEarningRates:
+    - category: GROCERIES
+      multiplier: 2
   credits: []
   offers:
     - spend: 500
@@ -3880,6 +4429,7 @@
   universalCashbackPercent: 1
   url: https://creditcards.aa.com/credit-cards/citi-platinum-card-american-airlines-direct/
   imageUrl: /images/citi/aadvantage-platinum-select.webp
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 3500
@@ -3912,6 +4462,7 @@
   universalCashbackPercent: 1
   url: https://creditcards.aa.com/credit-cards/citi-globe-card-american-airlines-direct/
   imageUrl: /images/citi/aadvantage-globe.webp
+  categoryEarningRates: []
   credits:
     - description: Lounge Access
       value: 300
@@ -3949,6 +4500,7 @@
   universalCashbackPercent: 1
   url: https://creditcards.aa.com/credit-cards/citi-business-card-american-airlines-direct/
   imageUrl: /images/citi/aadvantage-platinum-select-business.webp
+  categoryEarningRates: []
   credits:
     - description: First checked bag free
       value: 50
@@ -3977,6 +4529,7 @@
   universalCashbackPercent: 2
   url: https://www.citi.com/credit-cards/citi-double-cash-credit-card
   imageUrl: /images/citi/double-cash.png
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 1500
@@ -4007,6 +4560,9 @@
   universalCashbackPercent: 2
   url: https://www.citi.com/credit-cards/citi-custom-cash-credit-card
   imageUrl: /images/citi/custom-cash.png
+  categoryEarningRates:
+    - category: DINING
+      multiplier: 5
   credits: []
   offers:
     - spend: 1500
@@ -4037,6 +4593,15 @@
   universalCashbackPercent: 1.5
   url: https://www.citi.com/credit-cards/citi-strata-elite-credit-card
   imageUrl: /images/citi/strata-elite.webp
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 5
+    - category: HOTELS
+      multiplier: 5
+    - category: DINING
+      multiplier: 3
+    - category: GROCERIES
+      multiplier: 3
   credits:
     - description: PreCheck Credit
       value: 100
@@ -4082,6 +4647,17 @@
   universalCashbackPercent: 2
   url: https://www.citi.com/credit-cards/citi-strata-premier-credit-card
   imageUrl: /images/citi/strata-premier.png
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 3
+    - category: HOTELS
+      multiplier: 3
+    - category: DINING
+      multiplier: 3
+    - category: GROCERIES
+      multiplier: 3
+    - category: GAS
+      multiplier: 3
   credits:
     - description: Hotel Credit ($500 min purchase)
       value: 100
@@ -4110,6 +4686,7 @@
   universalCashbackPercent: 2
   url: https://www.citi.com/credit-cards/citi-strata-credit-card
   imageUrl: /images/citi/strata.webp
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 1000
@@ -4135,6 +4712,7 @@
   universalCashbackPercent: 1
   url: https://www.att.com/deals/att-points-plus-citi/
   imageUrl: /images/citi/att-points-plus.jpg
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 1000
@@ -4160,6 +4738,11 @@
   universalCashbackPercent: 1
   url: https://www.ace.aaa.com/financial/aaa-credit-card.html
   imageUrl: /images/comenity/aaa-daily-advantage.png
+  categoryEarningRates:
+    - category: GAS
+      multiplier: 3
+    - category: GROCERIES
+      multiplier: 2
   credits: []
   offers:
     - spend: 1000
@@ -4187,6 +4770,11 @@
   universalCashbackPercent: 1
   url: https://www.ace.aaa.com/financial/aaa-credit-card.html
   imageUrl: /images/comenity/aaa-travel-advantage.webp
+  categoryEarningRates:
+    - category: GAS
+      multiplier: 3
+    - category: TRAVEL
+      multiplier: 3
   credits: []
   offers:
     - spend: 1000
@@ -4214,6 +4802,13 @@
   universalCashbackPercent: 1
   url: https://www.discover.com/credit-cards/
   imageUrl: /images/discover/it.webp
+  categoryEarningRates:
+    - category: DINING
+      multiplier: 2
+    - category: GAS
+      multiplier: 2
+    - category: GROCERIES
+      multiplier: 2
   credits: []
   offers:
     - spend: 0.01
@@ -4242,6 +4837,11 @@
   universalCashbackPercent: 1
   url: https://latampass.latam.com/en_us/earn-miles/latam-airlines-credit-cards
   imageUrl: /images/first/latam-airlines.svg
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 2
+    - category: DINING
+      multiplier: 2
   credits: []
   offers:
     - spend: 1000
@@ -4267,6 +4867,13 @@
   universalCashbackPercent: 1
   url: https://latampass.latam.com/en_us/earn-miles/latam-airlines-credit-cards
   imageUrl: /images/first/latam-airlines-world-elite.webp
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 3
+    - category: DINING
+      multiplier: 2
+    - category: GROCERIES
+      multiplier: 2
   credits: []
   offers:
     - spend: 3500
@@ -4292,6 +4899,11 @@
   universalCashbackPercent: 1
   url: https://qatarairways.cardless.com/compare
   imageUrl: /images/first/cardless-qatar-signature.jpg
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 3
+    - category: DINING
+      multiplier: 2
   credits: []
   offers:
     - spend: 3000
@@ -4320,6 +4932,13 @@
   universalCashbackPercent: 1
   url: https://qatarairways.cardless.com/compare
   imageUrl: /images/first/cardless-qatar-infinite.jpg
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 5
+    - category: DINING
+      multiplier: 3
+    - category: HOTELS
+      multiplier: 3
   credits: []
   offers:
     - spend: 5000
@@ -4348,6 +4967,13 @@
   universalCashbackPercent: 1
   url: https://www.lifemiles.com/discover/landing-page/avianca-lifemiles-creditcard
   imageUrl: /images/first/avianca-lifemiles.webp
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 3
+    - category: DINING
+      multiplier: 2
+    - category: GROCERIES
+      multiplier: 2
   credits: []
   offers:
     - spend: 4500
@@ -4373,6 +4999,13 @@
   universalCashbackPercent: 1
   url: https://www.lifemiles.com/discover/landing-page/avianca-lifemiles-creditcard
   imageUrl: /images/first/avianca-lifemiles-elite.webp
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 5
+    - category: DINING
+      multiplier: 3
+    - category: GROCERIES
+      multiplier: 2
   credits: []
   offers:
     - spend: 4500
@@ -4400,6 +5033,9 @@
   universalCashbackPercent: 1
   url: https://www.anacardusa.com/en/
   imageUrl: /images/first/ana-card-usa.png
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 2
   credits: []
   offers:
     - spend: 0.01
@@ -4426,6 +5062,11 @@
   universalCashbackPercent: 1
   url: https://www.amtrak.com/Apply
   imageUrl: /images/fnbo/amtrak-guest-rewards.png
+  categoryEarningRates:
+    - category: TRANSIT
+      multiplier: 2
+    - category: DINING
+      multiplier: 2
   credits: []
   offers:
     - spend: 1000
@@ -4452,6 +5093,13 @@
   universalCashbackPercent: 1
   url: https://www.amtrak.com/Apply
   imageUrl: /images/fnbo/amtrak-guest-rewards-preferred.jpg
+  categoryEarningRates:
+    - category: TRANSIT
+      multiplier: 3
+    - category: DINING
+      multiplier: 2
+    - category: STREAMING
+      multiplier: 2
   credits: []
   offers:
     - spend: 2000
@@ -4483,6 +5131,9 @@
   universalCashbackPercent: 1
   url: https://www.bestwestern.com/en_US/offers/hotel-discounts/best-western-rewards-visa.html
   imageUrl: /images/fnbo/best-western-rewards.jpg
+  categoryEarningRates:
+    - category: HOTELS
+      multiplier: 3
   credits: []
   offers:
     - spend: 1000
@@ -4508,6 +5159,13 @@
   universalCashbackPercent: 1
   url: https://www.bestwestern.com/en_US/offers/hotel-discounts/best-western-rewards-visa.html
   imageUrl: /images/fnbo/best-western-rewards-premium.jpg
+  categoryEarningRates:
+    - category: HOTELS
+      multiplier: 5
+    - category: DINING
+      multiplier: 2
+    - category: GAS
+      multiplier: 2
   credits: []
   offers:
     - spend: 3000
@@ -4533,6 +5191,7 @@
   universalCashbackPercent: 1.5
   url: https://www.penfed.org/credit-cards/power-cash-rewards-visa
   imageUrl: /images/penfed/power-cash-rewards.png
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 1500
@@ -4558,6 +5217,11 @@
   universalCashbackPercent: 1
   url: https://www.penfed.org/credit-cards/platinum-rewards-visa
   imageUrl: /images/penfed/platinum-rewards.webp
+  categoryEarningRates:
+    - category: GAS
+      multiplier: 5
+    - category: GROCERIES
+      multiplier: 3
   credits: []
   offers:
     - spend: 1500
@@ -4584,6 +5248,13 @@
   universalCashbackPercent: 1
   url: https://www.penfed.org/credit-cards/pathfinder-rewards
   imageUrl: /images/penfed/pathfinder.webp
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 4
+    - category: HOTELS
+      multiplier: 3
+    - category: DINING
+      multiplier: 3
   credits:
     - description: Incidental travel credit (yearly)
       value: 100
@@ -4612,6 +5283,7 @@
   universalCashbackPercent: 1.5
   url: https://www.pnc.com/en/small-business/borrowing/business-credit-cards/pnc-cash-rewards-visa-signature-business-credit-card.html
   imageUrl: /images/pnc/cash-rewards-visa-signature-business.webp
+  categoryEarningRates: []
   credits: []
   offers: []
   historicalOffers:
@@ -4632,6 +5304,11 @@
   universalCashbackPercent: 1
   url: https://pay.cathaypacific.com/en_US/offers/uscreditcard.html
   imageUrl: /images/synchrony/cathay-pacific.jpg
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 3
+    - category: DINING
+      multiplier: 2
   credits: []
   offers:
     - spend: 3000
@@ -4657,6 +5334,13 @@
   universalCashbackPercent: 1
   url: https://www.virgin.com/en-us/virgin-red/rewards-credit-card
   imageUrl: /images/synchrony/virgin-red-rewards.webp
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 3
+    - category: DINING
+      multiplier: 2
+    - category: GROCERIES
+      multiplier: 2
   credits: []
   offers:
     - spend: 3000
@@ -4682,6 +5366,7 @@
   universalCashbackPercent: 5
   url: https://www.amazon.com/Synchrony-Bank-Amazon-com-Store-Card/dp/B008A0GNA8
   imageUrl: /images/synchrony/amazon-prime-store-card.png
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 0.01
@@ -4709,6 +5394,7 @@
   universalCashbackPercent: 2
   url: https://www.usbank.com/business-banking/business-credit-cards/business-altitude-power-world-elite-mastercard.html
   imageUrl: /images/usbank/altitude-power.webp
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 10000
@@ -4734,6 +5420,15 @@
   universalCashbackPercent: 2
   url: https://www.usbank.com/business-banking/business-credit-cards/business-altitude-connect-world-elite-mastercard.html
   imageUrl: /images/usbank/business-altitude-connect.webp
+  categoryEarningRates:
+    - category: HOTELS
+      multiplier: 4
+    - category: GAS
+      multiplier: 4
+    - category: PHONE
+      multiplier: 4
+    - category: TRANSIT
+      multiplier: 4
   credits: []
   offers:
     - spend: 6000
@@ -4760,6 +5455,15 @@
   universalCashbackPercent: 2
   url: https://www.usbank.com/credit-cards/altitude-connect-visa-signature-credit-card.html
   imageUrl: /images/usbank/altitude-connect.png
+  categoryEarningRates:
+    - category: HOTELS
+      multiplier: 4
+    - category: GAS
+      multiplier: 4
+    - category: STREAMING
+      multiplier: 4
+    - category: GROCERIES
+      multiplier: 4
   credits: []
   offers:
     - spend: 1000
@@ -4785,6 +5489,11 @@
   universalCashbackPercent: 2
   url: https://www.nerdwallet.com/article/credit-cards/u-s-bank-altitude-reserve-closed-to-new-applications
   imageUrl: /images/usbank/altitude-reserve.png
+  categoryEarningRates:
+    - category: DINING
+      multiplier: 3
+    - category: TRAVEL
+      multiplier: 3
   credits: []
   offers: []
   historicalOffers: []
@@ -4801,6 +5510,15 @@
   universalCashbackPercent: 2
   url: https://www.usbank.com/credit-cards/altitude-go-visa-signature-credit-card.html
   imageUrl: /images/usbank/altitude-go.jpg
+  categoryEarningRates:
+    - category: DINING
+      multiplier: 4
+    - category: GROCERIES
+      multiplier: 2
+    - category: STREAMING
+      multiplier: 2
+    - category: GAS
+      multiplier: 2
   credits: []
   offers:
     - spend: 1000
@@ -4826,6 +5544,7 @@
   universalCashbackPercent: 2
   url: https://www.usbank.com/credit-cards/cash-plus-visa-signature-credit-card.html
   imageUrl: /images/usbank/cash-plus.jpg
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 1000
@@ -4851,6 +5570,13 @@
   universalCashbackPercent: 2
   url: https://www.usbank.com/credit-cards/flexperks-gold-american-express-credit-card.html
   imageUrl: /images/usbank/flexperks-gold.jpg
+  categoryEarningRates:
+    - category: DINING
+      multiplier: 3
+    - category: GROCERIES
+      multiplier: 3
+    - category: GAS
+      multiplier: 3
   credits: []
   offers: []
   historicalOffers:
@@ -4871,6 +5597,13 @@
   universalCashbackPercent: 1
   url: https://www.usbank.com/business-banking/business-credit-cards/business-leverage-rewards-credit-card.html
   imageUrl: /images/usbank/business-leverage.webp
+  categoryEarningRates:
+    - category: GAS
+      multiplier: 2
+    - category: OFFICE_SUPPLY
+      multiplier: 2
+    - category: PHONE
+      multiplier: 2
   credits: []
   offers:
     - spend: 7500
@@ -4897,6 +5630,15 @@
   universalCashbackPercent: 1
   url: https://www.usbank.com/business-banking/business-credit-cards/business-triple-cash-back-credit-card.html
   imageUrl: /images/usbank/business-triple-cash-rewards.webp
+  categoryEarningRates:
+    - category: GAS
+      multiplier: 3
+    - category: OFFICE_SUPPLY
+      multiplier: 3
+    - category: PHONE
+      multiplier: 3
+    - category: DINING
+      multiplier: 3
   credits: []
   offers:
     - spend: 4500
@@ -4922,6 +5664,9 @@
   universalCashbackPercent: 1
   url: https://www.skypassvisa.com/credit/visaSkyBlueCard.do
   imageUrl: /images/usbank/skypass.png
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 2
   credits: []
   offers:
     - spend: 1000
@@ -4947,6 +5692,11 @@
   universalCashbackPercent: 1
   url: https://www.skypassvisa.com/credit/visaSignatureCard.do
   imageUrl: /images/usbank/skypass.png
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 3
+    - category: DINING
+      multiplier: 2
   credits:
     - description: $50 Korean Air credit
       value: 50
@@ -4976,6 +5726,13 @@
   universalCashbackPercent: 1
   url: https://www.skypassvisa.com/credit/visaSelectCard.do
   imageUrl: /images/usbank/skypass-select.png
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 5
+    - category: DINING
+      multiplier: 2
+    - category: HOTELS
+      multiplier: 2
   credits:
     - description: PreCheck Credit
       value: 100
@@ -5010,6 +5767,11 @@
   universalCashbackPercent: 1
   url: https://www.skypassvisa.com/credit/visaBusinessCard.do
   imageUrl: /images/usbank/skypass-business.png
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 3
+    - category: OFFICE_SUPPLY
+      multiplier: 2
   credits:
     - description: PreCheck Credit
       value: 100
@@ -5041,6 +5803,9 @@
   universalCashbackPercent: 1.5
   url: https://www.usbank.com/credit-cards/shopper-cash-rewards-visa-signature-credit-card.html
   imageUrl: /images/usbank/shopper-cash-rewards.webp
+  categoryEarningRates:
+    - category: ONLINE_SHOPPING
+      multiplier: 6
   credits: []
   offers:
     - spend: 2000
@@ -5066,6 +5831,7 @@
   universalCashbackPercent: 2
   url: https://www.usbank.com/credit-cards/bank-smartly-visa-signature-credit-card.html
   imageUrl: /images/usbank/smartly.webp
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 3000
@@ -5091,6 +5857,7 @@
   universalCashbackPercent: 2
   url: https://creditcards.wellsfargo.com/business-credit-cards/signify-business-cash-credit-card
   imageUrl: /images/wellsfargo/signify-business-cash.png
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 5000
@@ -5116,6 +5883,7 @@
   universalCashbackPercent: 2
   url: https://creditcards.wellsfargo.com/active-cash-credit-card/
   imageUrl: /images/wellsfargo/active-cash.png
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 500
@@ -5141,6 +5909,17 @@
   universalCashbackPercent: 2
   url: https://creditcards.wellsfargo.com/autograph-visa-credit-card
   imageUrl: /images/wellsfargo/autograph.png
+  categoryEarningRates:
+    - category: DINING
+      multiplier: 3
+    - category: TRAVEL
+      multiplier: 3
+    - category: GAS
+      multiplier: 3
+    - category: TRANSIT
+      multiplier: 3
+    - category: STREAMING
+      multiplier: 3
   credits: []
   offers:
     - spend: 1000
@@ -5166,6 +5945,17 @@
   universalCashbackPercent: 1
   url: https://creditcards.wellsfargo.com/autograph-journey-visa-credit-card
   imageUrl: /images/wellsfargo/autograph.png
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 5
+    - category: HOTELS
+      multiplier: 4
+    - category: DINING
+      multiplier: 3
+    - category: TRANSIT
+      multiplier: 3
+    - category: STREAMING
+      multiplier: 3
   credits:
     - description: $50 Credit for $50+ Airline Purchase
       value: 50
@@ -5195,6 +5985,7 @@
   universalCashbackPercent: 1
   url: https://creditcards.wellsfargo.com/wells-fargo-choice-privileges-credit-cards
   imageUrl: /images/wellsfargo/choice-privileges.png
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 1000
@@ -5220,6 +6011,7 @@
   universalCashbackPercent: 1
   url: https://creditcards.wellsfargo.com/wells-fargo-choice-privileges-credit-cards
   imageUrl: /images/wellsfargo/choice-privileges-select.png
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 3000
@@ -5245,6 +6037,13 @@
   universalCashbackPercent: 1
   url: https://www.biltrewards.com/card
   imageUrl: /images/wellsfargo/bilt.png
+  categoryEarningRates:
+    - category: DINING
+      multiplier: 3
+    - category: TRAVEL
+      multiplier: 2
+    - category: RENT
+      multiplier: 2
   credits: []
   offers: []
   historicalOffers: []
@@ -5260,6 +6059,7 @@
   universalCashbackPercent: 1.5
   url: https://www.expedia.com/one-key-cards
   imageUrl: /images/wellsfargo/one-key.png
+  categoryEarningRates: []
   credits: []
   offers:
     - spend: 1000
@@ -5287,6 +6087,7 @@
   universalCashbackPercent: 2
   url: https://www.expedia.com/one-key-cards
   imageUrl: /images/wellsfargo/one-key.png
+  categoryEarningRates: []
   credits:
     - description: PreCheck Credit
       value: 100
@@ -5320,6 +6121,11 @@
   universalCashbackPercent: 1
   url: https://www.gemini.com/credit-card
   imageUrl: /images/web-bank/gemini.webp
+  categoryEarningRates:
+    - category: DINING
+      multiplier: 3
+    - category: GROCERIES
+      multiplier: 2
   credits: []
   offers:
     - spend: 3000

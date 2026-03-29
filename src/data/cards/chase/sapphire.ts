@@ -15,6 +15,12 @@ export const SAPPHIRE_CARDS: Array<CreditCardInput> = [
     annualFee: 95,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
+    categoryEarningRates: [
+      { category: "DINING", multiplier: 3 },
+      { category: "STREAMING", multiplier: 3 },
+      { category: "ONLINE_SHOPPING", multiplier: 3 },
+      { category: "TRAVEL", multiplier: 5 },
+    ],
     url: "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
     imageUrl: "/images/chase/sapphire-preferred.png",
     credits: [
@@ -53,6 +59,13 @@ export const SAPPHIRE_CARDS: Array<CreditCardInput> = [
     annualFee: 795,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
+    categoryEarningRates: [
+      { category: "TRAVEL", multiplier: 5 },
+      { category: "FLIGHTS", multiplier: 5 },
+      { category: "HOTELS", multiplier: 10 },
+      { category: "DINING", multiplier: 3 },
+      { category: "STREAMING", multiplier: 3 },
+    ],
     url: "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
     imageUrl: "/images/chase/sapphire-reserve.png",
     credits: [
@@ -123,6 +136,13 @@ export const SAPPHIRE_CARDS: Array<CreditCardInput> = [
     annualFee: 795,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
+    categoryEarningRates: [
+      { category: "TRAVEL", multiplier: 5 },
+      { category: "FLIGHTS", multiplier: 5 },
+      { category: "HOTELS", multiplier: 10 },
+      { category: "DINING", multiplier: 3 },
+      { category: "STREAMING", multiplier: 3 },
+    ],
     url: "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
     imageUrl: "/images/chase/sapphire-reserve-business.jpg",
     credits: [

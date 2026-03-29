@@ -132,6 +132,20 @@ components:
           $ref: "#/components/schemas/CurrenciesEnum"
       required:
         - amount
+    CategoryEarningRate:
+      type: object
+      description: The earning rate multiplier for a specific spending category. For example, 3x on dining means category=DINING, multiplier=3.
+      properties:
+        category:
+          $ref: "#/components/schemas/SpendingCategoriesEnum"
+        multiplier:
+          type: number
+          description: The earning rate multiplier for this category. A value of 3 means 3x points/miles per dollar spent in this category.
+          minimum: 1
+          example: 3
+      required:
+        - category
+        - multiplier
     CreditCard:
       type: object
       properties:
@@ -179,6 +193,12 @@ components:
           type: string
           description: A URL to an image of the card. Prefix with "https://offeroptimist.com" to get a full, valid URL.
           example: /images/chase/freedom-flex.png
+        categoryEarningRates:
+          type: array
+          description: Per-category earning rate multipliers. If a category is not listed, the card earns at the universalCashbackPercent rate.
+          items:
+            $ref: "#/components/schemas/CategoryEarningRate"
+          default: []
         credits:
           type: array
           items:
@@ -209,6 +229,7 @@ components:
         - annualFee
         - isAnnualFeeWaived
         - universalCashbackPercent
+        - categoryEarningRates
         - url
         - imageUrl
         - credits
@@ -292,3 +313,28 @@ components:
         - MASTERCARD
         - AMERICAN_EXPRESS
         - DISCOVER
+    SpendingCategoriesEnum:
+      type: string
+      enum:
+        - DINING
+        - GROCERIES
+        - GAS
+        - TRAVEL
+        - FLIGHTS
+        - HOTELS
+        - CAR_RENTALS
+        - TRANSIT
+        - STREAMING
+        - ONLINE_SHOPPING
+        - DRUGSTORES
+        - HOME_IMPROVEMENT
+        - OFFICE_SUPPLY
+        - PHONE
+        - INTERNET
+        - ADVERTISING
+        - SHIPPING
+        - RIDESHARE
+        - ENTERTAINMENT
+        - WHOLESALE_CLUBS
+        - RENT
+        - EV_CHARGING
