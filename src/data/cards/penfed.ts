@@ -11,6 +11,7 @@ export const PENFED_CARDS: Array<CreditCardInput> = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1.5,
+    categoryEarningRates: [],
     url: "https://www.penfed.org/credit-cards/power-cash-rewards-visa",
     imageUrl: "/images/penfed/power-cash-rewards.png",
     credits: [],
@@ -41,6 +42,10 @@ export const PENFED_CARDS: Array<CreditCardInput> = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
+    categoryEarningRates: [
+      { category: "GAS", multiplier: 5 },
+      { category: "GROCERIES", multiplier: 3 },
+    ],
     url: "https://www.penfed.org/credit-cards/platinum-rewards-visa",
     imageUrl: "/images/penfed/platinum-rewards.webp",
     credits: [],
@@ -71,6 +76,11 @@ export const PENFED_CARDS: Array<CreditCardInput> = [
     annualFee: 95,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
+    categoryEarningRates: [
+      { category: "FLIGHTS", multiplier: 4 },
+      { category: "HOTELS", multiplier: 3 },
+      { category: "DINING", multiplier: 3 },
+    ],
     url: "https://www.penfed.org/credit-cards/pathfinder-rewards",
     imageUrl: "/images/penfed/pathfinder.webp",
     details:
