@@ -12,6 +12,11 @@ export const DISCOVER_CARDS: Array<CreditCardInput> = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
+    categoryEarningRates: [
+      { category: "DINING", multiplier: 2 },
+      { category: "GAS", multiplier: 2 },
+      { category: "GROCERIES", multiplier: 2 },
+    ],
     url: "https://www.discover.com/credit-cards/",
     imageUrl: "/images/discover/it.webp",
     credits: [],

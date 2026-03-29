@@ -1500,7 +1500,11 @@
   universalCashbackPercent: 1
   url: https://www.bankofamerica.com/credit-cards/products/cash-back-credit-card/
   imageUrl: /images/bankofamerica/customized-cash-rewards.jpg
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: DINING
+      multiplier: 3
+    - category: GROCERIES
+      multiplier: 3
   credits: []
   offers:
     - spend: 1000
@@ -1526,7 +1530,11 @@
   universalCashbackPercent: 1
   url: https://www.bankofamerica.com/credit-cards/products/premium-rewards-credit-card/
   imageUrl: /images/bankofamerica/premium-rewards.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: DINING
+      multiplier: 2
+    - category: TRAVEL
+      multiplier: 2
   credits: []
   offers:
     - spend: 4000
@@ -1552,7 +1560,11 @@
   universalCashbackPercent: 1
   url: https://www.bankofamerica.com/credit-cards/products/premium-rewards-elite-credit-card/
   imageUrl: /images/bankofamerica/premium-rewards-elite.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: DINING
+      multiplier: 2
+    - category: TRAVEL
+      multiplier: 2
   credits:
     - description: PreCheck Credit
       value: 100
@@ -1639,7 +1651,11 @@
   universalCashbackPercent: 1.5
   url: https://www.bankofamerica.com/smallbusiness/credit-cards/products/cash-rewards-business-credit-card
   imageUrl: /images/bankofamerica/business-advantage-customized-cash.jpg
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: DINING
+      multiplier: 3
+    - category: GROCERIES
+      multiplier: 3
   credits: []
   offers:
     - spend: 5000
@@ -1953,7 +1969,11 @@
   universalCashbackPercent: 1
   url: https://www.aarp.org/membership/benefits/finance/aarp-essential-rewards-mastercard-from-barclays/
   imageUrl: /images/barclays/aarp-essential-rewards.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: GAS
+      multiplier: 3
+    - category: DRUGSTORES
+      multiplier: 3
   credits: []
   offers:
     - spend: 500
@@ -3196,7 +3216,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/CJ3VTYDKCY
+      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
   historicalOffers:
     - spend: 6000
       amount:
@@ -3233,13 +3253,13 @@
         - amount: 100000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/CJ3VTYDKCY
+      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
     - spend: 8000
       amount:
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/CJ3VTYDKCY
+      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
   historicalOffers:
     - spend: 8000
       amount:
@@ -3266,7 +3286,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/CJ3VTYDKCY
+      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
   historicalOffers:
     - spend: 6000
       amount:
@@ -3298,7 +3318,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/CJ3VTYDKCY
+      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
   historicalOffers:
     - spend: 10000
       amount:
@@ -3588,7 +3608,7 @@
         - amount: 150000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/CJ3VTYDKCY
+      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
   historicalOffers:
     - spend: 30000
       amount:
@@ -3596,13 +3616,13 @@
       days: 180
       expiration: 2026-03-21
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/CJ3VTYDKCY
+      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/CJ3VTYDKCY
+      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
@@ -4060,7 +4080,15 @@
   universalCashbackPercent: 1
   url: https://www.capitalone.com/credit-cards/savor/
   imageUrl: /images/capitalone/savor.webp
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: DINING
+      multiplier: 3
+    - category: ENTERTAINMENT
+      multiplier: 3
+    - category: STREAMING
+      multiplier: 3
+    - category: GROCERIES
+      multiplier: 3
   credits: []
   offers:
     - spend: 500
@@ -4227,7 +4255,11 @@
   universalCashbackPercent: 2
   url: https://www.capitalone.com/credit-cards/venture-x/
   imageUrl: /images/capitalone/venture-x.webp
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 5
+    - category: HOTELS
+      multiplier: 10
   credits:
     - description: PreCheck Credit
       value: 100
@@ -4268,7 +4300,11 @@
   universalCashbackPercent: 2
   url: https://www.capitalone.com/small-business/credit-cards/venture-x-business/
   imageUrl: /images/capitalone/venture-x-business.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 5
+    - category: HOTELS
+      multiplier: 10
   credits:
     - description: PreCheck Credit
       value: 100
@@ -4357,7 +4393,9 @@
   universalCashbackPercent: 1
   url: https://creditcards.aa.com/citi-mileup-card-american-airlines-direct/
   imageUrl: /images/citi/aadvantage-mileup.webp
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: GROCERIES
+      multiplier: 2
   credits: []
   offers:
     - spend: 500
@@ -4514,7 +4552,9 @@
   universalCashbackPercent: 2
   url: https://www.citi.com/credit-cards/citi-custom-cash-credit-card
   imageUrl: /images/citi/custom-cash.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: DINING
+      multiplier: 5
   credits: []
   offers:
     - spend: 1500
@@ -4545,7 +4585,15 @@
   universalCashbackPercent: 1.5
   url: https://www.citi.com/credit-cards/citi-strata-elite-credit-card
   imageUrl: /images/citi/strata-elite.webp
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 5
+    - category: HOTELS
+      multiplier: 5
+    - category: DINING
+      multiplier: 3
+    - category: GROCERIES
+      multiplier: 3
   credits:
     - description: PreCheck Credit
       value: 100
@@ -4591,7 +4639,17 @@
   universalCashbackPercent: 2
   url: https://www.citi.com/credit-cards/citi-strata-premier-credit-card
   imageUrl: /images/citi/strata-premier.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 3
+    - category: HOTELS
+      multiplier: 3
+    - category: DINING
+      multiplier: 3
+    - category: GROCERIES
+      multiplier: 3
+    - category: GAS
+      multiplier: 3
   credits:
     - description: Hotel Credit ($500 min purchase)
       value: 100
@@ -4728,7 +4786,13 @@
   universalCashbackPercent: 1
   url: https://www.discover.com/credit-cards/
   imageUrl: /images/discover/it.webp
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: DINING
+      multiplier: 2
+    - category: GAS
+      multiplier: 2
+    - category: GROCERIES
+      multiplier: 2
   credits: []
   offers:
     - spend: 0.01
@@ -5691,7 +5755,17 @@
   universalCashbackPercent: 2
   url: https://creditcards.wellsfargo.com/autograph-visa-credit-card
   imageUrl: /images/wellsfargo/autograph.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: DINING
+      multiplier: 3
+    - category: TRAVEL
+      multiplier: 3
+    - category: GAS
+      multiplier: 3
+    - category: TRANSIT
+      multiplier: 3
+    - category: STREAMING
+      multiplier: 3
   credits: []
   offers:
     - spend: 1000
@@ -5717,7 +5791,17 @@
   universalCashbackPercent: 1
   url: https://creditcards.wellsfargo.com/autograph-journey-visa-credit-card
   imageUrl: /images/wellsfargo/autograph.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: FLIGHTS
+      multiplier: 5
+    - category: HOTELS
+      multiplier: 4
+    - category: DINING
+      multiplier: 3
+    - category: TRANSIT
+      multiplier: 3
+    - category: STREAMING
+      multiplier: 3
   credits:
     - description: $50 Credit for $50+ Airline Purchase
       value: 50
@@ -5799,7 +5883,13 @@
   universalCashbackPercent: 1
   url: https://www.biltrewards.com/card
   imageUrl: /images/wellsfargo/bilt.png
-  categoryEarningRates: []
+  categoryEarningRates:
+    - category: DINING
+      multiplier: 3
+    - category: TRAVEL
+      multiplier: 2
+    - category: RENT
+      multiplier: 2
   credits: []
   offers: []
   historicalOffers: []
