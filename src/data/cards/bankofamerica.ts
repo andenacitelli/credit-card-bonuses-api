@@ -388,7 +388,7 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
     credits: [CREDITS.CHECKED_BAG_MULTIPLE],
     offers: [
       {
-        amount: [{ amount: 80_000 }],
+        amount: [{ amount: 85_000 }],
         spend: 4000,
         days: 120,
         credits: [
@@ -412,6 +412,7 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
             weight: 0.6,
           },
         ],
+        expiration: "2026-04-04",
       },
     ],
   },
@@ -443,6 +444,19 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
+        amount: [{ amount: 100_000 }],
+        spend: 6000,
+        days: 90,
+        credits: [
+          {
+            description: "Companion Award",
+            value: 2500,
+            currency: "ALASKA",
+            weight: 0.75,
+          },
+        ],
+      },
+      {
         amount: [{ amount: 80_000 }],
         spend: 4000,
         days: 90,
@@ -457,6 +471,20 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
       },
     ],
     historicalOffers: [
+      {
+        amount: [{ amount: 80_000 }],
+        spend: 4000,
+        days: 90,
+        credits: [
+          {
+            description: "Companion Award",
+            value: 2500,
+            currency: "ALASKA",
+            weight: 0.75,
+          },
+        ],
+        expiration: "2026-04-04",
+      },
       {
         amount: [{ amount: 100_000 }],
         spend: 6000,

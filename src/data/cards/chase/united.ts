@@ -120,6 +120,14 @@ export const UNITED_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
+        amount: [{ amount: 110_000 }],
+        spend: 5000,
+        days: 90,
+        credits: [],
+        referralUrl: REFERRALS.CHASE.UNITED,
+        expiration: "2026-05-20",
+      },
+      {
         amount: [{ amount: 90_000 }],
         spend: 5000,
         days: 90,
@@ -128,6 +136,13 @@ export const UNITED_CARDS: Array<CreditCardInput> = [
       },
     ],
     historicalOffers: [
+      {
+        amount: [{ amount: 90_000 }],
+        spend: 5000,
+        days: 90,
+        credits: [],
+        expiration: "2026-04-04",
+      },
       {
         amount: [{ amount: 95_000 }],
         spend: 5000,
@@ -267,7 +282,7 @@ export const UNITED_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 70_000 }],
+        amount: [{ amount: 85_000 }],
         spend: 3000,
         days: 90,
         credits: [],
@@ -275,6 +290,13 @@ export const UNITED_CARDS: Array<CreditCardInput> = [
       },
     ],
     historicalOffers: [
+      {
+        amount: [{ amount: 70_000 }],
+        spend: 3000,
+        days: 90,
+        credits: [],
+        expiration: "2026-04-04",
+      },
       {
         amount: [{ amount: 80_000 }],
         spend: 3000,
@@ -367,6 +389,14 @@ export const UNITED_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
+        amount: [{ amount: 100_000 }],
+        spend: 4000,
+        days: 90,
+        credits: [],
+        referralUrl: REFERRALS.CHASE.UNITED,
+        expiration: "2026-05-20",
+      },
+      {
         amount: [{ amount: 80_000 }],
         spend: 4000,
         days: 90,
@@ -375,6 +405,13 @@ export const UNITED_CARDS: Array<CreditCardInput> = [
       },
     ],
     historicalOffers: [
+      {
+        amount: [{ amount: 80_000 }],
+        spend: 4000,
+        days: 90,
+        credits: [],
+        expiration: "2026-04-04",
+      },
       {
         amount: [{ amount: 100_000 }],
         spend: 4000,
