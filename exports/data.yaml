@@ -39,18 +39,18 @@
       value: 50
       weight: 0.5
   offers:
-    - spend: 3000
-      amount:
-        - amount: 90000
-      days: 180
-      expiration: 2026-04-01
-      credits: []
     - spend: 2000
       amount:
         - amount: 50000
       days: 180
       credits: []
   historicalOffers:
+    - spend: 3000
+      amount:
+        - amount: 90000
+      days: 180
+      expiration: 2026-04-01
+      credits: []
     - spend: 2000
       amount:
         - amount: 50000
@@ -79,16 +79,16 @@
   offers:
     - spend: 4000
       amount:
-        - amount: 90000
-      days: 180
-      expiration: 2026-04-01
-      credits: []
-    - spend: 4000
-      amount:
         - amount: 60000
       days: 180
       credits: []
   historicalOffers:
+    - spend: 4000
+      amount:
+        - amount: 90000
+      days: 180
+      expiration: 2026-04-01
+      credits: []
     - spend: 4000
       amount:
         - amount: 60000
@@ -118,18 +118,18 @@
       value: 500
       weight: 0.7
   offers:
-    - spend: 4000
-      amount:
-        - amount: 100000
-      days: 180
-      expiration: 2026-04-01
-      credits: []
     - spend: 3000
       amount:
         - amount: 60000
       days: 180
       credits: []
   historicalOffers:
+    - spend: 4000
+      amount:
+        - amount: 100000
+      days: 180
+      expiration: 2026-04-01
+      credits: []
     - spend: 3000
       amount:
         - amount: 60000
@@ -167,16 +167,16 @@
   offers:
     - spend: 6000
       amount:
-        - amount: 100000
-      days: 180
-      expiration: 2026-04-01
-      credits: []
-    - spend: 6000
-      amount:
         - amount: 70000
       days: 180
       credits: []
   historicalOffers:
+    - spend: 6000
+      amount:
+        - amount: 100000
+      days: 180
+      expiration: 2026-04-01
+      credits: []
     - spend: 6000
       amount:
         - amount: 70000
@@ -206,18 +206,18 @@
       value: 240
       weight: 0.8
   offers:
-    - spend: 6000
-      amount:
-        - amount: 125000
-      days: 180
-      expiration: 2026-04-01
-      credits: []
     - spend: 5000
       amount:
         - amount: 70000
       days: 180
       credits: []
   historicalOffers:
+    - spend: 6000
+      amount:
+        - amount: 125000
+      days: 180
+      expiration: 2026-04-01
+      credits: []
     - spend: 5000
       amount:
         - amount: 70000
@@ -246,16 +246,16 @@
   offers:
     - spend: 10000
       amount:
-        - amount: 125000
-      days: 180
-      expiration: 2026-04-01
-      credits: []
-    - spend: 10000
-      amount:
         - amount: 80000
       days: 180
       credits: []
   historicalOffers:
+    - spend: 10000
+      amount:
+        - amount: 125000
+      days: 180
+      expiration: 2026-04-01
+      credits: []
     - spend: 10000
       amount:
         - amount: 80000
@@ -1584,7 +1584,7 @@
   offers:
     - spend: 4000
       amount:
-        - amount: 80000
+        - amount: 85000
       days: 120
       credits:
         - description: Companion Flight Voucher
@@ -1595,6 +1595,7 @@
       amount:
         - amount: 80000
       days: 120
+      expiration: 2026-04-04
       credits:
         - description: Companion Flight Voucher
           value: 100
@@ -1625,6 +1626,15 @@
       value: 60
       weight: 0.5
   offers:
+    - spend: 6000
+      amount:
+        - amount: 100000
+      days: 90
+      credits:
+        - description: Companion Award
+          value: 2500
+          weight: 0.75
+          currency: ALASKA
     - spend: 4000
       amount:
         - amount: 80000
@@ -1635,6 +1645,16 @@
           weight: 0.75
           currency: ALASKA
   historicalOffers:
+    - spend: 4000
+      amount:
+        - amount: 80000
+      days: 90
+      expiration: 2026-04-04
+      credits:
+        - description: Companion Award
+          value: 2500
+          weight: 0.75
+          currency: ALASKA
     - spend: 6000
       amount:
         - amount: 100000
@@ -2637,11 +2657,24 @@
   offers:
     - spend: 5000
       amount:
+        - amount: 110000
+      days: 90
+      expiration: 2026-05-20
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/215e/OPTN75PXFL
+    - spend: 5000
+      amount:
         - amount: 90000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/215e/OPTN75PXFL
   historicalOffers:
+    - spend: 5000
+      amount:
+        - amount: 90000
+      days: 90
+      expiration: 2026-04-04
+      credits: []
     - spend: 5000
       amount:
         - amount: 95000
@@ -2744,11 +2777,17 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 70000
+        - amount: 85000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/215e/OPTN75PXFL
   historicalOffers:
+    - spend: 3000
+      amount:
+        - amount: 70000
+      days: 90
+      expiration: 2026-04-04
+      credits: []
     - spend: 3000
       amount:
         - amount: 80000
@@ -2819,11 +2858,24 @@
   offers:
     - spend: 4000
       amount:
+        - amount: 100000
+      days: 90
+      expiration: 2026-05-20
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/215e/OPTN75PXFL
+    - spend: 4000
+      amount:
         - amount: 80000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/215e/OPTN75PXFL
   historicalOffers:
+    - spend: 4000
+      amount:
+        - amount: 80000
+      days: 90
+      expiration: 2026-04-04
+      credits: []
     - spend: 4000
       amount:
         - amount: 100000
@@ -3956,6 +4008,11 @@
   offers:
     - spend: 4000
       amount:
+        - amount: 75000
+      days: 120
+      credits: []
+    - spend: 4000
+      amount:
         - amount: 65000
       days: 120
       credits: []
@@ -3964,6 +4021,7 @@
       amount:
         - amount: 65000
       days: 120
+      expiration: 2026-04-04
       credits: []
   discontinued: false
 - cardId: 06b9a384d710e73db7f0ded7613c9c4b
@@ -4764,10 +4822,16 @@
   offers:
     - spend: 1000
       amount:
-        - amount: 20000
+        - amount: 30000
       days: 90
       credits: []
   historicalOffers:
+    - spend: 1000
+      amount:
+        - amount: 20000
+      days: 90
+      expiration: 2026-04-04
+      credits: []
     - spend: 1000
       amount:
         - amount: 30000

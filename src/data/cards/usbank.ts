@@ -81,13 +81,20 @@ export const US_BANK_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 20_000 }],
+        amount: [{ amount: 30_000 }],
         spend: 1000,
         days: 90,
         credits: [],
       },
     ],
     historicalOffers: [
+      {
+        amount: [{ amount: 20_000 }],
+        spend: 1000,
+        days: 90,
+        credits: [],
+        expiration: "2026-04-04",
+      },
       {
         amount: [{ amount: 30_000 }],
         spend: 1000,
