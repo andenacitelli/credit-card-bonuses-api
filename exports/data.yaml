@@ -2612,7 +2612,7 @@
         - amount: 100000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/215e/OPTN75PXFL
+      referralUrl: https://www.referyourchasecard.com/215r/OPTN75PXFL
   historicalOffers:
     - spend: 5000
       amount:
@@ -2661,13 +2661,13 @@
       days: 90
       expiration: 2026-05-20
       credits: []
-      referralUrl: https://www.referyourchasecard.com/215e/OPTN75PXFL
+      referralUrl: https://www.referyourchasecard.com/215r/OPTN75PXFL
     - spend: 5000
       amount:
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/215e/OPTN75PXFL
+      referralUrl: https://www.referyourchasecard.com/215r/OPTN75PXFL
   historicalOffers:
     - spend: 5000
       amount:
@@ -2721,7 +2721,7 @@
         - amount: 100000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/215e/OPTN75PXFL
+      referralUrl: https://www.referyourchasecard.com/215r/OPTN75PXFL
   historicalOffers:
     - spend: 5000
       amount:
@@ -2780,7 +2780,7 @@
         - amount: 85000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/215e/OPTN75PXFL
+      referralUrl: https://www.referyourchasecard.com/215r/OPTN75PXFL
   historicalOffers:
     - spend: 3000
       amount:
@@ -2812,7 +2812,7 @@
         - amount: 30000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/215e/OPTN75PXFL
+      referralUrl: https://www.referyourchasecard.com/215r/OPTN75PXFL
   historicalOffers:
     - spend: 1000
       amount:
@@ -2862,13 +2862,13 @@
       days: 90
       expiration: 2026-05-20
       credits: []
-      referralUrl: https://www.referyourchasecard.com/215e/OPTN75PXFL
+      referralUrl: https://www.referyourchasecard.com/215r/OPTN75PXFL
     - spend: 4000
       amount:
         - amount: 80000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/215e/OPTN75PXFL
+      referralUrl: https://www.referyourchasecard.com/215r/OPTN75PXFL
   historicalOffers:
     - spend: 4000
       amount:
@@ -2901,7 +2901,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
+      referralUrl: https://www.referyourchasecard.com/21e/CJ3VTYDKCY
   historicalOffers:
     - spend: 6000
       amount:
@@ -2927,13 +2927,13 @@
         - amount: 100000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
+      referralUrl: https://www.referyourchasecard.com/21e/CJ3VTYDKCY
     - spend: 8000
       amount:
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
+      referralUrl: https://www.referyourchasecard.com/21e/CJ3VTYDKCY
   historicalOffers:
     - spend: 8000
       amount:
@@ -2959,7 +2959,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
+      referralUrl: https://www.referyourchasecard.com/21e/CJ3VTYDKCY
   historicalOffers:
     - spend: 6000
       amount:
@@ -2988,7 +2988,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
+      referralUrl: https://www.referyourchasecard.com/21e/CJ3VTYDKCY
   historicalOffers:
     - spend: 10000
       amount:
@@ -3222,7 +3222,7 @@
         - amount: 150000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
+      referralUrl: https://www.referyourchasecard.com/21e/CJ3VTYDKCY
   historicalOffers:
     - spend: 30000
       amount:
@@ -3230,13 +3230,13 @@
       days: 180
       expiration: 2026-03-21
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
+      referralUrl: https://www.referyourchasecard.com/21e/CJ3VTYDKCY
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
+      referralUrl: https://www.referyourchasecard.com/21e/CJ3VTYDKCY
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
