@@ -772,12 +772,6 @@
       days: 180
       expiration: 2026-02-28
       credits: []
-    - spend: 8000
-      amount:
-        - amount: 175000
-      days: 180
-      expiration: 2026-04-15
-      credits: []
   discontinued: false
 - cardId: f6c6aa50b533b758df7be5151d805571
   name: Hilton Honors Surpass
@@ -1998,6 +1992,11 @@
   imageUrl: /images/barclays/jetblue-plus.png
   credits: []
   offers:
+    - spend: 1000
+      amount:
+        - amount: 75000
+      days: 90
+      credits: []
     - spend: 6000
       amount:
         - amount: 70000
@@ -2344,11 +2343,13 @@
   offers:
     - spend: 1000
       amount:
-        - amount: 100000
-          weight: 0.7
-          details: 2x FNC
+        - amount: 60000
       days: 90
-      credits: []
+      credits:
+        - description: 1x FNC, <= 50k
+          value: 50000
+          weight: 0.7
+          currency: MARRIOTT
       referralUrl: https://www.referyourchasecard.com/252u/ASVAYOAFR1
   historicalOffers:
     - spend: 1000
@@ -2357,6 +2358,7 @@
           weight: 0.7
           details: 2x FNC
       days: 90
+      expiration: 2026-03-11
       credits: []
       referralUrl: https://www.referyourchasecard.com/252u/ASVAYOAFR1
   discontinued: false
@@ -2373,14 +2375,17 @@
   imageUrl: /images/chase/marriott-bonvoy-boundless.jpeg
   credits: []
   offers:
-    - spend: 3000
+    - spend: 4000
       amount:
-        - amount: 250000
+        - amount: 200000
           currency: MARRIOTT
           weight: 0.7
-      days: 90
-      credits: []
-      details: 5x FNC, <= 50k per
+      days: 120
+      credits:
+        - description: Airline Credit
+          value: 100
+          weight: 0.9
+      details: 3 FNC after $3k/90d + 1 FNC after $4k/120d, <= 50k per
       referralUrl: https://www.referyourchasecard.com/252u/ASVAYOAFR1
   historicalOffers:
     - spend: 3000
@@ -2901,7 +2906,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/CJ3VTYDKCY
+      referralUrl: https://www.referyourchasecard.com/21e/EOXF04KPYS
   historicalOffers:
     - spend: 6000
       amount:
@@ -2927,13 +2932,13 @@
         - amount: 100000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/CJ3VTYDKCY
+      referralUrl: https://www.referyourchasecard.com/21e/EOXF04KPYS
     - spend: 8000
       amount:
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/CJ3VTYDKCY
+      referralUrl: https://www.referyourchasecard.com/21e/EOXF04KPYS
   historicalOffers:
     - spend: 8000
       amount:
@@ -2959,7 +2964,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/CJ3VTYDKCY
+      referralUrl: https://www.referyourchasecard.com/21e/EOXF04KPYS
   historicalOffers:
     - spend: 6000
       amount:
@@ -2988,7 +2993,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/CJ3VTYDKCY
+      referralUrl: https://www.referyourchasecard.com/21e/EOXF04KPYS
   historicalOffers:
     - spend: 10000
       amount:
@@ -3222,7 +3227,7 @@
         - amount: 150000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/CJ3VTYDKCY
+      referralUrl: https://www.referyourchasecard.com/21e/EOXF04KPYS
   historicalOffers:
     - spend: 30000
       amount:
@@ -3230,13 +3235,13 @@
       days: 180
       expiration: 2026-03-21
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/CJ3VTYDKCY
+      referralUrl: https://www.referyourchasecard.com/21e/EOXF04KPYS
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/CJ3VTYDKCY
+      referralUrl: https://www.referyourchasecard.com/21e/EOXF04KPYS
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
@@ -3758,17 +3763,17 @@
       amount:
         - amount: 75000
       days: 90
-      credits: []
-  historicalOffers:
-    - spend: 4000
-      amount:
-        - amount: 75000
-      days: 90
       credits:
         - description: Travel Portal Credit
           value: 250
           weight: 0.9
           currency: USD
+  historicalOffers:
+    - spend: 4000
+      amount:
+        - amount: 75000
+      days: 90
+      credits: []
   discontinued: false
 - cardId: 9aa036266b8cc7e7512a630efdecae0b
   name: Venture X
