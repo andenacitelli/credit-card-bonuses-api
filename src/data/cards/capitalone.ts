@@ -223,13 +223,6 @@ export const CAPITAL_ONE_CARDS: Array<CreditCardInput> = [
         amount: [{ amount: 75_000 }],
         spend: 4000,
         days: 90,
-        credits: [],
-      },
-    ],
-    historicalOffers: [
-      {
-        amount: [{ amount: 75_000 }],
-        spend: 4000,
         credits: [
           {
             value: 250,
@@ -238,6 +231,13 @@ export const CAPITAL_ONE_CARDS: Array<CreditCardInput> = [
             weight: WEIGHTS.TRAVEL_CREDIT_FUNGIBLE,
           },
         ],
+      },
+    ],
+    historicalOffers: [
+      {
+        amount: [{ amount: 75_000 }],
+        spend: 4000,
+        credits: [],
         days: 90,
       },
     ],

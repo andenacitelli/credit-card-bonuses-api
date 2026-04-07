@@ -366,6 +366,12 @@ export const BARCLAYS_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
+        amount: [{ amount: 75_000 }],
+        spend: 1000,
+        days: 90,
+        credits: [],
+      },
+      {
         amount: [{ amount: 70_000 }],
         spend: 6000,
         days: 365,
