@@ -18,13 +18,19 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 70_000 }],
+        amount: [{ amount: 50_000 }],
         spend: 2000,
         days: 90,
         credits: [],
       },
     ],
     historicalOffers: [
+      {
+        amount: [{ amount: 70_000 }],
+        spend: 3000,
+        days: 90,
+        credits: [],
+      },
       {
         amount: [{ amount: 70_000 }, { amount: 100, currency: "USD" }],
         spend: 2000,
@@ -346,7 +352,7 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
     ],
     offers: [
       {
-        amount: [{ amount: 50_000 }],
+        amount: [{ amount: 65_000 }],
         spend: 1000,
         days: 90,
         credits: [
@@ -359,6 +365,18 @@ export const BANK_OF_AMERICA_CARDS: Array<CreditCardInput> = [
       },
     ],
     historicalOffers: [
+      {
+        amount: [{ amount: 50_000 }],
+        spend: 1000,
+        days: 90,
+        credits: [
+          {
+            description: "Companion Flight Voucher",
+            value: 100,
+            weight: 0.6,
+          },
+        ],
+      },
       {
         amount: [{ amount: 60_000 }],
         spend: 1000,

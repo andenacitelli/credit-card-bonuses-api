@@ -1270,10 +1270,15 @@
   offers:
     - spend: 2000
       amount:
-        - amount: 70000
+        - amount: 50000
       days: 90
       credits: []
   historicalOffers:
+    - spend: 3000
+      amount:
+        - amount: 70000
+      days: 90
+      credits: []
     - spend: 2000
       amount:
         - amount: 70000
@@ -1542,13 +1547,21 @@
   offers:
     - spend: 1000
       amount:
-        - amount: 50000
+        - amount: 65000
       days: 90
       credits:
         - description: Companion Flight Voucher
           value: 100
           weight: 0.6
   historicalOffers:
+    - spend: 1000
+      amount:
+        - amount: 50000
+      days: 90
+      credits:
+        - description: Companion Flight Voucher
+          value: 100
+          weight: 0.6
     - spend: 1000
       amount:
         - amount: 60000
@@ -2906,7 +2919,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/EOXF04KPYS
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   historicalOffers:
     - spend: 6000
       amount:
@@ -2932,13 +2945,13 @@
         - amount: 100000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/EOXF04KPYS
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
     - spend: 8000
       amount:
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/EOXF04KPYS
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   historicalOffers:
     - spend: 8000
       amount:
@@ -2964,7 +2977,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/EOXF04KPYS
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   historicalOffers:
     - spend: 6000
       amount:
@@ -2993,7 +3006,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/EOXF04KPYS
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   historicalOffers:
     - spend: 10000
       amount:
@@ -3227,7 +3240,7 @@
         - amount: 150000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/EOXF04KPYS
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   historicalOffers:
     - spend: 30000
       amount:
@@ -3235,13 +3248,13 @@
       days: 180
       expiration: 2026-03-21
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/EOXF04KPYS
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/EOXF04KPYS
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
@@ -4121,12 +4134,17 @@
       value: 200
       weight: 0.2
   offers:
-    - spend: 4000
+    - spend: 6000
       amount:
         - amount: 75000
       days: 90
       credits: []
   historicalOffers:
+    - spend: 4000
+      amount:
+        - amount: 75000
+      days: 90
+      credits: []
     - spend: 5000
       amount:
         - amount: 100000
@@ -4722,7 +4740,13 @@
   imageUrl: /images/synchrony/virgin-red-rewards.webp
   credits: []
   offers:
-    - spend: 3000
+    - spend: 4000
+      amount:
+        - amount: 75000
+      days: 90
+      expiration: 2026-04-16
+      credits: []
+    - spend: 4000
       amount:
         - amount: 60000
       days: 90
@@ -5331,6 +5355,13 @@
   imageUrl: /images/wellsfargo/one-key.png
   credits: []
   offers:
+    - spend: 1000
+      amount:
+        - amount: 300
+          currency: USD
+      days: 90
+      expiration: 2026-04-28
+      credits: []
     - spend: 1000
       amount:
         - amount: 250
