@@ -15,6 +15,13 @@ export const UNITED_CARDS: Array<CreditCardInput> = [
     annualFee: 150,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
+    categoryEarningRates: [
+      { category: "FLIGHTS", multiplier: 2 },
+      { category: "DINING", multiplier: 2 },
+      { category: "GAS", multiplier: 2 },
+      { category: "OFFICE_SUPPLY", multiplier: 2 },
+      { category: "TRANSIT", multiplier: 2 },
+    ],
     url: "https://www.theexplorercard.com/business-rewards-cards/business-card",
     imageUrl: "/images/chase/united-business.png",
     credits: [
@@ -83,6 +90,11 @@ export const UNITED_CARDS: Array<CreditCardInput> = [
     annualFee: 695,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
+    categoryEarningRates: [
+      { category: "FLIGHTS", multiplier: 4 },
+      { category: "TRAVEL", multiplier: 2 },
+      { category: "DINING", multiplier: 2 },
+    ],
     url: "https://www.theexplorercard.com/rewards-cards/club-card",
     imageUrl: "/images/chase/united-club-infinite.png",
     credits: [
@@ -162,6 +174,11 @@ export const UNITED_CARDS: Array<CreditCardInput> = [
     annualFee: 695,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
+    categoryEarningRates: [
+      { category: "FLIGHTS", multiplier: 4 },
+      { category: "TRAVEL", multiplier: 2 },
+      { category: "DINING", multiplier: 2 },
+    ],
     url: "https://www.theexplorercard.com/business-rewards-cards/club-card",
     imageUrl: "/images/chase/united-club-business.png",
     credits: [
@@ -230,6 +247,12 @@ export const UNITED_CARDS: Array<CreditCardInput> = [
     annualFee: 150,
     isAnnualFeeWaived: true,
     universalCashbackPercent: 1,
+    categoryEarningRates: [
+      { category: "FLIGHTS", multiplier: 2 },
+      { category: "HOTELS", multiplier: 2 },
+      { category: "DINING", multiplier: 2 },
+      { category: "STREAMING", multiplier: 2 },
+    ],
     url: "https://www.theexplorercard.com/rewards-cards/explorer-card",
     imageUrl: "/images/chase/united-explorer.png",
     credits: [
@@ -315,6 +338,7 @@ export const UNITED_CARDS: Array<CreditCardInput> = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
+    categoryEarningRates: [{ category: "FLIGHTS", multiplier: 2 }],
     url: "https://www.theexplorercard.com/rewards-cards/gateway-card",
     imageUrl: "/images/chase/united-gateway.png",
     credits: [],
@@ -347,6 +371,12 @@ export const UNITED_CARDS: Array<CreditCardInput> = [
     annualFee: 350,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
+    categoryEarningRates: [
+      { category: "FLIGHTS", multiplier: 3 },
+      { category: "HOTELS", multiplier: 2 },
+      { category: "DINING", multiplier: 2 },
+      { category: "STREAMING", multiplier: 2 },
+    ],
     url: "https://www.theexplorercard.com/rewards-cards/quest-card",
     imageUrl: "/images/chase/united-quest.png",
     credits: [

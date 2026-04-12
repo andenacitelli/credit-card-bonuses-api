@@ -24,6 +24,11 @@ export const SOUTHWEST_CARDS: Array<CreditCardInput> = [
     annualFee: 299,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
+    categoryEarningRates: [
+      { category: "FLIGHTS", multiplier: 4 },
+      { category: "HOTELS", multiplier: 3 },
+      { category: "CAR_RENTALS", multiplier: 2 },
+    ],
     url: "https://creditcards.chase.com/business-credit-cards/southwest/performance-business",
     imageUrl: "/images/chase/southwest-rapid-rewards-performance-business.png",
     credits: [
@@ -70,6 +75,11 @@ export const SOUTHWEST_CARDS: Array<CreditCardInput> = [
     annualFee: 99,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
+    categoryEarningRates: [
+      { category: "FLIGHTS", multiplier: 2 },
+      { category: "HOTELS", multiplier: 2 },
+      { category: "CAR_RENTALS", multiplier: 2 },
+    ],
     url: "https://creditcards.chase.com/travel-credit-cards/southwest/plus",
     imageUrl: "/images/chase/southwest-rapid-rewards-plus.png",
     credits: [
@@ -110,6 +120,11 @@ export const SOUTHWEST_CARDS: Array<CreditCardInput> = [
     annualFee: 149,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
+    categoryEarningRates: [
+      { category: "FLIGHTS", multiplier: 3 },
+      { category: "HOTELS", multiplier: 2 },
+      { category: "CAR_RENTALS", multiplier: 2 },
+    ],
     url: "https://creditcards.chase.com/travel-credit-cards/southwest/premier",
     imageUrl: "/images/chase/southwest-rapid-rewards-premier.png",
     credits: [
@@ -150,6 +165,11 @@ export const SOUTHWEST_CARDS: Array<CreditCardInput> = [
     annualFee: 149,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
+    categoryEarningRates: [
+      { category: "FLIGHTS", multiplier: 3 },
+      { category: "HOTELS", multiplier: 2 },
+      { category: "CAR_RENTALS", multiplier: 2 },
+    ],
     url: "https://creditcards.chase.com/business-credit-cards/southwest/premier-business",
     imageUrl: "/images/chase/southwest-rapid-rewards-premier-business.png",
     credits: [
@@ -195,6 +215,11 @@ export const SOUTHWEST_CARDS: Array<CreditCardInput> = [
     annualFee: 229,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
+    categoryEarningRates: [
+      { category: "FLIGHTS", multiplier: 3 },
+      { category: "HOTELS", multiplier: 2 },
+      { category: "CAR_RENTALS", multiplier: 2 },
+    ],
     url: "https://creditcards.chase.com/travel-credit-cards/southwest/priority",
     imageUrl: "/images/chase/southwest-rapid-rewards-priority.png",
     credits: [

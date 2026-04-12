@@ -74,6 +74,19 @@ describe("Data Validity Checks", () => {
     });
   });
 
+  describe("Category Earning Rates", () => {
+    test.each(inputs)("$name - no duplicate categories", ({ card }) => {
+      const categories = card.categoryEarningRates.map((r) => r.category);
+      expect(categories.length).toBe(new Set(categories).size);
+    });
+
+    test.each(inputs)("$name - multipliers are valid", ({ card }) => {
+      for (const rate of card.categoryEarningRates) {
+        expect(rate.multiplier).toBeGreaterThanOrEqual(1);
+      }
+    });
+  });
+
   describe("URLs", () => {
     test.each(inputs)("$name", ({ card }) => {
       expect(card.url).not.toContain("?"); // no query params

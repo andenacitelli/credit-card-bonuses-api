@@ -11,6 +11,12 @@ export const BREX_CARDS: Array<CreditCardInput> = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
+    categoryEarningRates: [
+      { category: "RIDESHARE", multiplier: 7 },
+      { category: "TRAVEL", multiplier: 4 },
+      { category: "DINING", multiplier: 3 },
+      { category: "ADVERTISING", multiplier: 2 },
+    ],
     url: "https://www.brex.com/product/credit-card/",
     imageUrl: "/images/brex/brex.png",
     credits: [],

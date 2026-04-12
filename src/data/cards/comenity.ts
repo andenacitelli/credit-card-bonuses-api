@@ -11,6 +11,10 @@ export const COMENITY_CARDS: Array<CreditCardInput> = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
+    categoryEarningRates: [
+      { category: "GAS", multiplier: 3 },
+      { category: "GROCERIES", multiplier: 2 },
+    ],
     url: "https://www.ace.aaa.com/financial/aaa-credit-card.html",
     imageUrl: "/images/comenity/aaa-daily-advantage.png",
     credits: [],
@@ -39,6 +43,10 @@ export const COMENITY_CARDS: Array<CreditCardInput> = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
+    categoryEarningRates: [
+      { category: "GAS", multiplier: 3 },
+      { category: "TRAVEL", multiplier: 3 },
+    ],
     url: "https://www.ace.aaa.com/financial/aaa-credit-card.html",
     imageUrl: "/images/comenity/aaa-travel-advantage.webp",
     credits: [],
