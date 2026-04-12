@@ -11,6 +11,10 @@ export const WEB_BANK_CARDS: Array<CreditCardInput> = [
     annualFee: 0,
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
+    categoryEarningRates: [
+      { category: "DINING", multiplier: 3 },
+      { category: "GROCERIES", multiplier: 2 },
+    ],
     url: "https://www.gemini.com/credit-card",
     imageUrl: "/images/web-bank/gemini.webp",
     credits: [],

@@ -24,6 +24,9 @@ export const cardToDumpableObjects = (card: CreditCard): object[] => {
       credits: card.credits
         .map((credit) => `${credit.value} ${credit.description}`)
         .join("; "),
+      categoryEarningRates: card.categoryEarningRates
+        .map((r) => `${r.multiplier}x ${r.category}`)
+        .join("; "),
     };
   });
 };
