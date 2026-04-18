@@ -696,6 +696,12 @@
   offers:
     - spend: 2000
       amount:
+        - amount: 80000
+      days: 180
+      credits: []
+  historicalOffers:
+    - spend: 2000
+      amount:
         - amount: 70000
       days: 180
       expiration: 2026-04-15
@@ -704,7 +710,6 @@
           value: 30000
           weight: 0.7
           currency: HYATT
-  historicalOffers:
     - spend: 5000
       amount:
         - amount: 100000
@@ -730,11 +735,16 @@
   offers:
     - spend: 6000
       amount:
+        - amount: 150000
+      days: 180
+      credits: []
+  historicalOffers:
+    - spend: 6000
+      amount:
         - amount: 175000
       days: 180
       expiration: 2026-04-15
       credits: []
-  historicalOffers:
     - spend: 4000
       amount:
         - amount: 180000
@@ -759,13 +769,18 @@
       weight: 0.5
       currency: HILTON
   offers:
+    - spend: 6000
+      amount:
+        - amount: 130000
+      days: 180
+      credits: []
+  historicalOffers:
     - spend: 8000
       amount:
         - amount: 175000
       days: 180
       expiration: 2026-04-15
       credits: []
-  historicalOffers:
     - spend: 6000
       amount:
         - amount: 175000
@@ -790,13 +805,18 @@
       amount:
         - amount: 130000
       days: 180
+      credits: []
+  historicalOffers:
+    - spend: 3000
+      amount:
+        - amount: 130000
+      days: 180
       expiration: 2026-04-15
       credits:
         - description: 1x FNC, ballpark ~30k per.
           value: 30000
           weight: 0.7
           currency: HYATT
-  historicalOffers:
     - spend: 2000
       amount:
         - amount: 170000
@@ -1268,12 +1288,23 @@
   imageUrl: /images/bankofamerica/air-france-klm.webp
   credits: []
   offers:
+    - spend: 3000
+      amount:
+        - amount: 70000
+      days: 90
+      credits: []
     - spend: 2000
       amount:
         - amount: 50000
       days: 90
       credits: []
   historicalOffers:
+    - spend: 2000
+      amount:
+        - amount: 50000
+      days: 90
+      expiration: 2026-04-18
+      credits: []
     - spend: 3000
       amount:
         - amount: 70000
@@ -2919,7 +2950,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/EOXF04KPYS
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   historicalOffers:
     - spend: 6000
       amount:
@@ -2945,13 +2976,13 @@
         - amount: 100000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/EOXF04KPYS
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
     - spend: 8000
       amount:
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/EOXF04KPYS
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   historicalOffers:
     - spend: 8000
       amount:
@@ -2977,7 +3008,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/EOXF04KPYS
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   historicalOffers:
     - spend: 6000
       amount:
@@ -3006,7 +3037,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/EOXF04KPYS
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   historicalOffers:
     - spend: 10000
       amount:
@@ -3240,7 +3271,7 @@
         - amount: 150000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/EOXF04KPYS
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   historicalOffers:
     - spend: 30000
       amount:
@@ -3248,13 +3279,13 @@
       days: 180
       expiration: 2026-03-21
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/EOXF04KPYS
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/EOXF04KPYS
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
@@ -4742,16 +4773,16 @@
   offers:
     - spend: 4000
       amount:
-        - amount: 75000
-      days: 90
-      expiration: 2026-04-16
-      credits: []
-    - spend: 4000
-      amount:
         - amount: 60000
       days: 90
       credits: []
   historicalOffers:
+    - spend: 4000
+      amount:
+        - amount: 75000
+      days: 90
+      expiration: 2026-04-16
+      credits: []
     - spend: 3000
       amount:
         - amount: 60000
