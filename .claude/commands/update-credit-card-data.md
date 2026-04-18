@@ -1,10 +1,8 @@
----
-disable-model-invocation: true
----
-
 # Update Credit Card Data
 
 You are auditing and updating the credit card sign-up bonus offers stored in `src/data/cards/`. Your job is to check each card's current `offers` array against real-world data and update any that are stale or incorrect.
+
+> **Branch naming**: When creating a branch for this work, include the full date in `YYYYMMDD` form (e.g. `update-20260418`). This command runs multiple times per month, so the day is important for disambiguation.
 
 ## Data Structure
 
