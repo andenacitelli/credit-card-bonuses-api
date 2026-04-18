@@ -46,13 +46,6 @@ export const SYNCHRONY_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 75_000 }],
-        spend: 4000,
-        days: 90,
-        credits: [],
-        expiration: "2026-04-16",
-      },
-      {
         amount: [{ amount: 60_000 }],
         spend: 4000,
         days: 90,
@@ -60,6 +53,13 @@ export const SYNCHRONY_CARDS: Array<CreditCardInput> = [
       },
     ],
     historicalOffers: [
+      {
+        amount: [{ amount: 75_000 }],
+        spend: 4000,
+        days: 90,
+        credits: [],
+        expiration: "2026-04-16",
+      },
       {
         amount: [{ amount: 60_000 }],
         spend: 3000,
