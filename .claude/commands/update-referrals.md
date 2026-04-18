@@ -1,3 +1,7 @@
+---
+disable-model-invocation: true
+---
+
 # Update Referral Links
 
 Update `src/data/referral-links.ts` with user-supplied referral link information. Do NOT modify card offers, bonuses, or any other card data.
