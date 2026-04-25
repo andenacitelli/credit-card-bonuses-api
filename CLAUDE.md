@@ -2,22 +2,20 @@
 
 ## Mise
 
-- All CLI dependencies are versioned through mise; see `mise.toml` for pinned versions
-- Run CLI tools via `mise exec --` to ensure the correct version is used
-- Cross-reference `mise.toml` when using potentially version-sensitive behavior (very old or very new flags/options) of any managed tool
+- All CLI deps are versioned via mise (`mise.toml`); run tools with `mise exec --`
+- Cross-reference `mise.toml` for version-sensitive flags
 
 ## Git
 
-- Avoid `--no-verify` flag on `git commit`; pre-commit hooks are mandatory and enforce formatting
-- Pre-commit runs `lint-staged` (prettier + oxlint) and regenerates exports
-- Always commit and push before returning control to the user. You can ask the user to clarify things of course, but should never prompt the user along the lines of "would you like me to commit and push this?"
-- Always bias towards automatic PR creation (open, not draft) if you are not on the default branch. This is common in worktrees and/or when you are running through the Conductor application.
+- Never use `--no-verify` on commits; pre-commit hooks (prettier + oxlint + export regen) are mandatory
+- Always commit and push before returning control; never ask the user if they want you to
+- Auto-create an open PR (not draft) when not on the default branch
 
 ## Validation
 
-Always run these checks before handing control back to the user:
+Always run before returning control:
 
 ```sh
-npm run lint:oxlint
-npm run lint:typecheck
+mise exec -- pnpm run lint:oxlint
+mise exec -- pnpm run lint:typecheck
 ```

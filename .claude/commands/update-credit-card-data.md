@@ -4,85 +4,69 @@ disable-model-invocation: true
 
 # Update Credit Card Data
 
-You are auditing and updating the credit card sign-up bonus offers stored in `src/data/cards/`. Your job is to check each card's current `offers` array against real-world data and update any that are stale or incorrect.
+Audit and update sign-up bonus offers in `src/data/cards/`. Compare each card's `offers` array against current real-world data and update anything stale.
 
-> **Branch naming**: When creating a branch for this work, include the full date in `YYYYMMDD` form (e.g. `update-20260418`). This command runs multiple times per month, so the day is important for disambiguation.
+> **Branch naming**: Include the full date in `YYYYMMDD` form (e.g. `update-20260418`). This runs multiple times per month.
+
+## Core Rule: Guaranteed Offers Only
+
+**Only record offers that every eligible applicant is guaranteed to receive.** Reject any offer framed as "as high as", "up to", "you may be eligible for", or any other variable/personalized language — these depend on issuer eligibility checks and are not guaranteed. The offers on this site are a hard minimum: users should be confident they can get exactly what's shown.
 
 ## Data Structure
 
-Each card in the TypeScript files has this structure (relevant fields):
+Each card has `offers` (current public offers) and `historicalOffers` (past offers). Each offer: `amount[]`, `spend`, `days`, `credits[]`, optional `details`/`url`/`referralUrl`/`expiration`.
 
-- `name` / `issuer`: identifies the card
-- `offers`: array of current public offers. Each offer has `amount` (array of `{amount, currency?}`), `spend`, `days`, `credits`, and optional `details`, `url`, `referralUrl`, `expiration`
-- `historicalOffers`: past offers for reference
+Update rules:
 
-When updating a card's offer:
+1. If current offer matches — leave it alone
+2. If offer changed — move old offer(s) to `historicalOffers` (add `expiration` = today or known end date), replace `offers` with new
+3. Preserve `referralUrl`/`url` and `credits` unless you have specific info they changed
+4. Don't modify card-level fields without high confidence
+5. If you can't verify a card — leave it unchanged, note it in summary
+6. **Keep both elevated + normal offers**: When a card has a temporary elevated offer (with `expiration`) alongside a normal ongoing offer, list both — elevated first, normal second (no expiration). This lets the site auto-filter the elevated offer when it expires without a code change.
 
-1. If the current offer in the file matches what you find, leave it alone
-2. If the offer has changed, move the old offer(s) to `historicalOffers` (add an `expiration` field with today's date or the known expiration) and replace `offers` with the new one(s)
-3. Preserve any `referralUrl` or `url` fields on offers if they still apply
-4. Preserve any `credits` within offers unless you have specific info that they changed
-5. Do NOT modify any card-level fields (annualFee, credits, etc.) unless you have very high confidence they changed
-6. If you cannot verify a card's current offer from any source, leave it unchanged and note it in your summary
-7. **Keep the "normal" offer alongside elevated offers**: When a card has a temporary elevated offer (often with an `expiration` date) that is higher than its usual "normal" offer, list **both** in the `offers` array — the elevated offer first, then the normal offer without an expiration. This way, when the elevated offer expires, the downstream site can automatically filter it out and still serve the normal offer without requiring a code change. For example, if Delta Gold normally offers 50k but has a limited-time 90k offer expiring April 1, the `offers` array should contain both the 90k (with expiration) and the 50k (without).
+## Sources (priority order)
 
-## Sources (in priority order)
+1. **DoC Spreadsheet** — `https://docs.google.com/spreadsheets/d/1UEWoLQ3JqVIwHPRuXYuGw13pI5bzQ1C6f37q6RU1idE/export?format=csv`
+2. **DoC Best Bonuses** — `https://www.doctorofcredit.com/best-current-credit-card-sign-bonuses/`
+3. **DoC Cash Bonuses** — `https://www.doctorofcredit.com/best-cash-credit-card-sign-up-bonuses/`
+4. **USCreditCardGuide** — `https://www.uscreditcardguide.com/en/`
+5. **DoC Credit Cards category** — `https://www.doctorofcredit.com/category/credit-cards/`
+6. **WebSearch** — `"[card name] [issuer] sign up bonus 2026"` (fallback for gaps)
+7. **Exa MCP** — last resort only (rate limits)
 
-### Primary Sources - Check these first for ALL cards
+**Never visit issuer websites directly** (chase.com, americanexpress.com, etc.) — scraping prevention will block the IP.
 
-1. **Doctor of Credit Spreadsheet**: Fetch `https://docs.google.com/spreadsheets/d/1UEWoLQ3JqVIwHPRuXYuGw13pI5bzQ1C6f37q6RU1idE/export?format=csv` — this is a comprehensive spreadsheet of current sign-up bonuses. Parse the CSV to extract current offers.
+## Additional Guidelines
 
-2. **Doctor of Credit Best Bonuses Page**: Fetch `https://www.doctorofcredit.com/best-current-credit-card-sign-bonuses/` — an evergreen index page with current bonus amounts.
-
-3. **Doctor of Credit Cash Bonuses Page**: Fetch `https://www.doctorofcredit.com/best-cash-credit-card-sign-up-bonuses/` — specifically for cash-back card bonuses.
-
-4. **USCreditCardGuide**: Fetch `https://www.uscreditcardguide.com/en/` — blog with posts for new/updated offers.
-
-5. **Doctor of Credit Credit Cards Category**: Fetch `https://www.doctorofcredit.com/category/credit-cards/` — blog posts about individual card offer changes.
-
-### Fallback Sources - Use only for cards not found or not recently updated in primary sources
-
-6. **WebSearch tool**: Search for `"[card name] [issuer] sign up bonus 2026"` or similar queries.
-
-7. **Exa MCP** (`mcp__exa__web_search_exa`): Use as a last resort due to rate limits. Good for finding recent blog posts about specific card offers.
-
-## Important Guidelines
-
-- **Do NOT visit issuer websites directly** (chase.com, americanexpress.com, etc.). They have scraping prevention that will block the user's IP.
-- **Ignore non-public offers**: Skip targeted offers, incognito-only offers, or offers that aren't consistently available to the general public.
-- **Multiple offers are OK**: Some cards legitimately have multiple concurrent public offers (e.g., a direct offer and a higher referral offer). Keep both if they're distinct.
-- **Currency matters**: Pay attention to whether amounts are in points/miles or USD. The `currency` field on the amount object controls this — if omitted, it defaults to the card's `currency` field.
-- **Be conservative**: If you're unsure whether an offer changed, leave it. False positives (incorrect updates) are worse than missing an update.
-- **Tag expiration dates when available**: If a source mentions when an offer expires, add an `expiration` field (format `"YYYY-MM-DD"`) to the offer. This is not mandatory — many offers don't have a known end date — but include it whenever the information is available.
+- Skip targeted, incognito-only, or non-public offers
+- Multiple concurrent public offers are OK — keep both if distinct
+- Watch `currency` on amounts — omitting it defaults to the card's `currency` field
+- Add `expiration: "YYYY-MM-DD"` when a source mentions an end date
 
 ## Process
 
-1. Start by fetching the Doctor of Credit spreadsheet (CSV export) and parsing it. This gives you the broadest coverage in one request.
-2. Fetch the Doctor of Credit best bonuses pages to cross-reference and fill gaps.
-3. Fetch USCreditCardGuide for any recent changes.
-4. Read through ALL card files in `src/data/cards/` and compare each card's offers against what you found.
-5. For any cards where you couldn't find data from the above sources, use WebSearch as a fallback.
-6. Use Exa only as a last resort for remaining gaps.
-7. Make all necessary edits to the card files.
-8. Run `pnpm run test` — the test suite validates things like expired offers (based on `expiration` dates) and other data integrity checks. Use any failures as an additional signal for what needs updating.
-9. After all updates, print a summary table showing:
-   - Cards updated (old offer -> new offer)
-   - Cards verified as current (no change needed)
-   - Cards where you couldn't verify the offer (left unchanged)
+1. Fetch DoC spreadsheet (CSV) and parse — broadest coverage in one request
+2. Fetch DoC best bonuses pages to cross-reference
+3. Fetch USCreditCardGuide for recent changes
+4. Read all card files in `src/data/cards/` and compare against findings
+5. Use WebSearch for any cards not found in primary sources
+6. Use Exa only for remaining gaps
+7. Edit card files
+8. Run `pnpm run test` — failures may signal additional needed updates
+9. Print summary (see Output Format)
 
 ## Output Format
-
-After completing all updates, provide a summary like:
 
 ```
 ## Credit Card Data Update Summary
 
 ### Updated
-- [Issuer] [Card Name]: [old amount] -> [new amount] ([source])
+- [Issuer] [Card]: [old] → [new] ([source])
 
 ### Verified Current
-- [Issuer] [Card Name]: [amount] confirmed via [source]
+- [Issuer] [Card]: [amount] confirmed via [source]
 
-### Unable to Verify
-- [Issuer] [Card Name]: left unchanged, could not find recent data
+### Unable to Verify / Left Unchanged
+- [Issuer] [Card]: [reason]
 ```

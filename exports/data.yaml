@@ -3709,15 +3709,16 @@
       credits: []
   discontinued: false
 - cardId: c8d364bb32a8d2f6a359cf57a5e58cde
-  name: Spark 1.5% Miles Select
+  name: VentureOne Business
   issuer: CAPITAL_ONE
   network: VISA
   currency: CAPITAL_ONE
+  details: Formerly Spark 1.5% Miles Select. Rebranded April 2026.
   isBusiness: true
   annualFee: 0
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://www.capitalone.com/small-business/credit-cards/spark-miles-select/
+  url: https://www.capitalone.com/small-business/credit-cards/ventureone-business/
   imageUrl: /images/capitalone/spark-miles.webp
   credits: []
   offers:
@@ -3760,21 +3761,37 @@
       url: https://www.capitalone.com/small-business/credit-cards/spark-cash-plus/
   discontinued: false
 - cardId: e48261ce7908f2ed8403245217f44de7
-  name: Spark 2x Miles
+  name: Venture Business
   issuer: CAPITAL_ONE
   network: VISA
   currency: CAPITAL_ONE
+  details: Formerly Spark 2x Miles. Rebranded April 2026.
   isBusiness: true
-  annualFee: 99
+  annualFee: 95
   isAnnualFeeWaived: false
   universalCashbackPercent: 1
-  url: https://www.capitalone.com/small-business/credit-cards/spark-miles/
+  url: https://www.capitalone.com/small-business/credit-cards/venture-business/
   imageUrl: /images/capitalone/spark-miles.webp
-  credits: []
+  credits:
+    - description: PreCheck Credit
+      value: 100
+      weight: 0.4
+    - description: Capital One Business Travel Credit
+      value: 50
+      weight: 0.9
+    - description: Advertising/Software Credit
+      value: 50
+      weight: 0.3
   offers:
-    - spend: 4500
+    - spend: 30000
       amount:
-        - amount: 50000
+        - amount: 150000
+      days: 180
+      credits: []
+      details: 75k after $7,500 in 3 months, +75k after $30k in 6 months.
+    - spend: 7500
+      amount:
+        - amount: 75000
       days: 90
       credits: []
   historicalOffers:
@@ -3782,6 +3799,7 @@
       amount:
         - amount: 50000
       days: 90
+      expiration: 2026-04-14
       credits: []
   discontinued: false
 - cardId: 4a7a8036e514f187ca7c41b31925251e
@@ -4249,12 +4267,18 @@
   imageUrl: /images/citi/att-points-plus.jpg
   credits: []
   offers:
+    - spend: 500
+      amount:
+        - amount: 250
+      days: 90
+      credits: []
+  historicalOffers:
     - spend: 1000
       amount:
         - amount: 200
       days: 90
+      expiration: 2026-04-20
       credits: []
-  historicalOffers:
     - spend: 1000
       amount:
         - amount: 100
