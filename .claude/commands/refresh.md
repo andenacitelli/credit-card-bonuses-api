@@ -3,28 +3,12 @@ allowed-tools: Bash, Read, Edit, Write, Glob, Grep
 disable-model-invocation: true
 ---
 
-Merge the remote `master` branch into the current branch, resolve any conflicts, validate, and push.
+Merge remote `master` into the current branch, validate, and push.
 
-## Steps
-
-1. Run `git fetch origin master` to get the latest remote master.
-
-2. Run `git merge origin/master` to merge master into the current branch.
-
-3. If the merge succeeds with no conflicts, skip to step 5.
-
-4. If there are merge conflicts:
-
-   - Read each conflicted file and resolve conflicts, preferring the current branch's intent. The current branch's changes represent the work we want to keep — use master's changes only where they don't contradict the current branch's goals.
-   - Stage each resolved file with `git add`.
-   - Complete the merge with `git commit --no-edit`.
-
-5. Run validation from the repository root:
-
-   - `pnpm run lint:oxlint` (oxlint)
-   - `pnpm run lint:typecheck` (TypeScript)
-     If there are errors, fix them and commit the fixes as a separate commit.
-
-6. Push the result to the remote with `git push`.
-
-7. If the current branch has an open PR, quickly audit the PR title and description against the actual diff (`git diff master...HEAD`). If the title or description have diverged substantially from the implementation, update them with `gh pr edit`.
+1. `git fetch origin master && git merge origin/master`
+2. If conflicts: resolve favoring current branch intent, `git add` resolved files, `git commit --no-edit`
+3. Fix any validation errors as a separate commit:
+   - `mise exec -- pnpm run lint:oxlint`
+   - `mise exec -- pnpm run lint:typecheck`
+4. `git push`
+5. If the branch has an open PR, audit title/description against `git diff master...HEAD` — update with `gh pr edit` if they've diverged
