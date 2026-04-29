@@ -58,7 +58,13 @@ export const DELTA_CARDS: Array<CreditCardInput> = [
         amount: [{ amount: 50_000 }],
         spend: 2000,
         days: 180,
-        credits: [],
+        credits: [
+          {
+            value: 400,
+            description: "Statement Credit",
+            weight: 1,
+          },
+        ],
       },
     ],
     historicalOffers: [
