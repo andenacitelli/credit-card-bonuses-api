@@ -11,6 +11,10 @@
 - Always commit and push before returning control; never ask the user if they want you to
 - Auto-create an open PR (not draft) when not on the default branch
 
+## Data Rules
+
+- `historicalOffers` must never be empty for cards that have current offers — at minimum, copy the current offer(s) into `historicalOffers`. Cards with no current offers (discontinued, no active bonus) are exempt.
+
 ## Validation
 
 Always run before returning control:
