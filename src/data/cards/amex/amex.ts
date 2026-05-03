@@ -607,11 +607,10 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
     ],
     historicalOffers: [
       {
-        amount: [{ amount: 60_000 }],
-        spend: 2000,
+        amount: [{ amount: 40_000 }],
+        spend: 3000,
         days: 180,
         credits: [],
-        expiration: "2023-05-01",
       },
     ],
   },
