@@ -676,13 +676,7 @@
         - amount: 40000
       days: 180
       credits: []
-  historicalOffers:
-    - spend: 2000
-      amount:
-        - amount: 60000
-      days: 180
-      expiration: 2023-05-01
-      credits: []
+  historicalOffers: []
   discontinued: false
 - cardId: 0710239dc6fbd92077bce7118572e217
   name: Hilton Honors
@@ -3064,10 +3058,16 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 175000
+        - amount: 140000
       days: 90
       credits: []
   historicalOffers:
+    - spend: 3000
+      amount:
+        - amount: 175000
+      days: 90
+      expiration: 2026-03-18
+      credits: []
     - spend: 4000
       amount:
         - amount: 175000
@@ -3131,11 +3131,17 @@
   offers:
     - spend: 2000
       amount:
-        - amount: 90000
+        - amount: 80000
       days: 90
       credits: []
-      details: 40k + 2x FNC (<= 50k per).
   historicalOffers:
+    - spend: 2000
+      amount:
+        - amount: 90000
+      days: 90
+      expiration: 2026-05-03
+      credits: []
+      details: 40k + 2x FNC (<= 50k per).
     - spend: 2000
       amount:
         - amount: 120000
@@ -3206,13 +3212,20 @@
       value: 120
       weight: 0.4
   offers:
-    - spend: 5000
+    - spend: 6000
       amount:
-        - amount: 125000
+        - amount: 150000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/19v/F0DZZK1XD0
   historicalOffers:
+    - spend: 5000
+      amount:
+        - amount: 125000
+      days: 90
+      expiration: 2026-05-03
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/19v/F0DZZK1XD0
     - spend: 5000
       amount:
         - amount: 100000
@@ -3572,18 +3585,18 @@
   imageUrl: /images/chase/world-of-hyatt.png
   credits: []
   offers:
-    - spend: 10000
-      amount:
-        - amount: 80000
-      days: 90
-      expiration: 2026-04-30
-      credits: []
     - spend: 5000
       amount:
         - amount: 60000
       days: 90
       credits: []
   historicalOffers:
+    - spend: 10000
+      amount:
+        - amount: 80000
+      days: 90
+      expiration: 2026-04-30
+      credits: []
     - spend: 5000
       amount:
         - amount: 60000
