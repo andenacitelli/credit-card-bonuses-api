@@ -605,7 +605,14 @@ export const AMERICAN_EXPRESS_CARDS: Array<CreditCardInput> = [
         credits: [],
       },
     ],
-    historicalOffers: [],
+    historicalOffers: [
+      {
+        amount: [{ amount: 40_000 }],
+        spend: 3000,
+        days: 180,
+        credits: [],
+      },
+    ],
   },
   {
     cardId: "0710239dc6fbd92077bce7118572e217",
