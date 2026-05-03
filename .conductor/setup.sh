@@ -7,12 +7,12 @@ echo "Setting up credit-card-bonuses-api..."
 
 mise install pnpm
 
-pnpm install &
+mise exec -- pnpm install &
 mise install &
 
 wait
 
-pnpm run generate
+mise exec -- pnpm run generate
 
 END_TIME=$(perl -MTime::HiRes=time -e 'printf "%.2f", time')
 ELAPSED=$(perl -e "printf '%.2f', $END_TIME - $START_TIME")
