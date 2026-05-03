@@ -4,13 +4,14 @@ const getRandom = (array: string[]): string => {
 
 export const REFERRALS = {
   CHASE: {
-    SAPPHIRE: getRandom(["https://www.referyourchasecard.com/19v/F0DZZK1XD0"]),
+    SAPPHIRE: getRandom(["https://www.referyourchasecard.com/19w/F0DZZK1XD0"]),
     INKS: getRandom([
       "https://www.referyourchasecard.com/21e/CJ3VTYDKCY",
       "https://www.referyourchasecard.com/21e/ZL2X5T28QV",
       "https://www.referyourchasecard.com/21e/5NV9F12UAS",
+      "https://www.referyourchasecard.com/21e/EOXF04KPYS",
     ]),
-    FREEDOM: getRandom(["https://www.referyourchasecard.com/18m/Y02RUGKSU9"]),
+    FREEDOM: getRandom(["https://www.referyourchasecard.com/18a/A85BX0FG21"]),
     UNITED: getRandom(["https://www.referyourchasecard.com/215r/OPTN75PXFL"]),
     SOUTHWEST: getRandom([
       "https://www.referyourchasecard.com/226m/1EI0FYIHYB",
