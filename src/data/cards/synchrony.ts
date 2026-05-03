@@ -79,7 +79,7 @@ export const SYNCHRONY_CARDS: Array<CreditCardInput> = [
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
     url: "https://www.verizon.com/financial-services/verizon-visa-card/",
-    imageUrl: "/images/synchrony/verizon-visa.webp",
+    imageUrl: "/images/synchrony/verizon-visa.png",
     credits: [],
     offers: [
       {
@@ -127,7 +127,7 @@ export const SYNCHRONY_CARDS: Array<CreditCardInput> = [
     isAnnualFeeWaived: false,
     universalCashbackPercent: 1,
     url: "https://www.walmart.com/cp/onepay-cashrewards-mastercard/9569366376",
-    imageUrl: "/images/synchrony/walmart-onepay-cashrewards.webp",
+    imageUrl: "/images/synchrony/walmart-onepay-cashrewards.png",
     credits: [],
     offers: [
       {
