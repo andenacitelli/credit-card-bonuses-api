@@ -94,7 +94,7 @@ Copy the current offer verbatim into `historicalOffers` as the baseline history.
 Run this to get a unique ID:
 
 ```sh
-uuidgen | tr '[:upper:]' '[:lower:]' | tr -d '-'
+openssl rand -hex 16
 ```
 
 ## Step 7: Find or create the right file
