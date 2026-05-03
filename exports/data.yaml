@@ -677,11 +677,10 @@
       days: 180
       credits: []
   historicalOffers:
-    - spend: 2000
+    - spend: 3000
       amount:
-        - amount: 60000
+        - amount: 40000
       days: 180
-      expiration: 2023-05-01
       credits: []
   discontinued: false
 - cardId: 0710239dc6fbd92077bce7118572e217
@@ -2953,7 +2952,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   historicalOffers:
     - spend: 6000
       amount:
@@ -2979,13 +2978,13 @@
         - amount: 100000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
     - spend: 8000
       amount:
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   historicalOffers:
     - spend: 8000
       amount:
@@ -3011,7 +3010,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   historicalOffers:
     - spend: 6000
       amount:
@@ -3040,7 +3039,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   historicalOffers:
     - spend: 10000
       amount:
@@ -3064,10 +3063,16 @@
   offers:
     - spend: 3000
       amount:
-        - amount: 175000
+        - amount: 140000
       days: 90
       credits: []
   historicalOffers:
+    - spend: 3000
+      amount:
+        - amount: 175000
+      days: 90
+      expiration: 2026-03-18
+      credits: []
     - spend: 4000
       amount:
         - amount: 175000
@@ -3131,11 +3136,17 @@
   offers:
     - spend: 2000
       amount:
-        - amount: 90000
+        - amount: 80000
       days: 90
       credits: []
-      details: 40k + 2x FNC (<= 50k per).
   historicalOffers:
+    - spend: 2000
+      amount:
+        - amount: 90000
+      days: 90
+      expiration: 2026-05-03
+      credits: []
+      details: 40k + 2x FNC (<= 50k per).
     - spend: 2000
       amount:
         - amount: 120000
@@ -3206,13 +3217,20 @@
       value: 120
       weight: 0.4
   offers:
-    - spend: 5000
+    - spend: 6000
       amount:
-        - amount: 125000
+        - amount: 150000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/19v/F0DZZK1XD0
   historicalOffers:
+    - spend: 5000
+      amount:
+        - amount: 125000
+      days: 90
+      expiration: 2026-05-03
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/19v/F0DZZK1XD0
     - spend: 5000
       amount:
         - amount: 100000
@@ -3274,7 +3292,7 @@
         - amount: 150000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   historicalOffers:
     - spend: 30000
       amount:
@@ -3282,13 +3300,13 @@
       days: 180
       expiration: 2026-03-21
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
@@ -3572,18 +3590,18 @@
   imageUrl: /images/chase/world-of-hyatt.png
   credits: []
   offers:
-    - spend: 10000
-      amount:
-        - amount: 80000
-      days: 90
-      expiration: 2026-04-30
-      credits: []
     - spend: 5000
       amount:
         - amount: 60000
       days: 90
       credits: []
   historicalOffers:
+    - spend: 10000
+      amount:
+        - amount: 80000
+      days: 90
+      expiration: 2026-04-30
+      credits: []
     - spend: 5000
       amount:
         - amount: 60000

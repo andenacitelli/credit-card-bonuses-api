@@ -18,13 +18,20 @@ export const IHG_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
-        amount: [{ amount: 175_000 }],
+        amount: [{ amount: 140_000 }],
         spend: 3000,
         days: 90,
         credits: [],
       },
     ],
     historicalOffers: [
+      {
+        amount: [{ amount: 175_000 }],
+        spend: 3000,
+        days: 90,
+        credits: [],
+        expiration: "2026-03-18",
+      },
       {
         amount: [{ amount: 175_000 }],
         spend: 4000,
@@ -100,14 +107,21 @@ export const IHG_CARDS: Array<CreditCardInput> = [
     credits: [],
     offers: [
       {
+        amount: [{ amount: 80_000 }],
+        spend: 2000,
+        days: 90,
+        credits: [],
+      },
+    ],
+    historicalOffers: [
+      {
         amount: [{ amount: 90_000 }],
         spend: 2000,
         days: 90,
         credits: [],
         details: "40k + 2x FNC (<= 50k per).",
+        expiration: "2026-05-03",
       },
-    ],
-    historicalOffers: [
       {
         amount: [{ amount: 120_000 }],
         spend: 2000,
