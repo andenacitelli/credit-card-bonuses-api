@@ -191,6 +191,36 @@ export const WELLS_FARGO_CARDS: Array<CreditCardInput> = [
     ],
   },
   {
+    cardId: "8b60912df8dd8406cbbf96469c4cfaec",
+    name: "Attune",
+    issuer: schemas.IssuersEnum.enum.WELLS_FARGO,
+    network: schemas.NetworksEnum.enum.MASTERCARD,
+    currency: schemas.CurrenciesEnum.enum.USD,
+    isBusiness: false,
+    annualFee: 0,
+    isAnnualFeeWaived: false,
+    universalCashbackPercent: 1,
+    url: "https://creditcards.wellsfargo.com/attune-world-elite-mastercard-credit-card",
+    imageUrl: "/images/wellsfargo/attune.webp",
+    credits: [],
+    offers: [
+      {
+        amount: [{ amount: 100, currency: schemas.CurrenciesEnum.enum.USD }],
+        spend: 500,
+        days: 90,
+        credits: [],
+      },
+    ],
+    historicalOffers: [
+      {
+        amount: [{ amount: 100, currency: schemas.CurrenciesEnum.enum.USD }],
+        spend: 500,
+        days: 90,
+        credits: [],
+      },
+    ],
+  },
+  {
     cardId: "c077a47639c7b47d1895200c72588ee3",
     name: "Bilt",
     issuer: schemas.IssuersEnum.enum.WELLS_FARGO,

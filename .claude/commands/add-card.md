@@ -46,7 +46,7 @@ From research, populate:
 - **`isAnnualFeeWaived`**: `true` if first year fee is waived
 - **`universalCashbackPercent`**: Base earn rate on all purchases (e.g., `1` = 1x, `1.5` = 1.5%, `2` = 2x)
 - **`url`**: Official card page — prefer non-issuer-domain pages (e.g., `creditcards.chase.com`) over issuer root domains
-- **`imageUrl`**: `/images/[issuer-kebab]/[card-slug].[ext]` — this is a placeholder; the file doesn't need to exist
+- **`imageUrl`**: `/images/[issuer-kebab]/[card-slug].png` — this is a placeholder; the file doesn't need to exist. Default to `.png`; only use a different extension if the actual image is known to be a different format.
 - **`countsTowards524`**: Only include for Chase cards; set `true` if it counts toward the 5/24 rule, `false` if not (business cards generally don't)
 
 ## Step 4: Map annual credits

@@ -2952,7 +2952,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
+      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
   historicalOffers:
     - spend: 6000
       amount:
@@ -2978,13 +2978,13 @@
         - amount: 100000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
+      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
     - spend: 8000
       amount:
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
+      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
   historicalOffers:
     - spend: 8000
       amount:
@@ -3010,7 +3010,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
+      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
   historicalOffers:
     - spend: 6000
       amount:
@@ -3039,7 +3039,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
+      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
   historicalOffers:
     - spend: 10000
       amount:
@@ -3292,7 +3292,7 @@
         - amount: 150000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
+      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
   historicalOffers:
     - spend: 30000
       amount:
@@ -3300,13 +3300,13 @@
       days: 180
       expiration: 2026-03-21
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
+      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
+      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
@@ -4834,6 +4834,76 @@
       days: 90
       credits: []
   discontinued: false
+- cardId: d2dd7fe800c9788452ec41c3fc3a06fa
+  name: Verizon Visa
+  issuer: SYNCHRONY
+  network: VISA
+  currency: USD
+  isBusiness: false
+  annualFee: 0
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://www.verizon.com/financial-services/verizon-visa-card/
+  imageUrl: /images/synchrony/verizon-visa.png
+  credits: []
+  offers:
+    - spend: 0.01
+      amount:
+        - amount: 50
+          currency: USD
+      days: 90
+      credits: []
+      details: $50 statement credit after any purchase within 90 days.
+    - spend: 1500
+      amount:
+        - amount: 100
+          currency: USD
+      days: 90
+      credits: []
+      details: Additional $100 statement credit after spending $1,500 within 90 days.
+  historicalOffers:
+    - spend: 0.01
+      amount:
+        - amount: 50
+          currency: USD
+      days: 90
+      credits: []
+      details: $50 statement credit after any purchase within 90 days.
+    - spend: 1500
+      amount:
+        - amount: 100
+          currency: USD
+      days: 90
+      credits: []
+      details: Additional $100 statement credit after spending $1,500 within 90 days.
+  discontinued: false
+- cardId: 145320d72bf260a11a537333d4425820
+  name: Walmart OnePay CashRewards
+  issuer: SYNCHRONY
+  network: MASTERCARD
+  currency: USD
+  isBusiness: false
+  annualFee: 0
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://www.walmart.com/cp/onepay-cashrewards-mastercard/9569366376
+  imageUrl: /images/synchrony/walmart-onepay-cashrewards.png
+  credits: []
+  offers:
+    - spend: 75
+      amount:
+        - amount: 35
+          currency: USD
+      days: 30
+      credits: []
+  historicalOffers:
+    - spend: 75
+      amount:
+        - amount: 35
+          currency: USD
+      days: 30
+      credits: []
+  discontinued: false
 - cardId: 25e394e76617c0a660b48d7c5c4449ea
   name: Amazon Prime Store Card
   issuer: SYNCHRONY
@@ -5400,6 +5470,33 @@
     - spend: 3000
       amount:
         - amount: 100000
+      days: 90
+      credits: []
+  discontinued: false
+- cardId: 8b60912df8dd8406cbbf96469c4cfaec
+  name: Attune
+  issuer: WELLS_FARGO
+  network: MASTERCARD
+  currency: USD
+  isBusiness: false
+  annualFee: 0
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://creditcards.wellsfargo.com/attune-world-elite-mastercard-credit-card
+  imageUrl: /images/wellsfargo/attune.webp
+  credits: []
+  offers:
+    - spend: 500
+      amount:
+        - amount: 100
+          currency: USD
+      days: 90
+      credits: []
+  historicalOffers:
+    - spend: 500
+      amount:
+        - amount: 100
+          currency: USD
       days: 90
       credits: []
   discontinued: false
