@@ -1,4 +1,0 @@
-[tools]
-node         = "22.15.0"
-"npm:oxlint" = "1.2.0"
-pnpm         = "10.12.1"

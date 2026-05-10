@@ -1,4 +1,0 @@
-eval "$(~/.local/bin/mise activate zsh --shims)"
-npx lint-staged
-npm run generate:exports
-git add exports/

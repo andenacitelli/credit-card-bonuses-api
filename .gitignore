@@ -1,13 +1,1 @@
-# Generated / Transient
-/src/generated/api.client.ts
-*.tsbuildinfo
-
-# Node
 node_modules/
-
-# Editor
-.vscode/
-.idea/
-
-# temporary / transient scripts that don't need committed
-/local
