@@ -2080,14 +2080,16 @@
   offers:
     - spend: 5000
       amount:
-        - amount: 80000
+        - amount: 100000
       days: 90
       credits: []
+      details: Requires paying AF.
   historicalOffers:
     - spend: 5000
       amount:
         - amount: 80000
       days: 90
+      expiration: 2026-05-16
       credits: []
   discontinued: false
 - cardId: fdd9a5b1485ab0f88d0abd28c32e3b89
@@ -2952,7 +2954,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   historicalOffers:
     - spend: 6000
       amount:
@@ -2978,13 +2980,13 @@
         - amount: 100000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
     - spend: 8000
       amount:
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   historicalOffers:
     - spend: 8000
       amount:
@@ -3010,7 +3012,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   historicalOffers:
     - spend: 6000
       amount:
@@ -3039,7 +3041,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   historicalOffers:
     - spend: 10000
       amount:
@@ -3292,7 +3294,7 @@
         - amount: 150000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   historicalOffers:
     - spend: 30000
       amount:
@@ -3300,13 +3302,13 @@
       days: 180
       expiration: 2026-03-21
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/ZL2X5T28QV
+      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
@@ -4820,13 +4822,23 @@
       amount:
         - amount: 60000
       days: 90
-      credits: []
+      credits:
+        - description: $200 statement credit
+          value: 200
+          weight: 1
+          currency: USD
   historicalOffers:
     - spend: 4000
       amount:
         - amount: 75000
       days: 90
       expiration: 2026-04-16
+      credits: []
+    - spend: 4000
+      amount:
+        - amount: 60000
+      days: 90
+      expiration: 2026-05-16
       credits: []
     - spend: 3000
       amount:
@@ -5138,12 +5150,18 @@
   imageUrl: /images/usbank/business-triple-cash-rewards.webp
   credits: []
   offers:
+    - spend: 6000
+      amount:
+        - amount: 750
+      days: 180
+      credits: []
+  historicalOffers:
     - spend: 4500
       amount:
         - amount: 750
       days: 150
+      expiration: 2026-02-01
       credits: []
-  historicalOffers:
     - spend: 6000
       amount:
         - amount: 750
