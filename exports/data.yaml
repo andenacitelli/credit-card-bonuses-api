@@ -4916,6 +4916,43 @@
       days: 30
       credits: []
   discontinued: false
+- cardId: 1d021c8f2f5b39e58afe2a25016ae3d7
+  name: Venmo Visa
+  issuer: SYNCHRONY
+  network: VISA
+  currency: USD
+  isBusiness: false
+  annualFee: 0
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://venmo.com/credit-card/
+  imageUrl: /images/synchrony/venmo-visa.png
+  credits: []
+  offers: []
+  historicalOffers:
+    - spend: 0.01
+      amount:
+        - amount: 100
+          currency: USD
+      days: 90
+      credits: []
+      details: Statement credit after first purchase.
+  discontinued: false
+- cardId: 4ee7d3e62f5a13d2330b7ef0ce89b1f4
+  name: PayPal Cashback
+  issuer: SYNCHRONY
+  network: MASTERCARD
+  currency: USD
+  isBusiness: false
+  annualFee: 0
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1.5
+  url: https://www.paypal.com/us/webapps/mpp/cashback-mastercard
+  imageUrl: /images/synchrony/paypal-cashback.jpg
+  credits: []
+  offers: []
+  historicalOffers: []
+  discontinued: false
 - cardId: 25e394e76617c0a660b48d7c5c4449ea
   name: Amazon Prime Store Card
   issuer: SYNCHRONY
@@ -4939,6 +4976,60 @@
     - spend: 0.01
       amount:
         - amount: 60
+          currency: USD
+      days: 90
+      credits: []
+  discontinued: false
+- cardId: 0820b7c9725a7adf52e4721b6f57affa
+  name: Cash
+  issuer: TD
+  network: VISA
+  currency: USD
+  isBusiness: false
+  annualFee: 0
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 1
+  url: https://www.td.com/us/en/personal-banking/credit-cards/cash-credit-card
+  imageUrl: /images/td/cash.png
+  credits: []
+  offers:
+    - spend: 1000
+      amount:
+        - amount: 200
+          currency: USD
+      days: 90
+      credits: []
+  historicalOffers:
+    - spend: 1000
+      amount:
+        - amount: 200
+          currency: USD
+      days: 90
+      credits: []
+  discontinued: false
+- cardId: 52c02922a11a375b12a91d06683b9dd1
+  name: Double Up
+  issuer: TD
+  network: MASTERCARD
+  currency: USD
+  isBusiness: false
+  annualFee: 0
+  isAnnualFeeWaived: false
+  universalCashbackPercent: 2
+  url: https://www.td.com/us/en/personal-banking/credit-cards/double-up-credit-card
+  imageUrl: /images/td/double-up.png
+  credits: []
+  offers:
+    - spend: 1500
+      amount:
+        - amount: 200
+          currency: USD
+      days: 90
+      credits: []
+  historicalOffers:
+    - spend: 1500
+      amount:
+        - amount: 200
           currency: USD
       days: 90
       credits: []

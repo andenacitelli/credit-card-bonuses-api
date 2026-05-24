@@ -282,6 +282,7 @@ components:
         - PENFED
         - PNC
         - SYNCHRONY
+        - TD
         - US_BANK
         - WEB_BANK
         - WELLS_FARGO
