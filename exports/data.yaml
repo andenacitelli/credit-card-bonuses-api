@@ -698,6 +698,16 @@
   offers:
     - spend: 2000
       amount:
+        - amount: 100000
+      days: 180
+      expiration: 2026-07-29
+      credits:
+        - description: $100 statement credit
+          value: 100
+          weight: 1
+          currency: USD
+    - spend: 2000
+      amount:
         - amount: 80000
       days: 180
       credits: []
@@ -735,6 +745,12 @@
       value: 250
       weight: 0.8
   offers:
+    - spend: 6000
+      amount:
+        - amount: 175000
+      days: 180
+      expiration: 2026-07-29
+      credits: []
     - spend: 6000
       amount:
         - amount: 150000
@@ -775,6 +791,15 @@
       amount:
         - amount: 130000
       days: 180
+      expiration: 2026-07-29
+      credits:
+        - description: First year annual fee waived
+          value: 175
+          weight: 1
+    - spend: 6000
+      amount:
+        - amount: 130000
+      days: 180
       credits: []
   historicalOffers:
     - spend: 8000
@@ -803,6 +828,15 @@
   imageUrl: /images/amex/hilton-honors-surpass.jpg
   credits: []
   offers:
+    - spend: 3000
+      amount:
+        - amount: 130000
+      days: 180
+      expiration: 2026-07-29
+      credits:
+        - description: First year annual fee waived
+          value: 95
+          weight: 1
     - spend: 3000
       amount:
         - amount: 130000
@@ -842,18 +876,25 @@
       value: 300
       weight: 0.8
   offers:
+    - spend: 8000
+      amount:
+        - amount: 150000
+      days: 180
+      credits: []
+      details: 100k @ $6k + extra 50k @ $8k, both within 180 days.
+    - spend: 6000
+      amount:
+        - amount: 100000
+      days: 180
+      credits: []
+      details: 100k @ $6k + extra 50k @ $8k, both within 180 days.
+  historicalOffers:
     - spend: 6000
       amount:
         - amount: 200000
       days: 180
       expiration: 2026-05-13
       credits: []
-    - spend: 6000
-      amount:
-        - amount: 100000
-      days: 180
-      credits: []
-  historicalOffers:
     - spend: 6000
       amount:
         - amount: 100000
@@ -1148,18 +1189,18 @@
   imageUrl: /images/amex/marriott-bonvoy-bevy.png
   credits: []
   offers:
-    - spend: 5000
-      amount:
-        - amount: 175000
-      days: 180
-      expiration: 2026-05-13
-      credits: []
     - spend: 7000
       amount:
         - amount: 85000
       days: 180
       credits: []
   historicalOffers:
+    - spend: 5000
+      amount:
+        - amount: 175000
+      days: 180
+      expiration: 2026-05-13
+      credits: []
     - spend: 7000
       amount:
         - amount: 85000
@@ -2506,6 +2547,13 @@
       weight: 1
       currency: SOUTHWEST
   offers:
+    - spend: 1000
+      amount:
+        - amount: 80000
+      days: 90
+      expiration: 2026-07-01
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/226m/1EI0FYIHYB
     - spend: 4000
       amount:
         - amount: 20000
@@ -2540,6 +2588,13 @@
       weight: 1
       currency: SOUTHWEST
   offers:
+    - spend: 2000
+      amount:
+        - amount: 85000
+      days: 90
+      expiration: 2026-07-01
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/226m/1EI0FYIHYB
     - spend: 4000
       amount:
         - amount: 30000
@@ -2612,6 +2667,13 @@
       weight: 1
       currency: SOUTHWEST
   offers:
+    - spend: 3000
+      amount:
+        - amount: 90000
+      days: 90
+      expiration: 2026-07-01
+      credits: []
+      referralUrl: https://www.referyourchasecard.com/226m/1EI0FYIHYB
     - spend: 3000
       amount:
         - amount: 40000
@@ -2710,18 +2772,17 @@
   offers:
     - spend: 5000
       amount:
-        - amount: 110000
-      days: 90
-      expiration: 2026-05-20
-      credits: []
-      referralUrl: https://www.referyourchasecard.com/215r/OPTN75PXFL
-    - spend: 5000
-      amount:
         - amount: 90000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/215r/OPTN75PXFL
   historicalOffers:
+    - spend: 5000
+      amount:
+        - amount: 110000
+      days: 90
+      expiration: 2026-05-20
+      credits: []
     - spend: 5000
       amount:
         - amount: 90000
@@ -2911,18 +2972,17 @@
   offers:
     - spend: 4000
       amount:
-        - amount: 100000
-      days: 90
-      expiration: 2026-05-20
-      credits: []
-      referralUrl: https://www.referyourchasecard.com/215r/OPTN75PXFL
-    - spend: 4000
-      amount:
         - amount: 80000
       days: 90
       credits: []
       referralUrl: https://www.referyourchasecard.com/215r/OPTN75PXFL
   historicalOffers:
+    - spend: 4000
+      amount:
+        - amount: 100000
+      days: 90
+      expiration: 2026-05-20
+      credits: []
     - spend: 4000
       amount:
         - amount: 80000
@@ -2954,7 +3014,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
+      referralUrl: https://www.referyourchasecard.com/21e/EOXF04KPYS
   historicalOffers:
     - spend: 6000
       amount:
@@ -2980,13 +3040,13 @@
         - amount: 100000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
+      referralUrl: https://www.referyourchasecard.com/21e/EOXF04KPYS
     - spend: 8000
       amount:
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
+      referralUrl: https://www.referyourchasecard.com/21e/EOXF04KPYS
   historicalOffers:
     - spend: 8000
       amount:
@@ -3012,7 +3072,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
+      referralUrl: https://www.referyourchasecard.com/21e/EOXF04KPYS
   historicalOffers:
     - spend: 6000
       amount:
@@ -3041,7 +3101,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
+      referralUrl: https://www.referyourchasecard.com/21e/EOXF04KPYS
   historicalOffers:
     - spend: 10000
       amount:
@@ -3294,7 +3354,7 @@
         - amount: 150000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
+      referralUrl: https://www.referyourchasecard.com/21e/EOXF04KPYS
   historicalOffers:
     - spend: 30000
       amount:
@@ -3302,13 +3362,13 @@
       days: 180
       expiration: 2026-03-21
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
+      referralUrl: https://www.referyourchasecard.com/21e/EOXF04KPYS
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
+      referralUrl: https://www.referyourchasecard.com/21e/EOXF04KPYS
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
