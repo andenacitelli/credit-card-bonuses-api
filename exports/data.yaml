@@ -39,6 +39,13 @@
       value: 50
       weight: 0.5
   offers:
+    - spend: 5000
+      amount:
+        - amount: 90000
+      days: 180
+      expiration: 2026-07-15
+      credits: []
+      details: 70k after $3k + 20k after additional $2k, both within 180 days.
     - spend: 2000
       amount:
         - amount: 50000
@@ -80,6 +87,12 @@
   imageUrl: /images/amex/delta-skymiles-gold-business.webp
   credits: []
   offers:
+    - spend: 6000
+      amount:
+        - amount: 90000
+      days: 180
+      expiration: 2026-07-15
+      credits: []
     - spend: 4000
       amount:
         - amount: 60000
@@ -121,6 +134,13 @@
       value: 500
       weight: 0.7
   offers:
+    - spend: 6000
+      amount:
+        - amount: 100000
+      days: 180
+      expiration: 2026-07-15
+      credits: []
+      details: 80k after $4k + 20k after additional $2k, both within 180 days.
     - spend: 3000
       amount:
         - amount: 60000
@@ -168,6 +188,12 @@
       value: 50
       weight: 0.5
   offers:
+    - spend: 8000
+      amount:
+        - amount: 100000
+      days: 180
+      expiration: 2026-07-15
+      credits: []
     - spend: 6000
       amount:
         - amount: 70000
@@ -209,6 +235,13 @@
       value: 240
       weight: 0.8
   offers:
+    - spend: 9000
+      amount:
+        - amount: 125000
+      days: 180
+      expiration: 2026-07-15
+      credits: []
+      details: 100k after $6k + 25k after additional $3k, both within 180 days.
     - spend: 5000
       amount:
         - amount: 70000
@@ -247,6 +280,12 @@
   imageUrl: /images/amex/delta-skymiles-reserve-business.webp
   credits: []
   offers:
+    - spend: 15000
+      amount:
+        - amount: 125000
+      days: 180
+      expiration: 2026-07-15
+      credits: []
     - spend: 10000
       amount:
         - amount: 80000
@@ -2464,19 +2503,30 @@
   imageUrl: /images/chase/marriott-bonvoy-boundless.jpeg
   credits: []
   offers:
+    - spend: 3000
+      amount:
+        - amount: 125000
+      days: 90
+      credits:
+        - description: 1x FNC, <= 50k
+          value: 50000
+          weight: 0.7
+          currency: MARRIOTT
+        - description: Airline Credit (through 6/30/2027)
+          value: 100
+          weight: 0.9
+      referralUrl: https://www.referyourchasecard.com/252u/ASVAYOAFR1
+  historicalOffers:
     - spend: 4000
       amount:
         - amount: 200000
           currency: MARRIOTT
           weight: 0.7
       days: 120
-      credits:
-        - description: Airline Credit
-          value: 100
-          weight: 0.9
+      expiration: 2026-06-07
+      credits: []
       details: 3 FNC after $3k/90d + 1 FNC after $4k/120d, <= 50k per
       referralUrl: https://www.referyourchasecard.com/252u/ASVAYOAFR1
-  historicalOffers:
     - spend: 3000
       amount:
         - amount: 250000
@@ -2514,7 +2564,7 @@
         - amount: 80000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/226m/1EI0FYIHYB
+      referralUrl: https://www.referyourchasecard.com/226y/1EI0FYIHYB
   historicalOffers:
     - spend: 5000
       amount:
@@ -2553,13 +2603,13 @@
       days: 90
       expiration: 2026-07-01
       credits: []
-      referralUrl: https://www.referyourchasecard.com/226m/1EI0FYIHYB
+      referralUrl: https://www.referyourchasecard.com/226y/1EI0FYIHYB
     - spend: 4000
       amount:
         - amount: 20000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/226m/1EI0FYIHYB
+      referralUrl: https://www.referyourchasecard.com/226y/1EI0FYIHYB
   historicalOffers:
     - spend: 4000
       amount:
@@ -2594,13 +2644,13 @@
       days: 90
       expiration: 2026-07-01
       credits: []
-      referralUrl: https://www.referyourchasecard.com/226m/1EI0FYIHYB
+      referralUrl: https://www.referyourchasecard.com/226y/1EI0FYIHYB
     - spend: 4000
       amount:
         - amount: 30000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/226m/1EI0FYIHYB
+      referralUrl: https://www.referyourchasecard.com/226y/1EI0FYIHYB
   historicalOffers:
     - spend: 4000
       amount:
@@ -2634,7 +2684,7 @@
         - amount: 60000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/226m/1EI0FYIHYB
+      referralUrl: https://www.referyourchasecard.com/226y/1EI0FYIHYB
   historicalOffers:
     - spend: 3000
       amount:
@@ -2673,13 +2723,13 @@
       days: 90
       expiration: 2026-07-01
       credits: []
-      referralUrl: https://www.referyourchasecard.com/226m/1EI0FYIHYB
+      referralUrl: https://www.referyourchasecard.com/226y/1EI0FYIHYB
     - spend: 3000
       amount:
         - amount: 40000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/226m/1EI0FYIHYB
+      referralUrl: https://www.referyourchasecard.com/226y/1EI0FYIHYB
   historicalOffers:
     - spend: 4000
       amount:
@@ -2727,7 +2777,7 @@
         - amount: 100000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/215r/OPTN75PXFL
+      referralUrl: https://www.referyourchasecard.com/215s/OPTN75PXFL
   historicalOffers:
     - spend: 5000
       amount:
@@ -2775,7 +2825,7 @@
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/215r/OPTN75PXFL
+      referralUrl: https://www.referyourchasecard.com/215s/OPTN75PXFL
   historicalOffers:
     - spend: 5000
       amount:
@@ -2835,7 +2885,7 @@
         - amount: 100000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/215r/OPTN75PXFL
+      referralUrl: https://www.referyourchasecard.com/215s/OPTN75PXFL
   historicalOffers:
     - spend: 5000
       amount:
@@ -2894,7 +2944,7 @@
         - amount: 85000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/215r/OPTN75PXFL
+      referralUrl: https://www.referyourchasecard.com/215s/OPTN75PXFL
   historicalOffers:
     - spend: 3000
       amount:
@@ -2926,7 +2976,7 @@
         - amount: 30000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/215r/OPTN75PXFL
+      referralUrl: https://www.referyourchasecard.com/215s/OPTN75PXFL
   historicalOffers:
     - spend: 1000
       amount:
@@ -2975,7 +3025,7 @@
         - amount: 80000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/215r/OPTN75PXFL
+      referralUrl: https://www.referyourchasecard.com/215s/OPTN75PXFL
   historicalOffers:
     - spend: 4000
       amount:
@@ -3014,7 +3064,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
+      referralUrl: https://www.referyourchasecard.com/21f/IJOK5J9BKQ
   historicalOffers:
     - spend: 6000
       amount:
@@ -3040,13 +3090,13 @@
         - amount: 100000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
+      referralUrl: https://www.referyourchasecard.com/21f/IJOK5J9BKQ
     - spend: 8000
       amount:
         - amount: 90000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
+      referralUrl: https://www.referyourchasecard.com/21f/IJOK5J9BKQ
   historicalOffers:
     - spend: 8000
       amount:
@@ -3072,7 +3122,7 @@
         - amount: 75000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
+      referralUrl: https://www.referyourchasecard.com/21f/IJOK5J9BKQ
   historicalOffers:
     - spend: 6000
       amount:
@@ -3101,7 +3151,7 @@
           currency: USD
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
+      referralUrl: https://www.referyourchasecard.com/21f/IJOK5J9BKQ
   historicalOffers:
     - spend: 10000
       amount:
@@ -3123,12 +3173,25 @@
   imageUrl: /images/chase/ihg-rewards-premier.jpg
   credits: []
   offers:
+    - spend: 6000
+      amount:
+        - amount: 185000
+      days: 180
+      credits: []
+      details: 150k @ $3k/90d, +35k @ $6k total/180d.
+    - spend: 3000
+      amount:
+        - amount: 150000
+      days: 90
+      credits: []
+      details: 150k @ $3k/90d, +35k @ $6k total/180d.
+  historicalOffers:
     - spend: 3000
       amount:
         - amount: 140000
       days: 90
+      expiration: 2026-06-07
       credits: []
-  historicalOffers:
     - spend: 3000
       amount:
         - amount: 175000
@@ -3196,12 +3259,25 @@
   imageUrl: /images/chase/ihg-rewards-traveler.jpeg
   credits: []
   offers:
+    - spend: 4000
+      amount:
+        - amount: 125000
+      days: 180
+      credits: []
+      details: 90k @ $2k/90d, +35k @ $4k total/180d.
+    - spend: 2000
+      amount:
+        - amount: 90000
+      days: 90
+      credits: []
+      details: 90k @ $2k/90d, +35k @ $4k total/180d.
+  historicalOffers:
     - spend: 2000
       amount:
         - amount: 80000
       days: 90
+      expiration: 2026-06-07
       credits: []
-  historicalOffers:
     - spend: 2000
       amount:
         - amount: 90000
@@ -3354,7 +3430,7 @@
         - amount: 150000
       days: 90
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
+      referralUrl: https://www.referyourchasecard.com/21f/IJOK5J9BKQ
   historicalOffers:
     - spend: 30000
       amount:
@@ -3362,13 +3438,13 @@
       days: 180
       expiration: 2026-03-21
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
+      referralUrl: https://www.referyourchasecard.com/21f/IJOK5J9BKQ
     - spend: 30000
       amount:
         - amount: 200000
       days: 180
       credits: []
-      referralUrl: https://www.referyourchasecard.com/21e/5NV9F12UAS
+      referralUrl: https://www.referyourchasecard.com/21f/IJOK5J9BKQ
   discontinued: false
 - cardId: dcafcac45d86331a7f6b9cfdb980b81e
   name: Aer Lingus Signature
